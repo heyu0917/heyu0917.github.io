@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft Yahei";
+	color: #333;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+label{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul li,
+ol li{
+	list-style: none;
+}
+input,img,textarea,button{
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-appearance: none;
+}
+button{
+	background: none;
+	outline: none;
+}
+b{
+	font-weight: normal;
+}
+u{
+	text-decoration: none;
+}
+em,i{
+	font-style: normal;
+}
+.fl-lt{
+	float: left;
+}
+.fl-rt{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.y-row{
+	width: 1200px;
+	margin: 0 auto;
+}
+.img-block{
+	width: 100%;
+	display: block;
+}
+
+/*引入字体*/
+@font-face {
+	font-family: didot;
+	src: url(../font/Didot.ttf);
+}
+
+
+/*header*/
+.header{
+	height: 100px;
+	position: fixed;
+	z-index: 33;
+	background: #fff;
+	width: 100%;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #efefef;
+	color: #15c37c;
+}
+.header .fl-lt{
+	padding-top: 29px;
+	margin-left: 10px;
+}
+.header .fl-lt p{
+	color: #009fe9;
+    font-size: 32px;
+    z-index: 32;
+    font-weight: bold;
+}
+.header .fl-lt p span{
+	color: #4b4b4b;
+	font-weight: normal;
+}
+.header ul {
+	padding-top: 30px;
+}
+.header ul li{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100px;
+	margin-left: 80px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 20px;
+}
+.header ul li a{
+	display: block;
+	height: 100%;
+}
+.header ul li:hover,
+.header ul li.active{
+	background: #009fe9;
+}
+.header ul li:hover a,
+.header ul li.active a{
+	color: #fff;
+}
+
+.content{
+	background: #fff;
+	padding-top: 60px;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+/*公共返回顶部*/
+.backTop{
+	position: fixed;
+	bottom: 200px;
+	right: 3%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #009fe9;
+	cursor: pointer;
+	display: none;
+}
+.backTop img{
+	display: block;
+    margin: 5px auto;
+    width: 25px;
+    height: 25px;
+}
+.backTop:hover{
+	opacity: 0.9;
+}
+
+
