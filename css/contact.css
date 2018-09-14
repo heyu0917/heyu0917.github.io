@@ -38,5 +38,7 @@ html,body{
 	vertical-align: middle;
 	color: #666;
 }
-
+.banner .item ul li a{
+	color: #0000ee;
+}
 
