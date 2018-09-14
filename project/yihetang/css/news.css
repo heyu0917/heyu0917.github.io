@@ -1,0 +1,237 @@
+/*新闻列表*/
+.news .part1{
+	position: relative;
+}
+.news .part1 .ab-img1{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: -1;
+    width: 200px;
+}
+.news .part1 .ab-img2{
+    position: absolute;
+    right: 0;
+    top: -50px;
+    z-index: -1;
+    width: 300px;
+}
+.news .title{
+	text-align: center;
+	font-size: 32px;
+	text-align: center;
+	font-family: "宋体";
+	width: 90%;
+	margin: 0 auto 60px;
+	overflow: hidden;
+	height: 40px;
+}
+.news .list1{
+	margin-bottom: 30px;
+}
+.news .list1 li{
+	float: left;
+	width: 300px;
+	margin-right: 27px;
+	border: 1px solid #000;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	height: 395px;
+}
+.news .list1 li:nth-child(3n){
+	margin-right: 0;
+}
+.news .list1 li img{
+	height: 258px;
+}
+.news .list1 li .p1{
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 10px;
+    padding: 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 26px;
+}
+.news .list1 li .p2{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 0 20px;
+	margin-top: 10px;
+	height: 42px;
+}
+.news .list1 li .date{
+	font-size: 13px;
+	color: #878787;
+	text-align: right;
+	margin-top: 15px;
+	padding: 0 20px;
+}
+
+/*新闻详情*/
+.detail{
+	width: 100%;
+	margin: 0 auto;
+}
+.detail .part1{
+	text-align: center;
+}
+.detail .part1 h3{
+	font-size: 24px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 10px 10px;
+	border-bottom: 1px solid #999;
+}
+.detail .part1 .box{
+	font-size: 13px;
+	margin-top: 6px;
+	color: #888;
+}
+.detail .part1 .box span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 8px;
+}
+.detail .part1 .box .s-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+.detail .part2{
+	margin-top: 40px;
+	font-size: 0;
+}
+.detail .part2 p{
+	font-size: 14px;
+	text-indent: 26px;
+	margin-bottom: 12px;
+	line-height: 22px;
+}
+.detail .part2 img{
+	display: block;
+	max-width: 100%;
+	margin: 20px auto 0;
+}
+
+.detail .ab-bottom{
+	margin-top: 50px;
+	z-index: 2;
+}
+.detail .ab-bottom{
+	position: relative;
+}
+.detail .ab-bottom .back{
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 100px;
+	margin-left: -60px;
+	text-align: center;
+}
+.detail .ab-bottom .list1{
+    margin-bottom: 15px;
+}
+.detail .ab-bottom .list1 li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 28px;
+    width: 400px;
+    float: left;
+}
+.detail .ab-bottom .list1 li:nth-child(2){
+	float: right;
+	text-align: right;
+}
+.detail .ab-bottom .list1 li a{
+	display: block;
+	color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .ab-bottom .list1 li a:hover{
+	color: #3058d8;
+}
+.detail .ab-bottom .keyword span{
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.detail .ab-bottom .keyword a{
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px 8px;
+    border: 1px solid #999;
+    margin: 0 6px;
+}
+.detail .ab-bottom .keyword a.on{
+    color: #fff;
+    background: #1D2087;
+    border-color: #1D2087;
+}
+
+.detail .ab-bottom .item{
+    width: 100%;
+    border: 2px solid #B7D4D0;
+    position: relative;
+    padding: 30px 30px 15px 35px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+}
+.detail .ab-bottom .item .title{
+    font-size: 16px;
+    color: #fff;
+    width: 90px;
+    background: #B7D4D0;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: -16px;
+    line-height: 30px;
+    margin-left: -45px;
+}
+.detail .ab-bottom .item li{
+    line-height: 34px;
+    font-size: 14px;
+    position: relative;
+}
+.detail .ab-bottom .item li a{
+	display: block;
+	height: 100%;
+}
+.detail .ab-bottom .item ul li a:hover{
+	color: #3058d8;
+}
+.detail .ab-bottom .item li a p{
+	width: 100%;
+	padding-right: 100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .ab-bottom .item li a .date{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	text-align: right;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+
+
+

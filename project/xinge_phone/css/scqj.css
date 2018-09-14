@@ -1,0 +1,56 @@
+.content{
+/*	background: rgba(255,255,255,.9);*/
+}
+.main{
+	padding: 0 .3rem;
+}
+
+.main-nav{
+	padding: .2rem .56rem 0 .56rem;
+}
+.main-nav li{
+	width: 47%;
+}
+.main-nav li:nth-child(2){
+	float: right;
+}
+
+/*市场潜力*/
+.scql .part3{
+	margin-top: .3rem;
+	margin-bottom: .54rem;
+}
+.scql .part3 img{
+	width: 100%;
+	display: block;
+}
+.scql .part4{
+	font-size: .3rem;
+	font-weight: normal;
+}
+.scql .part4 p{
+	text-indent: .4rem;
+	margin-top: -.2rem;
+}
+
+/*需求洞察*/
+.xqdc .part3{
+	padding: .2rem 0;
+}
+.xqdc .part3 img{
+	width: 100%;
+	display: block;
+	margin: .1rem 0;
+}
+.xqdc .part3 p{
+	text-indent: .4rem;
+/*	font-size: .22rem;*/
+font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+}

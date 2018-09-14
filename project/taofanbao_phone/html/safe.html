@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/safe.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+		<div class="safe">
+			<header>
+				<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+			      <img src="../img/back.png" alt="" />
+			    </a>
+			    <h1>账户与安全</h1>
+			</header>
+			<div class="safe-con">
+				<ul class="safe-list">
+					<li>
+						<a href="reset.html?flag1">
+							<span class="fl-lt">修改登录密码</span>
+							<img src="../img/arrow_r.png" alt="" class="fl-rt"/>
+						</a>
+					</li>
+					<li>
+						<a href="reset.html?flag2">
+							<span class="fl-lt">修改积分支付密码</span>
+							<img src="../img/arrow_r.png" alt="" class="fl-rt"/>
+						</a>
+					</li>
+				</ul>
+				<div class="safe-prompt">
+					<span class="fl-lt">安全Tips</span>
+					<img src="../img/arrow_r.png" alt="" class="fl-rt"/>
+				</div>
+			</div>
+		</div>
+				
+		<!--安全Tips popup-->
+		<div class="safeTips-popup">
+			<header>
+				<div class="left-img-box" id="safe_back">
+			      <img src="../img/back.png" alt="" />
+			    </div>
+				 <h1>安全Tips</h1>
+			</header>
+			<div class="safeTips-con">
+				<div class="comWidth">
+					<div class="safeTips-item">
+						<h2>一、设置密码</h2>
+						<p>密码的设置要做到复杂又好记。请尽量使用数字和字母的组合，以 免被轻易破解；请避免与生日、车牌号等个人信息相同，以免被轻 易猜到</p>
+					</div>
+					<div class="safeTips-item">
+						<h2>二、密码保存</h2>
+						<p>请勿将密码保存在手机中，也请勿轻易向人透露自己的密码，定期 修改密码，是一种好习惯。</p>
+					</div>
+					<div class="safeTips-item">
+						<h2>三、联系客服</h2>
+						<p>当您发现手机丢失或者账号被盗，可立即拨打客服电话。</p>
+					</div>
+				</div>
+				<a class="big-button" href="tel:4006467868"><span>客服电话</span><span>400-646-7868</span></a>
+			</div>
+		</div>
+		
+		<script>
+			$(function(){
+				$('.safe-prompt').tap(function(){
+					$('.safe').css('left','-100%');
+					$('.safeTips-popup').css('left','0');
+				})
+				
+				$('#safe_back').tap(function(){
+					$('.safe').css('left','0');
+					$('.safeTips-popup').css('left','100%');
+				})				
+			})
+		</script>
+
+	</body>
+</html>

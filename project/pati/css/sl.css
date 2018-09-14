@@ -1,0 +1,306 @@
+/*sl1--趴蹄创始人*/
+
+.sl1{
+	margin-bottom: -70px;
+}
+.sl1 .title{
+	width: 1050px;
+	margin:0 auto;
+	color:#aa0005;
+	position:relative;
+	height: 1202px;
+}
+.sl1 .title .the{
+	font-size: 274px;
+	font-family: "宋体";
+	text-transform: uppercase;
+}
+.sl1 .title .foun{
+	font-size: 137px;
+    font-family: "宋体";
+    text-indent: 3.1em;
+    margin-top: -81px;
+	text-transform: uppercase;
+}
+.sl1 .title .a1-img{
+	position:absolute;
+	top: 16px;
+    left: 600px;
+}
+.sl1 .title .a2-img{
+	margin-top: -267px;
+    margin-left: -63px;
+}
+.sl1 .title .title3{
+	font-weight: bold;
+	font-size: 55px;
+	text-indent: 7em;
+	margin-top: -25px;
+}
+.sl1 .title .title3 span{
+	font-size: 24px;
+	background-color: #ddb16f;
+	padding: 2px 22px;
+	margin-left: 30px;
+
+}
+
+.sl1 .part{
+	width: 645px;
+	height: 762px;
+	display: inline-block;
+	position:absolute;
+	bottom: 0;
+	right:-40px;
+	color:#000;
+}
+.sl1 .part p:nth-child(1){
+	width: 640px;
+	margin:10px auto 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+.sl1 .part .line{
+	margin-top: 15px;
+	width: 100%;
+	border-bottom:2px solid #bd494d;
+}
+.sl1 .part ul{
+	margin-left: 160px;
+	margin-top: 30px;
+}
+
+.sl1 .part ul li div:nth-child(1){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ddb16f;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 5px;
+}
+.sl1 .part ul li div:nth-child(2){
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.sl1 .part ul li{
+	font-size: 16px;
+	vertical-align: middle;
+	line-height: 26px;
+}
+
+.sl1 .part ul .li1{
+	font-size: 24px;
+	font-weight: bold;
+	color:#aa0005;
+	line-height: 40px;
+}
+.sl1 .part .line2{
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	width: 90px;
+	height: 260px;
+	border-right:2px solid #aa0005;
+}
+.sl1 .part .line2 .liang{
+	writing-mode: tb-rl; 
+	font-size: 22px;
+	position:absolute;
+	top:-80px;
+	right: -16px;
+}
+.sl1 .part .line2 .liang span{
+	font-size: 20px;
+}
+.sl1 .part .line2 .liang div{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color:#aa0005;
+}
+
+/*sl2--百年渊源*/
+.sl2 .title{
+	color:#aa0005;
+	width: 100%;
+	text-align: center;
+}
+.sl2 .title p:nth-child(1){
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.sl2 .title p:nth-child(2){
+	font-size: 36px;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.sl2 ul{
+	width: 1080px;
+	margin:40px auto;
+	text-align: center;
+}
+.sl2 ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.sl2 ul li:nth-child(1){
+	width: 505px;
+	font-size: 16px;
+}
+.sl2 ul li:nth-child(1) p{
+	line-height: 26px;
+	margin-top: 24px;
+	text-indent: 2em;
+	text-align: left;
+}
+.sl2 ul li:nth-child(2){
+	width: 503px;
+	height: 476px;
+	margin-left: 55px;
+}
+
+/*sl3--企业简介*/
+.sl3 .y-row{
+	width: 1100px;
+}
+.sl3 .title{
+	color:#aa0005;
+	width: 100%;
+	text-align: center;
+}
+.sl3 .title p:nth-child(1){
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.sl3 .title p:nth-child(2){
+	font-size: 36px;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.sl3 .part1{
+	width: 1100px;
+	margin:0 auto;
+	margin-top: 50px;
+	width: 1084px;
+}
+.sl3 .part1 img{
+	height: 371px;
+}
+.sl3 .part1 p{
+
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+.sl3 .part2{
+	margin-top: 70px;
+}
+.sl3 .part2 .title2 p{
+	font-size: 36px;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+.sl3 .part2 .title2 p:nth-child(1){
+	color:#aa0005;
+}
+.sl3 .part2 .title2 p:nth-child(2){
+	color:#ddb16f;
+}
+.sl3 .part2 .title2{
+	border-bottom: 2px solid #aa0005;
+	padding-bottom: 25px;
+}
+.sl3 .part2 .c2-img{
+	display: block;
+	margin:15px auto;	
+}
+
+/*sl4--企业荣誉*/
+.sl4 .title{
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	color:#aa0005;
+	font-weight: bold;
+}
+.sl4 .title p:nth-child(2){
+	color:#ddb16f;
+}
+.sl4 .sl4-main{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+.sl4 .sl4-main ul li{
+	display:inline-block;
+	margin:20px 90px;
+}
+.sl4 .sl4-main ul .li2{
+	margin:20px 25px;
+}
+.sl4 .sl4-main ul .li-last{
+	vertical-align: middle;
+}
+
+/*sl5 --精英团队*/
+.sl5 .title{
+	width: 100%;
+	text-align: center;
+	color:#aa0005;
+}
+.sl5 .title p:nth-child(1){
+	font-size:14px;
+}
+.sl5 .title p:nth-child(2){
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.sl5 .title p:nth-child(2) span{
+	font-size: 28px;
+	display: block;
+}
+.sl5 .part{
+	width:100%;
+	text-align: center;
+}
+.sl5 .part li{
+	width: 280px;
+	height: 330px;
+	text-align: center;
+	display: inline-block;
+	margin:0 5px;
+	margin-top: 40px;
+}
+.sl5 .part li img{
+	width: 267px;
+	height: 212px;
+	border:6px solid #ddb16f;
+}
+.sl5 .part li .lis{
+	margin-top: 10px;
+}
+.sl5 .part li .lis p:nth-child(1){
+	width: 20px;
+	height: 5px;
+	background-color: #aa0005;
+	margin:5px auto;
+}
+.sl5 .part li .lis p:nth-child(2){
+	font-size: 20px;
+	font-weight: bold;
+	color:#aa0005;
+	line-height: 28px;
+}
+.sl5 .part li .lis p:nth-child(3){
+	font-size: 16px;
+	line-height: 24px;
+	width: 240px;
+    margin: 0 auto;
+}
+
+

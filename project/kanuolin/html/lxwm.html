@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/lxwm.css">	
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+</head>
+<body>
+	<!--公共头部-->
+	<header class="clearfix" style="background: url(../img/head1.jpg) center center no-repeat;">
+		<div class="fl-lt">
+			<img src="../img/logo.png" alt="" class="img1 fl-lt"/>	
+			<span>俄式谷物果昔手作冰淇淋</span>
+		</div>
+		<div class="nav-wrapper fl-rt">
+			<ul>                                                                                                   
+				<li><a href="index.html">首页</a></li>
+				<li><a href="zapp.html">臻爱品牌</a></li>
+				<li><a href="yjqw.html">遇见趣闻</a></li>
+				<li><a href="tmss.html">甜蜜膳食</a></li>
+				<li><a href="lmsh.html">浪漫生活</a></li>
+				<li><a href="xgcq.html">星工传奇</a></li>
+				<li><a href="hzfc.html">合作扶持</a></li>
+				<li><a href="dxmx.html">店型美学</a></li>
+				<li class="on"><a href="lxwm.html">联系我们</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<div id="container" data-PageSwitch>
+		<div class="sections">
+			<div class="section section1 active" id="section0">
+				<div class="con clearfix">
+					<div class="fl-lt left">
+						<div class="map" id="map1"></div>
+						<div class="map" id="map2"></div>
+						<div class="map" id="map3"></div>
+					</div>
+					<div class="fl-lt right">
+						<img src="../img/logo3.png" alt="" class="img1"/>
+						<p class="p1">广州万德福餐饮管理有限公司</p>
+						<p class="p2">财富热线：400-1080-053</p>
+						<div class="item">
+							<p class="p3"><span>广州（华南）运营总部：</span>
+							<br />广州市白云区粤溪北路98号财汇信息科技产业园A栋10楼1001
+							<br />020- 35916999   /  020- 35916998  </p>
+							<p class="p3"><span>上海（华东）运营中心：</span>
+							<br />上海市松江区九亭镇九泾路655号嘉南红塔广场5号楼11层、12层
+							<br />电话：（待定）</p>
+							<p class="p3"><span>成都（西南）运营中心：</span>
+							<br />成都市锦江区提督街1号雄飞中心26楼
+							<br />电话：028-82081666</p>
+						</div>
+						<ul class="list1">
+							<li class="on">广州运营总部</li>
+							<li>上海运营中心</li>
+							<li>成都运营中心</li>
+						</ul>
+						<div class="msg">
+							<did class="input-wrap">
+								<input type="text" placeholder="姓 名 / Name"/>
+								<input type="text" placeholder="电 话 / Telephone"/>
+							</did>
+							<div class="text-wrap">
+								<textarea placeholder="留 言 / Message"></textarea>
+								<div class="submit">确认留言</div>
+							</div>
+						</div>
+					</div>
+					<div class="bottom">@广州万德福餐饮管理有限公司</div>
+				</div>
+			</div>
+			
+			<div class="section section2 mask-section" id="section1">
+				<div class="con">
+					<div class="footer" style="background: url(../img/foot1.jpg) center 100% no-repeat;">
+						<div class="y-row">
+							<div class="top">
+								<div class="link">
+									<span>友情链接：</span>
+									<a href="">若邻广告</a>
+									<a href="">卡诺琳</a>
+									<a href="">若邻广告</a>
+									<a href="">卡诺琳</a>
+									<a href="">若邻广告</a>
+									<a href="">卡诺琳</a>
+									<a href="">若邻广告</a>
+									<a href="">卡诺琳</a>
+								</div>
+								<a href="" class="map">网站地图</a>
+							</div>
+							<div class="box clearfix">
+								<img src="../img/logo2.png" alt="" class="img1 fl-lt"/>
+								<div class="middle fl-lt">
+									<p>广州万德福餐饮管理有限公司
+									<br />地址：广州市白云区粤溪北路98号财汇信息科技产业园A栋10楼1001
+									<br />全国服务热线：400-1080-053
+									<br />Copyright © 2017-2020 版权所有 京ICP备15066852号
+									<br />全案策划：若邻     www.ruolinchina.com</p>
+								</div>
+								<img src="../img/erweima.jpg" alt="" class="img2 fl-rt"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+			
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+	<!--全屏滚动-->
+	<script type="text/javascript" src="../js/pageswitch.js"></script>
+	<script>
+		$("#container").PageSwitch({
+			//'loop':true,
+		});
+
+	</script>
+	<script type="text/javascript">
+		var map = new BMap.Map("map1");    // 创建Map实例
+	    // 初始化地图,设置中心点坐标和地图级别 23.1710480000,113.2478040000
+	    var point = new BMap.Point(113.247804,23.171048);
+	    map.centerAndZoom(point, 19);
+	    var marker = new BMap.Marker(point); // 创建标注
+	    map.addOverlay(marker); // 将标注添加到地图中
+	    map.panTo(point);
+	    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+	    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放   
+	    
+	    var map = new BMap.Map("map2");    // 创建Map实例
+	    // 初始化地图,设置中心点坐标和地图级别 31.1449210000,121.2995230000
+	    var point2 = new BMap.Point(121.299523,31.144921);
+	    map.centerAndZoom(point2, 18);
+	    var marker2 = new BMap.Marker(point2); // 创建标注
+	    map.addOverlay(marker2); // 将标注添加到地图中
+	    map.panTo(point2);
+	    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+	    map.enableScrollWheelZoom(true);    //开启鼠标滚轮缩放
+	    
+	    var map = new BMap.Map("map3");    // 创建Map实例
+	    // 初始化地图,设置中心点坐标和地图级别 30.6659360000,104.0824930000
+	    var point3 = new BMap.Point(104.082493,30.665936);
+	    map.centerAndZoom(point3, 18);
+	    var marker3 = new BMap.Marker(point3); // 创建标注
+	    map.addOverlay(marker3); // 将标注添加到地图中
+	    map.panTo(point3);
+	    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+	    map.enableScrollWheelZoom(true);    //开启鼠标滚轮缩放
+	    
+	    $(function(){
+	    	$('.list1 li').click(function(){
+	    		$(this).addClass('on').siblings().removeClass('on');
+	    		
+	    		var index = $(this).index();
+	    		$('.item p').eq(index).show().siblings().hide();
+	    		$('.left .map').eq(index).css({'opacity':1,'z-index':'22'}).siblings().css({'opacity':0,'z-index':'-1'})
+	    	})
+	    })
+		
+	</script>
+
+
+</body>
+</html>

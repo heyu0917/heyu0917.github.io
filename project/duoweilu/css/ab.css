@@ -1,0 +1,9 @@
+.box{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.box img{
+	display: block;
+	width: 100%;
+}

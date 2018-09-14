@@ -1,0 +1,344 @@
+/*ys1--健康产品*/
+html, body{
+	height: 100%;
+	overflow: auto;
+}
+.main{
+	position:relative;
+}
+.ys1{
+	margin-bottom:6px;
+}
+.ys1 .title{
+	width: 100%;
+	text-align: center;
+}
+.ys1 .title .p1{
+    font-size: 40px;
+    color: #666;
+    position: relative;
+    top: -70px;
+    left: -25px;
+}
+.ys1 .title .line1{
+    width: 315px;
+    height: 1px;
+    background-color: #6e82c9;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 250px;
+}
+.ys1 .title .line2{
+    width: 185px;
+    height: 1px;
+    background-color: #6e82c9;
+    margin-top: 10px;
+    margin-left: 550px;
+}
+.ys1 .title .p2{
+	font-size: 16px;
+	color:#494949;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.ys1 .part{
+	text-align:center;
+}
+.ys1 .part ul{
+	display: inline-block;
+}
+.ys1 .part ul li{
+	width: 375px;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 35px 40px 20px;
+}
+.ys1 .part ul li .p1{
+	font-size: 18px;
+	color:#515252;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.ys1 .part ul li .p2{
+	font-size: 14px;
+    color: #727171;
+    width: 90%;
+    margin:15px auto;
+    line-height: 24px;
+}
+.ys1 .part ul .line{
+	width: 90%;
+	height: 1px;
+	background-color: #e3e2e2;
+	margin:0 auto;
+}
+.ys1 .ys1-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ys1 .ys1-img .left-img{
+	left: 0;
+	top: 14%;
+}
+.ys1 .ys1-img .right-img{
+	right: 0;
+	top: 55%;
+}
+
+/*ys2--精英团队*/
+.ys2{
+	margin-bottom: 40px;
+}
+.ys2 .title{
+	width: 100%;
+	text-align: center;
+}
+.ys2 .title .p1{
+	font-size: 40px;
+	color:#666;
+}
+.ys2 .title .line{
+	height: 1px;
+	background-color: #c1c2fe;
+	margin:0 auto;
+	position:relative;
+}
+.ys2 .title .line1{
+	width: 180px;
+	
+	left: 290px;
+    top: 10px;
+}
+.ys2 .title .line2{
+	width: 440px;
+    left: -260px;
+    top: 17px;
+}
+.ys2 .title .line3{
+	width: 590px;
+    left: 140px;
+    top: 25px;
+}
+.ys2 .title .line4{
+	width: 65px;
+    left: -320px;
+    top: 30px;
+}
+.ys2 .part1{
+	text-align: center;
+	margin-top: 80px;
+}
+.ys2 .part1 .part1-main{
+	width: 1040px;
+	margin:0 auto;
+	margin-top: -165px;
+	position:relative;
+	z-index: 2;
+}
+.ys2 .part1 .part1-main .main-a{
+	width: 225px;
+	height: 160px;
+	text-align: center;
+	padding-top: 20px;
+	box-sizing: border-box;
+	margin: 0px 17px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+.ys2 .part1 .part1-main .main-a p{
+	font-size: 14px;
+	color:#727171;
+	width: 90%;
+	margin:10px auto;
+	line-height: 22px;
+}
+.ys2 .part2{
+	margin-top: 30px;
+}
+.ys2 .part2 .part2-main .main-l, 
+.ys2 .part2 .part2-main .main-r{
+	display: inline-block;
+	margin:0 15px;
+	width: 485px;
+	height: 300px;
+} 
+.ys2 .part2 .part2-main .main-img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.ys2 .ys2-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ys2 .ys2-img .left-img{
+	left: 0;
+	top: 15%;
+}
+.ys2 .ys2-img .right-img{
+	right: 0;
+	top: 40%;
+}
+
+
+/*.ys3--新款仪器*/
+.ys3 .title{
+	width: 100%;
+	text-align: center;
+}
+.ys3 .title .p1{
+	text-transform: uppercase;
+	font-size: 16px;
+	color:#666;
+	position:relative;
+	top: -65px;
+    left: -20px;
+}
+.ys3 .title .p2{
+	font-size: 16px;
+	color:#494949;
+}
+.ys3 .part1{
+	text-align: center;
+	margin-top: 50px;
+}
+.ys3 .part1 ul li{
+	width: 260px;
+	text-align: center;
+	font-size: 18px;
+	color:#515252;
+	display: inline-block;
+	margin: 10px 10px;
+	vertical-align: top;
+}
+.ys3 .part1 .ul2 li p{
+	font-size: 14px;
+	color:#727171;
+	line-height: 22px;
+    width: 90%;
+    margin: 0 auto;
+	margin-top: 10px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.ys3 .part1 .ul2{
+	display: inline-block;
+	border-bottom: 1px solid #c8c5c4;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+.ys3 .part2{
+	margin-top: 15px;
+}
+.ys3 .part2 .ul2{
+	border:none;
+}
+.ys3 .ys3-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ys3 .ys3-img .left-img{
+	left: 0;
+	top: 5%;
+}
+.ys3 .ys3-img .right-img{
+	right: 0;
+	top: 70%;
+}
+
+/*ys4--专业技术*/
+.ys4{
+	margin-bottom:50px;
+}
+.ys4 .title{
+	width: 100%;
+	text-align: center;
+}
+.ys4 .title .p1{
+	font-size: 40px;
+	color:#666;
+    margin-top: -70px;
+    margin-left: 70px;
+
+}
+.ys4 .title .p2{
+	font-size: 16px;
+	color:#494949;
+	margin-top: 20px;
+} 
+.ys4 .part{
+	text-align: center;
+	margin-top: 60px;
+}
+.ys4 .part .part-l,
+.ys4 .part .part-r{
+	width: 390px;
+	height: 470px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 25px;
+}
+.ys4 .part .part-img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.ys4 .part .part-l p{
+	width: 87%;
+    margin: 0 auto;
+	font-size: 14px;
+	color:#666;
+	margin-top: 20px;
+	line-height: 24px;
+}
+.ys4 .part .part-r p{
+	font-size: 18px;
+	color:#666;
+	line-height: 30px;
+}
+
+.ys4 .ys4-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ys4 .ys4-img .left-img{
+	left: 0;
+	top: 25%;
+}
+.ys4 .ys4-img .right-img{
+	right: 0;
+	top: 55%;
+}
+
+@media (max-width:1444px) {
+	.ys1 .ys1-img .left-img,
+	.ys2 .ys2-img .left-img,
+	.ys3 .ys3-img .left-img,
+	.ys4 .ys4-img .left-img{
+		left: -80px;
+	}
+	.ys1 .ys1-img .right-img,
+	.ys2 .ys2-img .right-img,
+	.ys3 .ys3-img .right-img,
+	.ys4 .ys4-img .right-img{
+		right: -80px;
+	}
+}
+@media (max-width:1300px) {
+	.ys1 .ys1-img .left-img,
+	.ys2 .ys2-img .left-img,
+	.ys3 .ys3-img .left-img,
+	.ys4 .ys4-img .left-img{
+		left: -100px;
+	}
+	.ys1 .ys1-img .right-img,
+	.ys2 .ys2-img .right-img,
+	.ys3 .ys3-img .right-img,
+	.ys4 .ys4-img .right-img{
+		right: -100px;
+	}
+}

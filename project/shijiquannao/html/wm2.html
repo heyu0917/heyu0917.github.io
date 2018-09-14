@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/wm.css">
+	    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-l">
+				<div class="header-img">
+					<img src="../img/logo.png" alt="" />
+				</div>
+				<div class="logo-fonts">全脑教育承诺式服务品牌</div>
+			</div>
+			<div class="nav">
+				<ul class="clearfix">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="qn1.html">世纪全脑 </a></li>
+					<li><a href="sl1.html">承诺实力</a></li>
+					<li><a href="kc1.html">特色课程</a></li>
+					<li><a href="pp1.html">品牌快讯</a></li>
+					<li><a href="mx1.html">明星师生</a></li>
+					<li><a href="hz1.html">合作共赢</a></li>
+					<li><a href="xy1.html">商学院</a></li>
+					<li class="active"><a href="wm1.html">加入我们</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="content-nav">
+				<div class="nav-title">
+					<p class="p1">加入我们</p>
+					<p class="nav-line"></p>
+					<p class="p2">Join us</p>
+				</div>
+				<ul>
+					<li><a href="wm1.html">招贤纳士</a></li>
+					<li class="active"><a href="wm2.html">我要合作</a></li>
+				</ul>
+				<a class="back" href="javascript:void(0)" onClick="javascript:history.back(-1)"><img src="../img/back.png" alt="" /></a>
+			</div>
+			
+			<div class="wrapper">
+				<div class="main wm2 clearfix">
+					<div class="part1">
+						<div class="top">
+							<p class="p1">携手世纪全脑<br />登顶财富之巅</p>
+							<p class="p2">The top of the <br />top wealth</p>
+							<div class="box">
+								<p class="p3">合作请直接拨打<strong>咨询热线：</strong></p>
+								<p class="p4"> 400- 0000- 000</p>
+								<p class="p5">世纪全脑品牌运营管理总部 丨 广州世纪全脑教育科技有限公司</p>
+							</div>
+						</div>
+						<div class="middle">
+							<div class="fl-lt">
+								<img src="../img/wm/b1.jpg" alt="" class="img1"/>
+								<div class="box">
+									<p class="p1">感谢您对世纪全脑的关注，<br />填写信息可免费获取更多项目资料。</p>
+									<input type="text" placeholder="姓名"/>
+									<input type="text" placeholder="电话"/>
+									<textarea placeholder="留言"></textarea>
+									<div class="submit clearfix">
+										<div class="fl-lt">提交</div>
+										<div class="fl-rt" id="reset">重置</div>
+									</div>
+								</div>
+							</div>
+							<div class="fl-rt" id="map"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="footer">
+			<p class="p1">咨询热线：400- xxxx- xxx    <span>/</span>    全脑开发，全方位提升素质学习能力！</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    // 初始化地图,设置中心点坐标和地图级别  39.9019186638,116.3246425670
+		    var point1 = new BMap.Point(116.3246425670,39.9019186638);
+		    map.centerAndZoom(point1, 17);
+		    var marker1 = new BMap.Marker(point1); // 创建标注
+		    map.addOverlay(marker1); // 将标注添加到地图中
+		    map.panTo(point1);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+		    
+		    $('#reset').click(function(){
+		    	$('.wm2 input,.wm2 textarea').val('');
+		    })
+		</script>
+
+	</body>
+</html>

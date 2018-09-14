@@ -1,0 +1,245 @@
+.comWidth2{
+	padding: 0 .4rem;
+}
+.comline{
+	width: 100%;
+	height: .16rem;
+	margin-top: .5rem;
+	background: #d7bc9a;
+	background: -webkit-gradient(linear,left top,right top,from(#ae8565),color-stop(0.35,#dfc4a4),to(#ae8565));
+	background: -moz-linear-gradient(left,#ae8565,#dfc4a4 0.35,#ae8565);
+}
+.content{
+	overflow: hidden;
+}
+
+.four .part0{
+	height: 1.96rem;
+}
+.four .bottom{
+	margin-top: .5rem;
+}
+.four .anchor{
+	position: absolute;
+	bottom: 1.96rem;
+	left: 0;
+	width: 100%;
+}
+.four .part{
+	position: relative;
+}
+
+.four .title{
+	position: relative;
+	margin-top: .5rem;
+	margin-bottom: .4rem;
+}
+.four .title .border1{
+	position: absolute;
+	top: 4px;
+	left: 50%;
+	width: 4.2rem;
+	height: 20px;
+	margin-left: -2.1rem;	
+	border: 1px solid #b89e7b;
+	box-sizing: border-box;
+}
+.four .title .border2{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 3.9rem;
+	height: 28px;
+	margin-left: -1.95rem;	
+	border: 1px solid #b89e7b;
+	box-sizing: border-box;
+}
+.four .title p{
+	font-size: .26rem;
+	text-align: center;
+	line-height: 28px;
+	color: #B89E7B;
+}
+
+.four .linkpc{
+	width: 80%;
+	height: .46rem;
+	line-height: .46rem;
+	border: 1px solid #999;
+	font-size: .24rem;
+	text-align: center;
+	margin: .24rem auto;
+	color: #666;
+	display: none;
+}
+
+
+.four .part1 .item1{
+	margin-top: .32rem;
+	padding: 0 .32rem;
+}
+.four .part1 .box div{
+	width: 48%;
+	float: left;
+	height: .46rem;
+	line-height: .46rem;
+	text-align: center;
+	background: #B28E77;
+	color: #fff;
+	font-size: .24rem;
+	margin-bottom: .2rem;
+}
+.four .part1 .box div:nth-child(even){
+	float: right;
+}
+.four .part1 .box div:nth-child(4n),
+.four .part1 .box div:nth-child(4n-1){
+	background: #354025;
+}
+
+
+.four .part2 .item1{
+	padding: 0 .32rem;
+}
+.four .part2 .box{
+	margin-top: .44rem;
+}
+.four .part2 .top img{
+	width: .9rem;
+	display: block;
+	margin: 0 auto -.08rem;
+	position: relative;
+	z-index: -1;
+}
+.four .part2 .top p{
+	width: 2.8rem;
+	padding: .12rem 0;
+	text-align: center;
+	color: #fff;
+	font-size: .24rem;
+	font-weight: bold;
+	background: #343E23;
+	margin: 0 auto;
+}
+.four .part2 ul{
+	padding: .24rem .4rem 0;
+	border: 1px solid #b18d77;
+}
+.four .part2 ul li{
+	width: 47%;
+	float: left;
+	margin-bottom: .32rem;
+	text-align: center;
+}
+.four .part2 ul li:nth-child(even){
+	float: right;
+}
+.four .part2 ul li img{
+	display: block;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	width: 100%;
+	height: 2.16rem;
+}
+.four .part2 ul li p{
+	overflow: hidden;
+	color: #b18d77;
+	line-height: .56rem;
+	height: .56rem;
+}
+
+
+.four .part3 .item1{
+	padding: 0 .32rem;
+}
+.four .part3 ul li{
+	height: 6rem;
+	width: 48.5%;
+	float: left;
+	background: #B28E77;
+	color: #fff;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+	margin-bottom: .24rem;
+	overflow: hidden;
+}
+.four .part3 ul li:nth-child(even){
+	float: right;
+}
+.four .part3 ul li .p1{
+	text-align: center;
+	font-size: .3rem;
+	font-weight: bold;
+	color: #354025;
+	line-height: .6rem;
+	height: .6rem;
+	overflow: hidden;
+}
+.four .part3 ul li .p2{
+	line-height: .4rem;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	margin-top: -.08rem;
+}
+.four .part4 .items{
+	padding:0 0.32rem;
+	box-sizing: border-box;	
+}
+.four .part4 .items ul li{
+	float:left;
+	width: 48%;
+	margin-right: 4%;
+	margin-top: 0.4rem;
+}
+.four .part4 .items ul li:nth-child(2n){
+	margin-right: 0;
+}
+.four .part4 .items ul li .li-img{
+	width: 100%;
+}
+.four .part4 .items ul li .li-img img{
+	display: block;
+	width: 100%;
+}
+.four .part4 .items ul li .li-p{
+	font-size: 0.24rem;
+	font-weight: bold;
+	width: 100%;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	background-color: #a0806c;
+	color:#fff;
+}
+.four .part4 .items ul li .li-fonts{
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	line-height: 0.44rem;
+	margin-top: -0.2rem;
+}
+
+
+
+@media (max-width: 350px) {
+	.four .part3 ul li{
+		height: 6.24rem;
+	}
+}
+
+
+
+
+

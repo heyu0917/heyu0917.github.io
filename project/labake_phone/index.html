@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+	    <script type="text/javascript" src="js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 +'px';
+	   
+	   		// 扩展API加载完毕后调用onPlusReady回调函数
+			document.addEventListener( "plusready", onPlusReady, false );  
+			// 扩展API加载完毕，现在可以正常调用扩展API  
+			function onPlusReady() {  
+				var e = document.getElementById("scan");  
+				e.removeAttribute( "disabled" );  
+			}  
+			var scan = null;  
+			function onmarked( type, result ) {  
+				var text = '未知: ';  
+				switch(type){  
+				case plus.barcode.QR:  
+				text = 'QR: ';  
+				break;  
+				case plus.barcode.EAN13:  
+				text = 'EAN13: ';  
+				break;  
+				case plus.barcode.EAN8:  
+				text = 'EAN8: ';  
+				break;  
+			}  				
+				var telephone = result.match(/id=.{11}/)[0].substr(3);
+				
+				var index = result.lastIndexOf("\/");  
+				var username  = result.substring(index + 1, result.length);
+				
+				scan.close();
+				setTimeout(function(){
+					location.href="pay.html?id="+telephone+'/'+username;
+				},400)
+			}
+			
+			function startScan(){
+				// 创建支持默认条码类型的识别控件  
+				document.getElementById('index_page').style.left = '-100%';
+				document.getElementById('footer').style.left = '-100%';
+				document.getElementById('header_top').style.left = '-100%';
+				document.getElementById('scan_page').style.left = '0';
+				setTimeout(function(){
+					scan = new plus.barcode.Barcode('scan_con');  
+					scan.onmarked = onmarked;  
+		
+					scan.start();
+				},340)
+			}
+			function back_img(){
+				scan.close();
+				document.getElementById('index_page').style.left = '0';
+				document.getElementById('footer').style.left = '0';
+				document.getElementById('header_top').style.left = '0';
+				document.getElementById('scan_page').style.left = '100%';
+			}
+	    </script>
+	</head>
+<body>
+	<div id="index_page">
+		<h1 class="header-top" id="header_top">喇叭客</h1>
+		<div class="index-header">
+			<div class="header-middle">
+				<div class="hm-one">
+					<img src="img/person.png">
+					<span>设置昵称</span>
+				</div>
+				<div class="hm-two" onclick="startScan()">
+					<img src="img/scan.png" alt="" />
+					<span>扫一扫</span>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<span class="address">湖北</span>
+				<input type="text" placeholder="请输入商家名称" class="search-input"/>
+				<img src="img/search.png" class="search-img"/>
+			</div>
+		</div>
+		<!--index content-->
+		<div class="index-con">
+			<ul class="index-con-list">
+				<li>
+					<a href="#">
+						<img src="img/con1.jpg" class="fl-lt" />
+						<div class="index-li-right fl-lt">
+							<h3>宝健商贸有限公司</h3>
+							<p class="index-address">湖北省武汉市江岸区一元街道</p>
+							<div class="stars-box">
+								<span class="stars"><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i></span>
+								<span class="star-after-text font_22">零售商</span>
+							</div>
+						</div>
+						<div class="index-li-km fl-rt"><span>2.1</span>km</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/con1.jpg" class="fl-lt" />
+						<div class="index-li-right fl-lt">
+							<h3>宝健商贸有限公司</h3>
+							<p class="index-address">湖北省武汉市江岸区一元街道</p>
+							<div class="stars-box">
+								<span class="stars"><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i></span>
+								<span class="star-after-text font_22">零售商</span>
+							</div>
+						</div>
+						<div class="index-li-km fl-rt"><span>2.1</span>km</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--footer-->
+		<div class="footer" id="footer">
+			<ul>
+				<li><a href="index.html" class="light"><img src="img/home-lan.png"/>首页</a></li>
+				<li><a href="news.html"><img src="img/xinxi-hui.png"/>信息</a></li>
+				<li><a href="business.html"><img src="img/shangjia-hui.png"/>商家</a></li>
+				<li><a href="my.html"><img src="img/person-hui.png"/>我的</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="scan_page">
+		<div class="header-back scan">
+			<div id="back_img" onclick="back_img()">
+				<img src="img/arrowL_white.png" alt="" class="arrowL_white-img"/>
+			</div>
+			<h1>扫一扫</h1>
+		</div>
+		<div id="scan_con"></div>
+	</div>
+</body>
+</html>

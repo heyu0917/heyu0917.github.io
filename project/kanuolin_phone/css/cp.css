@@ -1,0 +1,78 @@
+
+.cp .title{
+	text-align: center;
+	width: 5rem;
+	position: relative;
+	margin: 0 auto .4rem;
+	color: #1D2087;
+}
+.cp .title .img1{
+	position: absolute;
+	top: .64rem;
+	left: 0;
+	width: .44rem;
+	z-index: -1;
+}
+.cp .title .img2{
+	position: absolute;
+	top: .64rem;
+	right: 0;
+	width: .44rem;
+	z-index: -1;
+}
+.cp .title .p1{
+	font-family: myfont;
+	font-size: .4rem;
+	margin-bottom: .04rem;
+}
+.cp .title .p2{
+	font-size: .3rem;
+	font-weight: bold;
+	margin-bottom: .08rem;
+}
+.cp .title .img3{
+	width: 1.6rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.cp ul{
+	padding: 0 .24rem;
+	margin-bottom: .16rem;
+}
+.cp ul li{
+	width: 40%;
+	margin: 0 5%;
+	float: left;
+	margin-bottom: .24rem;
+}
+.cp ul li .box{
+	position: relative;
+	padding: .12rem;
+	box-sizing: border-box;
+}
+.cp ul li .box .img1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	height: 100%;
+}
+.cp ul li .box .img2{
+	display: block;
+	width: 100%;
+	height: 3rem;
+}
+.cp ul li p{
+	text-align: center;
+	font-size: .24rem;
+	color: #1D2087;
+	line-height: .48rem;
+}
+.cp ul li .img3{
+	width: 1.6rem;
+	display: block;
+	margin: 0 auto;	
+}
+

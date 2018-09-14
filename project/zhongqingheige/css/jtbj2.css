@@ -1,0 +1,157 @@
+/*公共*/
+.com-title h1{
+	font-family: "宋体";
+	font-size: 30px;
+	color: #152b4f;
+}
+.com-title h1 span{
+	display: block;
+	font-size: 26px;
+	margin-bottom: 2px;
+}
+.com-title p{
+	font-family: arial;
+	font-size: 16px;
+	margin-top: 6px;
+	margin-bottom: 15px;
+}
+.com-title .line{
+	width: 100px;
+	height: 3px;
+	background: #B5262D;
+	margin-bottom: 20px;
+}
+
+.qy_bj2 .title{
+	position: relative;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.qy_bj2 .title img {
+    position: absolute;
+    top: 13px;
+    width: 85px;
+}
+.qy_bj2 .title .img1 {
+    left: 0;
+}
+.qy_bj2 .title .img2 {
+    right: 0;
+}
+.qy_bj2 .title h3 {
+    color: #ccab5e;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.qy_bj2 .p1{
+	font-size: 14px;
+	line-height: 26px;
+}
+
+
+.qy_bj2{
+	width: 88%;
+	margin: 0 auto;
+	padding-bottom: 108px;
+	 margin-bottom: 4%;
+}
+
+.qy_bj2 .part1 .left{
+	width: 65%;
+}
+.qy_bj2 .part1 .left .p1{
+	margin-bottom: 40px;
+}
+
+.qy_bj2 .part1 .right{
+	width: 30%;
+}
+
+.qy_bj2 .part2{
+	margin-top: 40px;
+}
+.qy_bj2 .part2 ul{
+	margin-top: 30px;
+}
+.qy_bj2 .part2 ul li{
+	width: 19%;
+	margin-right: 1.25%;
+	float: left;
+	text-align: center;
+}
+.qy_bj2 .part2 ul li:last-child{
+	margin-right: 0;
+}
+.qy_bj2 .part2 ul li img{
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.qy_bj2 .part2 ul li h4{
+	font-size: 22px;
+	font-family: "宋体";
+	color: #152b4f;
+	margin-bottom: 8px;
+}
+.qy_bj2 .part2 ul li .line{
+	width: 44px;
+	height: 2px;
+	background: #b5262d;
+	margin: 0 auto;
+}
+.qy_bj2 .part2 ul li .p1{
+	margin-top: 10px;
+	text-align: left;
+}
+
+
+.qy_bj2 .part3{
+	margin-top: 40px;
+}
+.qy_bj2 .part3 .img-box{
+	margin-top: 30px;
+}
+.qy_bj2 .part3 .img-box img{
+	width: 48.5%;
+}
+
+.qy_bj2 .part4{
+	margin-top: 40px;
+}
+.qy_bj2 .part4 .title{
+	width: 70%;
+	margin: 0 auto;
+}
+.qy_bj2 .part4 .title h3{
+	font-size: 30px;
+	font-family: "宋体";
+}
+.qy_bj2 .part4 .title h3 span{
+	display: block;
+	font-size: 16px;
+}
+.qy_bj2 .part4 .title img{
+	width: 320px;
+    height: 3px;
+}
+.qy_bj2 .part4 .img-box{
+	width: 90%;
+	margin: 30px auto 0 auto;
+}
+
+.qy_bj2 .part5{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	background: #44546e;
+}
+

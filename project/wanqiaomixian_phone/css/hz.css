@@ -1,0 +1,247 @@
+/*合作方式*/
+.hzfs{
+	padding-left: .32rem;
+    padding-right: .32rem;
+}
+.hzfs .part1 .title{
+	position: relative;
+	margin-bottom: .35rem;
+}
+.hzfs .title h1{
+	font-size: .36rem;
+	color: #D6000F;
+	margin-bottom: .08rem;
+}
+.hzfs .title h1 span{
+	display: block;
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+.hzfs .part1 .title .line{
+	height: .04rem;
+	width: 48%;
+	background: #D6000F;
+	position: absolute;
+	right: 0;
+	top: .24rem;
+}
+
+.hzfs .angle{
+	border-top: .26rem solid #D6000F;
+    border-left: .12rem solid transparent;
+    border-right: .12rem solid transparent;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+}
+
+.hzfs ul{
+	margin-top: .35rem;
+}
+.hzfs ul li{
+	margin-bottom: .4rem;
+	position: relative;
+}
+.hzfs ul li .li-title{
+	display: flex;
+	display: -webkit-flex;
+	margin-bottom: .1rem;
+}
+.hzfs ul li .li-title h3{
+	flex: 0 0 1.6rem;
+	width: 1.6rem;
+	font-size: .28rem;
+	color: #D6000F;
+}
+.hzfs ul li .li-title .line{
+	height: .04rem;
+	background: #D6000F;
+	flex: 1;
+	margin-top: .18rem;
+}
+.hzfs ul li p{
+	color: #666;
+	line-height: .34rem;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.hzfs ul li img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 2.4rem;
+}
+
+
+/*店面展示*/
+.hzdm .bigSmall{
+	width: 6rem;
+	margin: 0 auto;
+}
+.hzdm .large_box{
+	width: 100%;
+	height: 5.3rem;
+	overflow: hidden;
+	margin-bottom: .3rem;
+}
+.hzdm .large_box ul{
+	position: relative;
+}
+.hzdm .large_box ul li{
+	width: 6rem;
+	height: 5.3rem;
+}
+.hzdm .large_box ul li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.hzdm .bigSmall .small_box{
+	width: 100%;
+	position: relative;
+}
+.hzdm .bigSmall .small_box .small_list{
+	width: 100%;
+	overflow: hidden;
+	height: 1.62rem;
+}
+.hzdm .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.hzdm .bigSmall .small_box .small_list ul li{
+	width: 1.9rem;
+	height: 1.62rem;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 .05rem;
+	overflow: hidden;
+	border: .02rem solid transparent;
+	box-sizing: border-box;
+}
+.hzdm .bigSmall .small_box ul li.on{
+	border:.02rem solid #f00;
+}
+.hzdm .bigSmall .small_box .small_list ul li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.hzdm .bigSmall .small_box .arrow{
+	position: absolute;
+	top: .3rem;
+	padding: .3rem;
+}
+.hzdm .bigSmall .small_box .arrow-left{
+	left: -.78rem;
+}
+.hzdm .bigSmall .small_box .arrow-right{
+	right: -.78rem;
+}
+.hzdm .bigSmall .small_box .arrow span{
+	border-top: .26rem solid transparent;
+	border-bottom: .26rem solid transparent;
+	display: block;
+}
+.hzdm .bigSmall .small_box .arrow-left span{
+	border-right: .26rem solid #aaa;
+}
+.hzdm .bigSmall .small_box .arrow-right span{
+	border-left: .26rem solid #aaa;
+}
+
+
+/*总部扶持*/
+.hzfc{
+	padding-left: .4rem;
+	padding-right: .4rem;
+}
+.hzfc .part1 h1{
+	font-size: .36rem;
+	color: #D6000F;
+	text-align: center;
+}
+.hzfc .part1 .title{
+	display: flex;
+	display: -webkit-flex;	
+}
+.hzfc .part1 .title h4{
+	flex: 0 0 85%;
+	width: 85%;
+	color: #D6000F;
+	text-align: center;
+}
+.hzfc .part1 .title h4 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	width: 200%;
+	margin-left: -50%;
+}
+.hzfc .part1 .title .line{
+    height: .02rem;
+    background: #D6000F;
+    flex: 1;
+    margin-top: .2rem;
+}
+
+.hzfc .part2{
+	margin-top: .4rem;
+}
+.hzfc .part2 ul li{
+	float: left;
+	width: 47%;
+	margin-bottom: .35rem;
+}
+.hzfc .part2 ul li:nth-child(even){
+	float: right;
+}
+.hzfc .part2 ul li img{
+	width: 100%;
+	display: block;
+	margin-bottom: .08rem;
+}
+.hzfc .part2 ul li h3{
+	font-size: .28rem;
+	text-align: center;
+	color: #D6000F;
+	line-height: 1;
+	margin-top: .2rem;
+}
+.hzfc .part2 ul li p{
+	margin-top: .08rem;
+	text-align: center;
+	color: #666;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+
+
+

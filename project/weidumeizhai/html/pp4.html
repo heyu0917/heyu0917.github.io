@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/base.css">	
+	<link rel="stylesheet" href="../css/pp.css">
+</head>
+<body>
+	<div class="header">
+		<div class="nav clearfix">
+			<a href="index.html" class="fl-lt logo"><img src="../img/logo.png" alt=""/></a>
+			<ul class="fl-lt">  
+				<li><a href="index.html">首页<span>Home</span></a></li>
+				<li class="active"><a href="pp1.html">品牌解读<span>Brand</span></a></li>
+				<li><a href="cp1.html">产品中心<span>Product</span></a></li>
+				<li><a href="dz1.html">超级定制<span>Customized</span></a></li>
+				<li><a href="advert.html">招募合伙人<span>Partner</span></a></li>
+				<li><a href="http://cjdingzhi.com">网络商城<span>Network mall</span></a></li>
+				<li><a href="xy1.html">商学院<span>Business School</span></a></li>
+				<li><a href="lxwm.html">联系我们<span>Contact us</span></a></li>
+			</ul>
+			<div class="fl-rt phone">
+				<img src="../img/phone.png" alt="" />
+				<p>全国城市运营商招募热线<span>400-xxxx-xxx</span></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="er-nav">
+			<div class="wrap">
+				<div class="title">
+					<p class="p1">品牌解读</p>
+					<div class="line"></div>
+					<p class="p2">Brand</p>
+				</div>
+				<ul>      
+					<li><a href="pp1.html">品牌简介</a></li>
+					<li><a href="pp2.html">品牌故事</a></li>
+					<li><a href="pp3.html">品牌内核</a></li>
+					<li class="active"><a href="pp4.html">品牌荣誉</a></li>
+					<li><a href="pp5.html">品牌文化</a></li>
+					<li><a href="pp6.html">品牌精英</a></li>
+					<li><a href="pp7.html">品牌动态</a></li>
+				</ul>
+				<a href="javascript:;" onclick="javascript:history.back(-1)" class="back">
+					<img src="../img/back.png" alt="" />
+				</a>
+			</div>
+		</div>
+		<div class="rightpart">
+			<div class="main pp4">
+				<div class="con">
+					<div class="title">
+						<div class="title1">荣誉见证实力与伟大</div>
+						<div class="title2">HONER WITNESS STRENGTH AND GREATNESS</div>
+						<div class="title3"></div>
+					</div>
+					<div class="picScroll-left" id="multipleColumn">
+				        <div class="hd">
+				        	<a href="javascript:;" class="prev arrow arrow-left"><img src="../img/arrowL2.png"/></a>
+				        	<a href="javascript:;" class="next arrow arrow-right"><img src="../img/arrowR2.png"/></a>
+						</div>
+					    <div class="bd">
+					    	<div class="picList">
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					            <li>
+					            	<img src="../img/pp/pp4a.jpg" alt="" />
+					            	<p class="p1">中国全屋整装科技创新品牌</p>
+					            </li>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+	<script>
+		jQuery("#multipleColumn .bd li").each(function(i){ jQuery("#multipleColumn .bd li").slice(i*6,i*6+6).wrapAll("<ul></ul>");});
+		jQuery("#multipleColumn").slide({titCell:".hd ul",mainCell:".bd .picList",autoPage:true,effect:"leftLoop"});
+	</script>
+	
+</body>
+</html>
+

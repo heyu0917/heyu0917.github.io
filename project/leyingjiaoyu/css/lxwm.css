@@ -1,0 +1,84 @@
+/*联系我们*/
+.lxwm{
+	color: rgba(255,255,255,.9);
+}
+.lxwm .img1{
+    width: 65%;
+}
+.lxwm .part1{
+	width: 30%;
+	position: relative;
+}
+.lxwm .part1 .title{
+	margin-top: .3rem;
+	margin-bottom: .3rem;
+}
+.lxwm .part1 .title  h2{
+    font-weight: normal;
+    font-size: .24rem;
+    line-height: .38rem;
+}
+.lxwm .part1 .title  h2 strong{
+	font-weight: normal;
+	color: #EDB75E;
+	display: block;
+}
+.lxwm .part1 .title span{
+    display: block;
+    font-size: .15rem;
+    margin-bottom: .3rem;
+    line-height: .3rem;
+}
+
+.lxwm .part1 .con .p1{
+    font-size: .17rem;
+    color: #EDB75E;
+    margin-bottom: .05rem;
+}
+.lxwm .part1 .con p{
+    font-size: .15rem;
+    line-height: .3rem;
+    margin-bottom: .2rem;
+}
+.lxwm .part1 .bottom{
+    margin-top: .35rem;
+    width: 2.2rem;
+}
+.lxwm .part1 .bottom .img-box{
+	width: 100%;
+	margin-bottom: .1rem;
+}
+.lxwm .part1 .bottom .img-box img{
+	width: 47%;
+}
+.lxwm .part1 .bottom .desc{
+    font-size: .15rem;
+    text-align: center;
+    line-height: .34rem;
+    color: #000;
+    background: #EDB75E;
+}
+
+.lxwm .more-angle{
+	position: absolute;
+	right: .6rem;
+	bottom: -.3rem;
+	z-index: -1;
+}
+.lxwm .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

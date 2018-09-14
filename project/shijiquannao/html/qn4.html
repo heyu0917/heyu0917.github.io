@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/qn.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-l">
+				<div class="header-img">
+					<img src="../img/logo.png" alt="" />
+				</div>
+				<div class="logo-fonts">全脑教育承诺式服务品牌</div>
+			</div>
+			<div class="nav">
+				<ul class="clearfix">
+					<li><a href="index.html">首页</a></li>
+					<li class="active"><a href="qn1.html">世纪全脑 </a></li>
+					<li><a href="sl1.html">承诺实力</a></li>
+					<li><a href="kc1.html">特色课程</a></li>
+					<li><a href="pp1.html">品牌快讯</a></li>
+					<li><a href="mx1.html">明星师生</a></li>
+					<li><a href="hz1.html">合作共赢</a></li>
+					<li><a href="xy1.html">商学院</a></li>
+					<li><a href="wm1.html">加入我们</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="content-nav">
+				<div class="nav-title">
+					<p class="p1">世纪全脑</p>
+					<p class="nav-line"></p>
+					<p class="p2">Centiury <br />Brain</p>
+				</div>
+				<ul>
+					<li><a href="qn1.html">品牌简介</a></li>
+					<li><a href="qn2.html">品牌历程</a></li>
+					<li><a href="qn3.html">品牌承诺</a></li>
+					<li class="active"><a href="qn4.html">品牌荣誉</a></li>
+					<li><a href="qn5.html">社会责任</a></li>
+				</ul>
+				<a class="back" href="javascript:void(0)" onClick="javascript:history.back(-1)"><img src="../img/back.png" alt="" /></a>
+			</div>
+			
+			<div class="wrapper">
+				<div class="main qn4 clearfix">
+					<div class="title">
+						<div class="title-l">
+							<p class="p1">荣誉一身</p>
+							<div class="line"></div>
+							<p class="p2">见证所有的实力与伟大</p>
+						</div>
+						<div class="title-r">
+							Witness all the strength <br />and greatness
+						</div>
+					</div>
+					<div class="part">
+						<div class="picScroll-left" id="multipleColumn">
+					        <div class="hd">
+					        	<a class="prev arrow arrow-left"><img src="../img/qn/arrowL.jpg" alt="" /></a>
+								<a class="next arrow arrow-right"><img src="../img/qn/arrowR.jpg" alt="" /></a>
+							</div>
+						    <div class="bd">
+						    	<div class="picList">
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						            <li>
+						            	<img src="../img/qn/a1.jpg" alt="" />
+						            	<p class="p1">公司奖牌证书</p>
+						            </li>
+						    	</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		
+		<div class="footer">
+			<p class="p1">咨询热线：400- xxxx- xxx    <span>/</span>    全脑开发，全方位提升素质学习能力！</p>
+		</div>
+		
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script>
+			jQuery("#multipleColumn .bd li").each(function(i){ jQuery("#multipleColumn .bd li").slice(i*8,i*8+8).wrapAll("<ul></ul>");});
+			jQuery("#multipleColumn").slide({titCell:".hd ul",mainCell:".bd .picList",autoPage:true,effect:"leftLoop"});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,83 @@
+/*.cp1--家居清洁*/
+.cp1 .p3{
+	font-size: 0.24rem;
+	text-align: left;
+}
+.cp1 .part{
+	margin-top: 0.6rem;
+}
+.cp1 .part-title{
+	width: 1.8rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	margin:0 auto;
+	font-size: 0.32rem;
+	background-color: #0c908d;
+	border-radius:0.1rem;
+	color:#fff;
+	font-weight: bold;
+}
+.cp1 .part-line{
+	width: 0.8rem;
+	height: 1px;
+	background-color: #0c908d;
+	margin:0 auto;
+	margin-top: 0.2rem;
+}
+.cp1 .part  li{
+	float: left;
+	background: #e3e3e3;
+	position: relative;
+	text-align: center;
+	width: 48%;
+	height: 3.8rem;
+	margin-right: 4%;
+	cursor: pointer;
+	margin-top: 0.3rem;
+}
+.cp1 .part  li:nth-child(2n){
+	margin-right: 0;
+}
+.cp1 .part  li .box{
+	position: relative;
+	width: 95%;
+	margin:0.1rem auto;
+}
+.cp1 .part li img{
+	display: block;
+	width: 100%;
+}
+
+.cp1 .part li .li-fonts{
+	width: 2.3rem;
+	margin-top: 0.1rem;
+	text-align: left;
+	position:relative;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	/*width: 120%;*/
+	/*margin-left: -10%;*/
+}
+.cp1 .part li  span{
+	color:#acacac;
+	position:absolute;
+	right: 0.1rem;
+	bottom: 0.13rem;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	/*width: 170%;*/
+	/*margin-left: -35%;*/
+}

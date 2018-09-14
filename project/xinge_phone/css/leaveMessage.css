@@ -1,0 +1,57 @@
+.content{
+/*	background: rgba(255,255,255,.9);*/
+}
+.main{
+	padding: 0 .3rem;
+}
+
+.part2{
+	padding: 0 .16rem .32rem .26rem;
+}
+.part2 input{
+	display: block;
+	width: 100%;
+	padding-left: .2rem;
+	height: .64rem;
+	line-height: .24rem;
+	font-size: .24rem;	
+	margin-bottom: .16rem;
+	box-sizing: border-box;
+}
+.part2 textarea{
+	width: 100%;
+	padding: .2rem;
+	line-height: .34rem;
+	height: 2.06rem;
+	box-sizing: border-box;
+	resize: none;
+	display: block;
+}
+.part2 button{
+	display: block;
+	width: 3.38rem;
+	height: 1rem;
+	background: url(../img/lm1.png) no-repeat;
+	background-size: 100% 100%!important;
+	text-align: center;
+	line-height: 1rem;
+	margin: .32rem auto 0 auto;
+	color: #fff;
+	font-size: .48rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

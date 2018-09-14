@@ -1,0 +1,1109 @@
+/*左侧栏样式*/
+.left-part .left-title {
+    margin-bottom: .25rem;
+}
+.left-part-list li {
+    height: .4rem;
+    line-height: .4rem;
+    margin-bottom: .05rem;
+    font-size: 16px;
+}
+.left-part-list li a span {
+    line-height: .4rem;
+}
+.left-part .nav-left1 {
+    display: none;
+}
+.left-part .left-part-middle .nav-left1{
+    display: block;
+    position: relative;
+    margin-top: -1.5rem;
+}
+@media only screen and (max-width: 1444px) {
+	.left-part-list li{
+		font-size: 14px;
+	}
+}
+
+
+/*公共样式 */
+.fw{
+	color: rgba(255,255,255,.9);
+}
+.fw .part1 .more-angle{
+	position: absolute;
+	right: -.4rem;
+	bottom: -1.2rem;
+}
+.fw .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+.fw .part1 .title h2{
+	font-weight: normal;
+	font-size: .3rem;
+}
+.fw .part1 .title span{
+	display: block;
+	font-size: 12px;
+	margin-top: .08rem;
+	margin-bottom: .3rem;
+	color: rgba(255,255,255,.8);
+}
+
+
+
+/*驻美咨询*/
+.fwzx .img1{
+	width: 55%;
+}
+.fwzx .part1{
+	width: 40%;
+	position: relative;
+}
+.fwzx .part1 .step{
+	margin-top: .1rem;
+}
+.fwzx .part1 .step p{
+	padding-bottom: .1rem;
+	border-bottom: .02rem solid #EDB75E;
+	font-size: .15rem;
+	display: inline;
+}
+
+.fwzx .part1 .con{
+	margin-top: .5rem;
+}
+
+.fwzx .part1 .p1{
+	font-size: .24rem;
+	color: #EDB75E;
+	margin-bottom: .14rem;
+}
+.fwzx .part1 p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.fwzx .part1 ul{
+	margin-top: .3rem;
+	width: 3.2rem;
+}
+.fwzx .part1 ul li{
+	width: .72rem;
+	height: .72rem;
+	position: relative;
+	margin-right: .1rem;
+	float: left;
+	margin-bottom: .1rem;
+}
+.fwzx .part1 ul li:nth-child(4n){
+	margin-right: 0;
+}
+.fwzx .part1 ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.fwzx .part1 ul li span{
+	font-size: .15rem;
+	line-height: .26rem;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+
+/*面试辅导*/
+.fwms .img1{
+	width: 40%;
+}
+.fwms .part1{
+	width: 55%;
+	position: relative;
+}
+.fwms .part1 .step{
+	margin-top: .1rem;
+}
+.fwms .part1 .step p{
+	padding-bottom: .1rem;
+	border-bottom: .02rem solid #EDB75E;
+	font-size: .15rem;
+	display: inline;
+}
+
+.fwms .part1 .con{
+	margin-top: .5rem;
+}
+.fwms .part1 .p2{
+	font-size: .15rem;
+	line-height: .28rem;
+	margin-top: .2rem;
+}
+.fwms .part1 .p1{
+	margin-top: .4rem;
+	font-size: .24rem;
+	color: #EDB75E;
+	margin-bottom: .14rem;
+}
+.fwms .part1 p{
+	font-size: .15rem;
+	line-height: .3rem;
+}
+
+/*签证辅导*/
+.fwqz .img1{
+	width: 55%;
+}
+.fwqz .part1{
+	width: 40%;
+	position: relative;
+}
+.fwqz .part1 .step{
+	margin-top: .1rem;
+}
+.fwqz .part1 .step p{
+	padding-bottom: .1rem;
+	border-bottom: .02rem solid #EDB75E;
+	font-size: .15rem;
+	display: inline;
+}
+
+.fwqz .part1 .con{
+	margin-top: .5rem;
+}
+
+.fwqz .part1 .p1{
+	font-size: .24rem;
+	margin-bottom: .14rem;
+}
+.fwqz .part1 .p1 span{
+	color: #EDB75E;
+}
+
+.fwqz .part1 ul{
+	margin-top: .4rem;
+	width: 3.2rem;
+}
+.fwqz .part1 ul li{
+	width: 1.3rem;
+	height: .6rem;
+	position: relative;
+	margin-right: .3rem;
+	float: left;
+	margin-bottom: .3rem;
+}
+.fwqz .part1 ul li:nth-child(odd)::after{
+    position: absolute;
+    right: -.2rem;
+    top: .24rem;
+    border-left: .12rem solid #EDB75E;
+    border-top: .08rem solid transparent;
+    border-bottom: .08rem solid transparent;
+    content: '';
+}
+
+.fwqz .part1 ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.fwqz .part1 ul li span{
+	padding-top: .06rem;
+	font-size: .15rem;
+	line-height: .24rem;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+
+/*落地应援*/
+.fwld .img1{
+	width: 55%;
+}
+.fwld .part1{
+	width: 40%;
+	position: relative;
+}
+.fwld .part1 .step{
+	margin-top: .1rem;
+}
+.fwld .part1 .step p{
+	padding-bottom: .1rem;
+	border-bottom: .02rem solid #EDB75E;
+	font-size: .15rem;
+	display: inline;
+}
+
+.fwld .part1 .con{
+	margin-top: .5rem;
+}
+
+.fwld .part1 .p1{
+	font-size: .17rem;
+	color: #EDB75E;
+}
+
+.fwld .part1 ul{
+	margin-top: .4rem;
+	width: 90%;
+}
+.fwld .part1 ul li{
+	width: 33.3%;
+	padding: 0 .1rem;
+	border-right: 1px solid #EDB75E;
+	float: left;
+	margin-bottom: .3rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 1.66rem;
+}
+.fwld .part1 ul li:nth-child(3){
+	border: 0;
+}
+.fwld .part1 ul li:nth-child(4),
+.fwld .part1 ul li:nth-child(5){
+	height: .88rem;
+}
+.fwld .part1 ul li .p1{
+	text-align: center;
+	margin-bottom: .1rem;
+}
+.fwld .part1 ul li p{
+	font-size: .15rem;
+	line-height: .26rem;
+}
+.fwld .part1 .more-angle{
+	bottom: -.5rem;
+}
+
+/*选校辅导*/
+.fwxx .img1{
+	width: 55%;
+}
+.fwxx .part1{
+	width: 40%;
+	position: relative;
+}
+.fwxx .part1 .step{
+	margin-top: .1rem;
+}
+.fwxx .part1 .step p{
+	padding-bottom: .1rem;
+	border-bottom: .02rem solid #EDB75E;
+	font-size: .15rem;
+	display: inline;
+}
+
+.fwxx .part1 .con{
+	margin-top: .4rem;
+}
+
+.fwxx .part1 ul{
+	margin-top: .4rem;
+}
+.fwxx .part1 ul li{
+	margin-bottom: .1rem;
+	position: relative;
+}
+.fwxx .part1 ul li .li-con{
+	padding-left: .55rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+.fwxx .part1 ul li img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: .4rem;
+}
+.fwxx .part1 ul li .p1{
+	color: #EDB75E;
+	font-size: .18rem;
+	margin-bottom: .03rem;
+}
+.fwxx .part1 ul li p{
+	font-size: .15rem;
+	line-height: .26rem;
+}
+.fwxx .part1 .more-angle{
+	bottom: -.5rem;
+}
+
+/*学术辅导*/
+.fwxs .img1{
+	width: 50%;
+}
+.fwxs .part1{
+	width: 45%;
+	position: relative;
+}
+.fwxs .part1 .step{
+	margin-top: .1rem;
+}
+.fwxs .part1 .step p{
+	padding-bottom: .1rem;
+	border-bottom: .02rem solid #EDB75E;
+	font-size: .15rem;
+	display: inline;
+}
+
+.fwxs .part1 .con{
+	margin-top: .4rem;
+}
+.fwxs .part1 .item-box{
+	margin-top: .3rem;
+}
+.fwxs .part1 .item-box .item{
+	padding-bottom: .1rem;
+	border-bottom: 1px solid #EDB75E;
+	margin-bottom: .1rem;
+}
+.fwxs .part1 .item-box .item:last-child{
+	border-bottom: none;
+}
+.fwxs .part1 .item-box .item p{
+	font-size: .15rem;
+	line-height: .26rem;
+}
+.fwxs .part1 .item-box .item p span{
+	display: inline-block;
+	color: #EDB75E;
+	padding-right: .1rem;
+	margin-right: .1rem;
+	border-right: 1px solid #EDB75E;
+	font-size: .17rem;
+}
+
+.fwxs .part1 ul{
+	margin-top: .2rem;
+}
+.fwxs .part1 ul li{
+	width: 33.3%;
+	float: left;
+	margin-bottom: .1rem;
+	position: relative;
+}
+.fwxs .part1 ul li .p1{
+	color: #EDB75E;
+	font-size: .17rem;
+}
+.fwxs .part1 ul li p{
+	font-size: .15rem;
+	line-height: .26rem;
+}
+.fwxs .part1 ul li::before{
+    content: '';
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    border: 1px solid #EDB75E;
+    box-sizing: border-box;
+    position: absolute;
+    top: .09rem;
+    left: -.15rem;
+}
+.fwxs .part1 .more-angle{
+	bottom: -.5rem;
+}
+
+/*背景提升*/
+.fwbj .img1{
+	width: 58%;
+}
+.fwbj .part1{
+	width: 37%;
+	position: relative;
+}
+.fwbj .part1 .step{
+	margin-top: .1rem;
+}
+.fwbj .part1 .step p{
+	padding-bottom: .1rem;
+	border-bottom: .02rem solid #EDB75E;
+	font-size: .15rem;
+	display: inline;
+}
+
+.fwbj .part1 .con{
+	margin-top: .4rem;
+}
+.fwbj .part1 .con .p3{
+	font-size: .17rem;
+	line-height: .3rem;
+	color: #EDB75E;
+	margin-bottom: .3rem;
+}
+.fwbj .part1 .con .p2{
+	font-size: .15rem;
+	line-height: .26rem;
+}
+
+.fwbj .part1 ul{
+	margin-top: .3rem;
+	width: 70%;
+}
+.fwbj .part1 ul li{
+	width: 50%;
+	float: left;
+	margin-bottom: .15rem;
+	float: left;
+}
+.fwbj .part1 ul li .p1{
+	color: #EDB75E;
+	font-size: .17rem;
+	margin-bottom: .04rem;
+}
+.fwbj .part1 ul li p{
+	font-size: .14rem;
+	line-height: .22rem;
+}
+.fwbj .part1 .more-angle{
+	bottom: -.5rem;
+}
+
+/*论文写作*/
+.fwlw .img1{
+	width: 50%;
+}
+.fwlw .part1{
+	width: 45%;
+	position: relative;
+}
+
+.fwlw .part1 .con{
+	margin-top: .4rem;
+}
+.fwlw .part1 .con .p2{
+	font-size: .15rem;
+	line-height: .28rem;
+	margin-bottom: .5rem;
+}
+
+.fwlw .part1 ul{
+	margin-top: .3rem;
+}
+.fwlw .part1 ul li{
+	width: 55%;
+	float: left;
+	margin-bottom: .15rem;
+	float: left;
+	height: 1.4rem;
+}
+.fwlw .part1 ul li:nth-child(even){
+	width: 45%;
+}
+.fwlw .part1 ul li .p1{
+	color: #EDB75E;
+	font-size: .22rem;
+	margin-bottom: .08rem;
+}
+.fwlw .part1 ul li span{
+	font-size: 12px;
+	color: rgba(255,255,255,.8);
+	display: block;
+}
+.fwlw .part1 ul li p{
+	font-size: .14rem;
+	line-height: .22rem;
+	margin-top: .12rem;
+}
+.fwlw .part1 .more-angle{
+	display: none;
+}
+
+.fwlw .part1 ul li .p1 {
+    font-size: .2rem;
+}
+.fwlw .part1 ul li {
+    margin-bottom: .25rem;
+}
+
+
+/*开除应对*/
+.fwkc{
+	padding: 0 5%;
+}
+.fwkc .part1{
+	width: 45%;
+	margin-top: .4rem;
+}
+.fwkc .part2{
+	width: 52.5%;
+	margin-top: .4rem;
+}
+.fwkc .part1 .title h3{
+	font-weight: normal;
+	font-size: .2rem;
+	margin-top: .08rem;
+	margin-bottom: .2rem;
+}
+.fwkc .part1 .con p{
+	font-size: .14rem;
+	margin-top: .3rem;
+	margin-bottom: .3rem;
+}
+.fwkc .part1 .con ul{
+	margin-bottom: .3rem;
+}
+.fwkc .part1 .con ul li{
+	width: 15%;
+	margin-right: 2%;
+	float: left;
+	border: 1px solid #EDB75E;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: .4rem;
+	font-size: .15rem;
+}
+.fwkc .part1 .con ul li:last-child{
+	margin-right: 0;
+}
+
+.fwkc .part2 .left{
+	width: 35%;
+}
+.fwkc .part2 .right{
+	width: 62%;
+}
+
+.fwkc .part2 .item-title{
+	margin-bottom: .3rem;
+}
+.fwkc .part2 .item-title h3{
+	font-size: .24rem;
+	color: #EDB75E;
+	font-weight: normal;
+}
+.fwkc .part2 .item-title span{
+	font-size: 12px;
+	display: block;
+	margin-top: .08rem;
+}
+
+.fwkc .part2 .left ul li{
+	margin-bottom: .3rem;
+}
+.fwkc .part2 .left ul li .p1{
+	font-size: .18rem;
+	color: #EDB75E;
+	margin-bottom: .1rem;
+}
+.fwkc .part2 .left ul li p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.fwkc .part2 .left ul li p span{
+	display: inline-block;
+	color: #EDB75E;
+}
+.fwkc .part2 .left ul li .p2{
+	padding-left: .76rem;
+	text-indent: -.76rem;
+}
+
+.fwkc .part2 .right ul li{
+	width: 33.3%;
+	float: left;
+	position: relative;
+	margin-bottom: .3rem;
+}
+.fwkc .part2 .right ul li .num{
+	color: #EDB75E;
+	font-size: .16rem;
+	margin-bottom: .08rem;
+}
+.fwkc .part2 .right ul li .p1{
+	font-size: .18rem;
+	margin-bottom: .12rem;
+	color: #EDB75E;
+}
+.fwkc .part2 .right ul li p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.fwkc .part2 .right ul li::after{
+	content: '';
+	width: .4rem;
+	height: 2px;
+	background: #EDB75E;
+	position: absolute;
+	right: .2rem;
+	top: 0;
+}
+.fwkc .part2 .right ul li:nth-child(3)::after,
+.fwkc .part2 .right ul li:nth-child(5)::after{
+	width: 2px;
+	height: .4rem;
+}
+
+.fwkc .part2 .left ul li .p2 {
+    padding-left: .8rem;
+    text-indent: -.8rem;
+}
+.fwkc .part2 .right {
+    width: 65%;
+}
+.fwkc .part1 {
+    width: 42%;
+}
+.fwkc .part2 {
+    width: 55%;
+}
+.fwkc .share-img{
+	display: none;
+}
+
+
+/*心理咨询*/
+.fwxl .part1{
+	width: 35%;
+}
+.fwxl .part2{
+	width: 60%;
+	margin-top: .4rem;
+}
+
+.fwxl .part1 .title h3{
+	font-weight: normal;
+	font-size: .2rem;
+	margin-top: .08rem;
+	margin-bottom: .2rem;
+}
+.fwxl .part1 p{
+	font-size: .15rem;
+	line-height: .28rem;
+	margin-top: .3rem;
+	margin-bottom: .4rem;
+}
+
+.fwxl .part2 ul li{
+	margin-bottom: .42rem;
+	overflow: hidden;
+}
+.fwxl .part2 ul li .li-img{
+	width: 46%;
+}
+.fwxl .part2 ul li .li-con{
+	width: 50%;
+}
+.fwxl .part2 ul li .li-con .fl-lt{
+	width: 40%;
+}
+.fwxl .part2 ul li .li-con .fl-lt .en-name{
+	font-size: .14rem;
+	margin-bottom: .02rem;
+}
+.fwxl .part2 ul li .li-con .fl-lt .en-name em{
+	color: #EDB75E;
+}
+.fwxl .part2 ul li .li-con .fl-lt h4{
+	color: #EDB75E;
+	font-weight: normal;
+	font-size: .24rem;
+}
+.fwxl .part2 ul li .li-con .fl-rt{
+	width: 60%;
+	font-size: .18rem;
+	line-height: .3rem;
+}
+.fwxl .part2 ul li .li-con .p2{
+	font-size: .15rem;
+	line-height: .26rem;
+	margin-top: .4rem;
+	margin-bottom: .1rem;
+}
+.fwxl .part2 ul li .li-con span{
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: rgba(255,255,255,.8);
+}
+
+.fwxl{
+	padding: 0 6%;
+}
+.fwxl .part1 {
+    width: 36%;
+}
+.fwxl .share-img{
+	display: none;
+}
+
+
+/*快速留学申请服务*/
+.fwks .img1{
+	width: 47.5%;
+}
+.fwks .part1{
+	width: 47.5%;
+	position: relative;
+}
+.fwks .part1 .con{
+	margin-top: .4rem;
+}
+.fwks .part1 .plan{
+    margin-top: .1rem;
+    border: 1px solid #EDB75E;
+    padding: .2rem 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.fwks .part1 .plan h3{
+	font-size: .24rem;
+	font-weight: normal;
+	color: #EDB75E;
+	margin-bottom: .2rem;
+	padding-left: .15rem;
+}
+.fwks .part1 .plan .listA{
+	margin-bottom: .3rem;
+}
+.fwks .part1 .plan ul{
+	font-size: 0;
+}
+.fwks .part1 .plan ul li{
+	font-size: .15rem;
+	padding: 0 .15rem;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.fwks .part1 .plan ul li:nth-child(even){
+	color: #fff;
+	font-weight: bold;
+}
+.fwks .part1 .plan ul li span{
+	padding-bottom: .05rem;
+	margin-bottom: .05rem;
+	border-bottom: 1px solid #EDB75E;
+	position: relative;
+	display: block;
+}
+.fwks .part1 .plan ul li span::after{
+	content: '';
+	width: .04rem;
+	height: .04rem;
+	background: #EDB75E;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	bottom: -.02rem;
+}
+.fwks .part1 .p1{
+	font-size: .17rem;
+	margin-top: .3rem;
+}
+.fwks .part1 p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.fwks .part1 .line{
+	width: 1rem; 
+	height: .03rem;
+	background: #edb75e;
+	margin-top: .25rem;
+}
+
+.fwks .part1 .plan ul li {
+    padding: 0 .1rem;
+}
+.fwks .part1 .plan h3 {
+    padding-left: .1rem;
+}
+.fwks{
+	padding: 0 6%;
+}
+.fwks .more-angle{
+	display: none;
+}
+
+
+/*国家级论文发表*/
+.fwgj .part1 .left{
+	width: 35%;
+}
+.fwgj .part1 .img1{
+	width: 62%;
+}
+
+.fwgj .part1 .left .title{
+	margin-top: .4rem;
+}
+.fwgj .part1 .left .item-box{
+	margin-top: .9rem;
+	display: inline-block;
+	padding-bottom: .15rem;
+	border-bottom: 1px solid #EDB75E;
+}
+.fwgj .part1 .left .item-box h3{
+	font-size: .24rem;
+	color: #EDB75E;
+	margin-bottom: .08rem;
+	font-weight: normal;
+	line-height: .38rem;
+}
+.fwgj .part1 .left .item-box span{
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.fwgj .part2{
+	margin-top: .5rem;
+}
+.fwgj .part2 ul li{
+	width: 22%;
+	margin-right: 4%;
+	float: left;
+}
+.fwgj .part2 ul li:last-child{
+	margin-right: 0;
+}
+.fwgj .part2 ul li h3{
+	font-size: .18rem;
+	color: #EDB75E;
+	margin-bottom: .25rem;
+	font-weight: normal;
+}
+.fwgj .part2 ul li h3 span{
+	display: inline-block;
+	margin-left: .15rem;
+	font-size: 12px;
+	color: rgba(255,255,255,.8);
+}
+.fwgj .part2 ul li p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+
+.fwgj .share-img{
+	display: none;
+}
+.fwgj .part1 .left .item-box h3 {
+    font-size: .22rem;
+}
+.fwgj .part2 ul li h3 span{
+	display: block;
+	margin-left: 0;
+	margin-top: .03rem;
+}
+
+
+/*留美精英岗位计划*/
+.fwlm {
+	padding: 0 5%;
+}
+.fwlm .part1 .title{
+	margin-top: .4rem;
+}
+.fwlm .part1 .left{
+	width: 32%;
+}
+.fwlm .part1 .right{
+	width: 65%;
+}
+.fwlm .part1 .item-title{
+	margin-bottom: .25rem;
+}
+.fwlm .part1 .item-title img{
+	display: inline-block;
+	vertical-align: middle;
+	width: .28rem;
+	height: .25rem;
+	margin-right: .08rem;
+}
+.fwlm .part1 .item-title h4{
+	font-size: .24rem;
+	color: #EDB75E;
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+.fwlm .part1 .left-top{
+	position: relative;
+}
+.fwlm .part1 .left .more-angle{
+   position: absolute;
+   right: 0;
+   bottom: -.6rem;
+}
+.fwlm .part1 .left .con{
+    margin-top: .5rem;
+}
+.fwlm .part1 .left .con p{
+	font-size: .15rem;
+	line-height: .3rem;
+	margin-bottom: .1rem;
+}
+.fwlm .part1 .left .con span{
+	font-size: 12px;
+	color: rgba(255,255,255,.8);
+	display: block;
+	margin-bottom: .4rem;
+}
+.fwlm .part1 .left .con ul li{
+	width: 31%;
+	float: left;
+	margin-right: 3.5%;
+	position: relative;
+}
+.fwlm .part1 .left .con ul li:last-child{
+	margin-right: 0;
+}
+.fwlm .part1 .left .con ul li .p1{
+	text-align: center;
+	width: .85rem;
+	height: .24rem;
+	line-height: .24rem;
+	background: #EDB75E;
+	font-size: .15rem;
+}
+.fwlm .part1 .left .con ul li p{
+	font-size: .15rem;
+	line-height: .26rem;
+}
+.fwlm .part1 .left .con ul li::after{
+    content: '';
+    width: 28%;
+    height: 1px;
+    background: #EDB75E;
+    position: absolute;
+    right: 0;
+    top: .12rem;
+}
+.fwlm .part1 .left .con ul li::before{
+    content: '';
+    width: .04rem;
+    height: .04rem;
+    background: #EDB75E;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: .11rem;
+}
+.fwlm .part1 .left .con ul li:last-child::after,
+.fwlm .part1 .left .con ul li:last-child::before{
+	display: none;
+}
+
+.fwlm .part1 .right .bottom{
+	margin-top: .5rem;
+}
+.fwlm .part1 .right .bottom h3{
+	font-size: .15rem;
+	color: #EDB75E;
+	margin-bottom: .2rem;
+	font-weight: normal;
+}
+.fwlm .part1 .right .bottom h3 span{
+	display: inline-block;
+	margin-left: .1rem;
+	font-size: 12px;
+	color: rgba(255,255,255,.8);
+}
+
+.fwlm .part1 .right .b-left{
+	width: 30%;
+	margin-top: .56rem;
+}
+.fwlm .part1 .right .b-right{
+	width: 65%;
+}
+.fwlm .part1 .right .b-left ul{
+	margin-bottom: .4rem;
+}
+.fwlm .part1 .right .b-left ul li{
+	width: 28%;
+	float: left;
+	position: relative;
+	margin-right: 8%;
+	margin-bottom: .15rem;
+	border: 1px solid #EDB75E;
+	line-height: .24rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+.fwlm .part1 .right .b-left ul li:nth-child(3n){
+	margin-right: 0;
+}
+.fwlm .part1 .right .b-left ul li::after{
+    content: '';
+    width: 9%;
+    height: 1px;
+    background: #EDB75E;
+    position: absolute;
+    right: -19%;
+    top: 0.11rem;
+}
+.fwlm .part1 .right .b-left ul li::before{
+    content: '';
+    width: .04rem;
+    height: .04rem;
+    background: #EDB75E;
+    border-radius: 50%;
+    position: absolute;
+    right: -24%;
+    top: .1rem;
+}
+.fwlm .part1 .right .b-left ul li:nth-child(3n)::after,
+.fwlm .part1 .right .b-left ul li:nth-child(3n)::before{
+	display: none;
+}
+
+.fwlm .part1 .right .b-right .fl-lt{
+	width: 43%;
+}
+.fwlm .part1 .right .b-right .fl-rt{
+	width: 52%;
+}
+.fwlm .part1 .right .b-right p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.fwlm .part1 .right .bottom .b-right h3 {
+	position: relative;
+}
+.fwlm .part1 .right .bottom .b-right h3 span{
+	position: absolute;
+	right: 0;
+	top: .01rem;
+}
+
+.fwlm .part1 .right .b-left ul li::after {
+    top: 0.12rem;
+}
+
+
+.fwlm .part1 .right .b-right {
+    width: 62%;
+}
+.fwlm .part1 .right .b-left {
+    width: 33%;
+}
+.fwlm .part1 .right .bottom .b-right h3 span {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    display: block;
+    margin-left: 0;
+}
+.fwlm .share-img{
+	display: none;
+}
+
+
+

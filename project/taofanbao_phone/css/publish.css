@@ -1,0 +1,90 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.color-wrap{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgba(0,0,0,.8);
+}
+.publish-top{
+	position: fixed;
+	top: .88rem;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.publish-top img{
+	width: 1.6rem;
+	height: 1.6rem;
+	display: block;
+	margin: 0 auto .16rem auto;
+}
+.publish-top h1{
+	font-size: .4rem;
+	color: #fff;
+	font-family: 'stheitisc';
+}
+
+.publish-con{
+	position: fixed;
+	bottom: .24rem;
+	left: 0;
+	width: 100%;
+}
+.publish-con ul{
+	overflow: hidden;
+}
+.publish-con ul li{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.publish-con ul li a{
+	display: block;
+}
+.publish-con ul li .img-box{
+	width: 1.44rem;
+	height: 1.44rem;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 auto .16rem auto;
+	margin-bottom: .16rem;
+}
+.publish-con ul li .img-box img{
+	height: .72rem;
+	margin: .36rem auto 0 auto;
+}
+.publish-con ul li:nth-child(1) .img-box img{
+	height: .64rem;
+	margin-top: .4rem;
+}
+.publish-con ul li span{
+	font-size: .26rem;
+	color: #fff;
+}
+.close-btn{
+	width: 100%;
+	text-align: center;
+	margin-top: 1.1rem;
+}
+.close-btn a{
+	display: block;
+	width: .84rem;
+	height: .84rem;
+	line-height: .84rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: #fccc18;
+	border: .05rem solid #fff;
+	text-align: center;
+	display: block;
+	font-size: .4rem;
+	color: #666;
+}
+
+
+
+
+

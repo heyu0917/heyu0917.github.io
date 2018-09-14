@@ -1,0 +1,100 @@
+.three {
+	margin-bottom: -35px;
+}
+.three .part1{
+	border-bottom: 2px solid #c3668a;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	
+}
+.three .part1 .fl-lt{
+	width: 270px;
+	text-transform: uppercase;
+}
+.three .part1 .comLine{
+	width: 220px;
+}
+.three .part1 .p1{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.three .part1 .p2{
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.three .part1 .p3{
+	font-size: 23px;
+	margin-top: 3px;
+}
+.three .part1 .p4{
+	margin-top: 176px;
+	font-weight: lighter;
+	line-height: 22px;
+}
+.three .part1 .fl-rt{
+	width: 790px;
+}
+
+.three ul li{
+	float: left;
+	width: 255px;
+	height: 289px;
+	margin-right: 26px;
+	margin-bottom: 35px;
+	position: relative;
+}
+.three ul li:nth-child(4n){
+	margin-right: 0;
+}
+.three ul li img{
+	display: block;
+	width: 100%;
+	height: 255px;
+}
+.three ul li .p2{
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 0;
+	color: #fff;
+	background: #ae3363;
+	font-size: 12px;
+}
+.three ul li .p2 span{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	box-sizing: border-box;
+}
+.three ul li .p2 span:first-child{
+	border-right: 1px solid #fff;
+	letter-spacing: 3px;
+	padding-left: 3px;
+}
+
+.three ul li .p1{
+	position: absolute;
+	z-index: 2;
+	bottom: 70px;
+	left: 0;
+	width: 40%;
+	text-align: right;
+	padding: 0 10px;
+	color: #fff;
+	overflow: hidden;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	background: #AE3363;
+	text-align: center;
+}
+
+.three2 .part1 .p4{
+	margin-top: 150px;
+}
+
+
+
+
+

@@ -1,0 +1,276 @@
+/*二级导航*/
+.er-nav{
+	width: 88%;
+	margin: .16rem auto;
+}
+.er-nav ul{
+	background: #D4C9AE;
+	border-radius: .08rem;
+	overflow: hidden;
+	padding: .08rem .4rem;
+	box-shadow: -0.04rem 0.06rem 0.16rem rgba(0,0,0,.4);
+}
+.er-nav ul li{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	font-size: .24rem;
+	color: #877D64;
+	font-weight: bold;
+	height: .4rem;
+	line-height: .4rem;
+}
+.er-nav ul li.active{
+	color: #840F31;
+}
+
+.tap-item{
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: .24rem;
+}
+.tap-item h2{
+	font-size: .26rem;
+	color: #840F31;
+	margin-bottom: .16rem;
+	margin-top: .24rem;
+}
+.tap-item p{
+	line-height: .34rem;
+}
+
+/*产品优势*/
+.cpys-box{
+	display: block;
+}
+.cpys-box ul li{
+	width: 47%;
+	margin-bottom: .24rem;
+	float: left;
+}
+.cpys-box ul li:nth-child(even){
+	float: right;
+}
+.cpys-box ul li h3{
+	font-size: .24rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.cpys-box ul li p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+	height: 1.4rem;
+	overflow: hidden;
+}
+.cpys-box ul li img{
+	width: 100%;
+	display: block;
+	height: 1.02rem;
+}
+
+/*营销优势*/
+.yxys-box{
+/*	display: block;*/
+	width: 100%;
+	margin-top: .24rem;
+}
+.yxys-box ul{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: .16rem;
+}
+.yxys-box ul li{
+	width: 44%;
+}
+.yxys-box ul li h3{
+	font-size: .24rem;
+}
+.yxys-box ul li p{
+	font-size: .2rem;
+	transform: scale(.84);
+	-webkit-transform: scale(.84);
+	-o-transform: scale(.84);
+	-moz-transform: scale(.84);
+	-ms-transform: scale(.84);
+	width: 120%;
+	margin-left: -10%;
+}
+.yxys-box img{
+	display: block;
+	width: 100%;
+	margin-top: .16rem;
+}
+.yxys-con2{
+	width: 90%;
+	margin: 0 auto;
+}
+.yxys-con2 h2{
+	text-align: center;
+	margin-top: .1rem;
+}
+.yxys-con2 p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+}
+/*经营优势*/
+.jyys-box{
+	/*display: block;*/
+	width: 95%;
+	margin-left: 5%;
+}
+.jyys-box img.img1{
+	display: block;
+	width: 1.16rem;
+    margin-top: .4rem;
+}
+.jyys-box img.img2{
+	display: block;
+	width: 1.54rem;
+	margin-right: -.5rem;
+}
+.jyys-box .jyys-con{
+	margin-right: .24rem;
+	margin-bottom: .16rem;
+}
+.jyys-box p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+	text-indent: -.66rem;
+	padding-left: .66rem;
+    box-sizing: border-box;
+}
+
+/*加盟级别*/
+.jmjb-box{
+/*	display: block;*/
+	width: 90%;
+	margin: 0 auto;
+}
+.jmjb-box h2{
+	text-align: center;
+	margin-bottom: .24rem;
+}
+.jmjb-box ul li{
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	overflow: hidden;
+}
+.jmjb-box ul li:nth-child(3n){
+	margin-right: 0;
+}
+.jmjb-box ul li .img-box{
+	width: 100%;
+	height: 2.34rem;
+	background: url(../img/hzzl5.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+.jmjb-box ul li .img-box img{
+	height: 100%;
+	display: block;
+	position: relative;
+	z-index: -1;
+	width: 94%;
+	margin: 0 auto;
+}
+.jmjb-box ul li .p-box{
+	position: absolute;
+	bottom: .2rem;
+	height: .34rem;
+	line-height: .34rem;
+	color: #fff;
+	background: #b19966;	
+	text-align: center;
+}
+.jmjb-box ul li p{
+	font-size: .2rem;
+	transform: scale(.84);
+	-webkit-transform: scale(.84);
+	-o-transform: scale(.84);
+	-moz-transform: scale(.84);
+	-ms-transform: scale(.84);
+	width: 120%;
+	margin-left: -10%;
+	
+}
+.jmjb-box ul li h2{
+	margin-top: .08rem;
+}
+
+/*合作支持*/
+.hzzc-box{
+/*	display: block;*/
+}
+.hzzc-box ul li{
+	overflow: hidden;
+	height: 2.3rem;
+	margin-bottom: .24rem;
+}
+.hzzc-box ul .li-con{
+	width: 44%;
+}
+.hzzc-box ul li:nth-child(odd) .li-con{
+	margin-right: 2%;
+}
+.hzzc-box ul li:nth-child(even) .li-con{
+	margin-left: 2%;
+}
+.hzzc-box ul .li-img{
+	width: 54%;
+}
+.hzzc-box ul .li-img .img1{
+	width: 46%;
+	display: block;
+	height: 100%;
+}
+.hzzc-box ul .li-img .img2{
+	width: 52%;
+	display: block;
+	margin-left: 2%;
+	height: 100%;
+}
+.hzzc-box ul .li-img .img3{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.hzzc-box ul li p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+	line-height: .4rem;
+    margin-top: -.12rem;
+}
+
+
+
+
+
+

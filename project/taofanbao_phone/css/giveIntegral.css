@@ -1,0 +1,93 @@
+header{
+	background: #fff;
+}
+.content{
+	bottom: 0;
+	padding-bottom: 0;
+}
+
+.giveIntegral-top{
+	width: 100%;
+	background: #fff;
+}
+.giveIntegral-nav-list{
+	width: 100%;
+	border-bottom: 1px solid #d7d7d7;
+	height: .8rem;
+	line-height: .8rem;
+}
+.giveIntegral-nav-list li{
+	width: 50%;
+	float: left;
+	font-size: .3rem;
+	color: #999;
+	text-align: center;
+}
+.giveIntegral-nav-list li.active{
+	border-bottom: 1px solid #fccc18;
+	color: #222;
+}
+.giveIntegral-top .Integral-num{
+	padding: 0 .24rem;
+	height: .88rem;
+	line-height: .88rem;
+	font-size: .32rem;
+}
+.giveIntegral-top .Integral-num span{
+	color: #ff3232;
+}
+
+.content-list{
+	width: 100%;
+	margin-top: .16rem;
+}
+.content-list li{
+	background: #fff;
+	margin-bottom: .24rem;
+}
+.content-list li h2{
+	font-weight: normal;
+	margin: 0 0 .24rem .24rem;
+	padding-top: .24rem;
+	font-size: .32rem;
+}
+.content-list li .li-con{
+	border-bottom: 1px solid #d7d7d7;
+	padding: 0 .24rem;
+}
+.content-list li .li-con img{
+	width: .66rem;
+	height: .66rem;
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+	margin-right: .16rem;
+}
+.content-list li .li-con div h3{
+	font-weight: normal;
+	font-size: .28rem;
+	margin-bottom: .16rem;
+}
+.content-list li .li-con div p{
+	font-size: .24rem;
+	color: #666;
+	margin-bottom: .24rem;
+}
+.content-list li .li-bottom{
+	text-align: right;
+	margin-top: .16rem;
+	margin-bottom: .16rem;
+	padding-bottom: .16rem;
+	padding-right: .44rem;
+}
+.content-list li .li-bottom div{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+

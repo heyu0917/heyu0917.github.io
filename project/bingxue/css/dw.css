@@ -1,0 +1,364 @@
+.content .y-row{
+	position: relative;
+}
+.content .mask{
+	width: 155px;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	top: 0;
+	z-index: 2;
+	color: #fff;
+	font-size: 32px;
+}
+
+.common-title{
+	text-align: center;
+	color: #008BD5;
+	text-transform: uppercase;
+}
+.common-title .p1{
+	font-size: 14px;
+}
+.common-title .p2{
+	font-size: 36px;
+}
+.common-title .p2 strong{
+	font-size: 40px;
+}
+.common-title .p3{
+	font-size: 28px;
+	margin-top: 19px;
+}
+
+.part1{
+	width: 100%;
+	height: 840px;
+	position: relative;
+	overflow: hidden;
+}
+.part1 .mask{
+	top: 155px;
+}
+.part1 .title{
+    width: 446px;
+    margin-left: 508px;
+    color: #008BD5;
+    text-align: center;
+    padding-top: 132px;
+}
+.part1 .title .p1{
+	font-size: 38px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+.part1 .title .p2{
+	font-size: 34px;
+	margin-top: 25px;
+}
+.part1 .title .p2 strong{
+	font-weight: normal;
+	font-size: 44px;
+}
+.part1 .con{
+	width: 922px;
+    margin-top: 69px;
+    opacity: 1;
+    margin-left: 250px;
+    padding: 0 150px;
+    box-sizing: border-box;
+    background: rgba(1, 139, 214,.63);
+    height: 375px;
+    padding-top: 173px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+.part1 .con img{
+	display: block;
+	margin: 0 auto 20px;
+}
+.part1 .con p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.part1 .con:hover{
+	opacity: 1;
+	padding-top: 73px;
+}
+
+.part2{
+	width: 100%;
+	height: 670px;
+	position: relative;
+	overflow: hidden;
+}
+.part3{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 690px;
+}
+
+.ts-list{
+    width: 953px;
+    margin-left: 224px;
+    padding-top: 98px;
+}
+.ts-list li{
+	width: 440px;
+    float: left;
+    color: #008BD5;
+    text-align: center;
+}
+.ts-list li:nth-child(even){
+	float: right;
+}
+.ts-list li .p1{
+	font-size: 30px;
+}
+.ts-list li .p2{
+	font-size: 36px;
+    margin-top: 22px;
+}
+.ts-list li .li-con{
+    width: 100%;
+    margin-top: 72px;
+    color: #fff;
+    opacity: 0;
+    background: rgba(1, 139, 214,.63);
+    height: 305px;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    padding-top: 164px;
+    box-sizing: border-box;
+}
+.ts-list li .li-con img{
+    display: block;
+    width: 135px;
+    margin: 0 auto 25px;
+}
+.ts-list li .p3{
+    font-size: 16px;
+    line-height: 26px;
+}
+.ts-list li .li-con:hover{
+	opacity: 1;
+	padding-top: 64px;
+}
+.part3 .ts-list{
+    margin-left: 219px;
+    padding-top: 88px;
+}
+.part3 .ts-list .li-con{
+	margin-top: 75px;
+}
+.content .part2 .mask{
+    top: 57px;	
+}
+
+.part4{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 748px;
+}
+.content .part4 .mask{
+	top: 94px;
+}
+.part4 .common-title{
+    padding-top: 70px;
+    width: 467px;
+    margin-left: 461px;
+}
+.part4 .common-title .p3{
+    margin-right: 16px;
+}
+.part4 .con{
+    margin-left: 516px;
+    width: 632px;
+    color: #008BD5;
+    margin-top: 108px;
+}
+.part4 .con p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.part4 .con .p2{
+	margin-top: 133px;
+}
+
+.part5{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 930px;
+}
+.part5 .common-title{
+	margin-left: 134px;
+	padding-top: 21px;
+}
+.part5 .common-title .p3{
+    margin-right: 16px;
+}
+.part5 .con{
+	margin-top: 60px;
+    margin-left: 100px;
+}
+
+.part5 .bigSmall .large_box{
+	width: 800px;
+	margin: 0 auto 35px auto;
+	position: relative;
+}
+.part5 .bigSmall .large_box .big_list{
+	width: 510px;
+	height: 375px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.part5 .bigSmall .large_box ul{
+	position: relative;
+}
+/*宽高给固定值*/
+.part5 .bigSmall .large_box ul li{
+	position: relative;
+	width: 510px;
+	height: 375px
+}
+.part5 .bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+	border: 6px solid #008BD5;
+	box-sizing: border-box;
+}
+.part5 .bigSmall .small_box{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.part5 .bigSmall .small_box .small_list{
+	width: 840px;
+	height: 180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.part5 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.part5 .bigSmall .small_box .small_list ul li{
+	width: 250px;
+	height: 180px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 15px;
+	overflow: hidden;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+}
+.part5 .bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+	border: 3px solid #008BD5;
+	box-sizing: border-box;
+}
+.part5 .bigSmall .small_box ul li.on img{
+	border:3px solid #FCCF00;
+}
+.arrow{
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+	cursor: pointer;
+}
+.arrow-left{
+	left: 0;
+}
+.arrow-right{
+	right: 0;
+} 
+.arrow img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part5 .large_box .arrow {
+	margin-top: -34px;
+	width: 68px;
+}
+.part5 .small_box .arrow {
+	margin-top: -25px;
+	width: 50px;
+}
+
+.part6{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 800px;
+}
+.content .part6 .mask{
+	top: 80px;
+}
+.part6 .common-title{
+    width: 800px;
+    margin-left: 300px;
+    padding-top: 52px;
+}
+.part6 .common-title .p1{
+	font-size: 16px;
+}
+.part6 .p3{
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    width: 391px;
+    margin-left: 205px;
+    margin-top: 252px;
+    color: #008BD5;
+}
+
+.part7{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 880px;
+}
+.part7 .common-title{
+    width: 600px;
+    margin-left: 200px;
+    padding-top: 90px;
+}
+.part7 .common-title .p1{
+	font-size: 16px;
+}
+.part7 .p3{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 1031px;
+    margin-left: 176px;
+    margin-top: 421px;
+    color: #fff;
+}
+
+
+.part2 .bg-img{
+	margin-left: 1px;
+}
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>罗玛之恋</title>
+    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--网站开启对 web app 程序的支持-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--改变顶部状态条的颜色-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/index.css" type="text/css"/>	
+	<script type="text/javascript" src="../js/jquery.min.3_1_0.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jq.lazyload.js"></script>
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 +'px';
+    </script>
+</head>
+<body>
+	<header>
+		<!--<a href="index.html" class="left-box">
+			<img src="../img/back.png" alt="" />
+		</a>-->
+		<img src="../img/header.png" alt="" class="header-img"/>
+		<img src="../img/logo.png" alt="" class="logo-img"/>
+	</header>
+	
+	<div class="content">
+		<div class="swiper-container banner-swiper">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="../img/banner1.jpg" alt="" class="lazy"/></div>
+		        <div class="swiper-slide"><img src="../img/banner1.jpg" alt="" class="lazy"/></div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		</div>
+		<div class="content-main">
+			<!--底图-->
+			<img src="../img/bg.jpg" alt="" class="main-bg" class="lazy"/>
+			<div class="nav-wrap">
+				<ul>
+					<li>
+						<a href="lmzl.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>罗玛之恋</h2>
+						</a>
+					</li>
+					<li>
+						<a href="ygts.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>意国特色</h2>
+						</a>
+					</li>
+					<li>
+						<a href="sxmw.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>奢享美味</h2>
+						</a>
+					</li>
+					<li>
+						<a href="schx.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>市场航向</h2>
+						</a>
+					</li>
+					<li>
+						<a href="hzzl.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>合作专栏</h2>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="part1">
+				<!--<div class="part-img">
+					<img src="../img/index1.png" alt="" class="lazy"/>
+				</div>-->
+				<div class="part1-title">
+					<h1>花样百出<img src="../img/index2.png" alt="" />爱你不变</h1>
+				</div>
+				<ul class="clearfix">
+					<li>
+						<span></span>
+						<img src="../img/index_1.jpg" alt="" />
+					</li>
+					<li>
+						<span></span>
+						<img src="../img/index_2.jpg" alt="" />
+					</li>
+					<li>
+						<span></span>
+						<img src="../img/index_3.jpg" alt="" />
+					</li>
+					<li>
+						<span></span>
+						<img src="../img/index_4.jpg" alt="" />
+					</li>
+				</ul>
+			</div>
+			<div class="part2">
+				<h2>-- 合作恋爱ING --</h2>
+				<div class="part2-wrap">
+					<img src="../img/leftarrow.png" alt="" class="leftarrow"/>
+					<div class="swiper-container swiper2">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide"><img src="../img/index2.jpg" alt="" class="lazy"/></div>
+					        <div class="swiper-slide"><img src="../img/index2.jpg" alt="" class="lazy"/></div>
+					        <div class="swiper-slide"><img src="../img/index2.jpg" alt="" class="lazy"/></div>
+					    </div>
+					</div>
+					<img src="../img/rightarrow.png" alt="" class="rightarrow"/>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+	
+	<div class="footer">
+		<ul>
+			<li>
+				<a href="tel:10086">电话咨询</a>
+			</li>
+			<li>
+				<a href="index.html">回到首页</a>
+			</li>
+			<li>
+				<a href="lMessage.html">在线留言</a>
+			</li>
+		</ul>
+	</div>
+	
+	<script type="text/javascript">
+		var mySwiper = new Swiper ('.banner-swiper', {
+   			loop: true,
+    		pagination: '.swiper-pagination',    
+		})
+		var swiper2 = new Swiper ('.swiper2', {
+   			slidesPerView : 3,
+			spaceBetween : 5,
+    		prevButton: '.leftarrow',
+			nextButton: '.rightarrow',
+			loop: true
+		})
+	</script>
+</body>
+</html>

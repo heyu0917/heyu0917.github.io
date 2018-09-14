@@ -1,0 +1,342 @@
+.part1 .item{
+	position: relative;
+	color: #E1BE7B;
+}
+.part1 .item1 .box{
+    position: absolute;
+    top: 15%;
+    width: 50%;
+    left: 51%;
+    z-index: 2;
+}
+.part1 .item1 .box .p1{
+	font-size: .4rem;
+	line-height: 1;
+}
+.part1 .item1 .box .p2{
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.part1 .item1 .box .p3{
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+.part1 .item1 .box .p4{
+    font-size: .32rem;
+    margin-top: 78%;
+}
+.part1 .item2 .box{
+	position: absolute;
+	top: 12%;
+	width: 45%;
+	left: 5%;
+	z-index: 2;
+	text-align: center;
+}
+.part1 .item2 .p1{
+    width: 90%;
+    height: .44rem;
+    font-size: .28rem;
+    border: 1px solid #E1BE7B;
+    text-align: center;
+    line-height: .44rem;
+    margin: 0 auto;
+}
+.part1 .item2 .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+	margin-top: .04rem;
+}
+.part1 .item2 .p3{
+	position: absolute;
+	top: 65%;
+	width: 45%;
+	left: 5%;
+	z-index: 2;
+	text-align: center;
+    font-size: .4rem;
+}
+.part1 .item2 .p4{
+    position: absolute;
+    left: 4%;
+    bottom: 0;
+    z-index: 2;
+    font-size: .24rem;
+    width: 69%;
+    background: #E1BE7B;
+    height: .36rem;
+    line-height: .36rem;
+    color: #000;
+    text-align: center;
+}
+.part1 .item3 .box{
+    position: absolute;
+    top: 26%;
+    left: 61%;
+    width: 40%;
+    z-index: 2;
+}
+.part1 .item3 .p1{
+	font-size: .4rem;
+    line-height: 1.2;
+}
+.part1 .item3 .p2{
+	font-size: .26rem;
+	line-height: 1;
+}
+.part1 .item3 .p3{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+}
+.part1 .item3 .p4{
+    font-size: .26rem;
+    font-weight: bold;
+    margin-top: 42%;
+}
+
+
+.part2{
+	width: 100%;
+	height: 5.1rem;
+	overflow: hidden;
+}
+.part2 .title{
+	position: relative;
+	padding-top: .32rem;
+	color: #E1BE7B;
+	text-align: center;
+}
+.part2 .title .line{
+	width: 38%;
+	height: 2px;
+	background: #E1BE7B;
+	position: absolute;
+	top: .94rem;
+	z-index: 2;
+}
+.part2 .title .line1{
+	left: 0;
+}
+.part2 .title .line2{
+	right: 0;
+}
+.part2 .title .box{
+	width: 2.5rem;
+	border: 2px solid #E1BE7B;
+	height: .72rem;
+	margin: 0 auto;
+	padding-top: .04rem;
+}
+.part2 .title .box .p1{
+    font-size: .34rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: .08rem;
+    margin-bottom: .02rem;
+}
+.part2 .title .box .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+.part2 .desc{
+	text-align: center;
+	font-size: .28rem;
+	margin-top: .16rem;
+	margin-bottom: .16rem;
+	color: #E1BE7B;
+}
+.part2 .slide-carousel {
+  position: relative;
+  width: 6.72rem;
+  height: 2.84rem;
+  margin: 0 auto;
+}
+.part2 .slide-3d .item-list li p{
+	position: absolute;
+	bottom: .2rem;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+	left: 0;
+	height: .4rem;
+	line-height: .4rem;
+	overflow: hidden;
+	font-size: .24rem;
+	background: rgba(225, 190, 123,.8);
+	opacity: 0;
+}
+.part2 .slide-3d .item-list li.item2 p{
+	opacity: 1;
+}
+.part2 .slide-3d .item-list li img{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.part2 .slide-3d .item-list li {
+  width: 4.72rem;
+  height: 2.84rem;
+  border: 1px solid #E1BE7B;
+  box-sizing: border-box;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.part2 .slide-3d .item-list li.item0 {
+  transform: translate3d(-1rem, 0, 0) scale(0.7);
+}
+.part2 .slide-3d .item-list li.item1 {
+  transform: translate3d(0, 0, 0) scale(0.7);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.part2 .slide-3d .item-list li.item2 {
+  transform: translate3d(1rem, 0, 0) scale(1);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 3;
+}
+.part2 .slide-3d .item-list li.item3 {
+  transform: translate3d(2rem, 0, 0) scale(0.7);
+  transform-origin: 100% 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.part2 .slide-3d .arrow{
+	position: absolute;
+	top: 50%;
+	width: .6rem;
+	height: 1rem;
+	z-index: 2;
+	margin-top: -.5rem;
+	padding-top: .3rem;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.part2 .slide-3d .item-prev{
+	left: 0;
+}
+.part2 .slide-3d .item-next{
+	right: 0;
+}
+.part2 .slide-3d .arrow img{
+	width: .4rem;
+	height: .4rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.part3{
+	color: #E1BE7B;
+}
+.part3 .item1{
+	position: relative;
+}
+.part3 .item1 .p1{
+    position: absolute;
+    top: 23%;
+    right: 0;
+    z-index: 2;
+    width: 34%;
+    font-size: .28rem;
+    line-height: 1.2;
+}
+.part3 .item1 .p1 strong{
+	display: block;
+}
+
+.part3 .item2{
+	position: relative;
+}
+.part3 .item2 .p1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    font-size: .36rem;
+    width: 100%;
+    text-align: center;
+}
+.part3 .item2 .p2{
+    position: absolute;
+    top: 29%;
+    left: 4%;
+    z-index: 2;
+    width: 38%;
+    font-size: .24rem;
+    line-height: 1.3;
+}
+
+.part4 .box{
+    position: absolute;
+    color: #E1BE7B;
+    top: 9%;
+    left: 43%;
+    width: 57%;
+    z-index: 2;
+}
+.part4 .p1{
+	font-size: .48rem;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.part4 .p2{
+	font-size: .4rem;
+}
+.part4 .p3{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+
+.part4{
+	position: relative;
+}
+
+

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/search.css" />
+	    <link rel="stylesheet" href="css/home.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/home.js"></script>
+		<script type="text/javascript" src="js/swipe.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="input-text">
+				<a href="goods_list.html"><input type="text" placeholder="输入关键词" id="keyword_input" readonly/></a>
+				<img src="img/search.png" alt="" />
+			</div>
+			<a href="" class="city">乌鲁木齐</a>
+			<a href="" class="news"><img src="img/news.png" alt="" /></a>
+		</div>
+		<!--content-->
+		<div class="content">
+			<div class="banner">
+				<div id="banner_list_wrap">
+					<ul class="banner-list" id="banner_list">
+						<li><a href="#"><img src="img/banner1.jpg"></a></li>
+						<li><a href="#"><img src="img/banner2.jpg"></a></li>
+						<li><a href="#"><img src="img/banner3.jpg"></a></li>
+						<li><a href="#"><img src="img/banner4.jpg"></a></li>
+						<li><a href="#"><img src="img/banner3.jpg"></a></li>
+					</ul>
+				</div>
+				<ul class="banner-btn" id="banner_btn"></ul>
+			</div>
+			
+			<!--area-item-->
+			<div class="area-item">
+				<ul class="area-item-list comWidth">
+					<li><a href="promotion.html"><img src="img/area1.png"/>促销专区</a></li>
+					<li><a href="new.html"><img src="img/area2.png"/>新品专区</a></li>
+					<li><a href="brake.html"><img src="img/area3.png"/>刹车制动</a></li>
+					<li><a href="seal.html"><img src="img/area4.png"/>密封系列</a></li>
+					<li><a href="rubber.html"><img src="img/area5.png"/>橡胶缓冲</a></li>
+					<li><a href="belt.html"><img src="img/area6.png"/>传动带</a></li>
+					<li><a href="coupon.html"><img src="img/area7.png"/>优惠券</a></li>
+					<li><a href="sort.html"><img src="img/area8.png"/>更多</a></li>
+				</ul>
+			</div>
+			
+			<!--specially selected-->
+			<div class="specially-selected clearfix">
+				<h2 class="total-h2"><img src="img/heart.png" alt="" /><span>特别精选</span></h2>
+				<div class="selected-left fl-lt">
+					<div class="selected-left-top">
+						<a href="detail.html">
+							<h3>热销爆款</h3>
+							<h4>尽享<span>超高性能</span></h4>
+							<p>特别特涨紧轮 畅想品质</p>
+							<img src="img/sort5.jpg" alt="" class="sort5-img"/>
+						</a>
+					</div>
+					<div class="selected-left-bottom">
+						<div class="selected-lb">
+							<a href="detail.html">
+								<h3>特别特离合</h3>
+								<p>敏捷高效安全</p>
+								<img src="img/sort6.jpg" alt="" class="sort-img"/>
+							</a>
+						</div>
+						<div class="selected-lb">
+							<a href="detail.html">
+								<h3>扭力胶芯</h3>
+								<p>大力神</p>
+								<img src="img/sort3.jpg" alt="" class="sort-img"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="selected-right fl-lt">
+					<div class="selected-right-top">
+						<div class="selected-rt">
+							<a href="detail.html">
+								<h3>百年品牌</h3>
+								<h4>保障<span>性能安全</span></h4>
+								<p class="p1">特别特刹车泵</p>
+								<p class="p2">安全有保障</p>
+								<img src="img/sort4.jpg" alt="" class="sort4-img"/>
+							</a>
+						</div>
+						<div class="selected-rt selected-rtb">
+							<a href="detail.html">
+								<h3>强势来袭</h3>
+								<h4>开启<span>超高性能</span></h4>
+								<p class="p1">特别特传动带</p>
+								<p class="p2">耐用静心高效</p>
+								<img src="img/sort1.jpg" alt="" class="sort4-img"/>
+							</a>
+						</div>
+					</div>
+					<div class="selected-right-bottom">
+						<div class="selected-lb">
+							<a href="detail.html">
+								<h3>排气垫</h3>
+								<p>清洁保护</p>
+								<img src="img/sort6.jpg" alt="" class="sort-img"/>
+							</a>
+						</div>
+						<div class="selected-lb border-right">
+							<a href="detail.html">
+								<h3>油封</h3>
+								<p>高性能</p>
+								<img src="img/sort3.jpg" alt="" class="sort-img"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--hot-->
+			<div class="hot clearfix">
+				<h2 class="total-h2"><img src="img/hot.png" alt="" /><span>热门好货</span></h2>
+				<div class="hot-con">
+					<ul class="hot-list">
+						<li>
+							<a href="detail.html">
+								<h3 class="hot-h3 fl-lt">特别特传动带<span>耐用的安全</span></h3>
+								<img src="img/hot1.png" alt="" class="fl-lt hot1-img"/>
+							</a>
+						</li>
+						<li>
+							<a href="detail.html">
+								<h3 class="hot-h3 fl-lt">钢板支座<span>高品质</span></h3>
+								<img src="img/hot2.png" alt="" class="fl-lt hot2-img"/>
+							</a>
+						</li>
+						<li>
+							<a href="detail.html">
+								<h3 class="hot-h3 fl-lt">J6小八孔<span>紧致的安全</span></h3>
+								<img src="img/hot3.jpg" alt="" class="fl-lt hot-img"/>
+							</a>
+						</li>
+						<li>
+							<a href="detail.html">
+								<h3 class="hot-h3 fl-lt">制动调整臂<span>静音控制型</span></h3>
+								<img src="img/hot4.jpg" alt="" class="fl-lt hot-img"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--recommend-->
+			<div class="recommend clearfix">
+				<h2 class="total-h2"><img src="img/recommend.png" alt="" /><span>为你推荐</span></h2>
+				<div class="comWidth recommend-con">
+					<ul class="recommend-list">
+						<li class="fl-lt">
+							<a href="detail.html">
+								<img src="img/recommend1.jpg" alt="" />
+								<h3 class="recommend-h3">壳牌汽机油(黄壳HX6)<span>￥会员可见</span></h3>
+							</a>
+						</li>
+						<li class="fl-rt">
+							<a href="detail.html">
+								<img src="img/recommend2.jpg" alt="" />
+								<h3 class="recommend-h3">壳牌汽机油(黄壳HX6)<span>￥会员可见</span></h3>
+							</a>
+						</li>
+						<li class="fl-lt">
+							<a href="detail.html">
+								<img src="img/recommend3.jpg" alt="" />
+								<h3 class="recommend-h3">壳牌汽机油(黄壳HX6)<span>￥会员可见</span></h3>
+							</a>
+						</li>
+						<li class="fl-rt">
+							<a href="detail.html">
+								<img src="img/recommend4.jpg" alt="" />
+								<h3 class="recommend-h3">壳牌汽机油(黄壳HX6)<span>￥会员可见</span></h3>
+							</a>
+						</li>
+						<li class="fl-lt">
+							<a href="detail.html">
+								<img src="img/recommend5.jpg" alt="" />
+								<h3 class="recommend-h3">壳牌汽机油(黄壳HX6)<span>￥会员可见</span></h3>
+							</a>
+						</li>
+						<li class="fl-rt">
+							<a href="detail.html">
+								<img src="img/recommend6.jpg" alt="" />
+								<h3 class="recommend-h3">壳牌汽机油(黄壳HX6)<span>￥会员可见</span></h3>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>				
+			<!--smile-->
+			<div class="smile">
+				<img src="img/smile.png" alt="" />
+				<p>没找到感兴趣的，去<span>分类</span>看看</p>
+			</div>				
+		</div>
+			
+		<!--footer-->
+		<div class="footer">
+			<ul>
+				<li><a href="home.html" class="light"><img src="img/home_light.png"/>首页</a></li>
+				<li><a href="sort.html"><img src="img/sort.png"/>分类</a></li>
+				<li><a href="shoppingCar.html"><img src="img/shop.png"/>购物车</a></li>
+				<li><a href="my.html"><img src="img/my.png"/>我的</a></li>
+			</ul>
+		</div>
+		
+	</body>
+	
+	
+<script type="text/javascript">
+	var len = document.getElementById('banner_list').getElementsByTagName('li').length;
+	var btn = document.getElementById("banner_btn");
+	for(var i = 0; i < len; i++){
+		btn.innerHTML += '<li></li>';
+	}
+	var lis = document.getElementById('banner_btn').getElementsByTagName('li')[0].className = 'light';
+	
+	var slider = Swipe(document.getElementById('banner_list_wrap'), {
+			auto: 3000,
+			continuous: true,
+			callback: function(pos) {
+				var i = bullets.length;
+				while (i--) {
+					bullets[i].className = ' ';
+				}
+				bullets[pos].className = 'light';
+			}
+
+		});
+	var bullets = document.getElementById('banner_btn').getElementsByTagName('li');		
+
+</script>
+</html>

@@ -1,0 +1,294 @@
+header{
+	background: #fff;
+	left: auto;
+	top: auto;
+}
+header .left-img-box img{
+	width: .23rem;
+	height: .4rem;
+	margin-left: .24rem;
+	margin-top: .24rem;
+}
+
+/*收货地址*/
+.address-popup,.add-address-popup,.select-province-popup,.edit-address-popup{
+	position: fixed;
+	left: 100%;
+	top: 0;
+	z-index: 112;
+	background: #F3F5F7;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	width: 100%;
+	height: 100%;
+}
+.address-popup{
+	left: 0;
+}
+	/*当没有收货地址*/
+.noAddress{
+	width: 100%;
+	padding-top: 1.2rem;
+	border-top: 1px solid #E6E6E6;
+	margin-top: .88rem;
+	display: none;
+}
+.noAddressImg{
+	width: 1.31rem;
+	height: 1.39rem;
+	display: block;
+	margin: 0 auto;
+}
+.noAddress h1{
+	font-size: .36rem;
+	margin-top: .24rem;
+	text-align: center;
+	font-weight: normal;
+}
+.noAddress p{
+	width: 1.88rem;
+	height: .66rem;
+	border: 1px solid #fccc18;
+	font-size: .3rem;
+	color: #fccc18;
+	text-align: center;
+	line-height: .66rem;
+	margin: .32rem auto 0 auto;
+	border-radius: 5px;
+}
+	/*有收货地址*/
+.haveAddress{
+	position: absolute;
+	top: .88rem;
+	left: 0;
+	font-size: .24rem;
+	width: 100%;
+	bottom: 0;
+	overflow: auto;
+}	
+.haveAddress-list li{
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: .24rem;
+	overflow: hidden;
+}
+.haveAddress-list-liT{
+	padding: 0 .24rem;
+	border-bottom: 1px solid#E6E6E6;
+	height: 1.5rem;
+}	
+.haveAddress-list-liT h3{
+	font-size: .3rem;
+	margin-top: .16rem;
+	line-height: .56rem;
+}
+.haveAddress-list-liT h3 span{
+	margin-left: .4rem;
+}
+.haveAddress-list-liT p{
+	font-size: .26rem;
+	color: #666;
+}
+.haveAddress-list-liD{
+	padding: 0 .24rem;
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .26rem;
+}
+.haveAddress-img img{
+	width: .32rem;
+	height: .32rem;
+	margin-right: .08rem;
+	margin-top: -.08rem;
+	vertical-align: middle;	
+}
+.edit-btn{
+	margin-right: .24rem;
+	display: inline-block;
+}
+.delete-btn{
+	display: inline-block;
+}
+.edit-btn img,.delete-btn img{
+	width: .27rem;
+	height: .27rem;
+	margin-right: .08rem;
+	margin-top: -.08rem;
+	vertical-align: middle;	
+}
+.add-new-address{
+	position: absolute;
+	bottom: .4rem;
+	left: 0;
+	width: 100%;
+	background: #F3F5F7;
+}
+.add-new-address i{
+	font-size: .44rem;
+	margin-right: .08rem;
+}
+	
+	/*添加地址*/
+.add-address-con,.select-province-con,.select-city-con,.edit-address-con{
+	position: absolute;
+	top: .88rem;
+	left: 0;
+	border-top: 1px solid #E6E6E6;
+	font-size: .24rem;
+	width: 100%;
+	bottom: 0;
+}
+.add-address-list,.edit-address-list{
+	background: #fff;
+	width: 100%;
+}
+.add-address-list li,.edit-address-list li{
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: .3rem;
+	padding: 0 .24rem;
+}
+.add-address-list li input,.edit-address-list li input{
+	width: 64%;
+	padding: 0 .4rem;
+	height: .88rem;
+	line-height: .88rem;
+	font-size: .3rem;
+}
+.arrowR-img{
+	width: .24rem;
+	height: .14rem;
+	margin-left: .16rem;
+	vertical-align: middle;
+	display: inline-block;
+}
+.add-address-list i,.edit-address-list i{
+	font-style: normal;
+	vertical-align: middle;
+	display: inline-block;
+	color: #999;
+}
+.set-defalut{
+	padding: 0 .24rem;
+	background: #fff;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	height: .88rem;
+	line-height: .88rem;
+	margin-top: .24rem;
+	margin-bottom: 2rem;
+}
+.add-address-list .detail-address,.edit-address-list .detail-address{
+	height: 1.8rem;
+	line-height: .4rem;
+}
+.detail-address textarea{
+	width: 100%;
+	height: 1.5rem;
+	line-height: .34rem;
+	padding-top: .24rem;
+	resize: none;
+	font-size: .3rem;
+}
+.add-address-switch{
+	margin-top: .16rem;
+}
+
+	/*选择地区 省 市*/
+.select-province-con li,.select-city-con li{
+	height: .88rem;
+	line-height: .88rem;
+	padding: 0 .24rem;
+	background: #fff;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: .24rem;
+}
+.select-city-popup{
+	display: none;
+}
+.select-city-popup{
+	position: fixed;
+	left:0;
+	top: 0;
+	z-index: 112;
+	background: #F3F5F7;
+	width: 100%;
+	display: none;	
+}
+
+/*补充*/
+.select-area{
+	position: relative;
+}
+.select-area .input-text{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: .88rem;
+    padding-left: 1.9rem;
+    background: transparent;
+    padding-right: 1.8rem;
+    box-sizing: border-box;
+}
+.switch-box{
+	margin-top: .24rem;
+	border-top: 1px solid #d7d7d7;
+}
+
+#showCityPicker1,
+#showCityPicker2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+/*mui css*/
+.mui-backdrop {
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+}
+.mui-btn, button, input[type=button], input[type=reset], input[type=submit] {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    cursor: pointer;
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.mui-btn-blue, .mui-btn-primary, input[type=submit] {
+    color: #fff;
+    border: 1px solid #007aff;
+    background-color: #007aff;
+}

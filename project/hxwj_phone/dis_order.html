@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/distribution.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript" src="js/distribution.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+<body>
+	<!--header-->
+	<div class="header-back">
+		<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+		<h1>分销订单</h1>
+	</div>
+	<div class="detailed-nav">
+		<ul class="detailed-nav-list dis-order-list" id="detailed_nav_list">
+			<li class="select">所有订单</li>
+			<li>待付款</li>
+			<li>已付款</li>
+			<li>已完成</li>
+		</ul>
+	</div>
+	<!--content-->
+	<!--all content-->
+	<div class="detailed-content all-content">		
+		<ul class="detailed-list">
+			<li>
+				<p class="detailed-li-p1"><span class="fl-lt">订单号：SH201607231430121642(一级)</span><em class="fl-rt">+ 5.90</em></p>
+				<p class="detailed-li-p2"><span class="fl-lt">2016-09-04 13:39</span><span class="fl-rt">待付款</span></p>
+			</li>
+			<li>
+				<p class="detailed-li-p1"><span class="fl-lt">订单号：SH201607231430121642(一级)</span><em class="fl-rt">+ 5.90</em></p>
+				<p class="detailed-li-p2"><span class="fl-lt">2016-09-04 13:39</span><span class="fl-rt">已打款</span></p>
+			</li>
+			<li>
+				<p class="detailed-li-p1"><span class="fl-lt">订单号：SH201607231430121642(一级)</span><em class="fl-rt">+ 5.90</em></p>
+				<p class="detailed-li-p2"><span class="fl-lt">2016-09-04 13:39</span><span class="fl-rt">已完成</span></p>
+			</li>
+		</ul>
+		<div class="detailed-all-footer">
+			<span class="fl-lt">分销订单(<i>3</i>)</span>
+			<span class="fl-rt">预计：<strong>+17.40</strong></span>
+		</div>
+	</div>
+	<!--待付款-->
+	<div class="detailed-content">		
+		<ul class="detailed-list">
+			<li>
+				<p class="detailed-li-p1"><span class="fl-lt">订单号：SH201607231430121642(一级)</span><em class="fl-rt">+ 5.90</em></p>
+				<p class="detailed-li-p2"><span class="fl-lt">2016-09-04 13:39</span><span class="fl-rt">待付款</span></p>
+			</li>
+		</ul>
+		<div class="detailed-all-footer">
+			<span class="fl-lt">佣金明细(<i>1</i>)</span>
+			<span class="fl-rt">预计佣金：<strong>+5.90</strong></span>
+		</div>
+	</div>
+	<!--已付款-->
+	<div class="detailed-content">		
+		<ul class="detailed-list">
+			<li>
+				<p class="detailed-li-p1"><span class="fl-lt">订单号：SH201607231430121642(一级)</span><em class="fl-rt">+ 5.90</em></p>
+				<p class="detailed-li-p2"><span class="fl-lt">2016-09-04 13:39</span><span class="fl-rt">已打款</span></p>
+			</li>
+		</ul>
+		<div class="detailed-all-footer">
+			<span class="fl-lt">佣金明细(<i>1</i>)</span>
+			<span class="fl-rt">预计佣金：<strong>+5.90</strong></span>
+		</div>
+	</div>
+	<!--已完成-->
+	<div class="detailed-content">		
+		<ul class="detailed-list">
+			<li>
+				<p class="detailed-li-p1"><span class="fl-lt">订单号：SH201607231430121642(一级)</span><em class="fl-rt">+ 5.90</em></p>
+				<p class="detailed-li-p2"><span class="fl-lt">2016-09-04 13:39</span><span class="fl-rt">已完成</span></p>
+			</li>
+		</ul>
+		<div class="detailed-all-footer">
+			<span class="fl-lt">佣金明细(<i>1</i>)</span>
+			<span class="fl-rt">预计佣金：<strong>+5.90</strong></span>
+		</div>
+	</div>
+	
+	<!--空页面-->
+	<div class="detailed-content" id="dis_order_empty">		
+		<div class="empty-img">
+			<img src="img/empty_order_icon.png" alt="" class="empty-order-icon"/>
+			<img src="img/empty_order.png" alt="" class="empty-order"/>
+		</div>
+		<div class="detailed-all-footer">
+			<span class="fl-lt">佣金明细(<i>0</i>)</span>
+			<span class="fl-rt">预计佣金：<strong>0</strong></span>
+		</div>
+	</div>
+	
+</body>
+</html>

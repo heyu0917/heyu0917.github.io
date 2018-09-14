@@ -1,0 +1,361 @@
+/*经营优势*/
+.hz1 .ab-img1{
+	left: 0;
+	bottom: -2px;
+}
+.hz1 .title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.hz1 .title .box{
+	margin: 0 auto 20px;
+	width: 600px;
+	border: 2px solid #9F1F24;
+}
+.hz1 .title .box p{
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 5px;
+	padding-left: 5px;
+}
+.hz1 .title .box .p2{
+	line-height: 1.2;
+	padding-bottom: 4px;
+	color: #F1C71D;
+	background: #9F1F24;
+}
+
+.hz1 ul li{
+	float: left;
+	width: 440px;
+	margin-right: 20px;
+	border: 4px solid #341F0B;
+	box-sizing: border-box;
+	border-bottom: 0;
+	margin-bottom: 20px;
+	background: #341F0B;
+	color: #F1C71D;
+}
+.hz1 ul li:nth-child(even){
+	margin-right: 0;
+}
+.hz1 ul li img{
+	display: block;
+	width: 100%;
+}
+.hz1 ul li .p1{
+	font-size: 22px;
+	margin-top: 8px;
+	text-align: center;
+	font-weight: bold;
+}
+.hz1 ul li .p2{
+	padding: 0 12px;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 3px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+.hz1 ul li:nth-child(4){
+	height: 355px;
+}
+
+
+/*市场优势*/
+.hz2 .ab-img1{
+	left: 0;
+	top: 300px;
+}
+.hz2 .ab-img2{
+	right: 0;
+	bottom: 100px;
+}
+.hz2 .con{
+	width: 860px;
+	margin: 0 auto;
+}
+.hz2 .title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.hz2 .title p{
+	display: inline-block;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #341F0B;
+	position: relative;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 5px;
+	padding-left: 5px;
+}
+.hz2 .title p:before{
+	content: '';
+	width: 230px;
+	height: 4px;
+	background: #341F0B;
+	position: absolute;
+	bottom: -3px;
+}
+.hz2 .title1 p:before{
+	left: 0;
+}
+.hz2 .title2 p:before{
+	right: 0;
+}	
+
+.hz2 .box {
+	margin-bottom: 50px;
+}
+.hz2 .box .fl-lt{
+	width: 360px;
+}
+.hz2 .box .fl-rt{
+	width: 470px;
+}
+.hz2 .box .fl-rt .p1{
+	font-size: 14px;
+	line-height: 26px;
+	text-indent: 28px;
+	margin-top: 20px;
+}
+.hz2 .box .fl-rt .p2{
+	font-size: 70px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 30px;
+    text-align: right;
+}
+.hz2 .box .fl-rt .p2 span{
+	margin: 0 15px;
+    font-size: 26px;
+    display: inline-block;
+    line-height: 70px;
+    vertical-align: top;
+}
+
+.hz2 ul li{
+	margin-bottom: 20px;
+	clear: both;
+	overflow: hidden;
+}
+.hz2 ul li .li-img{
+	width: 440px;
+}
+.hz2 ul li .li-img img{
+	display: block;
+	width: 100%;
+}
+.hz2 ul li .li-con{
+	width: 400px;
+	font-size: 0;
+}
+.hz2 ul li .li-con .p1{
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #341F0B;
+	margin-bottom: 5px;
+	margin-top: 16px;
+}
+.hz2 ul li .li-con .p2{
+	font-size: 14px;
+	line-height: 24px;
+}
+.hz2 ul li:nth-child(2) .li-con{
+	padding-top: 15px;
+}
+
+
+/*盈利优势*/
+.hz3 .ab-img1{
+	left: 0;
+	bottom: 20px;
+}
+.hz3 .ab-img2{
+	right: 0;
+	top: 200px;
+}
+.hz3 .title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.hz3 .title .box{
+	margin: 0 auto 20px;
+	position: relative;
+	width: 435px;
+	font-size: 0;
+}
+.hz3 .title .box:before,
+.hz3 .title .box:after{
+    content: '';
+    width: 110px;
+    height: 44px;
+    border: 2px solid #9F1F24;
+    position: absolute;
+    top: 21px;
+    z-index: -1;
+}
+.hz3 .title .box:before{
+	border-right: 0;
+	left: -30px;
+}
+.hz3 .title .box:after{
+	border-left: 0;
+	right: -30px;
+}
+.hz3 .title .box p{
+	font-size: 32px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.hz3 .title .box .p1{
+	padding-left: 5px;
+	color: #9F1F24;
+}
+.hz3 .title .box .p2{
+	display: inline-block;
+	line-height: 1.2;
+	color: #F1C71D;
+	background: #9F1F24;
+	padding: 0 10px 4px;
+	margin-top: 5px;
+}
+
+.hz3 ul{
+	margin-top: 70px;
+}
+.hz3 ul li{
+	width: 235px;
+	height: 235px;
+	position: relative;
+	float: left;
+	margin-right: 97px;
+	margin-top: -30px;
+	text-align: center;
+}
+.hz3 ul li:nth-child(1),
+.hz3 ul li:nth-child(6){
+	margin-left: 165px;
+}
+.hz3 ul li:nth-child(5){
+	margin-right: 0;
+}
+.hz3 ul li img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.hz3 ul li .p1{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 32px;
+}
+.hz3 ul li .line{
+	width: 50px;
+	height: 2px;
+	background: #341F0B;
+	margin: 10px auto;
+}
+.hz3 ul li .p2{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*项目优势*/
+.hz4 .ab-img1{
+	left: 0;
+	top:700px;
+}
+.hz4 .ab-img2{
+	right: 0;
+	top: 200px;
+}
+.hz4 .ab-img3{
+	right: 0;
+	bottom: 50px;
+}
+.hz4 .title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.hz4 .title .box{
+	margin: 0 auto 20px;
+	position: relative;
+}
+.hz4 .title .box p{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 60px;
+	letter-spacing: 5px;
+}
+
+.hz4 ul li{
+	width: 283px;
+	margin-right: 25px;
+	text-align: center;
+	margin-bottom: 25px;
+	float: left;
+}
+.hz4 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hz4 ul li img{
+	display: block;
+	width: 100%;
+	border-radius: 18px;
+	border: 4px solid #341F0B;
+	box-sizing: border-box;
+}
+.hz4 ul li .p1{
+	margin-top: 5px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.hz4 ul li .line{
+	width: 90px;
+	height: 2px;
+	background: #341F0B;
+	margin: 4px auto;
+}
+.hz4 ul li .p2{
+	font-size: 18px;
+	font-weight: bold;
+}
+.hz4 ul li .p3{
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 4px;
+	text-align: justify;
+	padding: 0 5px;
+}
+.hz4 ul li:nth-child(6),
+.hz4 ul li:nth-child(4),
+.hz4 ul li:nth-child(5){
+	height: 473px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

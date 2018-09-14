@@ -1,0 +1,138 @@
+header{
+	background: #fff;
+	left: auto;
+	top: auto;
+}
+header .left-img-box img{
+	width: .23rem;
+	height: .4rem;
+	margin-left: .24rem;
+	margin-top: .24rem;
+}
+
+.safe-con,.safeTips-con{
+	position: absolute;
+	top: .88rem;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #d7d7d7;
+}
+.safe-list{
+	margin-bottom: .24rem;
+}
+.safe-list{
+	background: #fff!important;
+	padding-left: .24rem;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: .28rem;
+	overflow: hidden;
+}
+.safe-list li{
+	padding-right: .24rem;
+	overflow: hidden;
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom: 1px solid #d7d7d7;
+}
+.safe-list li a{
+	display: block;
+	height: 100%;
+}
+.safe-list li:last-child{
+	border-bottom: 0;
+}
+.safe-con img{
+	width: .18rem;
+	height: .3rem;
+	margin-top: .29rem;
+}
+
+
+/*账户与安全*/
+.safe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+}
+.safe-prompt{
+	background: #FFFFFF;
+	border-bottom: 1px solid #d7d7d7;
+	border-top: 1px solid #d7d7d7;
+	height: .88rem;
+	line-height: .88rem;
+	padding-left: .24rem;
+	padding-right: .24rem;
+	font-size: .28rem;
+}
+
+/*安全Tips popup*/
+.safeTips-popup{
+	position: fixed;
+	left: 100%;
+	top: 0;
+	width: 100%;
+	background: #FFFFFF;
+	font-size: .24rem;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+}
+.safeTips-item{
+	margin: .24rem 0;
+}
+.safeTips-item h2{
+	font-size: .28rem;
+	line-height: 1;
+	margin-bottom: .16rem;
+}
+.safeTips-item p{
+	font-size: .24rem;
+	color: #666;
+	line-height: .34rem;
+}
+.big-button{
+	display: block;
+	background: #e5e5e5;
+	font-size: .3rem;
+	color: #666;
+}
+.big-button span{
+	padding: 0 .08rem;
+}
+
+/*补充*/
+.prompt-popup{
+	padding: .24rem .4rem;
+	bottom: 60%;
+	transform: translate3d(-50%,-50%,0);
+	-webkit-transform: translate3d(-50%,-50%,0);
+	-o-transform: translate3d(-50%,-50%,0);
+	-moz-transform: translate3d(-50%,-50%,0);
+	-ms-transform: translate3d(-50%,-50%,0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.header-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #4b89dc;
+	height: .96rem;
+	line-height: .96rem;
+	font-size: .3rem;
+	
+}
+.header-nav li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #444;
+}
+.header-nav li.select{
+	color: #fff;
+}
+.news-con{
+	font-size: .24rem;
+}
+.pay-part1{
+	width: 100%;
+}
+.news-list li{
+	padding: .16rem .24rem;
+	border-bottom: 1px solid #E6E6E6;
+}
+.news-list li p{
+	line-height: .32rem;
+}
+.news-date{
+	color: #666;
+	text-align: right;
+	display: block;
+	margin-top: .08rem;
+}
+.pay-part2,.pay-part3,.pay-part4{
+	display: none;
+}

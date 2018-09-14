@@ -1,0 +1,257 @@
+/*合作方式*/
+.hzfs .part1{
+	padding: 0 .24rem;
+	margin-bottom: .32rem;
+}
+.hzfs .title{
+	margin-top: .2rem;
+}
+.hzfs .title{
+	text-align: center;
+	color: #40210F;
+	margin-top: .16rem;
+	margin-bottom: .24rem;
+	overflow: hidden;
+}
+.hzfs .title .p0{
+	font-size: .3rem;
+	font-weight: bold;
+}
+.hzfs .title .p1{
+	font-size: .3rem;
+	display: inline-block;
+	padding: 0 .32rem;
+	position: relative;
+	border-bottom: 2px solid #402111;
+	padding-bottom: .06rem;
+	margin-bottom: .08rem;
+}
+.hzfs .title .p1:before{
+	content: '';
+	height: 2px;
+	width: 1rem;
+	background: #E8C12A;
+	position: absolute;
+	left: 50%;
+	margin-left: -.5rem;
+	bottom: -2px;
+}
+.hzfs .title .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+.hzfs ul li{
+	margin-bottom: .24rem;
+	height: 2.4rem;
+}
+.hzfs ul li .li-img{
+	width: 60%;
+}
+.hzfs ul li .li-con{
+	width: 40%;
+	height: 100%;
+	position: relative;
+	padding-left: .24rem;
+	box-sizing: border-box;
+}
+.hzfs ul li:nth-child(even) .li-con{
+	padding-left: 0;
+}
+.hzfs ul li .li-con:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: .1rem solid transparent;
+	border-bottom: .1rem solid transparent;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -.1rem;
+}
+.hzfs ul li:nth-child(odd) .li-con:before{
+	border-right: .1rem solid #E8C12A;
+}
+.hzfs ul li:nth-child(even) .li-con:before{
+	border-left: .1rem solid #E8C12A;
+}
+.hzfs ul li .li-con .p1{
+	font-size: .28rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: .56rem;
+}
+.hzfs ul li .li-con .line{
+	width: .4rem;
+	height: 2px;
+	margin: 0 auto .16rem;
+	background: #40210F;
+}
+.hzfs ul li .li-con .p3{
+	font-size: .24rem;
+}
+
+/*投资方式*/
+.hztz .part1{
+	position: relative;
+}
+.hztz .con{
+	padding: .24rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+.hztz .title{
+	text-align: center;
+	font-size: .3rem;
+	color: #fff;
+	position: relative;
+	line-height: .4rem;
+}
+.hztz .title:before{
+	content: '';
+	width: 3rem;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -1.5rem;
+	bottom: -.12rem;
+}
+.hztz .title:after{
+	content: '';
+	width: 1rem;
+	height: 3px;
+	background: #E8C12A;
+	position: absolute;
+	left: 50%;
+	bottom: -.12rem;
+	margin-left: -.5rem;
+	margin-bottom: -1px;
+}
+.hztz ul{
+	margin: .4rem auto 0;
+}
+.hztz ul li{
+	height: .44rem;
+	line-height: .44rem;
+	border-bottom: 1px solid #394246;
+	font-size: 0;
+}
+.hztz ul li span{
+	text-align: center;
+	width: 26%;
+	display: inline-block;
+	font-size: .24rem;
+	border-right: 1px solid #394246;
+	box-sizing: border-box;
+}
+.hztz ul li span:last-child{
+	border-right: 0;
+	width: 22%;
+}
+.hztz ul li:nth-child(odd){
+	background: rgba(232, 193, 42,1);
+}
+.hztz ul li:nth-child(even){
+	background: rgba(232, 193, 42,.5);
+}
+.hztz ul li:nth-child(1){
+	background: #000;
+	color: #fff;
+}
+
+/*总部扶持*/
+.hzfc .part1{
+	position: relative;
+	padding-bottom: .12rem;
+}
+.hzfc .img1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.hzfc .title{
+	text-align: center;
+	color: #40210F;
+	padding-top: .16rem;
+	margin-bottom: .24rem;
+}
+.hzfc .title .p1{
+	font-size: .3rem;
+	display: inline-block;
+	padding: 0 .16rem;
+	position: relative;
+	border-bottom: 2px solid #402111;
+	padding-bottom: .06rem;
+	margin-bottom: .08rem;
+}
+.hzfc .title .p1:before{
+	content: '';
+	height: 2px;
+	width: 1rem;
+	background: #E8C12A;
+	position: absolute;
+	left: 50%;
+	margin-left: -.5rem;
+	bottom: -2px;
+}
+.hzfc ul{
+	width: 70%;
+	margin: 0 auto;
+}
+.hzfc ul li{
+	position: relative;
+	margin-bottom: .24rem;
+	border: 1px solid #40210F;
+	text-align: center;
+	padding: .16rem 0;
+}
+.hzfc ul li p{
+	color: #40210F;
+	font-size: .26rem;
+}
+.hzfc ul li .mask{
+	color: #fff;
+	text-align: center;
+	width: 1.2rem;
+	height: .4rem;
+	line-height: .4rem;
+	background: #40210F;
+	font-size: .28rem;
+	font-weight: bold;
+	border-radius: .25rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -.2rem;
+	z-index: 2;
+	left: -.6rem;
+}
+.hzfc ul li:nth-child(even) .mask{
+	right: -.6rem;
+	left: auto;
+}
+
+@media (max-width: 350px) {
+	.hztz .con{
+		padding: .24rem .12rem;
+	}
+	.hztz ul li span{
+		width: 28%;
+	}
+	.hztz ul li span:last-child{
+		width: 16%;
+	}
+}
+

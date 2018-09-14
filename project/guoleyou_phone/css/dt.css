@@ -1,0 +1,234 @@
+/*行业动态*/
+.dthy .part1{
+	position: relative;
+}
+.dthy .part1 .part-title{
+	width: 5.4rem;
+	margin-left: .32rem;
+	position: relative;
+}
+.dthy .part1 .part-title .p1{
+	font-size: .46rem;
+	color: #F5A205;
+}
+.dthy .part1 .part-title .p2{
+    font-size: .26rem;
+    color: #F5A205;
+    margin-top: .04rem;
+}
+.dthy .part1 .part-title .p2 span{
+	font-size: .28rem;
+    display: inline-block;
+    color: #d4dd7b;
+    text-transform: uppercase;
+    margin-left: .16rem;
+}
+.dthy .part1 .part-title .p3{
+	background: #D4DD7B;
+	color: #2d622c;
+	font-size: .26rem;
+	width: 2.46rem;
+	height: .44rem;
+	line-height: .44rem;
+	text-align: center;
+    margin-top: .12rem;
+}
+.dthy .part1 .border{
+    width: 100%;
+    height: .96rem;
+    border-bottom: 1px solid #D4DD7B;
+    border-right: 1px solid #D4DD7B;
+    position: absolute;
+    left: 0;
+    bottom: .22rem;
+    z-index: -1;
+}
+.dthy .part1 .border:after{
+	content: '';
+	width: .13rem;
+	height: .13rem;
+	background: #D4DD7B;
+	position: absolute;
+	top: 0;
+	right: -.07rem;
+}
+.dthy .part1 .border img{
+    position: absolute;
+    top: -.38rem;
+    width: .5rem;
+    right: -.36rem;
+}
+.dthy .part1 .img1{
+	width: 1.25rem;
+	position: absolute;
+	right: 0;
+    top: .24rem;
+	z-index: -1;
+}
+.dthy .part2{
+	margin-top: .28rem;
+}
+.dthy .part2 .p1{
+	font-size: .24rem;
+	line-height: .44rem;
+	margin-bottom: .4rem;
+	color: #666;
+}
+.dthy .part2 .title{
+	position: relative;
+	border-bottom: 1px solid #D4DD7B;
+	color: #2D622C;
+	font-size: .26rem;
+	margin-bottom: .28rem;
+}
+.dthy .part2 .title p{
+	width: 1.48rem;
+	line-height: .44rem;
+	background: #D4DD7B;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.dthy .part2 .title span{
+	display: inline-block;
+	vertical-align: middle;	
+	margin-left: .24rem;
+}
+.dthy .part2 .title img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: .3rem;
+}
+.dthy .part2 .img-block{
+	margin-bottom: .24rem;
+}
+.dthy .part2 .img1{
+	margin-bottom: .4rem;
+	margin-top: -.16rem;
+}
+.dthy .part2{
+	margin-bottom: -.24rem;
+}
+
+/*最新动态*/
+.dtnew .part1{
+	position: relative;
+	text-align: center;
+	color: #ac7c5c;
+}
+.dtnew .part1 .mask{
+	width: 5.6rem;
+	height: .42rem;
+	background: #fce3b6;
+	position: absolute;
+	left: 50%;
+	top: .36rem;
+	margin-left: -2.6rem;
+	z-index: -1;
+}
+.dtnew .part1 .p1{
+	font-size: .46rem;
+}
+.dtnew .part1 .p2{
+	font-size: .24rem;
+	text-transform: uppercase;
+}
+.dtnew .part2{
+	margin-top: .24rem;
+	padding: 0 .24rem;
+}
+.dtnew .part2 .item{
+	margin-top: .4rem;
+	padding-bottom: .16rem;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: .16rem;
+}
+.dtnew .part2 .item img{
+	display: block;
+	width: .24rem;
+	margin-bottom: .12rem;
+}
+.dtnew .part2 .item h3{
+	font-weight: normal;
+	font-size: .34rem;
+}
+.dtnew .part2 .item span{
+	margin: .08rem 0 .04rem;
+	display: block;
+	color: #666;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.dtnew .part2 .item p{
+	font-size: .24rem;
+	color: #666;
+	line-height: .4rem;
+}
+.dtnew .part2 .list1 li{
+	height: .56rem;
+	border-bottom: 1px dashed #ddd;
+	font-size: .24rem;
+	line-height: .56rem;
+	margin-left: .24rem;
+	position: relative;
+}
+.dtnew .part2 .list1 li:after{
+	content: '';
+	width: 2px;
+	height: 2px;
+	background: #666;
+	position: absolute;
+	left: -.2rem;
+	top: .28rem;
+	margin-top: -1px;
+}
+.dtnew .part2 .list1 li:last-child{
+	border: 0;
+}
+.dtnew .part2 .list1 li a{
+	color: #666;
+	display: block;
+	height: 100%;
+}
+.dtnew .part2 .page-wrapper{
+	margin-top: .4rem;
+	margin-bottom: .24rem;
+}
+
+/*新闻详情*/
+.detail .part1 .title{
+	font-size: .34rem;
+	text-align: center;
+	color: #F5A205;
+}
+.detail .part1 .date{
+	font-size: .24rem;
+	color: #999;
+	margin-top: .08rem;
+	text-align: center;
+}
+.detail .part1 .con{
+	margin-top: .28rem;
+}
+.detail .part1 .con p{
+	font-size: .24rem;
+	color: #666;
+	line-height: .42rem;
+	text-indent: .48rem;
+	margin-bottom: .24rem;
+}
+.detail .part1 .con img{
+	display: block;
+	margin: .24rem auto;
+	max-width: 100%;
+}
+
+
+

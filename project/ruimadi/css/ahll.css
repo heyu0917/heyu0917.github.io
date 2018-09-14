@@ -1,0 +1,223 @@
+/*公共*/
+.ahll .title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.ahll .title .p1{
+	font-size: 48px;
+	font-weight: bold;
+	font-family: "新宋体";
+	margin-bottom: 3px;
+}
+.ahll .title .box{
+	font-size: 0;
+}
+.ahll .title .box .line{
+	display: inline-block;
+	vertical-align: middle;
+	width: 210px;
+	height: 2px;
+	background: #888988;
+}
+.ahll .title .box p{
+	display: inline-block;
+	vertical-align: middle;
+	width: 500px;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: "新宋体";
+}
+.ahll .title .p2{
+	font-size: 14px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #888988;
+	line-height: 22px;
+}
+.ahll .title .p3{
+	color: #595757;
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 25px;
+	text-align: left;
+}
+
+/*品牌实力*/
+.ahll1 .con p{
+	color: #595757;
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 25px;
+}
+
+/*团队实力*/
+.ahll2 .title .box .line{
+	width: 130px;
+}
+.ahll2 .title .box p{
+	width: 660px;
+}
+.ahll2 ul li{
+	width: 202px;
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.ahll2 ul li:nth-child(4n){
+	margin-right: 0;
+}
+.ahll2 ul li img{
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+.ahll2 ul li p{
+	width: 202px;
+	height: 202px;
+	border-radius: 50%;
+	overflow: hidden;
+	font-size: 44px;
+	font-weight: bold;
+	font-family: "新宋体";
+	padding-top: 52px;
+	box-sizing: border-box;
+	margin-top: -20px;
+}
+.ahll2 ul li:nth-child(2) p,
+.ahll2 ul li:nth-child(4) p,
+.ahll2 ul li:nth-child(5) p,
+.ahll2 ul li:nth-child(7) p{
+	color: #fff;
+}
+.ahll2 ul li:nth-child(1) P{
+	background: #e2e888;
+}
+.ahll2 ul li:nth-child(2) P{
+	background: #858dba;
+}
+.ahll2 ul li:nth-child(3) P{
+	background: #96d3dd;
+}
+.ahll2 ul li:nth-child(4) P{
+	background: #9bcc7f;
+}
+.ahll2 ul li:nth-child(5) P{
+	background: #9bcc7f;
+}
+.ahll2 ul li:nth-child(6) P{
+	background: #96d3dd;
+}
+.ahll2 ul li:nth-child(7) P{
+	background: #858dba;
+}
+.ahll2 ul li:nth-child(8) P{
+	background: #e2e888;
+}
+
+/*议价实力*/
+.ahll3 .title .p1{
+	font-size: 50px;
+}
+.ahll3 .title .box p{
+	font-size: 36px;
+}
+.ahll3 .con{
+	position: relative;
+}
+.ahll3 .con .p1{
+	position: absolute;
+	left: 0;
+	top: 16px;
+	width: 100%;
+	z-index: 2;
+	font-size: 0;
+}
+.ahll3 .con .p1 span{
+	width: 290px;
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "新宋体";
+	text-align: right;
+	padding-right: 30px;
+	box-sizing: border-box;
+	line-height: 60px;
+}
+.ahll3 .con .p1 span:last-child{
+	margin-right: 0;
+}
+.ahll3 .con ul{
+	margin-top: 25px;
+}
+.ahll3 .con ul li{
+	float: left;
+	width: 290px;
+	margin-right: 25px;
+}
+.ahll3 .con ul li:last-child{
+	margin-right: 0;
+}
+.ahll3 .con ul li .line{
+	width: 50px;
+	height: 2px;
+	background: #666;
+	margin-bottom: 20px;
+}
+.ahll3 .con ul li p{
+	color: #595757;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+/*营销实力*/
+.ahll4 ul li{
+	float: left;
+	width: 440px;
+}
+.ahll4 ul li:nth-child(even){
+	float: right;
+}
+.ahll4 ul li .p1{
+	font-size: 46px;
+	font-weight: bold;
+	font-family: "新宋体";
+	margin-bottom: 3px;	
+}
+.ahll4 ul li .p2{
+	font-size: 14px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #888988;
+	line-height: 22px;
+	margin-bottom: 35px;	
+}
+.ahll4 ul li .line{
+	width: 50px;
+	height: 2px;
+	background: #666;
+	margin-bottom: 20px;
+	margin-top: 35px;	
+}
+.ahll4 ul li .p3{
+	color: #595757;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+

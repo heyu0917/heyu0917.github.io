@@ -1,0 +1,90 @@
+/*行业资讯 && 品牌动态*/
+.news .part1 ul li{
+	margin-bottom: 30px;
+}
+.news .part1 ul li .title{
+	background: #ffbc00;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.news .part1 ul li .title h3{
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news .part1 ul li .title span{
+	display: block;
+	font-size: 13px;
+	color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news .part1 ul li a{
+	display: block;
+	width: 100%;
+	height: 150px;
+}
+.news .part1 ul li a img{
+	width: 290px;
+	height: 150px;
+}
+.news .part1 ul li a .con{
+	width: 440px;
+	position: relative;
+	height: 100%;
+}
+.news .part1 ul li a .con p{
+	font-size: 17px;
+	line-height: 36px;
+}
+.news .part1 ul li a .con .more{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	font-size: 17px;
+}
+
+/*新闻详情*/
+.newsDetail .part1 .title{
+	background: #ffbc00;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.newsDetail .part1 .title h3{
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.newsDetail .part1 .title span{
+	display: block;
+	font-size: 13px;
+	color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.newsDetail .part1 .con p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.newsDetail .part1 .img1{
+	margin-top: 20px;
+}
+
+/*品牌动态*/
+.news_pp ul li .more{
+	left: 0;
+}
+
+

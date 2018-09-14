@@ -1,0 +1,97 @@
+/*企业简介*/
+.qy1 .box{
+	position: relative;
+	padding: .28rem 0 .12rem;
+}
+.qy1 .box img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.qy1 .box p{
+	text-align: justify;
+	width: 76%;
+	margin: 0 auto;
+	font-size: .24rem;
+	line-height: .4rem;
+	font-weight: bold;
+}
+
+/*企业团队*/
+.qy2 ul li{
+	position: relative;
+	width: 100%;
+}
+.qy2 ul li .li-con{
+	position: absolute;
+	left: 5%;
+	bottom: 14%;
+	width: 90%;
+	z-index: 2;
+	text-align: center;
+	font-size: 0;
+}
+.qy2 ul li .li-con p{
+	width: 48.2%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 3.6%;
+	font-size: .24rem;
+	color: #666;
+}
+.qy2 ul li .li-con p:last-child{
+	margin-right: 0;
+} 
+.qy2 ul li .li-con p span{
+	display: block;
+	font-size: .26rem;
+	font-weight: bold;
+	color: #000;
+}
+
+/*企业荣誉*/
+.qy3 .box{
+	position: relative;
+	padding-top: .48rem;
+}
+.qy3 .box .img1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	height: 100%;
+}
+.qy3 .box ul li{
+	float: left;
+	width: 49%;
+	background: #fff;
+	margin-bottom: .96rem;
+}
+.qy3 .box ul li:nth-child(even){
+	float: right;
+}
+.qy3 .box ul li img{
+	width: 90%;
+	margin: -.48rem auto 0;
+	display: block;
+}
+.qy3 .box ul li p{
+	font-size: .24rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: .08rem;
+	margin-bottom: .08rem;
+	height: .64rem;
+}
+.qy3 .box ul li:last-child p{
+	line-height: .64rem;
+}
+.qy3 .box ul li:nth-child(3),
+.qy3 .box ul li:nth-child(4){
+	margin-bottom: 0;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/area.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header-back">
+			<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+			<h1>领券中心</h1>
+		</div>
+		<div class="coupon-content">
+			<div class="comWidth">
+				<ul class="counpon-list" id="coupon_list">
+					<li>
+						<img src="img/can-coupon.png" alt="" class="coupon-bgImg"/>
+						<img src="img/quan.jpg" alt="" class="fl-lt quan-img"/>
+						<div class="fl-lt coupon-list-middle">
+							<h3>全品类通用券</h3>
+							<p>满<span>100</span>可用</p>
+							<p>2016.10.01-2016.10.30</p>
+						</div>
+						<div class="fl-rt coupon-list-right">
+							<span>￥<strong>5</strong></span>
+							<p>立即领取</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--popup-->
+		<div class="get-coupon">亲，你已领取优惠券，快去购物吧!</div>
+		
+		<script>
+			$("#coupon_list li").tap(function(){
+				$(this).find('.coupon-bgImg').prop('src','img/nocan-coupon.png');
+				$(".get-coupon").css("opacity","1");
+				setTimeout(function(){
+					$(".get-coupon").css("opacity","0");
+				},1500);
+				
+				$(this).unbind('tap');
+			})
+		</script>
+	</body>
+</html>

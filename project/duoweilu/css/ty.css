@@ -1,0 +1,212 @@
+/*智能特色*/
+.tyts .title{
+	padding: 0 40px;
+	text-align: center;
+	color: #B4A379;
+}
+.tyts .title .p1{
+	font-size: .36rem;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.tyts .title .p1 span{
+	font-size: .5rem;
+}
+.tyts .title .p2{
+	font-size: .28rem;
+	line-height: .6rem;
+}
+.tyts .title .p3{
+	text-transform: uppercase;
+	font-size: .36rem;
+	opacity: .3;
+}
+.tyts .title .p4{
+	font-size: 14px;
+	color: #856146;
+	line-height: 26px;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+.tyts .p5{
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0 40px;
+	margin-top: 30px;
+	color: #856146;
+}
+
+/*服务模式*/
+.tyms .title{
+	text-align: center;
+	color: #B4A379;
+}
+.tyms .title .p1{
+	font-size: .36rem;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.tyms .title .p1 span{
+	font-size: .5rem;
+}
+.tyms .title .p2{
+	background: #B4A379;
+	color: #fff;
+	border-radius: 4px;
+	width: 3.9rem;
+	height: .44rem;
+	line-height: .44rem;
+	font-size: .28rem;
+	margin: 5px auto;
+}
+.tyms .title .p3{
+	text-transform: uppercase;
+	font-size: .36rem;
+	opacity: .3;
+	margin-bottom: 35px;
+}
+.tyms .box{
+	position: relative;
+	width: 100%;
+}
+.tyms .box ul li{
+    position: absolute;
+    color: #856146;
+    padding: 0 27px;
+    width: 394px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.tyms .box ul li .p1{
+	font-size: .16rem;
+	text-transform: uppercase;
+}
+.tyms .box ul li .p1 span{
+	font-size: .28rem;
+}
+.tyms .box ul li .p2{
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.tyms .box ul li .p3{
+	font-size: 12px;
+	line-height: 24px;
+}
+.tyms .box ul li:nth-child(1){
+	right: 0;
+	top: 340px;
+}
+.tyms .box ul li:nth-child(2){
+	left: 0;
+	top: 600px;
+}
+.tyms .box ul li:nth-child(3){
+	right: 0;
+	top: 1080px;
+}
+
+/*产品体验*/
+.tycp .item1{
+	width: 1030px;
+	position: relative;
+	margin: 0 auto 70px;
+}
+.tycp .item1 .title{
+	text-align: center;
+	color: #B4A379;
+	position: absolute;
+	top: 160px;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+.tycp .title .p1{
+	font-size: .36rem;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.tycp .title .p1 span{
+	font-size: .5rem;
+}
+.tycp .title .p2{
+	background: #B4A379;
+	color: #fff;
+	border-radius: 4px;
+	width: 3.9rem;
+	height: .44rem;
+	line-height: .44rem;
+	font-size: .28rem;
+	margin: 5px auto 6px;
+}
+.tycp .title .p3{
+	text-transform: uppercase;
+	font-size: .16rem;
+}	
+.tycp .item1 ul li{
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	text-align: center;
+	width: 165px;
+}
+.tycp .item1 ul li .p1{
+	font-size: .24rem;
+	color: #B4A379;
+}
+.tycp .item1 ul li .p2{
+	font-size: .18rem;
+	color: #888;
+}
+.tycp .item1 ul li:nth-child(1){
+	bottom: 75px;
+	left: 0;
+}
+.tycp .item1 ul li:nth-child(2){
+	bottom: -14px;
+	left: 200px;
+}
+.tycp .item1 ul li:nth-child(3){
+    bottom: -38px;
+    left: 438px;
+}
+.tycp .item1 ul li:nth-child(4){
+	bottom: -14px;
+	right: 200px;
+}
+.tycp .item1 ul li:nth-child(5){
+	bottom: 75px;
+	right: 0;
+}
+.tycp .item3{
+	width: 1070px;
+	margin: 30px auto 0;
+}
+.tycp .item3 ul li{
+	width: 290px;
+	margin-right: 100px;
+	float: left;
+	text-align: center;
+	color: #856146;
+}
+.tycp .item3 ul li:last-child{
+	margin-right: 0;
+}
+.tycp .item3 ul li .p1{
+	font-size: .36rem;
+	line-height: .6rem;
+}
+.tycp .item3 ul li .p2{
+	font-size: .24rem;
+	margin-bottom: .08rem;
+}
+.tycp .item3 ul li .p3{
+	font-size: 14px;
+}
+
+
+
+
+
+
+

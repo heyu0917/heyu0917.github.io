@@ -1,0 +1,524 @@
+/*.pages{
+	position: fixed;
+    right: 10px;
+    top: 20%;
+    width: 10px;
+}
+.pages li{
+	width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.pages li.active{
+	background: #f00;
+}*/
+
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+
+
+#container,
+.sections,.section{
+	height: 100%;
+	position: relative;
+}
+.section{
+	overflow: hidden;
+}
+
+.section .con{
+	padding-top: 110px;
+	margin-top: 2.5%;
+}
+
+.section1 .banner{
+	width: 100%;
+	height:100%;
+	padding-top: 110px;
+	padding-bottom: 70px;
+	box-sizing: border-box;
+}
+.section1 .banner .banner-list{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.section1 .banner .banner-list li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.section1 .banner .banner-list li img{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	display: block;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+
+.section1 .banner .banner-list li:first-child{
+	display: block;
+}
+.section1 .banner-btn-list{
+	position: absolute;
+	bottom: 90px;
+	text-align: center;
+	width: 100%;
+}
+.section1 .banner-btn-list li{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 4px;
+	cursor: pointer;
+}
+.section1 .banner-btn-list li.light{
+	background: #FCCF00;
+}
+
+.section2 .section-bg{
+	bottom: 60px;
+    top: auto;
+    transform: none;	
+}
+.section2 .con{
+    position: absolute;
+    right: 19%;
+    top: 12%;
+}
+/*视频*/
+.vedio-box{
+	width: 4.4rem;
+	height: 2.5rem;
+	position: relative;
+	background: #000;
+	border: 10px solid #008bd5;
+}
+.vedio-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.vedio-box video{
+	width: 100%!important;
+	height: 100%!important;	
+}
+#play{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin-top: -35px;
+	margin-left: -35px;
+	cursor: pointer;
+	z-index: 12;
+}
+
+.section4 .con{
+	position: absolute;
+	z-index: 2;
+	top: 52%;
+	left: 50%;
+	width: 10.4rem;
+	margin-left: -5.2rem;
+	height: 4.5rem;
+	margin-top: -2.25rem;
+	padding-top: 0;
+}
+.section4 .con .img1{
+    width: 6.5rem;
+    position: absolute;
+    left: 1.85rem;
+    top: -.23rem;
+    z-index: 14;
+}
+.section4 .con .img2{
+    width: 6.4rem;
+    height: .72rem;
+    position: absolute;
+    left: 2rem;
+    bottom: -.71rem;
+    z-index: 2;
+}
+
+.section4 .con .img3{
+    width: 3.25rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    z-index: 2;
+}
+.section4 .con .img4{
+    width: 3.2rem;
+    height: .36rem;
+    position: absolute;
+    left: 0;
+    bottom: .77rem;
+    z-index: 2;
+}
+
+.section4 .con .img5{
+    width: 3.25rem;
+    position: absolute;
+    right: 0;
+    top: 1.12rem;
+    z-index: 14;
+}
+.section4 .con .img6{
+    width: 3.2rem;
+    height: .36rem;
+    position: absolute;
+    right: 0;
+    bottom: .9rem;
+    z-index: 2;
+}
+
+.section4 .con .desc{
+	background: #FCCF01;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    right: 0;
+    width: 3.2rem;
+    font-size: 21px;
+    color: #008bd5;
+    height: 2rem;
+    margin-top: -1rem;
+    padding-left: .45rem;
+    box-sizing: border-box;
+    padding-top: .7rem;
+}
+
+.section4 .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.section4 .picScroll-left0 .bd{
+	width: 3.2rem;
+	height: 2.25rem;
+    overflow: hidden;
+}
+.section4 .picScroll-left0 .bd ul{
+	position: relative;
+}
+.section4 .picScroll-left0 .bd ul li{
+	width: 3.2rem;
+	height: 2.25rem;
+	float: left;
+	position: relative;
+}
+
+.section4 .picScroll-left0{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 3.2rem;
+	height: 2.25rem;
+    margin-top: -1.12rem;
+}
+.section4 .picScroll-left1{
+	width: 6.4rem;
+    height: 4.5rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+.section4 .picScroll-left1 .bd{
+	width: 6.4rem;
+    height: 4.5rem;
+    overflow: hidden;
+}
+.section4 .picScroll-left1 .bd ul{
+	position: relative;
+}
+.section4 .picScroll-left1 .bd ul li{
+	width: 6.4rem;
+    height: 4.5rem;
+	float: left;
+	position: relative;
+}
+
+.section4 .picScroll-left .bd ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.section4 .picScroll-left .arrow{
+	position: absolute;
+	width: .56rem;
+	height: .56rem;
+	z-index: 11;
+	text-align: center;
+	cursor: pointer;
+}
+.section4 .picScroll-left .arrow img{
+	display: block;
+	width: 100%;
+}
+.section4 .picScroll-left1 .arrow{
+	top: 50%;
+	margin-top: -.28rem;
+}
+.section4 .picScroll-left0 .arrow{
+	top: 50%;
+	margin-top: -.28rem;
+}
+.section4 .picScroll-left0 .arrow-left{
+	left: 1.44rem;
+}
+.section4 .picScroll-left0 .arrow-right{
+	left: 2rem;
+}
+.section4 .picScroll-left1 .arrow-left{
+	left: -.56rem;
+}
+.section4 .picScroll-left1 .arrow-right{
+	left: 0;
+}
+
+.section5 .con{
+	margin-top: 5%;
+	width: 1200px;
+	margin: 5% auto;
+}
+.section5 .con .list1{
+	text-align: center;
+}
+.section5 .con .list1 li{
+	display: inline-block;
+	vertical-align: middle;
+	border-right: 1px solid #008BD5;
+	color: #008BD5;
+	position: relative;
+	padding: 0 25px;
+	width: 2.9rem;
+	cursor: pointer;
+}
+.section5 .con .list1 li:last-child{
+	border: 0;
+}
+.section5 .con .list1 li .line{
+	width: 40px;
+	height: 3px;
+	background: #008BD5;
+	margin: 0 auto 15px;
+} 
+.section5 .con .list1 li .p1{
+	font-size: 24px;
+}
+.section5 .con .list1 li .p2{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.section5 .con .list1 li img{
+	position: absolute;
+	width: 2.9rem;
+	left: .25rem;
+	top: -.24rem;
+	display: none;
+}
+.section5 .con .list1 li.on img{
+	display: block;
+}
+.section5 .con .list1 li.on .line{
+	display: none;
+}
+.section5 .con .list1 li.on .p1{
+	font-size: .4rem;
+}
+
+.section5 .wrap{
+	position: relative;
+	height: 3.3rem;
+	width: 11.22rem;
+	margin: 6% auto 0;
+}
+.section5 .con .slide-3d{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.section5 .con .item1{
+	display: block;
+}
+.section5 .slide-carousel {
+  height: 3.3rem;
+  position: relative;
+  width: 12rem;
+  margin: 0 auto;
+}
+.section5 .slide-3d .item-list li {
+  width: 5.22rem;
+  height: 3.3rem;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section5 .slide-3d .item-list li.item0 {
+  transform: translate3d(-3rem, 0, 0) scale(0.5);
+}
+.section5 .slide-3d .item-list li.item1 {
+  transform: translate3d(0, 0, 0) scale(0.5);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.section5 .slide-3d .item-list li.item2 {
+  transform: translate3d(3rem, 0, 0) scale(1);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 3;
+}
+.section5 .slide-3d .item-list li.item3 {
+  transform: translate3d(6rem, 0, 0) scale(0.5);
+  transform-origin: 100% 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.section5 .con .wrap .img1{
+	width: 100%;
+	height: 100%;
+	display: block;
+	box-sizing: border-box;
+	border: 4px solid #fff;
+}
+.section5 .arrow{
+	position: absolute;
+	top: 50%;
+	width: 64px;
+	height: 64px;
+	z-index: 33;
+	margin-top: -32px;
+}
+.section5 .item-prev{
+	left: 98px;
+}
+.section5 .item-next{
+	right: 98px;
+}
+.section5 .arrow img{
+	display: block;
+	width: 64px;
+	height: 64px;
+}
+
+.section7 .section-bg2{
+	min-width: 100%;
+}
+.section7 .con{
+    margin-top: 6.5%;
+    margin-left: 15%;
+    width: 34%;
+    position: relative;
+}
+.section7 .con img{
+	display: block;
+	width: 100%;
+}
+.section7 .con p{
+    position: absolute;
+    margin-top: 110px;
+    width: 48%;
+    line-height: 1rem;
+}
+.section7 .con p span{
+	display: block;
+	background: #008BD5;
+	color: #fff;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: .2rem;
+}
+.section7 .con p:nth-child(even) span{
+	color: #008BD5;
+	background: #FCCF00;
+}
+.section7 .con .p1{
+	top: -.5rem;
+	left: 0;
+}
+.section7 .con .p2{
+	top: -.5rem;
+	right: 0;
+}
+.section7 .con .p3{
+	bottom: -22px;
+	left: 0;
+	line-height: 1.3;
+}
+.section7 .con .p4{
+	bottom: -22px;
+	right: 0;
+	line-height: 1.3;
+}
+.section7 .con .p3 span,
+.section7 .con .p4 span{
+    padding-top: .23rem;
+    box-sizing: border-box;	
+}
+
+
+@media (max-width: 1600px) {
+	.section5 .wrap{
+		margin-top: 4%;
+	}
+}
+
+
+.header{
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 111;
+}
+
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+
+/*3.9*/
+.section7 .con p{
+    margin-top: 114px;	
+}
+.section7 .con .p4,
+.section7 .con .p3{
+	bottom: -18px;
+}
+.section6 .section-bg{
+	transform: none;
+	top: 100px;
+}

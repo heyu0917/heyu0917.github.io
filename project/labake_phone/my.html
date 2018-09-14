@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/my.css" type="text/css"/>
+	    <script type="text/javascript" src="js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 +'px';
+
+	    	// 扩展API加载完毕后调用onPlusReady回调函数
+			document.addEventListener( "plusready", onPlusReady, false );  
+			// 扩展API加载完毕，现在可以正常调用扩展API  
+			function onPlusReady() {  
+				var e = document.getElementById("scan");  
+				e.removeAttribute( "disabled" );  
+			}  
+			var scan = null;  
+			function onmarked( type, result ) {  
+				var text = '未知: ';  
+				switch(type){  
+				case plus.barcode.QR:  
+				text = 'QR: ';  
+				break;  
+				case plus.barcode.EAN13:  
+				text = 'EAN13: ';  
+				break;  
+				case plus.barcode.EAN8:  
+				text = 'EAN8: ';  
+				break;  
+			}  				
+				var telephone = result.match(/id=.{11}/)[0].substr(3);
+				
+				var index = result.lastIndexOf("\/");  
+				var username  = result.substring(index + 1, result.length);
+				
+				scan.close();
+				setTimeout(function(){
+					location.href="pay.html?id="+telephone+'/'+username;
+				},400)
+			}
+			
+			function startScan(){
+				document.getElementById('my_page').style.left = '-100%';
+				document.getElementById('footer').style.left = '-100%';
+				document.getElementById('scan_page').style.left = '0';
+				// 创建支持默认条码类型的识别控件  
+				setTimeout(function(){
+					scan = new plus.barcode.Barcode('scan_con');  
+					scan.onmarked = onmarked;  
+		
+					scan.start();
+				},340)
+			}
+			function back_img(){
+				scan.close();
+				document.getElementById('my_page').style.left = '0';
+				document.getElementById('footer').style.left = '0';
+				document.getElementById('scan_page').style.left = '100%';
+			}
+	    </script>
+	</head>
+	<body>		
+		<div id="my_page">
+			<div class="header-back">
+				<a href="set.html"><img src="img/set.png" class="set-img" /></a>
+				<h1>我的</h1>
+			</div>
+			<!--content-->
+			<div class="my-con content">
+				<div class="my-con-top">
+					<ul class="con-top-list">
+						<li><img src="img/person.png"/>登录</li>
+						<li onclick='startScan()'><img src="img/saoyisao.png"/>扫一扫</li>
+						<li><img src="img/jin-e.png"/>10.00</li>
+					</ul>
+					<ul class="gold-list">
+						<li><a href="gold.html"><img src="img/gold.png" alt="" />100<i class="font_20">6%</i></a></li>
+						<li><a href="gold.html"><img src="img/gold.png" alt="" />100<i class="font_20">12%</i></a></li>
+						<li><a href="gold.html"><img src="img/gold.png" alt="" />100<i class="font_20">24%</i></a></li>
+					</ul>
+				</div>
+				<div class="my-con-middle">
+					<ul class="con-middle-list">
+						<li>
+							<a href="platform.html"><img src="img/shujuzhongxin.png"/>平台数据</a>
+						</li>
+						<li>
+							<a href=""><img src="img/shangdian.png" class="shangdian-img"/>豆豆商城</a>
+						</li>
+						<li>
+							<a href="order.html"><img src="img/zhangdan.png" class="dingdan-img"/>我的定单</a>
+						</li>
+						<li>
+							<a href=""><img src="img/hongbao.png" class="hongbao-img"/>红包卡券 </a>
+						</li>
+						<li>
+							<a href=""><img src="img/shenqing.png"/>申请商家</a>
+						</li>
+						<li>
+							<a href="myCode.html"><img src="img/erweima.png"/>我的二维码</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--footer-->
+			<div class="footer" id="footer">
+				<ul>
+					<li><a href="index.html"><img src="img/home-hui.png"/>首页</a></li>
+					<li><a href="news.html"><img src="img/xinxi-hui.png"/>信息</a></li>
+					<li><a href="business.html"><img src="img/shangjia-hui.png"/>商家</a></li>
+					<li><a href="my.html" class="light"><img src="img/person-lan.png"/>我的</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="scan_page">
+			<div class="header-back scan">
+				<div id="back_img" onclick="back_img()">
+					<img src="img/arrowL_white.png" alt="" class="arrowL_white-img"/>
+				</div>
+				<h1>扫一扫</h1>
+			</div>
+			<div id="scan_con"></div>
+		</div>
+	</body>
+</html>

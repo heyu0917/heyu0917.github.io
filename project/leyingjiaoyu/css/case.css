@@ -1,0 +1,129 @@
+/*成功案例*/
+.case{
+	padding: 0 5%;
+	color: rgba(255,255,255,.9);
+}
+.case .img1{
+	width: 46%;
+}
+.case .part1{
+	width: 46%;
+	position: relative;
+}
+.case .part1 .title{
+	margin-top: .3rem;
+}
+.case .part1 .title h2{
+	font-weight: normal;
+	font-size: .24rem;
+}
+.case .part1 .title span{
+	display: block;
+	font-size: .14rem;
+	margin-top: .08rem;
+	margin-bottom: .3rem;
+	color: rgba(255,255,255,.8);
+}
+
+.case .part1 .picScroll-left{
+	width: 90%;
+	position: relative;
+}
+.case .part1 .picScroll-left .bd{
+	width: 100%;
+	overflow: hidden;
+	height: 4.7rem;
+}
+.case .part1 .picScroll-left .bd ul{
+	position: relative;
+}
+.case .part1 .picScroll-left .bd ul li{
+	height: 4.7rem;
+	float: left;
+	position: relative;
+	overflow-y: auto;
+/*	width: 6.2rem;*/
+}
+.case .part1 .picScroll-left .bd ul li h3{
+	font-size: .2rem;
+	font-weight: normal;
+	margin-bottom: .16rem;
+}
+.case .part1 .picScroll-left .bd ul li h3 span{
+	display: inline-block;
+	margin-right: .1rem;
+	padding: .03rem .06rem;
+	background: #EDB75E;
+	color: #000;
+}
+.case .part1 .picScroll-left .bd ul li p{
+	font-size: .15rem;
+	line-height: .28rem;
+	text-indent: .3rem;
+}
+.case .part1 .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -31px;
+	cursor: pointer;
+}
+.case .part1 .picScroll-left .arrow-left{
+	left: -1rem;
+}
+.case .part1 .picScroll-left .arrow-right{
+	right: -1rem;
+}
+.case .part1 .picScroll-left .arrow img{
+	width: 22px;
+	height: 22px;
+	display: block;
+	padding: 20px;
+}
+
+.case .part1 .line{
+	width: 1rem; 
+	height: .03rem;
+	background: #edb75e;
+	margin-top: .25rem;
+}
+
+.case .part1 .more-angle{
+	position: absolute;
+	right: 1rem;
+	bottom: -1rem;
+}
+.case .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

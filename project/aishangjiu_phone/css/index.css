@@ -1,0 +1,27 @@
+body,html{
+	height: 100%;
+}
+.index-content{
+	padding-top: 1.28rem;
+	padding-bottom: .86rem;
+	height: 100%;
+	box-sizing: border-box;
+}
+.index-content .banner-swiper{
+	width: 100%;
+	height: 100%;
+}
+.index-content .banner-swiper .swiper-slide{
+	background-size: cover!important;
+	
+}
+.swiper-pagination-bullet{
+	background: #b89e7b;
+	opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+
+

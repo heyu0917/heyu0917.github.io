@@ -1,0 +1,196 @@
+.content{
+	margin-bottom: 0;
+}
+.pp .btitle{
+	position: relative;
+	width: 4rem;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 2;
+}
+.pp .btitle .p1{
+	font-size: .46rem;
+	color: #B40005;
+	font-weight: bold;
+	position: relative;
+	line-height: .72rem;
+	height: .72rem;
+}
+.pp .btitle .p1:before,
+.pp .btitle .p1:after{
+	content: '';
+	width: 1rem;
+	height: 2px;
+	background: #B40005;
+	position: absolute;
+	top: .36rem;
+	z-index: -1;
+}
+.pp .btitle .p1:before{
+	left: 0;
+}
+.pp .btitle .p1:after{
+	right: 0;
+}
+.pp .btitle .p2{
+	display: inline-block;
+	padding: 0 .08rem;
+	color: #fff;
+	font-size: .32rem;
+	background: #B40005;
+	height: .4rem;
+	line-height: .4rem;
+}
+.pp .btitle .border{
+	border: 2px solid #B40005;
+	width: 100%;
+	height: .52rem;
+	border-top: 0;
+	position: absolute;
+	left: 0;
+	bottom: .2rem;
+	z-index: -1;
+	box-sizing: border-box;
+}
+
+.pp .title{
+	position: relative;
+	color: #B40005;
+	margin-bottom: .28rem;
+	padding-left: .24rem;
+}
+.pp .title .box{
+	width: 5.8rem;
+	margin: 0 auto;
+}
+.pp .title .p1{
+	font-size: .3rem;
+	font-weight: bold;
+	line-height: .44rem;
+}
+.pp .title .p2{
+	font-size: .3rem;
+	color: #333;
+}
+.pp .title img{
+    position: absolute;
+    right: 0;
+    top: .36rem;
+    width: 1.44rem;
+}
+.pp .title .p3{
+    font-size: .24rem;
+    transform: scale(.833);
+    -webkit-transform: scale(.833);
+    -o-transform: scale(.833);
+    -moz-transform: scale(.833);
+    -ms-transform: scale(.833);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: .02rem;
+    right: .6rem;
+}
+
+.pp .part1{
+	width: 100%;
+	background: url(../img/bg-img.jpg) center top repeat;
+	padding-top: .16rem;
+	padding-bottom: .6rem;
+}
+.pp .part1 .item{
+	border-top: .08rem solid #B40005;
+	padding-top: .32rem;
+	margin-top: .32rem;
+}
+
+.pp .part1 .bigSmall .large_box{
+	width: 5.7rem;
+	margin: 0 auto .16rem auto;
+	overflow: hidden;
+	height: 3.5rem;
+	box-shadow: 1px 1px 6px rgba(0,0,0,.3);
+}
+.pp .part1 .bigSmall .large_box ul{
+	position: relative;
+}
+.pp .part1 .bigSmall .large_box ul li{
+	position: relative;
+	width: 5.7rem;
+	height: 3.5rem; 
+}
+.pp .part1 .bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.pp .part1 .bigSmall .small_box{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.pp .part1 .bigSmall .small_box .small_list{
+	width: 5.7rem;
+	height: 1.14rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pp .part1 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.pp .part1 .bigSmall .small_box .small_list ul li{
+	width: 1.86rem;
+	height: 1.14rem;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 .02rem;
+	overflow: hidden;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+}
+.pp .part1 .bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.pp .part1 .bigSmall .small_box ul li.on{
+	border: 2px solid #B40005;
+}
+.pp .arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -.5rem;
+	z-index: 2;
+	height: 1rem;
+	width: .88rem;
+	cursor: pointer;
+}
+.pp .arrow-left{
+	left: 0;
+}
+.pp .arrow-right{
+	right: 0;
+} 
+.pp .arrow img{
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+	width: .48rem;
+	height: .48rem;
+	margin: .26rem auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

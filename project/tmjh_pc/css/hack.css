@@ -1,0 +1,38 @@
+.bg2_img_box i {
+	width: 148px;
+	height: 148px;
+	position: absolute;
+	z-index: -1;
+	border: 0;
+	border-style: none;
+}
+
+.bg2_img_box .app i {
+	background: url(../images/bg2_img5.jpg) no-repeat;
+}
+
+.bg2_img_box .web i {
+	background: url(../images/bg2_img6.jpg) no-repeat;
+}
+
+.bg2_img_box .ui-face i {
+	background: url(../images/bg2_img7.jpg) no-repeat;
+}
+
+.bg2_img_box .weixin i {
+	background: url(../images/bg2_img8.jpg) no-repeat;
+}
+
+.section8-part span {
+	background-color: #ff7200;
+}
+
+.b3_words12 {
+	width: 50%;
+}
+
+
+
+
+
+

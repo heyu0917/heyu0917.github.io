@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>天才密码</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/teacher.css">
+	<style>
+		html,body{
+			height: 100%;
+		}
+	</style>
+	<script src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+		function changeFrameHeight(){
+		    var ifm= document.getElementById("teacherIframe"); 
+		    ifm.height=document.documentElement.clientHeight-45;
+		    console.log(document.documentElement.clientHeight)
+		}
+		window.onresize=function(){  
+		     changeFrameHeight();  
+		} 
+	</script>
+</head>
+<body>
+	<div class="iframe-content">
+		<div class="teacher-content">
+			<ul class="teacher-nav-list" id="header_part2">
+				<li class="light">
+					<a href="teacherDetail.html" target="teacherIframe">
+						<img src="img/teacher1.jpg" alt="" />
+						<h3>徐小明</h3>
+						<p>世界记忆大师、魔方教练 </p>
+					</a>
+				</li>
+				<li>
+					<a href="teacherDetail.html" target="teacherIframe">
+						<img src="img/teacher2.jpg" alt="" />
+						<h3>李力眉</h3>
+						<p>中国人民大学教育系教授 </p>
+					</a>
+				</li>
+				<li>
+					<a href="teacherDetail.html" target="teacherIframe">
+						<img src="img/teacher3.jpg" alt="" />
+						<h3>陈波霖</h3>
+						<p>学生心理健康教育专家 </p>
+					</a>
+				</li>
+			</ul>
+			<div class="right-part">
+				<div class="iframe-wrap">
+					<iframe src="teacherDetail.html" id="teacherIframe" name="teacherIframe" frameborder="0" onload="changeFrameHeight()"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

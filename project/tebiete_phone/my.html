@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/my.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<a href="set.html"><img src="img/set.png" alt="" class="sort-img"/></a>
+			<h2>我的</h2>
+			<img src="img/mess.png" alt="" class="mess-img"/>
+		</div>
+		<div class="content">
+			<div class="head-wrap">
+				<a href="login.html">
+					<div class="head-img-box">
+						<input type="file" accept="image/*" class="input-file"/>
+						<img src="img/head_.jpg" class="head-img"/>
+						<img src="img/female.png" alt="" class="sex-img"/>
+					</div>
+					<div class="head-name">登录/注册</div>
+				</a>
+				<div class="integral-balance">
+					<div class="integral-box fl-lt">
+						<span class="integral-text">积分</span>
+						<span class="integral-num">1334</span>
+					</div>
+					<div class="balance-box fl-rt">
+						<span class="balance-text">余额</span>
+						<span class="balance-num">1334</span>
+					</div>
+					<div class="integral-balance-line"></div>
+				</div>
+			</div>
+			<!--my order-->
+			<div class="my-order-wrap">
+				<div class="comWidth2 border-line">
+					<div class="my-order-top">
+						<h3 class="fl-lt">我的订单</h3>
+						<div class="fl-rt">
+							<span>查看全部订单</span>
+							<img src="img/arrowR.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<ul class="my-order-bottom">
+					<li class="wait-pay"><img src="img/order1.png"/>待付款<i></i></li>	
+					<li><img src="img/order2.png"/>待发货<i>5</i></li>	
+					<li><img src="img/order3.png"/>待收货<i></i></li>	
+					<li><img src="img/order4.png"/>待评价<i></i></li>	
+				</ul>			
+			</div>
+			
+			<!--item-list-->
+			<ul class="item-list">
+				<li><a href="collection.html"><img src="img/collection.png" class="fl-lt item-icon1"/><span class="fl-lt">我的收藏</span><img src="img/arrowR.png" class="fl-rt back"/></a></li>
+				<li><a href="coupons.html"><img src="img/coupon.png" class="fl-lt item-icon2"/><span class="fl-lt">我的优惠券</span><span class="fl-rt coupon-num"><i class="fl-lt">3张</i><img src="img/arrowR.png" class="back fl-rt"/></span></a></li>
+				<li class="clearfix"><a href="address.html"><img src="img/address.png" class="fl-lt item-icon3"/><span class="fl-lt">收货地址</span><img src="img/arrowR.png" class="fl-rt back"/></a></li>
+				<li class="balance-li"><a href="balance.html"><img src="img/balance.png" class="fl-lt item-icon4"/><span class="fl-lt">余额充值</span><img src="img/arrowR.png" class="fl-rt back"/></a></li>
+				<li class="option-li"><a href=""><img src="img/option.png" class="fl-lt item-icon5"/><span class="fl-lt">意见反馈</span><img src="img/arrowR.png" class="fl-rt back"/></a></li>
+			</ul>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<ul>
+				<li><a href="index.html"><img src="img/home.png"/>首页</a></li>
+				<li><a href="sort.html"><img src="img/sort.png"/>分类</a></li>
+				<li><a href="shoppingCar.html"><img src="img/shop.png"/>购物车</a></li>
+				<li><a href="javascript:void(0)" class="light"><img src="img/my_light.png"/>我的</a></li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		$(function(){
+			$('.my-order-bottom li').tap(function(){
+				var index = $(this).index();
+				location.href = "order.html?flag="+index;
+			})
+			$('.my-order-top').tap(function(){
+				location.href = "order.html?flag="+4;
+			})
+		})
+	</script>
+</html>

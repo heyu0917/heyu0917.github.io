@@ -1,0 +1,34 @@
+@media (max-width:1922px) {
+	html {
+		font-size: 100px
+	}
+}
+
+@media (max-width:1682px) {
+	html {
+		font-size: 87.5px
+	}
+}
+
+@media (max-width:1444px) {
+	html {
+		font-size: 75px
+	}
+}
+@media (max-width:1280px) {
+	html {
+		font-size: 66.67px
+	}
+}
+
+@media (max-width:1026px) {
+	html {
+		font-size: 53.33px
+	}
+}
+
+@media screen and (min-width: 1922px) {
+	html{
+		font-size: 106px
+	}
+}

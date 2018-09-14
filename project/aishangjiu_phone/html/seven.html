@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/hz.css" type="text/css"/>	
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		
+		<div class="header">
+			<div class="top">
+				<img src="../img/head.jpg" alt="" class="img0"/>
+				<div class="menu-img"></div>				
+			</div>
+			<div class="er-nav">
+				<a href="#seven1" class="active"><span>联系我们</span></a>
+				<a href="#seven2"><span>在线留言</span></a>
+			</div>
+		</div>
+		<div class="menu">
+			<img src="../img/nav.png" alt="" class="img1"/>
+			<div class="box">
+				<a href="one.html"><strong>品牌</strong><span>·</span>爱尚灸</a>
+				<a href="two.html"><strong>企业</strong><span>·</span>爱尚灸</a>
+				<a href="three.html"><strong>服务</strong><span>·</span>爱尚灸</a>
+				<a href="four.html"><strong>产品</strong><span>·</span>爱尚灸</a>
+				<a href="five.html"><strong>投资</strong><span>·</span>爱尚灸</a>
+				<a href="six.html"><strong>爱尚</strong><span>·</span>商学院</a>
+				<a href="seven.html" class="active"><strong>合作</strong><span>·</span>爱尚灸</a>
+			</div>
+		</div>
+		<div class="content hz">
+			<div class="mao-top" id="seven1"></div>
+			<div class="part1 part">
+				<div class="part1-main">
+					<div class="er-title">
+						<div class="title-box">合作·艾尚灸-联系我们</div>
+					</div>
+					<div class="hz-title2">
+						<p class="p1">北京爱尚灸文化发展有限公司</p>
+						<p class="comline"></p>
+						<p class="p2">
+							<span>地址：</span>北京市丰台区星火科技大厦1106 <br />
+							<span>电话：</span>4000-77-4000 <br />
+						</p>
+					</div>
+					<img src="../img/hz/a1.jpg" alt="" class="a1-img"/>
+					
+					<div class="map-box">
+						<div class="map" id="map"></div>
+					</div>
+				</div>
+				<div class="hz-line"></div>
+				<div class="dian part" id="seven2"></div>
+			</div>
+			
+			
+			<div class="part2 part">
+				<div class="er-title">
+					<div class="title-box">合作·艾尚灸-在线留言</div>
+				</div>
+				<div class="title">
+					<div class="line"></div>
+					<div class="title-fonts"><strong>在线留言</strong><span>Online Message</span></div>
+					<div class="line"></div>
+					<div class="title-img">
+						<img src="../img/hz/b1.jpg" alt="" />
+					</div>
+				</div>
+					
+				<div class="form">
+					<form action="">
+						<input type="text" placeholder="姓名:"/>
+						<input type="text" placeholder="电话:"/>
+						<input type="text" placeholder="E-MAIL:"/>
+						<textarea name="" rows="" cols="" placeholder="留言:"></textarea>
+						<button>提交</button>
+					</form>
+				</div>
+			</div>
+				
+			
+			<div class="foot-img">
+				<img src="../img/hz/c1.jpg" alt="" />
+			</div>
+			
+		</div>
+		
+		
+		<div class="footer">
+			<ul>
+				<li><a href="index.html"><span>首页</span></a></li>
+				<li><a href="tel:4xxxxxxx"><span>电话免费咨询</span></a></li>
+				<li><a href="seven.html"><span>在线留言</span></a></li>
+			</ul>
+		</div>
+		
+		
+		<div class="bg"></div>
+						
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		   	var point = new BMap.Point(116.2856900000,39.8356400000);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+		</script>
+	</body>
+</html>

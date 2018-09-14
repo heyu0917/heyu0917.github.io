@@ -1,0 +1,147 @@
+/*野蛮市场*/
+.ymsc .part1 .img1{
+	width: 2.4rem;
+	margin-right: .2rem;
+}
+
+.ymsc .part1 .part-con img{
+	width: 4.09rem;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.ymsc .part1 .part-con p{
+/*	 font-size: .2rem;*/
+font-size: .24rem;
+    transform: scale(.83);
+    -webkit-transform: scale(.83);
+    -o-transform: scale(.83);
+    -moz-transform: scale(.83);
+    -ms-transform: scale(.83);
+}
+.ymsc .part1 .part-con .h3_1{
+	padding-top: 1.6rem;
+}
+.ymsc .part2 .img1{
+	margin-left: .2rem;
+	width: 2.24rem;
+}
+.ymsc .part2 .part-con img{
+	width: 5.16rem;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.ymsc .part2 .part-con .h3_1{
+	padding-top: 1.6rem;
+}
+.ymsc .part3 .img1{
+	margin-right: .2rem;
+	width: 3.93rem;
+}
+.ymsc .part3 .part-con{
+	margin-top: .54rem;
+}
+.ymsc .part3 .part-con img{
+	width: 5.1rem;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -.54rem;
+}
+.ymsc .part3 .part-con .h3_1{
+	position: absolute;
+	top: 1.2rem;
+	right: 0;
+}
+.ymsc .part3 .part-con .p_margin{
+	padding-top: 2.26rem;
+}
+
+
+/*消费野性*/
+.xfyx .part1 img{
+	width: 100%;
+	display: block;
+	margin-bottom: .32rem;
+}
+.xfyx .part2 ul li{
+	width: 33%;
+	float: left;
+	margin-right: .5%;
+}
+.xfyx .part2 ul li:nth-child(3){
+	margin-right: 0;
+}
+.xfyx .part2 ul li img{
+	width: 100%;
+	display: block;
+	margin-bottom: .16rem;
+}
+.xfyx .part2 ul li span{
+/*	font-size: .2rem;*/
+font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	text-align: center;
+	display: block;
+    line-height: .32rem;
+}
+
+.xfyx .part3{
+	position: relative;
+}
+.xfyx .part3 .img1{
+	width: 3.96rem;
+	display: block;
+	margin-bottom: .32rem;
+}
+.xfyx .part3 .img2{
+	position: absolute;
+    right: -.16rem;
+	top: 0;
+	width: 2.9rem;
+	z-index: -1;
+}
+
+.xfyx .part4 .part2-step1{
+	width: 100%;
+}
+.xfyx .part4 .img1{
+	width: 5.05rem;
+	display: block;
+	margin-bottom: .24rem;
+}
+.xfyx .part4 .leftpart img{
+	width: 2.18rem;
+	margin-left: .32rem;
+	margin-bottom: .28rem;
+}
+.xfyx .part4 .leftpart p{
+	background: #fff;
+	color: #666;
+	text-align: center;
+    width: 110%;
+}
+.xfyx .part4 .rightpart{
+	position: relative;
+}
+.xfyx .part4 .h3_absolute{
+	position: absolute;
+	right: .16rem;	
+	top: 0;
+}
+.xfyx .part4 .p_1{
+	padding-top: .8rem;
+}
+
+
+
+

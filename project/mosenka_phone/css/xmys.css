@@ -1,0 +1,132 @@
+.er-nav .er-left .imgbox img{
+	width: .5rem;
+	height: .4rem;
+	margin-top: .16rem;
+}
+.main-title{
+	width: 100%;
+	margin-top: .3rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.main-title span{
+	color: #c5aa60;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	display: block;
+	width: 133.33%;
+	margin-left: -16.666%;
+}
+.main-title h2{
+	color: #301605;
+	font-size: .28rem;
+	font-weight: normal;
+}
+/*产品优势*/
+.cpys{
+	padding: 0 .35rem;
+}
+.cpys .main-con{
+	margin: .3rem 0;
+}
+.cpys .main-part1 ul li{
+	width: 49%;
+	float: left;
+	margin-bottom: .2rem;
+}
+.cpys .main-part1 ul li:nth-child(even){
+	float: right;
+}
+.cpys .main-part1 ul li img{
+	width: 2.65rem;
+	height: 2.65rem;
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+}
+.cpys .main-part1 ul li div{
+	font-size: .27rem;
+	color: #301605;
+	background: #fff;
+	width: .8rem;
+	height: .8rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: .8rem;
+	margin: 0 auto -.4rem auto;
+	position: relative;
+	z-index: 2;
+}
+.cpys .main-part1 ul li:nth-child(even) div{
+	background: #c5aa60;
+	color: #fff;
+}
+
+.cpys .main-part2{
+	margin-top: .3rem;
+}
+.cpys .main-part2 h3{
+	color: #c5aa60;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 133.33%;
+	margin-left: -16.666%;
+	margin-top: -.2rem;
+}
+.cpys .main-part2 h3:nth-child(1){
+	margin-bottom: -.3rem;
+}
+.cpys .main-part2 p{
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 133.33%;
+	margin-left: -16.666%;
+	line-height: .42rem;
+	border-bottom: 1px solid #6a3906;
+    padding-bottom: .2rem;
+	margin-top: -.1rem;
+}
+
+/*经营优势*/
+.jyys{
+	padding: 0 .35rem;
+}
+.jyys .main-con{
+	margin-top: .3rem;
+}
+.jyys .main-con ul li{
+	margin-bottom: .24rem;
+}
+.jyys .main-con ul li img{
+	width: 100%;
+	display: block;
+	height: 1.9rem;
+	border-radius: .1rem;
+	margin-bottom: .12rem;
+}
+.jyys .main-con ul li h3{
+	background: #c6a880;
+	font-size: .24rem;
+	color: #fff;
+	width: 1.46rem;
+/*	height: .4rem;
+	line-height: .4rem;*/
+	text-align: center;
+	border-radius: .4rem;
+	padding: .08rem 0;
+}
+.jyys .main-con ul li div{
+	width: 70%;
+}

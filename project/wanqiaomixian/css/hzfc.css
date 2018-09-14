@@ -1,0 +1,178 @@
+/*合作方式*/
+.hzfs .part1 .con{
+	width: 700px;
+}
+.hzfs .part1 .con ul li{
+	width: 100%;
+	margin-bottom: 30px;
+	height: 370px;
+}
+.hzfs .part1 .con ul li img{
+	width: 275px;
+	height: 370px;
+}
+.hzfs .part1 .con ul li .li-con{
+	width: 395px;
+}
+.hzfs .part1 .con ul li .li-con h2{
+	text-transform: uppercase;
+	font-family: "宋体";
+	font-size: 30px;
+	color: #E60012;
+	display: inline-block;
+	padding: 3px 5px;
+	border-top: 2px solid #E60012;
+	border-bottom: 2px solid #E60012;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.hzfs .part1 .con ul li .li-con h2 span{
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 20px;
+}
+.hzfs .part1 .con ul li p{
+	font-size: 16px;
+	line-height: 30px;
+}
+.hzfs .part1 .con ul li p span{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+}
+
+
+/*总部支持*/
+.hzzc .part1{
+	text-align: center;
+	font-family: "宋体";
+}
+.hzzc .part1 h1{
+	font-size: 38px;
+	line-height: 50px;
+	position: relative;
+	display: inline-block;
+}
+.hzzc .part1 h1::before{
+    content: '';
+    width: 60px;
+    height: 50px;
+    border: 4px solid #E60012;
+    border-right: 0;
+    position: absolute;
+    left: -75px;
+    top: 21px;
+}
+.hzzc .part1 h1::after{
+	content: '';
+	width: 60px;
+	height: 50px;
+	border: 4px solid #E60012;
+	border-left: 0;
+	position: absolute;
+	right: -75px;
+	top: 21px;
+}
+.hzzc .part1 span{
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	letter-spacing: 8px;
+	margin-top: 5px;
+}
+
+.hzzc .part2{
+	margin-top: 110px;
+	position: relative;
+	width: 870px;
+	margin-left: -30px;
+	margin-bottom: 75px;
+}
+.hzzc .part2 .img1{
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    margin-left: -242px;
+    width: 485px;
+    height: 420px;
+}
+
+.hzzc .part2 ul{
+    position: relative;
+    width: 710px;
+    height: 710px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.hzzc .part2 ul li{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #E60012;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+.hzzc .part2 ul li h3{
+	font-family: "宋体";
+	font-size: 28px;
+	color: #E60012;
+	margin-top: 30px;
+	margin-bottom: 3px;
+}
+.hzzc .part2 ul li p{
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.hzzc .part2 ul li:nth-child(1){
+    left: -75px;
+    top: 280px;
+}
+.hzzc .part2 ul li:nth-child(2){
+	left: -24px;
+    top: 108px;
+}
+.hzzc .part2 ul li:nth-child(3){
+    left: 107px;
+    top: -19px;
+}
+.hzzc .part2 ul li:nth-child(4){
+    left: 280px;
+    top: -75px;
+}
+.hzzc .part2 ul li:nth-child(5){
+    right: 107px;
+    top: -19px;
+}
+.hzzc .part2 ul li:nth-child(6){
+    right: -24px;
+    top: 108px;
+}
+.hzzc .part2 ul li:nth-child(7){
+    right: -75px;
+    top: 280px;
+}
+.hzzc .part2 ul li:nth-child(8){
+    right: -24px;
+    bottom: 108px;
+}
+.hzzc .part2 ul li:nth-child(9){
+    right: 107px;
+    bottom: -19px;
+}
+.hzzc .part2 ul li:nth-child(10){
+    right: 280px;
+    bottom: -75px;
+}
+.hzzc .part2 ul li:nth-child(11){
+    left: 107px;
+    bottom: -19px;
+}
+.hzzc .part2 ul li:nth-child(12){
+    left: -24px;
+    bottom: 108px;
+}
+
+

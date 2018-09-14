@@ -1,0 +1,259 @@
+.xy{
+	padding: 0!important;
+}
+.xy .part1{
+	position: relative;
+	overflow: hidden;
+}
+.xy .part1 .box{
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	padding-left: 8%;
+	box-sizing: border-box;
+	padding-top: .25rem;
+	padding-bottom: .2rem;
+}
+.xy .part1 .box .p1{
+	font-size: .34rem;
+	font-weight: bold;
+	font-family: "宋体";
+	color: #c4b799;
+}
+.xy .part1 .box .p2{
+	font-size: .24rem;
+	font-weight: lighter;
+	color: #c4b799;
+}
+.xy .part1 .box .line{
+	width: 2rem;
+	position: relative;
+	height: 2px;
+	background: #C4B798;
+	margin: 10px 0;
+}
+.xy .part1 .box .line:before{
+	content: '';
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	top: -3px;
+}
+.xy .part1 .box .p3{
+	flex-basis: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.xy .part1 .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.xy .part1 .picScroll-left .hd{
+	position: absolute;
+	bottom: .4rem;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	text-align: right;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 4;
+}
+.xy .part1 .picScroll-left .hd ul li{
+	font-size: 0;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: rgba(255,255,255,.3);
+}
+.xy .part1 .picScroll-left .hd ul li.on{
+	background: #fff;
+}
+.xy .part1 .picScroll-left .bd li{
+	width: 100%;
+	float: left;
+}
+.xy .part1 .picScroll-left .bd img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.xy .part2{
+	margin-top: 45px;
+}
+.xy .part2 .title{
+	text-align: center;
+}
+.xy .part2 .title .p1{
+	color: #C4B798;
+	font-size: 42px;
+	line-height: 1.2;
+}
+.xy .part2 .title .p2{
+	text-transform: uppercase;
+	width: 400px;
+	margin: 10px auto 0;
+	color: #fff;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	background: #7D282D;
+}
+
+.xy .part2 .list1{
+	margin-top: 40px;
+	font-size: 0;
+	text-align: center;
+}
+.xy .part2 .list1 li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 .2rem;
+	width: 200px;
+	text-align: center;
+}
+.xy .part2 .list1 li .p1{
+	font-size: 34px;
+	height: 148px;
+	color: #fff;
+	line-height: 1.2;
+	margin-top: -148px;
+	padding-top: 34px;
+	box-sizing: border-box;
+}
+.xy .part2 .list1 li .p2{
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+	margin-top: 10px;
+}
+.xy .part2 .title2{
+	margin-top: 60px;
+}
+.xy .part2 .title2 .p1{
+	font-size: 28px;
+}
+.xy .part2 .title2 .p1 span{
+	color: #7D282D;
+	font-weight: bold;
+}
+
+.xy .part2 .picScroll-left{
+	width: 12rem;
+	position: relative;
+	margin: 35px auto 60px;
+}
+.xy .part2 .picScroll-left .bd{
+	height: 4.3rem;
+	width: 10rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.xy .part2 .picScroll-left .bd li{
+	width: 10rem;
+	height: 4.3rem;
+	float: left;
+	position: relative;
+}
+.xy .part2 .picScroll-left .bd .img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.xy .part2 .picScroll-left .bd li .box{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background: #C4B798;
+	color: #fff;
+    white-space: nowrap;
+}
+.xy .part2 .picScroll-left .bd li .box .fl-lt{
+	font-size: 0;
+	margin-left: .8rem;
+	margin-top: 7px;
+}
+.xy .part2 .picScroll-left .bd li .box .fl-lt img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.xy .part2 .picScroll-left .bd li .box .fl-lt p{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-size: 24px;
+	font-weight: lighter;
+}
+.xy .part2 .picScroll-left .bd li .box .fl-lt span{
+	display: block;
+	font-weight: normal;
+	font-family: arial;
+	font-size: 12px;
+}
+.xy .part2 .picScroll-left .bd li .box .fl-rt span{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 60px;
+	margin: 0 10px;
+	font-size: 16px;
+}
+.xy .part2 .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	cursor: pointer;
+}
+.xy .part2 .picScroll-left .arrow-left{
+	left: 0;
+}
+.xy .part2 .picScroll-left .arrow-right{
+	right: 0;
+}
+
+@media (max-width: 1500px) {
+	.xy .part2 .picScroll-left .bd li .box{
+		height: 50px;
+	}
+	.xy .part2 .picScroll-left .bd li .box .fl-rt span{
+		line-height: 50px;
+		margin: 0 6px;
+		font-size: 14px;
+	}
+	.xy .part2 .picScroll-left .bd li .box .fl-lt{
+		margin-left: 20px;
+		margin-top: 5px;
+	}
+	.xy .part2 .picScroll-left .bd li .box .fl-lt p{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.xy .part2 .picScroll-left .bd li .box .fl-lt img{
+		height: 36px;
+	}
+	.xy .part2 .picScroll-left .bd li .box .fl-lt{
+		margin-left: 10px;
+	}
+	.xy .part2 .picScroll-left .bd li .box .fl-rt span{
+		margin: 0 5px;
+		font-size: 13px;
+	}
+}

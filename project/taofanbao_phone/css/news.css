@@ -1,0 +1,198 @@
+.news-wrap{
+	padding-left: .24rem;
+	background: #fff;
+}
+.admin-box{
+	display: block;
+	border-bottom: 1px solid #d7d7d7;
+	padding: .24rem .24rem .24rem 0;
+	box-sizing: border-box;
+}
+.news-wrap .news-h-img{
+	width: 1rem;
+	height: 1rem;
+}
+.news-wrap .admin-con{
+	width: 4rem;
+	margin-left: .24rem;
+	margin-top: .08rem;
+}
+.news-wrap .admin-con h3{
+	font-weight: normal;
+	font-size: .3rem;
+	margin-bottom: .08rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.admin-box .admin-con p{
+	font-size: .26rem;
+	color: #999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.admin-box .arrowr-img{
+	width: .14rem;
+	height: .24rem;
+	margin-top: .38rem;
+}
+.news-list li{
+	border-bottom: 1px solid #d7d7d7;
+	padding: .24rem .24rem .24rem 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.news-list li:last-child{
+	border: 0;
+}
+.news-list li a{
+	display: block;
+}
+.news-list li a .news-img{
+	width: 1rem;
+	height: .8rem;
+	margin-top: .1rem;
+}
+.news-list li a .admin-con div{
+	font-size: .26rem;
+	color: #999;
+}
+.news-list li a .admin-con div p{
+	width: 2.68rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*详情*/
+header .left-img-box .back-img{
+	width: .24rem;
+	height: .4rem;
+	margin-left: .24rem;
+	margin-top: .24rem;
+}
+
+.part1{
+	background: #fff;
+	border-bottom: 1px solid #d7d7d7;
+	padding: .24rem;
+	position: relative;
+}
+.part1 img{
+	width: 1.5rem;
+	height: 1.2rem;
+	position: absolute;
+	left: .24rem;
+	top: .24rem;
+}
+.part1 .part1-con{
+	width: 100%;
+	padding-left: 1.74rem;
+	box-sizing: border-box;
+}
+.part1 .part1-con h3{
+	font-size: .24rem;
+	margin-bottom: .16rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.part1 .part1-con p{
+	line-height: .44rem;
+	font-size: .24rem;
+	color: #999;
+}
+.part1 .part1-con p span{
+	color: #222;
+}
+
+.part2{
+	padding: .4rem .24rem;
+}
+.part2 img{
+	width: .72rem;
+	height: .72rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .08rem;
+}
+.part2 span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .3rem;
+}
+.part3{
+	margin: 0 .24rem;
+	border-radius: .12rem;
+	background: #fff;
+	height: 1.04rem;
+	line-height: 1.04rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: .26rem;
+	padding-left: .24rem;
+}
+
+
+/*系统消息*/
+.adminNews{
+	bottom: 0;
+}
+.amdinNews-list li{
+	padding: .16rem .24rem;
+	border-bottom: 1px solid #D7D7D7;
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.amdinNews-list li h3{
+	font-size: .28rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: .12rem;
+	width: 70%;
+}
+.amdinNews-list li .title u{
+	width: 26%;
+	font-size: .24rem;
+	text-align: right;
+	margin-top: -.08rem;
+}
+.amdinNews-list li p{
+	font-size: .26rem;
+	height: .72rem;
+	line-height: .36rem;
+	overflow: hidden;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+}
+.amdinNews-list li span{
+	color: #fccc18;
+	font-size: .24rem;
+	display: block;
+	float: right;
+	margin-top: .1rem;
+	margin-right: .04rem;
+}
+.amdinNews-list li i{
+	position: absolute;
+  top: .24rem;
+  left: .04rem;
+  width: .12rem;
+  height: .12rem;
+  background: #f00;
+  border-radius: 50%;
+  display: block;
+  font-size: .24rem;
+}
+.amdinNews-list li i.i1{
+	display: none;
+}

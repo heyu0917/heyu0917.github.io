@@ -1,0 +1,135 @@
+.section .con{
+	width: 78%;
+	margin: 6.5% auto;
+}
+.section .title{
+	text-align: center;
+	width: 4.2rem;
+	position: relative;
+	margin: 0 auto 3.5%;
+	color: #1D2087;
+}
+.section .title .img1{
+	position: absolute;
+	top: .64rem;
+	left: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.section .title .img2{
+	position: absolute;
+	top: .64rem;
+	right: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.section .title .p1{
+	font-family: myfont;
+	font-size: .46rem;
+	margin-bottom: .04rem;
+}
+.section .title .p2{
+	font-size: .34rem;
+}
+.section .title .p3{
+	display: inline-block;
+	font-size: .26rem;
+	position: relative;
+	margin-bottom: .06rem;
+	margin-top: .06rem;
+}
+.section .title .p3:before,
+.section .title .p3:after{
+	width: .4rem;
+	height: 2px;
+	background: #1D2087;
+	content: '';
+	position: absolute;
+	top: .18rem;
+}
+.section .title .p3:before{
+	left: -.6rem;
+}
+.section .title .p3:after{
+	right: -.6rem;
+}
+
+.section .title .p4{
+	font-size: .14rem;
+	text-transform: uppercase;
+}
+
+.section .picScroll-left{
+	width: 12.6rem;
+	position: relative;
+	margin: 0 auto;
+}
+.section .picScroll-left .bd{
+	width: 11.4rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.section .picScroll-left .bd ul{
+	position: relative;
+}
+.section .picScroll-left .bd ul li{
+	width: 2.25rem!important;
+	height: 3.32rem;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 0 .3rem;
+	background-image: url(../img/cp/a0.jpg);
+	background-size: 100% 2.6rem;
+	background-repeat: no-repeat;
+	padding: .1rem;
+	box-sizing: border-box;
+}
+.section .picScroll-left .bd ul li .img1{
+    width: 100%;
+    display: block;
+    height: 2.4rem;
+}
+.section .picScroll-left .bd ul li p{
+	text-align: center;
+	color: #1D2087;
+	font-size: .2rem;	
+	line-height: .5rem;
+	height: .5rem;
+	overflow: hidden;
+    margin-top: .1rem;
+    width: 110%;
+    margin-left: -5%;
+}
+.section .picScroll-left .bd ul li .img2{
+	display: block;
+	height: .12rem;
+	margin: 0 auto;
+}
+.arrow{
+	position: absolute;
+	top: 1.3rem;
+	margin-top: -.38rem;
+	z-index: 2;
+	height: .76rem;
+	width: .76rem;
+	cursor: pointer;
+}
+.arrow-left{
+	left: -1rem;
+}
+.arrow-right{
+	right: -1rem;
+} 
+.arrow img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width: 1600px) {
+	.section .picScroll-left .bd ul li p{
+		font-size: 14px;
+	}
+}
+

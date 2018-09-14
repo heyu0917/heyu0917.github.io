@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/sh.css">	
+	<!--动画-->
+	<link rel="stylesheet" href="../css/animate.css">
+</head>
+<body>
+	<!--公共头部-->
+	<header class="clearfix" style="background: url(../img/head1.jpg) center center no-repeat;">
+		<div class="fl-lt">
+			<img src="../img/logo.png" alt="" class="img1 fl-lt"/>	
+			<span>俄式谷物果昔手作冰淇淋</span>
+		</div>
+		<div class="nav-wrapper fl-rt">
+			<ul>                                                                                                   
+				<li><a href="index.html">首页</a></li>
+				<li><a href="zapp.html">臻爱品牌</a></li>
+				<li><a href="yjqw.html">遇见趣闻</a></li>
+				<li><a href="tmss.html">甜蜜膳食</a></li>
+				<li class="on"><a href="lmsh.html">浪漫生活</a></li>
+				<li><a href="xgcq.html">星工传奇</a></li>
+				<li><a href="hzfc.html">合作扶持</a></li>
+				<li><a href="dxmx.html">店型美学</a></li>
+				<li><a href="lxwm.html">联系我们</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<!--class="pagenow fadeInRight delay300" data-rel="fadeInRight"-->
+	<div id="container" data-PageSwitch>
+		<div class="sections">
+			<div class="section section1 active" id="section0">
+				<div class="con">
+					<div class="part">
+						<img src="../img/sh/a1.jpg" alt="" class="part-bg"/>
+						<div class="item1">
+							<span class="span1">约会来一支，甜蜜每一次</span>
+							<span class="span2">聚会来一支，甜蜜正青春</span>
+							<span class="span3">逛街来一支，甜蜜好心情</span>
+							<span class="span4">随时来一支，甜蜜无负担</span>
+							<span class="span5">嘴馋来一支，甜蜜小满足</span>
+						</div>
+						<div class="item2">
+							<p class="p2">随时随地，来支冰淇淋</p>
+							<p class="p3"><span></span>生活要甜蜜，美味要尽兴<span></span></p>
+							<p class="p4">Life is sweet and delicious to be happy</p>
+							<img src="../img/icon3.png" alt="" class="img3"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="section section2 " id="section1">
+				<img src="../img/sh/bg2.jpg" alt="" class="section-bg2"/>
+				<div class="con">
+					<p class="p1">Russian wind</p>
+					<div class="line"></div>
+					<p class="p2">俄风正浓</p>
+					<p class="p3">漫生活概念走进您的内心</p>
+					<p class="p4">The concept of an overflowing life goes into your heart</p>
+					<div class="line2"></div>
+					<p class="p5">走进环境优雅的小店
+					<br />闭眸轻闻
+					<br />那圣彼得堡的老味道
+					<br />记忆犹新
+					<br />轻轻环顾四周
+					<br />老人的微笑
+					<br />顽童在认真捏造
+					<br />情侣间淡淡的温馨
+					<br />让悠然从心底缓缓升起
+					<br />有一种生活叫漫
+					<br />心旷神怡
+					<br />悠悠的甜</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<!--全屏滚动-->
+	<script type="text/javascript" src="../js/pageswitch.js"></script>
+	<script>
+		$("#container").PageSwitch({
+			//'loop':true,
+		});
+		
+		$(function(){
+			var part_w = $('.section1 .part-bg').height() * 2.09;
+			$('.section1 .part').width(part_w);
+		})
+		
+	</script>
+
+
+</body>
+</html>

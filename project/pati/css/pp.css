@@ -1,0 +1,98 @@
+.title{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+}
+.title p:nth-child(1){
+	color:#b40005;
+}
+.title p:nth-child(2){
+	color:#e7bb6f;
+}
+
+.pp .part{
+	margin-top: 20px;
+}
+
+
+.bigSmall .large_box{
+	width: 800px;
+	margin: 0 auto 16px auto;
+	overflow: hidden;
+	height: 495px;
+	box-shadow: 1px 1px 6px rgba(0,0,0,.3);
+}
+.bigSmall .large_box ul{
+	position: relative;
+}
+.bigSmall .large_box ul li{
+	position: relative;
+	width: 800px;
+	height: 495px; 
+}
+.bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.bigSmall .small_box{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.bigSmall .small_box .small_list{
+	width: 800px;
+	height: 160px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.bigSmall .small_box .small_list ul li{
+	width: 260px;
+	height: 160px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 4px;
+	overflow: hidden;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+	z-index:3;
+}
+.bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.bigSmall .small_box ul li.on{
+	border: 2px solid #B40005;
+}
+.arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	z-index: 2;
+	height: 55px;
+	width: 55px;
+	cursor: pointer;
+}
+.arrow-left{
+	left: 115px;
+}
+.arrow-right{
+	right:115px;
+} 
+.arrow img{
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+	width: 55px;
+	height: 55px;
+	margin: 10px auto 0 auto;
+}
+
+

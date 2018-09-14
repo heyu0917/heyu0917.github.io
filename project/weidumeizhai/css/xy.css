@@ -1,0 +1,132 @@
+.xy .con{
+	width: 80%;
+	margin: 4.5% auto;
+	color: #666;
+}
+.xy .title{
+	text-align: center;
+	color: #666;
+}
+.xy .title .p1{
+	font-size: .46rem;
+}
+.xy .title .p1 span{
+	color: #cc0000;
+}
+.xy .title .p2{
+	font-size: .16rem;
+	margin-bottom: 1.5%;
+}
+.xy .title .p3{
+	font-size: 14px;
+}
+.xy .item1{
+	margin-top: 2.5%;
+	margin-bottom: 7%;
+	position: relative;
+}
+.xy .item1 ul li{
+	float: left;
+	width: 18%;
+	margin-right: 2.5%;
+	color: #999;
+	text-align: center;
+	margin-top: 1%;
+	font-size: 14px;
+}
+.xy .item1 ul li:last-child{
+	margin-right: 0;
+}
+.xy .more{
+	position: absolute;
+	right: 0;
+	bottom: -35px;
+	height: 20px;
+	width: 70px;
+}
+.xy .more img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.xy .more p{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.xy .item2{
+	position: relative;
+	width: 100%;
+	padding: 0 10%;
+	box-sizing: border-box;
+}
+.xy .item2 .p1{
+	font-size: .3rem;
+	text-align: center;
+}
+.xy .item2 .p2{
+	font-size: .16rem;
+	margin-bottom: 1.5%;
+	text-align: center;
+}
+.xy .item2 ul{
+	border-top: 1px solid #D2A777;
+	border-bottom: 1px solid #D2A777;
+}
+.xy .item2 ul li{
+	margin: 2% 0;
+	position: relative;
+	height: 1.3rem;
+}
+.xy .item2 ul li img{
+	width: 2.2rem;
+	height: 1.3rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.xy .item2 ul li .li-con{
+	padding-left: 2.5rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+.xy .item2 ul li .li-con .p3{
+	font-size: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.xy .item2 ul li .li-con .p4{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 1%;
+}
+.xy .item2 .more{
+	bottom: 0;
+	right: 0;
+}
+
+@media (max-width: 1400px) {
+	.xy .con{
+		margin-top: 3.2%;
+	}
+	.xy .item1 {
+	    margin-bottom: 5%;
+	}
+	.xy .item2 ul li .li-con .p3{
+		font-size: 16px;
+	}
+}
+@media (max-width: 1300px) {
+	.xy .con{
+		margin-top: 3%;
+	}
+	.xy .item1 {
+	    margin-bottom: 4%;
+	}
+}
+

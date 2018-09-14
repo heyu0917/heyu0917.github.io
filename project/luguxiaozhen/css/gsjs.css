@@ -1,0 +1,151 @@
+/*公共*/
+.main-com-top{
+	background: #ecae33;
+	padding: 20px;
+	position: relative;
+}
+.main-com-top .title{
+	position: relative;
+	margin-bottom: 10px;
+}
+.main-com-top .title h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 34px;
+}
+.main-com-top .line{
+	position: absolute;
+	right: -20px;
+	bottom: 15px;
+	height: 1px;
+	background: #000;
+}
+.main-com-top .p1{
+	color: #666;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 0!important;
+}
+
+
+/*企业介绍*/
+.qyjs .main-com-top .line{
+	width: 440px;
+}
+
+.qyjs .part1{
+	margin-top: 25px;
+}
+
+.qyjs p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.qyjs .img-box{
+	font-size: 0;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+.qyjs .img-box img{
+	display: inline-block;
+	width: 365px;
+	height: 186px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.qyjs .img-box img:nth-child(even){
+	margin-right: 0;
+}
+
+
+/*企业团队*/
+.qytd .main-com-top .line{
+	width: 260px;
+}
+.qytd .part1{
+	margin-top: 20px;
+}
+.qytd .part1 p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.qytd .part1 ul li{
+	width: 47.5%;
+	float: left;
+	margin-bottom: 25px;
+	font-size: 0;
+}
+.qytd .part1 ul li:nth-child(even){
+	float: right;
+}
+.qytd .part1 ul li .title{
+	text-align: center;
+	background: #f5b32c;
+	padding: 10px 5px;
+	color: #fff;
+	font-size: 20px;
+}
+.qytd .part1 ul li .title h3{
+	font-weight: normal;
+	margin-bottom: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 20px;
+}
+.qytd .part1 ul li .title span{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.qytd .part1 ul li img{
+	width: 100%;
+	height: 150px;
+	display: block;
+}
+
+
+/*企业文化*/
+.qywh .main-com-top .line{
+	width: 390px;
+}
+.qywh .part1{
+	margin-top: 20px;
+}
+.qywh .part1 p{
+	font-size: 17px;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+
+/*荣誉资质*/
+.qyry .main-com-top .line{
+	width: 515px;
+}
+.qyry .part1{
+	margin-top: 20px;
+}
+.qyry .part1 p{
+	font-size: 17px;
+	line-height: 36px;
+	margin-bottom: 35px;
+}
+.qyry .part1 .img-box{
+	text-align: center;
+	font-size: 0;
+}
+.qyry .part1 .img-box img{
+	width: 315px;
+	height: 425px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+
+
+

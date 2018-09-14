@@ -1,0 +1,321 @@
+{
+  "index.html": {
+    "resources": [
+      "img/bottomIcon2-gray.png",
+      "img/bottomIcon4-gray.png",
+      "img/haowu4.jpg",
+      "img/bottomIcon1.png",
+      "img/bottomIcon3-gray.png",
+      "img/haowu3.jpg",
+      "css/index.css",
+      "img/haowu2.jpg",
+      "js/common.js",
+      "css/common.css",
+      "js/zepto.min.js",
+      "img/haowu1.jpg",
+      "js/index.js",
+      "detail.html",
+      "mall.html",
+      "shoppingCar.html",
+      "my.html"
+    ],
+    "refer": [
+      "detail.html",
+      "mall.html",
+      "shoppingCar.html",
+      "my.html"
+    ]
+  },
+  "detail.html": {
+    "resources": [
+      "img/detailInfo4.jpg",
+      "img/detailInfo10.jpg",
+      "img/detail1.jpg",
+      "img/detailInfo7.jpg",
+      "img/detailInfo8.jpg",
+      "img/detailInfo5.jpg",
+      "img/arrowT.png",
+      "img/detailInfo6.jpg",
+      "js/detail.js",
+      "img/detailInfo9.jpg",
+      "img/detailInfo3.jpg",
+      "img/arrowL.png",
+      "index.html",
+      "img/collect.png",
+      "img/close.png",
+      "css/detail.css",
+      "img/person_e.png",
+      "img/detailInfo1.jpg",
+      "js/swipe.js",
+      "img/right.png",
+      "img/detailInfo2.jpg",
+      "shoppingCar.html",
+      "font/star.woff",
+      "img/collected.png",
+      "js/common.js",
+      "css/common.css",
+      "js/zepto.min.js",
+      "mall.html"
+    ],
+    "refer": [
+      "index.html",
+      "shoppingCar.html",
+      "mall.html"
+    ]
+  },
+  "mall.html": {
+    "resources": [
+      "img/search.png",
+      "img/banner2.jpg",
+      "img/news.png",
+      "img/bottomIcon2.png",
+      "img/goods3.jpg",
+      "img/bottomIcon1-gray.png",
+      "img/banner1.jpg",
+      "img/goods1.jpg",
+      "img/banner3.jpg",
+      "img/smile.png",
+      "css/mall.css",
+      "img/goods2.jpg",
+      "shoppingCar.html",
+      "index.html",
+      "js/swipe.js",
+      "goods_list.html",
+      "detail.html",
+      "my.html"
+    ],
+    "refer": [
+      "shoppingCar.html",
+      "index.html",
+      "goods_list.html",
+      "detail.html",
+      "my.html"
+    ]
+  },
+  "shoppingCar.html": {
+    "resources": [
+      "img/round_light.png",
+      "detail.html",
+      "css/shoppingCar.css",
+      "img/shop1.png",
+      "img/shop2.png",
+      "img/bottomIcon3.png",
+      "img/round.png",
+      "my.html",
+      "img/detail1.jpg",
+      "mall.html",
+      "img/search.png",
+      "img/news.png",
+      "img/bottomIcon1-gray.png",
+      "index.html"
+    ],
+    "refer": [
+      "detail.html",
+      "my.html",
+      "mall.html",
+      "index.html"
+    ]
+  },
+  "balance_money.html": {
+    "resources": [
+      "img/arrowL2.png",
+      "img/recharge.png",
+      "balance.html",
+      "my.html"
+    ],
+    "refer": [
+      "balance.html",
+      "my.html"
+    ]
+  },
+  "my.html": {
+    "resources": [
+      "balance_money.html",
+      "img/option.png",
+      "img/address.png",
+      "img/order2.png",
+      "img/order4.png",
+      "img/order3.png",
+      "img/collection.png",
+      "img/order1.png",
+      "css/my.css",
+      "img/bottomIcon4.png",
+      "img/male.png",
+      "img/set.png",
+      "img/arrowR.png",
+      "img/fenxiaoIcon.png",
+      "img/head_bg.jpg",
+      "img/balance.png",
+      "img/head_.jpg",
+      "shoppingCar.html",
+      "order.html",
+      "set.html",
+      "login.html",
+      "index.html",
+      "img/news.png",
+      "img/bottomIcon1-gray.png",
+      "img/bottomIcon2-gray.png",
+      "img/bottomIcon3-gray.png",
+      "js/common.js",
+      "css/common.css",
+      "js/zepto.min.js",
+      "mall.html",
+      "address.html"
+    ],
+    "refer": [
+      "balance_money.html",
+      "shoppingCar.html",
+      "order.html",
+      "set.html",
+      "login.html",
+      "index.html",
+      "mall.html",
+      "address.html"
+    ]
+  },
+  "balance.html": {
+    "resources": [
+      "img/zhifubao.png",
+      "img/yinlian.png",
+      "img/weixin.png",
+      "balance_money.html"
+    ],
+    "refer": [
+      "balance_money.html"
+    ]
+  },
+  "orderDetail.html": {
+    "resources": [
+      "img/kefu.png",
+      "img/addressIcon.png",
+      "order.html"
+    ],
+    "refer": [
+      "order.html"
+    ]
+  },
+  "order.html": {
+    "resources": [
+      "img/order1.jpg",
+      "js/order.js",
+      "orderDetail.html",
+      "css/order.css",
+      "img/order2.jpg",
+      "my.html",
+      "img/arrowL.png"
+    ],
+    "refer": [
+      "orderDetail.html",
+      "my.html"
+    ]
+  },
+  "set.html": {
+    "resources": [
+      "personal.html",
+      "css/set.css",
+      "my.html",
+      "safe.html",
+      "img/arrowL.png",
+      "js/common.js",
+      "css/common.css",
+      "img/arrowR.png",
+      "js/zepto.min.js"
+    ],
+    "refer": [
+      "personal.html",
+      "my.html",
+      "safe.html"
+    ]
+  },
+  "personal.html": {
+    "resources": [
+      "img/QR-code.png",
+      "img/clear.png",
+      "js/personal.js",
+      "css/personal.css",
+      "css/feedback-page.css",
+      "set.html",
+      "img/right.png"
+    ],
+    "refer": [
+      "set.html"
+    ]
+  },
+  "login.html": {
+    "resources": [
+      "img/round_light2.png",
+      "img/sex.png",
+      "my.html",
+      "img/password.png",
+      "css/login.css",
+      "js/login.js",
+      "img/name.png",
+      "img/sex_light.png",
+      "img/arrowL.png",
+      "js/common.js",
+      "css/common.css",
+      "img/arrowR.png",
+      "js/zepto.min.js"
+    ],
+    "refer": [
+      "my.html"
+    ]
+  },
+  "goods_list.html": {
+    "resources": [
+      "img/search_gray.png",
+      "img/order1.jpg",
+      "img/dustbin2.png",
+      "img/arrowL.png",
+      "css/search.css",
+      "img/arrowR.png",
+      "img/screen.png",
+      "img/arrowD_t.png",
+      "img/order2.jpg",
+      "img/right.png",
+      "img/screen_.png",
+      "js/goods_list.js",
+      "img/arrowT_t.png",
+      "js/common.js",
+      "css/common.css",
+      "js/zepto.min.js",
+      "mall.html"
+    ],
+    "refer": [
+      "mall.html"
+    ]
+  },
+  "safe.html": {
+    "resources": [
+      "set.html",
+      "reset.html"
+    ],
+    "refer": [
+      "set.html",
+      "reset.html"
+    ]
+  },
+  "reset.html": {
+    "resources": [
+      "safe.html",
+      "css/reset.css",
+      "js/reset.js"
+    ],
+    "refer": [
+      "safe.html"
+    ]
+  },
+  "address.html": {
+    "resources": [
+      "img/dustbin.png",
+      "img/address-icon.png",
+      "img/round2.png",
+      "img/edit.png",
+      "css/sure_order.css",
+      "my.html"
+    ],
+    "refer": [
+      "my.html"
+    ]
+  }
+}

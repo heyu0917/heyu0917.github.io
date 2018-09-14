@@ -1,0 +1,122 @@
+
+header{
+	background: #fff;
+}
+
+header .right-img-box span{
+	color: #fccc18;
+}
+.evaluate-con{
+	/*position: absolute;
+	left: 0;
+	top: .88rem;
+	border-top: 1px solid #D7D7D7;*/
+	width: 100%;
+}
+.evaluate-con-top{
+	padding: .24rem;
+	border-bottom: 1px solid #D7D7D7;
+	background: #fff;
+	overflow: hidden;
+}
+.goods-img{
+	width: 1.52rem;
+	height: 1.36rem;
+	border: 1px solid #D7D7D7;
+	margin-right: .4rem;
+}
+.evaluate-grade h3{
+	font-size: .3rem;
+	height: .56rem;
+	line-height: .56rem;
+}
+/*stars-box*/
+.stars-box img{
+	width: .4rem;
+	height: .4rem;
+	float: left;
+	margin-right: .24rem;
+	margin-top: .16rem;
+}
+ textarea{
+ 	padding: 0.16rem .24rem;
+ 	resize: none;
+ 	width: 100%;
+ 	box-sizing: border-box;
+ 	height: 2.2rem;
+ 	line-height: .38rem;
+ 	font-size: .26rem;
+ 	background: #F8F8F8;
+ 	color: #999;
+ }
+ .nickname-box{
+ 	background: #fff;
+ 	padding: .16rem .24rem .4rem .24rem;
+ }
+ .nickname-box img{
+ 	width: .34rem;
+ 	height: .34rem;
+ 	vertical-align: middle;
+ 	display: inline-block;
+ 	margin-right: .08rem;
+ }
+ .nickname-box span{
+ 	vertical-align: middle;
+ 	display: inline-block;
+ 	font-size: .24rem;
+ 	color: #666;
+ }
+ 
+.bottom-popup{
+	width: 2.5rem;
+	height: .8rem;
+	line-height: .8rem;
+	top: 50%;
+	margin-top: -1rem;
+}
+
+/*上传图片*/
+.content1{
+	width: 100%;
+	padding: .44rem .24rem 0 .08rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #fff;
+	margin-top: -.24rem;
+}
+.image-item {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-image: url(../img/iconfont-tianjia.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    border-radius: .08rem;
+    margin-left: .16rem;
+    margin-bottom: .16rem!important;
+}
+.collapse-content img{
+	width: 1.3rem;
+    height: 1.3rem;
+    margin-bottom: .16rem;
+}
+
+/*上传图上删除样式*/
+ .del {  
+    position: absolute;  
+    top:.08rem;  
+    right: .08rem;   
+    display: block;        
+ 	line-height: 1;  
+    cursor: pointer;  
+    color:#fff;  
+    width: .2rem;
+    height: .2rem;
+    border: 1px solid #fff;
+    z-index: 11111;
+}  
+ .del:hover {  
+    border-color:#ff3333;  
+}  
+
+

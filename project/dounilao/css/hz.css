@@ -1,0 +1,222 @@
+/*扶持政策*/
+.hzzc .title{
+	color: #1D3F64;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.hzzc .title .p1{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.hzzc .title .p2{
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.hzzc ul li{
+	padding: 0 20px 20px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #C92740;
+	clear: both;
+	height: 260px;
+}
+.hzzc ul li:nth-child(2){
+	height: 187px;
+}
+.hzzc ul li .li-img{
+	width: 60%;
+	margin-right: 4%;
+}
+.hzzc ul li:nth-child(even) .li-img{
+	margin-right: 0;
+	margin-left: 4%;
+}
+.hzzc ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hzzc ul li .li-con{
+	width: 36%;
+    padding-top: 6px;
+}
+.hzzc ul li:nth-child(2) .li-con{
+	padding-top: 0;
+}
+.hzzc ul li .li-con div{
+	margin-bottom: 10px;
+	font-size: 0;
+    margin-bottom: 14px;
+}
+.hzzc ul li .li-con .p1{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	font-size: 50px;
+	color: rgba(201, 39, 64,.55);	
+	line-height: 1;
+}
+.hzzc ul li .li-con .p2{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.hzzc ul li .li-con .p2 span{
+	display: block;
+	font-size: 22px;
+	color: #C92740;
+}
+
+
+/*扶持政策*/
+.hzfs .title{
+    color: #1D3F64;
+    text-align: center;
+    position: relative;
+    width: 400px;
+    margin: 0 auto 40px;
+}
+.hzfs .title .p1{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding: 0 15px;
+	background: #fff;
+}
+.hzfs .title .p2{
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 0 15px;
+	background: #fff;
+}
+.hzfs .title .border{
+    border: 2px solid #C92740;
+    height: 46px;
+    position: absolute;
+    left: -20%;
+    top: 25px;
+    width: 140%;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+.hzfs dl{
+	margin-bottom: 6px;
+	font-size: 0;
+	text-align: center;
+}
+.hzfs .dl1{
+	height: 72px;
+	line-height: 72px;
+}
+.hzfs dl dt{
+	width: 234px;
+	margin-right: 6px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 24px;
+}
+.hzfs dl dd{
+	width: 600px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.hzfs dl dd p{
+	line-height: 56px;
+	height: 56px;
+	background: #8e9fb1;
+	margin-bottom: 6px;
+	font-size: 18px;
+}
+.hzfs dl dd p:nth-child(even){
+	background: #e5cba6;
+}
+.hzfs dl dd p:last-child{
+	margin-bottom: 0;
+}
+
+.hzfs .dl1 dt,
+.hzfs .dl1 dd{
+	background: #C92740;
+	color: #fff;
+	font-size: 24px;
+}
+
+.hzfs .dl2 dt{
+	height: 243px;
+	background: #8e9fb1;
+	line-height: 243px;
+}
+.hzfs .dl3 dt{
+	height: 265px;
+	background: #e5cba6;
+	line-height: 265px;
+}
+.hzfs .dl3 dd p:nth-child(2){
+    line-height: 26px;
+    padding: 12px 0 10px;
+}
+
+/*扶持政策*/
+.hzmd .part1{
+	width: 96%;
+	margin: 0 auto;
+}
+.hzmd .title{
+	color: #1D3F64;
+	position: relative;
+}
+.hzmd .title .p1{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.hzmd .title .p2{
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.hzmd .title .p3{
+	font-size: 80px;
+	color: rgba(29, 63, 100,.2);
+	position: absolute;
+	left: 0;
+	top: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	z-index: -1;
+}
+
+.hzmd .con{
+	margin-top: 60px;
+}
+.hzmd .con .list1 li{
+	float: left;
+	width: 48%;
+	margin-bottom: 30px;
+	border: 2px solid #CFA05C;
+	box-sizing: border-box;
+	height: 206px;
+}
+.hzmd .con .list1 li:nth-child(even){
+	float: right;
+}
+.hzmd .con .list1 li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.hzmd .con .page-wrapper{
+	text-align: right;
+}
+
+
+
+
+
+

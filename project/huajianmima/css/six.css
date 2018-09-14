@@ -1,0 +1,117 @@
+.six1 .six1-main{
+	width: 876px;
+	margin:0 auto;
+	margin-top: 20px;
+	position:relative;
+	color:#b43363;
+}
+.six1 .six1-main img{
+	width: 100%;
+}
+.six1 .six1-main .title{
+	position:absolute;
+	top: 22px;
+	right: 40px;
+}
+.six1 .six1-main .title .p1{
+	font-size: 32px;
+	font-weight: bold;
+}
+.six1 .six1-main .title .p2{
+	font-size: 22px;
+	letter-spacing: 5px;
+}
+.six1 .six1-main .title .p3{
+	font-size: 12px;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+.six1 .six1-main .form{
+	width: 770px;
+	position:absolute;
+	top:125px;
+	left: 55px;
+}
+.six1 .six1-main .form-l{
+	width: 310px;
+	height: 550px;
+}
+.six1 .six1-main .form-l .p1{
+	color: #ae3363;
+    font-size: 30px;
+}
+.six1 .six1-main .form-l .p2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.six1 .six1-main .form-l .inp-top{
+	font-size: 20px;
+}
+.six1 .six1-main .form-l .inp-top span{
+	margin-right: 20px;
+}
+.six1 .six1-main .form-l .inp-top label{
+	cursor: pointer;
+	margin-right: 10px;
+	margin-left: 3px;
+}
+.six1 .six1-main .form-l input.inp{
+	width: 300px;
+	height:35px;
+	background-color: #e7e7e7;
+	margin:12px 0;
+	font-size: 16px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.six1 .six1-main .form-l textarea{
+	font-size: 16px;
+	width: 300px;
+	height: 120px;
+	background-color: #e7e7e7;
+	padding: 10px;
+	box-sizing: border-box;
+	resize: none;
+	margin-top: 10px;
+}
+.six1 .six1-main .form-l button{
+	font-size: 18px;
+	width: 90px;
+	height: 35px;
+	background-color: #ae3363;
+	color:#fff;
+	border-radius: 35px;
+	cursor: pointer;
+	display: block;
+	margin:10px auto;
+	line-height: 35px;
+}
+
+.six1 .six1-main .form-l textarea::-webkit-input-placeholder{color:#ae3363;}
+.six1 .six1-main .form-l textarea::-moz-placeholder{color:#ae3363;}
+.six1 .six1-main .form-l textarea:-ms-input-placeholder{color:#ae3363;}
+
+.six1 .six1-main .form-r .map{
+	width: 420px;
+	height: 400px;
+}
+.six1 .six1-main .form-r .form-r-fonts{
+	font-size: 16px;
+	background-color: #ae3363;
+	color:#fff;
+	font-weight: bold;
+	width: 210px;
+	text-align: center;
+	margin:0 auto;
+	padding:15px 0;
+	border-radius: 35px;
+	margin-top: 30px;
+}

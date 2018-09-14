@@ -1,0 +1,126 @@
+/*公共*/
+.main-com-top{
+	background: #ecae33;
+	padding: 10px 20px;
+	position: relative;
+	z-index: 2;
+}
+.main-com-top .title{
+	position: relative;
+}
+.main-com-top .title h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 34px;
+	background: #ecae33;
+	display: inline-block;
+	padding-right: 10px;
+}
+.main-com-top .line{
+	position: absolute;
+	right: -20px;
+	bottom: 15px;
+	z-index: -1;
+	width: 100%;
+	height: 1px;
+	background: #000;
+}
+.main-com-top .p1{
+	color: #666;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0!important;
+}
+
+
+/*联系我们*/
+.lxwm #map{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 35px;
+	height: 325px;
+}
+.lxwm .address-wrapper{
+	margin-bottom: 25px;
+}
+.lxwm .address-wrapper p{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.lxwm .img1{
+	display: block;
+	width: 290px;
+	height: 290px;
+	margin-right: 20px;
+}
+
+
+/*在线留言*/
+.leaveMsg .part1 .con{
+	width: 100%;
+	border: 1px solid #EBAD34;
+	height: 400px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	position: relative;
+}
+.leaveMsg .part1 .con ul li{
+	margin-bottom: 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	float: left;
+	width: 100%;
+}
+.leaveMsg .part1 .con ul li:nth-child(1),
+.leaveMsg .part1 .con ul li:nth-child(2){
+	width: 50%;
+}
+.leaveMsg .part1 .con ul li span{
+	display: inline-block;
+	vertical-align: middle;
+	width: 85px;
+}
+.leaveMsg .part1 .con ul li:first-child span{
+	width: 55px;
+}
+.leaveMsg .part1 .con ul li input{
+	display: inline-block;
+	vertical-align: middle;
+	width: 270px;
+	line-height: 40px;
+	font-size: 16px;
+}
+.leaveMsg .part1 .con ul li textarea{
+	width: 400px;
+	line-height: 28px;
+	font-size: 16px;
+	height: 180px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px;
+	resize: none;
+}
+.leaveMsg .part1 .con .submit{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 120px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 18px;
+	background: #EBAD34;
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+

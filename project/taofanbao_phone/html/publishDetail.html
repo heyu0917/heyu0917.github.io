@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/publishDetail.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>	    
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+		<header>
+		    <a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/close.png" alt="" />
+		    </a>
+		    <h1>发布</h1>
+		</header>
+
+		<div class="content">
+			<div class="part1">
+				<div class="part1-name">
+					<span class="fl-lt">案件名称</span><input type="text" name="" class="fl-lt" id="name_para" readonly />
+				</div>
+				<div class="part1-type">
+					<span class="fl-lt">案件类型</span><input type="text" name="" placeholder="请选择案件类型" class="fl-lt" id="case_type_show" readonly><img src="../img/arrow_d.png" class="fl-rt">
+				</div>
+				<div class="part1-textarea">
+					<span>案件描述</span>
+					<textarea placeholder="请描述一下案件，不超过140字..."></textarea>
+				</div>
+			</div>
+			<div class="part2">
+				<!--<div class="part2-carm">
+					<img src="../img/carm.png">
+					<span>最多可上传10张图片</span>
+				</div>-->
+				<div class="post-wrap">  
+		            <input type="hidden" id="ckjl.id" name="ckjl.id" value="429">  
+		            <div class="collapse-content" >  
+		                <form>  
+		                   <!-- <label class="row-label"></label> -->
+		                    <div id='F_CKJLBS' class="row image-list">  
+		                        <div class="image-item " id="F_CKJLB" onclick="showActionSheet(this);">
+		                        </div>		                   	                        
+		                        <p class="tip">最多可上传10张图片</p>	
+		                	</div>  
+		                </form>  
+		            </div>  
+		        </div>
+			</div>
+			<div class="part3 clearfix">
+				<div class="switch-box clearfix">
+					<div class="fl-lt">人脸需求</div>
+					<div class="switch-close fl-rt" id="switch_btn"><i class="swipe-address" id="swipe_address"></i></div>
+				</div>
+				<ul>
+					<li>
+						<span class="fl-lt">提供线索</span>
+						<input type="text" name="" placeholder="填入给到对方积分的数目" class="fl-lt">
+						<i class="fl-rt">积分</i>
+					</li>
+					<li>
+						<span class="fl-lt">提交并案</span>
+						<input type="text" name="" placeholder="填入给到对方积分的数目" class="fl-lt">
+						<i class="fl-rt">积分</i>
+					</li>
+				</ul>
+			</div>
+
+			<div class="big-button">确认发布</div>
+
+		</div>
+
+		<!--遮罩-->
+		<div class="bg"></div>
+		<div class="popup">
+			<h3>请选择案件类型</h3>
+			<ul id="type_list">
+				<li><label class="fl-lt" for="radio1">类型1</label><input type="radio" name="t_radio" class="fl-rt" id="radio1"></li>
+				<li><label class="fl-lt" for="radio2">类型2</label><input type="radio" name="t_radio" class="fl-rt" id="radio2"></li>
+				<li><label class="fl-lt" for="radio3">类型3</label><input type="radio" name="t_radio" class="fl-rt" id="radio3"></li>
+			</ul>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="../js/publishDetail.js"></script>
+	
+	<script>
+			//定义url
+	var arr_url = [];
+
+	var procinstid = 0;  
+    //初始化页面执行操作  
+    function plusReady() {  
+        //Android返回键监听事件  
+        plus.key.addEventListener('backbutton',function(){  
+            myclose();  
+        },false);  
+    }  
+    if (window.plus) {  
+        plusReady();  
+    } else {  
+        document.addEventListener('plusready', plusReady, false);  
+    }  
+    //加载页面初始化需要加载的图片信息  
+    function showImgDetail (imgId,imgkey,id,src) {    
+        var html = "";  
+        html +='<div  id="Img'+imgId+imgkey+'" class="image-item ">';   
+        html +='    <img id="picBig" data-preview-src="" data-preview-group="1" '+src+'/>';  
+        html +='    <span class="del" onclick="delImg(\''+imgId+'\',\''+imgkey+'\','+id+');">';         
+        html +='        <div class="fa fa-times-circle"></div>';      
+        html +='    </span>';   
+        html +='</div>';  
+        $("#"+imgkey+"S").append(html);  
+    }  
+    //删除图片  
+    function delImg(imgId,imgkey,id){  
+        var bts = ["是", "否"];  
+        plus.nativeUI.confirm("是否删除图片？", function(e) {  
+                var i = e.index;  
+                if (i == 0) {  
+                    var itemname=id+"img-"+imgkey;  
+                    var itemvalue=plus.storage.getItem(itemname);  
+                    if(itemvalue!=null){  
+                        var index=itemvalue.indexOf(imgId+",");  
+                        if(index==-1){//没有找到  
+                            delImgfromint(imgId,imgkey,id,index);  
+                        }else{   
+                            delImgFromLocal(itemname,itemvalue,imgId,imgkey,index); //修改，加了一个index参数  
+                        }  
+                          
+                    }else{  
+                        delImgfromint(imgId,imgkey,id);   
+                    }  
+                }  
+            },"淘犯宝", bts);  
+        /*var isdel = confirm("是否删除图片？");  
+        if(isdel == false){  
+            return;  
+        }*/  
+ 	              
+    }  
+    function delImgFromLocal(itemname,itemvalue,imgId,imgkey,index){  
+                var wa = plus.nativeUI.showWaiting();  
+                var left=itemvalue.substr(0,index-1);  
+                var right=itemvalue.substring(index,itemvalue.length);  
+                var end=right.indexOf("}");  
+                right=right.substring(end+1,right.length);  
+                var newitem=left+right;  
+                plus.storage.setItem(itemname,newitem);   
+                myAlert("删除成功");  
+                $("#Img"+imgId+imgkey).remove();  
+                wa.close();  
+    }  
+    //选取图片的来源，拍照和相册  
+    function showActionSheet(conf){  
+      var divid = conf.id;  
+          var actionbuttons=[{title:"拍照"},{title:"相册选取"}];  
+          var actionstyle={title:"选择照片",cancel:"取消",buttons:actionbuttons};  
+          plus.nativeUI.actionSheet(actionstyle, function(e){  
+                if(e.index==1){  
+                    getImage(divid);  
+                }else if(e.index==2){  
+                    galleryImg(divid);  
+                }  
+          } );  
+           }  
+    //相册选取图片  
+          function galleryImg(divid) {  
+             plus.gallery.pick( function(p){  
+                 plus.io.resolveLocalFileSystemURL(p, function(entry) {  
+                compressImage(entry.toLocalURL(),entry.name,divid);  
+            }, function(e) {  
+                plus.nativeUI.toast("读取拍照文件错误：" + e.message);  
+            });  
+             }, function ( e ) {  
+             }, {  
+            filename: "_doc/camera/",  
+            filter:"image"  
+             } );  
+          }  
+    // 拍照  
+    function getImage(divid) {  
+        var cmr = plus.camera.getCamera();  
+        cmr.captureImage(function(p) {  
+            plus.io.resolveLocalFileSystemURL(p, function(entry) {  
+                compressImage(entry.toLocalURL(),entry.name,divid);  
+            }, function(e) {  
+                plus.nativeUI.toast("读取拍照文件错误：" + e.message);  
+            });  
+        }, function(e) {  
+        }, {  
+            filename: "_doc/camera/",  
+            index: 1  
+        });  
+    }  
+    //压缩图片  
+    function compressImage(url,filename,divid){  
+        var name="_doc/upload/"+divid+"-"+filename;//_doc/upload/F_ZDDZZ-1467602809090.jpg  
+        plus.zip.compressImage({  
+                src:url,//src: (String 类型 )压缩转换原始图片的路径  
+                dst:name,//压缩转换目标图片的路径  
+                quality:20,//quality: (Number 类型 )压缩图片的质量.取值范围为1-100  
+                overwrite:true//overwrite: (Boolean 类型 )覆盖生成新文件  
+            },  
+            function(event) {   
+                //uploadf(event.target,divid);  
+                var path = name;//压缩转换目标图片的路径  
+                //event.target获取压缩转换后的图片url路  
+                //filename图片名称  
+                saveimage(event.target,divid,filename,path);  
+            },function(error) {  
+                plus.nativeUI.toast("压缩图片失败，请稍候再试");  
+        });  
+    }  
+    //保存信息到本地  
+    /**  
+     *   
+     * @param {Object} url  图片的地址  
+     * @param {Object} divid  字段的名称  
+     * @param {Object} name   图片的名称  
+     */  
+    function saveimage(url,divid,name,path){  
+        var  state=0;  
+        var wt = plus.nativeUI.showWaiting();  
+      //  plus.storage.clear();   
+        name=name.substring(0,name.indexOf("."));  
+        var id = document.getElementById("ckjl.id").value;  
+        var itemname=id+"img-"+divid;  
+        var itemvalue=plus.storage.getItem(itemname);  
+        if(itemvalue==null){  
+            itemvalue="{"+name+","+path+","+url+"}";  
+        }else{    
+            itemvalue=itemvalue+"{"+name+","+path+","+url+"}";  
+        }  
+        plus.storage.setItem(itemname, itemvalue);  
+          
+        var src = 'src="'+url+'"';  
+        //alert("itemvalue="+itemvalue);  
+        showImgDetail(name,divid,id,src);  
+        
+        var src2 = url;
+        //点击确定，上传图片
+        sure_post_ajax(src2);
+        
+        wt.close();  
+          
+    }  
+    //获取openid
+	var openid = localStorage.getItem("openid"); 
+	function sure_post_ajax(src){
+		var sure_flag = true;
+        $('#sure_top_btn').click(function(){
+        	if(sure_flag){
+	        	var val = $('textarea').val();
+				if(val =='写下购买体会和使用感受来帮助其他小伙伴~' || val == ''){
+					$(".bottom-popup").html("请填写1-500个字呦");
+					$('.bottom-popup').css('opacity','1');
+					
+					setTimeout(function(){
+		            	$('.bottom-popup').css('opacity','0');
+		            },2000)
+				}else if(star_click){
+					$(".bottom-popup").html("请选择星级呦");
+					$('.bottom-popup').css('opacity','1');
+					
+					setTimeout(function(){
+		            	$('.bottom-popup').css('opacity','0');
+		            },2000)
+				}else{
+					//alert("a")
+		            //上传图片
+		//        	var task = plus.uploader.createUpload("http://puji.tumujinhua.com/update_test",
+			        var task = plus.uploader.createUpload( domain_name + "upload_img",
+			            {method: "POST"},
+			            function (t, status) {
+			                // 上传完成
+			                if (status == 200) {
+			                	var data = t.responseText;
+				                data = JSON.parse(data);
+				                //alert(data.path);
+				                arr_url.push(data.path);
+				                
+			//                  alert("Upload success: " + t.url);
+			                   // alert("图像上传成功！");
+			                } else {
+			//                  alert("Upload failed: " + status);
+			                   // alert("图像上传失败！");
+			                }
+			            }
+			        );
+			    
+		//      	task.addFile(src, {key: "text-img"});
+			        task.addFile(src, {key: openid});//重要
+			
+			        task.start();
+		      }   
+	     	  sure_flag = false;
+		      setTimeout(function(){
+		        sure_flag = true;
+		      	
+		      },30000)
+	       }
+		})
+    }
+	
+
+	//上传评价文字和星级
+	var sure_flag2 = true;
+  	$('#sure_top_btn').click(function(){
+  		//alert(sure_flag2)
+  		if(sure_flag2){
+  			setTimeout(function(){
+  				//alert(arr_url)          		         						
+	        	var val = $('textarea').val();
+	        	//console.log(val)
+				if(val =='写下购买体会和使用感受来帮助其他小伙伴~' || val == ''){
+					$(".bottom-popup").html("请填写1-500个字呦");
+					$('.bottom-popup').css('opacity','1');
+				}else if(star_click){
+					$(".bottom-popup").html("请选择星级呦");
+					$('.bottom-popup').css('opacity','1');
+					
+				}else{
+					$.ajax({
+						type: "post",
+						url: domain_name+"goodscomment",
+						dataType: "json",
+						data: {
+							level: star_level,
+							content: val,
+							orderid: orderid,
+							arr_url: arr_url
+						},
+						success: function(re){
+							if(re.status == 1){
+								$(".bottom-popup").html("评价成功");
+								$('.bottom-popup').css('opacity','1');
+								
+							}
+							if(re.status == 0){
+								$(".bottom-popup").html("评价失败");
+								$('.bottom-popup').css('opacity','1');
+							}
+							setTimeout(function(){
+								location.href="order.html?flag=3";
+							},1000)
+						}
+					})
+				}
+				setTimeout(function(){
+	            	$('.bottom-popup').css('opacity','0');
+	            },2000)
+				
+	     	
+	     	},800)
+  			
+			sure_flag2 = false;
+	     	setTimeout(function(){
+	        	sure_flag2 = true;			      	
+		    },30000)
+		};
+  		
+	})
+	</script>
+</html>

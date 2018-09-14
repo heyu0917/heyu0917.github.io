@@ -1,0 +1,106 @@
+/*top*/
+.top{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.header{
+	height: .88rem;
+	line-height: .88rem;
+	padding: 0 .24rem;
+	position: relative;
+}
+.header h1{
+	width: 100%;
+	text-align: center;
+}
+.header img{
+	width: .44rem;
+	height: .44rem;
+	position: absolute;
+	right: .24rem;
+	top: .24rem;
+}
+.nav-list{
+	width: 100%;
+	overflow: hidden;
+}
+.nav-list li{
+	width: 25%;
+	border-top: 1px solid #E6E6E6;
+	color: #666;
+	float: left;
+	text-align: center;
+	padding: .16rem 0;
+}
+.nav-list li span{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+.nav-list li img{
+	height: .44rem;
+	display: block;
+	margin: 0 auto .08rem auto;
+}
+.nav-list li:nth-child(0) img,
+.nav-list li:nth-child(1) img{
+	width: .5rem;
+}
+.nav-list li:nth-child(2) img,
+.nav-list li:nth-child(3) img{
+	width: .44rem;
+}
+.nav-list li.light{
+	background: rgba(255,50,50,.1);
+}
+
+/*found-content*/
+.found-content{
+	position: absolute;
+	top: 2.04rem;
+	bottom: 1rem;
+	overflow: auto;
+	width: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+.loose-list li{
+	padding: .24rem;
+	background: #fff;
+	overflow: hidden;
+	border-bottom: 1px solid #E6E6E6;
+	border-top: 1px solid #E6E6E6;
+	position: relative;
+}
+.found-goods-img{
+	width: 100%;
+	/*width: 7.02rem;*/
+	width: 3.04rem;
+	display: block;
+}
+.found-detail{
+	font-size: .3rem;
+	color: #666;
+	line-height: .42rem;
+}
+.biaoqian-wrap{
+	position: absolute;
+	left: .24rem;
+	top: .08rem;
+}
+.biaoqian-wrap img{
+	width: .84rem;
+	height: .88rem;
+}
+.biaoqian-wrap span{
+	position: absolute;
+	left: .66rem;
+	top: .56rem;
+	color: #fff;
+}
+.biaoqian-wrap span strong{
+	
+}

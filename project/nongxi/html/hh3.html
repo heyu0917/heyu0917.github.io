@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png"/>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/hh.css" />
+	</head>
+	<body>
+		<div class="header">
+			<img src="../img/head1.png" alt="" class="ab-l"/>
+			<div class="nav">
+				<ul class="clearfix">
+					<li>
+						<a href="index.html" class="title">首页<span>HOME PAGE</span></a>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">品牌介绍<span>INTRODUCTION</span></a>
+						<div class="item">
+							<a href="pp1.html">品牌背景</a>
+							<a href="pp2.html">品牌简介</a>
+							<a href="pp3.html">品牌诉求</a>
+							<a href="pp4.html">企业实力</a>
+							<a href="pp5.html">团队介绍</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">产品世界<span>PRODUCTS</span></a>
+						<div class="item">
+							<a href="cp1.html">家居清洁</a>
+							<a href="cp2.html">个人护理</a>
+							<a href="cp3.html">美肤美妆</a>
+							<a href="cp4.html">婴幼儿用品</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">爆表颜值<span>APPEARANCE</span></a>
+						<div class="item">
+							<a href="yz1.html">VI形象</a>
+							<a href="yz2.html">店面空间</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">优势解密<span>ADVANTAGE</span></a>
+						<div class="item">
+							<a href="ys1.html">渠道优势</a>
+							<a href="ys2.html">产品优势</a>
+							<a href="ys3.html">盈利优势</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">合伙招募<span>RECRUIT</span></a>
+						<div class="item">
+							<a href="hh1.html">合作条件</a>
+							<a href="hh2.html">合作扶持</a>
+							<a href="hh3.html" class="active">成功案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">全球资讯<span>WORLD WIDE</span></a>
+						<div class="item">
+							<a href="zx1.html">市场动态</a>
+							<a href="zx2.html">品牌新闻</a>
+						</div>
+					</li>
+					<li>
+						<a href="lx1.html" class="title">联系我们<span>CONTACT US</span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="ab-r">
+				<p class="p1">24小时合作热线</p>
+				<p class="p2">400-666-8888</p>
+			</div>
+			<img src="../img/head2.png" alt="" class="ab-img1"/>
+		</div>
+		
+		<div class="content">
+			<div class="y-row clearfix">
+				<div class="er-nav fl-lt">
+					<img src="../img/nav1.png" alt="" class="img0"/>
+					<div class="item">
+						<a href="lx1.html">联系我们</a>
+						<a href="lx1.html">在线留言</a>
+						<p class="p1">24小时合作热线</p>
+						<p class="p2">400-6666-888</p>
+						<img src="../img/erweima.jpg" alt="" />
+					</div>
+				</div>
+				<div class="fl-rt main hh3">
+					<div class="title">
+						<p class="p1">合作商店面风采</p>
+						<p class="p2">Cooperative storefront display</p>
+					</div>
+					<div class="box">
+						<div class="bigSmall" id="demo1">
+							<div class="large_box" id="ban_pic1">							
+								<ul>
+									<li><img src="../img/yz/b1.jpg" alt="" /></li>
+									<li><img src="../img/yz/b1.jpg" alt="" /></li>
+									<li><img src="../img/yz/b1.jpg" alt="" /></li>
+									<li><img src="../img/yz/b1.jpg" alt="" /></li>
+								</ul>
+							</div>
+							<div class="small_box">
+								<div class="arrow-left arrow" id="arrow_left1"><img src="../img/hh/c1.png" alt="" /></div>
+								<div class="small_list clearfix" id="ban_num1">
+									<ul>
+										<li><img src="../img/yz/b1.jpg" alt="" /></li>
+										<li><img src="../img/yz/b1.jpg" alt="" /></li>
+										<li><img src="../img/yz/b1.jpg" alt="" /></li>
+										<li><img src="../img/yz/b1.jpg" alt="" /></li>
+									</ul>
+								</div>
+				  				<div class="arrow-right arrow" id="arrow_right1"><img src="../img/hh/c2.png" alt="" /></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/pic_tab.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script src="../js/common.js"></script>
+		<script>
+			$('#demo1').banqh({
+				box:"#demo1",//总框架
+				pic:"#ban_pic1",//大图框架
+				pnum:"#ban_num1",//小图框架
+				prev_btn:"#arrow_left1",//小图左箭头
+				next_btn:"#arrow_right1",//小图右箭头
+				interTime:5000,//图片自动切换间隔
+				delayTime:400,//切换一张图片时间
+				pop_delayTime:400,//弹出框切换一张图片时间
+				min_picnum:3,//小图显示数量
+			})
+			
+			var $largeli = $('.large_box li');
+			var largeli = Math.floor($largeli.width());
+			$largeli.width(largeli);
+			$('.large_box').width(largeli);
+			var $smallli = $('.small_box li');
+			var smallli = Math.floor($smallli.width());
+			$smallli.width(smallli);
+		</script>
+	</body>
+</html>

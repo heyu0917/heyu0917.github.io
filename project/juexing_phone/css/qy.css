@@ -1,0 +1,107 @@
+/*强企简介*/
+.qy1 {
+	padding-bottom: .44rem;
+}
+.qy1 .title{
+	text-align: center;
+	margin-bottom: .28rem;
+}
+.qy1 .title .p1{
+	font-size: .48rem;
+}
+.qy1 .title .p2{
+	font-size: .32rem;
+}
+.qy1 .p3{
+	line-height: .42rem;
+	margin-top: .2rem;
+}
+
+/*实力团队*/
+.qy2 {
+}
+.qy2 .title{
+	text-align: center;
+	margin-bottom: .32rem;
+}
+.qy2 .title .p1{
+	font-size: .42rem;
+	margin-bottom: .04rem;
+}
+.qy2 .title .p2{
+	font-size: .24rem;
+}
+
+.qy2 ul li{
+	float: left;
+	width: 46%;
+	position: relative;
+	margin-bottom: .3rem;
+}
+.qy2 ul li:nth-child(even){
+	float: right;
+}
+.qy2 ul li .img1{
+	display: block;
+	width: 100%;
+	border: 2px solid #F1D597;
+	box-sizing: border-box;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.qy2 ul li .li-con{
+	position: absolute;
+	width: 82%;
+	left: 9%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-top: 0;
+	text-align: center;
+	padding-bottom: .06rem;
+	margin-top: .1rem;
+}
+.qy2 ul li .li-con .box{
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -.19rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+.qy2 ul li .li-con .box .line{
+	height: 1px;
+	background: #fff;
+	flex: 1;
+}
+.qy2 ul li .li-con .box p{
+	flex: 0 0 1.6rem;
+	width: 1.6rem;
+	font-size: .26rem;
+}
+.qy2 ul li .li-con .p2{
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+.lxwm .ab-img1{
+	left: 0;
+	bottom: 200px;
+}
+.lxwm .ab-img2{
+	right: 0;
+	top: 250px;
+}
+.lxwm .title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.lxwm .title .box{
+	margin: 0 auto 20px;
+	position: relative;
+}
+.lxwm .title .box p{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding-left: 5px;
+}
+
+.lxwm .con{
+	padding: 0 20px;
+}
+.lxwm .map{
+	width: 100%;
+	height: 450px;
+	border: 4px solid #341F0B;
+	box-sizing: border-box;
+}
+
+.lxwm .step1{
+	text-align: center;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px dashed #341F0B;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+.lxwm .step1 .p1{
+	font-size: 26px;
+	margin-bottom: 2px;
+}
+.lxwm .step1 .p2{
+	font-size: 20px;
+	line-height: 30px;
+}
+.lxwm .step2{
+	background: #9F1F24;
+	padding: 10px 20px 15px;
+	color: #F1C71D;
+}
+.lxwm .step2 .p1{
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.lxwm .step2 .fl-lt{
+	width: 400px;
+}
+.lxwm .step2 .fl-lt input{
+	display: block;
+	height: 42px;
+	border: 2px solid #F1C71D;
+	padding: 0 10px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #F1C71D;
+}
+.lxwm .step2 .fl-lt textarea{
+	display: block;
+	border: 2px solid #F1C71D;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #F1C71D;
+	height: 149px;
+	line-height: 24px;
+	resize: none;
+	margin-bottom: 20px;
+	font-family: "微软雅黑";
+}
+.lxwm .step2 .fl-lt ul{
+	text-align: center;
+	font-size: 0;
+}
+.lxwm .step2 .fl-lt ul li{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background: #F1C71D;
+	border-radius: 3px;
+	margin: 0 30px;
+	color: #9F1F24;
+	font-size: 18px;
+	display: inline-block;
+	font-weight: bold;
+	cursor: pointer;
+}
+.lxwm .step2 .fl-rt p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.lxwm .step2 .fl-rt{
+	width: 400px;
+	border: 2px solid #F1C71D;
+	box-sizing: border-box;
+	padding: 3px 10px;
+}
+
+.lxwm input::-webkit-input-placeholder,
+.lxwm textarea::-webkit-input-placeholder{
+	color: #F1C71D;
+}
+.lxwm input:-moz-placeholder,
+.lxwm textarea:-moz-placeholder{
+	color: #F1C71D;
+}
+.lxwm input::-moz-placeholder,
+.lxwm textarea::-moz-placeholder{
+	color: #F1C71D;
+}
+.lxwm input:-ms-input-placeholder,
+.lxwm textarea:-ms-input-placeholder{
+	color: #F1C71D;
+}
+
+
+.lxwm .picScroll-left .hd ul li{
+	font-size: 0;
+}
+.lxwm .picScroll-left{
+	height: 384px;
+}
+.lxwm .picScroll-left .bd ul li{
+	font-size: 14px;
+	line-height: 24px;
+	height: 24px;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+

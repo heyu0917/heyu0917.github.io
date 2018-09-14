@@ -1,0 +1,182 @@
+/*联系我们*/
+.jrwm1 .title{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.jrwm1 .title .p1{
+	font-family: "新宋体";
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.jrwm1 .title .box{
+	font-size: 0;
+}
+.jrwm1 .title .box .line{
+	display: inline-block;
+	vertical-align: middle;
+	width: 340px;
+	height: 2px;
+	background: #888988;
+}
+.jrwm1 .title .box p{
+	display: inline-block;
+	vertical-align: middle;
+	width: 240px;
+	font-size: 14px;
+	color: #888988;
+	text-transform: uppercase;
+	line-height: 22px;
+}
+.jrwm1 .item{
+	background: #fff;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.jrwm1 .item .p1{
+	font-size: 18px;
+	color: #595757;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.jrwm1 .item .step1{
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 2px solid #888988;
+	height: 36px;
+	line-height: 36px;
+	font-size: 0;
+}
+.jrwm1 .item .step1 img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.jrwm1 .item .step1 span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 21px;
+}
+.jrwm1 .item .step2{
+	position: relative;
+	width: 700px;
+	margin: 25px auto 30px; 
+	z-index: 2;
+}
+.jrwm1 .item .step2:before{
+	content: '';
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 19px;
+	border: 2px solid #888988;
+	border-bottom: 0;
+	height: 30px;
+	z-index: -1;
+}
+.jrwm1 .item .step2 p{
+	width: 200px;
+	font-size: 24px;
+	border: 2px solid #888988;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 auto;
+	background: #fff;
+	color: #595757;
+}
+.jrwm1 .item .step3{
+	margin: 0 50px;
+	position: relative;
+}
+.jrwm1 .item .step3 .img1{
+    position: absolute;
+    left: 136px;
+    top: 42px;
+    z-index: 2;
+}
+.jrwm1 .item .step3 ul li{
+	float: left;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background: #030000;
+	color: #fff;
+	margin-right:60px;
+}
+.jrwm1 .item .step3 ul li:last-child{
+	margin-right: 0;
+}
+.jrwm1 .item .step3 ul li img{
+	display: block;
+	margin: 30px auto 5px;
+}
+.jrwm1 .item .step3 ul li p{
+	font-size: 18px;
+}
+
+/*在线留言*/
+.jrwm2{
+	background: #fff;
+	padding-bottom: 50px;
+}
+.jrwm2 .step1{
+	background: #030000;
+	height: 190px;
+	text-align: center;
+	padding-top: 31px;
+	box-sizing: border-box;
+}
+.jrwm2 .step2{
+	margin-top: 40px;
+	padding: 0 60px;
+	font-size: 0;
+	color: #595757;
+}
+.jrwm2 .step2 span{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	margin-right: 10px;
+}
+.jrwm2 .step2 input{
+	height: 36px;
+	border: 2px solid #aaa;
+	font-size: 18px;
+	width: 183px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	padding: 0 10px;
+}
+.jrwm2 .step2 .input3{
+	margin-right: 0;
+}
+.jrwm2 .step2 .m25{
+	margin-top: 25px;
+}
+.jrwm2 .step2 textarea{
+	height: 180px;
+	border: 2px solid #aaa;
+	font-size: 18px;
+	width: 730px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	resize: none;
+}
+.jrwm2 .step2 .submit{
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	background: #030000;
+	text-align: center;
+	margin: 40px auto 0;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+
+
+

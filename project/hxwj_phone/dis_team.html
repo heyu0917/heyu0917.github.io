@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/distribution.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript" src="js/distribution.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+<body>
+	<!--header-->
+	<div class="header-back">
+		<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+		<h1>我的团队</h1>
+	</div>
+	<div class="detailed-nav">
+		<ul class="dis-order-list" id="detailed_nav_list">
+			<li class="select">一级(2)</li>
+			<li>二级(1)</li>
+			<li>三级(1)</li>
+		</ul>
+	</div>
+	<!--content-->
+	<!--myTeam content-->
+	<div class="dis-team-content">
+		<div class="dis-team-top">
+			<span class="fl-lt">成员信息</span>
+			<span class="fl-rt">TA的佣金/成员</span>
+		</div>		
+		<!--一级-->
+		<div class="dis-team dis-team-one">
+			<ul class="dis-team-list">
+				<li>
+					<img src="img/person_e.png" alt="" class="fl-lt" />
+					<div class="fl-lt dis-team-div1">
+						<p>李晓峰</p>
+						<p class="dis-team-date">2016-11-27 21:10</p>
+					</div>
+					<div class="fl-rt dis-team-div1">
+						<p>+0.01</p>
+						<p class="dis-team-num">0 个成员</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/person_e.png" alt="" class="fl-lt"/>
+					<div class="fl-lt dis-team-div1">
+						<p>李晓峰</p>
+						<p class="dis-team-date">2016-11-27 21:10</p>
+					</div>
+					<div class="fl-rt dis-team-div1">
+						<p>+0.01</p>
+						<p class="dis-team-num">0 个成员</p>
+					</div>
+				</li>
+			</ul>
+		</div>		
+		<!--二级-->
+		<div class="dis-team">
+			<ul class="dis-team-list">
+				<li>
+					<img src="img/person_e.png" alt="" class="fl-lt" />
+					<div class="fl-lt dis-team-div1">
+						<p>李晓峰</p>
+						<p class="dis-team-date">2016-11-27 21:10</p>
+					</div>
+					<div class="fl-rt dis-team-div1">
+						<p>+0.01</p>
+						<p class="dis-team-num">0 个成员</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--三级-->
+		<div class="dis-team">
+			<ul class="dis-team-list">
+				<li>
+					<img src="img/person_e.png" alt="" class="fl-lt" />
+					<div class="fl-lt dis-team-div1">
+						<p>李晓峰</p>
+						<p class="dis-team-date">2016-11-27 21:10</p>
+					</div>
+					<div class="fl-rt dis-team-div1">
+						<p>+0.01</p>
+						<p class="dis-team-num">0 个成员</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--空页面-->
+		<div class="dis-team" id="dis_team_empty">
+			<img src="img/empty_team2.png" alt="" class="empty_team2"/>
+			<img src="img/empty_team1.png" alt="" class="empty_team1"/>
+		</div>
+		
+	</div>
+
+	
+</body>
+</html>

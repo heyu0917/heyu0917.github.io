@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/personal.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+
+		<div class="personal-detail">
+			<header>
+				<a href="javascript:;" onclick="javascript:history.back(-1)" class="left-img-box"><img src="../img/back.png" alt=""/></a>
+				<h1>个人资料</h1>
+			</header>
+			<div class="personal-detail-con">
+				<ul class="personal-detail-list">
+					<li class="touxiang-li" id="F_CKJLB">
+						<div class="li-div">
+							<input type="hidden" id="ckjl.id" name="ckjl.id" value="429">
+							<h4 class="fl-lt">头像</h4>
+							<div class="fl-rt">
+								<img src="../img/header_gray.png" class="touxiang-img" id="gallery_img"/>
+								<img src="../img/arrow_r.png" alt="" class="arrowR"/>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="li-div" href="myCode.html">
+							<h4 class="fl-lt">我的二维码</h4>				
+							<div class="fl-rt">
+								<img src="../img/QR-code.png" alt="" class="QR-code-img"/>
+								<img src="../img/arrow_r.png" alt="" class="arrowR"/>
+							</div>
+						</a>
+					</li>
+					<li class="number-li">
+						<div class="li-div">
+							<h4 class="fl-lt">账号</h4>
+							<div class="fl-rt">
+								<span class="number-text">15071240945</span>
+							</div>
+						</div>
+					</li>
+					<li class="jzhong-li">
+						<div class="li-div">
+							<h4 class="fl-lt">警种</h4>
+							<div class="fl-rt">
+								<span class="nickname-text">治安警察</span>
+							</div>
+						</div>
+					</li>
+					<li class="area-li">
+						<div class="li-div">
+							<h4 class="fl-lt">所在地</h4>
+							<div class="fl-rt">
+								<span class="sex-text">武昌分局</span>
+							</div>
+						</div>
+					</li>
+					<li class="jhao-li">
+						<div class="li-div">
+							<h4 class="fl-lt">警号</h4>
+							<div class="fl-rt">
+								<span class="address-text">010062</span>
+							</div>
+						</div>
+					</li>
+					<li class="zhenghao-li">
+						<div class="li-div">
+							<h4 class="fl-lt">证号</h4>
+							<div class="fl-rt">
+								<span class="address-text">4201067</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--popup-->
+		<div class="bg2"></div>
+		<div class="sure-popup">
+			<div class="prompt"></div>
+			<div class="i-know-btn">我知道了</div>
+		</div>
+		<!--头像-->
+		<div class="touxiang-popup">
+			<div class="comWidth">
+				<ul class="touxiang-poopup-top">
+					<li id="camera">拍照</li>
+					<li id="gallery"><span>我的相册</span></li>
+				</ul>
+				<div class="touxiang-cancel">取消</div>
+			</div>
+		</div>
+		
+		<!--上传图像-->
+		<!--<script src="../js/mui.min.js"></script>-->
+		<script type="text/javascript" src="../js/personal.js"></script>
+	</body>
+</html>

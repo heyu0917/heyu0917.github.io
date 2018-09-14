@@ -1,0 +1,437 @@
+{
+	"html/index.html": {
+		"resources": [
+			"img/b_icon2.png",
+			"img/b_icon5.png",
+			"img/banner1.jpg",
+			"img/b_icon3.png",
+			"img/pl_icon.png",
+			"html/mall.html",
+			"img/b_icon4.png",
+			"img/search.png",
+			"img/arrow_t.png",
+			"css/index.css",
+			"img/b_icon2_.png",
+			"img/gz_icon.png",
+			"img/b_icon1_.png",
+			"img/smile.png",
+			"img/index1.jpg",
+			"img/arrow_d.png",
+			"html/caseDetail.html",
+			"js/swiper-3.3.1.jquery.min.js",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/logo.png",
+			"js/index.js",
+			"css/swiper-3.3.1.min.css",
+			"html/news.html",
+			"html/search.html",
+			"img/b_icon5_.png",
+			"html/my.html",
+			"html/publish.html",
+			"img/b_icon4_.png"
+		],
+		"refer": [
+			"html/mall.html",
+			"html/caseDetail.html",
+			"html/news.html",
+			"html/search.html",
+			"html/my.html",
+			"html/publish.html"
+		]
+	},
+	"html/login.html": {
+		"resources": [
+			"img/login_num.png",
+			"html/index.html",
+			"img/login_pass.png",
+			"css/login.css",
+			"js/login.js",
+			"img/logo.png",
+			"html/my.html"
+		],
+		"refer": [
+			"html/index.html",
+			"html/my.html"
+		]
+	},
+	"html/guide.html": {
+		"resources": [
+			"js/common.js",
+			"css/guide.css",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/guide3.jpg",
+			"html/login.html",
+			"img/guide2.jpg",
+			"js/swiper-3.3.1.jquery.min.js",
+			"js/index.js",
+			"img/guide1.jpg",
+			"css/swiper-3.3.1.min.css"
+		],
+		"refer": [
+			"html/login.html"
+		]
+	},
+	"html/mall.html": {
+		"resources": [
+			"img/mall_banner1.jpg",
+			"img/goods1.jpg",
+			"css/mall.css",
+			"img/b_icon1.png",
+			"img/sx.png",
+			"img/ji.png",
+			"html/index.html",
+			"html/searchgoods.html",
+			"html/detail.html",
+			"html/my.html",
+			"img/b_icon5_.png",
+			"img/back.png",
+			"img/arrowR.png",
+			"img/right2.png",
+			"img/arrowD_t.png",
+			"js/mall.js",
+			"img/arrowT_t.png",
+			"html/publish.html",
+			"img/b_icon5.png",
+			"img/b_icon3.png",
+			"js/swiper-3.3.1.jquery.min.js",
+			"img/b_icon4.png",
+			"img/search.png",
+			"img/b_icon2_.png",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/smile.png",
+			"css/swiper-3.3.1.min.css",
+			"img/screen.png",
+			"html/news.html",
+			"img/b_icon4_.png"
+		],
+		"refer": [
+			"html/index.html",
+			"html/searchgoods.html",
+			"html/detail.html",
+			"html/my.html",
+			"html/publish.html",
+			"html/news.html"
+		]
+	},
+	"html/searchgoodsAfter.html": {
+		"resources": [
+			"js/searchAfter.js",
+			"img/arrowR.png",
+			"img/screen.png",
+			"html/searchgoods.html",
+			"img/right2.png",
+			"img/arrowD_t.png",
+			"js/searchgoodsAfter.js",
+			"css/searchgoodsAfter.css",
+			"img/screen_.png",
+			"html/detail.html",
+			"img/ji.png",
+			"img/back.png",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/clear.png",
+			"img/search2.png",
+			"img/goods1.jpg"
+		],
+		"refer": [
+			"html/searchgoods.html",
+			"html/detail.html"
+		]
+	},
+	"html/searchgoods.html": {
+		"resources": [
+			"html/searchgoodsAfter.html",
+			"js/searchgoods.js",
+			"img/back.png",
+			"css/search.css",
+			"img/clear.png",
+			"img/search2.png",
+			"html/mall.html"
+		],
+		"refer": [
+			"html/searchgoodsAfter.html",
+			"html/mall.html"
+		]
+	},
+	"html/caseDetail.html": {
+		"resources": [
+			"img/user.png",
+			"js/caseDetail.js",
+			"img/case-img.png",
+			"img/share.png",
+			"img/collect_c.png",
+			"img/user_64.png",
+			"css/caseDetail.css",
+			"html/index.html"
+		],
+		"refer": [
+			"html/index.html"
+		]
+	},
+	"html/detail.html": {
+		"resources": [
+			"img/detail1.jpg",
+			"img/detail2.jpg",
+			"js/detail.js",
+			"js/jquery.min.3_1_0.js",
+			"js/jq.lazyload.js",
+			"img/shop2.jpg",
+			"img/detail2_4.jpg",
+			"img/star.png",
+			"img/close.png",
+			"img/detail2_3.jpg",
+			"css/detail.css",
+			"img/star2.png",
+			"img/detail2_2.jpg",
+			"html/mall.html",
+			"html/sure_order.html",
+			"img/user.png",
+			"img/collect_c.png",
+			"html/searchgoodsAfter.html"
+		],
+		"refer": [
+			"html/mall.html",
+			"html/sure_order.html",
+			"html/searchgoodsAfter.html"
+		]
+	},
+	"html/my.html": {
+		"resources": [
+			"img/my_icon1.png",
+			"img/header.png",
+			"img/my_type3.png",
+			"img/my_icon4.png",
+			"img/my_type5.png",
+			"img/my_type4.png",
+			"css/my.css",
+			"img/arrow_r2.png",
+			"img/my_icon3.png",
+			"img/set.png",
+			"img/my_icon2.png",
+			"img/my_type2.png",
+			"img/code.png",
+			"img/my_type1.png",
+			"img/b_icon2.png",
+			"img/b_icon5_.png",
+			"img/b_icon3.png",
+			"img/b_icon4.png",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/b_icon1.png",
+			"html/news.html",
+			"img/b_icon4_.png",
+			"html/mall.html",
+			"html/address.html",
+			"html/login.html",
+			"html/set.html",
+			"html/order.html",
+			"img/b_icon2_.png",
+			"html/index.html",
+			"html/integralRech.html",
+			"html/publish.html"
+		],
+		"refer": [
+			"html/news.html",
+			"html/mall.html",
+			"html/address.html",
+			"html/login.html",
+			"html/set.html",
+			"html/order.html",
+			"html/index.html",
+			"html/integralRech.html",
+			"html/publish.html"
+		]
+	},
+	"html/news.html": {
+		"resources": [
+			"html/my.html",
+			"css/news.css",
+			"img/new_1.jpg",
+			"img/arrow_r.png",
+			"img/admin_h.png",
+			"html/mall.html",
+			"img/user.png",
+			"html/index.html",
+			"img/b_icon5_.png",
+			"img/b_icon1.png"
+		],
+		"refer": [
+			"html/my.html",
+			"html/mall.html",
+			"html/index.html"
+		]
+	},
+	"html/sure_order.html": {
+		"resources": [
+			"img/line.png",
+			"js/sure_order.js",
+			"img/addressIcon.png",
+			"css/sure_order.css",
+			"html/detail.html",
+			"img/detail1.jpg",
+			"img/back.png",
+			"img/arrow_r2.png",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/ji.png"
+		],
+		"refer": [
+			"html/detail.html"
+		]
+	},
+	"html/address.html": {
+		"resources": [
+			"css/address.css",
+			"img/dustbin.png",
+			"img/address-icon.png",
+			"js/mui.picker.min.js",
+			"js/address.js",
+			"js/mui.min.js",
+			"css/mui.poppicker.css",
+			"img/edit.png",
+			"img/right.png",
+			"css/mui.picker.css",
+			"img/round.png",
+			"js/city.data-3.js",
+			"html/my.html"
+		],
+		"refer": [
+			"html/my.html"
+		]
+	},
+	"html/search.html": {
+		"resources": [
+			"html/index.html",
+			"html/searchAfter.html",
+			"js/search.js"
+		],
+		"refer": [
+			"html/index.html",
+			"html/searchAfter.html"
+		]
+	},
+	"html/searchAfter.html": {
+		"resources": [
+			"img/all.png",
+			"html/search.html"
+		],
+		"refer": [
+			"html/search.html"
+		]
+	},
+	"html/publish.html": {
+		"resources": [
+			"img/publish_icon1.png",
+			"css/publish.css",
+			"html/index.html",
+			"img/publish_icon3.png",
+			"img/publish_icon2.png",
+			"img/publish_icon4.png",
+			"html/publishDetail.html"
+		],
+		"refer": [
+			"html/index.html",
+			"html/publishDetail.html"
+		]
+	},
+	"html/set.html": {
+		"resources": [
+			"img/back.png",
+			"css/set.css",
+			"img/arrow_r.png",
+			"js/set.js",
+			"html/personal.html",
+			"html/my.html"
+		],
+		"refer": [
+			"html/personal.html",
+			"html/my.html"
+		]
+	},
+	"html/personal.html": {
+		"resources": [
+			"img/QR-code.png",
+			"css/personal.css",
+			"img/header_gray.png",
+			"img/back.png",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/arrow_r.png",
+			"js/personal.js",
+			"js/mui.min.js",
+			"html/set.html"
+		],
+		"refer": [
+			"html/set.html"
+		]
+	},
+	"html/evaluate.html": {
+		"resources": [
+			"img/star.png",
+			"css/evaluate.css",
+			"img/star2.png",
+			"img/right.png",
+			"img/iconfont-tianjia.png",
+			"img/round.png",
+			"img/shop2.jpg",
+			"img/back.png",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"html/order.html"
+		],
+		"refer": [
+			"html/order.html"
+		]
+	},
+	"html/order.html": {
+		"resources": [
+			"img/shop2.jpg",
+			"html/evaluate.html",
+			"js/order.js",
+			"css/order.css",
+			"img/empty_order.png",
+			"html/my.html",
+			"img/back.png"
+		],
+		"refer": [
+			"html/evaluate.html",
+			"html/my.html"
+		]
+	},
+	"html/integralRech.html": {
+		"resources": [
+			"html/my.html",
+			"css/integralRech.css"
+		],
+		"refer": [
+			"html/my.html"
+		]
+	},
+	"html/publishDetail.html": {
+		"resources": [
+			"css/publishDetail.css",
+			"js/publishDetail.js",
+			"img/carm.png",
+			"img/close.png",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/arrow_d.png",
+			"html/publish.html",
+			"css/font-awesome.min.css"
+		],
+		"refer": [
+			"html/publish.html"
+		]
+	}
+}

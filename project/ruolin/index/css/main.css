@@ -1,0 +1,230 @@
+.pc-warp .top img {
+	width: 100%
+}
+/*第四屏*/
+.section4{
+/*	background: #F5F5F5!important;*/
+}
+.pc-warp .sec4-cont .sec4-cont-item .sec4-cont-l{
+    width: 20%;
+    left: 20%;
+}
+.pc-warp .sec4-cont .sec4-cont-item .sec4-cont-l span{
+	display: block;
+	line-height: 30px;
+	font-size: 16px;
+}
+.pc-warp .sec4-cont .sec4-cont-item .sec4-cont-l em{
+	line-height: 30px;
+	font-size: 16px;
+	font-style: normal;
+	display: block;
+}
+/*遮罩与图*/
+.mask-bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 112;
+	background: rgba(0,0,0,.6);
+}
+.mask-img{
+	position: fixed;
+	width: 0;
+	left: 50%;
+	top: 50%;
+	z-index: 113;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+.mask-img img{
+	width: 100%;
+	display: block;
+}
+.mask-img .mask-close{
+	position: absolute;
+    right: -34px;
+    width: 32px;
+    top: -44px;
+    cursor: pointer;
+}
+
+/*餐饮*/
+.a-food-sec3{
+	padding-top: 40px!important;
+	padding-bottom: 40px!important;
+}
+.a-food-sec3 h4{
+	font-size: 22px!important;
+	line-height: 40px!important;
+}
+.swiper-slide em{
+	color: #d0121b;
+	font-style: normal;
+}
+.pc-warp .sec4-nav li{
+	display: block;
+	float: left;
+}
+/*时尚饮品*/
+.a-fashionfood-sec3 h4{
+	line-height: 36px!important;
+}
+.a-fashionfood-sec3{
+	padding-top: 45px!important;
+	padding-bottom: 45px!important;
+}
+
+@media screen and (max-width: 1366px){
+	.pc-warp .sec4-cont .sec4-cont-item .sec4-cont-l{
+		width: 28%;
+		left: 14%;
+	}
+	.pc-warp .sec4-cont .sec4-cont-item .sec4-cont-l em{
+	    display: inline;
+	}
+
+} 
+
+.bannerImg1,
+.bannerImg2,
+.bannerImg3,
+.bannerImg4{
+	width: 100%;
+	height: 100%;
+}
+.bannerImg1 {
+		background: url(../images/banner/banner1920/banner01.jpg) no-repeat;
+		background-size: 100% 100%
+	}	
+.bannerImg2 {
+	background: url(../images/banner/banner1920/banner02.jpg) no-repeat;
+	background-size: 100% 100%;
+}	
+.bannerImg3 {
+	background: url(../images/banner/banner1920/banner03.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.bannerImg4{
+	background: url(../images/banner/banner1920/banner04.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+@media only screen and (max-width: 2561px) {
+	.bannerImg1 {
+		background: url(../images/banner/banner2560/banner01.jpg) no-repeat;
+		background-size: 100% 100%
+	}	
+	.bannerImg2 {
+		background: url(../images/banner/banner2560/banner02.jpg) no-repeat;
+		background-size: 100% 100%;
+	}	
+	.bannerImg3 {
+		background: url(../images/banner/banner2560/banner03.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	.bannerImg4{
+		background: url(../images/banner/banner2560/banner04.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}
+
+@media only screen and (max-width: 1922px) {
+	.bannerImg1 {
+		background: url(../images/banner/banner1920/banner01.jpg) no-repeat;
+		background-size: 100% 100%
+	}	
+	.bannerImg2 {
+		background: url(../images/banner/banner1920/banner02.jpg) no-repeat;
+		background-size: 100% 100%;
+	}	
+	.bannerImg3 {
+		background: url(../images/banner/banner1920/banner03.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	.bannerImg4{
+		background: url(../images/banner/banner1920/banner04.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}
+
+@media only screen and (max-width: 1681px) {
+	.bannerImg1 {
+		background: url(../images/banner/banner1680/banner01.jpg) no-repeat;
+		background-size: 100% 100%
+	}	
+	.bannerImg2 {
+		background: url(../images/banner/banner1680/banner02.jpg) no-repeat;
+		background-size: 100% 100%;
+	}	
+	.bannerImg3 {
+		background: url(../images/banner/banner1680/banner03.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	.bannerImg4{
+		background: url(../images/banner/banner1680/banner04.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}
+
+@media only screen and (max-width: 1441px) {
+	.bannerImg1 {
+		background: url(../images/banner/banner1440/banner01.jpg) no-repeat;
+		background-size: 100% 100%
+	}	
+	.bannerImg2 {
+		background: url(../images/banner/banner1440/banner02.jpg) no-repeat;
+		background-size: 100% 100%;
+	}	
+	.bannerImg3 {
+		background: url(../images/banner/banner1440/banner03.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	.bannerImg4{
+		background: url(../images/banner/banner1440/banner04.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}
+
+
+@media only screen and (max-width: 1367px) {
+	.bannerImg1 {
+		background: url(../images/banner/banner1366/banner01.jpg) no-repeat;
+		background-size: 100% 100%
+	}	
+	.bannerImg2 {
+		background: url(../images/banner/banner1366/banner02.jpg) no-repeat;
+		background-size: 100% 100%;
+	}	
+	.bannerImg3 {
+		background: url(../images/banner/banner1366/banner03.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	.bannerImg4{
+		background: url(../images/banner/banner1366/banner04.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}
+@media only screen and (max-width: 1025px) {
+	.bannerImg1 {
+		background: url(../images/banner/banner1024/banner01.jpg) no-repeat;
+		background-size: 100% 100%
+	}	
+	.bannerImg2 {
+		background: url(../images/banner/banner1024/banner02.jpg) no-repeat;
+		background-size: 100% 100%;
+	}	
+	.bannerImg3 {
+		background: url(../images/banner/banner1024/banner03.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	.bannerImg4{
+		background: url(../images/banner/banner1024/banner04.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}

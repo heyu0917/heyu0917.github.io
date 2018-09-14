@@ -1,0 +1,558 @@
+/*浪漫生活*/
+.yslm .part1{
+	padding: 0 .24rem;
+}
+.yslm .part1 p{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-size: .24rem;
+}
+.yslm .item{
+	position: relative;
+	margin-bottom: .16rem;
+}
+.yslm .item1 .p1{
+	width: 48%;
+	bottom: 2%;
+	left: 0;
+}
+.yslm .item1 .p2,
+.yslm .item1 .p3{
+	width: 48%;
+	bottom: 2%;
+	right: 0;
+}
+.yslm .item1 .p2{
+	bottom: 40%;
+}
+
+.yslm .item2 p{
+	width: 100%;
+	left: 0;
+	bottom: 2%;
+}
+.yslm .item3 p{
+	width: 48%;
+	right: 0;
+	bottom: 2%;
+}
+
+.yslm .part2{
+	position: relative;
+	width: 100%;
+	margin-top: .24rem;
+}
+.yslm .part2 .con{
+    position: absolute;
+    width: 60%;
+    right: .24rem;
+    top: .52rem;
+    color: #fff;
+    text-align: right;
+}
+.yslm .part2 .con .line{
+    position: absolute;
+    width: 1px;
+    height: .72rem;
+    right: 2.2rem;
+    top: 0;
+    background: #fff;
+    transform: rotate(16deg);
+    -webkit-transform: rotate(16deg);
+    -o-transform: rotate(16deg);
+    -moz-transform: rotate(16deg);
+    -ms-transform: rotate(16deg);
+}
+.yslm .part2 .con .p1{
+	font-family: myfont;
+	font-size: .4rem;
+	line-height: 1;
+}
+.yslm .part2 .con .p2{
+	font-size: .28rem;
+	font-weight: bold;
+}
+.yslm .part2 .con .p3{
+    font-size: .28rem;
+    position: relative;
+    display: inline-block;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-left: .16rem;
+    padding-bottom: .04rem;
+    letter-spacing: 1px;
+}
+.yslm .part2 .con .p4{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1.4;
+	margin-bottom: -.16rem;
+}
+.yslm .part2 .con .line2{
+	width: .4rem;
+	height: 2px;
+	background: #fff;
+	display: inline-block;
+}
+.yslm .part2 .con .p5{
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+	line-height: .36rem;
+}
+.yslm .part2 .foot-img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+
+/*星工传奇*/
+.ysxg .part1{
+	width: 100%;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+.ysxg .part1 .con{
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 50%;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+	-o-transform: translate3d(0,-50%,0);
+	-moz-transform: translate3d(0,-50%,0);
+}
+.ysxg .part1 .con .p1{
+	font-size: .28rem;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.ysxg .part1 .con .p1 span{
+	color: #F9BE12;
+}
+.ysxg .part1 .con .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+	line-height: 1;
+}
+.ysxg .part1 .con ul{
+	margin-top: .32rem;
+	padding: 0 3%;
+}
+.ysxg .part1 .con ul li{
+	position: relative;
+	float: left;
+	width: 28%;
+	margin-right: 8%;
+}
+.ysxg .part1 .con ul li:first-child{
+	margin-left: 18%;
+}
+.ysxg .part1 .con ul li:nth-child(5){
+	margin-right: 0;
+}
+.ysxg .part1 .con ul li img{
+	width: 100%;
+	display: block;
+	padding: 0 .32rem;
+	box-sizing: border-box;
+}
+.ysxg .part1 .con ul li p{
+	font-size: .24rem;
+	line-height: .34rem;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: .3rem;
+}
+.ysxg .part2{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.ysxg .part2 .con{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	color: #fff;
+}
+.ysxg .part2 .box{
+	text-align: center;
+	width: 100%;
+	height: 14.8%;
+	position: relative;
+}
+.ysxg .part2 .title{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+	-o-transform: translate3d(0,-50%,0);
+	-moz-transform: translate3d(0,-50%,0);	
+}
+.ysxg .part2 .title .p1{
+	font-size: .58rem;
+	font-family: myfont;
+}
+.ysxg .part2 .title .p2 span{
+	color: #F9BE12;
+}
+.ysxg .part2 .title .line{
+    width: .4rem;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto 0.12rem;
+}
+.ysxg .part2 .title .p2{
+	font-size: .28rem;
+	font-weight: bold;
+}
+.ysxg .part2 .title .p3{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+	line-height: 1;
+}
+.ysxg .part2 ul{
+	width: 88%;
+	height: 82.2%;
+	margin: 0 auto;
+}
+.ysxg .part2 ul li{
+    width: 50%;
+    margin-left: 50%;
+	height: 20%;
+	position: relative;
+}
+.ysxg .part2 ul li .li-con{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+	-o-transform: translate3d(0,-50%,0);
+	-moz-transform: translate3d(0,-50%,0);	
+}
+.ysxg .part2 ul li:nth-child(even){
+	margin-right: 50%;
+	margin-left: 0;
+}
+.ysxg .part2 ul li span{
+    display: block;
+    font-size: .26rem;
+    font-weight: bold;
+    margin-bottom: .12rem;
+}
+.ysxg .part2 ul li p{
+	font-size: .24rem;
+}
+.ysxg .part2 .foot-img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+/*店型美学*/
+.ysdx .box{
+	position: relative;
+}
+.ysdx .box .desc{
+	background: rgba(29, 32, 135,.7);
+	width: 100%;
+	text-align: center;
+	padding: .08rem 0 .16rem;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 10%;
+}
+.ysdx .box .desc .p1{
+	font-size: .38rem;
+	font-family: myfont;
+	margin-bottom: .08rem;
+}
+.ysdx .box .desc .p2{
+	font-size: .28rem;
+	width: 2.6rem;
+	margin: 0 auto;
+	border: 1px solid #fff;
+	padding: 1px 0;
+}
+.ysdx .p3{
+	color: #666;
+	line-height: .4rem;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	margin: .08rem 0;
+}
+.ysdx .p3 strong{
+	color: #333;
+}
+
+/*运营优势*/
+.ysyy .part1{
+	margin-top: .12rem;
+	padding: 0 .24rem;
+}
+.ysyy .title{
+    text-align: center;
+    width: 5.4rem;
+    position: relative;
+    margin: 0 auto .24rem;
+    color: #1D2087;
+}
+.ysyy .title .img1{
+	position: absolute;
+	top: .1rem;
+	left: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.ysyy .title .img2{
+	position: absolute;
+	top: .1rem;
+	right: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.ysyy .title .p1{
+	font-family: myfont;
+	font-size: .4rem;
+	margin-bottom: .04rem;
+}
+.ysyy .title .p2{
+	font-size: .36rem;
+	border-bottom: 1px solid #1D2087;
+	padding-bottom: .04rem;
+}
+.ysyy .title .p2 span{
+	color: #F9BE12;
+	margin-right: .24rem;
+}
+.ysyy .title .p4{
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+
+.ysyy ul li{
+	margin-bottom: .24rem;
+	clear: both;
+	overflow: hidden;
+	height: 2.45rem;
+}
+.ysyy ul li .li-img{
+	width: 55%;
+}
+.ysyy ul li .li-img img{
+	display: block;
+	width: 100%;
+	border: 1px solid #F9BE12;
+	box-sizing: border-box;
+	height: 100%;
+}
+.ysyy ul li .li-con{
+	width: 42%;
+	position: relative;
+	height: 100%;
+}
+.ysyy ul li .li-con .p1{
+	color: #1D2087;
+	font-size: .28rem;
+}
+.ysyy ul li .li-con .p2{
+	color: #666;
+	font-size: .24rem;
+	margin-top: .12rem;
+	line-height: 1.4;
+}
+.ysyy ul li .li-con .line{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: .6rem;
+	height: 3px;
+	background: #999;
+}
+.ysyy ul li:nth-child(even) .li-con .line{
+	left: 0;
+}
+
+/*投资优势*/
+.ystz{
+	margin-top: .12rem;
+}
+.ystz .part1{
+	padding: 0 .24rem;
+}
+.ystz .title{
+    text-align: center;
+    width: 4.6rem;
+    position: relative;
+    margin: 0 auto;
+    color: #1D2087;
+}
+.ystz .title .img1{
+	position: absolute;
+	top: .1rem;
+	left: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.ystz .title .img2{
+	position: absolute;
+	top: .1rem;
+	right: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.ystz .title .p1{
+	font-family: myfont;
+	font-size: .46rem;
+	margin-bottom: .04rem;
+}
+.ystz .title .p2{
+	font-size: .34rem;
+}
+.ystz .title .p2 span{
+	color: #F9BE12;
+	margin-right: .24rem;
+}
+.ystz .title .p3{
+	display: inline-block;
+	font-size: .26rem;
+	position: relative;
+}
+.ystz .title .p3:before,
+.ystz .title .p3:after{
+	width: .4rem;
+	height: 2px;
+	background: #1D2087;
+	content: '';
+	position: absolute;
+	top: .18rem;
+}
+.ystz .title .p3:before{
+	left: -.6rem;
+}
+.ystz .title .p3:after{
+	right: -.6rem;
+}
+.ystz .p4{
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+	margin-top: -.04rem;
+	text-align: center;
+	color: #1D2087;
+	margin-bottom: .24rem;
+}
+
+.ystz .part1 ul{
+	font-size: 0;
+}
+.ystz .part1 ul li{
+	width: 48%;
+	margin-bottom: .16rem;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 4%;
+}
+.ystz .part1 ul li:nth-child(even){
+	margin-right: 0;
+}
+.ystz .part1 ul li .box{
+	width: 100%;
+	position: relative;
+	border-top-left-radius: .12rem;
+	border-top-right-radius: .12rem;
+	overflow: hidden;
+	height: 2.36rem;
+}
+.ystz .part1 ul li .p1{
+	font-size: .24rem;
+	text-align: center;
+	color: #fff;
+	background: rgba(29, 32, 135,.7);
+	height: .4rem;
+	line-height: .4rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+}
+.ystz .part1 ul li .p2{
+	color: #666;
+	line-height: .34rem;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	margin-top: .08rem;
+}
+
+
+
+
+

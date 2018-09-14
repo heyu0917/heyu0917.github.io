@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/my.css" type="text/css"/>
+	    <script type="text/javascript" src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 +'px';
+	    </script> 
+
+	</head>
+	<body>
+		<div class="header-back">
+			<a href="javascript:;" onclick="javascript:history.back(-1)">
+				<img src="img/arrowL_white.png" alt="" class="arrowL_white-img"/>
+			</a>
+			<h1>我的订单</h1>
+		</div>
+		<div class="content order-con">
+			<ul class="order-nav">                                                
+				<li class="select">所有订单</li>
+				<li>待付款</li>
+				<li>已付款</li>
+			</ul>
+			<!--所有订单-->
+			<div class="all-order-part order-part">
+				<ul class="all-order-list">
+					<li>                                           
+						<p class="order-num"><span class="fl-lt">SH201609270913004740</span><span class="fl-rt"><strong>15.00</strong>元</span></p>
+						<p class="order-status clearfix"><span class="fl-lt">2016-09-27 09:13</span><span class="fl-rt">已付款</span></p>
+					</li>
+					<li>                                           
+						<p class="order-num"><span class="fl-lt">SH201609270913004740</span><span class="fl-rt"><strong>15.00</strong>元</span></p>
+						<p class="order-status clearfix"><span class="fl-lt">2016-09-27 09:13</span><span class="fl-rt">待付款</span></p>
+					</li>
+				</ul>
+			</div>
+			<!--待付款-->
+			<div class="wait-pay-part order-part">
+				<ul class="all-order-list">
+					<li>                                           
+						<p class="order-num"><span class="fl-lt">SH201609270913004740</span><span class="fl-rt"><strong>15.00</strong>元</span></p>
+						<p class="order-status clearfix"><span class="fl-lt">2016-09-27 09:13</span><span class="fl-rt">待付款</span></p>
+					</li>
+				</ul>
+			</div>
+			<!--已付款-->
+			<div class="payed-part order-part">
+				<ul class="all-order-list">
+					<li>                                           
+						<p class="order-num"><span class="fl-lt">SH201609270913004740</span><span class="fl-rt"><strong>15.00</strong>元</span></p>
+						<p class="order-status clearfix"><span class="fl-lt">2016-09-27 09:13</span><span class="fl-rt">已付款</span></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script>
+		$('.order-nav li').tap(function(){
+			$(this).addClass('select').siblings().removeClass('select');
+			
+			var index = $(this).index();
+			if(index == 0){
+				$('.all-order-part').css('display','block');
+				$('.wait-pay-part,.payed-part').css('display','none');
+			}
+			if(index == 1){
+				$('.wait-pay-part').css('display','block');
+				$('.all-order-part,.payed-part').css('display','none');
+			}
+			if(index == 2){
+				$('.payed-part').css('display','block');
+				$('.all-order-part,.wait-pay-part').css('display','none');
+			}
+		})
+	</script>
+</html>

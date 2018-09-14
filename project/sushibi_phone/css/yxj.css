@@ -1,0 +1,146 @@
+/*野心同盟*/
+.yxtm .part1 .img1{
+	width: 100%;
+	display: block;
+	margin-bottom: .2rem;
+}
+.yxtm .part1 ul{
+	width: 84%;
+	margin: 0 auto;
+}
+.yxtm .part1 ul li{
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom: .24rem;
+	border: 1px solid rgba(255,255,255,.8);
+	height: 3.2rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.yxtm .part1 ul li:nth-child(even){
+	margin-right: 0;
+	float: right;
+}
+.yxtm .part1 ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+/*一起野心*/
+.yqyx .part1 .img1{
+	width: 92%;
+	display: block;
+	margin: 0 auto .32rem auto;
+}
+.yqyx .part1 ul{
+	width: 92%;
+	margin: 0 auto;
+}
+.yqyx .part1 ul li{
+	margin-bottom: .2rem;
+	height: .4rem;
+	line-height: .4rem;
+}
+.yqyx .part1 ul li span{
+	font-size: .24rem;
+	float: left;
+}
+.yqyx .part1 ul li input{
+	float: right;
+	border: 1px solid rgba(255,255,255,.9);
+	height: .4rem;
+	line-height: .4rem;
+	box-sizing: border-box;
+	background: transparent;
+	padding: 0 .2rem;
+	color: #fff;
+}
+.yqyx .part1 ul li:nth-child(1) input{
+	width: 71%;
+}
+.yqyx .part1 ul li:nth-child(2) input{
+	width: 52%;
+}
+.yqyx .part1 ul li:nth-child(3) input{
+	width: 61%;
+}
+.yqyx .part1 .textarea-box{
+	width: 92%;
+	margin: .2rem auto 0 auto;
+}
+.yqyx .part1 textarea{
+	width: 48%;
+	height: 1.2rem;
+	padding: .08rem .16rem;
+	color: #FFFFFF;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,.9);
+	line-height: .32rem;
+	resize: none;
+}
+
+.yqyx .part1 button{
+	border-radius: .16rem;
+	width: 1.7rem;
+	font-size: .24rem;
+	text-align: center;
+	padding: .08rem 0;
+	background: #6a9eb1;
+	margin: .5rem auto .6rem auto;
+	color: #fff;
+	display: block;
+}
+
+.yqyx .part2 ul{
+	width: 76%;
+	margin: 0 auto;
+}
+.yqyx .part2 ul li{
+	width: 45%;
+	float: left;
+	margin-bottom: .32rem;
+	height: 1.54rem;
+	text-align: center;
+	padding: .2rem 0;
+	margin-right: 10%;
+	background: rgba(255,255,255,.5);
+	border-radius: .2rem;
+	box-sizing: border-box;
+}
+.yqyx .part2 ul li:nth-child(even){
+	margin-right: 0;
+	float: right;
+}
+.yqyx .part2 ul li img{
+	height: .23rem;
+	display: block;
+	margin: 0 auto .04rem auto;
+}
+.yqyx .part2 ul li h2,
+.yqyx .part2 ul li h4,
+.yqyx .part2 ul li span{
+	font-weight: normal;
+/*	font-size: .2rem;*/
+font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+}
+.yqyx .part2 ul li .erweima{
+	height: .5rem;
+	display: block;
+}
+.yqyx .part2 ul li:nth-child(5){
+	padding: .08rem 0;
+}
+
+
+

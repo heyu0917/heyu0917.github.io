@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/four.css">
+</head>
+<body>
+	<div class="header">
+		<div class="nav">
+			<a href="index.html" class="logo box"><img src="../img/logo2.png" alt=""/></a>
+			<ul class="box">  
+				<li>
+					<a href="one.html">
+						<img src="../img/nav.png" alt=""/>
+						<p>wow·沃网</p>
+						<span>ABOUT US</span>
+					</a>
+				</li>
+				<li>
+					<a href="two.html">
+						<img src="../img/nav.png" alt="" />
+						<p>代理合作</p>
+						<span>COOPERATION</span>
+					</a>
+				</li>
+				<li>
+					<a href="three.html">
+						<img src="../img/nav.png" alt="" />
+						<p>活动资讯</p>
+						<span>INFORMATION</span>
+					</a>
+				</li>
+				<li class="active">
+					<a href="four.html">
+						<img src="../img/nav.png" alt="" />
+						<p>wow·视频</p>
+						<span>VIDEO</span>
+					</a>
+				</li>
+			</ul>
+			<div class="word box">
+				<p><span>沃网</span>品牌加速器</p>
+				<p><span>WOW</span>BRAND ACCELERATOR</p>
+			</div>
+		</div>
+	</div>
+	<div class="content four">
+		<div class="part1">
+			<div class="vedio-box">
+				<div class="vedio-img" style="background: url(../img/four/bg.jpg) center no-repeat;"></div>
+				<div class="box" id="video-item">
+					<p class="p1">wow·视频</p>
+					<p class="p2">VIDEO</p>
+					<img src="../img/four/play.png" id="play"/>
+				</div>
+				<video id="player">
+				    <source src="../../../platform/vedio/jz3.mp4" type='video/mp4'></source>
+				</video>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="wrap clearfix">
+			<div class="fl-lt box1">
+				<p class="p1">沃网公司基本信息</p>
+				<p class="p2">WOW net basic information</p>
+			</div>
+			<p class="p3 fl-lt">沃网品牌加速器是由北京沃网络信息有限公司，联合若邻及盛世万开集团，打造的新型赋能孵化器平台。为潜力型连锁品牌提供从品牌破冰、到样板市场搭建、再到资本助力加速孵化的一站式服务。</p>
+			<div class="box fl-rt">
+				<ul>
+					<li>
+						<img src="../img/index/erweima.jpg" alt="" />
+						<p>微信 二维码</p>
+					</li>
+					<li>
+						<img src="../img/index/erweima.jpg" alt="" />
+						<p>微博 二维码</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript">
+		$("#play").click(function(){
+		 	var player = document.getElementById("player");
+			if(player.pause) {
+	            player.play();
+	            $(".vedio-img").remove();
+	            $(this).parent().css({"display":"none"});
+	            $("#player").attr("controls","controls");
+	        }else {
+	            player.pause();
+	            $("#play").css({"display":"block"});
+	        }
+		})
+	
+	</script>
+</body>
+</html>

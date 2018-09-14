@@ -1,0 +1,76 @@
+/*.pp1*/
+.pp1 .title{
+	font-size: 18px;
+	color:#7a272c;
+	border-bottom: 2px solid #7a272c;
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+}
+.pp1 .title span{
+	font-size: 12px;
+	color:#394246;
+}
+.pp1 .part{
+	width: 12rem;
+	margin:0 auto;
+}
+.pp1 .part .part-left{
+	width: 50%;
+}
+.pp1 .part .part-left img{
+	width: 100%;
+}
+.pp1 .part .part-right{
+	width: 45%;
+	position:relative;
+}
+.pp1 .part .part-right .p1{
+	font-size: 22px;
+	color:#394246;
+}
+.pp1 .part .part-right .line{
+	width: 50px;
+	height: 2px;
+	background-color: #394246;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.pp1 .part .part-right .p2{
+	font-size: 14px;
+	width: 100%;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    line-height: 36px;
+}
+.pp1 .part .part-right .p2 a:hover{
+	color:#7a272c;
+}
+.pp1 .part .part-right .p3{
+	font-size: 20px;
+}
+.pp1 .part .part-right .more{
+	font-size: 14px;
+	color:#7a272c;
+	border:1px solid #7a272c;
+	display: inline-block;
+	padding:0 2px;
+	position:absolute;
+	right: -70px;
+	bottom: 0;
+}
+.pp1 .part .box{
+	margin-bottom: 20px;
+}
+
+
+/*newsDetail*/
+.newsDetail .part-img{
+	display: block;
+	margin:0 auto;
+}
+.newsDetail .part-2 p{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 30px;
+}

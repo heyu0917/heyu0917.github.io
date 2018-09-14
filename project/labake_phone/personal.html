@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/personal.css" type="text/css"/>
+	    <link rel="stylesheet" type="text/css" href="css/feedback-page.css" /> 
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript" src="js/personal.js"></script>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';        
+	    </script>
+	</head>
+	<body>
+		<div class="personal-detail">
+			<div class="header-back">
+				<a href="javascript:;" onclick="javascript:history.back(-1)"><img src="img/arrowL_white.png" alt="" class="arrowL_white-img"/></a>
+				<h1>个人资料</h1>
+			</div>
+			<div class="personal-detail-con">
+				<ul class="personal-detail-list">
+					<li class="touxiang-li"  id="F_CKJLB">
+						<input type="hidden" id="ckjl.id" name="ckjl.id" value="429">
+						<h4 class="fl-lt">头像</h4>
+						<div class="fl-rt">
+							<img src="img/head_.jpg" class="touxiang-img" id="gallery_img"/>
+							<img src="img/arrowR.png" alt="" class="arrowR"/>
+						</div>
+					</li>
+					<li class="number-li">
+						<h4 class="fl-lt">账号</h4>
+						<div class="fl-rt">
+							<span class="number-text">15071240945</span>
+							<img src="img/arrowR.png" alt="" class="arrowR"/>
+						</div>
+					</li>
+					<li class="nickname-li">
+						<h4 class="fl-lt">昵称</h4>
+						<div class="fl-rt">
+							<span class="nickname-text">樱空释</span>
+							<img src="img/arrowR.png" alt="" class="arrowR"/>
+						</div>
+					</li>
+					<li class="sex-li">
+						<h4 class="fl-lt">性别</h4>
+						<div class="fl-rt">
+							<span class="sex-text">女</span>
+							<img src="img/arrowR.png" alt="" class="arrowR"/>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>		
+		<!--popup-->
+		<div class="bg2"></div>
+		<div class="sure-popup">
+			<div class="prompt"></div>
+			<div class="i-know-btn">我知道了</div>
+		</div>
+		<!--头像-->
+		<!--<div class="touxiang-popup">
+			<div class="comWidth">
+				<ul class="touxiang-poopup-top">
+					<li id="camera">拍照</li>
+					<li id="gallery"><span>我的相册</span></li>
+				</ul>
+				<div class="touxiang-cancel">取消</div>
+			</div>
+		</div>-->
+		<!--昵称-->
+		<div class="nickname-popup">
+			<div class="header-back">
+				<div id="nickname_back">
+					<img src="img/arrowL_white.png" alt="" class="arrowL_white-img"/>
+				</div>
+				<h1>修改昵称</h1>
+				<span id="nickname_sure">确定</span>
+			</div>
+			<div class="nickname-con">
+				<div class="nickname-input-box">
+					<input type="text" class="nickname"/>
+					<img src="img/clear.png" class="clear-img"/>
+				</div>
+				<span class="font_22">4~20个字符</span>
+			</div>
+		</div>
+		<!--性别-->
+		<div class="sex-popup">
+			<div class="header-back">
+				<div id="sex_back">
+					<img src="img/arrowL_white.png" alt="" class="arrowL_white-img"/>
+				</div>
+				<h1>修改性别</h1>
+				<span id="sex_sure">确定</span>
+			</div>
+			<div class="sex-con">
+				<ul class="sex-list">
+					<li><span class="fl-lt">男</span></li>
+					<li><span class="fl-lt">女</span></li>
+				</ul>
+			</div>
+		</div>
+	
+	<script type="text/javascript" src="js/camera.js"></script>
+	</body>
+</html>

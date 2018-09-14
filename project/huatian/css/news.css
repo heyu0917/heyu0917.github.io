@@ -1,0 +1,37 @@
+.news-list{
+	padding: 0 50px;
+}
+.news-list li{
+	line-height: 32px;
+}
+.news-title{
+	margin-left: 5px;
+}
+.news-list li a{
+	color: #242424;
+}
+.news-list li:hover .news-title{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

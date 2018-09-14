@@ -1,0 +1,361 @@
+/*five1*/
+.five1 {
+	color: #fff;
+}
+.five1 .img1{
+	margin: 0 auto;
+	display: block;
+}
+
+.five1 .box{
+	position: relative;
+	margin: 0 auto;
+}
+
+.five1 .box1{
+	width: 1105px;
+}
+.five1 .box1 .con{
+	position: absolute;
+	left: 26px;
+	top: 30px;
+	z-index: 2;	
+	width: 520px;
+}
+.five1 .box1 p{
+	font-size: 18px;
+	line-height: 38px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.five1 .box2{
+	width: 680px;
+	margin-top: 50px;
+}
+.five1 .box2 p{
+	font-size: 28px;
+	font-weight: lighter;
+	position: absolute;
+	left: 0;
+	top: 124px;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+}
+
+.five1 .box3{
+	width: 958px;
+	margin-top: 10px;
+}
+.five1 .box3 li{
+	text-align: center;
+    width: 277px;
+    float: left;
+    margin-right: 63px;
+}
+.five1 .box3 li:last-child{
+	margin-right: 0;
+}
+.five1 .box3 li .p1{
+	color: #E60012;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.five1 .box3 li .p2{
+	font-size: 18px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+.five1 .box4{
+	width: 1040px;
+	margin-top: 50px;
+}
+.five1 .box4 .fl-lt{
+	width: 600px;
+}
+.five1 .box4 .fl-lt p{
+	font-size: 62px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	line-height: 1;
+	color: #E60012;
+	margin-bottom: 15px;
+}
+.five1 .box4 .fl-lt p span{
+    display: inline-block;
+    margin-top: 11px;
+    font-size: 40px;
+    margin-right: 30px;
+    vertical-align: top;
+}
+.five1 .box4 .fl-rt{
+	width: 440px;
+}
+
+.five1 .box5{
+	width: 1059px;
+}
+.five1 .box5 p{
+    font-size: 19px;
+    font-weight: lighter;
+    position: absolute;
+    left: 80px;
+    top: 88px;
+    line-height: 45px;
+}
+
+/*five2*/
+.five2 .part1 .part1-top{
+	width: 946px;
+	height: 320px;
+	margin:0 auto;
+	position:relative;
+}
+.five2 .part1 .part1-top img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.five2 .part1 .part1-top .top-title{
+	width: 100%;
+	position:absolute;
+	top: 60px;
+	left: 0;
+	text-align: center;
+	color:#000;
+}
+.five2 .part1 .part1-top .top-title2{
+	width: 100%;
+	position:absolute;
+	top: 58px;
+	left: -2px;
+	text-align: center;
+	color:#ebb643;
+}
+.five2 .part1 .part1-top .top-title .p1{
+	font-size: 40px;
+}
+.five2 .part1 .part1-top .top-title .p2{
+	font-size: 50px;
+	font-weight: bold;
+}
+.five2 .part1 .part1-title .p1{
+	text-align: center;
+	font-size: 30px;
+	color:#fff;
+	letter-spacing: 5px;
+	margin:20px 0;
+}
+.five2 .part1 .part1-title img{
+	display: block;
+	margin:0 auto;
+}
+.five2 .part1 .part1-main{
+	position:relative;
+	width: 945px;
+	text-align: center;
+	margin:0 auto;
+}
+.five2 .part1 .part1-main ul{
+	font-size: 0;
+}
+.five2 .part1 .part1-main ul li{
+	width: 234px;
+	height: 280px;
+	display: inline-block;
+	margin:0 20px;
+	margin-top: 20px;
+	position:relative;
+	z-index: 5;
+}
+.five2 .part1 .part1-main ul li .li-img{
+	width: 234px;
+	height: 189px;
+}
+.five2 .part1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.five2 .part1 .part1-main ul li .li-p{
+	font-size: 16px;
+	color:#fff;
+	text-align: center;
+	margin-top: 20px;
+}
+.five2 .part1 .part1-main .main-kuang{
+	position:absolute;
+	width: 100%;
+	height: 290px;
+	border:2px dashed #d71718;
+	top: 110px;
+	left: 0;
+	border-radius: 30px;
+}
+
+/*five3*/
+.five3 .part1{
+	padding-bottom: 100px;
+}
+.five3 .part1 .part1-title img{
+	display: block;
+	margin:0 auto;
+}
+.five3 .part1 .part1-title p{
+	font-size: 30px;
+	color:#fff;
+	text-align: center;
+	margin:10px 0;
+}
+.five3 .part1 .part1-main{
+	width: 1020px;
+	height: 730px;
+	margin:0 auto;
+	border:1px solid #d71718;
+}
+.five3 .part1 .part1-main .main-title{
+	width: 230px;
+	height: 56px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 56px;
+	font-size: 30px;
+	font-weight: bold;
+	color:#e71f1e;
+	margin:0 auto;
+	margin-top: -28px;
+	border-radius: 8px;
+}
+.five3 .part1 .part1-main ul{
+	width: 735px;
+	margin:0 auto;
+}
+.five3 .part1 .part1-main ul li{
+	float: left;
+	margin-right: 75px;
+	width: 195px;
+	height: 290px;
+	margin-top: 45px;
+}
+.five3 .part1 .part1-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.five3 .part1 .part1-main ul li .li-img{
+	width: 195px;
+	height: 197px;
+}
+.five3 .part1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.five3 .part1 .part1-main ul li .li-p{
+	text-align: center;
+	color:#fff;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.five3 .part1 .part1-main2{
+	margin-top: 80px;
+}
+
+
+
+/*five4*/
+.five4 .part1{
+	position:relative;
+	padding-bottom: 30px;
+}
+.five4 .part1 .part1-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.five4 .part1 .part1-title .p1{
+	font-size: 30px;
+	color:#fff;
+}
+.five4 .part1 .part1-main{
+	width: 830px;
+	height: 580px;
+	margin:0 auto;
+	border: 1px dashed #d71718;
+	border-radius: 50px;
+	font-size: 16px;
+	color:#fff;
+	padding-left: 100px;
+	padding-top: 60px;
+	line-height: 36px;
+	box-sizing: border-box;
+	position:relative;
+}
+.five4 .part1 .part1-main .part1-foot{
+    position: absolute;
+    width: 487px;
+    bottom: -110px;
+    right: -125px;
+    z-index: 6;
+}
+.five4 .part1 .part1-main .part1-foot img{
+	display: block;
+	width: 100%;
+}
+
+.five4 .part1 .part1-main2{
+	width: 830px;
+	height: 720px;
+	margin:0 auto;
+	border: 1px dashed #d71718;
+	border-radius: 50px;
+	margin-top: 50px;
+	position:relative;
+}
+.five4 .part1 .part1-main2 ul{
+	width: 740px;
+	margin:0 auto;
+}
+.five4 .part1 .part1-main2 ul li{
+	float:left;
+	width: 194px;
+	margin-right: 79px;
+	margin-top: 70px;
+}
+.five4 .part1 .part1-main2 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.five4 .part1 .part1-main2 ul li .li-img{
+	width: 194px;
+	height: 195px;
+}
+.five4 .part1 .part1-main2 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.five4 .part1 .part1-main2 ul li .li-fonts{
+	font-size: 16px;
+	text-align: center;
+	color:#fff;
+	margin-top: 10px;
+}
+.five4 .part1 .main2-img{
+    position: absolute;
+    width: 311px;
+    right: 50px;
+    bottom: 0px;
+}
+.five4 .part1 .main2-img img{
+	display: block;
+	width: 100%;
+}
+.five4 .part1 .part1-img{
+	width: 303px;
+	margin:0 auto;
+	margin-top: 50px;
+}

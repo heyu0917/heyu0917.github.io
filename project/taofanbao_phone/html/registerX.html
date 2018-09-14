@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--App自定义的css-->
+	    <link href="../css/mui.picker.css" rel="stylesheet"/>
+	    <link href="../css/mui.poppicker.css" rel="stylesheet"/>
+
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/register.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+
+		<header>
+			<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" class="back" />
+		    </a>
+		    <h1>协警注册</h1>
+		</header>
+
+		<div class="content content-bordertop register2 registerX">
+			<div class="part1">
+				<ul>
+					<li>
+						<span class="fl-lt">账号</span>
+						<input type="text" name="" placeholder="请输入手机号" class="fl-lt">
+					</li>
+					<li>
+						<span class="fl-lt">昵称</span>
+						<input type="text" name="" placeholder="请输入您的昵称" class="fl-lt">
+					</li>
+					<li>
+						<span class="fl-lt">密码</span>
+						<input type="text" name="" placeholder="6-12位数字/字母" class="fl-lt">
+					</li>
+					<li>
+						<span class="fl-lt">验证码</span>
+						<input type="text" name="" placeholder="请输入验证码" class="code-input fl-lt">
+						<div class="fl-rt">获取验证码</div>
+					</li>
+					<li>
+						<span class="fl-lt">推荐人</span>
+						<input type="text" name="" placeholder="请输入已注册民警的手机号" class="fl-lt">
+					</li>
+					<li>
+						<span class="fl-lt">推荐码</span>
+						<input type="text" name="" placeholder="请输入推荐人验证码" class="code-input fl-lt">
+						<div class="fl-rt">获取验证码</div>
+					</li>
+					<li>
+						<span class="fl-lt">所属单位</span>
+						<input readonly="readonly" id="input-address1" type="text" placeholder="请选择您所在的城市" class="fl-lt input-text" >
+						<img src="../img/arrow_d.png" alt="" class="arrowr-img arrow fl-rt"/>
+						<button class="mui-btn mui-btn-block" type='button' id="showCityPicker1">选择</button>
+					</li>
+				</ul>
+			</div>
+			<div class="part2">
+				<h3>上传警官证正反照</h3>
+				<div class="carm-box">
+					<img src="../img/carm.png" class="tap-carm-img">
+					<span class="carm-num">0/2</span>
+				</div>
+				<div class="agreements">
+					<img src="../img/right.png">
+					<span>我已经阅读并同意<strong>淘犯宝</strong>用户协议</span>
+				</div>
+			</div>
+
+			<div class="big-button">注册</div>
+		</div>
+
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/mui.picker.min.js"></script>
+   		<script src="../js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/register.js"></script>
+		<script>
+   			//选择地区
+			(function ($, doc) {
+			    $.init();
+			    $.ready(function () {
+			        var cityPicker3 = new $.PopPicker({
+			            layer: 3
+			        });
+			        cityPicker3.setData(cityData3);
+			        var showCityPickerButton1 = doc.getElementById('showCityPicker1');
+			        var cityResult3 = doc.getElementById('cityResult');
+			        var addressContent1 = doc.getElementById('input-address1');
+			
+			        addressContent1.addEventListener('tap', function (e) {
+			            e.preventDefault()
+			            e.stopPropagation()
+			            cityPicker3.show(function (items) {
+			                addressContent1.value = (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+			            });
+			
+			        }, false)
+			
+			    });
+			})(mui, document);
+   		</script>
+	</body>
+
+</html>

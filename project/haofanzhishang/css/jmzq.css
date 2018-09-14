@@ -1,0 +1,400 @@
+/*加盟条件*/
+.jm_tj .part1{
+	padding: 0 20px;
+	position: relative;
+}
+.jm_tj .part1 .title{
+	position: relative;
+	color: #811C21;
+	margin-bottom: 30px;
+}
+.jm_tj .part1 .title .round{
+    width: 88px;
+    height: 88px;
+    background: #E89214;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.jm_tj .part1 .title h2{
+    font-size: 31px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.jm_tj .part1 .title span{
+    font-size: 16px;
+    display: block;
+    line-height: 28px;
+    margin-left: 25px;
+}
+.jm_tj .part1 .img1{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.jm_tj .part2{
+    padding-left: 45px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.jm_tj .part2 .fl-lt{
+	width: 300px;
+}
+.jm_tj .part2 ul li{
+	margin-bottom: 10px;
+	color: #811C21;
+}
+.jm_tj .part2 ul li span{
+	font-size: 30px;
+	display: inline-block;
+	margin-right: 6px;
+}
+.jm_tj .part2 ul li p{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 26px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #811C21;
+	width: 250px;
+}
+.jm_tj .part2 .dream{
+	font-size: 64px;
+    margin-top: 30px;
+    color: #811C21;
+    margin-left: 39px;
+}
+.jm_tj .part2 .fl-rt{
+	width: 360px;
+}
+
+
+/*加盟店型*/
+.jm_dx .part1{
+	padding: 0 20px;
+	position: relative;
+}
+.jm_dx .part1 .title{
+	position: relative;
+	color: #811C21;
+	margin-bottom: 30px;
+}
+.jm_dx .part1 .title .round{
+    width: 88px;
+    height: 88px;
+    background: #E89214;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.jm_dx .part1 .title h2{
+    font-size: 31px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.jm_dx .part1 .title span{
+	font-size: 14px;
+    display: block;
+    line-height: 28px;
+    margin-left: 25px;
+}
+.jm_dx .part1 .img1{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.jm_dx .part2{
+	margin-top: 60px;
+	padding: 0 20px;
+}
+.jm_dx .part2 ul li{
+	float: left;
+	margin-right: 50px;
+	width: 320px;
+}
+.jm_dx .part2 ul li:nth-child(even){
+	float: right;
+	margin-right: 0;
+}
+.jm_dx .part2 ul li img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.jm_dx .part2 ul li .con{
+	padding: 0 20px;
+}
+.jm_dx .part2 ul li h2{
+	border-top: 1px solid #811C21;
+	border-bottom: 1px solid #811C21;
+	padding: 8px;
+	text-align: center;
+	color: #811C21;
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.jm_dx .part2 ul li h2 span{
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: normal;
+}
+.jm_dx .part2 ul li div{
+	padding: 0 18px;
+	color: #666;
+	line-height: 26px;
+	font-size: 14px;
+}
+.jm_dx .part2 ul li div span{
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.jm_dx .part2 ul li div p{
+	display: inline-block;
+	vertical-align: top;
+}
+.jm_dx .part2 ul li div img{
+	display: inline-block;
+	width: 108px;
+	vertical-align: middle;
+}
+
+
+/*加盟流程*/
+.jm_lc .part1{
+	padding: 0 20px;
+	position: relative;
+}
+.jm_lc .part1 .title{
+	position: relative;
+	color: #811C21;
+	margin-bottom: 30px;
+}
+.jm_lc .part1 .title .round{
+    width: 88px;
+    height: 88px;
+    background: #E89214;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.jm_lc .part1 .title h2{
+    font-size: 31px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.jm_lc .part1 .title span{
+	font-size: 14px;
+    display: block;
+    line-height: 28px;
+    margin-left: 25px;
+}
+.jm_lc .part1 .img1{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.jm_lc .part2{
+	padding: 0 40px;
+	margin-top: 35px;
+}
+.jm_lc .part2 ul{
+	padding: 0 40px;
+	margin-top: 45px;
+}
+.jm_lc .part2 ul li{
+	border: 2px solid #811C21;
+	border-right: 0;
+	margin-bottom: 15px;
+	height: 38px;
+	overflow: hidden;
+	font-size: 0;
+}
+.jm_lc .part2 ul li .num{
+	display: inline-block;
+	vertical-align: middle;
+	width: 44px;
+	text-align: center;
+	height: 100%;
+	color: #fff;
+	font-size: 30px;
+	background: #811C21;
+}
+.jm_lc .part2 ul li h2{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	width: 160px;
+	text-align: center;
+	color: #811C21;
+	font-size: 24px;
+	letter-spacing: 2px;
+	
+}
+.jm_lc .part2 ul li p{
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/*加盟权益*/
+.jm_qy .part1{
+	padding: 0 20px;
+	position: relative;
+}
+.jm_qy .part1 .title{
+	position: relative;
+	color: #811C21;
+	margin-bottom: 30px;
+}
+.jm_qy .part1 .title .round{
+    width: 88px;
+    height: 88px;
+    background: #E89214;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.jm_qy .part1 .title h2{
+    font-size: 31px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.jm_qy .part1 .title span{
+	font-size: 14px;
+    display: block;
+    line-height: 28px;
+    margin-left: 25px;
+}
+.jm_qy .part1 .img1{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.jm_qy .part2{
+	padding: 0 40px;
+	margin-top: 50px;
+}
+.jm_qy .part2 ul li{
+	margin-bottom: 40px;
+	clear: both;
+	overflow: hidden;
+}
+.jm_qy .part2 ul li:last-child{
+	margin-bottom: 0;
+}
+.jm_qy .part2 ul li .li-img{
+	width: 270px;
+}
+.jm_qy .part2 ul li .li-img img{
+	display: block;
+	width: 100%;
+}
+.jm_qy .part2 ul li .li-con{
+	width: 382px;
+}
+.jm_qy .part2 ul li .li-con .item{
+}
+.jm_qy .part2 ul li .li-con .item h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: #811C21;
+}
+.jm_qy .part2 ul li .li-con .item h2 span{
+	font-size: 30px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.jm_qy .part2 ul li .li-con .item p{
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 45px;
+}
+
+
+/*加盟支持*/
+.jm_zc .part1{
+	padding: 0 20px;
+	position: relative;
+}
+.jm_zc .part1 .title{
+	position: relative;
+	color: #811C21;
+	margin-bottom: 30px;
+}
+.jm_zc .part1 .title .round{
+    width: 88px;
+    height: 88px;
+    background: #E89214;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.jm_zc .part1 .title h2{
+    font-size: 31px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.jm_zc .part1 .title span{
+	font-size: 14px;
+    display: block;
+    line-height: 28px;
+    margin-left: 25px;
+}
+.jm_zc .part1 .img1{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.jm_zc .part2{
+	padding: 0 40px;
+	margin-top: 35px;
+}
+.jm_zc .part2 ul{
+	padding: 0 40px;
+	margin-top: 45px;
+}
+.jm_zc .part2 ul li{
+	margin-bottom: 25px;
+	clear: both;
+	overflow: hidden;
+}
+.jm_zc .part2 ul li h3{
+	font-size: 20px;
+	line-height: 34px;
+	border-right: 2px solid #811C21;
+	padding-right: 20px;
+	color: #811C21;
+}
+.jm_zc .part2 ul li .fl-rt{
+	width: 468px;
+	padding-top: 18px;
+}
+.jm_zc .part2 ul li p{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+

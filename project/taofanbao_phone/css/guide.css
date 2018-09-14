@@ -1,0 +1,56 @@
+html,body,.guide{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+.swiper-pagination-bullets{
+	bottom: 2.3rem!important;
+}
+.swiper-pagination-bullet{
+	opacity: 1;
+	background: #999;
+}
+.swiper-pagination-bullet-active {
+    background: #fccc18;
+    opacity: 1;
+}
+.guide .swiper-slide img{
+	margin: 1.8rem auto 0 auto;
+	display: block;
+}
+.guide .swiper-slide:nth-child(1) img{
+	width: 4.87rem;
+	height: 8.07rem;
+}
+.guide .swiper-slide:nth-child(2) img{
+	width: 5.57rem;
+	height: 7.23rem;
+}
+.guide .swiper-slide:nth-child(3) img{
+	width: 5.48rem;
+	height: 7.31rem;
+}
+.now-guide{
+	font-size: .36rem;
+	text-align: center;
+	border-radius: .6rem;
+	background: #fccc18;
+	width: 4rem;
+	height: .88rem;
+	line-height: .88rem;
+	display: block;
+	position: absolute;
+	bottom: .88rem;
+	left: 50%;
+	margin-left: -2rem;
+}
+.now-guide:active{
+	background: rgba(252, 204, 24,.8);
+}
+
+
+
+
+
+

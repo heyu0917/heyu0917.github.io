@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png"/>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/lx.css" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		<div class="header">
+			<img src="../img/head1.png" alt="" class="ab-l"/>
+			<div class="nav">
+				<ul class="clearfix">
+					<li>
+						<a href="index.html" class="title">首页<span>HOME PAGE</span></a>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">品牌介绍<span>INTRODUCTION</span></a>
+						<div class="item">
+							<a href="pp1.html">品牌背景</a>
+							<a href="pp2.html">品牌简介</a>
+							<a href="pp3.html">品牌诉求</a>
+							<a href="pp4.html">企业实力</a>
+							<a href="pp5.html">团队介绍</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">产品世界<span>PRODUCTS</span></a>
+						<div class="item">
+							<a href="cp1.html">家居清洁</a>
+							<a href="cp2.html">个人护理</a>
+							<a href="cp3.html">美肤美妆</a>
+							<a href="cp4.html">婴幼儿用品</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">爆表颜值<span>APPEARANCE</span></a>
+						<div class="item">
+							<a href="yz1.html">VI形象</a>
+							<a href="yz2.html">店面空间</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">优势解密<span>ADVANTAGE</span></a>
+						<div class="item">
+							<a href="ys1.html">渠道优势</a>
+							<a href="ys2.html">产品优势</a>
+							<a href="ys3.html">盈利优势</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">合伙招募<span>RECRUIT</span></a>
+						<div class="item">
+							<a href="hh1.html">合作条件</a>
+							<a href="hh2.html">合作扶持</a>
+							<a href="hh3.html">成功案例</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="title">全球资讯<span>WORLD WIDE</span></a>
+						<div class="item">
+							<a href="zx1.html">市场动态</a>
+							<a href="zx2.html">品牌新闻</a>
+						</div>
+					</li>
+					<li>
+						<a href="lx1.html" class="title active">联系我们<span>CONTACT US</span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="ab-r">
+				<p class="p1">24小时合作热线</p>
+				<p class="p2">400-666-8888</p>
+			</div>
+			<img src="../img/head2.png" alt="" class="ab-img1"/>
+		</div>
+		
+		<div class="content">
+			<div class="y-row clearfix">
+				<div class="er-nav fl-lt">
+					<img src="../img/nav1.png" alt="" class="img0"/>
+					<div class="item">
+						<a href="lx1.html">联系我们</a>
+						<a href="lx1.html">在线留言</a>
+						<p class="p1">24小时合作热线</p>
+						<p class="p2">400-6666-888</p>
+						<img src="../img/erweima.jpg" alt="" />
+					</div>
+				</div>
+				<div class="fl-rt main lx1">
+					<div class="title">
+						<p class="p1">加入浓熙，财富共赢</p>
+						<p class="p2">join the nasee,Win-win Wealth</p>
+					</div>
+					<div class="part clearfix">
+						<div class="fl-lt">
+							<p class="p1">武汉浓熙进口日用正品店铺</p>
+							<p class="p2">
+								<b>总部地址：</b>湖北省武汉市武昌区中南路世纪<br />
+                				<span>广场1406</span>
+							</p>
+							<div class="p3">
+								<b>财富热线： </b>
+								<div class="p3-fonts">
+									加盟请直接拨打电话<br />在线留言可免费索取更多项目资料
+								</div>
+							</div>
+							<div class="form">
+								<input type="text" placeholder="姓名/Name"/>
+								<input type="text" placeholder="电话/Telephone"/>
+								<input type="text" placeholder="地区/Area"/>
+								<textarea name="" rows="" cols="" placeholder="留言/Messagr"></textarea>
+								<button>提交</button>
+							</div>
+						</div>
+						<div class="fl-rt">
+							<div class="map" id="map"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    var point = new BMap.Point(114.3607800000,30.5419200000);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+			
+		</script>
+	</body>
+</html>

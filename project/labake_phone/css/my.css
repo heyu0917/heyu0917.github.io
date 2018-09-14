@@ -1,0 +1,368 @@
+/*my_page*/
+#my_page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+}
+.header-back{
+	background: #4b89dc;
+}
+.set-img{
+	position: absolute;
+	right: .24rem;
+	top: .27rem;
+	width: .42rem;
+	height: .42rem;
+}
+/*content*/
+.my-con{
+	border-top: 0;
+}
+.my-con-top{
+	width: 100%;
+	overflow: hidden;
+}
+.con-top-list{
+	padding: .24rem .4rem;
+	background: #4b89dc;
+	overflow: hidden;
+}
+.con-top-list li{
+	width: 33.3%;
+	height: 1.3rem;
+	text-align: center;
+	font-size: .26rem;
+	color: #fff;
+	float: left;
+}
+.con-top-list li img{
+	width: .8rem;
+	height: .8rem;
+	display: block;
+	margin: 0 auto .16rem auto;
+}
+.gold-list{
+	background: #fff;
+	padding: .16rem .24rem;
+	overflow: hidden;
+}
+.gold-list li{
+	width: 33.3%;
+	padding: .16rem 0;
+	float: left;
+	font-size: .24rem;
+	text-align: center;
+	position: relative;
+}
+.gold-list li img{
+	width: 1.05rem;
+	height: .26rem;
+	display: block;
+	margin: 0 auto .08rem auto;
+}
+.gold-list li i{
+	position: absolute;
+	top: .18rem;
+	left: 50%;
+	margin-left: -.15rem;
+	color: #fff;
+}
+/*my-con-middle*/
+.my-con-middle{
+	margin-top: .24rem;
+	background: #fff;
+	font-size: .26rem;
+	width: 100%;	
+	overflow: hidden;
+}
+.con-middle-list li{
+	width: 33.3%;
+	height: 1.8rem;
+	text-align: center;
+	float: left;
+	border-left: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	margin-left: -1px;	
+}
+.con-middle-list li img{
+	width: .64rem;
+	height: .64rem;
+	display: block;
+	margin: .4rem auto .16rem auto;
+}
+.con-middle-list li .shangdian-img{
+	width: .46rem;
+}
+.con-middle-list li .dingdan-img{
+	width: .57rem;
+}
+.con-middle-list li .hongbao-img{
+	width: .59rem;
+}
+
+/*我的金豆*/
+.gold-top{
+	height: 1.45rem;
+	line-height: 1.45rem;
+	padding: 0 .24rem;
+	background: #FFFFFF;
+	font-size: .3rem;
+}
+.gold-top img{
+	width: .64rem;
+	height: .64rem;
+	vertical-align: middle;
+}
+.gold-top span{
+	vertical-align: middle;
+}
+.gold-middle{
+	font-size: .26rem;
+	background: #fff;
+	width: 100%;
+}
+.gold-middle-list li{
+	height: .88rem;
+	line-height: .88rem;
+	padding: 0 .24rem;
+	border-bottom: 1px solid #E6E6E6;
+}
+.gold-middle-list li .fl-rt{
+	color: #666;
+}
+
+/*平台数据*/
+@font-face {font-family: "star";
+  src: url('../font/star.eot?t=1469264940'); /* IE9*/
+  src: url('../font/star.eot?t=1469264940#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/star.woff?t=1469264940') format('woff'), /* chrome, firefox */
+  url('../font/star.ttf?t=1469264940') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/star.svg?t=1469264940#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.platform .stars i{
+	color: #fa2a2a;
+    font-family:"star" !important;
+    font-size:21px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.platform-top,.platform-middle,.platform-bottom{
+	padding: .32rem .24rem;
+	background: #fff;
+	margin-bottom: .24rem;
+	overflow: hidden;
+	font-size: .24rem;
+}
+.platform-top h4{
+	font-size: .28rem;
+	margin-bottom: .32rem;
+}
+.platform li{
+	height: .64rem;
+	line-height: .64rem;
+}
+.platform li .stars{
+	text-align: right;
+	width: 41%;
+}
+.platform li .fl-rt{
+	width: 55%;
+	text-align: left;
+}
+.platform li strong{
+	color: #4b89dc;
+	font-size: .28rem;
+	margin-right: .08rem;
+	vertical-align: middle;
+}
+.plattform-date{
+	color: #666;
+	text-align: center;
+	margin-bottom: .16rem;
+}
+.platform-bottom h4{
+	font-size: .28rem;
+	margin-bottom: .24rem;
+}
+.platform-bottom img{
+	width: 1.13rem;
+	height: .43rem;
+	vertical-align: middle;
+}
+
+/*我的订单*/
+.order-nav{
+	border-bottom: 1px solid #E6E6E6;
+	font-size: .3rem;
+	height: .8rem;
+	line-height: .8rem;
+}
+.order-nav li{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	margin-top: -1px;
+}
+.order-nav li:first-child{
+	border-left: 0;
+}
+.order-nav li.select{
+	color: #4b89dc;
+	border-bottom: 2px solid #4b89dc;
+}
+ /*所有订单*/
+.all-order-part{
+	width: 100%;
+}
+.all-order-list{
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+}
+.order-part li{
+	padding: .16rem .24rem;
+	border-bottom: 1px sold #E6E6E6;
+	font-size: .28rem;
+	overflow: hidden;
+}
+.order-part li .order-status{
+	font-size: .24rem;
+	padding-top: .08rem;
+}.order-part li .order-status .fl-rt{
+	color: #4b89dc;
+}
+.wait-pay-part,.payed-part{
+	display: none;
+	width: 100%;
+}
+
+/*我的二维码*/
+.myCode-con{
+	background: #000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	margin-top: -1px;
+}
+.myCode-wrap{
+	width: 80%;
+	height: 80%;
+	margin-top: 10%;
+	margin-left: 10%;
+	background: #FFFFFF;
+	border-radius: 15px;
+	font-size: .24rem;
+	padding-top: .56rem;
+	padding-left: .3rem;
+	box-sizing: border-box;
+}
+.myCode-top{
+	overflow: hidden;
+}
+.myCode1-img{
+	width: 1.18rem;
+	height: 1.18rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: .24rem;
+}
+.male-img{
+	width: .3rem;
+	height: .3rem;
+	margin-left: .16rem;
+	vertical-align: middle;
+}
+.myCode-p1{
+	font-size: .32rem;
+	line-height: .56rem;
+}
+.myCode-p1 span{
+	vertical-align: middle;
+}
+.myCode-p2{
+	font-size: .24rem;
+	color: #666;
+}
+.myCode2-img{
+	width: 4.8rem;
+	height: 4.8rem;
+	display: block;
+	margin: .24rem auto;
+}
+.myCode-bottom{
+	font-size: .24rem;
+	color: #666;
+	text-align: center;
+}
+
+/*设置*/
+/*set*/
+.set-con,.safe-con,.safeTips-con{
+	position: absolute;
+	top: .96rem;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #D7D7D7;
+}
+.set-list2,.safe-list{
+	margin-bottom: .24rem;
+}
+.set-list,.set-list2,.safe-list{
+	background: #fff;
+	padding-left: .24rem;
+	border-bottom: 1px solid #D7D7D7;
+	font-size: .28rem;
+	overflow: hidden;
+}
+.set-list li,.set-list2 li,.safe-list li{
+	padding-right: .24rem;
+	overflow: hidden;
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom: 1px solid #D7D7D7;
+}
+.set-list li:last-child,.set-list2 li:last-child,.safe-list li:last-child{
+	border-bottom: 0;
+}
+.edition-num{
+	color: #999;
+}
+.set-con img,.safe-con img{
+	width: .18rem;
+	height: .3rem;
+	margin-top: .29rem;
+}
+.button-big{
+	margin-top: .48rem;
+}
+.changeKey{
+	color: #999;
+	font-size: .24rem;
+}
+.changeKey img{
+	margin-left: .16rem;
+}
+.set-con a{
+	display: block;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+

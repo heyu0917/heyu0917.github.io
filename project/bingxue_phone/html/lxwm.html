@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/lxwm.css" type="text/css"/>	
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<a href="javascript:;" onclick="javascript:history.back(-1)" class="back"></a>
+				<h3>我是大王</h3>
+				<img src="../img/head2.jpg" alt="" class="img-block"/>
+				<div class="menu-img"></div>
+			</div>
+		</div>
+		
+		<div class="menu">
+			<ul>
+				<li>
+					<div class="title"><h1>我是大王</h1></div>
+					<div class="item">
+						<a href="ppjj.html">品牌简介</a>
+						<a href="ppts.html">品牌特色</a>
+						<a href="ppxx.html">品牌形象</a>
+						<a href="ppgl.html">市场攻略</a>
+					</div>
+				</li>
+				<li>
+					<div class="title"><h1>王的诱惑</h1></div>
+					<div class="item">
+						<a href="cp1.html">人格系列</a>
+						<a href="cp2.html">大众系列</a>
+						<a href="cp3.html">网红系列</a>
+						<a href="cp4.html">大王套餐</a>
+					</div>
+				</li>
+				<li>
+					<div class="title"><h1>王的店铺</h1></div>
+					<div class="item">
+						<a href="dm1.html">店面效果</a>
+						<a href="dm2.html">实体店面</a>
+					</div>
+				</li>
+				<li>
+					<div class="title"><h1>王的实力</h1></div>
+					<div class="item">
+						<a href="slqy.html">企业实力</a>
+						<a href="sltd.html">团队实力</a>
+						<a href="slyx.html">营销实力</a>
+						<a href="slyj.html">议价实力</a>
+					</div>
+				</li>
+				<li>
+					<div class="title"><h1>成为大王</h1></div>
+					<div class="item">
+						<a href="dwdx.html">大王店型</a>
+						<a href="dwfc.html">大王扶持</a>
+					</div>
+				</li>
+				<li>
+					<div class="title"><h1>联系大王</h1></div>
+					<div class="item">
+						<a href="lxwm.html" class="active">联系我们</a>
+						<a href="lxly.html">在线留言</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="content">
+			<div class="location">
+				<img src="../img/nav.jpg" alt="" class="img1"/>
+				<div class="box">
+					<a href="lxwm.html" class="active">联系我们</a>
+					<a href="lxly.html">在线留言</a>
+				</div>
+			</div>
+			<div class="main lxwm">
+				<div class="part1">
+					<img src="../img/icon1.png" alt="" class="ab-img1"/>
+					<img src="../img/icon2.png" alt="" class="ab-img2"/>
+					<div class="title">
+						<p class="p1">冰雪大王，只待王者</p>
+						<p class="p0">Just wait for the king</p>
+						<p class="p2">雪国密码：400-888-8888</p>
+					</div>
+					<div class="con">
+						<p class="p1">成都东鼎餐饮管理有限公司</p>
+						<p class="p2">北京地址：北京市大兴区金星路12号奥宇科技英巢7层</p>
+						<p class="p2">成都地址：成都市五福桥东路299号北城天街广场30栋13层</p>
+						<div class="map-wrap">
+							<div class="map" id="map1"></div>
+							<div class="map" id="map2"></div>
+							<div class="map" id="map3"></div>
+						</div>
+						<ul class="list1 clearfix">
+							<li class="on">北京地址</li>
+							<li>成都地址</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="footer">
+			<ul class="clearfix">
+				<li>
+					<a href="tel:400888888">
+						<img src="../img/foot1.png" alt="" />
+						<p>电话咨询</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="../img/foot2.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="lxly.html">
+						<img src="../img/foot3.png" alt="" />
+						<p>在线留言</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<div class="bg"></div>
+						
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map1");    // 创建Map实例
+		    // 初始化地图,设置中心点坐标和地图级别 39.7679270000,116.3570910000
+		    var point = new BMap.Point(116.357091,39.767927);
+		    map.centerAndZoom(point, 16);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放   
+		    
+		    var map = new BMap.Map("map2");    // 创建Map实例
+		    // 初始化地图,设置中心点坐标和地图级别 30.7170360000,104.0709250000
+		    var point2 = new BMap.Point(104.070925,30.717036);
+		    map.centerAndZoom(point2, 16);
+		    var marker2 = new BMap.Marker(point2); // 创建标注
+		    map.addOverlay(marker2); // 将标注添加到地图中
+		    map.panTo(point2);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);    //开启鼠标滚轮缩放
+		    
+		    $(function(){
+		    	$('.list1 li').click(function(){
+		    		$(this).addClass('on').siblings().removeClass('on');
+		    		
+		    		var index = $(this).index();
+		    		$('.item p').eq(index).show().siblings().hide();
+		    		$('.map-wrap .map').eq(index).css({'opacity':1,'z-index':'22'}).siblings().css({'opacity':0,'z-index':'-1'})
+		    	})
+		    })
+		</script>
+
+	</body>
+</html>

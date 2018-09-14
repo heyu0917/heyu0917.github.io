@@ -1,0 +1,129 @@
+.part1{
+	position: relative;
+	margin: 0 .3rem;
+	height: 9.2rem;
+    padding: 1.5rem .3rem 0;
+    box-sizing: border-box;
+}
+.part1 img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	height: 100%;
+}
+.part1 #map{
+	width: 100%;
+	height: 6.48rem;
+}
+.part1 p{
+	width: 100%;
+	font-size: .24rem;
+	font-weight: bold;
+	text-align: center;
+	height: .64rem;
+	line-height: .64rem;
+	background: #b43363;
+	color: #fff;
+	border-radius: .32rem;
+	margin-top: .28rem;
+}
+
+.part2{
+	padding: 0 .6rem;
+	margin-top: .4rem;
+	color: #B43363;
+	font-family: arial;
+}
+.part2 .p1{
+	text-transform: uppercase;
+	font-size: .56rem;
+	line-height: 1;
+}
+.part2 .p2{
+	font-size: .32rem;
+	font-weight: bold;
+	margin-top: .08rem;
+	margin-bottom: .32rem;
+}
+.part2 .p3{
+	font-size: .32rem;
+}
+.part2 .box .p3{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: .5rem;
+}
+.part2 .box input{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .box label{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .32rem;
+	margin-right: .2rem;
+}
+
+.part2 .text-input{
+	display: block;
+	width: 100%;
+	height: .68rem;
+	line-height: .68rem;
+	background: #ebebeb;
+	font-size: .3rem;
+	padding: 0 .12rem;
+	box-sizing: border-box;
+	margin-bottom: .2rem;
+	margin-top: .2rem;
+	color: #B43363;
+}
+.part2 textarea{
+	display: block;
+	width: 100%;
+	height: 2rem;
+	background: #ebebeb;
+	font-size: .3rem;
+	padding: .12rem;
+	box-sizing: border-box;
+	margin-bottom: .32rem;
+	margin-top: .32rem;
+	resize: none;
+	color: #B43363;
+}
+.part2 .submit{
+	width: 1.6rem;
+	height: .68rem;
+	line-height: .68rem;
+	color: #FFFFFF;
+	background: #B43363;
+	font-weight: bold;
+	font-size: .32rem;
+	border-radius: .12rem;
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: .1rem;
+	padding-left: .1rem;
+	box-sizing: border-box;
+	/*margin-bottom: .4rem;*/
+}
+textarea::-webkit-input-placeholder{
+	color: #B43363;
+}
+textarea::-moz-placeholder{
+	color: #B43363;
+}
+textarea:-moz-placeholder{
+	color: #B43363;
+}
+textarea:-ms-input-placeholder{
+	color: #B43363;
+}
+
+
+
+
+
+
+

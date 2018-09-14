@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/sure_order.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<!--优惠券-->
+		<div class="coupon-popup coupons" id="coupon_popup">
+			<div class="header-back">
+				<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img" id="coupon_back"/></a>
+				<h1>使用优惠券</h1>
+			</div>
+			<div class="coupon-popup-con">
+				<ul class="coupon-nav" id="coupon_nav">
+					<li class="select">可用优惠券(<i id="coupon_can_num">1</i>)</li>
+					<li>不可用有优惠券(<i id="coupon_nocan_num">1</i>)</li>
+				</ul>
+				<!--当没有优惠券时-->
+				<div class="noCoupon">
+					<img src="img/noCouponImg.png" alt="" class="noCouponImg"/>
+					<h1>很遗憾</h1>
+					<p class="font_20">您暂无可以使用的优惠券</p>
+				</div>
+				<div class="coupon-can-box">
+					<ul class="coupon-popup-list">
+						<li class="coupons-popup-img">
+							<img src="img/coupon.jpg" alt="" class="coupon-img"/>
+							<div class="coupons-price">5</div>
+							<div class="coupons-right">
+								<p class="purchase"><span class="purchase-type">仅可购买特别特指定</span>商品</p>
+								<p class="man-money">满100元可用</p>
+								<p class="date">2016.08.06 - - 2016.08.10</p>
+							</div>
+						</li>
+					</ul>
+					<div class="invoice-sure-btn"><span class="button-big">确认</span></div>
+				</div>
+				<div class="coupon-nocan-box">
+					<ul class="coupon-popup-list">
+						<li class="coupons-popup-img">
+							<img src="img/coupon.jpg" alt="" class="coupon-img"/>
+							<div class="coupons-price">5</div>
+							<div class="coupons-right">
+								<p class="purchase"><span class="purchase-type">仅可购买特别特指定</span>商品</p>
+								<p class="man-money">满300元可用</p>
+								<p class="date">2016.08.06 - - 2016.08.10</p>
+							</div>
+							<p class="coupon-noman"><span class="font_20">所结算商品还没达到优惠券使用条件</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			$(function(){
+				$("#coupon_nav li").tap(function(){
+					$(this).addClass('select').siblings().removeClass('select');
+					
+					if($(this).index() == 0){
+						$(".coupon-can-box").css('display','block');
+						$(".coupon-nocan-box").css('display','none');
+					}else{
+						$(".coupon-can-box").css('display','none');
+						$(".coupon-nocan-box").css('display','block');
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

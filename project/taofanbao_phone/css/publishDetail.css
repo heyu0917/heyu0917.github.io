@@ -1,0 +1,218 @@
+header .left-img-box img{
+	width: .4rem;
+	height: .4rem;
+	margin-left: .24rem;
+    margin-top: .22rem;
+}
+
+.content{
+	bottom: 0;
+	padding-bottom: .24rem;
+}
+.part1{
+	background: #fff;
+	padding-left: .24rem;
+	border-bottom: 1px solid #d7d7d7; 
+}
+.part1 .part1-name,
+.part1 .part1-type{
+	width: 100%;
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: .3rem;
+	box-sizing: border-box;
+}
+.part1 .part1-name input,
+.part1 .part1-type input{
+	width: 5rem;
+	display: block;
+	margin-left: .32rem;
+	height: 100%;
+}
+.part1 .part1-type input{
+	font-synthesis: .26rem;
+}
+.part1 .part1-type img{
+	width: .24rem;
+	height: .14rem;
+	display: block;
+	padding-right: .24rem;
+	margin-top: .37rem;
+}
+.part1-textarea{
+	font-size: .3rem;
+	position: relative;
+	height: 2.6rem;
+}
+.part1-textarea span{
+	position: absolute;
+	left: 0;
+	font-size: .3rem;
+	display: block;
+	line-height: .88rem;
+}
+.part1-textarea textarea{
+	width: 100%;
+	font-size: .26rem;
+	padding: .28rem .16rem .16rem 1.52rem;
+	line-height: .36rem;
+	box-sizing: border-box;
+	resize: none;
+	height: 2.6rem;
+}
+.part2{
+	padding: .24rem 0;
+	border-bottom: 1px solid #d7d7d7;
+	background: #fff;
+}
+.part2-carm img{
+	width: 2rem;
+	height: 1.8rem;
+	display: block;
+	margin-bottom: .08rem;
+}
+.part2-carm span{
+	font-size: .24rem;
+	color: #999;
+}
+.part3 .switch-box{
+	font-size: .3rem;
+	padding: 0 .24rem;
+	border-bottom: 1px solid #d7d7d7;
+	line-height: .88rem;
+	box-sizing: border-box;
+	margin-bottom: .24rem;
+	background: #fff;
+}
+.part3 ul{
+	padding-left: .24rem;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	background: #fff;
+}
+.part3 ul li{
+	height: .88rem;
+	line-height: .88rem;
+	padding-right: .24rem;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: .3rem;
+}
+.part3 ul li:last-child{
+	border: 0;
+}
+.part3 ul li input{
+	font-size: .26rem;
+	height: .88rem;
+	width: 4rem;
+	margin-left: .32rem;
+	display: block;
+}
+.big-button{
+	margin-top: .6rem;
+}
+
+.popup{
+	width: 86%;
+	background: #fff;
+	position: absolute;
+	left: 7%;
+	top: 50%;
+	z-index: -1;
+	padding: .32rem .24rem;
+	box-sizing: border-box;
+	opacity: 0;
+	transform: scale(.5) translate3d(0,-50%,0);
+	-webkit-transform: scale(.5) translate3d(0,-50%,0);
+	-moz-transform: scale(.5) translate3d(0,-50%,0);
+	-ms-transform: scale(.5) translate3d(0,-50%,0);
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+}
+.popup h3{
+	font-weight: normal;
+	font-size: .3rem;
+	margin-bottom: .24rem;
+}
+.popup ul li {
+	width: 100%;
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: .26rem;
+	position: relative;
+}
+.popup ul li label{
+	width: 100%;
+	padding-right: .5rem;
+	box-sizing: border-box;
+}
+.popup ul li input{
+	width: .32rem;
+	height: .32rem;
+	position: absolute;
+	right: 0;
+	margin-top: .28rem;
+}
+
+/*上传图片*/
+.post-wrap {
+    width: 100%;
+    padding: .24rem .24rem 0 .08rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #fff;
+    margin-top: -.24rem;
+}
+.image-item {
+    width: 2rem;
+    height: 1.8rem;
+    background-image: url(../img/carm.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    border-radius: .08rem;
+    margin-left: .16rem;
+    margin-bottom: .16rem;
+}
+.post-wrap .image-item:first-child{
+	margin-bottom: 0;
+}
+.post-wrap p.tip {
+    font-size: .24rem;
+    color: #999;
+    margin-left: .08rem;
+    margin-bottom: .12rem;
+}
+.post-wrap img{
+	width: 2rem;
+    height: 1.8rem;
+    margin-bottom: .16rem;
+}
+
+/*上传图上删除样式*/
+ .del {  
+    position: absolute;  
+    top:.08rem;  
+    right: .08rem;   
+    display: block;        
+ 	line-height: 1;  
+    cursor: pointer;  
+    color:#fff;  
+    width: .2rem;
+    height: .2rem;
+    border: 1px solid #fff;
+}  
+ .del:hover {  
+    border-color:#ff3333;  
+}  
+
+/*案件名称*/
+#name_para{
+	color: #222;
+}
+
+

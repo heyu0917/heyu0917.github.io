@@ -1,0 +1,57 @@
+.header-back span{
+	color: #f60;
+}
+.evaluate-con{
+	position: absolute;
+	left: 0;
+	top: .88rem;
+	border-top: 1px solid #D7D7D7;
+	width: 100%;
+}
+.evaluate-con-top{
+	padding: .24rem;
+	border-bottom: 1px solid #D7D7D7;
+	background: #fff;
+	overflow: hidden;
+}
+.goods-img{
+	width: 1.52rem;
+	height: 1.36rem;
+	border: 1px solid #D7D7D7;
+	margin-right: .4rem;
+}
+.evaluate-grade h3{
+	font-size: .3rem;
+	height: .56rem;
+	line-height: .56rem;
+}
+/*stars-box*/
+.stars-box img{
+	width: .4rem;
+	height: .4rem;
+	float: left;
+	margin-right: .24rem;
+	margin-top: .16rem;
+}
+ textarea{
+ 	padding: 0.16rem .24rem;
+ 	resize: none;
+ 	width: 100%;
+ 	box-sizing: border-box;
+ 	height: 2rem;
+ 	line-height: .38rem;
+ 	font-size: .26rem;
+ 	background: #F8F8F8;
+ 	color: #999;
+ }
+ 
+.bottom-popup{
+	width: 2.5rem;
+	height: .8rem;
+	line-height: .8rem;
+	margin-left: -1.25rem;
+}
+
+
+
+

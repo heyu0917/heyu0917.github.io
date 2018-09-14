@@ -1,0 +1,209 @@
+/*导航*/
+.er-nav ul li{
+	text-align: left;
+}
+.er-nav ul li .title{
+	padding-left: 15px;
+	box-sizing: border-box;
+	position: relative;
+}
+.er-nav ul li.active .title{
+	color: #fff;
+}
+.er-nav ul li:hover .title{
+	color: #F1D597;
+}
+.er-nav ul li .title:before{
+	content: '';
+	position: absolute;
+	right: 15px;
+	top: 18px;
+	z-index: 2;
+	background: url(../img/icon4.png) no-repeat;
+	width: 12px;
+	height: 8px;
+}
+.er-nav ul li.active .title:before{
+	background: url(../img/icon5.png) no-repeat;
+	top: 17px;
+}
+.er-nav ul li .item a{
+	position: relative;
+}
+.er-nav ul li .item a:before{
+	content: '>';
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+
+
+/*品牌解读*/
+.pp .section1{
+	background-image: url(../img/kj2/bg7.jpg);
+}
+.pp .section2{
+	background-image: url(../img/kj/bg2.jpg);
+}
+
+.pp .title{
+	text-align: center;
+	position: relative;
+}
+.pp .title:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 240px;
+    height: 100px;
+    border-top: 1px solid rgba(255,255,255,.5);
+    border-left: 1px solid rgba(255,255,255,.5);
+}
+.pp .title:after{
+	content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 240px;
+    height: 100px;
+	border-top: 1px solid rgba(255,255,255,.5);
+	border-right: 1px solid rgba(255,255,255,.5);
+}
+.pp .title .box{
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 36px;
+}
+.pp .title .box .line{
+	flex: 1;
+	height: 1px;
+	background: rgba(255,255,255,.5);
+}
+.pp .title .box p{
+	font-size: 18px;
+	width: 280px;
+	flex: 0 0 280px;
+}
+
+.pp .wrapper{
+	background: rgba(4,40,47,0.5);
+	padding: .5rem;
+	margin: 2% auto;
+	width: 1100px;
+}
+
+.pp .section1 .item{
+	margin-top: 4%;
+}
+.pp .section1 .item p{
+	line-height: 30px;
+}
+.pp .section1 .item .p1{
+	font-size: 14px;
+}
+.pp .section1 .item strong{
+	display: block;
+}
+.pp .section1 .item .p2{
+	font-size: 12px;
+	text-indent: 24px;
+}
+
+.pp .section2 .title .box p{
+	letter-spacing: 15px;
+	padding-left: 15px;
+}
+
+.pp .section2 .item{
+	margin-top: 4%;
+}
+.pp .section2 .item img{
+	margin-bottom: 2%;
+}
+.pp .section2 .item .p1{
+	font-size: 12px;
+	line-height: 30px;
+	text-indent: 24px;
+}
+
+
+@media (max-width: 1700px) {
+	.pp .wrapper{
+		margin: 1% auto;
+	}
+	.pp .section2 .item {
+	    margin-top: 2%;
+	}
+}
+@media (max-width: 1500px) {
+	.pp .wrapper{
+		width: 980px;
+		margin: .2% auto;
+	}
+	.pp .title:before,
+	.pp .title:after{
+		width: 215px;
+		height: 90px;
+	}
+	.pp .section1 .title img{
+		width: 500px;
+	}
+	.pp .section1 .item {
+	    margin-top: 2%;
+	}
+	.pp .section1 .item p{
+		line-height: 28px;
+	}
+	
+	.pp .section2 .title img{
+		width: 560px;
+	}
+	.pp .section2 .item .p1{
+		line-height: 28px;
+	}
+}
+@media (max-width: 1400px) {
+	.pp .wrapper{
+		width: 940px;
+	}
+	.pp .con{
+		padding-left: 20px!important;
+	}
+	.pp .title:before,
+	.pp .title:after{
+		width: 230px;
+		height: 76px;
+	}
+	.pp .section1 .title img{
+		width: 420px;
+	}
+	.pp .section1 .item p{
+		line-height: 26px;
+	}
+	
+	.pp .section2 .title img{
+		width: 468px;
+	}
+	.pp .section2 .item .p1{
+		line-height: 26px;
+	}
+}
+@media (max-width: 1300px) {
+	.pp .wrapper{
+		margin: 0 auto;
+		padding: .4rem;
+	}
+	.pp .section1 .item p{
+		line-height: 24px;
+	}
+	.pp .section2 .item .p1{
+		line-height: 24px;
+	}
+}
+
+
+

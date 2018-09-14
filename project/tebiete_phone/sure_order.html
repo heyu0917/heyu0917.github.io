@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/sure_order.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div id="sure_order">
+			<div class="header-back">
+				<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+				<h1>确认订单</h1>
+			</div>
+			<!--content-->
+			<div class="content">
+				<div class="address-wrap">
+					<a href="address.html">
+						<img src="img/addressIcon.png" alt="" class="addressIcon fl-lt"/>
+						<div class="address-middle fl-lt">
+							<div class="address-nn">
+								<span class="address-name fl-lt">芦苇微微</span>
+								<span class="address-number fl-lt">15212345678</span>
+								<span class="defalut font_22 fl-lt">默认</span>
+							</div>
+							<p class="address-text">湖北武汉市洪山区城区石牌岭路红岭花园（东区）5栋1单 元901室</p>
+						</div>
+						<img src="img/arrowR.png" alt="" class="address-arrowR fl-rt"/>
+						<img src="img/line.png" alt="" class="address-line"/>
+					</a>
+				</div>
+				<div class="order-info clearfix">
+					<a href="detail.html" class="shop-con-link">
+						<img src="img/sort1.jpg" alt="" class="shop-img fl-lt">
+						<div class="shop-con-right fl-lt">
+							<p class="p1 two-ellipsis">特别特正时皮带76134×25.4 8595-3142</p>
+							<p class="p3">规格:<span class="size">15号</span>颜色:<span class="color">黑色</span></p>
+							<div class="price">￥<input type="text" value="188.00" readyonly /></div>
+						</div>
+						<div class="order-number">x<i>1</i></div>
+					</a>
+					<div class="text-item" id="invoice_into">
+						<div class="fl-lt text-title">发票信息</div>
+						<div class="fl-rt text-arrowR"><span>明细(电子)-个人</span><img src="img/arrowR.png" alt="" /></div>
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="text-item coupon-first" id="coupon">
+						<div class="fl-lt text-title">优惠券</div>
+						<div class="fl-rt text-arrowR"><span>无可用</span><img src="img/arrowR.png" alt="" /></div>
+					</div>
+					<div class="text-item">
+						<div class="fl-lt text-title">积分</div>
+						<p class="coupup-itegral fl-lt">共1334积分，可用1000积分抵￥10.00</p>
+						<div class="fl-rt switch-noword coupon-switch"><i id="switch_white"></i></div>
+					</div>
+				</div>
+				<div class="order-t">
+					<ul class="order-t-list">
+						<li class="clearfix">
+							<span class="fl-lt">商品金额</span>
+							<span class="fl-rt order-t-num">￥<i>188.00</i></span>
+						</li>
+						<li class="clearfix">
+							<span class="fl-lt">运费</span>
+							<span class="fl-rt order-t-num"><b>+</b>￥<i>6.00</i></span>
+						</li>
+						<li class="clearfix">
+							<span class="fl-lt">积分</span>
+							<span class="fl-rt order-t-num"><b>-</b>￥<i>10.00</i></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--footer-->
+			<div class="order-footer">
+				<span class="fl-lt real-pay">实付款：￥<i>184.00</i></span>
+				<a href="order_pay.html"><span class="fl-lt submit-order-btn">提交订单</span></a>
+			</div>
+		</div>
+		
+		<!--发票信息-->
+		<div class="invoice">
+			<div class="header-back">
+				<div id="invoice_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>发票信息</h1>
+			</div>
+			<div class="invoice-content">
+				<div class="invoice-type">
+					<div class="comWidth">
+						<h3>发票类型</h3>
+						<span>纸质发票</span>
+					</div>
+				</div>
+				<div class="invoice-taitou">
+					<div class="comWidth" id="taitou_span">
+						<h3>发票抬头</h3>
+						<span class="taitou-item">
+							<img src="img/round_light.png" alt="" />
+							<input type="radio" name="taitou" id="radio_1"/>
+							<label for="radio_1">个人</label>
+						</span class="taitou-item">
+						<span class="radio2-span">
+							<img src="img/round.png" alt="" />
+							<input type="radio" name="taitou" id="radio_2"/>
+							<label for="radio_2">单位</label>
+						</span>						
+					</div>
+				</div>
+				<div class="invoice-con" id="invoice_con">
+					<h3>发票内容 </h3>
+					<div class="invoice-con-child">
+						<span>
+							<img src="img/round_light.png" alt="" />
+							<input type="radio" name="con" id="radio_3"/>
+							<label for="radio_3">明细 </label>
+						</span>
+					</div>
+					<div class="invoice-con-child">
+						<span>
+							<img src="img/round.png" alt="" />
+							<input type="radio" name="con" id="radio_4"/>
+							<label for="radio_4">不开发票</label>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="invoice-sure-btn"><span class="button-big">确认</span></div>
+		</div>
+		
+		<!--优惠券-->
+		<div class="coupon-popup" id="coupon_popup">
+			<div class="header-back">
+				<div id="coupon_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>使用优惠券</h1>
+			</div>
+			<div class="coupon-popup-con">
+				<ul class="coupon-nav" id="coupon_nav">
+					<li class="select">可用优惠券(<i id="coupon_can_num"></i>)</li>
+					<li>不可用有优惠券(<i id="coupon_nocan_num"></i>)</li>
+				</ul>
+				<!--当没有优惠券时-->
+				<div class="noCoupon">
+					<img src="img/noCouponImg.png" alt="" class="noCouponImg"/>
+					<h1>很遗憾</h1>
+					<p class="font_20">您暂无可以使用的优惠券</p>
+				</div>
+				<div class="coupon-can-box">
+					<ul class="coupon-popup-list">
+						<li class="coupons-popup-img">
+							<img src="img/coupon.jpg" alt="" class="coupon-img"/>
+							<div class="coupons-price">5</div>
+							<div class="coupons-right">
+								<p class="purchase"><span class="purchase-type">仅可购买特别特指定</span>商品</p>
+								<p class="man-money">满100元可用</p>
+								<p class="date">2016.08.06 - - 2016.08.10</p>
+							</div>
+						</li>
+					</ul>
+					<div class="invoice-sure-btn"><span class="button-big">确认</span></div>
+				</div>
+				<div class="coupon-nocan-box">
+					<ul class="coupon-popup-list">
+						<li class="coupons-popup-img">
+							<img src="img/coupon.jpg" alt="" class="coupon-img"/>
+							<div class="coupons-price">5</div>
+							<div class="coupons-right">
+								<p class="purchase"><span class="purchase-type">仅可购买特别特指定</span>商品</p>
+								<p class="man-money">满300元可用</p>
+								<p class="date">2016.08.06 - - 2016.08.10</p>
+							</div>
+							<p class="coupon-noman"><span class="font_20">所结算商品还没达到优惠券使用条件</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--save popup-->
+		<div class="save-popup bottom-popup"></div>
+		
+		<script>
+			$(function(){
+				//发票信息
+				document.getElementById('invoice_into').addEventListener('tap',function(){
+					$("#sure_order").css({"left":"-100%"});
+					$(".invoice").css({"left":0});
+					
+					$('#taitou_span span,#invoice_con .invoice-con-child').tap(function(){
+						var imgObj = $(this).find('img');
+						var otherImgObj = $(this).siblings().find('img');
+						if(imgObj.attr('src') == 'img/round.png'){
+							imgObj.attr('src','img/round_light.png');
+							otherImgObj.attr('src','img/round.png');							
+						}
+					})
+				})
+				document.getElementById('invoice_back').addEventListener('tap',function(){
+					$("#sure_order").css({"left":"0"});
+					$(".invoice").css({"left":"100%"});
+				})
+				
+				//优惠券
+				$('#coupon').tap(function(){
+					$("#sure_order").css({"left":"-100%"});
+					$("#coupon_popup").css({"left":0});
+					
+					var can_num = $(".coupon-can-box ul li").length;
+					var nocan_num = $(".coupon-nocan-box ul li").length;
+					$('#coupon_can_num').html(can_num);
+					$('#coupon_nocan_num').html(nocan_num);
+					
+					$("#coupon_nav li").tap(function(){
+						$(this).addClass('select').siblings().removeClass('select');
+						
+						if($(this).index() == 0){
+							$(".coupon-can-box").css('display','block');
+							$(".coupon-nocan-box").css('display','none');
+						}else{
+							$(".coupon-can-box").css('display','none');
+							$(".coupon-nocan-box").css('display','block');
+						}
+					})
+				})
+				
+				$('#coupon_back').tap(function(){
+					$("#sure_order").css({"left":"0"});
+					$("#coupon_popup").css({"left":"100%"});
+				})
+				
+				//switch
+				$('#switch_white').swipeLeft(function(){
+					var id=$('#switch_white');
+					swipe_left(id);
+				})
+				$('#switch_white').swipeRight(function(){
+					var id=$('#switch_white');
+					swipe_right(id);
+				})
+				
+				$('.swipe-address').swipeLeft(function(){
+					var id=$('.swipe-address');
+					swipe_left(id);
+				})
+				$('.swipe-address').swipeRight(function(){
+					var id=$('.swipe-address');
+					swipe_right(id);
+				})
+				
+				var flag1 = true;
+				$('#switch_white').tap(function(){
+					if(flag1){
+						$(this).css({"left":"0","box-shadow":"0 0 2px rgba(0,0,0,.4)"});
+						$(this).parent().css({'border':'2px solid #ddd','background':'#fff'});
+						flag1 = false;
+					}else{
+						$(this).css({"left":".36rem","box-shadow":"none"});
+						$(this).parent().css({'border':'2px solid #f60','background':'#f60'});
+						flag1 = true;
+					}
+				});
+				
+				var flag2 = false;
+				$('.swipe-address').tap(function(){
+					if(flag2){
+						$(this).css({"left":"0","box-shadow":"0 0 2px rgba(0,0,0,.4)"});
+						$(this).parent().css({'border':'2px solid #ddd','background':'#fff'});
+						flag2 = false;
+					}else{
+						$(this).css({"left":".36rem","box-shadow":"none"});
+						$(this).parent().css({'border':'2px solid #f60','background':'#f60'});
+						flag2 = true;
+					}
+				});
+			
+			});
+			
+			//swipe
+			function swipe_left(id){
+				id.css({"left":"0","box-shadow":"0 0 2px rgba(0,0,0,.4)"});
+				id.parent().css({'border':'2px solid #d7d7d7','background':'#fff'});
+			}
+			function swipe_right(id){
+				id.css({"left":".36rem","box-shadow":"none"});
+				id.parent().css({'border':'2px solid #f60','background':'#f60'});
+			}
+		</script>
+	</body>
+</html>

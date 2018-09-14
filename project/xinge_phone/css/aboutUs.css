@@ -1,0 +1,99 @@
+.content{
+/*	background: rgba(255,255,255,.9);*/
+}
+.main{
+	padding: 0 .3rem;
+}
+
+.main-nav{
+	padding: .2rem .56rem 0 .56rem;
+}
+.main-nav li{
+	width: 47%;
+}
+.main-nav li:nth-child(2){
+	float: right;
+}
+/*企业简介*/
+
+.qyjj .part3{
+	height: 2.4rem;
+	width: 106%;
+	margin-left: -3%;
+	padding-bottom: .24rem;
+}
+.qyjj .part3 img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.qyjj p{
+	text-indent: .4rem;
+}
+
+/*品牌文化*/
+.ppwh .part3{
+	position: relative;
+	height: 3.3rem;
+	margin-top: .7rem;
+}
+.ppwh .part3 .img1{
+	width: 1.14rem;
+	height: 1.26rem;
+	position: absolute;
+	left: 0;
+	top: -.7rem;
+	z-index: 2;
+}
+.ppwh .part3 .swiper-slide img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.ppwh .part4{
+	width: 106%;
+	margin-left: -3%;
+	overflow: hidden;
+	padding: .32rem 0;
+}
+.ppwh .part4 ul li{
+	border-left: 2px solid #401962;
+	padding-left: .08rem;
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: .3rem;
+}
+.ppwh .part4 ul li:last-child{
+	margin-bottom: 0;
+}
+.ppwh .part4 ul li div{
+	font-size: .24rem;
+	position: relative;
+}
+.ppwh .part4 ul li p{
+	position: absolute;
+	left: 20%;
+	top: -.02rem;
+}
+.ppwh .part4 .li_l p{
+	left: 24%;
+}
+.ppwh .part4 ul li span{
+/*	font-size: .12rem;*/
+/*font-size: .24rem;*/
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	display: block;
+	margin-left: -33%;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+.leavemsg{
+	padding: 0 .35rem;
+}
+.leavemsg .main-con{
+	margin-top: .3rem;
+	width: 95%;
+	margin: .3rem auto .2rem auto;
+}
+.leavemsg .main-con h3{
+	font-size: .25rem;
+	font-weight: normal;
+	color: #713f1c;
+	margin-bottom: .12rem;
+}
+.leavemsg .main-con input{
+	width: 100%;
+	height: .56rem;
+	line-height: .56rem;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+	border: 1px solid #bdbdbd;
+	box-sizing: border-box;
+	display: block;
+	margin-bottom: .28rem;
+}
+.leavemsg .main-con textarea{
+	width: 100%;	
+	height: 2.5rem;
+	padding: .16rem .2rem;
+	box-sizing: border-box;
+	border: 1px solid #bdbdbd;
+	resize: none;
+	margin-bottom: .28rem;
+}
+.leavemsg .main-con button{
+	float: right;
+	width: 1.5rem;
+	height: .52rem;
+	line-height: .52rem;
+	text-align: center;
+	color: #fff;
+	font-size: .25rem;
+	background: #851a2c;
+	box-shadow: .02rem .04rem rgba(0,0,0,.2);
+	display: block;
+}
+.leavemsg .main-con .main-part2{
+	margin-top: .3rem;
+}
+.leavemsg .main-con .main-part2 h4{
+	color: #851a2c;
+	font-size: .24rem;
+	margin-bottom: -.1rem;
+}
+.leavemsg .main-con .main-part2 p{
+	line-height: .42rem;
+}
+.leavemsg .main-con .main-part2 p span{
+	color: #c39c62;
+	display: block;
+}
+

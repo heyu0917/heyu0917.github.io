@@ -1,0 +1,149 @@
+/*部落动态*/
+.news{
+	margin-top: 40px;
+	color: #E1BE7B;
+}
+.news .title{
+    text-align: center;
+    color: #E1BE7B;
+    padding-top: 26px;
+    text-transform: uppercase;
+}
+.news .title .p1{
+	font-size: 38px;
+}
+.news .title .p2{
+	font-size: 14px;
+	margin-top: 8px;
+}
+.news .part1{
+	width: 100%;
+	height: 1180px;
+}
+.news .con{
+	width: 880px;
+	margin: 60px auto 0;
+}
+.news .con .list1{
+	margin-bottom: 50px;
+}
+.news .con .list1 li{
+	border-bottom: 1px dashed #E1BE7B;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 0;
+}
+.news .con .list1 li a{
+	display: block;
+	color: #E1BE7B;
+}
+.news .con .list1 li .img1{
+	display: inline-block;
+	vertical-align: middle;
+	width: 320px;
+	height: 170px;
+}
+.news .con .list1 li .li-con{
+	display: inline-block;
+	vertical-align: middle;
+	width: 530px;	
+	margin-left: 30px;
+}
+.news .con .list1 li .li-con .p1{
+	color: #f00;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+.news .con .list1 li .li-con .p2{
+	font-size: 20px;
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 10px;
+}
+.news .con .list1 li .li-con .p3{
+	font-size: 14px;
+	height: 44px;
+	line-height: 22px;
+	margin-bottom: 12px;
+}
+.news .con .list1 li .li-con .p4{
+	font-size: 13px;
+	color: #b5b4b5;
+}
+
+/*新闻详情*/
+.detail{
+	width: 1000px;
+	margin: 60px auto;
+	color: #E1BE7B;
+}
+.detail .part1{
+	text-align: center;
+}
+.detail .part1 h3{
+	font-size: 26px;
+	font-weight: normal;
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .part1 .box{
+	font-size: 14px;
+	margin-top: 6px;
+}
+.detail .part1 .box span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 8px;
+}
+.detail .part1 .box .s-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+.detail .part2{
+	margin-top: 40px;
+	font-size: 0;
+}
+.detail .part2 p{
+	font-size: 15px;
+	text-indent: 30px;
+	margin-bottom: 18px;
+	line-height: 26px;
+}
+.detail .part2 img{
+	display: block;
+	max-width: 100%;
+	margin: 25px auto 0;
+}
+
+.detail .ab-bottom{
+	margin-top: 30px;
+	z-index: 2;
+}
+.detail .ab-bottom li{
+	width: 45%;
+	margin-bottom: 5px;
+}
+.detail .ab-bottom li:last-child{
+	text-align: right;
+}
+.detail .ab-bottom a{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 15px;
+	display: block;
+	height: 26px;
+	padding: 6px 0;
+	box-sizing: border-box;
+	color: #E1BE7B;
+}
+
+
+

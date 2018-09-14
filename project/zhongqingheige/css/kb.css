@@ -1,0 +1,179 @@
+/*行业口碑*/
+.my_kb{
+	padding-bottom: 78px;
+	margin-bottom: 4%;
+}
+.my_kb ul li{
+	margin-bottom: 50px;
+	width: 100%;
+	border-bottom: 1px dashed #B5262D;
+}
+.my_kb ul li .li-img{
+	width: 25%;
+	padding-right: 5%;
+	background: #fffaec;
+	margin-bottom: -1px;
+}
+.my_kb ul li:nth-child(even) .li-img{
+	padding-right: 0;
+	padding-left: 5%;
+}
+.my_kb ul li .img-con{
+	position: relative;
+}
+.my_kb ul li .li-img img{
+	display: block;
+	width: 100%;
+}
+.my_kb ul li .li-img .div1{
+	position: absolute;
+	left: -8px;
+	top: 8px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: #B5262D;
+}
+.my_kb ul li .li-img .div2{
+	position: absolute;
+	left: 8px;
+	top: -8px;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #B5262D;
+}
+.my_kb ul li:nth-child(even) .li-img .div1{
+	left: 8px;
+	top: 8px;
+	background: #152B4F;
+}
+.my_kb ul li:nth-child(even) .li-img .div2{
+	left: -8px;
+	top: -8px;
+	border: 1px solid #152B4F;
+}
+
+.my_kb ul li .li-con{
+	width: 70%;
+}
+.my_kb ul li .li-con h1{
+	font-size: 28px;
+	font-family: "宋体";
+	line-height: 44px;
+	color: #142848;
+}
+.my_kb ul li .li-con span{
+	display: block;
+	font-size: 16px;
+	color: #142848;
+	margin-bottom: 20px;
+}
+.my_kb ul li .li-con p{
+	font-size: 14px;
+	line-height: 26px;
+}
+
+
+/*学员证言*/
+.my_zy{
+	padding-bottom: 78px;
+	margin-bottom: 4%;
+}
+.my_zy ul li{
+	margin-bottom: 50px;
+	font-size: 0;
+}
+.my_zy ul li .li-item1{
+	background: #f4f4f4;
+	width: 60%;
+	font-size: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.my_zy ul li .li-item1 .img-box{
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.my_zy ul li .li-item1 .img-box img{
+	width: 100%;
+	display: block;
+}
+.my_zy ul li .li-item1 .li-con{
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.my_zy ul li .li-item1 .li-con h1{
+	font-family: "宋体";
+	font-size: 30px;
+	color: #B5262D;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.my_zy ul li .li-item1 .li-con span{
+	text-align: center;
+	display: block;
+	color: #B5262D;
+	font-size: 16px;
+	line-height: 26px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.my_zy ul li .li-item1 .li-con p{
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.my_zy ul li .li-item2{
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.my_zy ul li .li-item2 .item2-box{
+	position: relative;
+	display: inline-block;
+	width: 300px;
+}
+.my_zy ul li .li-item2 .item2-box h2{
+	font-family: "宋体";
+	font-size: 42px;
+	color: #B5262D;
+	position: absolute;
+	right: 120px;
+	top: 0;
+}
+
+.my_zy ul li:nth-child(even) h1,
+.my_zy ul li:nth-child(even) span,
+.my_zy ul li:nth-child(even) h2{
+	color: #152b4f!important;
+}
+.my_zy ul li:nth-child(even) .item2-box h2{
+	left: 120px;
+	right: auto;
+}
+
+
+@media only screen and (max-width: 1444px) {
+	.my_zy{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.my_zy ul li .li-item1 .li-con span{
+		margin-bottom: 25px;
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.my_zy ul li .li-item1 .li-con p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+}
+
+

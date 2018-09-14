@@ -1,0 +1,120 @@
+.one {
+	padding: 0 50px;
+	margin-bottom: -20px;
+}
+.one .part1 .fl-lt{
+	width: 270px;
+	text-transform: uppercase;
+}
+.one .part1 .comLine{
+	width: 220px;
+}
+.one .part1 .p1{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.one .part1 .p2{
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.one .part1 .p3{
+	font-size: 23px;
+	margin-top: 3px;
+}
+.one .part1 .p4{
+	margin-top: 200px;
+	font-weight: lighter;
+	line-height: 22px;
+}
+.one .part1 .fl-rt{
+	width: 790px;
+}
+
+.one .part2{
+	margin-top: 32px;
+}
+
+.one .part2 .step{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+.one .part2 .step p{
+	padding-right: 20px;
+	font-size: 18px;
+	color: #c2668a;
+}
+.one .part2 .step .line{
+	flex: 1;
+	height: 2px;
+	background: #c3668a;
+}
+
+.one .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.one .picScroll-left .bd{
+	width: 1000px;
+    overflow: hidden;
+    height: 290px;
+    margin: 0 auto;
+}
+.one .picScroll-left .bd ul{
+	position: relative;
+}
+.one .picScroll-left .bd ul li{
+	width: 230px;
+	height: 290px;
+	float: left;
+	position: relative;
+	text-align: center;
+    margin: 0 10px;
+}
+.one .picScroll-left .bd ul li img{
+	width: 100%;
+	display: block;
+	height: 230;
+}
+.one .picScroll-left .bd ul li p{
+	line-height: 60px;
+	height: 60px;
+	color: #ae3363;
+	font-size: 16px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+}
+
+
+.one .arrow{
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	height: 230px;
+	width: 50px;
+	cursor: pointer;
+}
+.one .arrow-left{
+	left: 0;
+}
+.one .arrow-right{
+	right: 0;
+} 
+.one .arrow img{
+	display: inline-block;
+	width: 19px;
+	height: 35px;
+	margin: 97px auto 0 auto;
+}
+.one .arrow-right{
+	text-align: right;
+}
+
+
+
+
+

@@ -1,0 +1,161 @@
+/*经营优势*/
+.ys1 .box{
+	position: relative;
+}
+.ys1 .box ul{
+	position: absolute;
+	left: 8%;
+	width: 84%;
+	top: .12rem;
+	z-index: 2;
+}
+.ys1 .box ul li{
+	width: 31%;
+	float: left;
+	margin-right: 2.66%;
+	text-align: center;
+	height: 3.2rem;
+	margin-top: .4rem;
+}
+.ys1 .box ul li:nth-child(3n){
+	margin-right: 0;
+}
+.ys1 .box ul li .num{
+	font-family: "agency fb";
+	font-size: .6rem;
+	color: rgba(0,0,0,.3);
+}
+.ys1 .box ul li .line{
+	width: .3rem;
+	height: 2px;
+	background: rgba(0,0,0,.3);
+	margin: .08rem auto .16rem;
+}
+.ys1 .box ul li .p1{
+	font-size: .26rem;
+	font-weight: bold;
+}
+.ys1 .box ul li .p2{
+	color: #999;
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	width: 200%;
+	margin-left: -50%;
+	line-height: 1;
+}
+.ys1 .box ul li .p3{
+	color: #666;
+	line-height: .4rem;
+	text-align: justify;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 108%;
+	margin-left: -4%;
+}
+.ys1 .box ul li:nth-child(7), 
+.ys1 .box ul li:nth-child(8), 
+.ys1 .box ul li:nth-child(9){
+	margin-top: .16rem;
+} 
+
+/*运营优势*/
+.ys2 ul li{
+	position: relative;
+}
+.ys2 ul li p{
+	position: absolute;
+	left: 9%;
+	top: 71%;
+	z-index: 2;
+	width: 50%;
+	font-size: .28rem;
+	font-weight: bold;
+	padding-bottom: 2.5%;
+}
+.ys2 ul li p:before{
+	content: '';
+	width: 48%;
+	height: 1px;
+	background: #e6e6e6;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.ys2 ul li:nth-child(even) p{
+	left: 41%;
+}
+.ys2 ul li p span{
+	display: block;
+	color: #666;
+	font-weight: normal;
+	margin-top: .04rem;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.ys2 ul li:nth-child(2) p{
+	top: 67%;
+}
+.ys2 ul li:nth-child(3) p{
+	top: 67%;
+	width: 66%;
+}
+.ys2 ul li:nth-child(4) p{
+	top: 66%;
+}
+.ys2 ul li:nth-child(5) p{
+	top: 66%;
+	width: 70%;
+}
+.ys2 ul li:nth-child(6) p{
+	top: 66%;
+	width: 70%;
+}
+.ys2 ul li:nth-child(7) p{
+	top: 46%;
+    width: 59%;
+}
+.ys2 ul li:nth-child(7) p:before{
+	display: none;
+}
+/*盈利优势*/
+.ys3 .item{
+	position: relative;
+}
+.ys3 .item p{
+	position: absolute;
+	left: 15%;
+	width: 70%;
+	text-align: center;
+	color: #fff;
+	font-size: .28rem;
+	font-weight: bold;
+}
+.ys3 .item span{
+	display: block;
+	font-weight: normal;
+	margin-top: .6rem;
+	font-size: .24rem;
+	line-height: .4rem;
+}
+.ys3 .item1 p{
+	top: 39%;
+}
+.ys3 .item2 p{
+	top: 28%;
+}
+

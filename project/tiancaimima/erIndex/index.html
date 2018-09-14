@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>天才密码</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/header_footer.css">
+	<script src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+		function changeFrameHeight(){
+			var header = document.getElementById("header_part").offsetHeight;
+			//console.log(header);
+		    var ifm= document.getElementById("myIframe");
+		    ifm.height=document.documentElement.clientHeight - header;
+		}
+		window.onresize=function(){
+		     changeFrameHeight();
+		}
+	</script>
+</head>
+<body>
+	<!--头部-->
+	<div class="header-part" id="header_part">
+		<a class="logo-wrap fl-lt" href="index.html"><img src="img/logo.png"></a>
+		<marquee scrollamount=3>热烈祝贺天才密码在深圳前海股交所成功挂牌 股权代码：366749  企业简称：天才密码</marquee>
+		<div class="fl-rt">
+			<ul class="nav-list">
+				<li><a href="../index/index.html"><img src="../common/img/icon1.png"><span>首页</span></a></li>
+				<li class="light"><a href="../erIndex/index.html"><img src="../common/img/icon2.png"><span>天才密码</span></a></li>
+				<li><a href="../news/index.html"><img src="../common/img/icon3.png"><span>全球资讯</span></a></li>
+				<li><a href="../advantage/index.html"><img src="../common/img/icon4.png"><span>核心优势</span></a></li>
+				<li><a href="../course/index.html"><img src="../common/img/icon5.png"><span>特色课程</span></a></li>
+				<li><a href="../teacher/index.html"><img src="../common/img/icon6.png"><span>名师导航</span></a></li>
+				<li><a href="../video/index.html"><img src="../common/img/icon7.png"><span>精彩视界</span></a></li>
+				<li><a href="../index/index.html#global_center"><img src="../common/img/icon8.png"><span>全球中心</span></a></li>
+				<li><a href=""><img src="../common/img/icon9.png"><span>合作专区</span></a></li>
+				<li><a href="../contact/index.html"><img src="../common/img/icon10.png"><span>联系我们</span></a></li>
+			</ul>
+			<!-- <span class="red-line"></span> -->
+		</div>
+	</div>
+	<!--左侧-->
+	<div class="left-part">
+		<a class="left-part-back" href="javascript:void(0)" onClick="javascript:history.back(-1)"><img src="img/back.png"></a>
+		<p class="left-part-p">GENIUS<br>PASSWORD<br>天才密码</p>
+		<div class="left-part-middle">
+			<ul class="left-part-list">
+				<li class="light"><a href="qiye_intro.html" target="myIframe"><span>企业简介</span></a></li>
+				<li><a href="qiye_culture.html" target="myIframe"><span>企业文化</span></a></li>
+				<li><a href="zuzhi.html" target="myIframe"><span>组织架构</span></a></li>
+				<li><a href="work_envi.html" target="myIframe"><span>办公环境</span></a></li>
+				<li><a href="qiye_zeren.html" target="myIframe"><span>企业责任</span></a></li>
+				<li><a href="rongyu.html" target="myIframe"><span>荣誉资质</span></a></li>
+				<li><a href="shouqian.html" target="myIframe"><span>版权证书</span></a></li>
+				<li><a href="fengcai.html" target="myIframe"><span>学员风采</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="right-part">
+		<div class="iframe-wrap">
+			<iframe src="qiye_intro.html" id="myIframe" name="myIframe" frameborder="0" onload="changeFrameHeight()"></iframe>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>

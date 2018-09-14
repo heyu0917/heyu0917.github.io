@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/dx.css">	
+	<!--动画-->
+	<link rel="stylesheet" href="../css/animate.css">
+</head>
+<body>
+	<!--公共头部-->
+	<header class="clearfix" style="background: url(../img/head1.jpg) center center no-repeat;">
+		<div class="fl-lt">
+			<img src="../img/logo.png" alt="" class="img1 fl-lt"/>	
+			<span>俄式谷物果昔手作冰淇淋</span>
+		</div>
+		<div class="nav-wrapper fl-rt">
+			<ul>                                                                                                   
+				<li><a href="index.html">首页</a></li>
+				<li><a href="zapp.html">臻爱品牌</a></li>
+				<li><a href="yjqw.html">遇见趣闻</a></li>
+				<li><a href="tmss.html">甜蜜膳食</a></li>
+				<li><a href="lmsh.html">浪漫生活</a></li>
+				<li><a href="xgcq.html">星工传奇</a></li>
+				<li><a href="hzfc.html">合作扶持</a></li>
+				<li class="on"><a href="dxmx.html">店型美学</a></li>
+				<li><a href="lxwm.html">联系我们</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<!--class="pagenow fadeInRight delay300" data-rel="fadeInRight"-->
+	<div id="container" data-PageSwitch>
+		<div class="sections">
+			<div class="section section1 active" id="section0">
+				<div class="con clearfix">
+					<div class="fl-lt left">
+						<img src="../img/dx/a1.jpg" alt="" class="img1"/>
+						<div class="bg"></div>
+						<div class="item">
+							<p class="p1">Russian simple leisure style</p>
+							<p class="p2">俄式简约休闲风</p>
+							<p class="p3"><span>推荐商圈：</span>成熟社区、购物中心、百货商场、旅游景点、机场、车站、市场、
+			                <br />写字楼商务区、步行街、居民社区等主流地点，兼容性极强，吸引
+			                <br />各种身份、年龄、阶层的顾客。</p>
+							<p class="p4"><span>受众：</span>绝大部分消费者。</p>
+							<p class="p3"><span>设计风格：</span>主要以简约暖心的风格为基调，将俄式元素点缀其中，风情与时尚相结合。</p>
+							<img src="../img/add.png" alt="" class="img2"/>
+						</div>
+					</div>
+					<div class="fl-lt right">
+						<img src="../img/dx/a2.jpg" alt="" class="img1"/>
+						<div class="bg"></div>
+						<div class="item">
+							<p class="p1">Russian cartoon wind</p>
+							<p class="p2">俄式卡通风</p>
+							<p class="p3"><span>推荐商圈：</span>学校、游乐场、景区等。</p>
+							<p class="p4"><span>受众：</span>以学生群体为主。</p>
+							<p class="p3"><span>设计风格：</span>鲜明的俄式卡通风格，比较活泼明快，新颖独特，有文化气息和纯真色彩，
+							<br />趣味性十足，深受动画迷、游戏粉的热爱，在学生群体中具有极高口碑。</p>
+							<img src="../img/add.png" alt="" class="img2"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+	<!--全屏滚动-->
+	<script type="text/javascript" src="../js/pageswitch.js"></script>
+	<script>
+		$("#container").PageSwitch({
+			//'loop':true,
+		});
+		jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",vis:5});
+		
+		$(function(){
+			$('.con .fl-lt').hover(function(){
+				$(this).find('.bg').fadeIn(200);
+				$(this).find('.item').css({'top': '50%'});
+				
+				$(this).siblings().find('.bg').fadeOut();
+				$(this).siblings().find('.item').css({'top': '200%'});
+			})
+		})
+	</script>
+	
+
+
+</body>
+</html>

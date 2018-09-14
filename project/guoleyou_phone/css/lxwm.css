@@ -1,0 +1,145 @@
+.lxwm .part1{
+	position: relative;
+	padding: 0 .24rem;
+	margin-top: .4rem;
+}
+.lxwm .part1 .img1{
+	position: absolute;
+	left: 0;
+	top: -.24rem;
+	width: 1rem;
+	z-index: 32;
+}
+.lxwm .part1 .img2{
+	position: absolute;
+	right: 0;
+	top: -.4rem;
+	width:.82rem;
+	z-index: 32;
+}
+
+.lxwm .part1 .map-wrapper{
+	border: 1px solid #D4DD7B;
+	height: 4.8rem;
+	position: relative;
+}
+.lxwm .part1 .map-wrapper .map{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: -1;
+}
+.lxwm .part1 .map-wrapper #map1{
+	opacity: 1;
+	z-index: 22;
+}
+
+.lxwm .part1 .address{
+	background: #FCE3B6;
+	text-align: center;
+	margin-top: .24rem;
+	padding-bottom: .32rem;
+}
+.lxwm .part1 .address .p1{
+	font-weight: bold;
+	font-size: .28rem;
+	padding-top: .24rem;
+	padding-bottom: .12rem;
+	border-bottom: 1px solid #a35e52;
+	width: 5rem;
+	margin: 0 auto .2rem;
+}
+.lxwm .part1 .address .p2{
+	font-size: .24rem;
+	font-weight: bold;
+	margin-bottom: .04rem;
+}
+.lxwm .part1 .address .p3{
+	font-size: .24rem;
+	margin-bottom: .24rem;
+}
+.lxwm .part1 .desc{
+	font-size: .24rem;
+	display: none;
+}
+.lxwm .part1 .desc strong{
+	display: block;
+	margin-bottom: .04rem;
+}
+.lxwm .part1 .desc1{
+	display: block;
+}
+.lxwm .btn-wrapper{
+	margin-top: .4rem;
+}
+.lxwm .btn-wrapper li{
+	border: 1px solid #a35e52;
+	width: 1.9rem;
+	height: .54rem;
+	line-height: .54rem;
+	font-size: .24rem;
+	color: #a35e52;
+	display: inline-block;
+	margin: 0 .32rem;
+	border-radius: .3rem;
+}
+.lxwm .btn-wrapper li.on{
+	background: #a35e52;
+	color: #fff;
+}
+
+.lxwm .part2{
+	width: 80%;
+	margin: .48rem auto .24rem;
+	border: 1px solid #eee;
+	text-align: center;
+}
+.lxwm .part2 .p1{
+	font-size: .3rem;
+	margin-bottom: .08rem;
+	margin-top: .2rem;
+}
+.lxwm .part2 .line{
+	width: 2.1rem;
+	margin: 0 auto;
+	height: .1rem;
+	border-top: 2px solid #666;
+	border-bottom: 1px solid #666;
+	box-sizing: border-box;
+	margin-bottom: .32rem;
+}
+.lxwm .part2 input{
+	width: 86%;
+	display: block;
+	height: .6rem;
+	line-height: .6rem;
+	font-size: .24rem;
+	border: 1px solid #ddd;
+	margin: 0 auto .2rem;
+	text-align: center;
+}
+.lxwm .part2 textarea{
+	text-align: center;
+	width: 86%;
+	display: block;
+	height: 2rem;
+	line-height: .4rem;
+	font-size: .24rem;
+	border: 1px solid #ddd;
+	margin: 0 auto .2rem;
+	resize: none;
+	box-sizing: border-box;
+	padding: .12rem;
+}
+.lxwm .part2 .submit{
+	width: 1.86rem;
+	height: .68rem;
+	line-height: .68rem;
+	background: #FCE3B6;
+	margin: .2rem auto .28rem;
+	border-radius: .35rem;
+}
+

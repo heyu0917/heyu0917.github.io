@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/guide.css" type="text/css"/>
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>	
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+<body>
+
+	<div class="swiper-container guide">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide"><img src="../img/guide1.jpg"></div>
+	        <div class="swiper-slide"><img src="../img/guide2.jpg"></div>
+	        <div class="swiper-slide"><img src="../img/guide3.jpg"><a href="login.html" class="now-guide">立即体验</a></div>
+	    </div>		
+	    <!-- 如果需要分页器 -->
+		<div class="swiper-pagination pagination1"></div>	  				    
+	</div>
+
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+	<script>
+		var mySwiper1 = new Swiper('.swiper-container',{
+			pagination : '.swiper-pagination',
+		}); 
+
+	</script>
+</body>
+</html>

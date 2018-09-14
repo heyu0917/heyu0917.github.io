@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/order.css" type="text/css"/>
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+
+		<header>
+			<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" class="search-img" />
+		    </a>
+		    <h1>订单详情</h1>
+		</header>
+
+		<div class="content content-bordertop orderDetailContent">
+			<div class="con-top">
+				<div class="orderDetail-num">
+					<span class="fl-lt">订单号：SH201607231430121642</span>
+					<span class="fl-rt orderDetail-status">交易成功</span>
+				</div>
+				<div class="address-wrap">
+					<img src="../img/addressIcon.png" alt="" class="addressIcon fl-lt">
+					<div class="address-middle fl-lt">
+						<div class="address-nn">
+							<span class="address-name fl-lt">芦苇微微</span>
+							<span class="address-number fl-lt">15212345678</span>
+						</div>
+						<p class="address-text">湖北武汉市洪山区城区石牌岭路红岭花园（东区）5栋1单 元901室</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="con-middle">
+				<a class="con-middle-title" href="mall.html">
+					<strong>欢喜我家商城</strong><img src="../img/arrow_r2.png">
+				</a>
+				<ul class="order-list">
+					<li>
+						<a href="detail.html">
+							<img src="../img/shop2.jpg" alt="" class="fl-lt order-img"/>
+							<div class="fl-lt order-title">
+								<h3>黑色训练帽运动帽</h3>
+								<p>规格:<span>黑色</span></p>
+							</div>
+							<div class="fl-rt order-li-right">
+								<span class="price">300积分</span>
+								<span class="order-num">x<b>1</b></span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="detail.html">
+							<img src="../img/shop2.jpg" alt="" class="fl-lt order-img"/>
+							<div class="fl-lt order-title">
+								<h3>黑色训练帽运动帽</h3>
+								<p>规格:<span>黑色</span></p>
+							</div>
+							<div class="fl-rt order-li-right">
+								<span class="price">300积分</span>
+								<span class="order-num">x<b>1</b></span>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="contact-kefu">
+					<a href="javascript:void(0)" class="contact-kefu-btn">
+						<img src="../img/kefu.png">
+						<span>联系客服</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="con-bottom">
+				<ul class="con-bottom-ul">
+					<li>
+						<span class="fl-lt">商品总价</span>
+						<span class="fl-rt">600</span>
+					</li>
+				</ul>
+				<p class="con-bottom-p">
+					<span class="fl-lt">实付款</span>
+					<span class="fl-rt con-bottom-price"><i>-</i>600</span>
+				</p>
+			</div>
+		</div>
+		<!-- orderDetial footer-->
+		<div class="orderDetailFooter">
+			<button class="button">删除订单</button>
+			<a href="evaluate.html"><button class="button active">评价</button></a>	
+		</div>
+
+	</body>
+</html>

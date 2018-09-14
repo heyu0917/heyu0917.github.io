@@ -1,0 +1,357 @@
+.one .comWidth2{
+	padding: 0 .4rem;
+}
+.one .part0{
+	height: 1.96rem;
+}
+.one .bottom{
+	margin: .5rem 0;
+}
+.one .anchor{
+	position: absolute;
+	bottom: 1.96rem;
+	left: 0;
+	width: 100%;
+}
+.one .part{
+	position: relative;
+}
+
+.one .title{
+	position: relative;
+	margin-top: .5rem;
+	margin-bottom: .4rem;
+}
+.one .title .border1{
+	position: absolute;
+	top: 4px;
+	left: 50%;
+	width: 4.2rem;
+	height: 20px;
+	margin-left: -2.1rem;	
+	border: 1px solid #b89e7b;
+	box-sizing: border-box;
+}
+.one .title .border2{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 3.9rem;
+	height: 28px;
+	margin-left: -1.95rem;	
+	border: 1px solid #b89e7b;
+	box-sizing: border-box;
+}
+.one .title p{
+	font-size: .26rem;
+	text-align: center;
+	line-height: 28px;
+	color: #B89E7B;
+}
+
+
+
+.one .part1 .item1{
+	padding-left: .4rem;
+	color: #B89E7B;
+	margin-top: .5rem;
+}
+.one .part1 .item1 .p1{
+	text-transform: uppercase;
+	font-size: .24rem;
+}
+.one .part1 .item1 .p2{
+	font-size: .4rem;
+}
+.one .part1 .item1 .fl-rt{
+    width: 2.4rem;
+    height: 1.72rem;
+    overflow: hidden;
+    margin-top: -.5rem;
+}
+
+.one .part1 .item2{
+	padding: 0 .4rem;
+	margin-top: .32rem;
+	position: relative;
+}
+.one .part1 .item2 p{
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	line-height: .46rem;
+	margin-bottom: .08rem;
+}
+.one .part1 .item2 .p2{
+	margin-bottom: .16rem;
+}
+.one .part1 .item2 .img1{
+	position: absolute;
+	left: 0;
+	bottom: -2.5rem;
+	width: 90%;
+	z-index: -1;
+}
+
+.one .part2 .item1 p{
+	color: #B89E7B;
+	font-size: .4rem;
+	line-height: 1.5;
+}
+.one .part2 .item2 .fl-lt{
+	width: 50%;
+	color: #B89E7B;
+	margin-top: .32rem;
+}
+.one .part2 .item2 .fl-lt p{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	line-height: .4rem;
+}
+.one .part2 .item2 .fl-lt p strong{
+	display: block;
+	margin-top: .24rem;
+}
+.one .part2 .item2 .fl-rt{
+	width: 50%;
+	margin-top: -.5rem;
+}
+.one .part2 .item3{
+	padding: 0 .4rem;
+	margin-top: .32rem;
+	position: relative;
+}
+.one .part2 .item3 p{
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	line-height: .46rem;
+	margin-bottom: .08rem;
+}
+
+.one .part3 .img1{
+	display: block;
+	width: 96%;
+	margin: -1.2rem auto 0;
+	position: relative;
+	z-index: -1;
+}
+.one .part3 .item1{
+	margin-top: -.88rem;
+	padding: 0 .4rem;
+	margin-bottom: .6rem;
+}
+.one .part3 .vedio-box{
+	position: relative;
+    width: 100%;
+    height: 3.14rem;
+    background: #364124;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+.one .part3 .vedio-img{
+	width: 5.8rem;
+	height: 3.14rem;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -2.9rem;
+	z-index: 0;
+}
+.one .part3 .vedio-box video,
+.one .part3 .vedio-box embed{
+	width: 100%!important;
+	height: 100%!important;	
+}
+.one .part3 .vedio-box .play{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 1.2rem!important;
+	height: 1.2rem!important;
+	display: block;
+	margin-top: -.6rem;
+	margin-left: -.6rem;
+	cursor: pointer;
+	z-index: 12;
+}
+
+
+.one .part4 .item1{
+	border: 2px solid #666;
+	margin: 0 .4rem;
+	padding-bottom: .32rem;
+}
+.one .part4 .item1 .list1{
+	padding: .32rem;
+}
+.one .part4 .item1 .list1 li{
+	margin-bottom: .32rem;
+	border-bottom: 1px solid #999;
+	padding-bottom: .28rem;
+}
+.one .part4 .item1 .list1 li .img1{
+	width: 100%;
+	display: block;
+	height: 3.6rem;
+}
+.one .part4 .item1 .list1 li .p1{
+	font-size: .3rem;
+	color: #b59177;
+	margin-top: .24rem;
+	margin-bottom: .08rem;
+}
+.one .part4 .item1 .list1 li .p2{
+	font-size: .24rem;
+	color: #666;
+	line-height: .4rem;
+}
+.one .part4 .item1 .list1 li .p3{
+	text-align: right;
+	font-size: .24rem;
+	color: #666;
+	margin-top: .2rem;
+}
+
+
+.one .part5 .item1{
+	position: relative;
+	z-index: -1;
+	margin: -.72rem .4rem 0;
+}
+.one .part5 .item1 .box{
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: .92rem;
+	width: 100%;
+	color: #B59177;
+}
+.one .part5 .item1 .box .p1{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+.one .part5 .item1 .box .p2{
+    font-size: .42rem;
+    line-height: 1.4;
+    margin-top: .12rem;
+}
+
+.one .part5 .item2 img{
+	margin-bottom: .48rem;
+}
+
+.one .part5 .img0{
+	margin-bottom: 0;
+	margin-top: .72rem;
+}
+
+
+/*.newsDetail*/
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+.newsDetail{
+	height: 100%;
+}
+.newsDetail .part1{
+	height: 79%;
+	padding-bottom: 0.88rem;
+}
+.newsDetail .part1 .part1-main{
+	width: 100%;
+	
+	min-height: 100%;
+}
+.newsDetail .part1 .part1-main .main-box{
+	padding:0 0.6rem;
+	box-sizing: border-box;
+}
+.newsDetail .part1 .news-title{
+	text-align: center;
+	padding-top: 0.4rem;
+}
+.newsDetail .part1 .news-title .p1{
+	font-size: 0.3rem;
+	color:#b59177;
+}
+
+.newsDetail .part1 .news-title .p2 span{
+	display: inline-block;
+/*	font-size: .16rem;*/
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	/*width: 150%;*/
+	/*margin-left: -25%;*/
+	color:#7f7f7f;
+	margin-top: 0.1rem;
+}
+.newsDetail .part1 .part1-main .part1-line{
+	font-size: 0;
+	margin-top: 0.4rem;
+}
+.newsDetail .part1 .part1-line img{
+	width: 2.7rem;
+}
+.newsDetail .part1 .part1-line .comline{
+	margin-top: 0;
+}
+
+.newsDetail .part1 .part1-main .main-fonts{
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	line-height: 0.4rem;
+}
+.newsDetail .part1 .part1-main .main-img{
+	margin:0.4rem 0;
+	display: block;
+	width: 100%;
+}
+
+
+.foot1{
+	margin-top: 0.8rem;
+}
+.foot2{
+	position:fixed;
+	bottom: 0.88rem;
+	left: 0;
+}
+

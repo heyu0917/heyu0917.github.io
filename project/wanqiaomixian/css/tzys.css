@@ -1,0 +1,111 @@
+/*品牌优势  && 经营优势*/
+.tzpp .part1 .title{
+/*	text-align: center;*/
+}
+.tzpp .part1 h1{
+	font-family: "宋体";
+	font-size: 38px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.tzpp .part1 h1::after{
+	content: '';
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid #E60012;
+	position: absolute;
+	right: -6px;
+	bottom: -1px;
+}
+
+.tzpp .part1 img{
+	width: 390px;
+	height: 260px;
+	display: block;
+}
+.tzpp .part1 h3{
+	font-family: "宋体";
+    font-size: 26px;
+    color: #E60012;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.tzpp .part1 p{
+	font-size: 16px;
+	line-height: 28px;
+	text-indent: 32px;
+}
+
+.tzpp .part1 .item{
+	margin-bottom: 40px;
+}
+.tzpp .part1 .item .con{
+	width: 390px;
+}
+.tzpp .part1 ul li{
+	width: 390px;
+	float: left;
+}
+.tzpp .part1 ul li:nth-child(even){
+	float: right;
+}
+.tzpp .part1 ul li img{
+	margin-top: 18px;
+}
+
+
+/*盈利优势*/
+.tzyl .part1 .title{
+/*	text-align: center;*/
+}
+.tzyl .part1 h1{
+	font-family: "宋体";
+	font-size: 38px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.tzyl .part1 h1::after{
+	content: '';
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid #E60012;
+	position: absolute;
+	right: -6px;
+	bottom: -1px;
+}
+
+.tzyl .part1 ul{
+	margin-top: 40px;
+}
+.tzyl .part1 ul li{
+	width:42%;
+	float: left;
+	margin-bottom: 25px;
+}
+.tzyl .part1 ul li:nth-child(even){
+	float: right;
+}
+.tzyl .part1 ul li h3{
+	font-family: "宋体";
+    font-size: 26px;
+    color: #E60012;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.tzyl .part1 ul li p{
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+
+
+
+
+
+
+

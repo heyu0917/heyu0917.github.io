@@ -1,0 +1,371 @@
+.section1 .con{
+	margin-top: 0;
+	height: 100%;
+	position: relative;
+}
+.section1 .con .part{
+	width: 9rem;
+	height: 8rem;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	margin-top: -4rem;
+	text-align: center;
+	padding-top: 38px;
+}
+.section1 .con .part .img3{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.section1 .con .part .box{
+	position: absolute;
+	right: 0;
+	top: 38px;
+	z-index: 2;
+	width: 100%;
+	color: #fff;
+}
+
+.section1 .title{
+    text-align: center;
+    width: 4.5rem;
+    position: relative;
+    margin: 13% auto 3%;
+}
+.section1 .title .img1{
+	position: absolute;
+	top: .1rem;
+	left: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.section1 .title .img2{
+	position: absolute;
+	top: .1rem;
+	right: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.section1 .title .p1{
+	font-family: myfont;
+	font-size: .46rem;
+	margin-bottom: .04rem;
+}
+.section1 .title .p2{
+	font-size: .34rem;
+}
+.section1 .title .p3{
+	display: inline-block;
+	font-size: .26rem;
+	position: relative;
+	margin-bottom: .06rem;
+	margin-top: .06rem;
+}
+.section1 .title .p3:before,
+.section1 .title .p3:after{
+	width: .4rem;
+	height: 2px;
+	background: #fff;
+	content: '';
+	position: absolute;
+	top: .18rem;
+}
+.section1 .title .p3:before{
+	left: -.6rem;
+}
+.section1 .title .p3:after{
+	right: -.6rem;
+}
+
+.section1 .title .p4{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.section1 .p5{
+    font-size: 14px;
+    line-height: .4rem;
+    text-align: left;
+    width: 100%;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+.section1 .p5 span{
+	font-size: 16px;
+	color: #F9BE12;
+}
+
+
+.section2 .con{
+	margin-top: 5%;
+	color: #fff;
+	width: 45%;
+}
+.section2 .title{
+    text-align: center;
+    width: 5.3rem;
+    position: relative;
+    margin: 0 auto 9%;
+}
+.section2 .title .img1{
+	position: absolute;
+	top: .1rem;
+	left: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.section2 .title .img2{
+	position: absolute;
+	top: .1rem;
+	right: 0;
+	width: .47rem;
+	z-index: -1;
+}
+.section2 .title .p1{
+	font-family: myfont;
+	font-size: .4rem;
+	margin-bottom: .04rem;
+}
+.section2 .title .p2{
+	font-size: .34rem;
+	border-bottom: 1px solid #fff;
+	padding-bottom: .1rem;
+	margin-bottom: .1rem;
+}
+.section2 .title .p4{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.section2 ul{
+	padding-left: 18%;
+}
+.section2 ul li{
+	margin-bottom: .24rem;
+	color: #fff;
+	font-size: 0;
+}
+.section2 ul li img{
+	width: .22rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .12rem;
+}
+.section2 ul li p{
+	font-size: .2rem;
+	display: inline-block;
+	vertical-align: middle;	
+}
+.section2 ul li span{
+	font-size: .16rem;
+	display: inline-block;
+	vertical-align: middle;	
+	margin-left: .08rem;
+}
+
+
+.section3 .con{
+	margin-top: 0;
+	height: 100%;
+	position: relative;
+}
+.section3 .con .top{
+	height: 47%;
+	position: absolute;
+	top: 76px;
+	left: 50%;
+	transform: translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+	-moz-transform: translate(-50%,0);
+	-o-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+}
+.section3 .con .top img{
+	display: block;
+	height: 100%;
+}
+.section3 .con .bottom{
+	height: 27%;
+	position: absolute;
+	bottom: 9%;
+	left: 0;
+	width: 100%;
+}
+.section3 .con .bottom ul{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.section3 .con .bottom li{
+	margin-right: .2rem;
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	cursor: pointer;
+}
+.section3 .con .bottom li:last-child{
+	margin-right: 0;
+}
+.section3 .con .bottom li img{
+	display: block;
+	height: 100%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+}
+.section3 .con .bottom li p{
+    position: absolute;
+    left: 50%;
+    width: 1.4rem;
+    height: .6rem;
+    line-height: .36rem;
+    text-align: center;
+    background: rgba(29, 32, 135,.7);
+    color: #fff;
+    font-size: .22rem;
+    border-radius: 3px;
+    padding: .12rem;
+    margin-left: -.7rem;
+    top: 50%;
+    margin-top: -.3rem;
+    box-sizing: border-box;
+    transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    opacity: 1;
+}
+.section3 .con .bottom li p span{
+	border-radius: 3px;
+	border: 1px solid #fff;
+	display: block;
+}
+.section3 .con .bottom li:hover p{
+	opacity: 0;
+}
+.section3 .con .bottom li:hover img{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	z-index: 2;
+	position: relative;
+}
+
+.section4 .con{
+	width: 100%;
+	margin: 3% auto 0;
+}
+.section4 .con .title{
+	text-align: center;
+	margin-bottom: 4%;
+	color: #666;
+}
+.section4 .con .title .p1{
+	font-size: .34rem;
+}
+.section4 .con .title .p1 span{
+	color: #F9BE12;
+}
+.section4 .con .title .p2{
+	font-size: .2rem;
+	text-transform: uppercase;
+	margin-top: .1rem;
+}
+
+.section4 .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.section4 .picScroll-left .hd ul{
+	position: absolute;
+	bottom: -.4rem;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.section4 .picScroll-left .hd ul li{
+	width: .1rem;
+	height: .1rem;
+	background: rgba(29, 32, 135,.5);
+	margin: 0 .1rem;
+	border-radius: 50%;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.section4 .picScroll-left .hd ul li.on{
+	width: .16rem;
+	height: .16rem;
+	background: rgba(29, 32, 135,1);
+}
+
+.section4 .picScroll-left .bd{
+	width: 12.4rem;
+    overflow: hidden;
+    margin: 0 auto;
+   	height: 5.8rem;
+}
+.section4 .picScroll-left .bd ul{
+	position: relative;
+}
+.section4 .picScroll-left .bd ul li{
+	width: 3.8rem;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 0 .15rem .3rem;
+	text-align: center;
+	height: 2.65rem;
+}
+.section4 .picScroll-left .bd ul li img{
+	width: 100%;
+	display: block;
+	height: 1.9rem;
+}
+.section4 .picScroll-left .bd ul li .p1{
+	font-size: .26rem;
+    font-weight: bold;
+    color: #1D2087;
+    line-height: .54rem;
+}
+.section4 .picScroll-left .bd ul li .p2{
+	font-size: 16px;
+	color: #666666;
+}
+
+
+
+
+@media only screen and (max-width: 1682px) {
+	.section1 .p5{
+	    padding-left: 13%;
+	}	
+}
+
+@media (max-width:1444px) {
+	.section1 .con .part{
+		width: 10.4rem;
+		height: 9rem;
+		margin-top: -4.5rem;
+		right: 6%;
+	}
+	.section1 .p5{
+	    padding-left: 12%;
+	}
+	.section2 ul li p{
+		font-size: 16px;
+	}
+	.section2 ul li span{
+		font-size: 14px;
+	}
+}
+
+
+
+

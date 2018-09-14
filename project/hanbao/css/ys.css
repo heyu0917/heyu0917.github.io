@@ -1,0 +1,341 @@
+/*核心卖点*/
+.yshx .part1{
+	height: 100%;
+	position: relative;
+}
+.yshx .ab-img1{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 4.25rem;
+	z-index: -1;
+}
+.yshx .ab-img2{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 2.18rem;
+	z-index: -1;
+}
+.yshx .ab-img3{
+	position: absolute;
+	left: 0;
+	top: 13%;
+	width: 1.44rem;
+	z-index: -1;
+}
+.yshx .con{
+	padding-top: 5%;
+	position: relative;
+	width: 12.6rem;
+	margin: 0 auto;
+}
+.yshx .title{
+    width: 4.8rem;
+    height: .94rem;
+    border: 1px solid #394246;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+    margin-bottom: 5.5%;
+}
+.yshx .title .p1{
+    background: #fff;
+    color: #CA1C1D;
+    font-size: .5rem;
+    display: inline-block;
+    padding: 0 .2rem;
+    margin-top: -.34rem;
+}
+.yshx .title .p2{
+    font-size: .34rem;
+    padding: .04rem 0;
+}
+.yshx .title .p3{
+	font-size: 14px;
+	text-transform: uppercase;
+	background: #fff;
+	padding: 0 .1rem;
+	display: inline-block;
+}
+.yshx ul li{
+	width: 4.2rem;
+	float: left;
+	height: 2.2rem;
+	background: #E8C12A;
+	position: relative;
+}
+.yshx ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.yshx ul li .desc{
+	position: absolute;
+	width: 94%;
+	left: 3%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+.yshx ul li .desc .p1{
+    text-align: center;
+    font-size: .24rem;
+    margin-bottom: 4%;
+}
+.yshx ul li .desc .p2{
+    font-size: 14px;
+    line-height: .26rem;
+}
+
+/*经营优势*/
+.ysjy .part1{
+	height: 100%;
+	position: relative;
+}
+.ysjy .img1{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.ysjy .con{
+	padding-top: 2.5%;
+	width: 72%;
+	margin: 0 auto;
+}
+.ysjy  .title{
+	margin-bottom: 4%;
+	text-align: center;
+}
+.ysjy .title .p1{
+	position: relative;
+	font-size: .5rem;
+}
+.ysjy .title .p1 span{
+	color: #CA1C1D;
+}
+.ysjy .title .p1:before{
+	content: '';
+	width: 6rem;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	left: 50%;
+	bottom: -.1rem;
+	margin-left: -3rem;
+}
+.ysjy .title .p1:after{
+	content: '';
+	width: 1rem;
+	height: 3px;
+	position: absolute;
+	left: 50%;
+	bottom: -.1rem;
+	margin-bottom: -1px;
+	margin-left: -.5rem;
+	background: #E8C12A;
+}
+.ysjy .title .p2{
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: .24rem;
+}
+.ysjy ul li{
+	width: 22%;
+	margin-right: 4%;
+	margin-bottom: 2%;
+	float: left;
+	text-align: center;
+}
+.ysjy ul li:nth-child(4n){
+	margin-right: 0;
+}
+.ysjy ul li .box{
+	padding: .1rem;
+	background: #E8C12A;
+}
+.ysjy ul li .box img{
+	display: block;
+	width: 100%;
+	margin-top: -.2rem;
+}
+.ysjy ul li .p1{
+	font-size: 18px;
+	line-height: .4rem;
+	font-weight: bold;
+}
+.ysjy ul li .p2{
+	font-size: 16px;
+	height: 42px;
+	padding: 0 .1rem;
+}
+
+/*盈利优势*/
+.ysyl .part1{
+	height: 100%;
+	position: relative;
+}
+.ysyl .img1{
+	width: 1.58rem;
+	position: absolute;
+	left: -.1rem;
+	top: 4%;
+}
+.ysyl .con{
+	padding-top: 4%;
+	width: 86%;
+	margin-left: 9%;
+}
+.ysyl .con .fl-lt{
+	width: 52%;
+}
+.ysyl .con .fl-rt{
+	width: 43%;
+}
+.ysyl  .title{
+	margin-bottom: 8%;
+	text-align: center;
+	color: #666;
+}
+.ysyl .title .p1{
+	position: relative;
+	font-size: .38rem;
+	line-height: .6rem;
+}
+.ysyl .title .p1 span{
+	color: #CA1C1D;
+}
+.ysyl .title .p1:before{
+	content: '';
+	width: 6rem;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	left: 50%;
+	bottom: -.1rem;
+	margin-left: -3rem;
+}
+.ysyl .title .p1:after{
+	content: '';
+	width: 1rem;
+	height: 3px;
+	position: absolute;
+	left: 50%;
+	bottom: -.1rem;
+	margin-bottom: -1px;
+	margin-left: -.5rem;
+	background: #E8C12A;
+}
+.ysyl .title .p2{
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: .24rem;
+}
+.ysyl ul li{
+	float: left;
+	width: 28%;
+	margin-right: 8%;
+	padding-top: 28%;
+	height: 0;
+	position: relative;
+	text-align: center;
+	margin-bottom: 6%;
+}
+.ysyl ul li:nth-child(1){
+	margin-left: 18%;
+}
+.ysyl ul li:nth-child(5){
+	margin-right: 0;
+}
+.ysyl ul li .num{
+    width: .64rem;
+    height: .64rem;
+    border-radius: 50%;
+    line-height: .64rem;
+    background: #E8C12A;
+    font-size: .42rem;
+    color: #394246;
+    position: absolute;
+    left: -.3rem;
+    top: .1rem;
+    z-index: 2;
+}
+.ysyl ul li .desc{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: .04rem solid #E8C12A;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	color: #666;
+	border-radius: 50%;
+    padding-top: 15%;
+}
+.ysyl ul li .desc .p1{
+	font-size: 18px;
+	font-weight: bold;
+}
+.ysyl ul li .desc .line{
+	width: .5rem;
+	height: 2px;
+	background: #E8C12A;
+	margin: .1rem auto;
+}
+.ysyl ul li .desc .p2{
+	font-size: 16px;
+	padding: 0 .12rem;
+	line-height: .26rem;
+}
+
+@media (max-width: 1500px) {
+	.ysjy .con {
+	    padding-top: 2%;
+	}
+	.ysjy .title {
+	    margin-bottom: 3%;
+	}
+	.ysjy ul li .p1{
+		font-size: 16px;
+	}
+	.ysjy ul li .p2 {
+	    font-size: 14px;
+	    height: 42px;
+	}
+	.ysyl ul li .desc .p2{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1380px) {
+	.ysjy .con {
+	    padding-top: 1%;
+	}
+	.ysjy .title .p2 {
+	    margin-top: .2rem;
+	}	
+}
+
+@media (max-width: 1300px) {
+	.ysjy .title .p2{
+		display: none;
+	}
+	.ysjy .title {
+	    margin-bottom: 4%;
+	}
+	.ysyl .con {
+	    padding-top: 2.5%;
+	}
+	.ysyl .title .p2 {
+	    font-size: 12px;
+	}
+}
+

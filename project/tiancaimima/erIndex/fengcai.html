@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>天才密码</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/iframe.css">
+	<script>
+		function changeFrameHeight2(){
+		    var ifm= document.getElementById("fiframe"); 
+		    ifm.height=document.documentElement.clientHeight - 96;
+		    console.log(ifm.height)
+		}
+		window.onresize=function(){  
+		     changeFrameHeight2();  
+		} 
+
+	</script>
+	
+</head>
+<body>
+	<div class="fengcai-content iframe-content">
+		<div class="nav-wrap">
+			<ul class="nav-list" id="fengcai_list">
+				<li class="light"><a href="fengcai1.html" target="fiframe">签约结业</a></li>
+				<li><a href="fengcai2.html" target="fiframe">思维导图</a></li>
+				<li><a href="fengcai3.html" target="fiframe">魔方还原</a></li>
+				<li><a href="fengcai4.html" target="fiframe">圆周率</a></li>
+				<li><a href="fengcai5.html" target="fiframe">弟子规</a></li>
+				<li><a href="fengcai6.html" target="fiframe">超级记忆</a></li>
+				<li><a href="fengcai7.html" target="fiframe">观摩会</a></li>
+			</ul>
+		</div>
+		<div class="fengcai-part">
+			<iframe src="fengcai1.html" id="fiframe" name="fiframe" onload="changeFrameHeight2()" frameborder="0">
+				
+			</iframe>
+						
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

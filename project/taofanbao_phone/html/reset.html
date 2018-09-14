@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/reset.css" type="text/css"/>
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>	
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+		<!--账号验证-->
+		<div class="checked">
+			<header>
+				<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+			      <img src="../img/back.png" alt="" />
+			    </a>
+			    <h1 id="h1_one"></h1>
+			</header>
+			<div class="checked-con">
+				<div class="account-box">
+					<span class="fl-lt">账号</span>
+					<input type="text" placeholder="请输入手机号" class="fl-lt telephone" id="check_phone_input"/>
+				</div>
+				<div class="code-box">
+					<span class="fl-lt">验证码</span>
+					<input type="text" placeholder="请输入验证码" class="fl-lt get-code-input">
+					<div class="fl-rt get-code-btn">获取验证码</div>
+				</div>
+				<div class="big-button big-button-gray next-step-btn">下一步</div>
+			</div>
+		</div>
+		
+		<!--重置密码-->
+		<div class="reset">
+			<header>
+				<a class="left-img-box" id='reset_back'>
+			      <img src="../img/back.png" alt="" />
+			    </a>
+			    <h1 id="h1_two"></h1>
+			</header>
+			<div class="reset-con">
+				<div class="new-key-box">
+					<span class="fl-lt">新密码</span>
+					<input type="text" placeholder="6~12位数字/字母" class="fl-lt telephone" id="new_key_input"/>
+				</div>
+				<div class="sure-key-box">
+					<span class="fl-lt">确认密码</span>
+					<input type="text" placeholder="重复新密码" class="fl-lt telephone" id="sure_key_input"/>
+				</div>
+				<div class="big-button sure_btn">完成</div>
+			</div>
+		</div>
+		<!--prompt-->
+		<div class="prompt1"></div>
+		<div class="prompt2"></div>
+		
+		<script type="text/javascript" src="../js/reset.js"></script>
+		<script>
+			$(function(){
+				var URL = window.location.search;
+				
+				if(URL == '?flag1'){
+					$('#h1_one').html('登录密码');
+					$('#h1_two').html('重置登录密码');
+				}
+				if(URL == '?flag2'){
+					$('#h1_one').html('支付密码');
+					$('#h1_two').html('重置支付密码');
+				}
+			})
+		</script>
+
+	</body>
+</html>

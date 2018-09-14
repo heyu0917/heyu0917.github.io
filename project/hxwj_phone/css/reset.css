@@ -1,0 +1,107 @@
+/*账号验证 checked*/
+.checked{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+}
+/*checked-con*/
+.checked-con,.reset-con{
+	position: absolute;
+	top: .88rem;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #D7D7D7;
+	padding-top: .4rem;
+}
+.account-box,.new-key-box{
+	margin-bottom: .24rem;
+}
+.account-box,.code-box,.new-key-box,.sure-key-box{
+	padding: 0 .24rem;
+	font-size: .32rem;
+	height: .82rem;
+	line-height: .82rem;
+}
+.account-box span,.code-box span{
+	width: 1.2rem;
+}
+.get-code-input{
+	width: 2.7rem;
+    height: .82rem;
+    line-height: .82rem;
+    box-sizing: border-box;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    padding-left: .24rem;
+    background: #fff;
+}
+.get-code-btn {
+    width: 2.7rem;
+    height: .82rem;
+    line-height: .82rem;
+    border-radius: 5px;
+    background: #73c640;
+    color: #fff;
+    text-align: center;
+}
+.telephone{
+	width: 5.8rem;
+    height: .82rem;
+    line-height: .82rem;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: .24rem;
+    background: #fff;
+}
+.button-big{
+	margin-top: .56rem;
+	background: #E5E5E5;
+	color: #666;
+	font-size: .32rem;
+}
+/*重置密码*/
+.reset{
+	position: fixed;
+	left: 100%;
+	top: 0;
+	background: #F3F5F7;
+	width: 100%;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+}
+.reset-con .telephone{
+	width: 5.5rem;
+}
+
+/*prompt*/
+.prompt1,.prompt2{
+	position: fixed;
+	left: 1.44rem;
+	color: #f00;
+	font-size: .24rem;
+	opacity: 0;
+	z-index: -1;
+}
+.prompt1{
+	top: .98rem;
+}
+.prompt2{
+	top: 3.3rem;
+}
+
+
+
+
+
+
+

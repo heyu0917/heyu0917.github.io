@@ -1,0 +1,387 @@
+/*招牌推荐*/
+.mz_zp .part{
+	position: relative;
+}
+.mz_zp .part .img1{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.mz_zp .title{
+	position: relative;
+	margin-bottom: 60px;
+}
+.mz_zp .title .round{
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background: #E89214;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.mz_zp .title h2{
+    font-size: 28px;
+    color: #811C21;
+    padding-top: 13px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.mz_zp .title img{
+	display: block;
+	margin-left: 24px;
+}
+ 
+.mz_zp ul li{
+	margin-bottom: 20px;
+}
+.mz_zp ul li .li-img{
+	width: 37%;
+	margin-right: 5%;
+}
+.mz_zp ul li:nth-child(even) .li-img{
+	margin-left: 5%;
+	margin-right: 0;
+}
+
+.mz_zp ul li .li-con{
+	width: 58%;
+	position: relative;
+}
+.mz_zp ul li .li-con img{
+	height: 46px;
+	position: absolute;
+	left: -28px;
+	top: -5px;
+	z-index: 2;
+}
+.mz_zp ul li .li-con h3{
+	font-size: 24px;
+	font-weight: normal;
+	color: #E89214;
+	border-radius: 25px;
+	height: 40px;
+	line-height: 40px;
+	background: #811C21;
+	display: inline-block;
+	padding: 0 15px;
+}
+.mz_zp ul li .li-con span{
+	display: block;
+	font-size: 15px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	color: #811C21;
+}
+.mz_zp ul li .li-con p{
+	line-height: 28px;
+	font-size: 16px;
+	color: #811C21;
+}
+
+.mz_zp .part ul li:nth-child(2) .li-con{
+	margin-left: 6%;
+	width: 52%;
+}
+.mz_zp .part ul li:nth-child(3) .li-img{
+	margin-left: 6%;
+}
+.mz_zp .part ul li:nth-child(3) .li-con{
+	width: 50%;
+	margin-top: 20px;
+}
+
+.mz_zp .part2 ul li h3{
+	background: transparent;
+	color: #811C21;
+}
+.mz_zp .part2 ul li span{
+	color: #E89214;
+	font-size: 24px;
+	margin-top: 0;
+}
+.mz_zp .part2 .img1{
+	width: 240px;
+}
+.mz_zp .part2 ul li:nth-child(3) .li-img{
+	margin-top: 50px;
+}
+
+
+/*主打米饭*/
+.mz_zd .part1 .title img{
+    display: block;
+    margin-left: 50px;
+    width: 550px;
+}
+.mz_zd .part1 ul{
+	margin-top: 40px;
+}
+.mz_zd .part1 ul li{
+	margin-bottom: 50px;
+	width: 230px;
+	margin-right: 30px;
+	float: left;
+}
+.mz_zd .part1 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.mz_zd .part1 ul li .li-top{
+	position: relative;
+	text-align: center;
+}
+.mz_zd .part1 ul li .li-top img{
+    position: absolute;
+    left: 0;
+    top: -9px;
+    height: 38px;
+}
+.mz_zd .part1 ul li .li-top h2{
+	font-size: 24px;
+	color: #811C21;
+	margin-bottom: 5px;
+	overflow: hidden;
+	height: 32px;
+}
+.mz_zd .part1 ul li .li-top span{
+	display: block;
+	color: #E89214;
+	font-size: 14px;
+	overflow: hidden;
+	height: 20px;
+}
+.mz_zd .part1 ul li .li-img{
+	position: relative;
+	margin-top: 20px;
+}
+.mz_zd .part1 ul li .li-img .img1{
+	width: 100%;
+	display: block;
+}
+.mz_zd .part1 ul li .li-img .img2{
+    position: absolute;
+    right: 15px;
+    bottom: -10px;
+    z-index: -1;
+}
+
+
+/*好吃鱼米饭*/
+.mz_hc .title-img{
+	width: 80%;
+	margin: 0 auto 50px auto;
+	display: block;
+}
+.mz_hc .step1{
+	position: relative;
+}
+.mz_hc .step1 .img1{
+	display: block;
+	margin-left: 30px;
+}
+.mz_hc .step1 .img2{
+	position: absolute;
+	bottom: -20px;
+	right: 20px;
+}
+
+.mz_hc .step-title{
+	position: absolute;
+	right: 50px;
+	top: 10px;
+}
+.mz_hc .step-title img{
+    height: 52px;
+    position: absolute;
+    left: -24px;
+    top: -13px;
+    z-index: 2;
+}
+.mz_hc .step-title h2{
+    font-size: 24px;
+    color: #fff;
+    background: #811C21;
+    padding: 5px 25px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-family: "宋体";
+    display: inline-block;
+}
+.mz_hc .step-title span{
+	display: block;
+	font-size: 12px;
+	color: #E89214;
+}
+
+.mz_hc .step1 .step-title span{
+	margin-left: 25px;
+}
+.mz_hc .step3 .step-title span{
+	margin-left: 25px;
+}
+.mz_hc .step4 .step-title span{
+	margin-left: 20px;
+}
+
+.mz_hc .step2,
+.mz_hc .step3,
+.mz_hc .step4{
+	position: relative;
+	margin-top: 45px;
+}
+.mz_hc .step2 .img1{
+	margin-right: 6px;
+}
+.mz_hc .step2 .img2{
+	position: absolute;
+	bottom: -32px;
+	left: 55px;
+}
+.mz_hc .step2 .step-title{
+	left: 55px;
+	z-index: 2;
+}
+
+.mz_hc .step3{
+	margin-top: 60px;
+}
+.mz_hc .step3 .step-title{
+	top: 166px;
+}
+.mz_hc .step4{
+	margin-top: -10px;
+}
+.mz_hc .step4 .step-title{
+	left: 55px;
+	top: 80px;
+}
+
+
+/*特调饮品*/
+.mz_td .part1 .title img{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+.mz_td .part1 ul{
+	width: 90%;
+	margin: 45px auto 0 auto;
+}
+.mz_td .part1 ul li{
+	width: 310px;
+	float: left;
+	border: 3px solid #E89214;
+	font-size: 0;
+	border-radius: 15px;
+	margin-bottom: 45px;
+	margin-right: 42px;
+	overflow: hidden;
+}
+.mz_td .part1 ul li:nth-child(even){
+	margin-right: 0;
+}
+.mz_td .part1 ul li img{
+	width: 100%;
+	height: 310px;
+	display: block;
+}
+.mz_td .part1 ul li h2{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background: #E89214;
+	height: 48px;
+	line-height: 48px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 5px;
+	font-weight: normal;
+}
+
+
+/*特色好面 && 爽口凉菜*/
+.mz_ts .title img{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+.mz_ts .part1 .con{
+	margin-top: 130px;
+	position: relative;
+	padding: 0 30px;
+	padding-bottom: 40px;
+}
+.mz_ts .part1 .con .ab-img1{
+	position: absolute;
+	right: 0;
+	top: -80px;
+}
+.mz_ts .part1 .con .ab-img2{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.mz_ts .part1 .con ul li{
+	position: relative;
+}
+.mz_ts .part1 .con ul li:nth-child(3n){
+	margin-top: 90px;
+}
+.mz_ts .part1 .con ul li .li-img{
+	position: relative;
+}
+.mz_ts .part1 .con ul li .li-img .img1{
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.mz_ts .part1 .con ul li .li-img .img2{
+    position: absolute;
+    left: -10px;
+    bottom: -7px;
+    z-index: -1;
+}
+
+.mz_ts .step-title{
+	margin-top: 136px;
+	position: relative;
+	margin-right: 30px;
+	text-align: center;
+}
+.mz_ts .step-title img{
+    height: 52px;
+    position: absolute;
+    left: -24px;
+    top: -13px;
+    z-index: 2;
+}
+.mz_ts .step-title h2{
+    font-size: 24px;
+    color: #fff;
+    background: #811C21;
+    padding: 5px 25px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-family: "宋体";
+    display: inline-block;
+}
+.mz_ts .step-title span{
+	display: block;
+	font-size: 12px;
+	color: #E89214;
+}
+
+.mz_ts ul li:nth-child(even){
+
+}
+.mz_ts ul li:nth-child(even) .step-title{
+	margin-right: 0;
+	margin-left: 30px;
+}
+.mz_ts ul li:nth-child(even) .li-img{
+	margin-right: 50px;
+}

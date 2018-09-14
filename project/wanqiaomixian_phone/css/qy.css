@@ -1,0 +1,277 @@
+/*企业简介*/
+.qyjj .part1 {
+	position: relative;
+}
+.qyjj .part1 .fl-lt{
+	width: 60%;
+}
+.qyjj .part1 .fl-lt .img1{
+	width: 90%;
+	display: block;
+	margin-bottom: .16rem;
+}
+
+.qyjj .part1 .img2{
+	position: absolute;
+	right: -.24rem;
+	width: 45%;
+	
+}
+.qyjj p{
+	line-height: .36rem;
+	font-size: .24rem;
+}
+.qyjj .part2 img{
+	margin-top: .2rem;
+	margin-bottom: .16rem;
+}
+
+
+/*发展历程*/
+.qylc{
+	padding: 0;
+}
+.qylc .part1{
+	padding: 0 .24rem;
+}
+.qylc .part1 ul{
+	width: 88%;
+	margin: .3rem auto 0 auto;
+	padding-left: .1rem;
+}
+.qylc .part1 ul li{
+	width: 43%;
+	float: left;
+	position: relative;
+	border-left: .04rem solid #000;
+	box-sizing: border-box;
+	padding-left: .4rem;
+	height: 2.2rem;
+}
+.qylc .part1 ul li:nth-child(even){
+	float: right;
+}
+.qylc .part1 ul li::before{
+	content: '';
+	position: absolute;
+	left: -.26rem;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-width: .12rem;
+	border-style: solid;
+	border-color: transparent #D6000F #D6000F transparent;
+}
+.qylc .part1 ul li h2{
+	font-weight: normal;
+	font-size: .4rem;
+	color: #D6000F;
+	line-height: .6rem;
+}
+.qylc .part1 ul li .p2{
+	font-size: .24rem;
+	line-height: .38rem;
+}
+/*.qylc .part1 ul li:last-child::after{
+	width: .04rem;
+	height: 1.46rem;
+	content: '';
+	background: #000;
+	position: absolute;
+	top: 2.2rem;
+	left: -.04rem;
+}*/
+.qylc .part1 ul li:last-child{
+	height: 3.66rem;
+}
+
+.qylc .part2{
+	width: 100%;
+	height: 3.2rem;
+	position: relative;
+	margin-top: -1.46rem;
+	
+}
+.qylc .part2  img{
+	position: absolute;
+	left: 0;
+	bottom: .2rem;
+}
+
+
+/*企业团队*/
+.qytd{
+	padding: 0;
+}
+.qytd .part1{
+	text-align: center;
+}
+.qytd .com-title1{
+	position: relative;
+	display: inline-block;
+	padding: 0 .3rem;
+}
+.qytd .com-title1 h1{
+	font-size: .36rem;
+	line-height: .52rem;
+	display: inline-block;
+}
+.qytd .com-title1 .line{
+	width: .08rem;
+	height: .56rem;
+	background: #f00;
+	position: absolute;
+	top: .24rem;
+}
+.qytd .com-title1 .line-left{
+	left: 0;
+}
+.qytd .com-title1 .line-right{
+	right: 0;
+}
+
+.qytd .com-title2{
+	width: 82%;
+	margin: 0 auto;
+	display: flex;
+	display: -webkit-flex;
+	margin-top: -.8rem;
+}
+.qytd .com-title2 .line{
+	flex: 1;
+	height: .04rem;
+	background: #D6000F;
+	margin-top: .24rem;
+}
+.qytd .com-title2 h1{
+	flex: 0  0 70%;
+	width: 70%;
+	font-size: .36rem;
+	text-align: center;
+	color: #D6000F;
+}
+.qytd .part1 .img1{
+	margin-top: -.48rem;
+}
+
+.qytd .part2 .title{
+	text-align: center;
+}
+.qytd .part2 .title .line{
+	width: .04rem;
+	height: .8rem;
+	background: #f00;
+	margin: 0 auto;
+	position: relative;
+	margin-top: .2rem;
+}
+.qytd .part2 .title .line::before,
+.qytd .part2 .title .line::after{
+	width: .12rem;
+	height: .12rem;
+	background: #f00;
+	border-radius: 50%;
+	position: absolute;
+	left: -.04rem;
+	content: '';
+}
+.qytd .part2 .title .line::before{
+	top: 0;
+}
+.qytd .part2 .title .line::after{
+	bottom: 0;
+}
+.qytd .part2 .title h2{
+	font-size: .32rem;
+	margin-top: .2rem;
+}
+
+.qytd .part2 ul{
+	width: 82%;
+	margin: .72rem auto 0 auto;
+}
+.qytd .part2 ul li{
+	width: 20%;
+	float: left;
+	position: relative;
+	color: #666;
+	font-size: .28rem;
+	line-height: .4rem;
+	text-align: center;
+}
+.qytd .part2 ul li::before{
+	position: absolute;
+	top: -.3rem;
+	left: 50%;
+	margin-left: -.06rem;
+	width: .12rem;
+	height: .12rem;
+	background: #f00;
+	border-radius: 50%;
+	content: '';
+}
+
+.qytd .part3{
+    width: 88%;
+    margin: .4rem auto;
+    position: relative;
+}
+.qytd .part3 ul{
+	width: 20%;
+	float: left;
+}
+.qytd .part3 ul li{
+	position: relative;
+	padding-bottom: .24rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #666;
+	padding-left: .12rem;
+	box-sizing: border-box;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+
+.qytd .part3 .line{
+	width: .04rem;
+    height: 3.6rem;
+    background: #f00;
+    position: absolute;
+    top: 0;
+}
+.qytd .part3 .line span{
+    display: block;
+    width: .12rem;
+    height: .12rem;
+    background: #f00;
+    border-radius: 50%;
+    margin-bottom: .78rem;
+    margin-left: -.04rem;
+}
+
+.qytd .part3 .line1{
+	left: 0;
+}
+.qytd .part3 .line2{
+	left: 20%;
+}
+.qytd .part3 .line3{
+	left: 40%;
+}
+.qytd .part3 .line4{
+	left: 60%;
+}
+.qytd .part3 .line5{
+	left: 80%;
+}
+.qytd .part3 .line6{
+	right: 0;
+}
+
+
+
+

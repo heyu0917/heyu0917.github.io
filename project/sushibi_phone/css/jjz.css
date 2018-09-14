@@ -1,0 +1,235 @@
+/*法国苏世比*/
+.fgssb .part1 .img1{
+	width: 4.2rem;
+	display: block;
+	margin-right: .4rem;
+}
+.fgssb .part1 .part-con img{
+	width: 3.34rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.fgssb .part1 .part-con h3{
+	text-align: right;
+	padding-top: 1.28rem;
+}
+
+.fgssb .part2{
+	position: relative;
+}
+.fgssb .part2 .img1{
+	width: 100%;
+	margin-bottom: .2rem;
+	display: block;
+}
+.fgssb .part2 .img2{
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	left: 0;
+	width: 4.1rem;
+	display: block;
+}
+
+/*万曜主义*/
+.wyzy .part1 img{
+	width: 3.8rem;
+	display: block;
+	margin-bottom: .2rem;
+}
+
+.wyzy .part2 .leftpart{
+	width: 56%;
+	padding-right: .1rem;
+	box-sizing: border-box;
+}
+.wyzy .part2 .leftpart img{
+	width: 100%;
+	margin-bottom: .2rem;
+}
+.wyzy .part2 .rightpart{
+	width: 44%;
+}
+.wyzy .part2 .rightpart img{
+	width: 100%;
+}
+
+.wyzy .part3{
+	margin-top: .32rem;
+	position: relative;
+	width: 5rem;
+	margin: 0 auto;
+}
+.wyzy .part3 .img1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 5rem;
+	height: 6.3rem;
+}
+.wyzy .part3 ul{
+	padding-top: .35rem;
+}
+.wyzy .part3 ul li{
+	width: 48%;
+	float: left;
+	text-align: center;
+	height: 3.2rem;
+}
+.wyzy .part3 ul li:nth-child(even){
+	float: right;
+}
+.wyzy .part3 ul li h3{
+	margin-bottom: .8rem;
+}
+
+/*5C钻石*/
+.czs .part1 img{
+	width: 2.26rem;
+	display: block;
+	margin-bottom: .2rem;
+}
+.czs .part1 h4{
+	font-size: .24rem;
+	font-weight: normal;
+	margin-bottom: .2rem;
+}
+.czs .part1 h1{
+	font-size: .56rem;
+	font-weight: normal;
+	margin-right: .1rem;
+}
+.czs .part1 h1 span{
+/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	vertical-align: top;
+	color: rgba(255,255,255,.9);
+    margin-top: .16rem;
+    display: inline-block;
+}
+
+.czs .part2{
+	margin-top: .2rem;
+}
+.czs .part2 ul li{
+	width: 31%;
+	margin-right: 3.5%;
+	height: 2.82rem;
+	border: 1px solid #003853;
+	float: left;
+	margin-bottom: .28rem;
+	box-sizing: border-box;
+}
+.czs .part2 ul li img{
+	width: 100%;
+	height: 2.12rem;
+}
+.czs .part2 ul li p{
+	text-align: center;
+	line-height: .32rem;
+}
+.czs .part2 ul li:nth-child(1){
+	margin-left: 15.5%;
+}
+.czs .part2 ul li:nth-child(5){
+	margin-right: 0;
+}
+
+.czs .part3{
+	margin-top: .4rem;
+}
+.czs .part3 img{
+	width: 100%;
+	display: block;
+	margin-bottom: .16rem;
+}
+
+/*野心猎场*/
+.yxlc .part1 .img1{
+	width: 3.72rem;
+	display: block;
+}
+.yxlc .part1 .part-con img{
+	width: 2.93rem;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.yxlc .part1 .part-con .h3_1{
+	position: absolute;
+	top: 1.3rem;
+	left: 0;
+	z-index: 2;
+}
+.yxlc .part1 .part-con .p_1{
+	padding-top: 2.1rem;
+}
+.yxlc .part1{
+	margin-bottom: 0;
+}
+.yxlc .part2{
+	margin-top: -.2rem;
+	position: relative;
+	z-index: 11;
+	overflow: hidden;
+	width: 100%;
+}
+.yxlc .part2 .swiper2{
+	width: 60%;
+	overflow: visible;
+	height: 2.4rem;
+}
+.yxlc .part2 .swiper2 .swiper-slide{
+	height: 2rem;
+	margin-top: .2rem;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+}
+.yxlc .part2 .swiper2 .swiper-slide i{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #000;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+}
+.yxlc .part2 .swiper2 .swiper-slide-active{
+	height: 2.4rem;
+	margin-top: 0;
+}
+.yxlc .part2 .swiper2 .swiper-slide-active i{
+	opacity: 0;
+}
+.yxlc .part2 .swiper2 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
+
+
+
+
+
+
+

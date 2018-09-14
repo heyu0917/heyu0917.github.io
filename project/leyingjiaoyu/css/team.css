@@ -1,0 +1,116 @@
+/*服务团队*/
+.team{
+	color: rgba(255,255,255,.9);
+}
+.team .part1{
+	position: relative;
+}
+.team .title{
+	margin-top: .3rem;
+}
+.team .title h2{
+	font-weight: normal;
+	font-size: .24rem;
+}
+.team .title span{
+	display: block;
+	font-size: .14rem;
+	margin-top: .08rem;
+	margin-bottom: .4rem;
+	color: rgba(255,255,255,.8);
+}
+
+.team ul li{
+	width: 23%;
+	float: left;
+	margin-right: 2.666%;
+	position: relative;
+	margin-bottom: .4rem;
+	z-index: 2;
+}
+.team ul li:nth-child(4n){
+	margin-right: 0;
+}
+.team ul li .li-con{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-right: 50%;
+	box-sizing: border-box;
+	vertical-align: bottom;
+}
+.team ul li .li-con .con{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.team ul li .li-con span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	box-sizing: border-box;
+	border-left: 1px solid #EDB75E;
+	border-top: 1px solid #EDB75E;
+}
+.team ul li .li-con .name{
+	font-size: .2rem;
+	margin-bottom: .08rem;
+}
+.team ul li .li-con .job{
+	font-size: .15rem;
+	color: #EDB75E;
+	margin-bottom: .2rem;
+	text-transform: uppercase;
+}
+.team ul li .li-con p{
+	line-height: .26rem;
+	font-size: .15rem;
+	text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.team ul li .li-img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	z-index: -1;
+}
+.team ul li .li-img .img1{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	z-index: 3;
+}
+.team ul li .li-img .img2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.team .more-angle{
+	position: absolute;
+	right: .6rem;
+	bottom: -.3rem;
+	z-index: -1;
+}
+.team .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+
+
+
+
+

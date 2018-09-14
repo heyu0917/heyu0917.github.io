@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>淘犯宝</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!--网站开启对 web app 程序的支持-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!--改变顶部状态条的颜色-->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/common.css" type="text/css" />
+  <link rel="stylesheet" href="../css/index.css" type="text/css" />
+  <link rel="stylesheet" href="../css/caseDetail.css" type="text/css" />
+
+  <script type="text/javascript" src="../js/zepto.min.js"></script>
+   <script type="text/javascript" src="../js/common.js"></script>
+  <script type="text/javascript">
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+  </script>
+</head>
+
+<body>
+  <header>
+    <a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+      <img src="../img/back.png" alt="" />
+    </a>
+    <h1>案件详情</h1>
+    <div class="right-img-box">
+      <img src="../img/share.png" alt="" />
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="part1">
+      <h2>汉阳分局需求，求身份，入室盗窃嫌疑犯</h2>
+      <div class="part1-step1">
+        <img src="../img/user.png" alt="">
+        <div class="user-name">
+          <h3>艾小羊</h3>
+          <p>2017-01-16 发布于江汉分局 入室盗窃</p>
+        </div>
+        <div class="part1-step1-p">
+          <p>提供线索：<span>70积分</span></p>
+          <p>提交并案：<span>300积分</span></p>
+        </div>
+      </div>
+      <div class="part1-step2">
+        <div class="description">
+          <strong>案件详情：</strong>1月14日晚19时许，江汉分局辖区发生一起入室盗窃案，经查犯罪嫌疑犯为1名男性，根据附近探头拍到的嫌疑犯图片，求身份
+        </div>
+        <div class="imgsbox" id="spic_box">
+        	<img src="../img/case-img.png" alt="" />
+       		<img src="../img/case-img.png" alt="" />
+       		<img src="../img/case-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="part2">
+      <ul class="part2-setp1">
+        <li class="active">评论</li>
+        <li>提供线索</li>
+        <li>提交并案</li>
+      </ul>
+      <div class="part2-setp2">
+        <ul>
+          <li>
+            <img src="../img/user_64.png" alt="" class="user-photo"/>
+            <div class="li-con">
+              <div class="name-box clearfix">
+                <h3 class="fl-lt">莫小明</h3>
+                <span class="fl-rt">01-20 13:31:30</span>
+              </div>
+              <div class="comment"><p>这人去过洪山一带</p></div>
+            </div>
+          </li>
+          <li>
+            <img src="../img/user_64.png" alt="" class="user-photo"/>
+            <div class="li-con">
+              <div class="name-box clearfix">
+                <h3 class="fl-lt">莫小明</h3>
+                <span class="fl-rt">01-20 13:31:30</span>
+              </div>
+              <div class="comment"><p>这人去过洪山一带</p></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div class="footer">
+  <ul>
+    <li id="collect"><div><img src="../img/collect_c.png" alt=""/><span class="font_22">收藏</span></div></li>
+    <li id="li_evalute">评论</li>
+    <li id="li_clue">提供线索</li>
+    <li id="li_together">提交并案</li>
+  </ul>
+</div>
+
+<!--popup-->
+<div class="bottom-popup" id="collect_state"></div>
+
+<!--evaluate popup-->
+<div class="evaluate-popup" id="evalute_popup">
+  <textarea id="textarea_evaluate"></textarea>
+  <div class="evaluate-button">
+    <div class="fl-lt" id="cancel">取消</div>
+    <div class="fl-rt">发表</div>
+  </div>
+</div>
+
+<div class="bg" id="bg"></div>
+<!--查看原图-->
+<div class="big-picture">
+	<div id="back"><img src="../img/back_round.png"></div>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide"><img src="../img/shop2.jpg"></div>
+	        <div class="swiper-slide"><img src="../img/shop2.jpg"></div>
+	        <div class="swiper-slide"><img src="../img/shop2.jpg"></div>
+	    </div>
+	    <div class="swiper-pagination"></div>
+	</div>
+</div>
+  
+<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+<script type="text/javascript" src="../js/caseDetail.js"></script>
+<script type="text/javascript">
+	$('#spic_box img').click(function(){
+		// $('.big-picture').css({'display':"block"});
+		$('.big-picture').css({'opacity':"1",'z-index':'1111'});
+	})
+	$('#back').click(function(){
+		// $('.big-picture').css({'display':"none"});
+		$('.big-picture').css({'opacity':"0",'z-index':'-1'});
+	})
+	var mySwiper = new Swiper ('.swiper-container', {
+	   // pagination: '.swiper-pagination',
+	   // loop: true,
+	 })   
+</script>
+
+</body>
+
+</html>

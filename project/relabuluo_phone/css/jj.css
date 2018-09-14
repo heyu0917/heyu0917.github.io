@@ -1,0 +1,167 @@
+.title{
+	position: relative;
+	padding-top: .32rem;
+	color: #E1BE7B;
+	text-align: center;
+}
+.title .line{
+	width: 35%;
+	height: 2px;
+	background: #E1BE7B;
+	position: absolute;
+	top: .94rem;
+	z-index: 2;
+}
+.title .line1{
+	left: 0;
+}
+.title .line2{
+	right: 0;
+}
+.title .box{
+	width: 2.5rem;
+	border: 2px solid #E1BE7B;
+	height: .72rem;
+	margin: 0 auto;
+	padding-top: .04rem;
+}
+.title .box .p1{
+    font-size: .34rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: .08rem;
+    margin-bottom: .02rem;
+}
+.title .box .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+
+.part{
+	width: 100%;
+	background-size: 100% 100%!important;
+}
+.part1 {
+	padding-top: .2rem;
+}
+.part1 .con{
+	padding: 0 .32rem;
+	margin-top: .4rem;
+	color: #E1BE7B;
+}
+.part1 .con ul{
+	margin: .48rem 0 .4rem;
+}
+.part1 .con ul li{
+	margin-bottom: .12rem;
+	color: #E1BE7B;
+	font-size: 0;
+	line-height: 1.3;
+}
+.part1 .con ul li span{
+	display: inline-block;
+	vertical-align: top;
+	font-size: .32rem;
+	font-weight: bold;
+	width: 31%;
+}
+.part1 .con ul li span b{
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	font-weight: normal;
+}
+.part1 .con ul li p{
+	display: inline-block;
+	vertical-align: top;
+	font-size: .32rem;
+	width: 69%;
+}
+.part1 .con .p1{
+	font-size: .28rem;
+	line-height: .42rem;
+}
+
+.part2{
+	padding-top: .24rem;
+	background-size: 100% 100%!important;
+}
+.part2 .con{
+	padding: 0 .32rem;
+	text-align: center;
+	color: #E1BE7B;
+}
+.part2 .con .p1{
+	font-size: .48rem;
+	margin-top: .32rem;
+	margin-bottom: .2rem;
+}
+.part2 .con .p2{
+	font-size: .28rem;
+	line-height: .42rem;
+	margin-bottom: .28rem;
+}
+.part2 .con ul li{
+	width: 47.5%;
+	float: left;
+	margin-bottom: .24rem;
+}
+.part2 .con ul li:nth-child(even){
+	float: right;
+}
+.part2 .con ul li img{
+	display: block;
+	width: 100%;
+}
+.part2 .con ul li p{
+	font-size: .28rem;
+	line-height: .56rem;
+}
+
+.part3{
+	padding-top: .16rem;
+	background-size: 100% 100%!important;
+}
+.part3 .con{
+	padding: 0 .32rem;
+	text-align: center;
+	color: #E1BE7B;
+}
+.part3 .con .p1{
+	font-size: .42rem;
+	margin-top: .4rem;
+}
+.part3 .con .p2{
+	margin-bottom: .32rem;
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 108%;
+	margin-left: -4%;
+}
+.part3 .con .p3{
+	font-size: .28rem;
+	line-height: .42rem;
+	text-align: left;
+	text-indent: .56rem;
+}
+
+
+
+
+

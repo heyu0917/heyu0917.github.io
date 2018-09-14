@@ -1,0 +1,250 @@
+/*xy1 -- 学院介绍*/
+.xy1{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.xy1 .title{
+	color:#b18d77;
+	border-bottom: 5px solid #b18d77;
+	padding-bottom: 12px;
+}
+.xy1 .title .p1{
+	font-size: 34px;
+	line-height: 46px;
+}
+.xy1 .title .p2{
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+.xy1 .p3{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 14px;
+	color:#4f4f4f;
+	line-height: 28px;
+	margin-top: 30px;
+}
+.xy1 .xy1-img img{
+	width: 100%;
+	margin-top: 40px;
+}
+
+
+
+/*xy2 --学院名师*/
+
+.xy2 .xy2-top{
+	border-bottom:5px solid #b08c77;
+	padding-bottom: 20px;
+}
+.xy2 .xy2-top .fl-lt{
+	box-sizing: border-box;
+	font-size: 30px;
+	color:#b08c77;
+	width: 45%;
+}
+.xy2 .xy2-top .fl-lt img{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+}
+.xy2 .xy2-top .fl-rt{
+	font-size: 14px;
+    color: #4f4f4f;
+    width: 51%;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.xy2 .js{
+	font-size: 30px;
+	color:#b08c77;
+	margin-top: 30px;
+}
+.xy2 .part1 .part1-l,
+.xy2 .part1 .part1-r{
+	width: 49%;
+	height: 540px;
+	border:1px solid #737b68;
+	box-sizing: border-box;
+	text-align: center;
+	padding:15px;
+	margin-top: 18px;
+}
+.xy2 .part1 img{
+    width: 60%;
+    margin-top: 28px;
+}
+.xy2 .part1 .p1{
+	font-size: 26px;
+	color:#b08c77;
+	margin:10px 0;
+}
+.xy2 .part1 .p2{
+	font-size: 14px;
+	color:#4f4f4f;
+	text-align: left;
+	line-height: 24px;
+}
+
+
+/*xy3  --学院风采*/
+
+.xy3{
+	text-align: center;
+}
+.xy3 .title .p1{
+	font-size: 34px;
+	color:#b08c77;
+}
+.xy3 .title .p2{
+	text-transform: uppercase;
+	font-size: 16px;
+	color:#b08c77;
+}
+.xy3 .part1 .fl-lt,
+.xy3 .part1 .fl-rt{
+	width: 49%;
+	text-align: center;
+}
+.xy3 .part1  img{
+	width: 100%;
+	border:1px solid #b08c77;
+	padding:5px;
+	box-sizing: border-box;
+	
+}
+.xy3 .part1 p{
+	font-size: 16px;
+	color:#4f4f4f;
+	margin-top: 12px;
+}
+.xy3 .part1{
+	margin-top: 30px;
+}
+
+/*xy4--爱尚课堂*/
+.xy4{
+	text-align: center;
+}
+.xy4 .title .p1{
+	font-size: 34px;
+	color:#b08c77;
+}
+.xy4 .title .p2{
+	text-transform: uppercase;
+	font-size: 16px;
+	color:#b08c77;
+}
+
+.xy4 .part1{
+	margin-top: 40px;
+}
+.xy4 .part-top{
+	font-size: 26px;
+	color:#b08c77;
+	text-align: left;
+	border-bottom: 5px solid #b08c77;
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+.xy4 .part1-box{
+	width: 100%;
+	position:relative;
+}
+.xy4 .part1-box img{
+	width: 100%;
+	margin-top: 25px;
+}
+.xy4 .part1-box li{
+	position: absolute;
+    height: 160px;
+    width: 187px;
+    text-align: left;
+}
+.xy4 .part1-box .li1{
+    top: 31px;
+    left: 230px;
+}
+.xy4 .part1-box li .p1{
+	font-size: 22px;
+	color:#b49077;
+}
+.xy4 .part1-box li .p2{
+	font-size: 12px;
+	color:#565656;
+	margin-top: 5px;
+	line-height: 22px;
+}
+.xy4 .part1-box li .p3{
+	position:absolute;
+	right:10px;
+	bottom: 10px;
+	color:#8d8d8d;
+	font-size: 12px;
+}
+.xy4 .part1-box .li2{
+    top: 31px;
+    left: 670px;
+}
+.xy4 .part1-box .li3{
+  	top: 215px;
+    left: 230px;
+}
+.xy4 .part1-box .li4{
+    top: 215px;
+    left: 670px;
+}
+.xy4 .part2 .wrap{
+	width: 100%;
+    height: 328px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 40px;
+}
+.xy4 .part2 .wrap .item{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}  
+.xy4 .part2 .wrap .item .vedio-box{
+	width: 582px;
+    height:328px;
+    position: relative;
+    background: #b08c77;
+    margin:0 auto;
+}
+.xy4 .part2 .wrap .item .vedio-box .video-img{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.xy4 .part2 .wrap .item .play{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-top: -35px;
+    margin-left: -35px;
+    cursor: pointer;
+    z-index: 12;
+}
+.xy4 .part2 .wrap .item .player{
+	width: 100%!important;
+    height: 100%!important;
+}
+
+.xy4 .part2 .p1{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 30px;
+}

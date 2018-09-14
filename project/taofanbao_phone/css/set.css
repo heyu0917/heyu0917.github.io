@@ -1,0 +1,82 @@
+header{
+	background: #fff;
+}
+header .left-img-box img{
+	width: .23rem;
+	height: .4rem;
+	margin-left: .24rem;
+	margin-top: .24rem;
+}
+
+.content{
+	overflow: hidden;
+}
+
+/*set*/
+.set-list2{
+	margin-bottom: .24rem;
+}
+.set-list,.set-list2{
+	background: #fff!important;
+	padding-left: .24rem;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: .28rem;
+	overflow: hidden;
+}
+.set-list li,.set-list2 li{
+	padding-right: .24rem;
+	overflow: hidden;
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom: 1px solid #d7d7d7;
+}
+.set-list li a,.set-list2 li a{
+	display: block;
+}
+.set-list li:last-child,.set-list2 li:last-child{
+	border-bottom: 0;
+}
+.edition-num{
+	color: #666;
+	margin-right: .34rem;
+}
+.set-con img{
+	width: .18rem;
+	height: .3rem;
+	margin-top: .29rem;
+}
+.button-big{
+	margin-top: .48rem;
+	background: #e5e5e5;
+	color: #666;
+}
+.changeKey{
+	color: #666;
+	font-size: .24rem;
+}
+.changeKey img{
+	margin-left: .16rem;
+}
+.set-con a{
+	display: block;
+	overflow: hidden;
+}
+.big-button{
+	margin-top: .48rem;
+}
+
+/*补充*/
+.prompt-popup{
+	padding: .24rem .4rem;
+	bottom: 60%;
+	transform: translate3d(-50%,-50%,0);
+	-webkit-transform: translate3d(-50%,-50%,0);
+	-o-transform: translate3d(-50%,-50%,0);
+	-moz-transform: translate3d(-50%,-50%,0);
+	-ms-transform: translate3d(-50%,-50%,0);
+}
+
+
+
+

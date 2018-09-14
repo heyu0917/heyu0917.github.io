@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/ad.css">	
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../js/jq.lazyload.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="nav clearfix">
+			<a href="index.html" class="fl-lt logo"><img src="../img/logo.png" alt=""/></a>
+			<ul class="fl-lt">  
+				<li><a href="index.html">首页<span>Home</span></a></li>
+				<li><a href="pp1.html">品牌解读<span>Brand</span></a></li>
+				<li><a href="cp1.html">产品中心<span>Product</span></a></li>
+				<li><a href="dz1.html">超级定制<span>Customized</span></a></li>
+				<li class="active"><a href="advert.html">招募合伙人<span>Partner</span></a></li>
+				<li><a href="http://cjdingzhi.com" target="_blank">网络商城<span>Network mall</span></a></li>
+				<li><a href="xy1.html">商学院<span>Business School</span></a></li>
+				<li><a href="lxwm.html">联系我们<span>Contact us</span></a></li>
+			</ul>
+			<div class="fl-rt phone">
+				<img src="../img/phone.png" alt="" />
+				<p>全国城市运营商招募热线<span>400-xxxx-xxx</span></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="part">
+		<img src="../img/ad/a_01.jpg" alt="" class="img-block"/>
+		<img data-original="../img/ad/a_02.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_03.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_05.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_06.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_07.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_09.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_10.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_11.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_12.jpg" alt="" class="img-block lazy"/>
+		<img data-original="../img/ad/a_15.jpg" alt="" class="img-block lazy"/>
+		<div class="box">
+			<img data-original="../img/ad/a_17.jpg" alt="" class="img-block lazy"/>
+			<div class="item">
+				<ul>
+					<li>
+						<span>您的名字</span>
+						<input type="text" />
+					</li>
+					<li>
+						<span>您的电话</span>
+						<input type="text" />
+					</li>
+					<li>
+						<span>联系地址</span>
+						<input type="text" />
+					</li>
+				</ul>
+				<input type="text" placeholder="留言内容" class="input1"/>
+				<div class="button">
+					<span>发送留言</span>
+					<span id="clearBtn">清空留言</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		$('img.lazy').lazyload({effect: "fadeIn"});
+		
+		$(function(){
+			$('#clearBtn').click(function(){
+				$('input,textarea').val('');
+			})
+		})
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/collection.css" type="text/css"/>
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+
+		<header>
+			<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" class="back" />
+		    </a>
+		    <h1>我的收藏</h1>
+		    <div class="right-img-box" id="edit"><span>编辑</span></div>
+		</header>
+
+		<div class="collection-con">
+			<div class="collect-nav">
+				<ul>
+					<li class="active">案件</li>
+					<li>商品</li>
+				</ul>
+			</div>
+			<div class="collection-con-part1">
+				<img src="../img/cat.png" alt="" class="cat-img"/>
+				<div class="part1-text">
+					<p class="">没有收藏任何商品<br>不如先去逛逛</p>
+				</div>
+			</div>
+			<div class="collection-con-part2">
+				<ul class="collection-con-list1">
+					<li>
+						<div class="sel-box"><img src="../img/round.png" class="sel-img"></div>
+						<a href="caseDetail.html">
+							<div class="li-top">
+								<h2>汉阳分局需求，求身份，入室盗窃嫌疑犯</h2>
+								<div>提供线索：<span>70积分</span>提交并案：<span>300积分</span></div>
+							</div>
+							<div class="swiper-container swiper-li-middle">
+							    <div class="swiper-wrapper">
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							    </div>
+							</div>
+							<div class="li-bottom">
+								<div class="fl-lt">
+									<img src="../img/pl_icon.png">
+									<span>547</span>
+								</div>
+								<div class="fl-rt">2017-01-16</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<div class="sel-box"><img src="../img/round.png" class="sel-img"></div>
+						<a href="caseDetail.html">
+							<div class="li-top">
+								<h2>汉阳分局需求，求身份，入室盗窃嫌疑犯</h2>
+								<div>提供线索：<span>70积分</span>提交并案：<span>300积分</span></div>
+							</div>
+							<div class="swiper-container swiper-li-middle">
+							    <div class="swiper-wrapper">
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							        <div class="swiper-slide"><img src="../img/index1.jpg"></div>
+							    </div>
+							</div>
+							<div class="li-bottom">
+								<div class="fl-lt">
+									<img src="../img/pl_icon.png">
+									<span>547</span>
+								</div>
+								<div class="fl-rt">2017-01-16</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="collection-con-list2">
+					<li>
+						<div class="sel-box"><img src="../img/round.png" class="sel-img"></div>
+						<a href="detail.html">
+							<img src="../img/shop2.jpg" class="goods-img"/>
+							<div class="col-li-right">
+								<h3>特种兵黑色作训帽保安帽子</h3>
+								<div class="col-li-rightBot">
+									<span class="fl-lt ji-box"><img src="../img/ji.png"><span>300</span></span>
+									<img src="../img/collect_icon.png" alt="" class="fl-rt"/>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<div class="sel-box"><img src="../img/round.png" class="sel-img"></div>
+						<a href="detail.html">
+							<img src="../img/shop2.jpg" class="fl-lt goods-img"/>
+							<div class="col-li-right fl-rt">
+								<h3>特种兵黑色作训帽保安帽子</h3>
+								<div class="col-li-rightBot">
+									<span class="fl-lt ji-box"><img src="../img/ji.png"><span>300</span></span>
+									<img src="../img/collect_icon.png" alt="" class="fl-rt"/>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="delete-box">
+			<div class="button" id="del_btn">删除</div>
+		</div>
+		
+		<div class="prompt"></div>
+
+		<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+		<script type="text/javascript" src="../js/collection.js"></script>
+
+	</body>
+</html>

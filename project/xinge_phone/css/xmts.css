@@ -1,0 +1,147 @@
+.content{
+/*	background: rgba(255,255,255,.9);*/
+}
+.main{
+	padding: 0 .3rem;
+}
+
+.main-nav{
+	padding: .2rem .56rem 0 .56rem;
+}
+.main-nav li{
+	width: 47%;
+}
+.main-nav li:nth-child(2){
+	float: right;
+}
+
+
+/*项目印象*/
+.xmyx .part3{
+	margin-top: .36rem;
+	margin-bottom: .1rem;
+}
+.xmyx .part3 ul li{
+	margin-bottom: .24rem;
+	height: 2rem;
+	overflow: hidden;
+	width: 100%;
+}
+.xmyx .part3 ul li:last-child{
+	margin-bottom: 0;
+}
+.xmyx .part3 ul li .li-con{
+	width: 58%;
+	height: 2rem;
+	position: relative;
+	background: #401962;
+}
+.xmyx .part3 ul li .li-con h4{
+/*	font-size: .2rem;*/
+font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	line-height: .42rem;
+	color: #FFFFFF;
+	background: #401962;
+    margin-left: .1rem;
+    margin-top: .3rem;
+    width: 120%;
+    padding: .1rem 0;
+}
+.xmyx .part3 ul li .li-con h4 span{
+	font-weight: normal;
+}
+.xmyx .part3 ul li .li-con strong{
+	font-size: .28rem;
+}
+.xmyx .part3 ul li .li-con i{
+	position: absolute;
+	left: .2rem;
+	top: .2rem;
+	border: 1px solid #fff;
+	width: .5rem;
+	height: 1.6rem;
+	display: block;
+}
+.xmyx .part3 ul li .li-img{
+	width: 42%;
+	height: 2rem;
+    z-index: 2;
+    position: relative;
+}
+.xmyx .part3 ul li .li-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.xmyx .part4 p{
+/*	font-size: .2rem;*/
+font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	line-height: .42rem;
+	width: 120%;
+	margin-left: -10%;
+}
+.xmyx .part4 p .span1{
+	font-size: .38rem;
+}
+.xmyx .part4 p .span2{
+	font-size: .3rem;
+}
+
+
+/*产品概述*/
+.cpgs .main{
+	padding: 0 .16rem;
+}
+.cpgs .part3{
+	width: 100%;
+	padding: .3rem 0;
+}
+.cpgs .part3 .part-img{
+	width: 30%;
+}
+.cpgs .part3 .part-img img{
+	width: 100%;
+	display: block;
+	margin-bottom: .1rem;
+}
+.cpgs .part3 .part-con{
+	width: 68%;
+}
+.cpgs .part3 .part-con img{
+	width: 100%;
+	margin-top: .1rem;
+	display: block;
+	height: 1.9rem;
+}
+.cpgs .part3 .part-con .part-div{
+	background: #2c0051;	
+	color: #fff;
+	height: 7.88rem;
+	overflow: hidden;
+}
+.cpgs .part3 .part-con .part-div p{
+	width: 100%;
+    margin-left: 0;
+    text-indent: .4rem;
+    line-height: .4rem;
+    margin-top: -.24rem;
+}
+
+
+
+
+
+
+
+

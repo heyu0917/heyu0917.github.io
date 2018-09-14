@@ -1,0 +1,64 @@
+/*产品系列*/
+.cpxl .part1{
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+.cpxl .part1 h1{
+	font-family: "宋体";
+	font-size: 38px;
+	line-height: 44px;
+	color: #E60012;
+	margin-bottom: 30px;
+}
+.cpxl .part1 h1 span{
+	font-size: 26px;
+	display: block;
+}
+
+.cpxl .part1 ul li{
+	width: 243px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	float: left;
+	height: 320px;
+	position: relative;
+}
+.cpxl .part1 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.cpxl .part1 ul li img{
+	height: 100%;
+	min-width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+	-o-transform: translate(-50%,0);
+	-moz-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+}
+.cpxl .part1 ul li p{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	font-size: 16px;
+	color: #fff;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+}
+
+
+
+
+
+
+
+

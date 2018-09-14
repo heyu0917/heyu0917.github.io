@@ -1,0 +1,61 @@
+.main .title{
+	text-align: center;
+}
+.main .title .p1,
+.main .title .p2{
+	font-family: "宋体";
+	color:#1d1d1d;
+	font-size: 48px;
+}
+.main .title .p2::before,
+.main .title .p2::after{
+	content:"";
+	display: inline-block;
+	vertical-align: middle;
+	height: 2px;
+	background-color: #1d1d1d;
+}
+.main .title .p2::before{
+	margin-right: 20px;
+}
+.main .title .p2::after{
+	margin-left: 20px;
+}
+.main .title .p3{
+	margin-top: 10px;
+    line-height: 24px;
+	font-size: 14px;
+	color:#888988;
+}
+
+
+
+/*hsyh1--黑魔法系列*/
+.hsyh1 .title .p2::before,
+.hsyh1 .title .p2::after{
+	width: 200px;
+}
+.hsyh1 .part ul li{
+	float: left;
+	width: 285px;
+	margin-right: 32.5px;
+	margin-top: 30px;
+}
+.hsyh1 .part ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hsyh1 .part ul li img{
+	width: 100%;
+}
+.hsyh1 .part ul li .li-fonts{
+	color:#595757;
+	background-color: #fff;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 14px;
+}
+
+
+
+

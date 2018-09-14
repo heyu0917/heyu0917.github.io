@@ -1,0 +1,77 @@
+/*headerIndex*/
+.headerIndex{
+	background: #f6f6f6;
+}
+.headerIndex h2{
+	width: 1rem;
+	background: #f6f6f6;
+}
+.header-line{
+	position: absolute;
+	width: 4.2rem;
+	height: 1px;
+	margin: 21px auto;
+	background: #999;
+	z-index: -1;
+	left: 50%;
+	margin-left: -2.1rem;
+}
+
+/*content*/
+.contentIndex{
+	border: 0;
+	overflow: hidden;
+	bottom: 1.24rem;
+	margin-top: .16rem;
+}
+.curousel-list{
+	width: 336%;
+	padding: 0 6%;
+}
+.curousel-list li{
+	float: left;
+	width: 23.809%;
+	padding-left: 1.19%;
+}
+.curousel-list li span{
+	display: block;
+	background-size: cover!important; 
+	transition: all .4s linear;
+	box-shadow: 1px 6px 12px 1px rgba(0,0,0,.4);
+	border-radius: 2px;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-ms-transform: scale(.92);
+	-moztransform: scale(.92);
+}
+.curousel-list .curousel-li1 span{
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

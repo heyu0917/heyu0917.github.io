@@ -1,0 +1,122 @@
+.er-nav .er-left .imgbox img{
+	width: .5rem;
+	height: .5rem;
+	margin-top: .11rem;
+}
+.main-title{
+	width: 100%;
+	margin-top: .3rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.main-title span{
+	color: #c5aa60;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	display: block;
+	width: 133.33%;
+	margin-left: -16.666%;
+}
+.main-title h2{
+	color: #301605;
+	font-size: .28rem;
+	font-weight: normal;
+}
+
+/*扶持政策*/
+.fczc{
+	padding: 0 .35rem;
+}
+.fczc .main-con{
+	margin-top: .3rem;
+}
+.fczc .main-part{
+	margin-bottom: .24rem;
+}
+.fczc .main-part h3{
+	font-size: .3rem;
+	margin-bottom: .16rem;
+	font-weight: normal;
+}
+.fczc .main-part ul li{
+	width: 49%;
+	float: left;
+	margin-bottom: 2%;
+	height: 3.6rem;
+	overflow: hidden;
+	position: relative;
+}
+.fczc .main-part ul li:nth-child(even){
+	float: right;
+}
+.fczc .main-part ul li div{
+	width: 100%;
+	height: 1.2rem;
+	background: rgba(113,63,28,.7);
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	color: #fff;
+}
+.fczc .main-part ul li div p{
+	line-height: .4rem;
+}
+.fczc .main-part ul li img{
+	width: 100%;
+	display: block;
+	height: 3.6rem;
+}
+
+/*门店展示*/
+.mdzs{
+	padding: 0 .35rem;
+}
+.mdzs .main-con{
+	margin-top: .3rem;
+	margin-bottom: .3rem;
+}
+.mdzs .swiper-big{
+	height: 5.6rem;
+	width: 95%;
+	position: relative;
+	margin: 0 auto .12rem auto;
+	padding-left: .12rem;
+	box-sizing: border-box;
+}
+.mdzs .swiper-big .swiper-container{
+	height: 5.6rem;
+}
+.mdzs .main-con .swiper-slide img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.mdzs .main-con .swiper-slide  .img-box{
+	height: 100%;
+	margin-right: .12rem;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	font-size: 0;
+}
+.mdzs .active-nav .img-box,
+.mdzs .swiper-big .swiper-slide-active .img-box{
+	border: 1px solid #BC9760!important;
+}
+.mdzs .swiper-small{
+	width: 95%;
+	height: 1.8rem;
+	margin: 0 auto;
+    padding-left: .12rem;
+    box-sizing: border-box;
+}
+.mdzs .swiper-small .swiper-container{
+	height: 1.8rem;
+}
+
+

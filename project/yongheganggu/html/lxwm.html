@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>永和港谷</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/gglx.css">	
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+</head>
+<body>
+	<!--公共头部-->
+	<div class="header">
+		<img src="../img/head1.png" alt="" class="img1"/>
+		<div class="header-con y-row">
+			<div class="number">
+				<div class="fl-lt">24小时热线   xx-xxx-xxx</div>
+				<div class="fl-rt" onclick="AddFavorite(window.location,document.title)">
+					<img src="../img/colected.png" alt="" />
+					<span>Bookmark<br><em>收藏本站</em></span>
+				</div>
+			</div>
+			<div class="head-top clearfix">
+				<img src="../img/head2.png" class="fl-lt"/>
+				<img src="../img/head5.png" class="fl-rt"/>				
+			</div>
+			<div class="header-bottom clearfix">
+				<a href="index.html"><img src="../img/head4.png" alt="" class="fl-lt"/></a>
+				<ul class="fl-rt nav-list">
+					<li>
+						<h2>关于港谷</h2>
+						<div class="li-item">
+							<a href="ggwh.html">港谷文化</a>
+							<a href="xmjj.html">项目简介</a>
+							<a href="gwyq.html">谷物元气</a>
+							<a href="xwzx.html">新闻中心</a>
+						</div>
+					</li>
+					<li>
+						<h2>元气美食</h2>
+						<div class="li-item">
+							<a href="yqzc.html">元气早餐</a>
+							<a href="gwzc.html">谷物正餐</a>
+							<a href="xxxwc.html">休闲下午茶</a>
+							<a href="ffwc.html">丰富晚餐</a>
+						</div>
+					</li>
+					<li>
+						<h2>营销分析</h2>
+						<div class="li-item">
+							<a href="scfx.html">市场分析</a>
+							<a href="xmys.html">项目优势</a>
+						</div>
+					</li>
+					<li>
+						<h2>加盟专区</h2>
+						<div class="li-item">
+							<a href="jmtj.html">加盟条件</a>
+							<a href="jmdx.html">加盟店型</a>
+							<a href="jmlc.html">加盟流程</a>
+							<a href="jmqy.html">加盟权益</a>
+							<a href="jmzc.html">加盟支持</a>
+						</div>
+					</li>
+					<li>
+						<h2>港谷连线</h2>
+						<div class="li-item">
+							<a href="zxly.html">在线留言</a>
+							<a href="lxwm.html" class="active">联系我们</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<ul class="banner-list">
+				<li style="background: url(../img/banner0.jpg) center 70% no-repeat;"></li>
+				<li style="background: url(../img/banner1.jpg) center 70% no-repeat;"></li>
+				<li style="background: url(../img/banner2.jpg) center 70% no-repeat;"></li>
+				<li style="background: url(../img/banner3.jpg) center 70% no-repeat;"></li>
+				<li style="background: url(../img/banner4.jpg) center 70% no-repeat;"></li>
+			</ul>
+			<div class="banner-line">
+				<i class="i1"></i>
+				<i class="i2"></i>
+			</div>	
+			<img src="../img/banner1_icon1.png" alt="" class="banner-icon"/>
+		</div>
+		<img src="../img/head3.png" alt="" class="img2"/>
+	</div>
+	
+	<!--中间部分-->
+	<div class="content clearfix">
+		<div class="y-row">
+			<div class="er-nav fl-lt">
+				<img src="../img/er_nav1.jpg" alt="" class="nav-img1"/>
+				<div class="er-main">
+					<a class="er-title" href="index.html">
+						<h2>关于港谷</h2>
+						<p>About gang gu</p>
+					</a>
+					<ul class="er-list">														
+						<li>
+							<a href="zxly.html">在线留言</a>
+						</li>
+						<li>
+							<a href="lxwm.html" class="active">联系我们</a>
+						</li>
+					</ul>
+					<div class="number">
+						<img src="../img/erweima2.jpg" alt="" class="nav-img2"/>
+						<div><img src="../img/er_nav_phone.jpg" alt="" /><span>24小时热线</span></div>
+						<p>xx-xxx-xxx</p>
+					</div>					
+				</div>									
+				<ul class="er-list er-list2">
+					<li>
+						<a href="zxly.html">在线留言></a>
+					</li>
+					<li>
+						<a href="lxwm.html" class="active">联系我们></a>
+					</li>
+					<li>
+						<a href="jmtj.html">加盟条件></a>
+					</li>
+					<li>
+						<a href="jmdx.html">加盟店型></a>
+					</li>
+				</ul>
+			</div>		
+			
+			<div class="main fl-rt lxwm">
+				<div class="main-title">联系我们></div>
+				<div class="part1">
+					<div id="map"></div>
+				</div>
+				<div class="part2 clearfix">
+					<img src="../img/erweima2.jpg" class="fl-lt"/>
+					<div class="fl-lt">
+						<h3>北京速成国际资产管理有限公司</h3>
+						<ul> 
+							<li><span>总部地址：</span><i>北京市亦庄经济技术开发区BDA国际<br>企业大道26号楼</i></li>
+							<li><span>港谷电话：</span><i>xx-xxx-xxx</i></li>
+							<li><span>品牌官网：</span><i>www.yongheganggu.com</i></li>
+						</ul>					
+					</div>
+				</div>
+				
+			</div>
+		</div>	
+				
+	</div>
+	
+	<!--公共底部-->
+	<div class="footer">
+		<div class="foot-line">
+			<i class="i1"></i>
+			<i class="i2"></i>
+			<img src="../img/arrowT.jpg" alt="" id="scroll_top"/>
+		</div>
+		<div class="footer-main">
+			<div class="footer-top">
+				<div class="y-row">
+					<a href="index.html"><img src="../img/foot2.png" alt="" class="f-logo" /></a>
+					<ul class="fl-rt nav-list nav-list2">
+						<li>
+							<h2>关于港谷</h2>
+							<div class="li-item">
+								<a href="ggwh.html">港谷文化</a>
+								<a href="xmjj.html">项目简介</a>
+								<a href="gwyq.html">谷物元气</a>
+								<a href="xwzx.html">新闻中心</a>
+							</div>
+						</li>
+						<li>
+							<h2>元气美食</h2>
+							<div class="li-item">
+								<a href="yqzc.html">元气早餐</a>
+								<a href="gwzc.html">谷物正餐</a>
+								<a href="xxxwc.html">休闲下午茶</a>
+								<a href="ffwc.html">丰富晚餐</a>
+							</div>
+						</li>
+						<li>
+							<h2>营销分析</h2>
+							<div class="li-item">
+								<a href="scfx.html">市场分析</a>
+								<a href="xmys.html">项目优势</a>
+							</div>
+						</li>
+						<li>
+							<h2>加盟专区</h2>
+							<div class="li-item">
+								<a href="jmtj.html">加盟条件</a>
+								<a href="jmdx.html">加盟店型</a>
+								<a href="jmlc.html">加盟流程</a>
+								<a href="jmqy.html">加盟权益</a>
+								<a href="jmzc.html">加盟支持</a>
+							</div>
+						</li>
+						<li>
+							<h2>港谷连线</h2>
+							<div class="li-item">
+								<a href="zxly.html">在线留言</a>
+								<a href="lxwm.html" class="active">联系我们</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom clearfix">
+				<div class="foot-b1 fl-lt">
+					<div class="f-title">
+						<img src="../img/foot5.jpg" alt="" />
+						<h3>联系方式<span>Contact</span></h3>
+					</div>
+					<div class="f-con">
+						<p>招商热线：xx-xxx-xxx
+						<br>服务热线：xx-xxx-xxx
+						<br>企业QQ：xxxxx
+						<br>企业邮箱：xxxxx@qq.com
+						<br>投诉邮箱：xxxxx@qq.com
+						</p>
+					</div>
+				</div>
+				<div class="foot-b2 fl-lt">
+					<div class="f-title">
+						<img src="../img/foot6.jpg" alt="" />
+						<h3>公司地址<span>Address</span></h3>
+					</div>
+					<div class="f-con">
+						<p class="p1">北京速成国际资产管理有限公司</p>
+						<p class="p2">北京市亦庄经济技术开发区BDA国际企业大道26号楼</p>
+						<div class="erweima">
+							<img src="../img/erweima.jpg" alt="" />
+							<span>品牌策划<br>北京若邻广告</span>
+						</div>
+					</div>
+				</div>
+				<div class="foot-b3 fl-rt">
+					<div class="f-title">
+						<img src="../img/foot7.jpg" alt="" />
+						<h3>友情链接<span>Link</span></h3>
+					</div>
+					<div class="f-con clearfix">						
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>
+						<a href="">友情链接</a>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src='../js/jquery1.42.min.js'></script>
+	<script src='../js/jquery.SuperSlide.2.1.1.js'></script>
+	<script src="../js/common.js"></script>
+	<script>
+//39.7913310000,116.5381080000
+		 var map = new BMap.Map("map");    // 创建Map实例
+	     // 初始化地图,设置中心点坐标和地图级别
+	    map.centerAndZoom(new BMap.Point(116.538108,39.791331), 14);  
+	    var new_point2 = new BMap.Point(116.538108,39.791331);
+	    var marker2 = new BMap.Marker(new_point2); // 创建标注
+	    map.addOverlay(marker2); // 将标注添加到地图中
+	    map.panTo(new_point2);
+	    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+	    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放   
+
+	</script>
+
+</body>
+</html>

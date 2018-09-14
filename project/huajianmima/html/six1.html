@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<title></title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/six.css" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="y-row clearfix">
+					<div class="title1 fl-lt">
+						<span class="span2">·</span>
+						<span class="span1">基地花农直采  航空冷链直达</span>
+						<span class="span2">·</span>
+					</div>
+					<div class="logo">
+						<img src="../img/logo.png" alt="" />
+					</div>
+					<div class="title2 fl-rt">
+						<div class="tel-img">
+							<img src="../img/tel.png" alt="" />
+						</div>
+						<p class="p1">财富热线</p>
+						<p class="p2">4000–00–0000</p>
+					</div>
+				</div>
+			</div>
+			<div class="nav">
+				<div class="y-row">
+					<ul>
+						<li> <a href="index.html">HOME | 首页</a></li>
+						<li><a href="one1.html">CUSTOMIZED | 真爱定制</a></li>
+						<li><a href="two1.html">FLOWER | 鲜花</a></li>
+						<li><a href="three1.html">GIFT | 礼品</a></li>
+						<li><a href="four1.html">BRAND | 品牌介绍</a></li>
+						<li><a href="five1.html">COOPERATION | 商务合作</a></li>
+						<li><a href="six1.html">JOIN US | 加入我们</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="y-row">
+				<div class="banner">
+					<ul class="banner-list">
+						<li><img src="../img/banner.jpg" alt="" /></li>
+						<li><img src="../img/banner1.jpg" alt="" /></li>
+						<li><img src="../img/banner2.jpg" alt="" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="er-nav">
+				<p>JOIN US | 加入我们<span>></span></p>
+				<div class="item">
+					<a href="six1.html" class="active">在线留言</a>
+				</div>
+			</div>
+			
+			<div class="main six1">
+				<div class="six1-main">
+					<img src="../img/six/a1.jpg" alt="" />
+					<div class="title">
+						<p class="p1">一步领先，步步领先</p>
+						<p class="p2">牵手花间密码，共度锦绣人生</p>
+						<p class="p3">JOIN THE CIPHER OF FLOWERS TO SHARE THE SPLENDID LIFE</p>
+					</div>
+					<div class="form clearfix">
+						<div class="form-l fl-lt">
+							<form action="">
+								<p class="p1">ONLINE MESSAGE</p>
+								<p class="p2">在线留言</p>
+								<div class="inp-top">
+									<span>姓名 NAME</span>
+									<input type="radio" name="sex" id="sex1" /><label for="sex1">先生</label>
+									<input type="radio" name="sex" id="sex2" /><label for="sex2">女士</label>
+								</div>
+								<input type="text" class="inp" />
+								<p class="inp-top">联系地址 ADD</p>
+								<input type="text" class="inp" />
+								<p class="inp-top">联系电话 TEL</p>
+								<input type="text" class="inp" />
+								<textarea name="" rows="" cols="" placeholder="咨询内容"></textarea>
+								<button>提  交</button>
+							</form>
+						</div>
+						<div class="fl-rt form-r">
+							<div class="map" id="map"></div>
+							<div class="form-r-fonts">
+								合作请直接拨打财富热线<br />留言可索取更多项目资料
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--返回顶部-->
+		<div class="backTop">
+			<span><</span>
+		</div>
+		<div class="footer">
+			<div class="footer-top">
+				<div class="y-row">
+					<div class="foot foot1">
+						<div class="tel-img">
+							<img src="../img/tel.png" alt="" />
+						</div>
+						<p class="p1">财富热线</p>
+						<p class="p2">4000–00–0000</p>
+					</div>
+					<div class="foot foot2">
+						品牌运营管理总部：<br />
+						xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					</div>
+					<div class="foot foot3">
+						<img src="../img/erweima.jpg" alt="" />	
+						<p class="foot2-p">微信二维码</p>
+					</div>
+					<div class="foot foot4">
+						<img src="../img/logo.png" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="footer-b">
+				© 2005-2018 SpringFlorist.cn 版权所有，并保留所有权利。   沪ICP备14024863号
+			</div>
+		</div>
+			
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    var point = new BMap.Point(113.3532396337,22.7710773954);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+			
+		</script>
+	</body>
+</html>

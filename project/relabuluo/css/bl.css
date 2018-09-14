@@ -1,0 +1,249 @@
+.content{
+	margin-top: 35px;
+	color: #E1BE7B;
+}
+.title{
+    text-align: center;
+    color: #E1BE7B;
+    padding-top: 44px;
+    text-transform: uppercase;
+}
+.title .p1{
+	font-size: 38px;
+}
+.title .p2{
+	font-size: 14px;
+	margin-top: 8px;
+}
+.list1{
+	width: 1110px;
+	margin: 0 auto;
+}
+.list1 li{
+    float: left;
+    width: 355px;
+    margin-right: 22px;
+    margin-top: 345px;
+    padding: 0 22px;
+    box-sizing: border-box;
+}
+.list1 li:last-child{
+	margin-right: 0;
+}
+.list1 li .p1{
+	font-size: 20px;
+}
+.list1 li .p2{
+	margin-top: 25px;
+	line-height: 26px;
+	font-size: 16px;
+}
+
+.part1{
+	width: 100%;
+	height: 665px;
+}
+.part1 .top{
+	font-size: 0;
+	width: 1110px;
+	margin: 0 auto;
+	padding-top: 45px;
+}
+.part1 .top .p1{
+	font-size: 38px;
+	line-height: 1;
+	border-right: 1px solid #E1BE7B;
+	padding-right: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .top .p1 strong{
+	margin-right: 15px;
+}
+.part1 .top .p2{
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .top .p2 span{
+	font-size: 14px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.part2{
+	width: 100%;
+	height: 584px;
+}
+.part2 .list1 li{
+	margin-top: 315px;
+}
+
+.part3{
+	width: 100%;
+	height: 756px;
+	margin-top: -12px;
+}
+.part3 .con{
+    width: 1127px;
+    margin: 362px auto 0;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+.part3 .con ul li{
+    float: left;
+    width: 241px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    margin-right: 53px;
+    text-align: center;
+}
+.part3 .con ul li:last-child{
+	margin-right: 0;
+}
+.part3 .con ul li strong{
+	font-weight: normal;
+}
+.part3 .con ul li .p1{
+	font-size: 26px;
+	line-height: 1.2;
+}
+.part3 .con ul li .p2{
+	font-size: 26px;
+	margin-top: 8px;
+	margin-bottom: 17px;
+}
+.part3 .con ul li .p3{
+	color: #1c1c1c;
+	font-size: 20px;
+}
+.part3 .con ul li .p4{
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 17px;
+}
+
+.part4{
+	width: 100%;
+	height: 625px;
+}
+.part4 .title{
+	padding-top: 36px;
+}
+.part4 .con{
+    width: 960px;
+    margin: 55px auto 0;
+}
+.part4 .con ul li{
+	font-size: 18px;
+	text-align: center;
+	font-size: 0;
+}
+.part4 .con ul li .p1{
+	font-size: 24px;
+	line-height: 88px;
+}
+.part4 .con ul li .p1,
+.part4 .con ul li span{
+	display: inline-block;
+	vertical-align: middle;
+	width: 33.3%;
+}
+.part4 .con ul li span{
+	font-size: 19px;
+    line-height: 66px;
+    margin-bottom: 3px;
+    color: #1c1c1c;
+}
+.part4 .con ul li .p2{
+	font-size: 16px;
+	line-height: 40px;
+	color: #1c1c1c;
+}
+
+.part5{
+	width: 100%;
+	height: 670px;
+}
+.part5 .title{
+	padding-top: 28px;
+}
+.part5 .con{
+	width: 1050px;
+	margin: 50px auto 0;
+}
+.part5 .con .fl-lt{
+	width: 625px;
+}
+.part5 .con .fl-lt .map{
+	border: 2px solid #E1BE7B;
+	height: 318px;
+}
+.part5 .con .fl-lt .p1{
+	font-size: 19px;
+	margin-top: 15px;
+}
+.part5 .con .fl-lt .p1 span{
+	font-family: "agency fb";
+}
+.part5 .con .fl-lt .p2{
+	font-size: 19px;
+	margin: 6px 0;
+}
+.part5 .con .fl-lt .p3{
+	font-size: 16px;
+}
+.part5 .con .fl-rt{
+	width: 375px;
+}
+.part5 .con .fl-rt .p1{
+    font-size: 37px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.part5 .con .fl-rt .p2{
+	font-size: 20px;
+	margin-top: 8px;
+	margin-bottom: 28px;
+}
+.part5 .con .fl-rt input{
+	display: block;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #E1BE7B;
+	padding: 0 15px;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-bottom: 17px;
+	background: transparent;
+	color: #E1BE7B;
+}
+.part5 .con .fl-rt .submit{
+	float: right;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	background: #E1BE7B;
+	font-size: 19px;
+	letter-spacing: 10px;
+	color: #000;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #E1BE7B;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #E1BE7B;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #E1BE7B;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #E1BE7B;
+}
+

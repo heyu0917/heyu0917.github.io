@@ -1,0 +1,116 @@
+/*lxwm*/
+.lx1 .title{
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.lx1 .title .p1{
+	font-size: 34px;
+	color:#1c938f;
+}
+.lx1 .title .p2{
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.lx1 .part{
+	height: 480px;
+	background: url(../img/zx/lx.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 40px;
+}
+.lx1 .part .fl-lt{
+	width: 370px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	margin-left: 13px;
+    margin-top: 13px;
+
+}
+.lx1 .part .p1{
+	font-size: 20px;
+	color:#1a9f9c;
+	margin-top: 25px;
+}
+.lx1 .part .p2{
+	font-size: 14px;
+	margin-top: 18px;
+	line-height: 22px;
+}
+.lx1 .part .p2 span{
+	margin-left: 68px;
+}
+.lx1 .part .p3{
+	margin-top: 15px;
+}
+.lx1 .part .p3 .p3-fonts{
+	text-align: center;
+	width: 195px;
+	padding-top: 8px;
+	height: 38px;
+	border:1px solid #1a9f9c;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	color:#1a9f9c;
+}
+.lx1 .part .p3 b{
+	font-size: 14px;
+	vertical-align: middle;
+}
+.lx1 .part .form{
+	margin-top: 15px;
+	margin-left: -50px;
+}
+.lx1 .part .form input{
+	display: block;
+	margin:0 auto;
+	font-size: 14px;
+	color:#8c8c8c;
+	border:1px solid #1a9f9c;
+	width: 280px;
+	height: 28px;
+	border-radius:10px;
+	padding-left: 5px;
+	margin-top: 10px;
+	padding:0 10px;
+	box-sizing: border-box;
+}
+.lx1 .part .form textarea{
+	display: block;
+	margin:0 auto;
+	resize: none;
+	width: 280px;
+	height: 50px;
+	border-radius:10px;
+	font-size: 14px;
+	color:#8c8c8c;
+	border:1px solid #1a9f9c;
+	padding-left: 10px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.lx1 .part .form button{
+	display: block;
+	height: 30px;
+	width: 80px;
+	margin:0 auto;
+	border-radius:10px;
+	background-color: #1a9f9c;
+	color:#fff;
+	font-size: 16px;
+	margin-top: 15px;
+}
+.lx1 .part .form button:hover{
+	cursor:pointer;
+}
+.lx1 .part .fl-rt{
+    width: 535px;
+    height: 365px;
+    margin-top: 50px;
+}
+.lx1 .part .map {
+	width: 485px;
+	height: 365px;
+	
+}

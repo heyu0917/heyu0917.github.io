@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/order_pay.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header-back">
+			<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+			<h1>订单支付</h1>
+		</div>
+		<div class="content">
+			<div class="part-one">
+				<ul class="num-mony-list">
+					<li><span class="fl-lt"></span>订单编号<span class="fl-rt">SH20160818150608784226</span></li>
+					<li><span class="fl-lt"></span>订单金额<span class="fl-rt order-pay-mony">￥<i id="price_one">184.00</i></span></li>
+				</ul>
+				<div class="button-big" id="balance_pay">余额支付(当前余额:<span id="price_two">199.99</span>元)</div>
+			</div>
+			<div class="part-two">
+				<h3>其他支付方式</h3>
+				<ul class="pay-style-list">
+					<li>
+						<img src="img/weixin.png" alt="" class="fl-lt weinxin-img"/>
+						<span class="fl-lt">微信支付</span>
+						<img src="img/arrowR.png" class="fl-rt arrowR-img"/>
+					</li>
+					<li>
+						<img src="img/zhifubao.png" alt="" class="fl-lt zhifubao-img"/>
+						<span class="fl-lt">支付宝支付</span>
+						<img src="img/arrowR.png" class="fl-rt arrowR-img"/>
+					</li>
+					<li>
+						<img src="img/yinlian.png" alt="" class="fl-lt yinlian-img"/>
+						<span class="fl-lt">中国银联支付</span>
+						<img src="img/arrowR.png" class="fl-rt arrowR-img"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--输入密码 popup-->
+		<div class="payPopup">
+			<div class="payPopup-top">
+				<div class="payPopup-top-one">
+					<img src="img/close.png" alt="" id="close_payPopup"/>
+					<span>请输入支付密码</span>
+				</div>
+				<div class="payPopup-top-two">
+					<h4>订单金额</h4>
+					<div>￥<span>184.00</span></div>
+				</div>
+				<div class="payPopup-top-three">
+					<input type="password" readonly class="fl-lt input-password"/>
+					<input type="password" readonly class="fl-lt input-password"/>
+					<input type="password" readonly class="fl-lt input-password"/>
+					<input type="password" readonly class="fl-lt input-password"/>
+					<input type="password" readonly class="fl-lt input-password"/>
+					<input type="password" readonly class="fl-lt input-password"/>					
+				</div>
+			</div>
+			<div class="payPopup-bottom">
+				<ul class="payPopuup-numbers-list">
+					<li class="li-num">1</li><li class="li-num">2</li><li class="li-num">3</li>
+					<li class="li-num">4</li><li class="li-num">5</li><li class="li-num">6</li>
+					<li class="li-num">7</li><li class="li-num">8</li><li class="li-num">9</li>
+					<li class="payPopup-li-i"></li>
+					<li class="li-num">0</li>
+					<li class="payPopup-li-i" id="close_number"><img src="img/close.png" alt=""/></li>
+				</ul>
+			</div>
+		</div>
+		<div class="bg"></div>
+		<div class="bottom-popup"></div>
+		
+		<script>
+			$(function(){			
+				var price_one = eval($('#price_one').html());
+				var price_two = eval($('#price_two').html());
+				$('#balance_pay').tap(function(){
+					if(price_one > price_two){
+						$('.bottom-popup').html("余额不足");
+						$('.bottom-popup').css('opacity','1');
+						
+						setTimeout(function(){
+							$('.bottom-popup').html("");
+							$('.bottom-popup').css('opacity','0');
+						},1500)
+					}else{
+						$('.payPopup').css({'bottom':'0'});
+						$('.bg').css({'bottom':'0','opacity':'1'});
+						$('.input-password').val('');
+						console.log($('.input-password').val());
+						
+						pay_popup();
+					}
+				})
+				
+				$('#close_payPopup').tap(function(){
+					$('.payPopup').css({'bottom':'-100%'});
+					$('.bg').css({'bottom':'-100%','opacity':'0'});
+				})
+			})
+			
+			function pay_popup(){
+				var p = $('.input-password');
+				var len = $('.input-password').length; 
+				var flag1 = false,
+					flag2 = false,
+					flag3 = false,
+					flag4 = false,
+					flag5 = false,
+					flag6 = false;
+				$('.li-num').tap(function(){
+					if(p.eq(0).val() == ''){
+						p.eq(0).val($(this).html());
+						flag1 = true;
+					}else if(flag1&&p.eq(1).val() == ''){
+						p.eq(1).val($(this).html());
+						flag2 = true;
+					}else if(flag1&&flag2&&p.eq(2).val() == ''){
+						p.eq(2).val($(this).html());
+						flag3 = true;
+					}else if(flag1&&flag2&&flag3&&p.eq(3).val() == ''){
+						p.eq(3).val($(this).html());
+						flag4 = true;
+					}else if(flag1&&flag2&&flag3&&flag4&&p.eq(4).val() == ''){
+						p.eq(4).val($(this).html());
+						flag5 = true;
+					}else if(flag1&&flag2&&flag3&&flag4&&flag5&&p.eq(5).val() == ''){
+						p.eq(5).val($(this).html());
+						flag6 = true;
+					}
+					
+					if(flag6){
+						$('.payPopup').css({'bottom':'-100%'});
+						$('.bg').css({'bottom':'-100%','opacity':'0'});
+						
+						flag6 = false;
+						
+						//密码正确
+						//$('.bottom-popup').html("支付成功");
+//						$('.bottom-popup').css('opacity','1');
+//						
+//						setTimeout(function(){
+//							$('.bottom-popup').html("");
+//							$('.bottom-popup').css('opacity','0');
+//						},1500)
+						//密码错误
+						//$('.bottom-popup').html("支付密码错误");
+//						$('.bottom-popup').css('opacity','1');
+//						
+//						setTimeout(function(){
+//							$('.bottom-popup').html("");
+//							$('.bottom-popup').css('opacity','0');
+//						},1500)
+					}
+					
+					$('#close_number').tap(function(){
+						for(var i=0;i<len;i++){
+							if(p.eq(i).val() !== ''){
+								p.eq(i).val('');
+							}
+						}
+					})
+				})	
+			}
+		</script>
+	</body>
+</html>

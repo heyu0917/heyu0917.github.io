@@ -1,0 +1,60 @@
+$(function(){
+	$('#demo1').banqh({
+		box:"#demo1",//总框架
+		pic:"#ban_pic1",//大图框架
+		pnum:"#ban_num1",//小图框架
+		prev_btn:"#arrow_left1",//小图左箭头
+		next_btn:"#arrow_right1",//小图右箭头
+		autoplay:false,//是否自动播放
+		interTime:2000,//图片自动切换间隔
+		delayTime:400,//切换一张图片时间
+		pop_delayTime:400,//弹出框切换一张图片时间
+		order:0,//当前显示的图片（从0开始）
+		min_picnum:5,//小图显示数量
+	})
+	$('#demo2').banqh({
+		box:"#demo2",//总框架
+		pic:"#ban_pic2",//大图框架
+		pnum:"#ban_num2",//小图框架
+		autoplay:false,//是否自动播放
+		prev_btn:"#arrow_left2",//小图左箭头
+		next_btn:"#arrow_right2",//小图右箭头
+		interTime:5000,//图片自动切换间隔
+		delayTime:400,//切换一张图片时间
+		pop_delayTime:400,//弹出框切换一张图片时间
+		order:0,//当前显示的图片（从0开始）
+		min_picnum:5,//小图显示数量
+	})
+	$('#demo3').banqh({
+		box:"#demo3",//总框架
+		pic:"#ban_pic3",//大图框架
+		pnum:"#ban_num3",//小图框架
+		prev_btn:"#arrow_left3",//小图左箭头
+		next_btn:"#arrow_right3",//小图右箭头
+		autoplay:false,//是否自动播放
+		interTime:2000,//图片自动切换间隔
+		delayTime:400,//切换一张图片时间
+		pop_delayTime:400,//弹出框切换一张图片时间
+		order:0,//当前显示的图片（从0开始）
+		min_picnum:5,//小图显示数量
+	})
+	$('#demo4').banqh({
+		box:"#demo4",//总框架
+		pic:"#ban_pic4",//大图框架
+		pnum:"#ban_num4",//小图框架
+		autoplay:false,//是否自动播放
+		prev_btn:"#arrow_left4",//小图左箭头
+		next_btn:"#arrow_right4",//小图右箭头
+		interTime:5000,//图片自动切换间隔
+		delayTime:400,//切换一张图片时间
+		pop_delayTime:400,//弹出框切换一张图片时间
+		order:0,//当前显示的图片（从0开始）
+		min_picnum:5,//小图显示数量
+	})
+	
+	$('.nav-list li').click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+		var index = $(this).index();
+		$('.wrap .item').eq(index).show().siblings().hide();
+	})
+})

@@ -1,0 +1,54 @@
+/*公共*/
+.cp .box{
+	position: relative;
+	padding-top: .52rem;
+	padding-bottom: .6rem;
+}
+.cp .box .img1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.cp .box .item{
+	width: 80%;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.cp .box .item .p1{
+	font-size: .36rem;
+	display: inline-block;
+	padding-bottom: .08rem;
+	border-bottom: 1px solid #000;
+	margin-bottom: .08rem;
+}
+.cp .box .item .p2{
+	font-size: .3rem;
+	margin-bottom: .04rem;
+}
+.cp .box .item .p3{
+	font-size: .26rem;
+}
+.cp .box .item .p4{
+	font-size: .24rem;
+	font-weight: normal;
+	margin-top: .32rem;
+	line-height: .42rem;
+}
+
+
+/*洗碗机*/
+.cp2 .box{
+	padding-bottom: .32rem;
+}
+.cp2 .box .item .p1{
+	padding-right: .32rem;
+}
+
+/*炒菜机*/
+.cp3 .box{
+	padding-bottom: .32rem;
+}
+

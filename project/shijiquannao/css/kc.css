@@ -1,0 +1,103 @@
+/*kc-nav*/
+.content .content-nav ul li{
+	text-align: left;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+.content .content-nav ul li.active::before{
+	content:"";
+	left: 20px;
+}
+
+/*kc1*/
+.kc1 .title{
+	text-align: center;
+	font-size: 0.3rem;
+	color:#231815;
+}
+
+.kc1 .title .p2{
+	color:#7a272c;
+}
+.kc1 .title .p3{
+	font-size: 12px;
+}
+.kc1 .part .part-top{
+	width: 11.3rem;
+    margin: 0 auto;
+	font-size: 18px;
+	color:#7a272c;
+	border-bottom: 2px solid #7a272c;
+	margin-top: 0.4rem;
+	padding-bottom: 5px;
+}
+.kc1 .part .part-top span{
+	font-size: 12px;
+	color:#394246;
+}
+
+.kc1 .part .part-main .picScroll-left{
+	width: 100%;
+	position: relative;
+	margin-top: 0.5rem;
+}
+.kc1 .part .part-main .picScroll-left .bd{
+	width: 11.35rem;
+	margin: 0.1rem auto;
+	overflow: hidden;
+}
+.kc1 .part .part-main .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 2.07rem;
+	height: 3rem;
+	margin: 0 0.1rem;
+	cursor: pointer;
+}
+.kc1 .part .part-main .picScroll-left .bd li .box{
+	position: relative;
+	width: 100%;
+}
+.kc1 .part .part-main .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+}
+
+.kc1 .part .part-main .picScroll-left .bd li .li-fonts{
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	position:relative;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    line-height: 0.4rem;
+}
+.kc1 .part .part-main .picScroll-left .bd li .li-fonts::before{
+	content:"";
+	width: 8px;
+	height: 8px;
+	background-color: #7a272c;
+	display: inline-block;
+	vertical-align: 2px;
+}
+.kc1 .part .part-main .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	width: 23px;
+	height: 42px;
+	cursor: pointer;
+	margin-top:-21px;
+}
+.kc1 .part .part-main .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.kc1 .part .part-main .picScroll-left .arrow-left{
+	left: 0.4rem;
+}
+.kc1 .part .part-main .picScroll-left .arrow-right{
+	right: 0.4rem;
+}

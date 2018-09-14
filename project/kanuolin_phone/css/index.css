@@ -1,0 +1,159 @@
+.part1{
+	position: relative;
+	width: 100%;
+}
+.part1 .img1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.part1 ul{
+	padding: .48rem .4rem;
+}
+.part1 ul li{
+	float: left;
+	width: 28%;
+	margin-right: 8%;
+	position: relative;
+	margin-top: -.7rem;
+}
+.part1 ul li:nth-child(1),
+.part1 ul li:nth-child(2){
+	margin-top: 0;
+}
+.part1 ul li:nth-child(5){
+	margin-right: 0;
+} 
+.part1 ul li:nth-child(1){
+	margin-left: 18%;
+}
+.part1 ul li:nth-child(3){
+	z-index: 5;
+}
+.part1 ul li:nth-child(1){
+	z-index: 4;
+}
+.part1 ul li:nth-child(4){
+	z-index: 3;
+}
+.part1 ul li:nth-child(2){
+	z-index: 2;
+}
+.part1 ul li img{
+	display: block;
+	width: 100%;
+}
+.part1 ul li p{
+	color: #1D2087;
+	font-size: .38rem;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+	-o-transform: translate3d(0,-50%,0);
+	-moz-transform: translate3d(0,-50%,0);
+}
+
+.part2{
+	position: relative;
+	width: 100%;
+	padding-top: .28rem;
+}
+.part2 .img1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.part2 .title{
+	position: relative;
+	color: #fff;
+	text-align: center;
+	width: 4.4rem;
+	margin: 0 auto;
+}
+.part2 .title .p1{
+	font-size: .34rem;
+	font-weight: bold;
+	line-height: 1;
+}
+.part2 .title .p2{
+	font-size: .34rem;
+}
+.part2 .title .p3{
+	font-size: .28rem;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+.part2 .title:before,
+.part2 .title:after{
+	content: '';
+	width: .24rem;
+	height: .82rem;
+	border: 1px solid #fff;
+	position: absolute;
+	top: .14rem;
+}
+.part2 .title:before{
+	border-right: 0;
+	left: 0;
+}
+.part2 .title:after{
+	border-left: 0;
+	right: 0;
+}
+
+.part2 ul{
+	padding: .32rem; 
+}
+.part2 ul li{
+	float: left;
+	width: 47.2%;
+	position: relative;
+	border-top-left-radius: .12rem;
+	border-top-right-radius: .12rem;
+	border: 1px solid #fff;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.part2 ul li:nth-child(2){
+	float: right;
+}
+.part2 ul li img{
+	display: block;
+	width: 100%;
+}
+.part2 ul li p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	background: rgba(29, 32, 135,.75);
+	color: #fff;
+	text-align: center;
+	height: .44rem;
+	line-height: .44rem;
+	font-size: .24rem;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

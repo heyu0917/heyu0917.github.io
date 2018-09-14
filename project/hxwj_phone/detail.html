@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/detail.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	       
+	        $(function(){
+		       	var config = window.location.search;
+					if(config == "?flag=shoppingCar"){
+			        	var img_html = '<div id="prev_page_back"><img src="img/arrowL.png" alt="" class="arrowL-img"/></div>';
+					}else{
+						var img_html = '<a href="javascript:;" onclick="javascript:history.back(-1)" id="nav_back"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>';
+					}
+					$("#link_page").html(img_html);
+			   		
+			    	$('#prev_page_back').tap(function(){
+						location.href="shoppingCar.html";
+	
+				})
+	       })
+	    </script>
+	</head>
+	<body>
+		<div id="wrap_one">
+			<div class="header">
+				<ul class="nav-list" id="nav_list">
+					<li class="select" id="nav_li0"><a href="">商品</a></li>
+					<li id="nav_li1"><a href="">详情</a></li>
+					<li id="nav_li2"><a href="">评价</a></li>
+				</ul>
+				<div id="link_page"></div>
+			</div>
+			
+			<!--商品-->
+			<div class="goods content" id="goods">			
+				<div class="banner">
+					<div id="banner_list_wrap">
+						<ul class="banner-list" id="banner_list">
+							<li><img src="img/detail1.jpg" alt="" /></li>
+							<li><img src="img/detail1.jpg" alt="" /></li>
+							<li><img src="img/detail1.jpg" alt="" /></li>
+							<li><img src="img/detail1.jpg" alt="" /></li>
+						</ul>
+					</div>
+					<ul class="banner-btn" id="banner_btn"></ul>
+				</div>
+				<div class="goods-con">
+					<div class="goods-tp">
+						<h2 class="goods-title comWidth">壳牌（Shell）黄喜力Helix HX5 10W-40 优质多级润 滑油 SN4L</h2>				
+					</div>
+					<div class="goods-price">
+						<div class="comWidth3">
+							<strong><i>￥</i>119.00</strong><span class="before-price">￥119.00<i></i></span>
+						</div>
+					</div>
+					<div class="collected clearfix" id="collected_spots">
+						<div class="comWidth">
+							<div class="fl-lt">已选<span>黄壳HX5 10W-40，4L， 1个</span></div>
+							<ul class="fl-rt three-spots"><li></li><li></li><li></li><ul>
+						</div>
+					</div>
+					<div class="goods-info clearfix">
+						<div class="comWidth">
+							<ul class="goods-info-list">
+								<li>品 &nbsp;&nbsp;&nbsp;牌：<span>欢喜我家</span></li>
+								<li>主要成分：<span>竹浆</span></li>
+								<li>产品规格：<span>145mm×190mm×240张</span></li>
+								<li>卫生标准：<span>GB15979</span></li>
+								<li>执行许可：<span>QB/T4509</span></li>
+								<li>卫生许可：<span>粤卫消证字(2006)第0601号</span></li>
+								<li>保质期：<span>三年</span></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!--图文详情-->
+					<div class="imgText">
+						<div class="imgText-header">
+							<img src="img/arrowT.png" alt="" /><span>上拉查看图文详情</span>
+						</div>
+						<div class="imgText-content">
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!--footer-->
+			<div class="footer-detail">
+				<div class="collect footer-l fl-lt" id="collect"><img src="img/collect.png" alt="" /><span>收藏</span></div>
+				<div class="add-shopCar footer-r fl-lt" id="add_shopCar">加入购物车</div>
+				<div class="now-pay footer-r fl-lt" id="now_pay"><a href="sure_order.html">立即购买</a></div>
+			</div>
+		</div>
+		
+		<!--详情-->
+		<div class="detail content" id="detail">
+			<div class="detail-box" id="detail_box">				
+			</div>
+		</div>
+		
+		<!--评价-->
+		<div class="evaluate evaluate-wrap content" id="evalute">
+			<ul>
+				<li>
+					<a class="fl-lt"><img src="img/person_e.png" class="common"></a>
+					<p class="fl-lt e-name"><span>胡耀月</span><br>2016-06-30</p>
+					<p class="fl-rt star"><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i></p>
+					<p class="e-content clearfix"></p>
+				</li>
+				<li>
+					<a class="fl-lt"><img src="img/person_e.png" class="common"></a>
+					<p class="fl-lt e-name"><span>胡耀月</span><br>2016-06-30</p>
+					<p class="fl-rt star"><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i></p>
+					<p class="e-content clearfix">课程讲的非常仔细</p>
+				</li>
+				<li>
+					<a class="fl-lt"><img src="img/person_e.png" class="common"></a>
+					<p class="fl-lt e-name"><span>胡耀月</span><br>2016-06-30</p>
+					<p class="fl-rt star"><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i><i>&#xe61d;</i></p>
+					<p class="e-content clearfix">主讲人有点贫过了，建议以后少说点没用的，核心东西多 讲一些</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--popup-->
+		<div class="bottom-popup" id="collect_state"></div>
+		<div class="shopCar-popup" id="shopCar_popup"><img src="img/right.png" alt="" />添加成功，在购物车等亲哦</div>
+		
+		<!--collected popup-->
+		<div class="collected-popup" id="collected_popup">
+			<div class="collected-popup-top">
+				<div class="collected-popup-img" id="collected_popup_img">
+					<img src="img/detail1.jpg" alt="" />
+				</div>
+				<div class="collected-popup-price">
+					<span class="cp-price">￥119.00</span>
+					<span class="cp-kucun">库存：<strong>2259件</strong></span>
+				</div>
+				<div class="close-wrap" id="collected_close">
+					<img src="img/close.png" alt="" class="collected-close"/>
+				</div>		
+			</div>
+			<div class="collected-popup-con">
+				<div class="comWidth2">
+					<h4>产品</h4>
+					<ul class="cp-list" id="cp_list1">
+						<li>
+							<input type="radio" name="cp_li" id="cp_li1" value="" />
+							<label for="cp_li1">140g*27卷</label>
+						</li>
+						<li>
+							<input type="radio" name="cp_li" id="cp_li2" value="" />
+							<label for="cp_li2">140g*30卷</label>
+						</li>
+						<li>
+							<input type="radio" name="cp_li" id="cp_li3" value="" />
+							<label for="cp_li3">180g*27卷</label>
+						</li>
+						<li>
+							<input type="radio" name="cp_li" id="cp_li4" value="" />
+							<label for="cp_li4">180g*30卷</label>
+						</li>
+						<li>
+							<input type="radio" name="cp_li" id="cp_li5" value="" />
+							<label for="cp_li5">160g*27卷</label>
+						</li>
+						<li>
+							<input type="radio" name="cp_li" id="cp_li6" value="" />
+							<label for="cp_li6">160g*30卷</label>
+						</li>
+						<li>
+							<input type="radio" name="cp_li" id="cp_li7" value="" />
+							<label for="cp_li7">200g*27卷</label>
+						</li>
+						<li class="select">
+							<input type="radio" name="cp_li" id="cp_li8" value="" checked/>
+							<label for="cp_li8">200g*30卷</label>
+						</li>
+					</ul>
+				</div>
+				<div class="collected-popup-number clearfix">
+					<h3 class="fl-lt">数量</h3>
+					<div class="num-frame fl-rt">
+						<i class="num-frame-minus" id="reduce">-</i>
+						<span class="num-frame-num">1</span>
+						<i class="num-frame-plus" id="add">+</i>
+					</div>
+				</div>
+			</div>
+			<div class="collected-footer" id="collected_footer">
+				<span class="collected-car" id="add_shopCar2">加入购物车</span><span class="collected-pay"><a href="sure_order.html">立即购买</a></span>
+			</div>
+		</div>
+		
+		<div class="bg2" id="bg"></div>
+		
+		<script>
+			var len = document.getElementById('banner_list').getElementsByTagName('li').length;
+			var btn = document.getElementById("banner_btn");
+			for(var i = 0; i < len; i++){
+				btn.innerHTML += '<li></li>';
+			}
+			document.getElementById('banner_btn').getElementsByTagName('li')[0].className = 'light';
+		</script>
+		
+		<script type="text/javascript" src="js/detail.js"></script>
+	</body>
+
+<script type="text/javascript" src="js/swipe.js"></script>	
+<script type="text/javascript">
+	var len = document.getElementById('banner_btn').getElementsByTagName('li').length;
+	var slider = Swipe(document.getElementById('banner_list_wrap'), {
+			continuous: true,
+			callback: function(pos) {
+				if(pos == 2 && len == 2) pos = 0;
+				if(pos == 3 && len == 2) pos = 1;
+				
+				var i = bullets.length;
+				while (i--) {
+					bullets[i].className = ' ';
+				}
+				bullets[pos].className = 'light';
+			}
+
+		});
+	var bullets = document.getElementById('banner_btn').getElementsByTagName('li');
+
+	//已选中的选择
+	$("#cp_list1 li").tap(function(){
+		$(this).addClass('select').siblings().removeClass('select');
+	})
+	$("#cp_list2 li").tap(function(){
+		$(this).addClass('select').siblings().removeClass('select');
+	})
+	//已选中的数量加减
+	var n = 1;
+	$("#add").tap(function(){
+		n++;
+		$(this).prev().html(n);
+		$("#reduce").css("color","#222");
+	})
+	$("#reduce").tap(function(){
+		if(n>2){
+			n--;
+			$(this).next().html(n);
+			$("#reduce").css("color","#222");			
+		}else{
+			$(this).next().html(1);
+			$("#reduce").css("color","#D7D7D7");
+		}
+	})
+
+	//加入购物车
+	$('#add_shopCar2,.package-li-car').tap(function(){
+		$('#shopCar_popup').css({'opacity':'1','z-index':'116'});
+		setTimeout(function(){
+			$('#shopCar_popup').css({'opacity':'0','z-index':'-1'});
+		},2000);
+	})
+	
+	$(function(){
+		var imgArr = ['img/detailInfo1.jpg','img/detailInfo2.jpg','img/detailInfo3.jpg','img/detailInfo4.jpg','img/detailInfo5.jpg','img/detailInfo6.jpg',
+					'img/detailInfo7.jpg','img/detailInfo8.jpg','img/detailInfo9.jpg','img/detailInfo10.jpg'];
+		for(var i=1;i<=imgArr.length;i++){
+			detail_img(i);
+		}
+	})
+
+	function detail_img(i){
+		var imgObj = '<img src='+'img/detailInfo'+i+'.jpg >';
+		$('#detail_box').append(imgObj);
+	}
+	
+</script>
+</html>

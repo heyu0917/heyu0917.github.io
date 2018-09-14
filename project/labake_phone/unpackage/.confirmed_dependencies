@@ -1,0 +1,74 @@
+{
+	"set.html": {
+		"resources": [
+			"img/arrowR.png",
+			"js/zepto.min.js",
+			"personal.html"
+		],
+		"refer": [
+			"personal.html"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"img/search.png",
+			"css/index.css",
+			"js/common.js",
+			"my.html",
+			"css/common.css",
+			"img/shangjia-hui.png",
+			"img/con1.jpg",
+			"img/arrowL_white.png",
+			"img/xinxi-hui.png",
+			"font/star.woff",
+			"img/home-lan.png",
+			"img/person.png",
+			"img/person-hui.png",
+			"img/scan.png"
+		],
+		"refer": [
+			"my.html"
+		]
+	},
+	"my.html": {
+		"resources": [
+			"img/shenqing.png",
+			"set.html",
+			"img/home-hui.png",
+			"img/jin-e.png",
+			"img/shujuzhongxin.png",
+			"img/shangdian.png",
+			"img/person-lan.png",
+			"css/my.css",
+			"img/gold.png",
+			"img/zhangdan.png",
+			"img/erweima.png",
+			"img/set.png",
+			"img/saoyisao.png",
+			"img/hongbao.png"
+		],
+		"refer": [
+			"set.html"
+		]
+	},
+	"personal.html": {
+		"resources": [
+			"img/clear.png",
+			"js/personal.js",
+			"css/personal.css",
+			"img/right.png",
+			"js/camera.js",
+			"img/head_.jpg",
+			"js/common.js",
+			"css/common.css",
+			"img/arrowR.png",
+			"js/zepto.min.js",
+			"img/arrowL_white.png",
+			"set.html",
+			"css/feedback-page.css"
+		],
+		"refer": [
+			"set.html"
+		]
+	}
+}

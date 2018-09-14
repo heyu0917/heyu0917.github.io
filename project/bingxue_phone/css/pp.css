@@ -1,0 +1,361 @@
+/*品牌简介*/
+.ppjj .p0{
+	text-align: center;
+	font-size: .3rem;
+	text-transform: uppercase;
+	color: #008BD5;
+}
+.ppjj .title{
+	height: .52rem;
+	border: 2px solid #008BD5;
+	width: 80%;
+	margin: .32rem auto;
+	text-align: center;
+}
+.ppjj .title .p1{
+    color: #008BD5;
+    font-weight: bold;
+    font-size: .4rem;
+    background: #D6EDF3;
+    margin-top: -.16rem;
+    line-height: 1;
+    width: 60%;
+    margin: -.2rem auto .12rem;
+}
+.ppjj .title .p2{
+	display: inline-block;
+	background: #008BD5;
+	color: #fff;
+	font-size: .3rem;
+	height: .44rem;
+	line-height: .44rem;
+	padding-left: .12rem;
+}
+.ppjj .con{
+	width: 91%;
+	position: relative;
+	margin-bottom: .16rem;
+}
+.ppjj .con .box{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 2;
+}
+.ppjj .con .box p{
+	font-size: .24rem;
+	color: #666;
+	text-indent: .48rem;	
+}
+
+/*品牌特色*/
+.ppts .part1{
+	width: 90%;
+	margin: 0 auto;
+}
+.ppts .item{
+	margin-bottom: .32rem;
+}
+.ppts .item .img1{
+	width: 1rem;
+	display: block;
+	margin: 0 auto;
+}
+.ppts .item .title {
+	width: 1.8rem;
+	height: .54rem;
+	line-height: .54rem;
+	margin: 0 auto;
+	text-align: center;
+	font-size: .36rem;
+	color: #008BD5;
+	position: relative;
+	z-index: 2;
+}
+.ppts .item .title img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.ppts .item .border{
+	width: 49%;
+	margin: -.32rem auto .12rem;
+	height: .4rem;
+	border: 2px solid #008BD5;
+	border-bottom: 0;
+}
+.ppts .item .p1{
+	font-size: .42rem;
+	color: #008BD5;
+	text-align: center;
+	margin-bottom: .2rem;
+	line-height: 1.3;
+}
+.ppts .item .line{
+	width: .6rem;
+	height: 2px;
+	background: #008BD5;
+	margin: .16rem auto;
+}
+.ppts .item .p2{
+	font-size: .24rem;
+	color: #666;
+	text-align: center;
+}
+
+/*品牌形象*/
+.ppxx .item{
+	position: relative;
+}
+.ppxx .ab-img2{
+	width: .9rem;
+	position: absolute;
+	right: .12rem;
+	top: .2rem;
+	z-index: 2;
+}
+.ppxx .p0{
+	text-align: center;
+	font-size: .3rem;
+	text-transform: uppercase;
+	color: #008BD5;
+}
+.ppxx .title{
+	height: .96rem;
+	border: 2px solid #008BD5;
+	width: 60%;
+	margin: .32rem auto .48rem;
+	text-align: center;
+	color: #008BD5;
+}
+.ppxx .title .p1{
+    font-weight: bold;
+    font-size: .4rem;
+    background: #D6EDF3;
+    margin-top: -.16rem;
+    line-height: 1;
+    width: 50%;
+    margin: -.2rem auto 0;
+}
+.ppxx .title .p2{
+    font-size: .36rem;
+}
+.ppxx .title .p3{
+	display: inline-block;
+	background: #FCCF01;
+	font-size: .3rem;
+	height: .44rem;
+	line-height: .44rem;
+	padding: 0 .32rem;
+	text-transform: uppercase;
+}
+.ppxx ul{
+	width: 92%;
+	margin: .24rem auto .4rem;
+}
+.ppxx ul li{
+	height: 2.2rem;	
+}
+.ppxx ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ppxx ul li .fl-lt{
+	width: 50%;
+	height: 100%;
+}
+.ppxx ul li .fl-rt{
+	width: 50%;
+	height: 100%;
+}
+.ppxx ul li .li-con{
+	border: 2px solid #008BD5;
+	padding: .12rem;
+	box-sizing: border-box;
+	font-size: .24rem;
+}
+.ppxx ul li .fl-rt{
+	color: #008BD5;
+}
+.ppxx ul li .fl-lt .p2{
+	font-weight: bold;
+	margin-bottom: .24rem;
+}
+.ppxx ul li .li-con.fl-lt{
+	background: #008BD5;
+	color: #fff;
+}
+.ppxx ul li p{
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;	
+}
+
+.ppxx .picScroll-left{
+	width: 100%;
+	height: 3.3rem;
+	z-index: 2;
+	position: relative;
+	margin-bottom: .4rem;
+}
+.ppxx .picScroll-left .bd{
+	width: 4.4rem;
+	height: 3.3rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.ppxx .picScroll-left .bd ul{
+	position: relative;
+}
+.ppxx .picScroll-left .bd ul li{
+	width: 4.4rem;
+	height: 3.3rem;
+	float: left;
+	position: relative;
+}
+.ppxx .picScroll-left .bd ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.ppxx .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -.34rem;
+	width: .68rem;
+	height: .68rem;
+	z-index: 11;
+	text-align: center;
+}
+.ppxx .picScroll-left .arrow img{
+	display: block;
+	width: 100%;
+}
+.ppxx .picScroll-left .arrow-left{
+	left: 0;
+}
+.ppxx .picScroll-left .arrow-right{
+	right: 0;
+}
+
+
+/*市场攻略*/
+.ppgl .part{
+	width: 100%;
+	position: relative;
+}
+.ppgl .ab-img1{
+	width: 1.2rem;
+	position: absolute;
+	left: .12rem;
+	top: .2rem;
+	z-index: 2;
+}
+.ppgl .ab-img2{
+	width: .9rem;
+	position: absolute;
+	right: .12rem;
+	top: .2rem;
+	z-index: 2;
+}
+.ppgl .p0{
+	text-align: center;
+	font-size: .3rem;
+	text-transform: uppercase;
+	color: #008BD5;
+}
+.ppgl .title{
+	height: .96rem;
+	border: 1px solid #008BD5;
+	width: 100%;
+	margin: .28rem auto .48rem;
+	text-align: center;
+	color: #008BD5;
+	box-sizing: border-box;
+}
+.ppgl .title .p1{
+    font-weight: bold;
+    font-size: .4rem;
+    background: #D6EDF3;
+    margin-top: -.16rem;
+    line-height: 1;
+    width: 80%;
+    margin: -.2rem auto .08rem;
+}
+.ppgl .title .p2{
+    font-size: .36rem;
+}
+.ppgl .item{
+	width: 92%;
+	margin: -.4rem auto .4rem;
+	text-align: center;
+}
+.ppgl .item p{
+	background: #FCCF01;
+	color: #008BD5;
+	font-size: .24rem;
+	border: 1px solid #008BD5;
+	display: inline-block;
+	padding: .16rem .08rem;
+	margin-top: -.2rem;
+}
+.ppgl .box{
+	width: 74%;
+	margin: 0 auto;
+	text-align: center;
+}
+.ppgl .box p{
+	background: #008BD5;
+	color: #fff;
+	text-align: center;
+	padding-top: .2rem;
+	padding-bottom: .4rem;
+	font-size: .24rem;
+}
+.ppgl .title2{
+	width: 62%;
+	margin-bottom: .24rem;
+}
+
+
+@media (max-width: 350px) {
+	.ppjj .con .box p{
+		transform: scale(.92);
+		-webkit-transform: scale(.92);
+		-o-transform: scale(.92);
+		-moz-transform: scale(.92);
+		-ms-transform: scale(.92);
+		width: 109%;
+		margin-left: -4%;
+		margin-top: -.12rem;
+	}	
+	.ppxx ul li p{
+		font-size: .24rem;
+		transform: scale(.833);
+		-webkit-transform: scale(.833);
+		-o-transform: scale(.833);
+		-moz-transform: scale(.833);
+		-ms-transform: scale(.833);
+		width: 120%;
+		margin-left: -10%;
+	}
+	.ppxx ul li .p1{
+		margin-top: -.16rem;
+		line-height: 1.4;
+	}
+}
+
+
+
+

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/sure_order.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>		
+		<!--收货地址-->
+		<div class="address-popup">
+			<div class="header-back">
+				<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img" id="address_back"/></a>
+				<h1>地址管理</h1>
+			</div>
+			<!--当没有收货地址-->
+			<div class="noAddress">
+				<img src="img/address-icon.png" alt="" class="noAddressImg"/>
+				<h1>您还没有收货地址哦！</h1>
+				<p id="add_address_btn">添加地址</p>
+			</div>
+			<!--有收货地址-->
+			<div class="haveAddress">
+				<ul class="haveAddress-list">
+					<li>
+						<div class="haveAddress-list-liT">
+							<h3>小明<span>152123456789</span></h3>
+							<p>湖北省武汉市武昌区水果湖广场A座2109室</p>
+						</div>
+						<div class="haveAddress-list-liD">
+							<div class="fl-lt haveAddress-img"><img src="img/round_light.png" alt="" class="defalut-img"/>设为默认</div>
+							<div class="fl-rt">
+								<span class="edit-btn"><img src="img/edit.png" alt="" />编辑</span>
+								<span class="delete-btn"><img src="img/dustbin.png"/>删除</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="haveAddress-list-liT">
+							<h3>小明<span>152123456789</span></h3>
+							<p>湖北省武汉市武昌区水果湖广场A座2109室</p>
+						</div>
+						<div class="haveAddress-list-liD">
+							<div class="fl-lt haveAddress-img"><img src="img/round.png" alt="" class="defalut-img"/>设为默认</div>
+							<div class="fl-rt">
+								<span class="edit-btn"><img src="img/edit.png" alt="" />编辑</span>
+								<span class="delete-btn"><img src="img/dustbin.png"/>删除</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="add-new-address"><span class="button-big" id="add_address_btn2">添加新地址</span></div>
+		</div>
+		<!--添加地址-->
+		<div class="add-address-popup">
+			<div class="header-back">
+				<div id="add_address_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>添加地址</h1>
+			</div>
+			<div class="add-address-con">
+				<ul class="add-address-list">
+					<li><span>收货人</span><input type="text" value="小明" readonly/></li>
+					<li><span>联系电话</span><input type="text" value="152123456789" readonly/></li>
+					<li class="select-area"><span class="fl-lt">所在地区</span><span class="fl-rt"><i>请选择</i><img src="img/arrowR.png" alt="" class="arrowR-img"/></span></li>
+					<li class="detail-address"><textarea onfocus="if(value=='详细地址'){value=''}" onblur="if(value==''){value='详细地址'}">详细地址</textarea></li>
+				</ul>
+				<div class="set-defalut">
+					<div class="fl-lt">设为默认</div>
+					<div class="switch-close fl-rt add-address-switch"><i class="swipe-address"></i></div>
+				</div>
+				<div class="button-big button-big-save">保存</div>
+			</div>
+		</div>
+		<!--编辑地址-->
+		<div class="edit-address-popup">
+			<div class="header-back">
+				<div id="edit_address_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>编辑地址</h1>
+				<span id="edit_delete">删除</span>
+			</div>
+			<div class="edit-address-con">
+				<ul class="edit-address-list">
+					<li><span>收货人</span><input type="text" value="小明" readonly/></li>
+					<li><span>联系电话</span><input type="text" value="152123456789" readonly/></li>
+					<li class="select-area"><span class="fl-lt">所在地区</span><span class="fl-rt"><i>湖北省 武汉市</i><img src="img/arrowR.png" alt="" class="arrowR-img"/></span></li>
+					<li class="detail-address"><textarea onfocus="if(value=='详细地址'){value=''}" onblur="if(value==''){value='详细地址'}">武昌区水果湖广场A座2109室</textarea></li>
+				</ul>
+				<div class="set-defalut">
+					<div class="fl-lt">设为默认</div>
+					<div class="switch-close fl-rt add-address-switch"><i class="swipe-address"></i></div>
+				</div>
+				<div class="button-big button-big-save">保存</div>
+			</div>
+		</div>
+		<!--选择地区 省-->
+		<div class="select-province-popup">
+			<div class="header-back">
+				<div id="select_province_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>选择地区</h1>
+			</div>
+			<div class="select-province-con">
+				<ul class="select-province-list">
+					<li><span class="fl-lt">湖北</span><span class="fl-rt"><img src="img/arrowR.png" alt="" class="arrowR-img"/></span></li>
+				</ul>
+			</div>
+		</div>
+		<!--选择地区 市-->
+		<div class="select-city-popup">
+			<div class="header-back">
+				<div id="select_city_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>选择地区</h1>
+			</div>
+			<div class="select-city-con">
+				<ul class="select-city-list">
+					<li>武汉</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--delete popup-->
+		<div class="delete-popup" id="delete_popup">
+			<p class="delete-popup-top">确认要删除这<span id="goods_num"></span>种商品吗？</p>
+			<p class="delete-popup-btn"><span class="fl-lt" id="cancel_btn">取消</span><span class="fl-lt" id="sure_btn">确定</span></p>
+		</div>
+		<div class="bg2" id="bg"></div>
+		
+		<script>
+			$(function(){
+				//添加地址
+				$("#add_address_btn,#add_address_btn2").tap(function(){
+					$(".address-popup").css({"left":"-100%"});
+					$('.add-address-popup').css('left','0');
+					//选择省
+					$('.select-area').tap(function(){
+						$('.add-address-popup').css('left','-100%');
+						$(".select-province-popup").css({"left":"0"});
+					})
+					$('#select_province_back').tap(function(){
+						$('.add-address-popup').css('left','0');
+						$('.edit-address-popup').css('left',"100%");
+						$(".select-province-popup").css({"left":"100%"});
+					})
+					//点击保存
+					$(".button-big-save").tap(function(){
+						$(".address-popup").css({"left":"0"});
+						$('.add-address-popup').css('left','100%');
+						$(".save-popup").html('编辑成功');
+						$(".save-popup").css('opacity','1');
+						setTimeout(function(){
+							$(".save-popup").css('opacity','0');
+						},1500);
+					})
+				})
+				$("#add_address_back").tap(function(){
+					$(".address-popup").css({"left":"0"});
+					$('.add-address-popup').css('left','100%');
+				})
+				//编辑地址
+				$(".edit-btn").tap(function(){
+					$(".address-popup").css({"left":"-100%"});
+					$('.edit-address-popup').css('left','0');
+					//选择省
+					$('.select-area').tap(function(){
+						$('.edit-address-popup').css('left','-100%');
+						$(".select-province-popup").css({"left":"0"});
+					})
+					$('#select_province_back').tap(function(){
+						$('.edit-address-popup').css('left','0');
+						$('.add-address-popup').css('left',"100%");
+						$(".select-province-popup").css({"left":"100%"});
+					})
+					//点击保存
+					$(".button-big-save").tap(function(){
+						$(".address-popup").css({"left":"0"});
+						$('.edit-address-popup').css('left','100%');
+						$(".save-popup").html('编辑成功');
+						$(".save-popup").css('opacity','1');
+						setTimeout(function(){
+							$(".save-popup").css('opacity','0');
+						},1500);
+					})
+					
+					//点击删除
+					$('#edit_delete').tap(function(){
+						$('.delete-popup').css({'opacity':'1','z-index':'113'});
+						$('.bg2').css({'opacity':'1','z-index':'112'});
+						
+						//确定删除
+						$('#sure_btn').tap(function(){
+							$('.delete-popup').css({'opacity':'0','z-index':'-1'});
+							$('.bg2').css({'opacity':'0','z-index':'-1'});
+						})
+						//取消删除
+						$('#cancel_btn').tap(function(){
+							$('.delete-popup').css({'opacity':'0','z-index':'-1'});
+							$('.bg2').css({'opacity':'0','z-index':'-1'});
+						})
+					})
+				})
+				$("#edit_address_back").tap(function(){
+					$(".address-popup").css({"left":"0"});
+					$('.edit-address-popup').css('left','100%');
+				})
+				//选择市
+				$('.select-province-list li').tap(function(){
+					$('.select-province-popup').css('display','none');
+					$('.select-city-popup').css('display','block');
+				})
+				$('#select_city_back').tap(function(){
+					$('.select-province-popup').css('display','block');
+					$('.select-city-popup').css('display','none');
+				})
+				//点击默认地址 图片的更换
+				$(".haveAddress-img").tap(function(){
+					var imgObj = $(this).find('img');
+					var otherObj = $(this).parents('li').siblings().find('.defalut-img');
+					if(imgObj.attr('src') == 'img/round.png'){
+						imgObj.attr('src','img/round_light.png');
+						otherObj.attr('src','img/round.png');
+						
+					}
+				})	
+				
+				//点击删除
+				$('.delete-btn').tap(function(){
+					var imgObj = $(this).parents('li').find('.defalut-img');
+					console.log(imgObj);
+					if(imgObj.attr('src') == 'img/round_light.png'){
+						$('.delete-popup').css({'opacity':'1','z-index':'113'});
+						$('.bg2').css({'opacity':'1','z-index':'112'});
+						
+						//确定删除
+						$('#sure_btn').tap(function(){
+							$('.delete-popup').css({'opacity':'0','z-index':'-1'});
+							$('.bg2').css({'opacity':'0','z-index':'-1'});
+						})
+						//取消删除
+						$('#cancel_btn').tap(function(){
+							$('.delete-popup').css({'opacity':'0','z-index':'-1'});
+							$('.bg2').css({'opacity':'0','z-index':'-1'});
+						})
+					}
+				})
+				
+				//switch
+				$('#switch_white').swipeLeft(function(){
+					var id=$('#switch_white');
+					swipe_left(id);
+				})
+				$('#switch_white').swipeRight(function(){
+					var id=$('#switch_white');
+					swipe_right(id);
+				})
+				
+				$('.swipe-address').swipeLeft(function(){
+					var id=$('.swipe-address');
+					swipe_left(id);
+				})
+				$('.swipe-address').swipeRight(function(){
+					var id=$('.swipe-address');
+					swipe_right(id);
+				})
+				
+				var flag1 = true;
+				$('#switch_white').tap(function(){
+					if(flag1){
+						$(this).css({"left":"0","box-shadow":"0 0 2px rgba(0,0,0,.4)"});
+						$(this).parent().css({'border':'2px solid #dcdcdc','background':'#fff'});
+						flag1 = false;
+					}else{
+						$(this).css({"left":".36rem","box-shadow":"none"});
+						$(this).parent().css({'border':'2px solid #f60','background':'#f60'});
+						flag1 = true;
+					}
+				});
+				
+				var flag2 = false;
+				$('.swipe-address').tap(function(){
+					if(flag2){
+						$(this).css({"left":"0","box-shadow":"0 0 2px rgba(0,0,0,.4)"});
+						$(this).parent().css({'border':'2px solid #dcdcdc','background':'#fff'});
+						flag2 = false;
+					}else{
+						$(this).css({"left":".36rem","box-shadow":"none"});
+						$(this).parent().css({'border':'2px solid #f60','background':'#f60'});
+						flag2 = true;
+					}
+				});
+			
+			})
+			//swipe
+			function swipe_left(id){
+				id.css({"left":"0","box-shadow":"0 0 2px rgba(0,0,0,.4)"});
+				id.parent().css({'border':'2px solid #dcdcdc','background':'#fff'});
+			}
+			function swipe_right(id){
+				id.css({"left":".36rem","box-shadow":"none"});
+				id.parent().css({'border':'2px solid #f60','background':'#f60'});
+			}
+		</script>
+	</body>
+</html>

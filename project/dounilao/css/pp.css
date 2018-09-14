@@ -1,0 +1,159 @@
+/*品牌故事*/
+.ppgs .title{
+	position: relative;
+	color: #1D3F64;
+	text-align: center;
+	z-index: 2;
+	margin-bottom: 30px;
+}
+.ppgs .title .img1{
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	z-index: -1;
+}
+.ppgs .title .img2{
+	position: absolute;
+	top: -30px;
+	right: 20px;
+	z-index: -1;
+}
+.ppgs .title .p1{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.ppgs .title .p2{
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.ppgs .title .p3{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.ppgs .con{
+	margin-top: 40px;
+}
+.ppgs .con p{
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+	text-indent: 32px;
+	margin-bottom: 25px;
+}
+
+/*品牌形象*/
+.ppxx .part1 .fl-lt{
+	width: 52%;
+	margin-right: 4%;
+}
+.ppxx .part1 .fl-rt{
+	width: 44%;
+	position: relative;
+}
+.ppxx .part1 .fl-rt .img1{
+    position: absolute;
+    right: 35px;
+    top: 40px;
+    z-index: -1;
+    width: 350px;
+}
+.ppxx .part1 .p1{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: #1D3F64;
+}
+.ppxx .part1 .p2{
+	font-size: 26px;
+	margin-top: 10px;
+	color: #1D3F64;
+}
+.ppxx .part1 .p3{
+	font-size: 18px;
+	color: #C92740;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.ppxx .part1 .p4{
+    background: #C92740;
+    margin-left: -60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.ppxx .part1 .p5{
+	font-size: 16px;
+	margin-top: 5px;
+	line-height: 30px;
+}
+
+.ppxx .part2{
+	margin-top: 20px;
+	border-top: 2px solid #1D3F64;
+	padding-top: 20px;
+}
+
+/*品牌诉求*/
+.ppsq .fl-lt{
+	width: 42%;
+	margin-right: 4%;
+}
+.ppsq .fl-rt{
+	width: 54%;
+	position: relative;
+}
+.ppsq .fl-rt img{
+    position: absolute;
+    right: 0;
+    top: 14px;
+    z-index: -1;
+    width: 480px;
+}
+.ppsq .p1{
+    font-size: 30px;
+    color: #1D3F64;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.ppsq .p2{
+	font-size: 14px;
+	color: #1D3F64;
+	text-transform: uppercase;
+}
+.ppsq .p3{
+    background: #C92740;
+    margin-left: -60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 60px;
+    box-sizing: border-box;
+    margin-top: 65px;
+}
+
+.ppsq .p5{
+    background: #CFA05C;
+    margin-left: -60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 60px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.ppsq .p4{
+	font-size: 16px;
+	margin-top: 5px;
+	line-height: 30px;
+}
+

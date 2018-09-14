@@ -1,0 +1,350 @@
+/*人气推荐*/
+.cp1 .part1{
+	height: 100%;
+	position: relative;
+}
+.cp1 .part1 .img1{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;	
+}
+.cp1 .con{
+	padding-top:3.5%;
+}
+.cp1 .title{
+	width: 430px;
+	text-align: center;
+	margin: 0 auto 5%;
+	position: relative;
+}
+.cp1 .title img{
+	position: absolute;
+	right: .4rem;
+	top: -.2rem;
+	z-index: 2;
+	width: .76rem;
+}
+.cp1 .title .p1{	
+	font-size: .34rem;
+	color: rgba(0,0,0,.1);
+	text-transform: uppercase;
+}
+.cp1 .title .p2{
+	color: #CA1C1D;
+	font-size: .34rem;
+	margin-top: -.3rem;
+}
+.cp1 .title .line{
+	width: .4rem;
+	height: .05rem;
+	background: #CA1C1D;
+	margin: .1rem auto 0;
+}
+.cp1 .title .p3{
+    border: 1px solid #CA1C1D;
+    font-size: 16px;
+    margin-top: -.03rem;
+    padding: .06rem 0;
+}
+.cp1 .picScroll-left{
+	width: 10.8rem;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	margin-left: -5.6rem;
+}
+.cp1 .picScroll-left .bd{
+	width: 10.8rem;
+    overflow: hidden;
+    height: 1.35rem;
+    margin: 0 auto;
+    padding: .12rem .08rem;
+    background: rgba(4, 102, 54,.7);
+}
+.cp1 .picScroll-left .bd ul{
+	position: relative;
+}
+.cp1 .picScroll-left .bd ul li{
+	width: 2.5rem;
+	height: 1.35rem;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 0 .1rem;
+}
+.cp1 .picScroll-left .bd ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+}
+.arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -.35rem;
+	z-index: 2;
+	height: .7rem;
+	width: .7rem;
+	cursor: pointer;
+}
+.arrow-left{
+	left: -1rem;
+}
+.arrow-right{
+	right: -1rem;
+} 
+.arrow img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*全系产品*/
+.cp2 .part1{
+	height: 100%;
+	position: relative;
+}
+.cp2 .part1 .img1{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;	
+}
+.cp2 .con{
+	padding-top:3%;
+}
+
+.cp2 .bigSmall .large_box{
+	width: 7.8rem;
+	height: 4.05rem;
+	margin: 0 auto 2% auto;
+	overflow: hidden;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	border-top: 0;
+}
+.cp2 .bigSmall .large_box ul{
+	position: relative;
+}
+.cp2 .bigSmall .large_box ul li{
+	position: relative;
+	width: 7.8rem;
+	height: 4.05rem;
+}
+.cp2 .bigSmall .large_box ul li p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 2;
+	font-size: 16px;
+	text-align: center;
+	overflow: hidden;
+	height: .44rem;
+	line-height: .44rem;
+	background: rgba(0,0,0,.4);
+	color: #fff;
+}
+.cp2 .bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.cp2 .bigSmall .small_box{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	background: rgba(232, 193, 42,.8);
+	padding: .12rem 0;
+}
+.cp2 .bigSmall .small_box .small_list{
+	width: 11.6rem;
+	height: 1.4rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cp2 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.cp2 .bigSmall .small_box .small_list ul li{
+	width: 2.7rem;
+	height: 1.4rem;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 .1rem;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+}
+.cp2 .bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.cp2 .bigSmall .small_box ul li.on{
+	border: 2px solid #fff;
+}
+.cp .arrow{
+	position: absolute;
+	bottom: 46px;
+	cursor: pointer;
+}
+.cp2 .arrow-left{
+	left: 50%;
+	margin-left: -7rem;
+}
+.cp2 .arrow-right{
+	right: 50%;
+	margin-right: -7rem;
+} 
+
+.cp2 .list1{
+	width: 7.8rem;
+	margin: 0 auto;
+	text-align: center;
+	background: #e8c12a;
+}
+.cp2 .list1 li{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: .46rem;
+	height: .46rem;
+	color: #666;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 0 .1rem;
+}
+.cp2 .list1 li.active{
+	font-size: 17px;
+	color: #000000;
+}
+
+.cp2 .part2-wrap .bigSmall{
+	display: none;	
+}
+.cp2 .part2-wrap .bigSmall:nth-child(1){
+	display: block;
+}
+
+
+/*消费场景*/
+.cp3 .part1{
+	height: 100%;
+	position: relative;
+}
+.cp3 .part1 .ab-img1{
+	width: 4.68rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.34rem;
+	top: 50%;
+	z-index: 22;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);	
+}
+.cp3 .part1 ul{
+	width: 100%;
+	height: 100%;
+}
+.cp3 .part1 ul li{
+	width: 50%;
+	height: 50%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.cp3 .part1 ul li img{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 100%;
+	z-index: -1;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+.cp3 .part1 ul li .desc{
+	background: rgba(0,0,0,.6);
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.cp3 .part1 ul li:first-child .desc{
+	display: block;
+}
+.cp3 .part1 ul li .desc p{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: .2rem;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+.cp3 .part1 ul li .desc p span{
+	display: block;
+	font-size: .54rem;
+	margin-bottom: .12rem;
+}
+@media (max-width: 1750px) {
+	.cp2 .list1 li{
+		font-size: 14px;
+	}
+	.cp2 .list1 li.active{
+		font-size: 15px;
+	}
+	.cp2 .bigSmall .large_box ul li p{
+		font-size: 14px;
+	}
+}
+@media (max-width: 1500px) {
+	.cp1 .con{
+		padding-top: 2.5%;
+	}
+	.cp2 .list1 li{
+		margin: 0 .02rem;
+	}
+	.cp2 .list1 li.active{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1380px) {
+	.cp2 .list1 li.active{
+		font-size: 13px;
+	}
+	.cp2 .bigSmall .large_box ul li p{
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.cp2 .list1 li{
+		font-size: 12px;
+	}
+	.cp2 .list1 li.active{
+		font-size: 12px;
+	}
+	.cp2 .bigSmall .large_box ul li p{
+		font-size: 12px;
+	}
+}

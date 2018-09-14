@@ -1,0 +1,198 @@
+@media screen and (max-width: 1366px){
+	/*第一屏*/
+	.section0-left{
+		width: 25%;
+	}
+	/*第五屏*/
+	.section4-top img{
+		width: 465px;
+		height: 45px;
+	}
+	.section4-list-wrap{
+		width: 920px;
+	}
+	.section4-list{
+		width: 2300px;
+	}
+	.section4-middle{
+		height: 273px;
+	}
+	.section4-list li{
+		width: 210px;
+	}
+	.section4-list li img{
+		width: 210px;
+		height: 253px;
+	}
+	.section4-middle .arrow_left{
+		margin-left: -510px;
+	}
+	.section4-middle .arrow_right{
+		margin-right: -510px;
+	}
+
+	/*第六屏*/
+	.section5-middle{
+		margin-top: 7%;
+	}
+	.section5-list{
+		width: 1080px;
+		height: 460px;
+	}
+	.section5-list li{
+		width: 196px;
+	}
+	.section5-list li:nth-child(2),
+	.section5-list li:nth-child(4){
+		margin-top: 50px;
+	}
+	.section5-list-top{
+		width: 196px;
+		height: 260px;
+	}
+	.section5-list-top .section5-teacher-img{
+		width: 196px;
+		height: 230px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.section5-list-top .section5-img1{
+		width: 60px;
+		height: 60px;
+	}
+	/*第七屏*/
+	#section6 .intro a{
+		width: 38%;
+	}
+	#section6 .intro a img{
+		max-width: 100%;
+	}
+	.section6-a1{
+		margin-right: 4%;
+		margin-left: 0;
+	}
+	.section6-a2{
+		margin-left: 4%;
+		margin-top: 0;
+	}
+	/*第八屏*/
+	.section8-wrap{
+		width: 1000px;
+	}
+	.section8-left{
+		width: 400px;
+	}
+	.section8-middle{
+		width: 300px;
+	}
+	.section8-right{
+		width: 260px;
+	}
+@media screen and (max-width: 1080px){
+	/*第一屏*/
+	.section0-left{
+		width: 22%;
+	}
+	/*第五屏*/
+	.section-top-45 img{
+		width: 413px;
+		height: 40px;
+	}
+	.section-middle-45{
+		height: 243px;
+	}
+	.section4-list-wrap{
+		width: 820px;
+	}
+	.section4-list{
+		width: 2050px;
+	}
+	.section4-list li{
+		width: 185px;
+	}
+	.section4-list li img{
+		width: 185px;
+		height: 223px;
+	}
+	.section4-middle .arrow_left{
+		margin-left: -460px;
+	}
+	.section4-middle .arrow_right{
+		margin-right: -460px;
+	}
+	/*第六屏*/
+/*	.section5-middle{
+		margin-top: 6%;
+	}
+	.section5-list{
+		width: 880px;
+	}
+	.section5-list li{
+		width: 160px;
+	}
+	.section5-list li:nth-child(2),
+	.section5-list li:nth-child(4){
+		margin-top: 30px;
+	}*/
+	.section5-middle{
+		margin-top: 6%;
+	}
+	.section5-list{
+		width: 900px;
+		height: 420px;
+	}
+	.section5-list li{
+		width: 196px;
+		margin-right: 20px;
+	}
+	.section5-list li:nth-child(2),
+	.section5-list li:nth-child(4){
+		margin-top: 30px;
+	}
+	.section5-list-top{
+		width: 164px;
+		height: 220px;
+	}
+	.section5-list-top .section5-teacher-img{
+		width: 164px;
+		height: 200px;
+		margin-top: 15px;
+		margin-bottom: 5px;
+	}
+	.section5-list-top .section5-img1{
+		width: 50px;
+		height: 50px;
+	}
+	/*第七屏*/
+	.section6-a1{
+		margin-right: 3%;
+		margin-left: 0;
+	}
+	.section6-a2{
+		margin-left: 3%;
+		margin-top: 0;
+	}
+	/*第八屏*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

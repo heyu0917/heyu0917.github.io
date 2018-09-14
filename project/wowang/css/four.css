@@ -1,0 +1,59 @@
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+.four{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.four .part1{
+	height: 100%;
+	width: 100%;
+}
+.four .part1 .vedio-box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #333;
+}
+.four .part1 .vedio-img{
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.four .part1 .vedio-box video,
+.four .part1 .vedio-box embed{
+	/*width: 100%!important;*/
+	height: 100%!important;	
+	margin: 0 auto;
+	display: block;
+}
+.four .part1 .box{
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-top: -145px;
+	z-index: 12;
+}
+.four .part1 .box .p1{
+	font-size: 72px;
+}
+.four .part1 .box .p2{
+	font-size: 65px;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+#play{
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}

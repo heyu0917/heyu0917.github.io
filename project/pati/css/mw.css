@@ -1,0 +1,244 @@
+
+.title{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color:#ab0005;
+}
+.title p:nth-child(1){
+	font-size: 14px;
+}
+.title p:nth-child(2){
+	margin-top: 10px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.title p:nth-child(2) span{
+	font-size: 30px;
+	display: block;
+}
+
+/*mw1--食材探秘*/
+.mw1 .part{
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+.mw1 .part .p1{
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.mw1 .part ul li{
+	width: 257px;
+	height: 460px;
+	font-size: 0;
+	display:inline-block;
+	margin:0 6px;
+}
+.mw1 .part ul li img{
+	width: 257px;
+	height: 395px;
+}
+.mw1 .part ul li .lis{
+	width: 100%;
+	height: 62px;
+	background-color: #deb26f;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 62px;
+	color:#ab0005;
+}
+
+
+
+/*mw2--配方探秘*/
+.mw2 .part li{
+	display:inline-block;
+	position:relative;
+	margin-right: 69px;
+    margin-bottom: 5px;
+}
+.mw2 .part li:nth-child(2){
+	right: 26px;
+}
+.mw2 .part li .mun{
+	font-size: 56px;
+	color:#ab0005;
+	font-weight: bold;
+}
+.mw2 .part li img{
+	position:absolute;
+	left: 72px;
+    top: 15px;
+}
+.mw2 .part li .wxxl{
+	font-size: 29px;
+	color:#ab0005;
+	font-weight: bold;
+}
+.mw2 .part li span:last-child{
+	font-size: 16px;
+}
+.mw2 .part li:nth-child(2) img,
+.mw2 .part li:nth-child(3) img{
+	position:absolute;
+	left: 40px;
+    top: 15px;
+}
+.mw2 .part{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+.mw2 .part .part-img img{
+	width: 1107px;
+	height: 378px;
+}
+
+
+/*mw3--酱心探秘*/
+.mw3 .part{
+	width: 100%;
+	text-align:center;
+	margin-top: 50px;
+	
+}
+.mw3 .part .p1{
+	font-size: 16px;
+	width: 100%;
+	text-align:center;
+}
+.mw3 .part ul{
+	/*margin-top: 40px;*/
+}
+.mw3 .part li{
+	width: 185px;
+	height: 55px;
+	background-color: #ab0005;
+	position:relative;
+	display: inline-block;
+	line-height: 55px;
+	font-size: 24px;
+	color:#fff;
+	text-align: right;
+	padding-right: 15px;
+	box-sizing: border-box;
+	margin:40px 78px;
+}
+.mw3 .part li .yuan{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80px;
+	font-size: 50px;
+	color:#ab0005;
+	background-color: #deb26f;
+	position:absolute;
+	left:5px;
+	top:-12.5px;
+}
+.mw3 .part .c-img{
+	width: 1087px;
+	height: 418px;
+	margin:0 auto;
+}
+
+
+/*mw4	--味道探秘*/
+.mw4 .title p:nth-child(3){
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+.mw4 .title p:nth-child(3) span{
+	font-size: 40px;
+}
+.mw4 .part{
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+.mw4 .part li{
+	width: 320px;
+	height: 415px;
+	text-align: center;
+	display:inline-block;
+	margin: 0 35px;
+}
+
+.mw4 .part li img{
+	width: 317px;
+	height: 316px;
+	border-radius: 50%;
+}
+.mw4 .part li .fonts{
+	margin-top: 15px;
+}
+.mw4 .part li .fonts .yuanse div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.mw4 .part li .fonts .yuanse div:nth-child(1),
+.mw4 .part li .fonts .yuanse div:nth-child(3){
+	width: 10px;
+	height: 10px;
+	background-color: #ab0005;
+}
+.mw4 .part li .fonts .yuanse div:nth-child(2){
+	font-size: 26px;
+	font-weight: bold;
+	color:#ab0005;
+	margin: 0px 5px;
+}
+.mw4 .part li .fonts p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.mw4 .part li:nth-child(3){
+	position:relative;
+	top: 28px;
+}
+
+
+/*mw5--工艺探秘*/
+.mw5 .part{
+	width: 100%;
+	text-align: center;
+	margin-top:50px;
+}
+.mw5 .part li{
+	width: 347px;
+	height: 614px;
+	border:1px solid #ab0005;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0 8px;
+}
+.mw5 .part li img{
+	width: 326px;
+	height: 435px;
+}
+.mw5 .part li .mw5-fonts p:nth-child(1){
+	font-size: 26px;
+	font-weight: bold;
+	color:#ab0005;
+	margin-top: 26px;
+}
+.mw5 .part li .mw5-fonts p:nth-child(2){
+	width: 300px;
+	margin:10px auto;
+	font-size: 16px;
+	text-align: left;
+	line-height: 26px;
+}
+.mw5 .part li:nth-child(3){
+	position:relative;
+	top: -26px;
+}

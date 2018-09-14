@@ -1,0 +1,266 @@
+/*公共*/
+.main-com-top{
+	background: #ecae33;
+	padding: 10px 20px;
+	position: relative;
+	z-index: 2;
+}
+.main-com-top .title{
+	position: relative;
+}
+.main-com-top .title h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 34px;
+	background: #ecae33;
+	display: inline-block;
+	padding-right: 10px;
+}
+.main-com-top .line{
+	position: absolute;
+	right: -20px;
+	bottom: 15px;
+	z-index: -1;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+}
+
+
+.main-wrapper p{
+	font-size: 18px;
+	line-height: 28px;
+	color: #040000;
+}
+
+/*市场分析*/
+.hz_sc .part1 p{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.hz_sc .part2{
+	margin-top: 30px;
+}
+.hz_sc .part2 .top{
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.hz_sc .part2 .top h3{
+	color: #EBAD34;
+	font-size: 28px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 40px;
+	background: #fff;
+	padding: 0 10px;
+	display: inline-block;
+}
+.hz_sc .part2 .top .line{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 1px;
+	background: #EBAD34;
+}
+
+.hz_sc .part2 ul{
+	margin-top: 30px;
+}
+.hz_sc .part2 ul li{
+	margin-bottom: 25px;
+}
+.hz_sc .part2 ul li h2{
+	font-size: 18px;
+	color: #EBAD34;
+	margin-bottom: 5px;
+}
+
+
+/*优势分析*/
+.hz_ys .title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #ecae33;
+    font-size: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.hz_ys .title span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.hz_ys p{
+	font-size: 18px;
+	line-height: 28px;
+}
+.hz_ys h3{
+	font-size: 20px;
+	line-height: 32px;
+	color: #EBAD34;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.hz_ys strong{
+	display: block;
+}
+.hz_ys .title{
+	margin-top: 40px;
+}
+
+.hz_ys .part1 .title{
+	margin-top: 0;
+}
+.hz_ys .part1 ul{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.hz_ys .part1 ul li{
+	width: 22%;
+	margin-right: 4%;
+	font-size: 0;
+	height: 174px;
+	float: left;
+	overflow: hidden;
+}
+.hz_ys .part1 ul li:last-child{
+	margin-right: 0;
+}
+.hz_ys .part1 ul li h4{
+	text-align: center;
+	background: #EBAD34;
+	height: 34px;
+	line-height: 34px;
+	font-size: 20px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.hz_ys .part1 ul li img{
+	width: 100%;
+	height: 140px;
+	display: block;
+}
+
+.hz_ys .part2 p,
+.hz_ys .part3 p{
+	margin-bottom: 25px;
+}
+.hz_ys .part2 p strong,
+.hz_ys .part3 p strong{
+	margin-bottom: 5px;
+}
+
+
+/*盈利分析*/
+.hz_yl .part1 h1{
+	width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #ecae33;
+    font-size: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.hz_yl .con dl{
+	width: 158px;
+	margin-right: 15px;
+	float: left;
+}
+.hz_yl .con dl:first-child{
+	width: 240px;
+}
+.hz_yl .con dl:last-child{
+	margin-right: 0;
+}
+.hz_yl .con dl dt{
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+}
+.hz_yl .con dl dd{
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 50px;
+	background: #EBAD34;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+.hz_yl .part1 .desc{
+	width: 100%;
+	padding: 0 25px;
+	box-sizing: border-box;
+	background: #EBAD34;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+/*合作支持*/
+.hz_zc .item{
+	margin-top: 35px;
+}
+.hz_zc .item h1{
+	font-size: 18px;
+}
+.hz_zc .item p{
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+.hz_zc .item .img-box{
+	font-size: 0;
+}
+.hz_zc .item .img-box img{
+	display: inline-block;
+	width: 48%;
+	margin-right: 4%;
+	height: 170px;
+}
+.hz_zc .item .img-box img:last-child{
+	margin-right: 0;
+}
+
+
+/*合作选择*/
+.hz_xz .part1 ul{
+	margin-top: 20px;
+}
+.hz_xz .part1 ul li{
+	margin-bottom: 30px;
+	clear: both;
+	overflow: hidden;
+}
+.hz_xz .part1 ul li .li-con{
+	width: 45%;
+}
+.hz_xz .part1 ul li .li-con p{
+	font-size: 17px;
+	line-height: 28px;
+}
+.hz_xz .part1 ul li .li-con p strong{
+	font-size: 18px;
+	display: block;
+}
+.hz_xz .part1 ul li .fl-rt{
+	width: 50%;
+}

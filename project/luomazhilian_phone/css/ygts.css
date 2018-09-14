@@ -1,0 +1,248 @@
+/*二级导航*/
+.er-nav{
+	width: 88%;
+	margin: .16rem auto;
+}
+.er-nav ul{
+	background: #D4C9AE;
+	border-radius: .08rem;
+	overflow: hidden;
+	padding: .08rem .4rem;
+	box-shadow: -0.04rem 0.06rem 0.16rem rgba(0,0,0,.4);
+}
+.er-nav ul li{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	font-size: .24rem;
+	color: #877D64;
+	font-weight: bold;
+	height: .4rem;
+	line-height: .4rem;
+}
+.er-nav ul li.active{
+	color: #840F31;
+}
+
+.tap-item{
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+}
+.tap-item h2{
+	font-size: .26rem;
+	color: #840F31;
+	margin-bottom: .16rem;
+	margin-top: .24rem;
+}
+.tap-item p{
+	line-height: .34rem;
+}
+
+/*意式工艺*/
+.ysgy-box{
+	display: block;
+}
+.ysgy-box ul li{
+	width: 100%;
+	margin-bottom: .24rem;
+	overflow: hidden;
+	height: 1.8rem;
+}
+.ysgy-box ul li .li-con{
+	width: 55%;
+}
+.ysgy-box ul li .li-con p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+	margin-top: -.08rem;
+}
+.ysgy-box ul li .li-con p strong{
+	font-size: .26rem;
+}
+.ysgy-box ul li .li-img{
+	width: 40%;
+	height: 100%;
+}
+.ysgy-box ul li .li-img img{
+	width: 100%;
+	display: block;
+	max-height: 100%;
+}
+
+/*奇意口感*/
+.qykg-box{	
+/*	display: block;*/
+}
+.qykg-box h2{
+	text-align: center;
+}
+/*.qykg-box img{
+	width: 100%;
+	display: block;
+	margin-top: .28rem;
+}*/
+.qykg-con ul{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: .4rem;
+}
+.qykg-con ul li{
+	width: 48%;
+	float: left;
+	margin-top: -.24rem;
+	color: #fff;
+	position: relative;
+}
+.qykg-con ul li:nth-child(even){
+	float: right;
+}
+.qykg-con ul li .qykg-bg{
+	width: 100%;
+	display: block;
+}
+.qykg-con ul li .li-con{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding:.2rem;
+	box-sizing: border-box;
+}
+.qykg-con ul li h2{
+	font-size: .24rem;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0;
+}
+.qykg-con ul li h2 strong{
+	color: #ffa500;
+}
+.qykg-con ul li p{
+	font-size: .24rem;
+	transform: scale(.84);
+	-webkit-transform: scale(.84);
+	-o-transform: scale(.84);
+	-moz-transform: scale(.84);
+	-ms-transform: scale(.84);
+	width: 120%;
+	margin-left: -10%;
+	padding-right: .04rem;
+	padding-left: .24rem;
+	box-sizing: border-box;
+	line-height: .32rem;
+}
+.qykg-con ul li:nth-child(3) .qykg-bg,
+.qykg-con ul li:nth-child(4) .qykg-bg{
+	border-radius: 50%;
+	box-shadow: 0 0 .2rem rgba(0,0,0,.5);
+}
+.qykg-con ul li .qykg1{
+	position:absolute;
+	right: 0;
+	bottom: -.14rem;
+	width: .96rem;
+}
+.qykg-con ul li .qykg2{
+	position:absolute;
+	right: 0;
+	bottom: -.6rem;
+	width: 1.45rem;
+}
+.qykg-con ul li .qykg3{
+	position:absolute;
+	right: 0;
+	bottom: -.14rem;
+	width: 1.03rem;
+}
+
+/*意派传承*/
+.ypcc-box{
+/*	display: block;*/
+	position: relative;
+	width: 95%;
+	margin-left: 5%;
+}
+.ypcc-box .item-con{
+	width: 52%;
+}
+.ypcc-box p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+}
+.ypcc-box img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2.84rem;
+	z-index: -1;
+}
+
+/*淇妙冰机*/
+.qmbj-box{
+/*	display: block;*/
+	position: relative;
+	width: 95%;
+	margin-left: 5%;
+}
+.qmbj-box .item-con{
+	width: 50%;
+}
+.qmbj-box .item-con h3{
+	font-size: .24rem;
+	margin-bottom: .04rem;
+	margin-top: .32rem;
+}
+.qmbj-box img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 3.1rem;
+	z-index: -1;
+}
+
+/*食尚创意*/
+.sscy-box{
+/*	display: block;*/
+	position: relative;
+	width: 95%;
+	margin-left: 5%;
+}
+.sscy-box .item-con{
+	width: 50%;
+}
+.sscy-box p{
+	margin-top: .24rem;
+}
+.sscy-box img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 3.1rem;
+	z-index: -1;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 340px){
+	.ysgy-box ul li .li-con p{
+		margin-top: -.12rem;
+	}
+}
+
+
+
+
+

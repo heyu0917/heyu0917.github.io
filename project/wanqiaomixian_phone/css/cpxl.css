@@ -1,0 +1,75 @@
+.er-nav .middle{
+	text-align: center;
+}
+.er-nav .middle li{
+	float: none;
+	display: inline-block;
+}
+
+.cpxl .part1{
+	margin-bottom: .16rem;
+}
+.cpxl .part1 h1{
+	font-size: .36rem;
+	color: #D6000F;
+	text-align: center;
+	margin-bottom: .32rem;
+}
+.cpxl .part1 h1 span{
+	display: block;
+	font-size: .26rem;
+	margin-top: .08rem;
+}
+
+.cpxl .part1 ul li{
+	width: 31%;
+	height: 2.9rem;
+	position: relative;
+	margin-bottom: .24rem;
+	float: left;
+	margin-right: 3.5%;
+}
+.cpxl .part1 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.cpxl .part1 ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.cpxl .part1 ul li p{
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	height: .44rem;
+	line-height: .44rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+}
+.cpxl .part1 ul li p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+
+
+
+
+
+
+
+

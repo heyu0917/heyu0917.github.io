@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/login.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript" src="js/login.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="login">
+			<div class="header-back">
+				<a href="my.html"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+				<h1>登录</h1>
+			</div>
+			<div class="login-content">
+				<div class="login-part">
+					<p class="prompt1"></p>
+					<ul class="comWidth">
+						<li>
+							<img src="img/name.png" alt="" /><input type="text" placeholder="请输入手机号" id="login_telephone"/>
+						</li>
+						<li>
+							<img src="img/password.png" alt="" /><input type="text" placeholder="请输入密码" id="login_password"/>
+						</li>
+					</ul>
+					<p class="prompt2"></p>
+					<div class="button-big login-btn">登录</div>
+					<div class="register-text comWidth">
+						<span class="fl-lt" id="free_register">免费注册</span>
+						<a href="reset.html"><span class="fl-rt">忘记密码</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--register-->
+		<div class="register">
+			<div class="header-back">
+				<div id="register_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>注册</h1>
+			</div>
+			<div class="register-content">
+				<div class="comWidth">
+					<ul class="register-list">
+						<li>
+							<span class="fl-lt">账号</span>
+							<input type="text" placeholder="请输入手机号" class="fl-lt input-text" id="register_telephone"/>
+						</li>
+						<li>
+							<span class="fl-lt">昵称</span>
+							<input type="text" placeholder="4~20个字符" class="fl-lt input-text" id="register_nickname"/>
+						</li>
+						<li>
+							<span class="fl-lt">密码</span>
+							<input type="text" placeholder="6~12位数字/字母" class="fl-lt input-text" id="register_password"/>
+						</li>
+						<li>
+							<span class="fl-lt">性别</span>
+							<div class="fl-lt">
+								<div class="male fl-lt sex-select"><img src="img/sex_light.png" class="sex_light-img"><span>男</span></div>
+								<div class="female fl-lt sex-select"><img src="img/sex.png" class="sex-img"><span>女</span></div>
+							</div>
+						</li>
+						<li>
+							<span class="fl-lt">地址</span>
+							<input type="text" placeholder="请选择您所在的城市" class="fl-lt input-text" id="select_province"/>
+							<img src="img/arrowR.png" alt="" class="register-arrowRImg"/>
+						</li>
+						<li>
+							<span class="fl-lt">推荐人</span>
+							<input type="text" placeholder="请输入推荐人手机号" class="fl-lt input-text" id="select_province"/>
+						</li>
+						<li>
+							<span class="fl-lt">验证码</span>
+							<input type="text" placeholder="请输入验证码" class="fl-lt get-code-input"/>
+							<div class="fl-rt get-code-btn">获取短信验证码</div>
+						</li>
+					</ul>
+					<div class="agree-box">
+						<span class="agree-text clearfix">
+							<img src="img/round_light2.png" id="agree_img"/><span>我已经阅读并同意特别特用户协议</span>
+						</span>
+					</div>
+				</div>
+				<div class="button-big clearfix register-btn">注册</div>
+			</div>
+			
+			<!--注册界面的提示框-->
+			<div class="prompt3"></div>
+		</div>
+		
+		<!--选择地区 省-->
+		<div class="select-province-popup">
+			<div class="header-back">
+				<div id="select_province_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>选择地区</h1>
+			</div>
+			<div class="select-province-con">
+				<ul class="select-province-list">
+					<li><span class="fl-lt">湖北</span><span class="fl-rt"><img src="img/arrowR.png" alt="" class="arrowR-img"/></span></li>
+				</ul>
+			</div>
+		</div>
+		<!--选择地区 市-->
+		<div class="select-city-popup">
+			<div class="header-back">
+				<div id="select_city_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>选择地区</h1>
+			</div>
+			<div class="select-city-con">
+				<ul class="select-city-list">
+					<li>武汉</li>
+				</ul>
+			</div>
+		</div>
+		
+	</body>
+</html>

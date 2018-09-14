@@ -1,0 +1,241 @@
+/*招贤纳士*/
+.wm1 .list1{
+	margin-top: 50px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	font-size: 0;
+}
+.wm1 .list1 li{
+	display: inline-block;
+	margin-right: 30px;
+	cursor: pointer;
+	font-weight: lighter;
+	font-size: 20px;
+	color: #666;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px;
+}
+.wm1 .list1 li.active{
+	color: #fff;
+	background: #7D282D;
+	border-radius: 20px;
+}
+.wm1 .box{
+	margin: 0 50px 40px;
+}
+.wm1 .box .item{
+	display: none;
+}
+.wm1 .box .item:first-child{
+	display: block;
+}
+.wm1 .box .item .p1{
+	color: #7D282D;
+	font-size: 24px;
+	margin-top: 30px;
+}
+.wm1 .box .item .line{
+	width: 50px;
+	height: 3px;
+	background: #7D282D;
+	margin: 10px 0;
+}
+.wm1 .box .item .p2{
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+}
+
+.wm1 .mm{
+	width: 100%;
+	border-radius: 20px;
+	background: #e1dbcc;
+	padding: 30px 50px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+.wm1 .mm .fl-lt p{
+	font-size: 20px;
+	font-weight: lighter;
+	color: #333;
+	line-height: 34px;
+}
+.wm1 .mm .fl-rt{
+	width: 104px;
+	height: 104px;
+}
+
+/*我要合作*/
+.wm2{
+	padding: 0!important;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.wm2 .top{
+	text-align: center;
+	font-size: 0;
+	white-space: nowrap;
+	margin-top: 4.5%;
+	position: relative;
+	z-index: 3;
+}
+.wm2 .top .p1{
+	display: inline-block;
+	vertical-align: middle;
+	color: #7D282D;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 2px solid #7D282D;
+	line-height: 1.1;
+	font-size: .5rem;
+	font-weight: lighter;
+}
+.wm2 .top .p2{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+	color:rgba(0,0,0,.2);
+	line-height: 1;
+	font-size: .5rem;
+	font-family: arial;
+}
+.wm2 .top .box{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: .3rem;
+}
+.wm2 .top .box .p3{
+	color: #7D282D;
+	font-size: .24rem;
+}
+.wm2 .top .box .p4{
+	color: #fff;
+    font-size: .24rem;
+    margin: .1rem 0;
+    background: #7D282D;
+    height: .4rem;
+    line-height: .4rem;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0 .6rem;
+}
+.wm2 .top .box .p5{
+	color: #666;
+	font-size: 14px;
+}
+.wm2 .middle{
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	width: 100%;
+	z-index: 2;
+	height: 70%;
+	background: #282828;
+}
+.wm2 .middle .fl-lt{
+	position: relative;
+	width: 45%;
+	height: 100%;
+	color: #bebebe;
+}
+.wm2 .middle .fl-rt{
+	position: relative;
+	width: 55%;
+	height: 100%;
+}
+.wm2 .middle .fl-lt img{
+	position: absolute;
+	left: 0;
+	width: 20%;
+	top: 10%;
+	z-index: -1;
+}
+.wm2 .middle .box{
+	margin-left: 30%;
+	width: 60%;
+	padding-top: 8%;
+}
+.wm2 .middle .box .p1{
+	font-size: 18px;
+	margin-bottom: .2rem;
+	line-height: 28px;
+}
+.wm2 .middle .box input{
+	width: 100%;
+	border: 1px solid #bebebe;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	display: block;
+	font-size: 16px;
+	color: #bebebe;
+	margin-bottom: 10px;
+	background: transparent;
+}
+.wm2 .middle .box textarea{
+	background: transparent;
+	width: 100%;
+	border: 1px solid #bebebe;
+	height: 2rem;
+	box-sizing: border-box;
+	padding: 10px;
+	display: block;
+	font-size: 16px;
+	color: #bebebe;
+	margin-bottom: 10px;
+	resize: none;
+}
+.wm2 .middle .box .submit div{
+	width: 49%;
+	border: 1px solid #bebebe;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+}
+
+@media (max-width: 1445px) {
+	.wm2 .top{
+		margin-top: 3.5%;
+	}
+	.wm2 .middle .box{
+		padding-top: 6%;
+	}
+	.wm2 .middle .box textarea{
+		height: 1.8rem;
+	}
+	
+}
+@media (max-width: 1367px) {
+	.wm2 .middle .box .p1{
+		font-size: 17px;
+		line-height: 26px;
+	}
+	.wm2 .middle .box .submit div,
+	.wm2 .middle .box input{
+		height: 36px;
+		line-height: 36px;
+	}
+	.wm2 .middle .box .submit div{
+		font-size: 17px;
+	}
+	.wm2 .middle .box textarea{
+		height: 1.5rem;
+	}
+}
+
+@media (max-width: 1282px) {
+	.wm2 .top{
+		margin-top: 2.5%;
+	}
+	.wm2 .middle{
+		height: 72%;
+	}
+}

@@ -1,0 +1,37 @@
+.content-middle{
+	overflow: hidden;
+}
+.content-middle ul li{
+	width: 2.75rem;
+	height: 3.03rem;
+	float: left;
+	margin-bottom: .24rem;
+}
+.content-middle ul li:nth-child(even){
+	float: right;
+}
+.content-middle ul li img{
+	width: 2.75rem;
+	height: 3.03rem;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

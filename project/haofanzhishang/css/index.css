@@ -1,0 +1,251 @@
+.part1 .news-wrapper{
+	width: 340px;
+	margin-right: 30px;
+}
+.part1 .news-wrapper .title{
+	color: #811C21;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.part1 .news-wrapper .title span{
+	margin-left: 10px;
+}
+.part1 .news-wrapper ul li{
+	list-style: inherit;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.part1 .news-wrapper ul li a{
+	display: block;
+	color: #f39700;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.part1 .news-wrapper ul li:hover a span{
+	text-decoration: underline;
+}
+.part1 .news-wrapper ul li a span{
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.part1 .vedio-link{
+	width: 345px;
+	height: 228px;
+	border-radius: 15px;
+	background: #f49800;
+	padding: 8px;
+	margin-right: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+}
+.part1 .vedio-link img{
+	border-radius: 10px;
+	width: 100%;
+	height: 176px;
+	display: block;
+}
+.part1 .vedio-link .title{
+	color: #fff;
+	font-size: 20px;
+	margin-top: 8px;
+}
+
+.part1 .link-lxwm{
+	position: relative;
+	width: 350px;
+	color: #811C21;
+}
+.part1 .link-lxwm .img1{
+    position: absolute;
+    top: -64px;
+    z-index: -1;
+    width: 100%;
+    height: 292px;
+}
+.part1 .link-lxwm h2{
+	font-size: 34px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.part1 .link-lxwm h3{
+	font-size: 26px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.part1 .link-lxwm .a-link{
+	width: 173px;
+	height: 44px;
+	line-height: 44px;
+	color: #811C21;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.part1 .link-lxwm .a-link img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.part1 .link-lxwm .a-link span{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.part2{
+	margin-top: 45px;
+}
+.part2 .title{
+	border-top: 2px solid #F49800;
+	border-bottom: 2px solid #F49800;
+	height: 130px;
+	width: 100%;
+	position: relative;
+}
+.part2 .title img{
+	display: block;
+	float: right;
+	height: 104px;
+	margin-top: 15px;
+}
+.part2 .title h2{
+    font-size: 22px;
+    color: #F49800;
+    position: absolute;
+    right: 226px;
+    bottom: 19px;
+    z-index: 2;
+}
+
+
+/*店铺形象展示*/
+.pc-slide{
+	margin-top: 20px;
+	position: relative;
+	padding: 0 20px;
+}
+.pc-slide .view{
+	width: 800px;
+	height: 520px;
+}
+.pc-slide .view .swiper-container{
+	height: 520px;
+}
+.pc-slide .view img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.pc-slide .preview{
+	width: 200px;
+	position: relative;
+}
+.pc-slide .preview .swiper-container{
+	height: 450px;
+}
+.pc-slide .preview .swiper-slider{
+	margin-bottom: 20px;
+}
+.pc-slide .preview .swiper-slide img{
+	height: 130px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.pc-slide .preview .active-nav img {
+    border: 2px solid #F39700;
+}
+
+.pc-slide .preview .arrow-right{
+	position: absolute;
+    bottom: -65px;
+    right: 85px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+}
+
+
+.part3{
+	background: #eeeadb;
+	padding: 35px 0;
+	margin-top: 45px;
+}
+.part3 .title{
+	text-align: center;
+	color: #811C21;
+}
+.part3 .title img{
+	display: block;
+	margin: 0 auto;
+}
+.part3 .title h3{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.part3 .picScroll-left{
+	position: relative;
+}
+.part3 .picScroll-left .hd a{
+	font-size: 0;
+	width: 67px;
+	height: 67px;
+	position: absolute;
+	top: 24px;
+	cursor: pointer;
+}
+.part3 .picScroll-left .hd .prev{
+	left: 0;
+}
+.part3 .picScroll-left .hd .next{
+	right: 0;
+}
+
+.part3 .picScroll-left .bd{
+	width: 900px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 15px;
+}
+.part3 .picScroll-left .bd ul li{
+	width: 160px;
+	float: left;
+	margin: 0 30px;
+}
+.part3 .picScroll-left .bd ul li img{
+	display: block;
+	width: 100%;
+}
+
+.part3 .more{
+	width: 166px;
+	height: 45px;
+	line-height: 45px;
+	color: #F39700;
+	display: block;
+	text-align: center;
+	font-size: 0;
+	position: relative;
+	z-index: 2;
+	margin: 30px auto 0 auto;
+}
+.part3 .more img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.part3 .more span{
+	font-size: 20px;
+	font-weight: bold;
+}
+

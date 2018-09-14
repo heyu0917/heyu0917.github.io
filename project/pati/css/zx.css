@@ -1,0 +1,89 @@
+
+/*zx1--新鲜资讯*/
+.zx1 .main1 li{
+	display: inline-block;
+	vertical-align: middle;
+	width: 570px;
+	height: 170px;
+	border:1px solid #a80005;
+	margin: 20px 12px;
+}
+.zx1 .main1 li .title{
+	font-size: 20px;
+	font-weight: bold;
+	color:#a80005;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.zx1 .main1 li div:nth-child(2){
+	font-size: 16px;
+	color:#fff;
+	width: 550px;
+	height: 104px;
+	margin:0 auto;
+	background-color: #dbaf6f;
+	margin-top: 18px;
+	padding:  12px 15px;
+	box-sizing: border-box;
+}
+.zx1 .main1 li div p{
+	line-height: 26px;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.zx1 .main2{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	color:#333;
+}
+.zx1 .main2 li{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border:1px solid #a80005;
+	display: inline-block;
+	border-radius: 30px;
+	margin:0 5px;
+	
+}
+.zx1 .main2 li:first-child,
+.zx1 .main2 li:last-child{
+	width: 85px;
+	height: 30px;
+	margin:0 15px;
+}
+.zx1 .main2 .active{
+	background-color: #a80005;
+}
+.zx1 .main2 .active a{
+	color:#fff;
+}
+
+
+
+
+/*news1*/
+.news1 .title{
+	font-size: 26px;
+	color:#a80005;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.news1 .news1-fonts{
+	width: 1080px;
+	margin:0 auto;
+}
+.news1 p{
+	color:#666;
+	font-size:16px;
+	margin-top: 30px;
+	line-height: 26px;
+}

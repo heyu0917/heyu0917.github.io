@@ -1,0 +1,277 @@
+/*品牌简介*/
+.about-jj .img1{
+	width: 57%;
+}
+.about-jj .part1{
+	width: 38%;
+	position: relative;
+}
+.about-jj .part1 .con{
+	margin-top: 8%;
+}
+.about-jj .part1 .con p{
+	font-size: .15rem;
+	color: rgba(255,255,255,.9);
+	line-height: .3rem;
+	margin-bottom: .25rem;
+}
+.about-jj .part1 .con .p1{
+	color: #edb75e;
+}
+.about-jj .part1 .line{
+	width: 1rem; 
+	height: .03rem;
+	background: #edb75e;
+	margin-top: .4rem;
+	margin-bottom: .1rem;
+}
+.about-jj .part1 .more-angle{
+	position: absolute;
+	right: -.3rem;
+	bottom: -1rem;
+}
+.about-jj .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+
+/*战略背书*/
+.about-bs{
+	color: rgba(255,255,255,.9);
+}
+.about-bs .img1{
+	width: 40%;
+}
+.about-bs .part1{
+	width: 55%;
+	position: relative;
+}
+.about-bs .part1 .con{
+	margin-top: 5%;
+}
+.about-bs .part1 .con h2{
+	font-weight: normal;
+	font-size: .24rem;
+}
+.about-bs .part1 .con span{
+	display: block;
+	font-size: .14rem;
+	margin-top: 5px;
+	margin-bottom: .3rem;
+	color: rgba(255,255,255,.8);
+}
+.about-bs .part1 .con .con-left{
+	width: 50%;
+}
+.about-bs .part1 .con .con-right{
+	width: 45%;
+}
+.about-bs .part1 .con .item{
+	margin-bottom: 20px;
+}
+.about-bs .part1 .con .item .title{
+	width: 85px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+	color: #000;
+	background: #edb75e;
+	margin-bottom: 10px;
+}
+.about-bs .part1 .con .item p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.about-bs .part1 .con .item img{
+	display: block;
+	width: 98px;
+	margin-top: 10px;
+}
+.about-bs .part1 .con .line{
+	width: 1rem; 
+	height: .03rem;
+	background: #edb75e;
+	margin-bottom: .1rem;
+}
+
+.about-bs .part1 .more-angle{
+	position: absolute;
+	right: 1rem;
+	bottom: .1rem;
+}
+.about-bs .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+
+/*企业愿景*/
+.about-yj{
+	padding-left: 14%;
+	padding-right: 6%;
+}
+.about-yj .part1{
+	position: relative;
+}
+.about-yj .en-img{
+	width: 86%;
+	text-align: right;
+}
+.about-yj .en-img .img1{
+	width: 6.4rem;
+}
+.about-yj ul{
+	margin-top: .6rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.about-yj ul li{
+	width: 2.5rem;
+	position: relative;
+	float: left;
+}
+.about-yj ul li img{
+	width: 2.5rem;
+	height: 3.3rem;
+	display: block;
+	margin-bottom: .1rem;
+}
+.about-yj ul li .border{
+	position: absolute;
+	width: 2.5rem;
+	height: 3.3rem;
+	left: .1rem;
+	top: -.1rem;
+	border: .02rem solid #EBAD34;
+	z-index: -1;
+}
+.about-yj ul li p{
+	color: rgba(255,255,255,.9);
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.about-yj .more-angle{
+	margin-right: 1.4rem;
+	margin-top: .1rem;
+}
+.about-yj .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+	
+}
+
+/*新闻动态*/
+.about-dt{
+	color: rgba(255,255,255,.9);
+}
+.about-dt .img1{
+	width: 55%;
+}
+.about-dt .part1{
+	width: 40%;
+	position: relative;
+}
+.about-dt .part1 .con{
+	margin-top: 5%;
+}
+.about-dt .part1 h2{
+	font-weight: normal;
+	font-size: .24rem;
+	margin-bottom: .3rem;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255,255,255,.9);
+}
+.about-dt .part1 .con ul li{
+	border-bottom: 1px solid rgba(255,255,255,.9);
+	line-height: 42px;
+	height: 42px;
+	overflow: hidden;
+	position: relative;
+}
+.about-dt .part1 .con ul li a{
+	display: block;
+	color: rgba(255,255,255,.9);
+}
+.about-dt .part1 .con ul li p{
+	font-size: .15rem;
+	width: 100%;
+	padding-right: 100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.about-dt .part1 .con ul li .date{
+	font-size: .15rem;
+	width: 75px;
+	height: 100%;
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+
+.about-dt .part1 .more-angle{
+	position: absolute;
+	left: 1rem;
+	bottom: -140px;
+}
+.about-dt .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+.about-dt .page-nav{
+	margin-top: 40px;
+}
+
+/*新闻详情*/
+.detail{
+	color: rgba(255,255,255,.9);
+}
+.detail .img1{
+	width: 40%;
+}
+.detail .part1{
+	width: 55%;
+	position: relative;
+}
+.detail .part1 .con{
+	margin-top: 5%;
+}
+.detail .part1 .con h2{
+	font-weight: normal;
+	font-size: .24rem;
+}
+.detail .part1 .con span{
+	display: block;
+	font-size: .14rem;
+	margin-top: 5px;
+	margin-bottom: .25rem;
+	color: rgba(255,255,255,.8);
+}
+.detail .part1 .con p{
+	font-size: .15rem;
+	line-height: .28rem;
+}
+.detail .part1 .con .p1{
+	color: #EDB75E;
+}
+
+.detail .part1 .more-angle{
+	position: absolute;
+	left: 20%;
+	bottom: -60px;
+	z-index: -1;
+}
+.detail .share-img{
+	position: fixed;
+	right: 3%;
+	bottom: .5rem;
+}
+
+
+

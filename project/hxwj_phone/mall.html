@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/mall.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript" src="js/swipe.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<img src="img/news.png" class="news-img">
+		<h2>商城</h2>
+		<a href="goods_list.html"><img src="img/search.png" class="search-img"></a>
+	</div>
+	<!--content-->
+	<div class="content">
+		<div class="banner">
+			<div class="banner-wrap" id="banner_list_wrap">
+				<ul id="banner_list">
+					<li><a href=""><img src="img/banner1.jpg"></a></li>
+					<li><a href=""><img src="img/banner2.jpg"></a></li>
+					<li><a href=""><img src="img/banner3.jpg"></a></li>
+				</ul>
+			</div>
+			<ul id="banner_btn"></ul>
+		</div>
+
+		<!--goods list-->
+		<div class="goods-wrap" id="goods_wrap">
+			<ul id="goods_list"></ul>
+			<div class="smile-wrap">
+				<img src="img/smile.png">
+				<span class="font_22">新产品努力研制中，敬请期待哦~</span>
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<ul>
+			<li><a href="index.html"><img src="img/bottomIcon1-gray.png"><span>好物</span></a></li>
+			<li><a href="javascript:void(0)" class="light"><img src="img/bottomIcon2.png"><span>商城</span></a></li>
+			<li><a href="shoppingCar.html"><img src="img/bottomIcon3-gray.png" class="bottomIcon3-img"><span>购物车</span></a></li>
+			<li><a href="my.html"><img src="img/bottomIcon4-gray.png" class="bottomIcon4-img"><span>我的</span></a></li>
+		</ul>	
+	</div>
+</body>
+<script type="text/javascript">
+	var len = document.getElementById('banner_list').getElementsByTagName('li').length;
+	var btn = document.getElementById("banner_btn");
+	for(var i = 0; i < len; i++){
+		btn.innerHTML += '<li></li>';
+	}
+	var lis = document.getElementById('banner_btn').getElementsByTagName('li')[0].className = 'light';
+	
+	var slider = Swipe(document.getElementById('banner_list_wrap'), {
+			auto: 3000,
+			continuous: true,
+			callback: function(pos) {
+				var i = bullets.length;
+				while (i--) {
+					bullets[i].className = ' ';
+				}
+				bullets[pos].className = 'light';
+			}
+
+		});
+	var bullets = document.getElementById('banner_btn').getElementsByTagName('li');	
+
+	$(function(){
+		//商品列表
+		var imgArr = ['img/goods1.jpg','img/goods2.jpg','img/goods3.jpg'];
+		for(var i=1;i<=imgArr.length;i++){
+			goods_list(i);			
+		}
+	})
+	function goods_list(i){
+		var goods_li = '<li><a href="detail.html">'+'<img src='+'img/goods'+i+'.jpg'+'>'+'</a></li>';
+		$('#goods_list').append(goods_li);
+	}
+
+</script>
+</html>

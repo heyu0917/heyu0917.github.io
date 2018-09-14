@@ -1,0 +1,276 @@
+/*左侧栏*/
+.left-part-middle{
+	padding-left: 0;
+}
+/*iframe 左侧固定*/
+.course-left-part{
+	height: 100%;
+	width: 30%;
+	position: fixed;
+	overflow: hidden;
+}
+.course-left-part .course-left-bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.course-left-con{
+	width: 66%;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 35px;
+}
+.course-left-con h2{
+	font-size: 20px;
+	border-bottom: 2px solid #172d56;
+	position: relative;
+	padding-bottom: 4px;
+}
+.course-left-con h2 i{
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	display: block;
+}
+.course-left-con h3{
+	font-weight: normal;
+	margin-top: 4px;
+}
+.course-left-con p{
+	line-height: 18px;
+	text-indent: 24px;
+	margin-top: 6px;
+}
+.course-left-con ul{
+	width: 100%;
+	margin-top: 20px;
+}
+.course-left-con ul li{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 5px;
+}
+.course-left-con ul li img{
+	width: 100%;
+	height: 115px;
+}
+@media screen and (max-width: 1366px){
+	.course-left-con ul li img{
+		height: 110px;
+	}
+}
+@media screen and (max-width: 1080px){
+	.course-left-con h3{
+		font-size: 16px;
+	}
+	.course-left-con h3{
+		margin-top: 2px;
+		font-size: 12px;
+	}
+	.course-left-con p{
+		line-height: 16px;
+		text-indent: 20px;
+		margin-top: 6px;
+		font-size: 10px;
+		transform: scale(0.83);
+		-webkit-transform: scale(0.83);
+	}
+	.course-left-con ul li img{
+		height: 100px;
+	}
+}
+/*iframe 右侧滑动部分*/
+.course-right-part{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin-top: 20px;
+	padding-left: 60px;
+	padding-right: 80px;
+	box-sizing: border-box;
+}
+.course-right-content{
+	margin-left: 33%; 
+}
+.course-right-title{
+	width: 180px;
+	height: 45px;
+	background: #172d56;
+	border-left: 5px solid #c30e23;
+	color: #fff;
+	padding: 3px 5px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.course-right-con{
+	overflow: hidden;
+}
+.course-right-title h3{
+	font-size: 16px;
+}
+.course-right-title p{
+	font-size: 13px;
+}
+.course-right-con p{
+	line-height: 20px;
+	text-indent: 24px;
+}
+.course-style{
+	width: 35%;
+}
+.course5-img-wrap{
+	width: 60%;
+}
+.course5-img-wrap img{
+	width: 100%;
+}
+.course-right-speci h2{
+	font-size: 18px;
+	color: #c30e23;
+	text-align: center;
+	margin-top: 10px;
+}
+.course-right-speci h2 span{
+	display: block;
+	font-size: 14px;
+	margin-top: 8px;
+}
+.course6-img{
+	width: 80%;
+	margin: 20px auto 30px auto;
+	display: block;
+}
+.course2-h2{
+	margin-bottom: 20px;
+}
+.course-list{
+	width: 108%;
+	overflow: hidden;
+}
+.course-list li{
+	width: 33.3%;
+	float: left;
+	height: 300px;
+	margin-bottom: 15px;
+}
+.course-list li .course-list-left{
+	width: 80%;
+	font-size: 0;
+	height: 300px;
+	background: #172d56;
+}
+.course-list li .course-list-left img{
+	width: 100%;
+	height: 250px;
+}
+.course-list li .course-list-left p{
+	width: 100%;
+	text-align: center;
+	padding: 8px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 12px;
+}
+.course-list li .arrow_right{
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin: 135px auto 0 auto;
+}
+.course7-img{
+	width: 60%;
+	display: block;
+	margin: 20px auto 30px auto;
+}
+.course-round-list{
+	margin: 20px auto 30px auto;
+	overflow: hidden;
+}
+.course-round-list li{
+	width: 115px;
+	height: 115px;
+	margin-right: 20px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.course-round-list li:last-child{
+	margin-right: 0;
+}
+.course-round-list li img{
+	width: 115px;
+	height: 115px;
+}
+.course-round-list li h4{
+	font-size: 14px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 2;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+.course-round-list li h4 span{
+	display: block;
+	margin-top: 4px;
+	font-size: 12px;
+}
+.course8-img{
+	width: 100%;
+	display: block;
+	margin: 20px auto 30px auto;
+}
+.course-last-list{
+	margin: 20px auto 30px auto;
+	width: 100%;
+}
+.course-last-list li:nth-child(1){
+	width: 40%;
+	margin-right: 5%;
+}
+.course-last-list li:nth-child(2){
+	width: 30%;
+	margin-right: 5%;
+}
+.course-last-list li:nth-child(3){
+	width: 20%;
+}
+.course-last-list li{
+	float: left;
+	overflow: hidden;
+	height: 220px;
+	text-align: center;
+}
+.course-last-list li img{
+	display: block;
+	width: 100%;
+	height: 160px;
+	margin-bottom: 10px;
+}
+.course-last-list li span i{
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 12px solid #c30e23;
+	display: inline-block;
+    margin-left: 5px;
+}
+
+/*存在滚动条时，防止内容左移*/
+.left-part:hover .left-part-p{
+	margin-left: 4px;
+}

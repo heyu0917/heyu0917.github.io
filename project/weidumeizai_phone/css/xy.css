@@ -1,0 +1,134 @@
+.xy1{
+	width:100%;
+}
+.xy1 .part1 .title{
+	font-size: 0.36rem;
+	color:#666;
+	width:100%;
+	text-align: center;
+} 
+.xy1 .part1 .title span{
+	color:#cc0000;
+}
+.xy1 .part1 .it{
+	text-align: center;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+.xy1 .part1 .top{
+	color:#666;
+	font-size: .24rem;
+	line-height: .38rem;
+	margin-top: .2rem;
+	text-align: center;
+	margin-bottom: .3rem;
+}
+.xy1 .part1 .center{
+	text-align: center;
+}
+.xy1 .part1 .center1{
+	width:48%;
+	float: left;
+	margin-bottom: .24rem;
+}
+.xy1 .part1 .center1:nth-child(even){
+	float: right;
+}
+.xy1 .part1 .center1 img{
+	width:100%;
+}
+.xy1 .part1 .center1 .fonts{
+	font-size: .24rem;
+	color: #666;
+	line-height: .44rem;
+}
+.xy1 .part1 .more{
+	width:1.3rem;
+	height:0.4rem;
+	background-color:#ebca99 ;
+	font-size: 0.24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	float:right;
+	margin-top: 26%;
+	margin-right: 2%;
+	line-height: 0.4rem;
+	color:#fff;
+	border-radius:0.2rem;
+}
+.xy1 .part2 .title{
+	font-size: 0.36rem;
+	color:#666;
+	width:100%;
+	text-align: center;
+	margin-top: 0.04rem;
+}
+.xy1 .part2 .know{
+	text-align: center;
+	color:#666;
+	font-size: 0.24rem;
+	transform: scale(.83);
+	-webkit-transform: scale(.83);
+	-o-transform: scale(.83);
+	-moz-transform: scale(.83);
+	-ms-transform: scale(.83);
+	width: 120%;
+	margin-left: -10%;
+}
+.xy1 .part2 .line{
+	height:1px;
+	background-color:#ebca99;
+	margin:0.24rem auto .28rem;
+}
+.xy1 .part2 .center2{
+	text-align: center;
+}
+.xy1 .part2 .center2 .left{
+	width:33%;
+	border:1px solid #ebca99;
+	padding:0.1rem;
+	float: left;
+}
+.xy1 .part2 .center2 .left img{
+	width:100%;
+}
+.xy1 .part2 .center2 .right{
+	width:63%;
+	float:right;
+	text-align: left;
+	color:#333;
+	
+}
+.xy1 .part2 .center2 .right .sj{
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.xy1 .part2 .center2 .right p:nth-child(2){
+	text-align: left;
+	font-size: 0.24rem;
+	transform: scale(.83);
+	-webkit-transform: scale(.83);
+	-o-transform: scale(.83);
+	-moz-transform: scale(.83);
+	-ms-transform: scale(.83);
+	width: 120%;
+	margin-left: -10%;
+	line-height: 0.4rem;
+	padding-left: .12rem;
+	box-sizing: border-box;
+	margin-top: .04rem;
+}
+.xy1 .part2 .line2{
+	height:1px;
+	background: #ebca99;
+	margin:0.28rem auto 0;
+}

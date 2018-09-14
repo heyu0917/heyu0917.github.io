@@ -1,0 +1,294 @@
+/*tz1-- 市场现状*/
+.tz1 .title{
+	color:#b18d77;
+	text-align:center;
+}
+.tz1 .title .p1{
+	font-size: 34px;
+}
+.tz1 .title .p2{
+	font-size: 16px;
+	margin-top: 15px;
+}
+.tz1 .tz1-img{
+	width: 100%;
+}
+.tz1 .tz1-img img{
+	width: 100%;
+	margin-top: 45px;
+}
+.tz1 ul li .li-fonts{
+	display: inline-block;
+	width: 88%;
+	line-height: 24px;
+	margin-left: 1%;
+}
+.tz1 ul{
+	margin-top: 30px;
+}
+.tz1 ul li{
+	font-size: 14px;
+	color:#3d3d3d;
+	margin-top: 24px;
+}
+.tz1 ul li .li-img,
+.tz1 ul li .li-fonts{
+	display: inline-block;
+	vertical-align: middle;
+}
+.tz1 ul li .li-img img{
+	width: 100%;
+}
+
+
+/*tz2--合作模式*/
+
+.tz2{
+	text-align: center;
+}
+.tz2 .title{
+	font-size: 34px;
+	color:#b18d77;
+}
+.tz2 .title .p2{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.tz2 .part1{
+	width: 100%;
+	padding:10px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	border:1px solid #000;
+	position:relative;
+	margin-top: 30px;
+}
+.tz2 .part1 img{
+	width: 100%;
+}
+.tz2 .part1 ul{
+	position:absolute;
+	font-size: 18px;
+	top:223px;
+	left: 0;
+	color:#fff;
+}
+.tz2 .part1 ul li{
+	width: 414px;
+	height: 31px;
+	line-height: 31px;
+	display: inline-block;
+}
+.tz2 .part1 ul li.li-b{
+	margin-top: 229px;
+}
+.tz2 .part1 ul li.li-r{
+	margin-left: 10px;
+}
+.tz2 .part1 .p1{
+	color:#3d3d3d;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.tz2 .part2{
+	margin-top: 50px;
+}
+.tz2 .part2 .title{
+	font-size: 34px;
+	color:#b18d77;
+}
+.tz2 .part2 .title div{
+	font-size: 28px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color:#fff;
+	background-color: #dbc09f;
+	margin:0 15px;
+}
+.tz2 .part2 .title .p1{
+	width: 260px;
+	height: 40px;
+	margin:10px auto;
+	line-height: 40px;
+	font-size: 20px;
+	color:#fff;
+	background-color: #b18d77;
+}
+.tz2 .part2 .part2-main{
+	width: 100%;
+}
+.tz2 .part2 .part2-main img{
+	width: 80%;
+}
+.tz2 .part2 ul li{
+	font-size: 12px;
+	width: 204px;
+	height: 275px;
+	border:1px solid #000;
+	line-height: 22px;
+	display: inline-block;
+	margin:0 4px;
+	vertical-align: top;
+}
+.tz2 .part2 ul li div{
+	font-size: 18px;
+	width:100%;
+	height: 50px;
+	background-color: #354025;
+	text-align: center;
+	color:#fff;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+
+/*tz3 --盈利分析*/
+
+.tz3{
+	text-align: center;
+}
+.tz3 .title{
+	font-size: 34px;
+	color:#b18d77;
+}
+.tz3 .title .p2{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.tz3 .table1{
+	width: 100%;
+	margin-top: 25px;
+}
+.tz3 .table1 th{
+	font-size: 18px;
+	color:#fff;
+	background-color: #354025;
+	width: 25%;
+	height: 65px;
+}
+.tz3 td{
+	font-size: 16px;
+	background-color: #a0806c;
+	color:#fff;
+	padding:9px;
+	box-sizing: border-box;
+	height: 60px;
+}
+.tz3 .table1 .td1{
+	font-weight: bold;
+}
+.tz3  .t-l{
+	text-align: left;
+	vertical-align: top;
+	padding:12px;
+	box-sizing: border-box;
+}
+.tz3 .table-b{
+	font-size: 14px;
+	text-align: left;
+	color:#a0806c;
+	margin-top: 20px;
+}
+.tz3 .title2{
+	margin-top: 50px;
+}
+
+.tz3 .table2 th{
+	width: 14%;
+	font-size: 14px;
+	height: 50px;
+}
+.tz3 .table2 td{
+	font-size: 14px;
+}
+
+
+/*tz4 -- 总部扶持*/
+.tz4{
+	text-align: center;
+	color:#b18d77;
+}
+.tz4 .title{
+	font-size: 34px;
+}
+.tz4 .title .p2{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.tz4 ul li .fl-lt{
+	width: 48%;
+}
+.tz4 ul li  img{
+	width: 100%;
+}
+.tz4 ul li .fl-rt{
+	width: 48%;
+	margin-top: 30px;
+}
+.tz4 ul li .li-r{
+	width: 100%;
+	height: 175px;
+	border:2px solid #b18d77;
+	box-sizing: border-box;
+	position:relative;
+	border-top: 0;
+}
+.tz4 ul li .li-r:before,
+.tz4 ul li .li-r:after{
+	content: '';
+	width: 130px;
+	height: 2px;
+	background: #b18d77;
+	position: absolute;
+	top: 0;
+}
+.tz4 ul li .li-r:before{
+	left: 0;
+}
+.tz4 ul li .li-r:after{
+	right: 0;
+}
+.tz4 ul li .top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 40px;
+	font-weight: bold;
+	width:100%;
+	text-align: center;
+	height: 50px;
+	margin:0 auto;
+	margin-top: -32px;
+}
+.tz4 ul li .top .line{
+	width: 120px;
+	height: 5px;
+	background-color: #b18d77;
+	margin:0 auto;
+}
+.tz4 ul li .li-fonts{
+	font-size: 22px;
+    margin-top: 35px;
+    line-height: 38px;
+    padding-top: 40px;
+}
+
+.tz4 ul li{
+	margin-top: 30px;
+}
+.tz4 ul li .li2-l{
+	width: 48%;
+	margin-top: 50px;
+}
+.tz4 ul li .li2-l .li-fonts{
+	margin-top: 20px;
+}
+.tz4 ul li .li2-r{
+	width: 48%;
+	margin-top: 0;
+}

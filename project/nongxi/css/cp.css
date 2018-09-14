@@ -1,0 +1,100 @@
+/*.cp1--家居清洁*/
+.cp1{
+	margin-bottom: 50px;
+}
+.cp1 .title .p1{
+	font-size: 26px;
+	background-color: #14a7a4;
+	color:#fff;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.cp1 .title .p2{
+	font-size: 14px;
+    margin-left: 20px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.cp1 .part .part-title{
+	font-size: 18px;
+	color:#14a7a4;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 20px;
+}
+.cp1 .part .part-title span{
+	font-size: 12px;
+}
+.cp1 .part .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.cp1 .part .picScroll-left .bd{
+	width: 810px;
+	margin: 15px auto;
+	overflow: hidden;
+}
+.cp1 .part .picScroll-left .bd li{
+	float: left;
+	background: #e3e3e3;
+	position: relative;
+	text-align: center;
+	width: 240px;
+	height: 270px;
+	margin: 0 15px;
+	cursor: pointer;
+}
+.cp1 .part .picScroll-left .bd li .box{
+	position: relative;
+	width: 224px;
+	height: 225px;
+	margin:5px auto;
+}
+.cp1 .part .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.cp1 .part .picScroll-left .bd li .li-fonts{
+	width: 160px;
+	/*margin:10px auto;*/ 
+	margin-top: 10px;
+	margin-left: 10px;
+	/*border:1px solid red;*/
+	text-align: left;
+	font-size: 14px;
+	position:relative;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.cp1 .part .picScroll-left .bd li  span{
+	font-size: 12px;
+	color:#acacac;
+	position:absolute;
+	right: 10px;
+	bottom: 13px;
+}
+.cp1 .part .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	width: 27px;
+	height: 70px;
+	cursor: pointer;
+	margin-top:-35px;
+}
+.cp1 .part .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 14px auto;
+}
+.cp1 .part .picScroll-left .arrow-left{
+	left: 15px;
+}
+.cp1 .part .picScroll-left .arrow-right{
+	right: 15px;
+}

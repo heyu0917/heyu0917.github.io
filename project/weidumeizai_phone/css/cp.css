@@ -1,0 +1,83 @@
+.cp{
+	color: #666;
+}
+.cp .top .p1{
+	display: inline-block;
+	font-size: .36rem;
+	padding-bottom: .22rem;
+	border-bottom: 1px solid #D0AB6A;
+	margin-bottom: .22rem;
+	line-height: .48rem;
+}
+.cp .top .p1 span{
+	font-size: .36rem;
+	color: #d0ab6a;
+}
+.cp .top .p2{
+	font-size: .32rem;
+	margin-bottom: .04rem;
+}
+.cp .top .p3{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+.cp .top .line{
+	width: .4rem;
+	height: 1px;
+	background: #D0AB6A;
+	margin-top: .12rem;
+	margin-bottom: .28rem;
+}
+.cp .top .title{
+	position: relative;
+}
+.cp .top .title img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: .72rem;
+}
+.cp .top .p4{
+	font-size: .24rem;
+	line-height: .4rem;
+	margin-top: .12rem;
+	margin-bottom: .24rem;
+	
+}
+.cp ul li{
+	border-bottom: 1px solid #D0AB6A;
+	margin-bottom: .36rem;
+}
+.cp ul li p{
+	font-size: .24rem;
+	line-height: .72rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

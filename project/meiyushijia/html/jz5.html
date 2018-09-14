@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/jSlider.css">
+	<link rel="stylesheet" href="../css/jz.css" />
+</head>
+<body>
+	<!-- 顶部开始 -->
+	<div class="top">
+		<div class="top_box">
+			<div class="top_box_left">
+				<img src="../img/logo.png">
+			</div>
+			<div class="top_box_right">
+				<img src="../img/phone.png">
+				<div class="phone">
+					<span class="word">加盟热线：</span>
+					<span class="number">400-0000-000</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 顶部结束 -->
+	<!-- 一级导航开始 -->
+	<div class="nav">
+		<div class="nav_box">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="sj1.html">美妤世家</a></li>
+				<li><a href="xx1.html">职业培训学校</a></li>
+				<li><a href="gj1.html">私人管家</a></li>
+				<li class="active"><a href="jz1.html">品质家政</a></li>
+				<li><a href="jm1.html">我要加盟</a></li>
+				<li><a href="zx1.html">资讯专区</a></li>
+				<li><a href="lx1.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 一级导航结束 -->
+	<!-- 轮播图开始 -->
+	<div class="banner">
+		<div class="jSlider" id="slider1">
+			<div><img src="../img/banner.jpg"></div>
+			<div><img src="../img/banner.jpg"></div>
+			<div><img src="../img/banner.jpg"></div>
+		</div>
+	</div>
+	<!-- 轮播图结束 -->
+	<!-- 二级导航开始 -->
+	<div class="two-level-nav">
+		<ul>                                                                                     
+			<li><a href="jz1.html"><span>品质服务</span></a></li>
+			<li><a href="jz2.html"><span>品质保洁</span></a></li>
+			<li><a href="jz3.html"><span>服务优势</span></a></li>
+			<li><a href="jz4.html"><span>店面展示</span></a></li>
+			<li class="active"><a href="jz5.html"><span>工具展示</span></a></li>
+		</ul>
+	</div>
+	<!-- 二级导航结束 -->
+	<div class="main jz4">
+		<div class="part1 y-row">
+			<div id="slide3d" class="slide-carousel slide-3d">
+				<ul class="item-list clearfix">
+					<li class="item0">
+						<img class="cover-img" src="../img/jz/e1.jpg" alt="">
+					</li>
+					<li class="item1">
+						<img class="cover-img" src="../img/jz/e1.jpg" alt="">
+					</li>
+					<li class="item2">
+						<img class="cover-img" src="../img/jz/e1.jpg" alt="">
+					</li>
+					<li class="item3">
+						<img class="cover-img" src="../img/jz/e1.jpg" alt="">
+					</li>
+				</ul>
+				<div class="controls">
+					<a class="item-prev arrow arrow-left" href="javascript:void(0);"><img src="../img/jz/arrowL.png" alt="" /></a>
+					<a class="item-next arrow arrow-right" href="javascript:void(0);"><img src="../img/jz/arrowR.png" alt="" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- 底部开始 -->
+	<div class="bottom">
+		<div class="bottom_box">
+			<div class="bottom_box_left">
+				<img src="../img/logo.png">
+			</div>
+			<div class="bottom_box_right">
+				<img src="../img/phone.png">
+				<div class="phone">
+					<span class="word">加盟热线：</span>
+					<span class="number">400-0000-000</span>
+				</div>
+			</div>
+		</div>
+		<ul>
+			<li class="left">
+				<p class="one">联系我们</p>
+				<p class="two">地址：北京市朝阳区高碑店东区J区17-3</p>
+				<p class="three">
+					<input type="text" name="" id="">
+					<span>搜索</span>
+				</p>
+			</li>
+			<li class="center">
+				<p class="left">
+					<img src="../img/erweima_1.png" alt="">
+					<span>二维码</span>
+				</p>
+				<p class="right">
+					<img src="../img/erweima_2.png" alt="">
+					<span>二维码</span>
+				</p>
+			</li>
+			<li class="right">
+				<p style="margin-left: 80px;">
+					<span><a href="sj1.html">美妤世家</a></span>
+					<span><a href="gj1.html">私人管家</a></span>
+					<span><a href="jm1.html">我要加盟</a></span>
+					<span><a href="lx1.html">联系我们</a></span>
+				</p>
+				<p>
+					<span><a href="index.html">首页</a></span>
+					<span><a href="xx1.html">职业培训学校</a></span>
+					<span><a href="jz1.html">品质家政</a></span>
+					<span><a href="zx1.html">资讯专区</a></span>
+				</p>
+			</li>
+		</ul>
+		<p class="beian">京ICP备0000000000号</p>
+	</div>
+	<!-- 底部结束 -->
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.jSlider.js"></script>
+	<script src="../js/slide.min.js"></script>
+	<script>
+		$('#slide3d').slideCarsousel({slideType:'3d',indicatorEvent:'mouseover',isAutoChange:true});
+	</script>
+</body>
+</html>

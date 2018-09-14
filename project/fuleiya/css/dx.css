@@ -1,0 +1,86 @@
+.er-nav .middle ul li.active:before{
+	left: 38px;
+}
+.er-nav .middle ul li.active:after{
+	right: 38px;
+}
+
+.comtitle{
+	width: 460px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 2;
+}
+.comtitle .p1{
+    font-size: 29px;
+    color: #10193A;
+    display: inline-block;
+    background: #FFF;
+    padding: 0 15px;
+}
+.comtitle .p3{
+    font-size: 32px;
+    color: #ACA67F;
+    font-family: myfont;
+    background: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 1;
+}
+.comtitle .p3_1{
+    display: block;
+    margin-left: 2px;
+}
+.comtitle .border{
+    width: 100%;
+    height: 109px;
+    border: 2px solid #10193A;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    z-index: -1;
+}
+
+.dx .line{
+	width: 40px;
+	height: 4px;
+	background: #10193A;
+	margin: 30px auto;
+}
+.dx span{
+	width: 190px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 20px;
+	display: block;
+	margin: 0 auto 25px;
+	background: #10193A;
+	color: #ACA67F;
+}
+.dx .con img{
+	margin-bottom: 25px;
+}
+.dx .con p{
+    border-bottom: 1px solid #10193A;
+    padding-bottom: 15px;
+    font-size: 16px;
+    color: #10193A;
+    line-height: 28px;
+    margin: 0 10px 15px;
+}
+.dx .con p:last-child{
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

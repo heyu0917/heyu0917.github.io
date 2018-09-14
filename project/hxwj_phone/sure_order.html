@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/sure_order.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	       
+	    	$(function(){
+	    		
+		    	var config = window.location.search;
+				if(config == "?flag=shoppingCar"){
+		        	var img_html = '<div id="prev_page_back"><img src="img/arrowL.png" alt="" class="arrowL-img"/></div>';
+				}else{
+					var img_html = '<a href="javascript:;" onclick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>';
+				}
+				$("#header_back p").html(img_html);
+		   		
+		    	$('#prev_page_back').tap(function(){
+					location.href="shoppingCar.html";
+
+				})
+	    	})
+	   </script>
+	</head>
+	<body>
+		<div id="sure_order">
+			<div class="header-back" id="header_back">
+				<p></p>
+				<h1>确认订单</h1>
+			</div>
+			<!--content-->
+			<div class="content">
+				<div class="address-wrap">
+					<a href="address.html">
+						<img src="img/addressIcon.png" alt="" class="addressIcon fl-lt"/>
+						<div class="address-middle fl-lt">
+							<div class="address-nn">
+								<span class="address-name fl-lt">芦苇微微</span>
+								<span class="address-number fl-lt">15212345678</span>
+								<span class="defalut font_22 fl-lt">默认</span>
+							</div>
+							<p class="address-text">湖北武汉市洪山区城区石牌岭路红岭花园（东区）5栋1单 元901室</p>
+						</div>
+						<img src="img/arrowR.png" alt="" class="address-arrowR fl-rt"/>
+						<img src="img/line.png" alt="" class="address-line"/>
+					</a>
+				</div>
+				<div class="order-info clearfix">
+					<a href="detail.html" class="shop-con-link">
+						<img src="img/detail1.jpg" alt="" class="shop-img fl-lt">
+						<div class="shop-con-right fl-lt">
+							<p class="p1 two-ellipsis">欢喜我家竹纤维面巾纸</p>
+							<p class="p3">规格:<span class="size">80抽×3层 20包</span></p>
+							<div class="price">￥<input type="text" value="59.00" readyonly id="input_price"/></div>
+						</div>
+						<div class="order-number">x<i id="num1">1</i></div>
+					</a>
+					<div class="collected-number clearfix">
+						<span class="fl-lt">购买数量</span>
+						<div class="num-frame fl-rt">
+							<i class="num-frame-minus" id="reduce">-</i>
+							<span class="num-frame-num">1</span>
+							<i class="num-frame-plus" id="add">+</i>
+						</div>
+					</div>
+					<div class="collected-result">
+						<span>共<strong>1</strong>件商品</span>
+						<span class="collected-result-right">小计：<strong id="prices1">￥59.00</strong></span>
+					</div>
+				</div>
+				<div class="order-t">
+					<ul class="order-t-list">
+						<li class="clearfix">
+							<span class="fl-lt">商品金额</span>
+							<span class="fl-rt order-t-num">￥<i id="prices2">59.00</i></span>
+						</li>
+						<li class="clearfix">
+							<span class="fl-lt">运费</span>
+							<span class="fl-rt order-t-num"><b>+</b>￥<i id="fast_price">6.00</i></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--footer-->
+			<div class="order-footer">
+				<span class="fl-lt real-pay">实付款：￥<i id="total_price">59.00</i></span>
+				<a href="order_pay.html"><span class="fl-lt submit-order-btn">提交订单</span></a>
+			</div>
+		</div>
+		
+		<script>
+			//已选中的数量加减
+			var n = 1;
+			$("#add").tap(function(){
+				n++;
+				$(this).prev().html(n);
+				$("#reduce").css("color","#222");
+				total_price(n);
+			})
+			$("#reduce").tap(function(){
+				if(n>2){
+					n--;
+					$(this).next().html(n);
+					$("#reduce").css("color","#222");
+					total_price(n);			
+				}else{
+					$(this).next().html(1);
+					$("#reduce").css("color","#e6e6e6");
+					n=1;
+				}
+			})
+
+			//实付款
+			function total_price(){
+				var num = $('.num-frame-num').html();
+				$('#num1').html(num);
+
+				var price = $('#input_price').val();
+				var prices1 = num*price;
+				var fast_price = $('#fast_price').html();
+				var prices2 = Number(prices1) + Number(fast_price);
+
+				$('#prices1').html(prices1.toFixed(2));
+				$('#prices2').html(prices1.toFixed(2));
+				$('#total_price').html(prices2.toFixed(2));
+			}
+
+		</script>
+	</body>
+</html>

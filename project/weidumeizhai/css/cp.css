@@ -1,0 +1,110 @@
+.er-nav ul li{
+	margin-bottom: 4px;
+	line-height: .52rem;
+	height: .52rem;
+}
+.er-nav .wrap{
+	padding-top: 20%;
+}
+
+.cp{
+	color: #666;
+	box-sizing: border-box;
+	padding: 4% 0;
+}
+.cp .part{
+	height: 100%;
+	width: 100%;	
+	position: relative;
+}
+.cp .left{
+	width: 30%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.cp .right{
+	width: 65%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	overflow: auto;
+	padding-right: 5%;
+	box-sizing: border-box;
+}
+.cp .left .p1{
+	font-size: .3rem;
+	padding-bottom: 5%;
+	border-bottom: 1px solid #D0AB6A;
+	margin-bottom: 5%;
+}
+.cp .left .p1 span{
+	font-size: .4rem;
+	color: #d0ab6a;
+}
+.cp .left .p2{
+	font-size: .24rem;
+	margin-bottom: 4px;
+}
+.cp .left .p3{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.cp .left .line{
+	width: 40px;
+	height: 1px;
+	background: #D0AB6A;
+	margin-top: 4%;
+	margin-bottom: 6%;
+}
+.cp .left .p4{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 5%;
+}
+
+.cp .left .title{
+	position: relative;
+}
+.cp .left .title img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 8%;
+}
+
+.cp .right ul li{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #D0AB6A;
+	float: left;
+	width: 47%;
+	margin-bottom: .45rem;
+}
+.cp .right ul li:nth-child(even){
+	float: right;
+}
+.cp .right ul li p{
+	font-size: 14px;
+	line-height: .5rem;
+}
+.cp .right ul li:last-child{
+	border-bottom: 0;
+}
+.cp .right ul li:last-child,
+.cp .right ul li:nth-last-child(2){
+	border-bottom: 0;
+}
+
+@media (max-width: 1370px) {
+	.cp .left .p4{
+		line-height: 22px;
+	}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+html,body{
+	background: #fff;
+}
+header{
+	background: #fff;
+	left: auto;
+	top: auto;
+}
+header .left-img-box img{
+	width: .23rem;
+	height: .4rem;
+	margin-left: .24rem;
+	margin-top: .24rem;
+}
+
+/*账号验证 checked*/
+.checked{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+}
+/*checked-con*/
+.checked-con,.reset-con{
+	position: absolute;
+	top: .88rem;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #D7D7D7;
+	padding-top: .4rem;
+	padding: 0 .64rem;
+	box-sizing: border-box;
+}
+.account-box,.new-key-box{
+	margin-bottom: .24rem;
+}
+.account-box,.code-box,.new-key-box,.sure-key-box{
+	font-size: .32rem;
+	height: .82rem;
+	line-height: .82rem;
+	border-bottom: 1px solid #d7d7d7;
+}
+.account-box span,.code-box span{
+	width: 1.46rem;
+}
+.get-code-input{
+	width: 2.6rem;
+    height: .82rem;
+    line-height: .82rem;
+}
+.get-code-btn {
+    width: 2rem;
+    height: .82rem;
+    line-height: .82rem;
+    color: #fccc18;
+    text-align: center;
+}
+.telephone{
+	width: 2.6rem;
+    height: .82rem;
+    line-height: .82rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.big-button{
+	margin-top: .56rem;
+}
+/*重置密码*/
+.reset{
+	position: fixed;
+	left: 100%;
+	top: 0;
+	background: #F3F5F7;
+	width: 100%;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+}
+.reset-con span{
+	width: 1.6rem;
+}
+
+/*prompt*/
+.prompt1,.prompt2{
+	position: fixed;
+	left: 1.44rem;
+	color: #f00;
+	font-size: .24rem;
+	opacity: 0;
+	z-index: -1;
+}
+.prompt1{
+	top: .98rem;
+}
+.prompt2{
+	top: 3.3rem;
+}
+
+
+
+
+
+

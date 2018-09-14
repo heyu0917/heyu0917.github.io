@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/searchgoodsAfter.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+		<!--搜索后界面-->
+		<header>
+			<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" class="back" />
+		    </a>
+			<div class="input-box">
+		   		<img src="../img/search2.png" class="search">
+		   		<input type="text" name="" id="input_val">
+		   		<div class="clear-box"><img src="../img/clear.png"></div>
+		   	</div>
+		    <div class="right-img-box"><span>搜索</span></div>
+		</header>
+		
+		<ul class="search-nav-list">
+			<li class="select ranking"><span><em id="search_after_condition">综合排序</em><i></i></span></li>
+			<li>销量优先</li>
+			<li>
+				<span>
+					<span class="screen-text">筛选</span><span><img src="../img/screen.png" alt="" class="screen-img"/></span>
+				</span>
+			</li>
+		</ul>
+		
+		<div class="search-after-con">
+			<div class="recommend-con">
+				<ul class="recommend-list">
+					<li>
+						<a href="detail.html">
+							<img src="../img/goods1.jpg" alt="" class="goods-img"/>
+							<h3 class="recommend-h3">特种兵黑色作训保安帽军</h3>
+							<div><img src="../img/ji.png" alt="" /><span>300</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="detail.html">
+							<img src="../img/goods1.jpg" alt="" class="goods-img"/>
+							<h3 class="recommend-h3">特种兵黑色作训保安帽军</h3>
+							<div><img src="../img/ji.png" alt="" /><span>300</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="detail.html">
+							<img src="../img/goods1.jpg" alt="" class="goods-img"/>
+							<h3 class="recommend-h3">特种兵黑色作训保安帽军</h3>
+							<div><img src="../img/ji.png" alt="" /><span>300</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="detail.html">
+							<img src="../img/goods1.jpg" alt="" class="goods-img"/>
+							<h3 class="recommend-h3">特种兵黑色作训保安帽军</h3>
+							<div><img src="../img/ji.png" alt="" /><span>300</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="detail.html">
+							<img src="../img/goods1.jpg" alt="" class="goods-img"/>
+							<h3 class="recommend-h3">特种兵黑色作训保安帽军</h3>
+							<div><img src="../img/ji.png" alt="" /><span>300</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="detail.html">
+							<img src="../img/goods1.jpg" alt="" class="goods-img"/>
+							<h3 class="recommend-h3">特种兵黑色作训保安帽军</h3>
+							<div><img src="../img/ji.png" alt="" /><span>300</span></div>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!--综合排序下拉-->
+		<div class="ranking-wrap">
+			<ul class="ranking-list">
+				<li class="select"><span class="fl-lt">综合排序</span><img src="../img/right2.png" alt="" class="fl-rt"/></li>
+				<li><span class="fl-lt">新品优先</span><img src="../img/right2.png" alt="" class="fl-rt"/></li>
+				<li><span class="fl-lt">价格由高到低</span><img src="../img/right2.png" alt="" class="fl-rt"/></li>
+				<li><span class="fl-lt">价格由低到高</span><img src="../img/right2.png" alt="" class="fl-rt"/></li>
+			</ul>
+		</div>		
+
+		
+		<div class="bg2"></div>
+		<!--筛选-->
+		<div class="screen-wrap">
+			<div class="price-rage">
+				<div class="comWidth">
+					<h3>价格区间(元)</h3>
+					<div class="down-high">
+						<input type="text" placeholder="最低价" class="down-input"/>
+						<span>—</span>
+						<input type="text" placeholder="最高价" class="high-input"/>
+					</div>					
+				</div>
+			</div>
+			<div class="all-type">
+				<span class="fl-lt">全部分类</span>
+				<span class="fl-rt"><span class="all-type-text allTypeText">全部</span><img src="../img/arrowR.png" alt="" /></span>
+			</div>
+			<div class="other-type clearfix">
+				<div class="brand">
+					<div class="other-type-title comWidth">
+						<h3 class="fl-lt">风格</h3>
+						<span class="fl-rt"><span class="brand-all-text allTypeText">全部</span><img src="../img/arrowD_t.png" alt="" class="arrowD_t"/></span>
+					</div>
+					<ul class="type-list">
+						<li><span>H</span></li><li><span>L</span></li><li><span>K</span></li>
+					</ul>
+				</div>
+				<div class="carTpye">
+					<div class="other-type-title comWidth">
+						<h3 class="fl-lt">型号</h3>
+						<span class="fl-rt"><span class="carTpye-all-text allTypeText">全部</span><img src="../img/arrowD_t.png" alt="" class="arrowD_t"/></span>
+					</div>
+					<ul class="type-list">
+						<li><span>A</span></li>
+					</ul>
+				</div>
+				<div class="size">
+					<div class="other-type-title comWidth">
+						<h3 class="fl-lt">颜色</h3>
+						<span class="fl-rt"><span class="size-all-text allTypeText">全部</span><img src="../img/arrowD_t.png" alt="" class="arrowD_t"/></span>
+					</div>
+					<ul class="type-list">
+						<li><span>红色</span></li><li><span>蓝色</span></li><li><span>绿色</span></li><li><span>黄色</span></li>
+					</ul>
+				</div>
+			</div>
+			<!--btn-->
+			<div class="screen-bottom-btn">
+				<span class="fl-lt screen-reset">重置</span>
+				<span class="fl-rt screen-sure">确定</span>
+			</div>
+		</div>
+				
+		<!--全部分类-->
+		<div class="allType-wrap">
+			<header class="header-back">
+				<div id="allType_back" class="left-img-box">
+					<img src="../img/back.png" alt="" class="back"/>
+				</div>
+				<h1>全部分类</h1>
+			</header>
+			<div class="allType-con">
+				<div class="allTyppe-con-top">
+					<span class="allType-con-title fl-lt">全部分类</span>
+					<img src="../img/right2.png" class="fl-rt allTpye-right-img"/>
+				</div>
+				<ul class="allType-con-middle">
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">民警制服</span>
+							<img src="../img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>A</li><li>B</li><li>C</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">民警制服</span>
+							<img src="../img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>A</li><li>B</li><li>C</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">民警制服</span>
+							<img src="../img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>A</li><li>B</li><li>C</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">民警制服</span>
+							<img src="../img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>A</li><li>B</li><li>C</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">离合器系列</span>
+							<img src="../img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>A</li><li>B</li><li>C</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../js/searchAfter.js"></script>
+		<script type="text/javascript" src="../js/searchgoodsAfter.js"></script>
+	</body>
+
+</html>
+

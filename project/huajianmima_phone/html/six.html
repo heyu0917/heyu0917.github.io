@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta key="" content=""/>
+		<meta description="" content=""/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/six.css" />
+	    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+		</script>
+	</head>
+	<body>
+		
+		<div class="header">
+			<div class="top">
+				<div class="logo">
+					<img src="../img/logo.png" alt="" />
+				</div>
+				<div class="logo-title">
+					<span>·</span><p>基地花农直采   航空冷链直达</p><span>·</span>
+				</div>
+			</div>
+			<div class="menu-img">
+				<img src="../img/menu.png" alt="" class="img2"/>
+				<img src="../img/close.png" alt="" class="img3 none"/>
+			</div>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="one.html">真爱定制</a></li>
+				<li><a href="two.html">鲜       花</a></li>
+				<li><a href="three.html">礼       品</a></li>
+				<li><a href="four.html">品牌介绍 </a></li>
+				<li><a href="five.html">商务合作</a></li>
+				<li class="active"><a href="six.html">联系我们</a></li>			
+			</ul>
+		</div>
+		
+		<div class="content">
+			<div class="part1">
+				<img src="../img/six/a1.png" alt="" />
+				<div id="map"></div>
+				<p>合作请直接拨打财富热线/留言可索取更多项目资料</p>
+			</div>
+			<div class="part2">
+				<p class="p1">ONLINE MESSAGE</p>
+				<p class="p2">在线留言</p>
+				<div class="box">
+					<p class="p3">姓名 NAME</p>
+					<input type="radio" name='sex' id="male" />
+					<label for="male">先生</label>
+					<input type="radio" name='sex' id="female" />
+					<label for="female">女士</label>
+				</div>
+				<input type="text" class="text-input" />
+				<p class="p3">联系地址 ADD</p>
+				<input type="text" class="text-input" />
+				<p class="p3">联系电话 TEL</p>
+				<input type="text" class="text-input" />
+				<textarea placeholder="咨询内容"></textarea>
+				<div class="submit">提交</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<ul class="clearfix">
+				<li>
+					<a href="tel:4000000">
+						<img src="../img/foot1.png" alt="" />
+						<p>联系我们</p>
+					</a>
+				</li>
+				<li class="li2">
+					<a href="index.html">
+						<img src="../img/foot2.png" alt="" />
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" id="backTop">
+						<img src="../img/foot3.png" alt="" />
+						<p>回到顶部</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    var point = new BMap.Point(117.5408494477,36.7145246126);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+			
+		</script>
+	</body>
+</html>

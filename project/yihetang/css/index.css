@@ -1,0 +1,364 @@
+.pages{
+	position: fixed;
+    right: 5%;
+    top:50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.pages li{
+	width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #b7d4d0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.pages li.active{
+	background: #f7e080;
+}
+.pages:before{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #B7D4D0;
+    position: absolute;
+    top: 0;
+    left: 9px;
+    z-index: -1;
+}
+.pages li:nth-child(1){
+	margin-top: 20px;
+}
+.pages li:first-child:before,
+.pages li:last-child:before{
+	content: '';
+	width: 8px;
+	height: 8px;
+	background: #B7D4D0;
+	border-radius: 50%;
+	position: absolute;
+	left: 6px;
+}
+.pages li:first-child:before{
+	top: 0;
+}
+.pages li:last-child:before{
+	bottom: 0;
+}
+
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+
+.header{
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 111;
+}
+
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+
+
+#container,
+.sections,.section{
+	height: 100%;
+	position: relative;
+}
+.section{
+	overflow: hidden;
+}
+
+.section1 .banner{
+	width: 100%;
+	height:100%;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+.section1 .banner .banner-list{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.section1 .banner .banner-list li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.section1 .banner .banner-list li img{
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	height: 100%;
+	min-width: 100%;
+	display: block;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+
+.section1 .banner .banner-list li:first-child{
+	display: block;
+}
+.section1 .banner-btn-list{
+	position: absolute;
+	bottom: 120px;
+	text-align: center;
+	width: 100%;
+}
+.section1 .banner-btn-list li{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: rgba(0,0,0,.4);
+	margin: 0 6px;
+	cursor: pointer;
+}
+.section1 .banner-btn-list li.light{
+	background: #f7e080;
+}
+
+.section2 .con{
+	position: relative;
+	padding-top: 80px;
+	height: 100%;
+	box-sizing: border-box;
+}
+.section2 .con .img1{
+    width: 8%;
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    margin-top: 80px;
+}
+.section2 .con .picScroll-left{
+	position: absolute;
+	bottom: 120px;
+	left: 0;
+	width: 100%;
+}
+.section2 .con .picScroll-left .bd{
+	width: 1040px;
+	margin: 0 auto;
+}
+.section2 .con .picScroll-left .bd li{
+	width: 240px;
+	height: 150px;
+	float: left;
+	text-align: center;
+	margin: 0 10px;
+}
+.section2 .con .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 116px;
+	border: 2px solid #e2e2e2;
+	box-sizing: border-box;
+}
+.section2 .con .picScroll-left .bd li p{
+	height: 34px;
+	line-height: 34px;
+	font-size: 18px;
+	overflow: hidden;
+	width: 100%;
+}
+.section2 .con .picScroll-left .arrow{
+	position: absolute;
+	top: 0;
+	width: 50px;
+	height: 116px;
+	cursor: pointer;
+}
+.section2 .con .picScroll-left .arrow img{
+	width: 30px;
+	height: 50px;
+	display: block;
+	margin: 32px auto;
+}
+.section2 .con .picScroll-left .arrow-left{
+	left: 0;
+}
+.section2 .con .picScroll-left .arrow-right{
+	right: 0;
+}
+
+.section3 .img1{
+    position: absolute;
+    left: 13.5%;
+    top: 3%;
+    margin-top: 80px;
+    width: 14%;
+}
+
+.section4 .con{
+    width: 39%;
+    margin-left: 47%;
+    padding-top: 80px;
+    margin-top: 5%;
+}
+.section4 .con .fl-lt{
+	width: 74%;
+}
+.section4 .con .fl-lt .p1{
+	font-size: .3rem;
+}
+.section4 .con .fl-lt .p2{
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 2%;
+	margin-bottom: 10%;
+}
+.section4 .con .fl-lt a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: #F7E080;
+}
+.section4 .con .fl-rt{
+	width: 13%;
+}
+
+.section5 .con{
+	padding-top: 80px;
+	width: 62%;
+	margin: 4% auto 0;
+}
+.section5 .con .fl-lt{
+	width: 44.5%;
+}
+.section5 .con .fl-rt{
+	width: 49%;
+}
+.section5 .con .fl-rt img:nth-child(2){
+	margin-top: 6%;
+}
+
+.section6 .con{
+	width: 60%;
+	margin: 5% auto;
+    position: relative;
+    padding-top: 80px;
+}
+.section6 .con .img1{
+    position: absolute;
+    right: 0;
+    top: -10%;
+    z-index: 2;
+    width: 9%;
+    margin-top: 80px;
+}
+.section6 .con ul li{
+	border-bottom: 1px solid #999;
+	padding-bottom: .16rem;
+	margin-bottom: .16rem;
+	overflow: hidden;
+	clear: both;
+}
+.section6 .con ul li:last-child{
+	border: 0;
+}
+.section6 .con ul li .fl-lt{
+	width: 35%;
+}
+.section6 .con ul li .fl-rt{
+	width: 60%;
+	font-family: "宋体";
+}
+.section6 .con ul li .fl-rt .p1{
+	font-size: .28rem;
+	text-transform: uppercase;
+	height: .32rem;
+}
+.section6 .con ul li .fl-rt .p1 span{
+	font-size: .14rem;
+    vertical-align: middle;
+}
+.section6 .con ul li .fl-rt .p2{
+	font-size: .24rem;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+.section6 .con ul li .fl-rt a{
+	font-size: 16px;
+	line-height: 30px;
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 80%;
+}
+
+
+@media (max-width: 1600px) {
+	.section2 .con{
+		width: 1000px;
+	}
+	.section2 .con .picScroll-left{
+		bottom: 100px;
+	}
+	.section2 .con .picScroll-left .bd{
+		width: 864px;
+	}
+	.section2 .con .picScroll-left .bd li{
+		width: 200px;
+		height: 129px;
+		float: left;
+		text-align: center;
+		margin: 0 8px;
+	}
+	.section2 .con .picScroll-left .bd li img{
+		display: block;
+		width: 100%;
+		height: 99px;
+		border: 2px solid #e2e2e2;
+		box-sizing: border-box;
+	}
+	.section2 .con .picScroll-left .bd li p{
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.section2 .con .picScroll-left .arrow{
+		height: 99px
+	}
+	.section2 .con .picScroll-left .arrow img{
+		margin: 25px auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

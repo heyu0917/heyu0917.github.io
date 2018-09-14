@@ -1,0 +1,277 @@
+/*ms1--美塑定制*/
+.ms1 .title{
+	width: 100%;
+	text-align: center;
+}
+.ms1 .title .title1 .line{
+	width: 160px;
+	height: 2px;
+	background-color: #8873b6;
+	display: inline-block;
+	vertical-align: middle;
+}
+.ms1 .title .title1 .p1{
+	font-size: 40px;
+	color:#666;
+	display: inline-block;
+	vertical-align: middle;
+}
+.ms1 .title .title1{
+	position:relative;
+    top: -30px;
+    left: -65px;
+}
+.ms1 .title .p2{
+	font-size: 16px;
+	color:#494949;
+}
+.ms1 .part1{
+	text-align: center;
+	margin-top: 50px;
+	position:relative;
+}
+.ms1 .part1 ul li{
+	width: 200px;
+	margin: 0 54px;
+	display: inline-block;
+	vertical-align: top;
+}
+.ms1 .part1 .ul1{
+	position:absolute;
+	top: 4px;
+    left: 130px;
+}
+.ms1 .part1 .ul1 li{
+	font-size: 20px;
+	color:#333;
+
+}
+.ms1 .part1 .ul2 li{
+	font-size: 14px;
+	color:#727171;
+	margin-top: 10px;
+	line-height: 24px;
+}
+.ms1 .ms1-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ms1 .ms1-img .left-img{
+	left: 0;
+	top: 38%;
+}
+.ms1 .ms1-img .right-img{
+	right: 0;
+	top: 38%;
+}
+
+/*ms2--美学空间*/
+.ms2 .title{
+	width: 100%;
+	text-align: center;
+}
+.ms2 .title .p1{
+	font-size: 40px;
+	color:#666;
+	position:relative;
+	top:-105px;
+}
+.ms2 .part1{
+	text-align: center;
+	position:relative;
+}
+.ms2 .part1 p{
+	position:absolute;
+	width: 415px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+    font-size: 14px;
+    color:#fff;
+}
+.ms2 .part1 .p1{
+    top: 224px;
+    left: 159px;
+}
+.ms2 .part1 .p2{
+	top: 224px;
+    left: 622px;
+}
+.ms2 .part1 .p3{
+	top: 530px;
+    left: 159px;
+}
+.ms2 .part1 .p4{
+	top: 530px;
+    left:622px;
+}
+.ms2 .part1 .p5{
+	top: 836px;
+    left:159px;
+}
+.ms2 .part1 .p6{
+	top: 836px;
+    left:622px;
+}
+.ms2 .ms2-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ms2 .ms2-img .left-img{
+	left: 0;
+	top: 20%;
+}
+.ms2 .ms2-img .right-img{
+	right: 0;
+	top: 65%;
+}
+
+/*ms3--品牌起源*/
+.ms3 .title{
+	width: 100%;
+	text-align: center;
+}
+.ms3 .part1{
+	text-align: center;
+	margin-top: 10px;
+}
+.ms3 .part1 .part1-l,
+.ms3 .part1 .part1-r{
+	display: inline-block;
+	vertical-align: top;
+	margin:0 18px;
+}
+.ms3 .part1 .part1-l{
+	width: 38%;
+	display: inline-block;
+	text-align: left;
+}
+.ms3 .part1 .part1-r{
+	width: 460px;
+	height: 780px;
+}
+.ms3 .part1 .part1-r img{
+	width: 100%;
+}
+.ms3 .part1 p{
+	font-size: 16px;
+	color:#494949;
+	line-height: 38px;
+}
+.ms3 .part1 .p2{
+	margin-top: 50px;
+}
+.ms3 .part2{
+	width: 930px;
+	height: 380px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.ms3 .part2 img{
+	width: 100%;
+}
+.ms3 .ms3-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ms3 .ms3-img .left-img{
+	left: 0;
+	top: 70%;
+}
+.ms3 .ms3-img .right-img{
+	right: 0;
+	top: 35%;
+}
+
+
+/*ms4--品牌荣誉*/
+.ms4 .title{
+	width: 100%;
+	text-align: center;
+}
+.ms4 .part1{
+	margin-top: 50px;
+}
+
+
+/*ms5--走进我们*/
+.ms5 .title{
+	width: 100%;
+	text-align: center;
+}
+.ms5 .title .line{
+	width: 760px;
+	height: 1px;
+	background-color: #a164a3;
+	margin:0 auto;
+    position: relative;
+    left: -60px;
+    top: -15px;
+}
+.ms5 .part{
+	margin-top: 20px;
+}
+.ms5 .part p{
+    width: 72%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #494949;
+    line-height: 36px;
+}
+.ms5 .part .e2-img{
+	width: 72%;
+	height: 300px;
+	margin: 30px auto;
+}
+.ms5 .part .e2-img img{
+	width: 100%;
+}
+.ms5 .ms5-img div{
+	position:absolute;
+	z-index: -1;
+}
+.ms5 .ms5-img .left-img{
+	left: 0;
+	top: 78%;
+}
+.ms5 .ms5-img .right-img{
+	right: 0;
+	top: 31%;
+}
+
+
+@media (max-width:1444px) {
+	.ms1 .ms1-img .left-img,
+	.ms2 .ms2-img .left-img,
+	.ms3 .ms3-img .left-img,
+	.ms5 .ms5-img .left-img{
+		left: -80px;
+	}
+	.ms1 .ms1-img .right-img,
+	.ms2 .ms2-img .right-img,
+	.ms3 .ms3-img .right-img,
+	.ms5 .ms5-img .right-img{
+		right: -80px;
+	}
+	.ms3 .ms3-img .left-img{
+		top: 68%;
+	}
+	.ms3 .ms3-img .right-img{
+		top: 52.2%;
+	}
+}
+@media (max-width:1300px) {
+	.ms1 .ms1-img .left-img,
+	.ms2 .ms2-img .left-img,
+	.ms3 .ms3-img .left-img,
+	.ms5 .ms5-img .left-img{
+		left: -100px;
+	}
+	.ms1 .ms1-img .right-img,
+	.ms2 .ms2-img .right-img,
+	.ms3 .ms3-img .right-img,
+	.ms5 .ms5-img .right-img{
+		right: -100px;
+	}
+}
+

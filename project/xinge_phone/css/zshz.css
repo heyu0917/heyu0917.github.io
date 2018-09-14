@@ -1,0 +1,193 @@
+.content{
+/*	background: rgba(255,255,255,.9);*/
+}
+.main{
+	padding: 0 .16rem;
+}
+
+.main-nav{
+	padding: .2rem .56rem 0 .56rem;
+}
+.main-nav li{
+	width: 47%;
+}
+.main-nav li:nth-child(2){
+	float: right;
+}
+
+/*引入字体*/
+@font-face{
+	src: url('../font/ITCEDSCR.TTF');
+	font-family: ITCEDSCR;
+}
+
+/*代理政策*/
+.dlzc .part2 h3{
+	font-size: .28rem;
+}
+.dlzc .part2 i{
+	color: #cca200;
+	font-weight: bold;
+}
+.dlzc .part2 span{
+	/*font-size: .1rem;*/
+	font-size: .24rem;
+	transform: scale(.417);
+	-webkit-transform: scale(.417);
+	-o-transform: scale(.417);
+	-moz-transform: scale(.417);
+	-ms-transform: scale(.417);
+	width: 240%;
+	margin-left: -70%;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -.08rem;
+}
+.dlzc .part2 .i2{
+	width: 1.9rem;
+	height: 2px;
+	display: block;
+	margin: -.1rem auto .2rem auto;
+	background: #cca200;
+}
+
+.dlzc .part3 p{
+	text-align: center;
+}
+.dlzc .part3 img{
+	width: 4.14rem;
+	display: block;
+	margin: .2rem auto .5rem auto;
+}
+
+.dlzc .part4{
+	padding: 0 .1rem;
+}
+.dlzc .part4 ul li{
+	float: left;
+	width: 48%;
+	margin-bottom: .3rem;
+	font-size: .24rem;
+}
+.dlzc .part4 ul li:nth-child(even){
+	float: right;
+}
+.dlzc .part4 ul li:last-child{
+	width: 100%;
+}
+.dlzc .part4 ul li span{
+	height: .4rem;
+	width: .4rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: .4rem;
+	display: inline-block;
+	background: #2c0051;
+	margin-right: .04rem;
+	font-weight: bold;
+	color: #fff;
+}
+.dlzc .part4 ul li:nth-child(8) span{
+	vertical-align: top;
+}
+.dlzc .part4 ul li h4{
+	display: inline-block;
+}
+
+/*扶持政策*/
+.fczc .main{
+	padding: 0;
+}
+.fczc .part2 i{
+	color: #cca200;
+	font-weight: bold;
+}
+.fczc .part2 span{
+/*	font-size: .1rem;*/
+	font-size: .24rem;
+	transform: scale(.417);
+	-webkit-transform: scale(.417);
+	-o-transform: scale(.417);
+	-moz-transform: scale(.417);
+	-ms-transform: scale(.417);
+	width: 240%;
+	margin-left: -70%;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -.08rem;
+}
+.fczc .part2 .i2{
+	width: 1.9rem;
+	height: 2px;
+	display: block;
+	margin: -.1rem auto .2rem auto;
+	background: #cca200;
+}
+
+.fczc .part3{
+	padding: 0 .24rem .3rem .24rem;	
+}
+.fczc .part3 .img1{
+	width: 3.7rem;
+	display: block;
+	margin-top: 1.54rem;
+	margin-left: -.24rem;
+}
+.fczc .part3 ul{
+	position: relative;
+}
+.fczc .part3 ul li h4{
+	font-size: .24rem;
+	color: #cca200;
+}
+.fczc .part3 ul li h4 span{
+	font-family: ITCEDSCR;
+	font-size: .6rem;
+	font-weight: normal;
+	color: #000;
+    margin-right: .16rem;
+    vertical-align: middle;
+}
+.fczc .part3 ul li p{
+	margin-top: -.24rem;
+}
+.fczc .part3 ul li:nth-child(1){
+	position: absolute;
+    left: 30%;
+    top: 0;
+}
+.fczc .part3 ul li:nth-child(2){
+	position: absolute;
+    left: 56%;
+    top: 1.54rem;
+}
+.fczc .part3 ul li:nth-child(3){
+	padding-top: 3.44rem;
+}
+.fczc .part3 ul li:nth-child(4){
+    position: absolute;
+    left: 48%;
+    top: 5.74rem;
+}
+.fczc .part3 ul li:nth-child(5){
+	padding-top: 1.84rem;
+}
+.fczc .part3 ul .li1 h4{
+	margin-left: -.72rem;
+}
+.fczc .part3 ul li i{
+	width: .14rem;
+	height: .14rem;
+	display: inline-block;
+	background: #2c0051;
+	margin-right: .08rem;
+	border-radius: 50%;
+}
+
+
+
+
+
+

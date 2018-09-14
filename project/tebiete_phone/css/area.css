@@ -1,0 +1,171 @@
+.header-back{
+	z-index: 111;
+}
+/*common*/
+.content{
+	position: absolute;
+	top: .88rem;
+	bottom: 0;
+	overflow: auto;
+}
+.banner img{
+	display: block;
+	width: 100%;
+	height: 4rem;
+}
+.banner2 img{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+
+/*recommend 促销专区*/
+.recommend-con{
+	overflow: hidden;
+	margin: .24rem;
+}
+.recommend-list li{
+	width: 3.4rem;
+	height: 4.08rem;
+	background: #fff;
+	border-radius: 10px;
+	margin-bottom: .16rem;
+}
+.recommend-list li a{
+	display: block;
+	position: relative;
+}
+.recommend-list li img{
+	width: 3.4rem;
+	height: 3.02rem;
+	display: block;
+	margin-bottom: .16rem;
+}
+.recommend-h3{
+	font-size: .28rem;
+	color: #222;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.recommend-h3 span{
+	display: block;
+	margin-top: .08rem;
+	font-size: .3rem;
+	color: #f60;
+}
+.promotion-text{
+	width: .64rem;
+	height: .24rem;
+	text-align: center;
+	line-height: .24rem;
+	background: #f60;
+	position: absolute;
+	left: 0;
+	top: .24rem;
+	color: #fff;
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+
+/*领券中心*/
+.coupon-content{
+	position: absolute;
+	left: 0;
+	top: .88rem;
+	border-top: 1px solid #D7D7D7;
+	padding-top: .16rem;
+	width: 100%;
+}
+.counpon-list li{
+	width: 100%;
+	height: 1.84rem;
+	margin-bottom: .16rem;
+	position: relative;
+	font-size: 0;
+	background: #fff;
+	z-index: 1;
+}
+.coupon-bgImg{
+	display: block;
+	width: 100%;
+	height: 1.84rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.quan-img{
+	width: 1.7rem;
+	height: 1.52rem;
+	margin-top: .16rem;
+}
+.coupon-list-middle{
+	margin-left: .24rem;
+}
+.coupon-list-middle h3{
+	font-size: .28rem;
+	height: .62rem;
+	line-height: .62rem;
+	margin-bottom: .24rem;
+}
+.coupon-list-middle p{
+	font-size: .24rem;
+	color: #999;
+	height: .4rem;
+	line-height: .4rem;
+}
+.coupon-list-right span{
+	color: #fff;
+	font-size: .26rem;
+	margin-top: .32rem;
+	margin-right: .16rem;
+	display: block;
+	text-align: right;
+}
+.coupon-list-right strong{
+	font-size: .44rem;
+}
+.coupon-list-right p{
+	font-size: .28rem;
+	margin-right: .16rem;
+	margin-top: .4rem;
+	color: #fff;
+}
+
+/*中间提示框*/
+.get-coupon{
+	width: 3.2rem;
+	line-height: .5rem;
+	padding: .16rem .24rem;
+	height: 1rem;
+	background: rgba(0,0,0,.5);
+	position: fixed;
+	left: 50%;
+	margin-left: -1.64rem;
+	top: 50%;
+	margin-top: -.5rem;
+	font-size: .24rem;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+

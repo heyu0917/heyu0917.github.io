@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/integralRech.css" type="text/css"/>
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<header>
+			<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" class="back" />
+		    </a>
+		    <h1>充值</h1>
+		</header>
+
+		<div class="content content-bordertop integralRech">
+			<div class="input-box">
+				<input type="number" name="" placeholder="输入充值金额" id="moeny" />
+			</div>
+			<div class="big-button big-button-gray" id="sure_button">确认</div>
+		</div>
+
+		<div class="bg"></div>
+		<div class="popup">
+			<div class="popup-top clearfix">
+				<h1 class="fl-lt">选择支付方式</h1>
+				<img src="../img/close.png" class="fl-rt" id="close">
+			</div>
+			<ul>
+				<li>
+					<img src="../img/weixin.png">
+					<span>微信支付</span>
+				</li>
+				<li>
+					<img src="../img/zhifubao.png">
+					<span>支付宝支付</span>
+				</li>
+			</ul>
+		</div>
+
+		<script type="text/javascript" src="../js/integralRech.js"></script>
+	</body>
+</html>

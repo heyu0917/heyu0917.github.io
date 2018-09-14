@@ -1,0 +1,173 @@
+#index_page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+}
+.header-top{
+	width: 100%;
+	background: #4b89dc;
+	text-align: center;
+	height: .96rem;
+	line-height: .96rem;
+	font-size: .36rem;
+	color: #fff;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 114;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+}
+.index-header{
+	width: 100%;
+	background: #4b89dc;
+	position: absolute;
+	top: .96rem;
+	left: 0;
+	font-size: .24rem;
+}
+.header-middle{	
+	width: 100%;
+	padding: 0 .24rem;
+	box-sizing: border-box;
+}
+.hm-one img{
+	width: .8rem;
+	height: .8rem;
+	margin-right: .24rem;
+	vertical-align: middle;
+}
+.hm-one span{
+	font-size: .28rem;
+	color: #fff;
+	vertical-align: middle;
+}
+.hm-two{
+	width: 100%;
+	text-align: center;
+	font-size: .28rem;
+	color: #fff;
+	margin-bottom: .32rem;
+}
+.hm-two a{
+	display: block;
+	color: #fff;
+}
+.hm-two img{
+	width: 1.06rem;
+	height: .98rem;
+	margin: .24rem auto;
+	display: block;
+}
+.header-bottom{
+	height: .96rem;
+	line-height: .96rem;
+	background: #0277bd;
+	width: 100%;
+	font-size: .26rem;
+	color: #fff;
+	position: relative;
+	text-align: center;
+}
+.header-bottom .address{
+	position: absolute;
+	left: .24rem;
+	top: 0;
+	height: .96rem;
+	line-height: .96rem;
+}
+.search-input{
+	width: 4.6rem;
+	height: .54rem;
+	line-height: .54rem;
+	background: #fff;
+	border-radius: .3rem;
+	text-indent: .24rem;
+	font-size: .26rem;
+}
+.search-img{
+	position: absolute;
+	right: .4rem;
+	top: .28rem;
+	width: .4rem;
+	height: .4rem;	
+}
+
+/*index-con*/
+.index-con{
+	position: absolute;
+	top: 5rem;
+	left: 0;
+	width: 100%;
+}
+.index-con-list li{
+	padding: .16rem .24rem;
+	height: 1.5rem;
+	border-bottom: 1px solid #e6e6e6;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.index-con-list li img{
+	width: 2.2rem;
+	height: 1.5rem;
+	margin-right: .16rem;
+}
+.index-li-right{
+	width: 3.5rem;
+}
+.index-li-right h3{
+	font-size: .3rem;
+	margin-bottom: .24rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.index-address{
+	font-size: .26rem;
+	color: #666;
+	margin-bottom: .24rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.stars-box{
+	font-size: .24rem;
+}
+@font-face {font-family: "star";
+  src: url('../font/star.eot?t=1469264940'); /* IE9*/
+  src: url('../font/star.eot?t=1469264940#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/star.woff?t=1469264940') format('woff'), /* chrome, firefox */
+  url('../font/star.ttf?t=1469264940') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/star.svg?t=1469264940#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.stars i{
+	color: #cd1616;
+    font-family:"star" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.star-after-text{
+	padding: .02rem .08rem;
+	color: #fff;
+	background: #4b89dc;
+	border-radius: .3rem;
+	margin-left: .16rem;
+	display: inline-block;
+}
+.index-li-km{
+	font-size: .24rem;
+	color: #666;
+}

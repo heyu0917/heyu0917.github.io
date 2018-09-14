@@ -1,0 +1,64 @@
+/*bottom-link*/
+.bottom-link{
+	position: fixed;
+    bottom: 0;
+    z-index: 101;
+}
+/*content*/
+.content-middle{
+	width: 100%;
+	padding: 0 .3rem;
+	box-sizing: border-box;
+}
+.content-middle input{
+	width: 100%;
+	display: block;
+	height: .54rem;
+	padding-left: .16rem;
+	border: 1px solid #d7d7d7;
+	margin-bottom: .24rem;
+	box-sizing: border-box;
+	font-size: .24rem;
+}
+.content-middle textarea{
+	width: 100%;
+	height: 3rem;
+	resize: none;
+	padding: .16rem;
+	border: 1px solid #d7d7d7;
+	box-sizing: border-box;
+	font-size: .24rem;
+	color: #333;
+}
+.content-middle button{
+	background: #c30e23;
+	border-radius: 4px;
+	width: 2.4rem;
+	height: .68rem;
+	text-align: center;
+	line-height: .68rem;
+	color: #fff;
+	display: block;
+	margin: .4rem auto;
+	font-size: .28rem;
+	letter-spacing: 1px;
+}
+.content-middle button:active{
+	background: #ab0d1f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

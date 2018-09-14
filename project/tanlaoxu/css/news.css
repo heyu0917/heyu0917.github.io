@@ -1,0 +1,139 @@
+/*行业资讯 & 品牌动态*/
+.news .ab-img{
+	position: absolute;
+	z-index: -1;
+}
+.news .ab-img1{
+	left: 0;
+	top: 600px;
+}
+.news .ab-img2{
+	right: 0;
+	bottom: 60px;
+}
+.news .title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.news .title .box{
+	position: relative;
+	margin: 0 auto 20px;
+}
+.news .title .box p{
+	font-size: 32px;
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	line-height: 60px;
+}
+.news .list1 li{
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px dashed #341F0B;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	height: 180px;
+}
+.news .list1 li:last-child{
+	border-bottom: 0;
+}
+.news .list1 li a{
+	display: block;
+	height: 100%;
+	color: #341F0B;
+}
+.news .list1 li .fl-lt{
+	width: 320px;
+	height: 180px;
+}
+.news .list1 li .li-con{
+	width: 550px;
+	font-size: 14px;
+}
+.news .list1 li .li-con .p1{
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news .list1 li .li-con .p2{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.news .list1 li .li-con .more{
+	float: right;
+	margin-top: 15px;
+}
+
+/*新闻详情*/
+.detail .ab-img{
+	position: absolute;
+	z-index: -1;
+}
+.detail .ab-img1{
+	left: 0;
+	top: 600px;
+}
+.detail .ab-img2{
+	right: 0;
+	bottom: 60px;
+}
+.detail .part1{
+	text-align: center;
+}
+.detail .part1 h3{
+	font-size: 24px;
+	font-weight: normal;
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .part1 .box{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.detail .part1 .box span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 8px;
+}
+.detail .part1 .box .s-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+.detail .part2{
+	margin-top: 30px;
+	font-size: 0;
+}
+.detail .part2 p{
+	font-size: 14px;
+	text-indent: 28px;
+	margin-bottom: 12px;
+	line-height: 24px;
+}
+.detail .part2 img{
+	display: block;
+	max-width: 100%;
+	margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

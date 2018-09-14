@@ -1,0 +1,92 @@
+/*在线留言*/
+.lxly .part1{
+	width: 680px;
+	margin: 0 auto;
+}
+.lxly .part1 ul li{
+	margin-bottom: 20px;
+	width: 100%;
+}
+.lxly .part1 ul li span{
+	display: block;
+	font-size: 16px;
+	color: #822631;
+	margin-bottom: 5px;
+}
+.lxly .part1 ul li input{
+	background: #fff;
+	border: 1px solid #aaa;
+	padding: 0 10px;
+	height: 44px;
+	line-height: 44px;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 16px;
+}
+.lxly .part1 ul li textarea{
+	background: #fff;
+	border: 1px solid #aaa;
+	padding: 10px;
+	height: 160px;
+	line-height: 24px;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 16px;
+	resize: none;
+}
+
+.lxly .part1 .submit{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #822631;
+	border: 1px solid #aaa;
+	display: block;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+
+/*联系我们*/
+.lxwm .part1 h1{
+	font-size: 32px;
+	color: #E60012;
+	font-family: "宋体";
+	margin-bottom: 30px;
+}
+.lxwm .part1 .con{
+	padding-left: 20px;
+}
+.lxwm .part1 .con h3{
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 5px;
+	position: relative;
+}
+.lxwm .part1 .con h3::before{
+	position: absolute;
+	left: -18px;
+	top: 13px;
+	width: 12px;
+	height: 4px;
+	background: #E60012;
+	content: '';
+}
+.lxwm .part1 .con p{
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+

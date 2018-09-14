@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>罗马之恋</title>
+    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--网站开启对 web app 程序的支持-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--改变顶部状态条的颜色-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/lMessage.css" type="text/css"/>	
+	<script type="text/javascript" src="../js/jquery.min.3_1_0.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jq.lazyload.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/lMessage.js"></script>
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 +'px';
+    </script>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="left-box">
+			<img src="../img/back.png" alt="" />
+		</a>
+		<img src="../img/header.png" alt="" class="header-img"/>
+		<img src="../img/logo.png" alt="" class="logo-img"/>
+	</header>
+	
+	<div class="content">
+		<div class="content-main">
+			<!--底图-->
+			<img src="../img/bg.jpg" alt="" class="main-bg" class="lazy"/>
+			<div class="nav-wrap">
+				<ul>
+					<li>
+						<a href="lmzl.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>罗玛之恋</h2>
+						</a>
+					</li>
+					<li>
+						<a href="ygts.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>意国特色</h2>
+						</a>
+					</li>
+					<li>
+						<a href="sxmw.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>奢享美味</h2>
+						</a>
+					</li>
+					<li>
+						<a href="schx.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>市场航向</h2>
+						</a>
+					</li>
+					<li>
+						<a href="hzzl.html">
+							<img src="../img/nav_bg.png" alt="" class="lazy"/>
+							<h2>合作专栏</h2>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="tap-main">
+				<div class="part1">
+					<ul>   
+						<li>
+							<span>姓名（必填）</span>
+							<input type="text" />
+						</li>
+						<li>
+							<span>电话（必填）</span>
+							<input type="text" />
+						</li>
+						<li>
+							<span>E-mail</span>
+							<input type="text" />
+						</li>
+					</ul>
+					<div class="area-box">
+						<span>留言</span>
+						<textarea></textarea>
+					</div>
+					<button>提交留言</button>
+				</div>
+				<div class="part2" id="map"></div>
+				<div class="part3">
+					<img src="../img/erweima.jpg" alt="" class="lazy fl-rt"/>
+					<div class="part-con">
+						<h3>广州大航母餐饮管理有限公司</h3>
+						<ul>
+							<li>
+								<span>总部地址：</span>
+								<p>广州市番禺区东环街番禹大道 北555号天安总部中心24号楼2层（整层）</p>
+							</li>
+							<li>
+								<span>热恋电话：</span>
+								<p>400-100-1715</p>
+							</li>
+							<li>
+								<span>品牌官网：</span>
+								<p>www.lmzl520.com</p>
+							</li>
+						</ul>
+					</div>					
+				</div>
+
+			</div>
+		
+			
+	
+		</div>
+	</div>
+	
+	<div class="footer">
+		<ul>
+			<li>
+				<a href="tel:10086">电话咨询</a>
+			</li>
+			<li>
+				<a href="index.html">回到首页</a>
+			</li>
+			<li>
+				<a href="lMessage.html">在线留言</a>
+			</li>
+		</ul>
+	</div>
+	
+	<script type="text/javascript">
+		var mySwiper = new Swiper ('.banner-swiper', {
+   			loop: true,
+    		pagination: '.swiper-pagination',    
+		})
+		var swiper2 = new Swiper ('.swiper2', {
+   			slidesPerView : 3,
+			spaceBetween : 5,
+    		prevButton: '.leftarrow',
+			nextButton: '.rightarrow',
+			loop: true
+		})
+	</script>
+</body>
+</html>

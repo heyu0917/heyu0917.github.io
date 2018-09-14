@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/shoppingCar.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<h2>购物车</h2>
+			<img src="img/news.png" class="news-img">
+			<div class="news-wrap">
+				<span class="edit" id="edit">编辑</span>
+				<a href="goods_list.html"><img src="img/search.png" alt="" class="search-img" /></a>
+			</div>
+		</div>
+		<!--content-img-->
+		<div class="content-img">
+			<img src="img/shop1.png" alt="" / class="shop1">
+			<img src="img/shop2.png" alt="" / class="shop2">					
+		</div>
+		<div class="content-con">
+			<ul class="shop-list" id="shop_list">
+				<li>
+					<div class="shop-content">
+						<input type="checkbox" class="check-one check"/>
+						<img src="img/round.png" alt="" class="check-img fl-lt" />
+						<div class="shop-con-link fl-rt">
+							<div class="fl-lt detail-page"><img src="img/detail1.jpg" alt="" class="shop-img"/></div>
+							<div class="shop-con-right fl-lt">
+								<div class="detail-page">
+									<p class="p1">欢喜我家竹纤维卷筒纸</p>
+									<p class="p3">￥198.00<i></i></p>
+									<span class="price">￥<input type="text" value="59.00" readonly/></span>
+								</div>
+								<div class="price-wrap">
+									<div class="shop-number">
+										<i class="reduce">-</i>
+										<em class="reduce-em"></em>
+										<input type="text" class="shop-num" value="1" readonly />
+										<em class="add-em"></em>
+										<i class="add">+</i>
+										<input type="hidden" value="" readonly/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="shop-content">
+						<input type="checkbox" class="check-one check"/>
+						<img src="img/round.png" alt="" class="check-img fl-lt" />
+						<div class="shop-con-link fl-rt">
+							<div class="fl-lt detail-page"><img src="img/detail1.jpg" alt="" class="shop-img"/></div>
+							<div class="shop-con-right fl-lt">
+								<div class="detail-page">
+									<p class="p1">欢喜我家竹纤维卷筒纸</p>
+									<p class="p3">￥198.00<i></i></p>
+									<span class="price">￥<input type="text" value="59.00" readonly/></span>
+								</div>
+								<div class="price-wrap">
+									<div class="shop-number">
+										<i class="reduce">-</i>
+										<em class="reduce-em"></em>
+										<input type="text" class="shop-num" value="1" readonly />
+										<em class="add-em"></em>
+										<i class="add">+</i>
+										<input type="hidden" value="" readonly/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<!--Settlement-->
+		<div class="settlement">
+			<div class="settle-left fl-lt">
+				<img src="img/round.png" alt="" class="check-all-img check-img" id="select_all"/>
+				<input type="checkbox" class="check-all check"/>
+				<label for="check_all">全选</label>
+			</div>
+			<div class="settle-middle fl-lt" id="settle_middle">
+				<p class="settle-total">合计：￥<span id="priceTotal1">0.00</span></p>
+				<p class="settle-price">￥<span id="priceTotal2">0.00</span></p>
+			</div>
+			<div class="settle-right fl-rt" id="settle_right"><div>去结算<span class="settlement-num-box">(<span id="selectedTotal">0</span>)</span></div></div>
+			<div class="settle-right-btn" id="settle_right_btn">
+				<span class="button fl-rt active" id="deleteAll">删除</span>
+				<span class="button fl-rt">移入收藏</span>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<ul>
+				<li><a href="index.html"><img src="img/bottomIcon1-gray.png"><span>好物</span></a></li>
+				<li><a href="mall.html"><img src="img/bottomIcon2-gray.png"><span>商城</span></a></li>
+				<li><a href="javascript:void(0)" class="light"><img src="img/bottomIcon3.png" class="bottomIcon3-img"><span>购物车</span></a></li>
+				<li><a href="my.html"><img src="img/bottomIcon4-gray.png" class="bottomIcon4-img"><span>我的</span></a></li>
+			</ul>	
+		</div>
+		
+		<div class="bg2" id="bg"></div>
+		<!--delete popup-->
+		<div class="delete-popup" id="delete_popup">
+			<p class="delete-popup-top">确认要删除这<span id="goods_num"></span>种商品吗？</p>
+			<p class="delete-popup-btn"><span class="fl-lt" id="cancel_btn">取消</span><span class="fl-lt" id="sure_btn">确定</span></p>
+		</div>
+		<div id="delete_popup_sellect" class="bottom-popup">您还没有选择商品哦！</div>
+		
+		<script>
+			window.onload = function(){
+				if (!document.getElementsByClassName) {
+			        document.getElementsByClassName = function (cls) {
+			            var ret = [];
+			            var els = document.getElementsByTagName('*');
+			            for (var i = 0, len = els.length; i < len; i++) {
+			
+			                if (els[i].className.indexOf(cls + ' ') >=0 || els[i].className.indexOf(' ' + cls + ' ') >=0 || els[i].className.indexOf(' ' + cls) >=0) {
+			                    ret.push(els[i]);
+			                }
+			            }
+			            return ret;
+			        }
+			   }
+					
+				//点击编辑
+				var edit = document.getElementById('edit');
+				var settle_middle = document.getElementById('settle_middle'),
+					settle_right = document.getElementById('settle_right'),
+					settle_right_btn = document.getElementById('settle_right_btn');
+				var edit_flag = true;
+				edit.addEventListener('tap',function(){
+					if(edit_flag){
+						this.innerHTML = '完成';
+						settle_middle.style.display = "none";
+						settle_right.style.display = "none";
+						settle_right_btn.style.display = "block";
+						edit_flag = false;
+					}else{
+						this.innerHTML = '编辑';
+						settle_middle.style.display = "block";
+						settle_right.style.display = "block";
+						settle_right_btn.style.display = "none";
+						edit_flag = true;
+					}
+				})
+				
+				var list = document.getElementById('shop_list');//购物车列表
+			    var selectInputs = document.getElementsByClassName('check'); // 所有勾选框
+			    var checkAllInputs = document.getElementsByClassName('check-all'); // 全选框
+			    var checkImgs = document.getElementsByClassName('check-img'); // 所有勾选框图片
+			    var checkAllImgs = document.getElementsByClassName('check-all-img'); // 全选框图片
+			    var li= list.getElementsByTagName('li') //每一个li
+			    var selectedTotal = document.getElementById('selectedTotal'); //已选商品数目
+			    var priceTotal1 = document.getElementById('priceTotal1'); //总计价格
+			    var priceTotal2 = document.getElementById('priceTotal2'); //总计价格
+			    var deleteAll = document.getElementById('deleteAll'); // 删除全部按钮
+				
+				//更新总数和总价格
+				function getTotal(){
+					var seleted = 0;
+					var prices = 0;
+					for (var i = 0; i < li.length; i++) {
+						if (li[i].getElementsByTagName('input')[0].checked) {
+							seleted += parseInt(li[i].getElementsByTagName('input')[2].value);
+							
+							if(li[i].getElementsByTagName('input')[3].value == ""){//判断值是否为空
+						    	li[i].getElementsByTagName('input')[3].value = li[i].getElementsByTagName('input')[1].value;
+						    }
+							
+							prices += parseFloat(li[i].getElementsByTagName('input')[3].value);	
+						}
+					}	
+
+					selectedTotal.innerHTML = seleted;
+					priceTotal1.innerHTML = prices.toFixed(2);
+					priceTotal2.innerHTML = prices.toFixed(2);
+					
+					
+				}
+				
+			    // 计算单行价格  
+			    function getSubtotal(i) {
+			    	var price = i.parents(".shop-con-right").find("input").eq(0).val();//单价	
+			    	var countInput = i.parent().find("input").eq(0);//数量
+			    	var subtotal = i.parent().find("input").eq(1);//单行总价
+			    	var i = i.parent().find("i").eq(0);//-号		   
+			        subtotal.val((parseInt(countInput.val()) * parseFloat(price)).toFixed(2));//计算单个商品的总价：单价*数量
+			        
+			        //如果数目只有一个，把-号更换颜色
+			        if (countInput.val() == 1) {
+			            i.css({"color":"#e6e6e6"});
+			        }else{
+			            i.css({"color":"#000"});
+			        }
+			        
+			    }
+
+				// 点击选择框
+			    for(var i = 0; i < selectInputs.length; i++ ){
+			        var m = 0;
+			        selectInputs[i].onclick = function () {
+			        	if(this.className.indexOf('check-one') >= 0){  //单选
+			        		if(this.checked){//获取选中的个数
+			        			this.nextElementSibling.src = 'img/round_light.png';			        			
+			        			m++;				        		
+			        		}else{
+			        			m--;
+			        		}
+			        		if(m == selectInputs.length-1){//如果单选全都选中了，则把全选选中
+				        			checkAllInputs[0].checked = true;
+				        			checkAllImgs[0].src = 'img/round_light.png';
+				        			m = 2;
+				        	}
+			        	}
+			        				        	
+			            if (this.className.indexOf('check-all') >= 0) { //如果是全选，则把所有的选择框选中
+			                for (var j = 0; j < selectInputs.length; j++) {
+			                	if(this.checked){
+			                    	selectInputs[j].checked = this.checked;
+			                    	checkImgs[j].src = 'img/round_light.png';			                		
+			                	}else{
+			                		selectInputs[j].checked = false;
+			                		checkImgs[j].src = 'img/round.png';
+			                	}
+			                }
+			            }
+			            if (!this.checked) { //只要有一个未勾选，则取消全选框的选中状态
+			            	this.nextElementSibling.src = 'img/round.png';
+			                for (var i = 0; i < checkAllInputs.length; i++) {
+			                    checkAllInputs[i].checked = false;
+			                    checkAllImgs[i].src = 'img/round.png';
+			                }
+			            }
+			            getTotal();
+			        }
+			    }			    			    
+			    //加减
+				var n;
+				$('.add-em').tap(function(){
+					var _this = $(this).next();
+					
+					n = $(this).prev().val();
+					n++;
+					$(this).prev().val(n);
+				
+					getSubtotal(_this);					
+					getTotal();
+				})
+				$('.reduce-em').tap(function(){
+					var _this = $(this).prev();
+					if(this.nextElementSibling.value > 1){
+						
+						if(n){
+							n--;
+						}else{
+							n = this.nextElementSibling.value; 
+							n--;
+						}
+						this.nextElementSibling.value = n;
+					}else{
+						this.nextElementSibling.value = 1;
+					}
+					getSubtotal(_this);
+					getTotal();
+				})
+				
+				 // 点击全部删除
+			    var bg = document.getElementById('bg');
+			    var delete_popup = document.getElementById('delete_popup');
+			    var cancel_btn = document.getElementById('cancel_btn');
+			    var sure_btn = document.getElementById('sure_btn');
+		    	deleteAll.addEventListener('tap',function(){
+			        if (selectedTotal.innerHTML != 0) {
+			            //弹出确认框
+			            bg.style.opacity = "1";
+			            bg.style.zIndex = "112";
+			            delete_popup.style.opacity = "1";
+			            delete_popup.style.zIndex = "113";
+			            delete_popup.style.transform = "scale(1)";
+			            delete_popup.style.webkitTransform = "scale(1)";
+			            delete_popup.style.msTransform = "scale(1)";
+			            //在弹框中显示商品个数
+			            document.getElementById('goods_num').innerHTML = selectedTotal.innerHTML;
+			            //取消
+			            cancel_btn.addEventListener('tap',function(){
+			            	bg.style.opacity = "0";
+				            bg.style.zIndex = "-1";
+				            delete_popup.style.opacity = "0";
+				            delete_popup.style.zIndex = "-1";
+				            delete_popup.style.transform = "scale(0)";
+				            delete_popup.style.webkitTransform = "scale(0)";
+				            delete_popup.style.msTransform = "scale(0)";
+			            })
+			            //确认
+			            sure_btn.addEventListener('tap',function(){
+			            	bg.style.opacity = "0";
+				            bg.style.zIndex = "-1";
+				            delete_popup.style.opacity = "0";
+				            delete_popup.style.zIndex = "-1";
+				            delete_popup.style.transform = "scale(0)";
+				            delete_popup.style.webkitTransform = "scale(0)";
+				            delete_popup.style.msTransform = "scale(0)";
+				            for(var i = 0; i < li.length; i++){
+				            	if (li[i].getElementsByTagName('input')[0].checked) {
+									// 删除相应节点
+									
+			                        //i--; //回退下标位置
+			                    }
+				            }
+				            
+			            })
+				        } else {
+				            document.getElementById('delete_popup_sellect').style.opacity = '1';
+				            setTimeout(function(){
+				            	document.getElementById('delete_popup_sellect').style.opacity = '0';
+				            },2000)
+				        }
+			        getTotal(); //更新总数
+			    })
+		    	
+		    //页面跳转提示
+			$('#settle_right').tap(function(){
+				if(selectedTotal.innerHTML == 0){				    	
+			    	$('#delete_popup_sellect').css("opacity","1");
+		            setTimeout(function(){
+		            	$('#delete_popup_sellect').css("opacity","0");
+		            },2000);			        
+			    }else{
+			    	$('#delete_popup_sellect').css("opacity","0");
+			    	location.href="sure_order.html?flag=shoppingCar";
+			    }
+			})
+			
+			//跳转到详情页面
+			$(".detail-page").tap(function(){
+				location.href="detail.html?flag=shoppingCar";
+			})
+
+	    
+		}
+	</script>
+	</body>
+</html>

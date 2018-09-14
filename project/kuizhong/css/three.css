@@ -1,0 +1,54 @@
+.three2 .part1{
+	position: relative;
+}
+.three2 ul{
+	width: 1100px;
+	margin: 0 auto;
+}
+.three2 ul li{
+	height: 412px;
+	clear: both;
+	margin-bottom: 60px;
+}
+.three2 ul li .li-img{
+	width: 700px;
+}
+.three2 ul li .li-con{
+	width: 400px;
+	color: #fff;
+	text-align: center;
+}
+.three2 ul li .li-con .p1{
+	font-size: 50px;
+	margin-top: 126px;
+}
+.three2 ul li .li-con .line{
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	display: inline-block;
+	margin: 10px 0;
+	margin-left: 100px;
+}
+.three2 ul li .li-con .p2{
+	font-size: 20px;
+	font-weight: lighter;
+}
+.three2 ul li:nth-child(even) .li-con{
+	text-align: left;
+}
+.three2 ul li:nth-child(even) .li-con .line{
+	margin-left: 0;
+}
+.three2 .img1{
+	margin-left: 100px;
+}
+.three2 .img2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+

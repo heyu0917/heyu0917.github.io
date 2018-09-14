@@ -1,0 +1,62 @@
+.part2{
+	margin-top: .5rem;
+	width: 100%;
+	padding: .16rem;
+	box-sizing: border-box;
+	margin-bottom: .32rem;
+	overflow: hidden;
+}
+.part2 ul li{
+	width: 32%;
+	height: 5.3rem;
+	background: #efefef;
+	margin-bottom: .24rem;
+	overflow: hidden;
+	margin-right: 2%;
+	float: left;
+}
+.part2 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.part2 ul li img{
+	width: 96%;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: .16rem auto;
+	display: block;
+}
+.part2 ul li h2{
+	font-size: .24rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: .04rem;
+	text-align: center;
+}
+.part2 ul li i{
+	display: block;
+	width: 70%;
+	height: .04rem;
+	background: #6D2322;
+	margin-bottom: .12rem;
+	margin: 0 auto;
+}
+.part2 ul li p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+
+
+
+
+
+
+
+
+
+
+

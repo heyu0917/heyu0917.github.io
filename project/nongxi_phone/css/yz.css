@@ -1,0 +1,87 @@
+.er-nav a {
+    width: 50%;
+}
+
+.yz1 .box{
+	margin-top: 0.3rem;
+	width: 100%;
+	
+}
+.yz1 .bigSmall .large_box{
+	width: 100%;
+	overflow: hidden;
+	height: 2.94rem;
+	border:0.1rem solid #78c7c4;
+	box-sizing: border-box;
+}
+.yz1 .bigSmall .large_box ul{
+	position: relative;
+}
+.yz1 .bigSmall .large_box ul li{
+	position: relative;
+	width: 6.75rem;
+	height: 2.94rem; 
+}
+.yz1 .bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.yz1 .bigSmall .small_box{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.yz1 .bigSmall .small_box .small_list{
+    width: 6.2rem;
+    height: 1.36rem;
+    margin: 0 auto;
+    margin-top: 0.18rem;
+    overflow: hidden;
+}
+.yz1 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.yz1 .bigSmall .small_box .small_list ul li{
+	width: 3rem;
+	height: 1.36rem;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin-right:0.2rem;
+	overflow: hidden;
+	border: 0.04rem solid #78c7c4;
+	box-sizing: border-box;
+	z-index:3;
+}
+.yz1 .bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.yz1 .bigSmall .small_box ul li.on{
+	border: 0.04rem solid #00fffa;
+}
+.yz1 .arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5rem;
+	z-index: 2;
+	height: 0.8rem;
+	width: 0.3rem;
+	cursor: pointer;
+}
+.yz1 .arrow-left{
+	left: 0px;
+}
+.yz1 .arrow-right{
+	right:0px;
+} 
+.yz1 .arrow img{
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0.1rem auto 0 auto;
+}

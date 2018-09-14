@@ -1,0 +1,386 @@
+/*市场分析*/
+.yx_sc .com-title{
+	position: relative;
+	margin-bottom: 45px;
+}
+.yx_sc .com-title .round{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #E89214;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.yx_sc .com-title h2{
+	font-size: 28px;
+    color: #811C21;
+    padding-top: 13px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.yx_sc .com-title span{
+	font-size: 16px;
+    color: #811C21;
+    margin-left: 30px;
+}
+
+.yx_sc .part1{
+	padding: 0 30px;
+}
+.yx_sc .part1 img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.yx_sc .part1 h3{
+	padding: 0 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	height: 48px;
+	line-height: 48px;
+	position: relative;
+	background: #811C21;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.yx_sc .part1 h3:after{
+    position: absolute;
+    right: 50px;
+    bottom: -14px;
+    content: '';
+    border-top: 25px solid #811C21;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transform: rotate(45deg);
+}
+.yx_sc .part1 p{
+	font-size: 16px;
+	color: #811C21;
+	line-height: 30px;
+}
+.yx_sc .part1 p strong{
+	font-size: 18px;
+}
+
+.yx_sc .part2,
+.yx_sc .part3{
+	padding-left: 30px;
+	padding-right: 10px;
+	position: relative;
+	margin-top: 50px;
+}
+
+.yx_sc .part2 p,
+.yx_sc .part3 p{
+	font-size: 16px;
+	color: #811C21;
+	line-height: 30px;
+}
+.yx_sc .part2 .con{
+	width: 380px;
+}
+.yx_sc .part3 .con{
+	width: 440px;
+}
+.yx_sc .part2 .img1,
+.yx_sc .part3 .img1{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	width: 330px;
+}
+.yx_sc .part3 .img1{
+	width: 280px;
+	top: 85px;
+}
+
+
+/*项目优势*/
+.yx_xm .part1{
+	text-align: center;
+	color: #811C21;
+	padding: 0 80px;
+}
+.yx_xm .part1 span{
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 20px;
+}
+.yx_xm .part1 .title{
+	position: relative;
+}
+.yx_xm .part1 .title .round{
+	width: 88px;
+	height: 88px;
+	background: #E89214;
+	border-radius: 50%;
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	z-index: -1;
+}
+.yx_xm .part1 .title h2{
+	font-size: 34px;
+	margin-bottom: 15px;
+}
+.yx_xm .part1 h3{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.yx_xm .part1 img{
+	display: block;
+	margin: 0 auto;
+}
+
+.yx_xm .part2{
+	position: relative;
+	margin: 0 20px;
+	height: 1200px;
+}
+.yx_xm .part2 .round{
+	width: 150px;
+	height: 150px;
+	background: #811C21;
+	color: #fff;
+	border-radius: 50%;
+	margin-right: 15px;
+	position: relative;
+}
+.yx_xm .part2 .round span{
+	width: 53px;
+	height: 53px;
+	border: 2px solid #fff;
+	background: #E89214;
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	text-align: center;
+	line-height: 53px;
+	z-index: 2;
+	border-radius: 50%;
+	font-size: 24px;
+	font-weight: bold;
+}
+.yx_xm .part2 .round h3{
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	line-height: 150px;
+}
+.yx_xm .part2 p{
+	font-size: 16px;
+	line-height: 28px;
+	color: #811C21;
+}
+
+.yx_xm .part2 .item1{
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+.yx_xm .part2 .item1 p{
+	width: 540px;
+	margin-top: 75px;
+}
+.yx_xm .part2 .item2{
+	position: absolute;
+	top: 145px;
+	left: 255px;
+}
+.yx_xm .part2 .item2 p{
+	width: 290px;
+	margin-top: 45px;
+}
+.yx_xm .part2 .item3{
+    position: absolute;
+    top: 340px;
+    left: 55px;
+}
+.yx_xm .part2 .item3 p{
+	width: 460px;
+	margin-top: 45px;
+}
+.yx_xm .part2 .item4{
+	position: absolute;
+	top: 600px;
+	left: 0;
+}
+.yx_xm .part2 .item4 p{
+	width: 238px;
+	margin-top: 30px;
+	margin-right: 5px;
+}
+.yx_xm .part2 .item5{
+    position: absolute;
+    top: 600px;
+    right: 0;
+    width: 230px;
+}
+.yx_xm .part2 .item5 .round{
+	margin-left: 78px;
+}
+.yx_xm .part2 .item5 p{
+	margin-top: 10px;
+}
+.yx_xm .part2 .item6{
+    position: absolute;
+    top: 850px;
+    right: 0;
+    width: 435px;
+}
+.yx_xm .part2 .item6 p{
+	width: 265px;
+    margin-top: 85px;
+}
+.yx_xm .part2 .item7{
+    position: absolute;
+    top: 970px;
+    left: 0;
+}
+.yx_xm .part2 .item7 p{
+	width: 565px;
+    margin-top: 10px;
+}
+
+.yx_xm .part2 img{
+	position: absolute;
+	z-index: -1;
+}
+.yx_xm .part2 .img1{
+    left: 89px;
+    top: 100px;
+}
+.yx_xm .part2 .img2{
+    left: 127px;
+    top: 237px;
+}
+.yx_xm .part2 .img3{
+    left: 127px;
+    top: 493px;
+}
+.yx_xm .part2 .img4{
+    right: 127px;
+    top: 627px;
+}
+.yx_xm .part2 .img5{
+    right: 127px;
+    top: 704px;
+}
+.yx_xm .part2 .img6{
+	left: 127px;
+    top: 894px;
+}
+
+
+/*特色营销*/
+.yx_ts .part1{
+	padding: 0 40px;
+}
+.yx_ts .part1 .title{
+	position: relative;
+	color: #811C21;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.yx_ts .part1 .title .round{
+	width: 88px;
+	height: 88px;
+	background: #E89214;
+	border-radius: 50%;
+	position: absolute;
+	left: 20px;
+	top: -10px;
+	z-index: -1;
+}
+.yx_ts .part1 .title h2{
+    font-size: 31px;
+    margin-bottom: 10px;
+}
+.yx_ts .part1 .title span{
+    font-size: 16px;
+    display: block;
+    line-height: 28px;
+}
+.yx_ts .part1 .img1{
+	display: block;
+	margin: 0 auto 35px auto;
+}
+.yx_ts .part1 p{
+	font-size: 16px;
+	line-height: 28px;
+	color: #811C21;
+	margin-bottom: 20px;
+}
+
+.yx_ts .part2{
+	margin: 65px 40px 15px 40px;
+	border-radius: 20px;
+	background: #E89214;
+	padding: 40px 50px;
+	position: relative;
+	color: #fff;
+}
+.yx_ts .part2 .title{
+	width: 490px;
+	height: 54px;
+	line-height: 54px;
+	position: absolute;
+	left: 50%;
+	top: -27px; 
+	margin-left: -245px;
+	text-align: center;
+	z-index: 2;
+}
+.yx_ts .part2 .title img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.yx_ts .part2 .title h3{
+	font-weight: normal;
+	font-size: 18px;
+	color: #fff;
+}
+.yx_ts .part2 ul{
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+.yx_ts .part2 ul li{
+	margin-bottom: 5px;
+}
+.yx_ts .part2 ul li strong{
+	font-size: 20px;
+	display: block;
+}
+.yx_ts .part2 p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.yx_ts .part2 .img1{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

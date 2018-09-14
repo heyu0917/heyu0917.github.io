@@ -1,0 +1,295 @@
+/*公共*/
+.main-com-top{
+	background: #ecae33;
+	padding: 20px;
+	position: relative;
+}
+.main-com-top .title{
+	position: relative;
+	margin-bottom: 10px;
+}
+.main-com-top .title h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 34px;
+}
+.main-com-top .line{
+	position: absolute;
+	right: -20px;
+	bottom: 15px;
+	height: 1px;
+	background: #000;
+}
+.main-com-top .p1{
+	color: #666;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 0!important;
+}
+
+
+/*品牌简介*/
+.ppjj .main-com-top{
+	margin-bottom: 20px;
+}
+.ppjj .main-com-top1 .line{
+	width: 500px;
+}
+.ppjj .main-com-top1 .img1{
+	position: absolute;
+	right: 80px;
+	bottom: 10px;
+	z-index: 2;
+}
+.ppjj .main-com-top2 .line{
+	width: 420px;
+}
+.ppjj .main-com-top2 .img1{
+	position: absolute;
+	right: 80px;
+	bottom: 0;
+	z-index: 2;
+}
+.ppjj p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.ppjj .part1 .img-box{
+	font-size: 0;
+	margin-bottom: 20px;
+}
+.ppjj .part1 .img-box img{
+	display: inline-block;
+	width: 365px;
+	height: 186px;
+	margin-right: 30px;
+}
+.ppjj .part1 .img-box img:last-child{
+	margin-right: 0;
+}
+.ppjj .part2 .img1{
+	margin-bottom: 20px;
+}
+
+/*品牌故事*/
+.ppgs .main-com-top .line{
+	width: 310px;
+}
+.ppgs .part1{
+	margin-top: 30px;
+}
+.ppgs .part1 p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.ppgs .part1 .img-box{
+	font-size: 0;
+	margin-bottom: 20px;
+}
+.ppgs .part1 .img-box img{
+	display: inline-block;
+	width: 365px;
+	height: 186px;
+	margin-right: 30px;
+}
+.ppgs .part1 .img-box img:last-child{
+	margin-right: 0;
+}
+
+
+/*品牌资源*/
+.ppzy .part1{
+	background: #ecae33;
+	padding: 20px;
+	position: relative;
+	padding-bottom: 78px;
+	z-index: 2;
+}
+.ppzy .part1 ul{
+	width: 90%;
+    margin: 0 auto;
+}
+.ppzy .part1 ul li{
+	position: relative;
+	width: 175px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	margin-right: 50px;
+}
+.ppzy .part1 ul li:last-child{
+	margin-right: 0;
+}
+.ppzy .part1 ul li h3{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    border-radius: 1000%;
+    background: #000;
+    height: 65px;
+    padding: 5px 0;
+}
+.ppzy .part1 ul li img{
+	position: absolute;
+	bottom: -72px;
+	z-index: 2;
+}
+.ppzy .part1 ul li .img1{
+	width: 104px;
+	left: -10px;
+}
+.ppzy .part1 ul li .img2{
+	width: 124px;
+	right: -10px;
+}
+.ppzy .part1 ul li .img3{
+	width: 50px;
+	right: -40px;
+}
+.ppzy .part1 .line{
+	width: 76%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 59px;
+	left: 12%;
+	z-index: -1;
+}
+
+.ppzy .part2{
+	margin-top: 20px;
+}
+.ppzy .part2 h1{
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 34px;
+	margin-bottom: 10px;
+}
+.ppzy .part2 span{
+	display: block;
+	color: #666;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+.ppzy p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.ppzy .img-box{
+	font-size: 0;
+	margin-bottom: 25px;
+}
+.ppzy .img-box img{
+	display: inline-block;
+	width: 365px;
+	height: 186px;
+	margin-right: 30px;
+}
+.ppzy .img-box img:last-child{
+	margin-right: 0;
+}
+
+.ppzy .main-com-top{
+	margin-bottom: 20px;
+}
+.ppzy .main-com-top1 .line{
+	width: 450px;
+}
+.ppzy .main-com-top2 .line{
+	width: 430px;
+}
+
+
+/*品牌特色*/
+.ppts .main-com-top{
+	margin-bottom: 20px;
+}
+.ppts .main-com-top1 .line{
+	width: 300px;
+}
+.ppts .main-com-top2 .line{
+	width: 500px;
+}
+.ppts .main-com-top3 .line{
+	width: 500px;
+}
+
+.ppts p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.ppts .img-box{
+	font-size: 0;
+	margin-bottom: 25px;
+}
+.ppts .img-box img{
+	display: inline-block;
+	width: 365px;
+	height: 186px;
+	margin-right: 30px;
+}
+.ppts .img-box img:last-child{
+	margin-right: 0;
+}
+
+.ppts .part1 .img1{
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+
+/*品牌战略*/
+.ppzl .main-com-top{
+	margin-bottom: 20px;
+}
+.ppzl .main-com-top .line{
+	width: 470px;
+}
+.ppzl p{
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.ppzl .img-box{
+	font-size: 0;
+	margin-top: 25px;
+}
+.ppzl .img-box img{
+	display: inline-block;
+	width: 365px;
+	height: 186px;
+	margin-right: 30px;
+}
+.ppzl .img-box img:last-child{
+	margin-right: 0;
+}
+
+.ppzl .part1 .title{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #ecae33;
+	font-size: 20px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+

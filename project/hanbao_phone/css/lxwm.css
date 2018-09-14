@@ -1,0 +1,155 @@
+/*联系我们*/
+.lxwm .part1{
+	position: relative;
+	padding: .24rem;
+}
+.lxwm .img1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.lxwm .con{
+	text-align: center;
+}
+.lxwm .p1{
+	font-size: .3rem;
+	font-weight: bold;
+	margin-bottom: .12rem;
+}
+.lxwm .map-wrap{
+	border: 1px solid #E8C12A;
+	height: 3rem;
+	position: relative;
+	margin-bottom: .2rem;
+}
+.lxwm .map{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: -1;
+}
+.lxwm #map1{
+	opacity: 1;
+	z-index: 22;
+}
+.lxwm .item{
+	position: relative;
+}
+.lxwm .item p{
+	font-size: .24rem;
+	line-height: .4rem;
+	display: none;
+}
+.lxwm .item p span{
+	color: #CA1C1D;
+	font-size: .26rem;
+	font-weight: bold;
+}
+.lxwm .item p:first-child{
+	display: block;
+}
+.lxwm ul{
+    width: 100%;
+    text-align: center;
+    margin-top: .2rem;
+}
+.lxwm ul li{
+	width: 30%;
+	height: .44rem;
+	line-height: .44rem;
+	border: 1px solid #394246;
+	font-size: .28rem;
+	float: left;
+	margin-right: 5%;
+	box-sizing: border-box;
+}
+.lxwm ul li:last-child{
+	margin-right: 0;
+}
+.lxwm ul li.on{
+	background: #E8C12A;
+}
+
+
+/*在线留言*/
+.lxly .part1{
+	position: relative;
+	padding: .32rem 0;
+}
+.lxly .img1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.lxly .con{
+	width: 80%;
+	margin: 0 auto;
+}
+.lxly .con .part{
+	background: #fff;
+	padding: .24rem 0;
+}
+.lxly .p1{
+	text-align: center;
+	font-size: .3rem;
+	margin-bottom: .24rem;
+	font-weight: bold;
+}
+.lxly .p1 span{
+	line-height: 1;
+	font-weight: normal;
+	text-transform: uppercase;
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.lxly input{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #999;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+	font-size: .26rem;
+	height: .6rem;
+	margin-bottom: .2rem;
+}
+.lxly textarea{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #999;
+	padding: .1rem .2rem;
+	box-sizing: border-box;
+	font-size: .26rem;
+	height: 1.5rem;
+	resize: none;
+}
+.lxly .submit{
+	width: 1.6rem;
+	height: .6rem;
+	line-height: .6rem;
+	background: #E8C12A;
+	text-align: center;
+	font-size: .3rem;
+	font-weight: bold;
+	letter-spacing: .04rem;
+	margin: .32rem auto 0;
+	cursor: pointer;
+}
+

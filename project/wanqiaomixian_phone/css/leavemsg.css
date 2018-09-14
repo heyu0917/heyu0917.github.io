@@ -1,0 +1,67 @@
+.main{
+	padding: 0 .5rem;
+	text-transform: none;
+}
+.main ul li{
+	margin-bottom: .24rem;
+	font-size: 0;
+}
+.main ul li span{
+	width: 35%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .26rem;
+}
+.main ul li input{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .26rem;
+	width: 65%;
+	height: .6rem;
+	background: #b5b5b5;
+	border-radius: .1rem;
+	color: #fff;
+	padding: 0 .16rem;
+	box-sizing: border-box;
+}
+.main ul li:last-child span{
+	vertical-align: top;
+}
+.main ul li textarea{
+	width: 65%;
+	height: 1.8rem;
+	padding: .16rem;
+	line-height: .36rem;
+	box-sizing: border-box;
+	background: #b5b5b5;
+	border-radius: .1rem;
+	color: #fff;
+	display: inline-block;
+	font-size: .26rem;
+	resize: none;
+}
+
+.main .submit{
+	background: #D6000F;
+	padding: .12rem .24rem;
+	border-radius: .1rem;
+	font-size: 0;
+	display: inline-block;
+	margin-top: .32rem;
+}
+.main .submit img{
+	display: inline-block;
+	vertical-align: middle;
+	width: .4rem;
+	margin-right: .08rem;
+}
+.main .submit span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .3rem;
+	color: #fff;
+}
+
+
+
+

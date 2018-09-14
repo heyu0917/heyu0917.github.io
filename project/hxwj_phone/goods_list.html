@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/search.css" />
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/goods_list.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<!--搜索界面-->
+		<div class="search-before-ponup">
+			<div class="header-back">
+				<a id="search_before_back" href="javascript:;" onclick="javascript:history.back(-1)">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</a>
+				<h1>
+					<input type="text" placeholder="输入关键词" id="keyword_input2">
+					<img src="img/search_gray.png" alt="" class="search-gray-img"/>
+				</h1>
+				<span id="search_btn">搜索</span>
+			</div>
+			<div class="search-before-con">
+				<div class="comWidth">
+					<div class="search-before-title">
+						<span class="fl-lt">历史搜索</span>
+						<span class="fl-rt"><img src="img/dustbin2.png" alt="" /></span>
+					</div>
+				</div>
+				<ul class="search-before-list">
+					<li>欢喜我家竹纤维抽纸</li>
+					<li>欢喜我家竹纤维卷纸</li>
+					<li>欢喜我家竹纤维抽纸</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--搜索后界面-->
+		<div class="search-after-ponup">
+			<div class="header-back">
+				<div id="search_after_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>
+					<input type="text" id="keyword_input3">
+					<img src="img/search_gray.png" alt="" class="search-gray-img"/>
+				</h1>
+			</div>			
+			<ul class="search-nav-list">
+				<li class="select ranking"><span><em id="search_after_condition">综合排序</em><i></i></span></li>
+				<li>销量优先</li>
+				<li>
+					<span>
+						<span class="screen-text">筛选</span><span><img src="img/screen.png" alt="" class="screen-img"/></span>
+					</span>
+				</li>
+			</ul>
+			<div class="search-after-con">
+				<div class="comWidth recommend-con">
+					<ul class="recommend-list">
+						<li class="fl-lt">
+							<a href="detail.html">
+								<img src="img/order1.jpg" alt="" />
+								<h3 class="recommend-h3">欢喜我家竹纤维抽纸</h3>
+								<span><strong>￥59.00</strong><b>￥79.00<i></i></b></span>
+							</a>
+						</li>
+						<li class="fl-rt">
+							<a href="detail.html">
+								<img src="img/order1.jpg" alt="" />
+								<h3 class="recommend-h3">欢喜我家竹纤维抽纸</h3>
+								<span><strong>￥59.00</strong><b>￥79.00<i></i></b></span>
+							</a>
+						</li>
+						<li class="fl-lt">
+							<a href="detail.html">
+								<img src="img/order2.jpg" alt="" />
+								<h3 class="recommend-h3">欢喜我家竹纤维抽纸</h3>
+								<span><strong>￥59.00</strong><b>￥79.00<i></i></b></span>
+							</a>
+						</li>
+						<li class="fl-rt">
+							<a href="detail.html">
+								<img src="img/order2.jpg" alt="" />
+								<h3 class="recommend-h3">欢喜我家竹纤维抽纸</h3>
+								<span><strong>￥59.00</strong><b>￥79.00<i></i></b></span>
+							</a>
+						</li>
+						<li class="fl-lt">
+							<a href="detail.html">
+								<img src="img/order1.jpg" alt="" />
+								<h3 class="recommend-h3">欢喜我家竹纤维抽纸</h3>
+								<span><strong>￥59.00</strong><b>￥79.00<i></i></b></span>
+							</a>
+						</li>
+						<li class="fl-rt">
+							<a href="detail.html">
+								<img src="img/order2.jpg" alt="" />
+								<h3 class="recommend-h3">欢喜我家竹纤维抽纸</h3>
+								<span><strong>￥59.00</strong><b>￥79.00<i></i></b></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--综合排序下拉-->
+			<div class="ranking-wrap">
+				<ul class="ranking-list">
+					<li class="select"><span class="fl-lt">综合排序</span><img src="img/right.png" alt="" class="fl-rt"/></li>
+					<li><span class="fl-lt">新品优先</span><img src="img/right.png" alt="" class="fl-rt"/></li>
+					<li><span class="fl-lt">价格由高到低</span><img src="img/right.png" alt="" class="fl-rt"/></li>
+					<li><span class="fl-lt">价格由低到高</span><img src="img/right.png" alt="" class="fl-rt"/></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="bg2"></div>
+		<!--筛选-->
+		<div class="screen-wrap">
+			<div class="price-rage">
+				<div class="comWidth">
+					<h3>价格区间(元)</h3>
+					<div class="down-high">
+						<input type="text" placeholder="最低价" class="down-input"/>
+						<span>—</span>
+						<input type="text" placeholder="最高价" class="high-input"/>
+					</div>					
+				</div>
+			</div>
+			<div class="all-type">
+				<span class="fl-lt">全部分类</span>
+				<span class="fl-rt"><span class="all-type-text allTypeText">全部</span><img src="img/arrowR.png" alt="" /></span>
+			</div>
+			<div class="other-type clearfix">
+				<div class="brand">
+					<div class="other-type-title comWidth">
+						<h3 class="fl-lt">品牌</h3>
+						<span class="fl-rt"><span class="brand-all-text allTypeText">全部</span><img src="img/arrowD_t.png" alt="" class="arrowD_t"/></span>
+					</div>
+					<ul class="type-list">
+						<li><span>壳牌</span></li><li><span>嘉实多</span></li><li><span>沙漠之鹰</span></li>
+					</ul>
+				</div>
+				<div class="carTpye">
+					<div class="other-type-title comWidth">
+						<h3 class="fl-lt">车型</h3>
+						<span class="fl-rt"><span class="carTpye-all-text allTypeText">全部</span><img src="img/arrowD_t.png" alt="" class="arrowD_t"/></span>
+					</div>
+					<ul class="type-list">
+						<li><span>五菱</span></li>
+					</ul>
+				</div>
+				<div class="size">
+					<div class="other-type-title comWidth">
+						<h3 class="fl-lt">容量</h3>
+						<span class="fl-rt"><span class="size-all-text allTypeText">全部</span><img src="img/arrowD_t.png" alt="" class="arrowD_t"/></span>
+					</div>
+					<ul class="type-list">
+						<li><span>3L</span></li><li><span>4L</span></li><li><span>5L</span></li><li><span>6L</span></li>
+					</ul>
+				</div>
+			</div>
+			<!--btn-->
+			<div class="screen-bottom-btn">
+				<span class="fl-lt screen-reset">重置</span>
+				<span class="fl-rt screen-sure">确定</span>
+			</div>
+		</div>
+				
+		<!--全部分类-->
+		<div class="allType-wrap">
+			<div class="header-back">
+				<div id="allType_back">
+					<img src="img/arrowL.png" alt="" class="arrowL-img"/>
+				</div>
+				<h1>全部分类</h1>
+			</div>
+			<div class="allType-con">
+				<div class="allTyppe-con-top">
+					<span class="allType-con-title fl-lt">全部分类</span>
+					<img src="img/right.png" class="fl-rt allTpye-right-img"/>
+				</div>
+				<ul class="allType-con-middle">
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">传动带系列</span>
+							<img src="img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>O型 10X</li><li>O型 13X</li><li>O型 15X</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">密封系列</span>
+							<img src="img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>O型 10X</li><li>O型 13X</li><li>O型 15X</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">橡胶缓冲系列</span>
+							<img src="img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>O型 10X</li><li>O型 13X</li><li>O型 15X</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">刹车制动系列</span>
+							<img src="img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>O型 10X</li><li>O型 13X</li><li>O型 15X</li>
+						</ul>
+					</li>
+					<li class="allType-con-li">
+						<div class="allType-con-above">
+							<span class="fl-lt allType-above-title">离合器系列</span>
+							<img src="img/arrowD_t.png" alt="" class="fl-rt allType-arrowT_t"/>
+						</div>
+						<ul class="allType-middle-list">
+							<li>O型 10X</li><li>O型 13X</li><li>O型 15X</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>

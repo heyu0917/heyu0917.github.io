@@ -1,0 +1,261 @@
+.header-wrap .header-top{
+	width: 100%;
+	height: .88rem;
+	line-height: .88rem;
+	background: #fccc18;
+	position: relative;
+	z-index: 114;
+}
+.header-wrap .header-top .logo{
+	text-align: center;
+}
+.header-wrap .header-top .logo img{
+	width: .56rem;
+	height: .56rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-wrap .header-top .logo h1{
+	font-size: .32rem;
+	font-family: 'stheitisc';
+	display: inline-block;
+	vertical-align: middle;
+	color: #000;
+}
+.header-wrap .header-top .index-search{
+	position: absolute;
+	left: .24rem;
+	top: .22rem;
+	width: .4rem;
+	height: .4rem;
+}
+.header-wrap .header-bottom{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	background: #fff;
+	position: relative;
+	z-index: 22;
+	font-size: .3rem;
+	overflow: hidden;
+}
+.header-wrap .header-bottom .swiper1{
+	padding-right: .3rem;
+}
+.header-wrap .header-bottom .swiper-slide{
+	text-align: center;
+	color: #666;
+}
+.header-wrap .header-bottom .swiper-slide:nth-child(2) {
+    width: 27%!important;
+}
+.header-wrap .header-bottom .swiper-slide.active{
+	border-bottom: 2px solid #FCCC18;
+	color: #222;
+}
+.header-wrap .arrow-dt{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: .64rem;
+	height: .8rem;
+	border-left: 1px solid #ddd;
+	z-index: 113;
+	background: #fff;
+}
+.header-wrap .arrow-dt img{
+	width: .24rem;
+	height: .14rem;
+	margin-top: .33rem;
+	display: block;
+	margin-left: .16rem;
+}
+.header-drop{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 116;
+	display: none;
+}
+.header-drop .drop-title{
+	padding: 0 .24rem;
+	height: .8rem;
+	line-height: .8rem;
+	background: #fff;
+}
+.header-drop .drop-title span{
+	font-size: .3rem;
+}
+.header-drop .drop-title img{
+	width: .24rem;
+	height: .14rem;
+	display: block;
+}
+.header-drop .drop-con{
+	width: 100%;
+	background: rgba(0,0,0,.8);
+	overflow: hidden;
+}
+.header-drop .drop-con ul li{
+	width: 33.3%;
+	border-left: 1px solid rgba(255,255,255,.5);
+	border-top: 1px solid rgba(255,255,255,.5);
+	margin-left: -1px;
+	height: .88rem;
+	line-height: .88rem;
+	color: #fff;
+	text-align: center;
+	float: left;
+}
+.header-drop .drop-con ul li.active{
+	color: #FCCC18;
+}
+
+/*content*/
+.contentIndex{
+	position: absolute;
+	left: 0;
+	top: 1.68rem;
+	bottom: .88rem;
+	padding-bottom: .6rem;
+	width: 100%;
+	overflow: scroll;
+}
+.banner-wrap{
+	width: 100%;
+	height: 3.6rem;
+	overflow: hidden;
+	position: relative;
+}
+.banner-wrap img{
+	width: 100%;
+	display: block;
+	height: 3.6rem;
+}
+.pagination1{
+	bottom: 1rem!important;
+}
+.banner-wrap .banner-word{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 112;
+	background: rgba(0,0,0,.3);
+	height: .8rem;
+	line-height: .8rem;
+	padding: 0 .24rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+	font-size: .32rem; 
+}
+
+/*new-dynamic*/
+.new-dynamic{
+	background: #fff;
+	height: .72rem;
+	line-height: .72rem;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+}
+.new-dynamic h2{
+	font-size: .3rem;
+	color: #ff3232;
+	font-weight: normal;
+	position: absolute;
+	left: .24rem;
+	top: 0;
+}
+.new-dynamic .swiper3{
+	font-size: .26rem;
+	height: .72rem;
+	width: 100%;
+	padding-left: 1.6rem;
+	box-sizing: border-box;
+}
+.new-dynamic .swiper3 .swiper-slide{
+	overflow: hidden;
+	width: 100%;
+}
+
+/*content-part2*/
+.content-part2{
+	width: 100%;
+	overflow: hidden;
+}
+.content-part2 ul li{
+	width: 100%;
+	margin-top: .16rem;
+	background: #fff;
+	position: relative;
+}
+.content-part2 ul li a{
+	display: block;
+}
+.content-part2 ul li .case-img{
+	width: 2.28rem;
+	height: 2.24rem;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.content-part2 ul li .a-top{
+	height: 2.24rem;
+	overflow: hidden;
+}
+.content-part2 ul li .a-top p em{
+	margin-left: .16rem;
+}
+.content-part2 ul li .a-top p i{
+	margin-left: .52rem;
+}
+.content-part2 ul li .a-top-word{
+	width: 100%;
+	padding-left: 2.44rem;
+	box-sizing: border-box;
+}
+.content-part2 ul li h2{
+	font-size: .32rem;
+	line-height: .48rem;
+	margin: .12rem auto;
+}
+.content-part2 ul li .a-top-word p{
+	font-size: .26rem;
+	color: #999;
+	line-height: .4rem;
+}
+.content-part2 ul li .a-bottom{
+	height: .58rem;
+	line-height: .58rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+}
+.content-part2 ul li .a-bottom div{
+/*	width: 19%;*/
+	float: left;
+	font-size: .24rem;
+	color: #999;
+}
+.content-part2 ul li .a-bottom div:last-child{
+/*	width: 23%;*/
+}
+.content-part2 ul li .a-bottom div img{
+	width: .24rem;
+	height: .24rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .08rem;
+}
+.content-part2 ul li .a-bottom div span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+

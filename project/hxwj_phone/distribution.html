@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/distribution.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript" src="js/distribution.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+<body style="background: #fff;">
+	<!--header-->
+	<div class="header-back">
+		<a href="my.html"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+		<h1>分销中心</h1>
+		<a href="dis_detailed.html" class="header-link-a">明细</a>
+	</div>
+	<!--content-->
+	<div class="content">
+		<div class="con-top">
+			<div class="con-top-header">
+				<img src="img/head.jpg" alt="" class="fl-lt"/>
+				<span class="fl-lt nickname"></span>
+				<em>eeee[一级分销]</em>
+			</div>
+			<div class="con-top-middle">
+				<p class="con-top-p1">累计金额：<span class="total-all-money">152.00</span>元</p>
+				<p class="con-top-p2">可提现佣金(元)</p>
+				<strong class="total-ti-money">152.00</strong>
+				<a href="dis_yongjin.html"><button class="tixian-btn">提现</button></a>
+			</div>
+		</div>
+		<ul class="con-middle">
+			<li>
+				<a href="dis_yongjin.html">
+					<img src="img/dis_icon1.png" alt="" />
+					<p>分销佣金(元)</p>
+					<em class="total-all-money">75.00</em>
+				</a>
+			</li>
+			<li>
+				<a href="dis_order.html">
+					<img src="img/dis_icon2.png" alt="" />
+					<p>分销订单(个)</p>
+					<em class="distribution-num">5</em>
+				</a>
+			</li>
+			<li>
+				<a href="dis_team.html">
+					<img src="img/dis_icon3.png" alt="" />
+					<p>我的团队</p>
+				</a>
+			</li>
+			<li>
+				<a href="dis_customer.html">
+					<img src="img/dis_icon4.png" alt="" />
+					<p>我的客户</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

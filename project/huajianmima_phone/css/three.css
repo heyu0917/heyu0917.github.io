@@ -1,0 +1,119 @@
+.con{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+}
+.part{
+	margin-bottom: 0.6rem;
+}
+.part .title{
+	position:relative;
+	font-size: 0;
+	margin-bottom: 0.4rem;
+}
+.part .title .title-img{
+	width: 100%;
+}
+.part .title .title-fonts{
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.part .title .p1{
+	width: 1.7rem;
+	text-align: center;
+	display: inline-block;
+	position:relative;
+	top: -0.1rem;
+	color:#AE3363;
+}
+.part .title .p1 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+.part .title .p2{
+	display: inline-block;
+	width: 1.2rem;
+	height: 0.46rem;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.46rem;
+	color:#AE3363;
+	font-weight: bold;
+}
+.part .title .p3{
+	display: inline-block;
+	color:#a4335e;
+	width: 3.9rem;
+	position:relative;
+	top: 0.2rem;	
+	left: 0.3rem;
+}
+.part .title .p3 span{
+	display: block;
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+}
+.part .part-main .img1{
+	width: 100%;
+}
+.part .part-main .main-box{
+	margin-top: 0.4rem;
+}
+.part .part-main .main-box .main1{
+	width: 48%;
+	position:relative;
+}
+.part .part-main .main-box .main1 .p1{
+	position:absolute;
+	top: 2rem;
+	left: 0;
+	width: 1.2rem;
+	height: 0.5rem;
+	background-color: rgba(199,138,162,0.8);
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.24rem;
+	color:#fff;
+}
+.part .part-main .main-box img{
+	width: 100%;
+}
+.part .part-main .main-box .img-b{
+	width: 100%;
+	
+}
+.part .part-main .main-box .img-b .img-left,
+.part .part-main .main-box .img-b .img-right{
+	background-color: #AE3363;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.26rem;
+	text-align: center;
+}
+
+.part .part-main .main-box .img-b .img-left{
+	width: 40%;
+}
+.part .part-main .main-box .img-b .img-right{
+	width: 58%;
+}
+.part .part-main .main-box .img-b a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}

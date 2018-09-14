@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/evaluate.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header-back">
+			<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+			<h1>发表评价</h1>
+			<span id="sure_top_btn">确定</span>
+		</div>
+		<div class="evaluate-con">
+			<div class="evaluate-con-top">
+				<img src="img/sort1.jpg" alt="" class="fl-lt goods-img"/>
+				<div class="fl-lt evaluate-grade">
+					<h3>评分</h3>
+					<div class="stars-box">
+						<img src="img/star_.png" alt="" />
+						<img src="img/star_.png" alt="" />
+						<img src="img/star_.png" alt="" />
+						<img src="img/star_.png" alt="" />
+						<img src="img/star_.png" alt="" />
+					</div>
+				</div>
+			</div>
+			<textarea>写下购买体会和使用感受来帮助其他小伙伴~</textarea>
+		</div>
+		<div class="bottom-popup">请填写1-500个字呦</div>
+		
+	</body>
+	<script>
+		$(function(){
+			$('textarea').focus(function(){
+				if($(this).val() =='写下购买体会和使用感受来帮助其他小伙伴~'){
+					$(this).val('');
+				}
+				$(this).css('color','#222');
+			})
+			$('textarea').blur(function(){
+				if($(this).val()==''){
+					$(this).val('写下购买体会和使用感受来帮助其他小伙伴~');
+					$(this).css('color','#999');
+				}
+			})
+			
+
+			$('.stars-box img').tap(function(){
+				var len = $('.stars-box img').length;
+				var index = $(this).index();
+
+				for(var i=0;i<=index;i++){
+					$('.stars-box img').eq(i).attr('src','img/star.png');
+				}
+				var u = index + 1;
+				for(j=u;j<len;j++){
+					$('.stars-box img').eq(j).attr('src','img/star_.png');
+				}
+			})
+			
+			//点击确定提示
+			$('#sure_top_btn').tap(function(){
+				var val = $('textarea').val();
+				if(val =='写下购买体会和使用感受来帮助其他小伙伴~' || val == ''){
+					$('.bottom-popup').css('opacity','1');
+					
+					setTimeout(function(){
+		            	$('.bottom-popup').css('opacity','0');
+		            },1000)
+				}else{
+					$('.bottom-popup').html('评价成功');
+					$('.bottom-popup').css('opacity','1');
+					setTimeout(function(){
+		            	$('.bottom-popup').css('opacity','0');
+		            },1000)
+				}
+			})
+
+		})
+		
+
+	</script>
+</html>

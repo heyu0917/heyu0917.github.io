@@ -1,0 +1,117 @@
+.footer {
+    width: 100%;
+    height: 78px;
+    position: relative;
+    margin-top: -78px;
+    z-index: 9;
+}
+.main-con{
+	background: url(../img/bg3.jpg) center top no-repeat;	
+	color: #fff;
+}
+.content{
+	position: relative;
+	background-color: #010209;
+}
+.content h3{
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 50px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.content p{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.img1-box{
+	width: 100%;
+	height: 52px;
+}
+.img1-box img{
+	display: block;
+	margin: 0 auto;
+	padding-top: 13px;
+	width: 210px;
+	height: 25px;
+}
+
+/*钻石金融*/
+.zsjr .main-con{
+	padding-bottom: 260px;
+	padding-top: 90px;
+}
+.zsjr .part1 .fl-rt{
+	width: 445px;
+	margin-right: 55px;
+	position: relative;
+}
+.zsjr .part1 .fl-rt img{
+	position: absolute;
+	left: -200px;
+}
+.zsjr .part1 .fl-rt h3{
+	margin-top: 186px;
+}
+.zsjr .part2{
+	margin-top: 50px;
+}
+.zsjr .part2 .fl-lt{
+	width: 420px;
+	margin-left: 55px;
+}
+.zsjr .part2 .fl-rt{
+	height: 582px;
+}
+.zsjr .part2 h3{
+	margin: 10px 0;
+}
+.zsjr .part2 .fl-lt .img2{
+	margin-top: -10px;
+}
+
+/*会员权益*/
+.hyqy .main-con{
+	padding-bottom: 280px;
+	padding-top: 80px;
+	background: url(../img/bg3_1.jpg) center top no-repeat;	
+}
+.hyqy .part1 .fl-rt{
+	width: 400px;
+	margin-top: 46px;
+}
+.hyqy .part1 p{
+	margin-bottom: 15px;
+}
+
+/*金融优势*/
+.jyys .main-con{
+	padding-bottom: 280px;
+	padding-top: 80px;
+	background: url(../img/bg3_1.jpg) center top no-repeat;	
+}
+.jyys .part1 .fl-rt{
+	width: 420px;
+	position: relative;
+}
+.jyys .part1 .fl-rt img{
+	position: absolute;
+	left: -180px;
+	top: 0;
+	margin-bottom: 50px;
+}
+.jyys .part2 img{
+	display: block;
+	margin: 90px auto 0 auto;
+}
+.jyys .part1 h3{
+	margin-top: 222px;
+}
+.jyys .part1 p{
+	margin-bottom: 15px;
+}
+
+
+

@@ -1,0 +1,226 @@
+/*pp1--品牌背景*/
+.pp1 .title .p1{
+	font-size: 28px;
+	width: 100%;
+	text-align: center;
+	color:#14a7a4;
+	line-height: 36px;
+}
+.pp1 .title .p1 span{
+	color:#000;
+}
+.pp1 .title .p2{
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 18px;
+}
+.pp1 .part{
+	width: 100%;
+	display: block;
+	margin-top: 40px;
+}
+.pp1 .part img{
+	width: 100%;
+}
+.pp1 .part ul li{
+	width: 230px;
+	text-align: center;
+	margin-top: 10px;
+}
+.pp1 .part ul li .p1{
+	font-size: 14px;
+}
+.pp1 .part ul li .p2{
+	font-size: 20px;
+	color:#14a7a3;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.pp1 .part .part-fonts{
+	font-size: 14px;
+	line-height: 32px;
+	margin-top: 25px;
+}
+.pp1 .part .part-fonts .p1{
+	text-indent: 28px;
+}
+
+
+/*pp2--品牌简介*/
+
+.pp2 .title{
+	width: 100%;
+	display: block;
+}
+.pp2 .title img{
+	width: 100%;
+}
+.pp2 .part{
+	margin-top: 40px;
+}
+.pp2 .part-img{
+	width: 200px;
+}
+.pp2 .part-img img{
+	width: 100%;
+}
+.pp2 .part-fonts{
+	width: 650px;
+	font-size: 14px;
+	text-indent: 28px;
+	line-height: 28px;
+}
+
+/*pp3--品牌诉求*/
+.pp3 .left{
+	width: 310px;
+	text-align: center;
+	margin-left: 40px;
+}
+.pp3 .left .p1{
+	font-size: 34px;
+	color:#14a7a3;
+}
+.pp3 .left .p2{
+	font-size: 14px;
+	margin-top:10px;
+	line-height: 20px;
+}
+.pp3 .left .p3{
+	text-align: left;
+	font-size: 14px;
+	line-height: 28px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.pp3 .right{
+	width:510px;
+}
+.pp3 .right .p1{
+	font-size: 20px;
+}
+.pp3 .right .right-img{
+	width: 510px;
+}
+.pp3 .right .right-img img{
+	width: 100%;
+	display: block;
+}
+.pp3 .part{
+	width: 100%;
+	margin-top: 30px;
+	position:relative;
+}
+.pp3 .part img{
+	width: 100%;
+}
+.pp3 .part ul{
+	position:absolute;
+	top:0;
+	left: 0;
+}
+.pp3 .part ul li{
+	width: 230px;
+	height: 136px;
+	text-align: center;
+	font-size: 14px;
+	position:relative;
+	padding-top: 40px;
+	box-sizing: border-box;
+	color:#fff;
+	letter-spacing: 2px;
+}
+
+.pp3 .part ul li span{
+	font-size: 24px;
+}
+
+
+/*.pp4--企业实力*/
+.pp4 .title{
+	text-align: center;
+}
+.pp4 .title .p1{
+	font-size: 34px;
+	color:#14a7a3;
+}
+.pp4 .title .p2{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.pp4 .part-img{
+	width: 450px;
+	display: inline-block;
+	margin:0 4px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.pp4 .part-img img{
+	width: 100%;
+}
+.pp4 .part p{
+	text-indent: 28px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+
+/*pp5--团队介绍*/
+.pp5 .title{
+	text-align: center;
+}
+.pp5 .title .p1{
+	font-size: 34px;
+	color:#14a7a3;
+}
+.pp5 .title .p2{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.pp5 .title .p3{
+	width: 80px;
+	height: 2px;
+	background-color: #14a7a3;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.pp5 .part li{
+	width: 440px;
+	height: 200px;
+	margin-top: 50px;
+}
+.pp5 .part .li-img{
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+}
+.pp5 .part .li-img img{
+	width: 100%;
+}
+.pp5 .part .li-fonts{
+    width: 218px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.pp5 .part .li-fonts .p1{
+	font-size: 18px;
+}
+.pp5 .part .li-fonts .p1 span{
+	color:#14a7a3;
+}
+.pp5 .part .li-fonts .p2{
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    vertical-align: middle;
+}

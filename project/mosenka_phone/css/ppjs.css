@@ -1,0 +1,246 @@
+.er-nav .er-left .imgbox img{
+	width: .43rem;
+	height: .4rem;
+	margin-top: .16rem;
+}
+
+.main-title{
+	text-align: center;
+	width: 100%;
+	margin-top: .3rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.main-title span{
+	color: #c5aa60;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	display: block;
+}
+.main-title h2{
+	color: #301605;
+	font-size: .28rem;
+	font-weight: normal;
+}
+
+/*品牌故事*/
+.ppgs .main-con{
+	padding: 0 .35rem 0 .35rem;
+}
+.ppgs .main-con p{
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	line-height: .4rem;
+	color: #301605;
+	margin-bottom: .1rem;
+	margin-bottom: -.2rem;
+}
+.ppgs .main-con p strong{
+	color: #D9B766;
+	font-size: .26rem;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	font-weight: normal;
+}
+.ppgs .main-con img{
+	margin-top: .2rem;
+}
+
+
+/*品牌诉求*/
+.ppsq .main-title{
+	padding: 0 .4rem;
+	text-align: left;
+}
+.ppsq .main-title span{
+	width: 133.33%;
+	margin-left: -16.66%;
+}
+.ppsq .main-title p{
+	color: #c5aa60;
+}
+.ppsq  .main-con{
+	padding: 0 .35rem;
+	margin-top: .35rem;
+}
+.ppsq  .main-con ul li{
+	height: 2.34rem;
+	overflow: hidden;
+	margin-bottom: .2rem;
+}
+.ppsq  .main-con ul li:nth-child(2) .li-img{
+	margin-right: 0;
+	margin-left: 3%;
+}
+.ppsq  .main-con ul li .li-img{
+	width: 47%;
+	margin-right: 3%;
+}
+.ppsq  .main-con ul li .li-img img{
+	width: 100%;
+	display: block;
+	border-radius: .2rem;
+}
+.ppsq  .main-con ul li .li-con{
+	width: 50%;
+}
+.ppsq  .main-con ul li .li-con h2{
+	font-size: .26rem;
+	font-weight: normal;
+	color: #301605;
+}
+.ppsq  .main-con ul li .li-con .div1{
+	color: #c9a063;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.ppsq  .main-con ul li .li-con .div2{
+/*	font-size: .16rem;*/
+	font-size: .24rem;
+	transform: scale(.667);
+	-webkit-transform: scale(.667);
+	-o-transform: scale(.667);
+	-moz-transform: scale(.667);
+	-ms-transform: scale(.667);
+	width: 150%;
+	margin-left: -25%;
+	color: #c9a063;
+}
+.ppsq  .main-con ul li .li-con p{
+	color: #3f3f3f;
+}
+
+
+/*品牌价值*/
+.ppjz .main-title{
+	text-align: left;
+	padding-left: .35rem;
+}
+.ppjz .main-title span{
+	width: 133.33%;
+	margin-left: -16.666%;
+}
+.ppjz .main-con{
+	padding-left: .35rem;
+	margin-top: .4rem;
+}
+.ppjz .main-con ul li{
+	position: relative;
+	margin-bottom: .22rem;
+	height: 1.04rem;
+	overflow: hidden;
+}
+.ppjz .main-con ul li img{
+	width: 2.2rem;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.ppjz .main-con ul li .li-con{
+	width: 100%;
+    padding-left: 2.28rem;
+	box-sizing: border-box;
+}
+.ppjz .main-con ul li .li-con h3{
+	font-weight: normal;
+	font-size: .24rem;
+	color: #713f1c;
+	position: relative;
+}
+.ppjz .main-con ul li .li-con h3 span{
+	width: 110%;
+	display: inline-block;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	border-top: 1px solid #713f1c;
+	position: absolute;
+	top: 0;
+    left: .7rem;
+    padding-top: .02rem;
+}
+.ppjz .main-con ul li .li-con div{
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 133.33%;
+	margin-left: -16.666%;
+}
+
+/*品牌形象*/
+.ppxx .main-con{
+	margin-top: .3rem;
+	margin-bottom: .3rem;
+}
+.ppxx .swiper-big{
+	height: 3.6rem;
+	width: 80%;
+	position: relative;
+	margin: 0 auto .12rem auto;
+	padding-left: .12rem;
+}
+.ppxx .swiper-big .swiper-container{
+	height: 3.6rem;
+}
+.ppxx .main-con .swiper-slide img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.ppxx .main-con .swiper-slide  .img-box{
+	height: 100%;
+	margin-right: .12rem;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	font-size: 0;
+}
+.ppxx .swiper-small .active-nav .img-box{
+	border: 1px solid #BC9760;
+}
+.ppxx .swiper-small{
+	width: 80%;
+	height: 1.2rem;
+	margin: 0 auto;
+    padding-left: .12rem;
+}
+.ppxx .swiper-small .swiper-container{
+	height: 1.2rem;
+}
+.ppxx .swiper-arrow{
+	width: .4rem;
+	height: .4rem;
+	display: block;
+	position: absolute;
+	top: 2.2rem;
+}
+.ppxx .left-arrow{
+	left: -.44rem;
+}
+.ppxx .right-arrow{
+	right: -.44rem;
+}
+

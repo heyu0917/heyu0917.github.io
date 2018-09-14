@@ -1,0 +1,657 @@
+/*sl1招生实力*/
+.sl1{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.sl1 .part1{
+	width: 50%;
+	position:absolute;
+	bottom: -2px;
+	z-index: -1;
+}
+.sl1 .part1 img{
+	width: 100%;
+}
+.sl1 .part2{
+	width: 50%;
+	padding-top: 0.5rem;
+}
+.sl1 .part2 .line{
+	width: 1rem;
+	height: 4px;
+	background-color: #7d282d;
+	margin:0.2rem 0;
+}
+.sl1 .part2 .p2{
+	font-size: 0.22rem;
+	color:#c4b798;
+}
+.sl1 .part2 .p3{
+	font-size: 0.63rem;
+	color:#7d282d;
+}
+.sl1 .part2 .p4{
+	font-size: 0.43rem;
+	margin: 0.1rem 0; 
+	font-weight: lighter;
+}
+.sl1 .part2 .line2{
+	background-color: #c4b798;
+}
+.sl1 .part2 ul li{
+	width: 1.6rem;
+	background-color: #7d282d;
+	text-align: center;
+	float:left;
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+}
+.sl1 .part2 ul li:last-child{
+	margin-right: 0;
+}
+.sl1 .part2 ul li .p1{
+	font-size: 0.36rem;
+	color:#7d282d;
+	background-color: #c4b798;
+	margin-bottom: 0.05rem;
+	position:relative;
+	font-weight: bold;
+}
+.sl1 .part2 ul li .p1-b{
+	font-size: 0.24rem;
+	color:#c4b798;
+	background-color: #7d282d;
+}
+.sl1 .part2 ul li .triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #c4b798;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+/*sl2师资实力*/
+.sl2 {
+	height: 100%;
+	padding-bottom: 40px!important;
+	overflow: hidden;
+	padding-right: 0!important;
+}
+.sl2 .part1{
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.sl2 .part1 .item{
+	overflow-y: auto;
+	height: 100%;
+}
+.sl2 .part1 .part1-img{
+	width: 100%;
+	margin:0 auto;
+	margin-bottom: 0.2rem;
+	position:relative;
+}
+.sl2 .part1 .part1-img:last-child{
+	margin-bottom: 0;
+}
+.sl2 .part1 img{
+	width: 76%;
+	border:1px solid #9fa0a0;
+	padding:0.05rem;
+}
+
+.sl2 .part2{
+	width: 74%;
+	height: 100%;
+}
+.sl2 .part2 iframe{
+	width: 100%;
+	display: block;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+.sl2-part2-con {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 30px;
+	overflow-y: auto;
+	padding-right: 5%;
+	box-sizing: border-box;
+}
+.sl2-part2-con::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.sl2-part2-con .part2-left{
+	width: 25%;
+}
+.sl2-part2-con .part2-left .part2-left-img{
+	width: 100%;
+	margin:0 auto;
+}
+.sl2-part2-con .part2-left img{
+	width: 100%;
+}
+.sl2-part2-con .part2-left .p1{
+	font-size: 0.32rem;
+	color:#7d282d;
+}
+.sl2-part2-con .part2-left .p1 span{
+	font-size: 0.24rem;
+	color:#9fa0a0;
+}
+.sl2-part2-con .part2-left .line{
+	height: 3px;
+	background-color: #b5b5b6;
+	margin:5px auto;
+	margin-bottom: 0.1rem;
+	background: -webkit-linear-gradient(right,#b5b5b6, transparent); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#b5b5b6, transparent); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#b5b5b6, transparent); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#b5b5b6, transparent); /* 标准的语法（必须放在最后） */
+}
+.sl2-part2-con .part2-left .p2{
+	font-size: 16px;
+	color:#333;
+	line-height: 26px;
+}
+.sl2-part2-con .part2-left .fonts::before{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #7d282d;
+	margin-right: 0.1rem;
+}
+.sl2-part2-con .part2-right{
+	width: 70%;
+}
+.sl2-part2-con .part2-right .line{
+	width: 40px;
+	height: 6px;
+	background-color: #7d282d;
+	border-radius: 3px;
+}
+.sl2-part2-con .part2-right .p1{
+    font-size: 14px;
+    color: #333;
+    line-height: 28px;
+    margin-top: 0.1rem;
+}
+.sl2-part2-con .part2-right .p3{
+	font-size: 16px;
+	color:#7D282D;
+	margin-top: 0.2rem;
+	font-weight: bold;
+}
+.sl2-part2-con .part2-right .p4{
+	font-size: 14px;
+	color:#333;
+	line-height: 28px;
+}
+
+
+/*sl3教学实力*/
+.sl3 .part1{
+	width:33%;
+	border-top:2px solid #7d282d;
+	border-bottom:2px solid #7d282d;
+	padding:5% 0;
+	box-sizing: border-box;
+}
+.sl3 .part1 .title .dian{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #7d282d;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sl3 .part1 .title .p1{
+	width: 76%;
+	margin:0 auto;
+	font-size: 0.26rem;
+	text-align: left;
+}
+.sl3 .part1 .title .p1 .p1-fonts{
+	display: inline-block;
+	margin-left: 5%;
+}
+.sl3 .part1 .title .p1 span{
+	font-size: 0.4rem;
+	color:#7d282d;
+}
+.sl3 .part1 .title .p2{
+	font-size: 0.26rem;
+	color:#000;
+   margin-left: 18%;
+}
+.sl3 .part1 .title .p2 span{
+	color:#7d282d;
+}
+.sl3 .part1 .part1-img{
+	width: 66%;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.sl3 .part1 .part1-img img{
+	width: 100%;
+}
+.sl3 .part1 .title .p3{
+	width: 78%;
+	margin:0 auto;
+	text-align: left;
+}
+.sl3 .part1 .title .p3-fonts{
+	font-size: 0.32rem;
+	color:#7d282d;
+	vertical-align: middle;
+	display: inline-block;
+}
+.sl3 .part1 .title .p4{
+	width: 66%;
+	margin:0 auto;
+	text-align: left;
+	font-size: 0.18rem;
+	color:#b5b5b6;
+}
+.sl3 .part1 .title .p5{
+	width: 66%;
+	height: 3px;
+	background-color: #b5b5b6;
+	margin:5px auto;
+	background: -webkit-linear-gradient(right,#b5b5b6, transparent); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#b5b5b6, transparent); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#b5b5b6, transparent); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#b5b5b6, transparent); /* 标准的语法（必须放在最后） */
+}
+.sl3 .part1 .title .p6{
+	margin-left: 17%;
+	text-align: left;
+	font-size: 0.18rem;
+	color:#333333;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.sl3 .part2{
+	width: 62%;
+	height: 100%;
+	background-color: #f3f3f3;
+	position:relative;
+}
+.sl3 .part2 .part2-main{
+	width: 4rem;
+	height: 4rem;
+	border:5px solid #7d282d;
+	border-radius: 50%;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -2rem;
+	margin-top: 1rem;
+}
+.sl3 .part2 .part2-main .part2-main-nei{
+	width: 1rem;
+	height: 1rem;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	margin-left: -0.5rem;
+	margin-top: -0.5rem;	
+}
+.sl3 .part2 .part2-main .part2-main-nei img{
+	width: 100%;
+}
+.sl3 .part2 .part2-main .main-box{
+	width: 1.4rem;
+	height: 0.8rem;
+	background:url(../img/sl/c4.png) no-repeat;
+	background-size: 100%;
+	position:absolute;
+	padding-top: 0.05rem;
+}
+.sl3 .part2 .part2-main .main-top{
+	top:-0.4rem;
+	left: 50%;
+	margin-left: -0.7rem;	
+}
+
+.sl3 .part2 .part2-main .main-box .top-fonts2{
+	width: 2rem;
+	height: 0.7rem;
+	text-align: center;
+	top:-0.8rem;
+	left:50%;
+	margin-left: -1rem;
+}
+.sl3 .part2 .part2-main .main-box .fonts{
+	width: 1.4rem;
+	text-align: center;
+	font-size: 0.26rem;
+	color:#fff;
+    margin-top: -2px;
+}
+.sl3 .part2 .part2-main .main-box .fonts2{
+	background: url(../img/sl/c3.png) no-repeat;
+	background-size: 100% 100%;
+	font-size: 0.16rem;
+	position:absolute;
+}
+.sl3 .part2 .part2-main .main-left{
+	top:50%;
+	left: -0.7rem;
+	margin-top: -0.4rem;	
+}
+.sl3 .part2 .part2-main .main-box .left-fonts2{
+    width: 2.6rem;
+    height: 0.5rem;
+    text-align: right;
+    left: -2.7rem;
+    top: 50%;
+    margin-top: -0.25rem;
+    padding-right: 0.1rem;
+    box-sizing: border-box;
+}
+.sl3 .part2 .part2-main .main-top .left-fonts{
+	background-color: #fff;
+}
+.sl3 .part2 .part2-main .main-bottom{
+	left: 50%;
+	bottom: -0.4rem;
+	margin-left: -0.7rem;	
+}
+.sl3 .part2 .part2-main .main-box .bottom-fonts2{
+    width: 2.8rem;
+    height: 0.68rem;
+    text-align: center;
+    left: 50%;
+    bottom: -0.7rem;
+    margin-left: -1.4rem;
+}
+.sl3 .part2 .part2-main .main-right{
+	top:50%;
+	right: -0.7rem;
+	margin-top: -0.4rem;	
+}
+.sl3 .part2 .part2-main .main-box .right-fonts2{
+    width: 2.2rem;
+    height: 0.68rem;
+    text-align: center;
+    top: 50%;
+    right: -2.3rem;
+    margin-top: -0.34rem;
+}
+/*sl4研发实力*/
+
+.sl4 .title{
+	width: 100%;
+	font-size: 0.34rem;
+	color:#7d282d;
+	/*background-color: rgba(0,0,0,0.5);*/
+	position:relative;
+	padding-left:0.5rem;
+	box-sizing: border-box;
+}
+.sl4 .title .p2{
+	font-size: 0.18rem;
+	color:#b5b5b6;
+	position:absolute;
+	bottom: 0;
+	right: 0.5rem;
+}
+.sl4 .part1 .part-top{
+	font-size: 16px;
+	color:#333333;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.sl4 .part1 .part-top .top-fonts{
+	width: 6%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sl4 .part1 .part-top .line{
+	width: 46%;
+	height: 1px;
+	background-color: #b5b5b6;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sl4 .part1 .part-main{
+	width: 93%;
+	margin:0 auto;
+	margin-bottom: 0.4rem;
+}
+.sl4 .part1 .part-main .main-top{
+	width: 3.5rem;
+	font-size: 0.18rem;
+	position:relative;
+}
+.sl4 .part1 .part-main .main-top img{
+	width: 100%;
+}
+.sl4 .part1 .part-main .main-top .p1{
+	position:absolute;
+	top: 0;
+	left: 0.1rem;
+	color:#fff;
+}
+
+
+.sl4 .part1 .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.sl4 .part1 .picScroll-left .bd{
+	width: 9.3rem;
+	margin: 0.1rem auto;
+	overflow: hidden;
+}
+.sl4 .part1 .picScroll-left .bd li{
+	float: left;
+	background: #171717;
+	position: relative;
+	text-align: center;
+	width: 2.7rem;
+	height: 3.4rem;
+	margin: 0 0.2rem;
+	cursor: pointer;
+}
+.sl4 .part1 .picScroll-left .bd li .box{
+	position: relative;
+	height: 3rem;
+	width: 100%;
+	background-color: #666;
+}
+.sl4 .part1 .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.sl4 .part1 .picScroll-left .bd li .li-fonts{
+	width: 100%;
+	text-align: center;
+	font-size: 0.16rem;
+	position:relative;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    color:#fff;
+    line-height: 0.4rem;
+}
+.sl4 .part1 .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	width: 1.1rem;
+	height: 1.1rem;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-top:-0.55rem;
+}
+.sl4 .part1 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.sl4 .part1 .picScroll-left .arrow-left{
+	left: 0.4rem;
+}
+.sl4 .part1 .picScroll-left .arrow-right{
+	right: 0.4rem;
+}
+
+/*.sl5运营实力*/
+.sl5{
+	padding-top: 0!important;
+	padding-right: 0!important;
+	height: 100%;
+	overflow: hidden;
+}
+.content .sl5 .main{
+	margin: 0;
+}
+.sl5 .part1{
+	width: 60%;
+	padding-top: 2rem;
+}
+.sl5 .title{
+	font-size: 0.2rem;
+	color:#333;
+	background:url(../img/sl/c3.png) no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	text-align: center;
+	margin:0 auto;
+}
+.sl5 .title .span1{
+	font-size: 0.4rem;
+}
+.sl5 .title .span2{
+	color:#7d282d;
+}
+.sl5 .part1 .line{
+	width: 0.8rem;
+	height: 4px;
+	background-color: #7d282d;
+	margin:0.2rem auto;
+}
+.sl5 .part1 .part1-main{
+	width: 8rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+	position:relative;
+	padding-bottom: 3rem;
+}
+.sl5 .part1 .part1-main .e1-img{
+	width: 100%;
+}
+.sl5 .part1 .part1-main ul{
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.sl5 .part1 .part1-main ul li{
+	float:left;
+	width: 1.48rem;
+	height: 100%;
+	text-align: center;
+	color:#fff;
+	font-size: 0.22rem;
+}
+.sl5 .part1 .part1-main ul li.last-li{
+	width: 1.94rem;
+}
+.sl5 .part1 .part1-main ul li .span1{
+	font-size: 0.48rem;
+}
+.sl5 .part1 .part1-main ul li .span2{
+	font-size: 0.16rem;
+}
+.sl5 .part1 .part1-main ul li .span3{
+    line-height: 0.2rem;
+    display: block;
+}
+.sl5 .part1 .part1-main ul li img{
+	display: block;
+	margin:0 auto;
+	margin-top: 0.24rem;
+}
+.sl5 .part1 .part1-main ul li .span4{
+	font-size: 14px;
+	color:#333;
+	margin-top: 0.1rem;
+	padding: 0 .15rem;
+	line-height: 22px;
+}
+.sl5 .part2{
+	width: 39%;
+	height: 100%;
+}
+.sl5 .part2 img{
+	display: block;
+	width: 100%;
+}
+
+@media (max-width:1600px) {
+	.sl2 .part2 iframe{
+		padding-top: 20px;
+	}
+}
+
+
+@media (max-width:1366px) {
+	.sl1 .part2 .p4{
+		font-size: 0.4rem;
+	}
+	.sl1 .part2 ul li{
+		margin-right: 0.15rem;
+	}
+	.sl5 .part1 {
+	    padding-top: 1.5rem;
+	}
+	.sl3{
+		padding-bottom: 90px!important;
+	}
+}
+@media (max-width:1280px){
+	.sl3 .part2 .part2-main .main-box .top-fonts2{
+		width: 2.2rem;
+		margin-left: -1.1rem;
+	}
+	.sl3 .part2 .part2-main .main-box .left-fonts2{
+		width: 2.9rem;
+    	height: 0.6rem;
+    	left: -3rem;
+    	margin-top: -0.3rem;
+    	padding-top: 0.05rem;
+	}
+	.sl3 .part2 .part2-main .main-box .right-fonts2 {
+	    width: 2.4rem;
+	    height: 0.8rem;
+	    right: -2.45rem;
+	    margin-top: -0.4rem;
+	    padding-top: 0.05rem;
+	    box-sizing: border-box;
+	}
+	.sl3 .part2 .part2-main .main-box .bottom-fonts2{
+		width: 3rem;
+    	height: 0.8rem;
+    	bottom: -0.8rem;
+    	margin-left: -1.5rem;
+	}
+	.sl5 .part1 .part1-main ul li .span4{
+		font-size: 12px;
+		line-height: 20px;
+	}
+}

@@ -1,0 +1,130 @@
+
+
+/*lx1--合作条件*/
+.lx1 .title p{
+	color:#9e0005;
+}
+.lx1 .title p:nth-child(1){
+	font-size:26px;
+}
+.lx1 .title p:nth-child(2){
+	font-size:36px;
+	font-weight: bold;
+}
+.lx1 ul{
+	margin-top: 20px;
+}
+.lx1 ul li{
+	font-size: 16px;
+	line-height: 28px;
+}
+.lx1 ul li div{
+	width: 20px;
+	height: 20px;
+	background-color: #9e0005;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	color:#fff;
+	margin-right: 10px;
+}
+.lx1 .lx1-img{
+	margin-top: 20px;
+}
+.lx1 .fl-rt{
+	margin-right: 30px;
+}
+
+
+/*lx2--签约流程*/
+.lx2 .part1 .title{
+	color:#9e0005;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.lx2 .part1 .title p:nth-child(1){
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.lx2 .part1 .title p:nth-child(2){
+	font-size: 36px;
+	margin-top: 4px;
+}
+.lx2 .part1 .part1-main li{
+	display: inline-block;
+	margin:0 6px;
+	margin-top: 36px;
+}
+.lx2 .part1 .part1-main li .lis-img{
+	width: 273px;
+	height: 181px;
+	border-radius: 10%;
+	border:1px dashed #9e0005;
+	padding:4px;
+}
+.lx2 .part1 .part1-main li .lis-img img{
+	border-radius: 10%;
+}
+.lx2 .part1 .part1-main li .lis-fonts{
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+	color:#9e0005;
+	font-weight: bold;
+	margin-top: 15px;
+	position:relative;
+}
+.lx2 .part1 .part1-main li .lis-fonts img{
+	position:absolute;
+	right:-48px;
+	top:10px;
+}
+
+
+
+/*.lx3--联系方式*/
+.lx3 .part1 ul{
+	width: 100%;
+	text-align: center;
+}
+.lx3 .part1 ul li{
+	display: inline-block;
+	color:#9e0005;
+}
+.lx3 .part1 ul .li1{
+	width: 250px;
+	height: 250px;
+}
+.lx3 .part1 ul .li1 img{
+	width: 100%;
+}
+.lx3 .part1 ul .li2{
+	font-size: 18px;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 20px;
+}
+.lx3 .part1 ul .li2 p:nth-child(1){
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.lx3 .part1 ul .li2 p:nth-child(2){
+	margin-top: 70px;
+}
+.lx3 .part1 ul .li2 p:nth-child(2) span{
+	font-size: 26px;
+	font-weight: bold;
+	
+}
+.lx3 .part1 ul .li2 p:nth-child(4){
+	margin-top: 25px;
+}
+.lx3 .map{
+	width: 1100px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 26px;
+	
+}

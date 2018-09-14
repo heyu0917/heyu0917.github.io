@@ -1,0 +1,77 @@
+html,body{
+	background: #222;
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	background: #222;
+}
+header .left-img-box img{
+	width: .23rem;
+	height: .4rem;
+	margin-left: .24rem;
+	margin-top: .24rem;
+}
+header h1{
+	color: #fff;
+}
+
+.myCode-con{
+	background: #000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	margin-top: -1px;
+}
+.myCode-wrap{
+	width: 86%;
+	height: 80%;
+	margin-top: 10%;
+	margin-left: 7%;
+	background: #FFFFFF;
+	border-radius: 15px;
+	font-size: .24rem;
+	padding-top: .56rem;
+	padding-left: .3rem;
+	box-sizing: border-box;
+}
+.myCode-top{
+	overflow: hidden;
+}
+.myCode1-img{
+	width: 1.18rem;
+	height: 1.18rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: .24rem;
+}
+.male-img{
+	width: .3rem;
+	height: .3rem;
+	margin-left: .16rem;
+	vertical-align: middle;
+}
+.myCode-p1{
+	font-size: .32rem;
+	line-height: .56rem;
+}
+.myCode-p1 span{
+	vertical-align: middle;
+}
+.myCode-p2{
+	font-size: .24rem;
+	color: #666;
+}
+.myCode2-img{
+	width: 4.2rem;
+	height: 4.2rem;
+	display: block;
+	margin: .8rem auto .24rem auto;
+}
+.myCode-bottom{
+	font-size: .24rem;
+	color: #666;
+	text-align: center;
+}

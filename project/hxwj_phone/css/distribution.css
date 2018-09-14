@@ -1,0 +1,394 @@
+.header-back .header-link-a{
+	position: absolute;
+    right: .24rem;
+    top: 0;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .3rem;
+    color: #666;;
+}
+/*con-top*/
+.con-top{
+	width: 100%;
+}
+.con-top-header{
+	height: .8rem;
+	line-height: .8rem;
+	padding-left: .24rem;
+	padding-right: .24rem;	
+	font-size: .28rem;
+}
+.con-top-header img{
+	width: .4rem;
+	height: .4rem;
+	margin-top: .2rem;
+	margin-right: .16rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.con-top-header span{
+	color: #666;
+	margin-right: .16rem;
+}
+.con-top-header em{
+	color: #f60;
+}
+.con-top-middle{
+	padding: .24rem;
+	background: #73c640;
+	height: 2.96rem;
+	color: #fff;
+	box-sizing: border-box;
+	position: relative;
+}
+.con-top-middle p{
+	font-size: .3rem;
+}
+.con-top-p1{
+	margin-top: .08rem;
+}
+.con-top-middle .con-top-p2{
+	margin-top: .64rem;
+	margin-bottom: .08rem;
+}
+.con-top-middle strong{
+	font-size: 1rem;
+}
+.con-top-middle button{
+	position: absolute;
+	right: .24rem;
+	bottom: .32rem;
+	font-size: .24rem;
+	padding: .08rem .16rem;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	color: #fff;
+}
+/*con-middle*/
+.con-middle{
+	/*padding: 0 .24rem;*/
+}
+.con-middle li{
+	width: 50%;
+	height: 2.56rem;
+	border-bottom: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;
+	margin-left: -1px;
+	color: #666;
+	font-size: .32rem;
+	text-align: center;
+	float: left;
+}
+.con-middle li em{
+	color: #f60;
+}
+.con-middle li img{
+	height: .44rem;
+	width: .4rem;
+}
+.con-middle li p{
+	margin-top: .08rem;	
+	color: #666;
+}
+.con-middle li:nth-child(1) img,
+.con-middle li:nth-child(2) img{
+	margin-top: .48rem;
+}
+.con-middle li:nth-child(1) p,
+.con-middle li:nth-child(2) p{
+	margin-bottom: .32rem;
+}
+.con-middle li:nth-child(3) img{
+	width: .56rem;
+}
+.con-middle li:nth-child(3) img,
+.con-middle li:nth-child(4) img{
+	margin-top: .72rem;
+}
+
+/*佣金明细*/
+.detailed-nav{
+	position: fixed;
+	top: .88rem;
+	left: 0;
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: .3rem;
+	background: #fff;
+}
+.detailed-nav-list{
+	padding: 0 .24rem;
+}
+.detailed-nav-list li{
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+.detailed-nav-list li.select{
+	color: #73c640;
+	border-bottom: 2px solid #73c640;
+}
+
+.detailed-content{
+	position: absolute;
+	top: 1.68rem;
+	margin-top: 2px;
+	left: 0;
+	width: 100%;
+	font-size: .24rem;
+	padding-top: .16rem;
+	display: none;
+}
+.all-content{
+	display: block;
+}
+.detailed-list li{
+	padding: .24rem;
+	margin-bottom: .24rem;
+	background: #fff;
+	overflow: hidden;
+}
+.detailed-list li .detailed-li-p2{
+	line-height: 1;
+	color: #666;
+}
+.detailed-list li .detailed-li-p1{
+	margin-bottom: .24rem;
+	line-height: 1;
+	overflow: hidden;
+}
+.detailed-list li .detailed-li-p1 em{
+	color: #73c640;
+}
+
+.detailed-all-footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: .88rem;
+	line-height: .88rem;
+	border-top: 1px solid #e6e6e6;
+	background: #fff;
+	padding: 0 .24rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+.detailed-all-footer span strong{
+	color: #73c640;
+	font-size: .4rem;
+	vertical-align: middle;
+}
+/*佣金明细  空页面*/
+.empty-yongjin-img1{
+	width: 1.4rem;
+	height: 1.2rem;
+	display: block;
+	margin: .68rem auto .24rem auto;
+}
+.empty-yongjin-img2{
+	width: 3.8rem;
+	height: .72rem;
+	display: block;
+	margin: 0 auto;
+}
+/*分销佣金*/
+.yongjin-header{
+	background: #73c640;
+	color: #fff;
+}
+.yongjin-header a{
+	color: #fff!important;
+}
+.balance_money-con{
+	border: 0;
+}
+.balance_money-top{
+	padding: 0 .24rem;
+	background: #73c640;
+	color: #fff;
+	height: 2.96rem;
+	position: relative;
+}
+.balance_money-top p{
+	font-size: .3rem;
+	padding-top: .4rem;
+	margin-bottom: .4rem;
+}
+.balance_money-top strong{
+	font-size: 1rem;
+	font-weight: normal;
+}
+.yongjin-top-span{
+	background: rgba(255,255,255,.2);
+	height: .72rem;
+	line-height: .72rem;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: .3rem;
+	width: 100%;
+	padding: 0 .24rem;
+	box-sizing: border-box;
+}
+/*yongjin-middle*/
+.yongjin-middle{
+	background: #fff;
+	padding: .24rem;
+	font-size: .24rem;
+	border-bottom: 1px solid #E6E6E6;
+}
+.yongjin-middle-list{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: .24rem;
+}
+.yongjin-middle-list li{
+	width: 33%;
+	border-right: 1px dotted #e6e6e6;
+	float: left;
+	text-align: center;
+}
+.yongjin-middle-list li img{
+	height: .44rem;
+	margin-bottom: .16rem;
+}
+.yongjin-middle-list li:nth-child(3){
+	border: 0;
+}
+.yongjin-middle-list li:nth-child(1) img{
+	width: .36rem;
+}
+.yongjin-middle-list li:nth-child(2) img{
+	width: .41rem;
+}
+.yongjin-middle-list li:nth-child(3) img{
+	width: .44rem;
+}
+.yongjin-middle-list li span{
+	color: #666;
+	font-size: .24rem;
+	margin-top: .08rem;
+}
+.yongjin-middle-price{
+	font-size: .32rem;
+	margin: .12rem 0;
+}
+
+.yongjin-middle-p{
+	color: #666;
+}
+.yongjin-middle-p p{
+	line-height: .4rem;
+}
+.yongjin-middle-p p strong{
+	color: #f60;
+}
+.yongjin-btn{
+	margin-top: .8rem;
+}
+.yongjin-btn span{
+	display: block;
+}
+
+/*分销订单*/
+.empty-order-icon{
+	width: 1.2rem;
+	height: 1.2rem;
+	display: block;
+	margin: .68rem auto .24rem auto;
+}
+.empty-order{
+	width: 3.3rem;
+	height: .96rem;
+	display: block;
+	margin: 0 auto;
+}
+.dis-order-list li{
+	width: 25%;
+}
+
+/*我的团队*/
+.dis-team{
+	display: none;
+}
+.dis-team-one{
+	display: block;
+}
+.dis-order-list li{
+	width: 33.3%;
+	text-align: center;
+    float: left;
+}
+.dis-order-list li.select{
+	color: #73c640;
+}
+.dis-team-content{
+	position: absolute;
+    top: 1.68rem;
+    margin-top: 2px;
+    left: 0;
+    width: 100%;
+    font-size: .24rem;
+    background: #fff;
+}
+.dis-team-top{
+	height: .8rem;
+	line-height: .8rem;
+	border-bottom: 1px solid #E6E6E6;
+	padding: 0 .24rem;
+	color: #666;
+	font-size: .28rem;
+}
+.dis-team{
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid #E6E6E6;
+}
+.dis-team-list{
+	padding-left: .24rem;	
+}
+.dis-team-list li{
+	padding: .24rem .24rem .24rem 0;
+	border-bottom: 1px solid #E6E6E6;
+	overflow: hidden;	
+}
+.dis-team-list li img{
+	width: .8rem;
+	height: .8rem;
+	border: 1px solid #E6E6E6;
+	margin-right: .16rem;
+}
+.dis-team-date{
+	font-size: .24rem;
+	margin-top: .24rem;
+}
+.dis-team-num{
+	margin-top: .24rem;
+}
+/*我的团队 空页面*/
+.empty_team2{
+	width: 1.7rem;
+	height: 1.2rem;
+	display: block;
+	margin: .68rem auto .24rem auto;
+}
+.empty_team1{
+	width: 3.3rem;
+	height: .68rem;
+	display: block;
+	margin: 0 auto;
+}
+
+/*我的客户*/
+.dis-customer{
+	display: block;
+	font-size: .3rem;
+	color: #666;
+}
+
+
+

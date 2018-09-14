@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/set.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+		<header>
+			<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" />
+		    </a>
+		    <h1>设置</h1>
+		</header>
+
+		<div class="content set-con">
+			<ul class="set-list2">
+				<li id="personal_page">
+					<span class="fl-lt">个人资料</span>
+					<img src="../img/arrow_r.png" alt="" class="fl-rt"/>
+				</li>
+				<li id="safe_page">
+					<span class="fl-lt">账户与安全</span>
+					<span class="fl-rt changeKey">登录与支付密码管理<img src="../img/arrow_r.png" alt="" class="fl-rt"/></span>
+				</li>
+			</ul>
+			<ul class="set-list">
+				<li>
+					<span class="fl-lt">当前版本</span>
+					<span class="fl-rt edition-num">版本1.0.0</span>
+				</li>
+				<li>
+					<span class="fl-lt">关于我们</span>
+					<img src="../img/arrow_r.png" alt="" class="fl-rt"/>
+				</li>
+				<li>
+					<span class="fl-lt">帮助中心</span>
+					<img src="../img/arrow_r.png" alt="" class="fl-rt"/>
+				</li>
+			</ul>
+			<div class="big-button big-button-gray" id="login_out">退出登录</div>
+		</div>
+		
+		<!--prompt popup-->
+		<div class="prompt-popup bottom-popup" id="prompt_popup"></div>
+
+		<script type="text/javascript" src="../js/set.js"></script>
+
+	</body>
+</html>

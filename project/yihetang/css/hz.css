@@ -1,0 +1,515 @@
+/*投资合作1 -- 趣味营销*/
+.hz1 .part1-left,.part1-right{
+    display:inline-block;
+}
+.hz1 .part1{
+    position:relative;
+}
+.hz1 .left1,.left2{
+    width:440px;
+    height:130px;
+    border:1px solid #555251;
+}
+.hz1 .left2{
+    position:relative;
+    top:-122px;
+    left:10px;
+}
+.hz1 .left-text{
+    font-size:36px;
+    width:450px;
+    height:100px;
+    margin-top:28px;
+    margin-left:16px;
+    line-height:43px;
+    font-family:"宋体";
+    /*font-weight:bold;*/
+}
+.hz1 .left3{
+    position:relative;
+    top:-100px;
+}
+.hz1 .left3 div{
+    display:inline-block;
+    width:25px;
+    font-size:18px;
+    color:#3e3a39;
+    /*border:1px solid red;*/
+}
+
+.hz1 .left4{
+    position:absolute;
+    top:210px;
+    left:110px;
+}
+.hz1 .part1-right{
+    position:absolute;
+    font-size:24px;
+    color:#3e3a39;
+}
+.hz1 .part1-right div{
+    height:41px;
+    border-radius:40px;
+    /*border:1px solid #3e3a39;*/
+    text-align:center;
+    line-height:41px;
+}
+.hz1 .right1{
+    position:absolute;
+    width:169px;
+    top:50px;
+    left:170px;
+}
+.hz1 .part1-right img{
+    position:absolute;
+    left:100px;
+    margin-top:50px;
+}
+.hz1 .right2{
+    width:202px;
+    position:absolute;
+    top:142px;
+    left:153px;
+}
+.hz1 .right3{
+    width:307px;
+    position:absolute;
+    top:234px;
+    left:101px;
+}
+.hz1 .right4{
+    width:249px;
+    position:absolute;
+    top:326px;
+    left:130px;
+}
+.hz1 .right5{
+    width:285px;
+    position:absolute;
+    top:417px;
+    left:112px;
+}
+
+.hz1 .part2{
+    position:relative;
+    top:-100px;
+    margin-bottom:-100px;
+}
+.part2-left{
+    display:inline-block;
+    position:relative;
+}
+.hz1 .dx{
+    margin-left:150px;
+    font-weight:bold;
+    margin-bottom:10px;
+    font-family:"宋体";
+}
+.hz1 .xs{
+    font-size:36px;
+    position:absolute;
+    top:50px;
+    left:155px;
+    line-height:35px;
+    color:#fff;
+    font-family:"宋体";
+}
+.hz1 .xfz{
+    font-size:36px;
+    position:absolute;
+    top:215px;
+    left:138px;
+    color:#fff;
+    font-family:"宋体";
+}
+.hz1 .xx{
+    font-size:36px;
+    position:absolute;
+    top:350px;
+    left:153px;
+    line-height:35px;
+    color:#fff;
+    font-family:"宋体";
+}
+.hz1 .sx{
+    margin-left:140px;
+    font-weight:bold;
+    font-family:"宋体";
+    position:absolute;
+    top:455px;
+}
+
+.hz1 .part2-right{
+    display:inline-block;
+    position:relative;
+}
+
+.hz1 .part2-right1,.part2-right2{
+    width:440px;
+    height:130px;
+    border:1px solid #555251;
+}
+.hz1 .part2-right1{
+    position:absolute;
+    top:-457px;
+    left:27px;
+}
+.hz1 .part2-right2{
+    position:absolute;
+    top:-447px;
+    left:37px;
+}
+.hz1 .right-text{
+    font-size:36px;
+    /*color:#3e3a39;*/
+    width:450px;
+    height:100px;
+    margin-top:28px;
+    margin-left:16px;
+    line-height:43px;
+    font-family:"宋体";
+}
+.hz1 .design{
+    font-size:18px;
+    color:#231815;
+    position:absolute;
+    width:350px;
+    height:50px;
+    /*border:1px solid red;*/
+    top:-260px;
+    left:30px;
+}
+.hz1 .line{
+    width:60px;
+    height:12px;
+    background-color:#b7d4d0;
+    position:absolute;
+    top:-150px;
+    left:30px;
+}
+.hz1 .part2-right3{
+    width:390px;
+    height:70px;
+    /*border:1px solid red;*/
+    font-size:18px;
+    position:absolute;
+    top:-100px;
+    left:30px;
+    line-height:28px;
+}
+
+
+/*投资合作02 --项目优势*/
+
+.hz2 .part1{
+    position:relative;
+}
+.hz2 .part1-top{
+    text-align:center;
+}
+.hz2 .top-left{
+    position:relative;
+    top:-75px;
+    left:-190px;
+}
+.hz2 .top-right{
+    position:relative;
+    top:0;
+    left:240px;
+}
+
+.hz2 .part1-center{
+    display:inline-block;
+    font-size:36px;
+    position:absolute;
+    right:365px;
+    top:20px;
+    /*color:#3e3a39;*/
+    font-family:"宋体";
+}
+.hz2 .line1{
+    width:130px;
+    height:12px;
+    background-color:#b7d4d0;
+    position:relative;
+    top:-77px;
+    left:227px;
+    z-index:-1;
+}
+.hz2 .part1-bottom{
+    height:285px;
+    border:2px solid #000;
+    border-radius:20px;
+    position:relative;
+    top:-40px;
+}
+.hz2 .part1-bottom img,.part2-bottom img{
+    border-radius:20px;
+    /*border: 1px solid red;*/
+}
+.hz2 .part1-right{
+    width:330px;
+    height:125px;
+    /*border:1px solid red;*/
+    text-align:center;
+    font-size:24px;
+    position:relative;
+    top:-85px;
+    left:50px;
+}
+.hz2 .hz2-line{
+    width:955px;
+    height:1px;
+    background-color:#000;
+    margin:20px auto;
+}
+
+.hz2 .part2{
+    position:relative;
+    /*border:1px solid red;*/
+}
+.hz2 .part2-center{
+    font-size:36px;
+    position:relative;
+    top:20px;
+    /*color:#3e3a39;*/
+    font-family:"宋体";
+}
+.hz2 .line2{
+    width:225px;
+    height:12px;
+    background-color:#b7d4d0;
+    position:relative;
+    top:-37px;
+    left:490px;
+    z-index:-1;
+}
+.hz2 .part2-bottom{
+    margin-top:30px;
+    height:285px;
+    border:2px solid #000;
+    border-radius:20px;
+}
+.hz2 .part2-bottom img{
+    float:right;
+}
+.hz2 .part2-left{
+    width:285px;
+    height:220px;
+    /*border:1px solid red;*/
+    text-align:center;
+    font-size:24px;
+    position:relative;
+    top:25px;
+    left:80px;
+}
+.hz2 .part2-left{
+    font-size:16px;
+}
+.hz2 .part2-left span{
+    font-size:22px;
+    font-weight:bold;
+}
+.hz2 .patr2a{
+    width:285px;
+    border-bottom:2px solid #414141;
+    /*border:1px solid red;*/
+    float:left;
+    height:65px;
+    margin-top:10px;
+}
+.hz2 .patr2b{
+    width:285px;
+    float:left;
+    height:65px;
+    margin-top:10px;
+}
+
+
+/*投资合作03 --合作模式*/
+
+.hz3 .top1-a{
+    position:relative;
+    left:-18px;
+}
+.hz3 .top1{
+    width:270px;
+    /*border:1px solid red;*/
+    font-size:30px;
+    color:#3e3a39;
+    position:relative;
+    font-weight:bold;
+    display:inline-block;
+    line-height:45px;
+}
+.hz3 .top1-b{
+    position:relative;
+    font-size:30px;
+
+    display:inline-block;
+    font-weight:bold;
+}
+.hz3 .xz{
+    display:inline-block;
+    position:relative;
+    top:-15px;
+    color:#3e3a39;
+}
+.hz3 .top1-c{
+    margin-left:10px;
+}
+.hz3 .top1-b .ms{
+    display:inline-block;
+    font-size:40px;
+    font-family:"宋体";
+    position:relative;
+    top:-15px;
+}
+.hz3 .top1-right{
+    float:right;
+    margin-right:40px;
+    /*border:1px solid red;*/
+    border-radius:18px;
+}
+.hz3 .hz3-line{
+    width:164px;
+    height: 12px;
+    background-color: #b7d4d0;
+    position:relative;
+    left:208px;
+    top:-29px;
+    z-index:-1;
+}
+.hz3 .table1{
+    width:955px;
+    color:#231815;
+    font-size:16px;
+    margin-top:10px;
+    border-collapse:collapse;
+    /*border-right:solid 1px #FFF;*/
+}
+.hz3 .table1 tr{
+    text-align:center;
+    margin-top:3px;
+}
+
+.hz3 td{
+    padding:10px 0;
+    border-bottom:solid 5px #FFF;
+    line-height:30px;
+}
+.hz3 .table1 .td-b{
+    border-bottom:0px;
+}
+
+.hz3 .table2 td{
+    border-bottom:solid 5px #FFF;
+}
+.hz3 .tr1{
+    background-color:#bcddd8;
+    font-size:22px;
+    font-weight:bold;
+}
+.hz3 .tr2{
+    background-color:#e9e9e9;
+}
+.hz3 .tr3{
+    background-color:#bcddd8;
+}
+.hz3 .table-bottom{
+    font-size:16px;
+    color:#3e3a39;
+    margin-top:20px;
+}
+.hz3 .line{
+    margin-top:30px;
+    width:955px;
+    height:1px;
+    background-color:#000;
+}
+
+.hz3 .part2{
+    margin-top:45px;
+}
+.hz3 .table2-bottom{
+    margin-top:15px;
+    font-size:14px;
+    width:503px;
+    /*border:1px solid red;*/
+    text-align:center;
+    line-height:20px;
+}
+.hz3 .part1-table tr td{
+    width:238px;
+}
+.hz3 .table2 tr :nth-child(1){
+    width:150px;
+}
+.hz3 .table2 tr :nth-child(2){
+    width:210px;
+    text-align:left;
+}
+.hz3 .table2 tr :nth-child(3){
+    width:70px;
+}
+.hz3 .table2 tr :nth-child(4){
+    width:170px;
+}
+
+
+/*投资合作4 --创业支持*/
+.hz4 .part1{
+    position:relative;
+}
+.hz4 .top1 div{
+    display:inline-block;
+}
+.hz4 .part1-line{
+    width:180px;
+    height:5px;
+    background-color:#b7d4d0;
+    position:relative;
+    top:-45px;
+}
+.hz4 .top1-center{
+    font-size:36px;
+    width:460px;
+    border:4px solid #b7d4d0;
+    text-align:center;
+    margin:auto 20px;
+    font-family:"宋体";
+    font-weight:bold;
+    padding:8px;
+}
+.hz4 .top1-center span{
+    font-size:54px;
+}
+.hz4 .bottom1{
+    margin-top:30px;
+}
+.hz4 .part2-a{
+    text-align:center;
+    /*border:1px solid red;*/
+    width:285px;
+    float:left;
+    margin:15px;
+    margin-top:30px;
+}
+.hz4 .part2-img{
+    border-radius:15px;
+    /*border:1px solid red;*/
+}
+.hz4 .tip{
+    width:210px;
+    height:40px;
+    border-bottom:2px solid #cac6c6;
+    margin:10px auto;
+    font-size:24px;
+    color:#231815;
+}
+.hz4 .part2-b{
+    margin-top:8px;
+    font-size:18px;
+    color:#231815;
+    line-height:27px;
+}

@@ -1,0 +1,379 @@
+/*共用*/
+.main .part1{
+	color: #802529;
+	font-size: 0;
+	position: relative;
+	font-family: "宋体";
+}
+.main .part1 h1{
+	font-weight: normal;
+	font-size: 56px;
+}
+.main .part1 h2{
+	font-size: 36px;
+	font-weight: normal;
+}
+.main .part1 p{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+/*港谷文化*/
+.ggwh .part1 h1{
+	margin-top: 165px;
+}
+.ggwh .part1 img{
+	position: absolute;
+	right: 0;
+	top: -115px;
+	z-index: -1;
+}
+
+.ggwh .part2{
+	margin-top: 32px;
+	position: relative;
+}
+.ggwh .part2 img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.ggwh .part2 ul{
+	padding-left: 206px;
+}
+.ggwh .part2 ul li{
+	font-size: 18px;
+}
+.ggwh .part2 ul li strong{
+	font-size: 24px;
+	color: #ECA700;
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: top;
+}
+.ggwh .part2 ul li p{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 5px;
+}
+.ggwh .part2 ul li:nth-child(1){
+	margin-left: 15px;
+    margin-bottom: 32px;
+}
+.ggwh .part2 ul li:nth-child(2){
+	margin-left: 102px;
+    margin-bottom: 63px;
+}
+.ggwh .part2 ul li:nth-child(3){
+	margin-left: 156px;
+	margin-bottom: 33px;
+}
+.ggwh .part2 ul li:nth-child(4){
+	margin-left: 174px;
+    margin-bottom: 76px;
+}
+.ggwh .part2 ul li:nth-child(5){
+	margin-left: 145px;
+    margin-bottom: 40px;
+}
+.ggwh .part2 ul li:nth-child(6){
+	margin-left: 82px;
+	margin-bottom: 33px;
+}
+
+.ggwh .part3{
+    position: relative;
+    height: 265px;
+    margin-top: -85px;
+    z-index: -1;
+}
+.ggwh .part3 img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*项目简介*/
+.xmjj .part1{
+	margin-bottom: 32px;
+}
+.xmjj .part1 img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.xmjj .part2 img,
+.xmjj .part3 .p-con{
+	width: 327px;
+	margin-right: 25px;
+}
+.xmjj .part2 .p-con,
+.xmjj .part3 img{
+	width: 487px;
+}
+.xmjj .p-con{
+	line-height: 38px;
+	font-size: 20px;
+	padding: 25px 0;
+	text-indent: 40px;
+	color: #666;
+}
+.xmjj .part3 .p-con p{
+	margin-bottom: 20px;
+}
+.xmjj .part4{
+	position: relative;
+	padding-top: 20px;
+}
+.xmjj .part4 p{
+    text-transform: uppercase;
+    font-size: 91px;
+    letter-spacing: 7px;
+    text-align: center;
+    color: rgba(128, 37, 41,.4);
+    font-family: "宋体";
+    font-weight: bold;
+}
+.xmjj .part4 i{
+	position: absolute;
+	top: -174px;
+	right: 52px;
+	width: 317px;
+	height: 357px;
+	border: 4px solid #802529;
+	box-sizing: border-box;
+	display: block;
+}
+
+/*谷物元气*/
+.gwyq .part1{
+	color: #ECA700;
+}
+.gwyq .part1 h1{
+	padding-top: 25px;
+}
+.gwyq .part1 img{
+	position: absolute;
+	right: 160px;
+	top: 0;
+	z-index: -1;
+}
+.gwyq .part2{
+	color: #802529;
+	width: 630px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+.gwyq .part2 span{
+	display: block;
+	color: #282828;
+	font-size: 44px;
+	margin-left: 64px;
+	font-family: "宋体";
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.gwyq .part2 h2{
+	font-size: 56px;
+	font-weight: normal;
+	font-family: "宋体";
+}
+.gwyq .part2 strong{
+	font-size: 72px;
+	font-weight: normal;
+}
+.gwyq .part2 h3{
+	font-weight: normal;
+	font-size: 36px;
+	font-family: "宋体";
+}
+.gwyq .part2 p{
+    font-size: 18px;
+    line-height: 38px;
+    color: #545454;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.gwyq .part{
+	position: relative;
+	width: 445px;
+	height: 108px;
+	border: 2px solid #802529;
+}
+.gwyq .part ul{
+	width: 220px;
+	height: 44px;
+	background: #fff;
+	position: absolute;
+	top: -22px;
+	left: 50%;
+	margin-left: -110px;
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+.gwyq .part ul li{
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	border: 2px solid #802529;
+	box-sizing: border-box;
+	margin: 0 1px;
+	float: left;
+	font-size: 30px;
+	color: #802529;
+	font-weight: bold;
+}
+.gwyq .part p{
+	font-size: 30px;
+	color: #802529;
+    margin-top: 23px;
+    text-align: center;
+}
+.gwyq .part4{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.gwyq .part4 h2{
+	font-family: "宋体";
+	font-weight: normal;
+	font-size: 72px;
+	margin-bottom: 30px;
+	color: #802529;
+}
+.gwyq .part4 h2 strong{
+	font-size: 56px;
+	font-weight: normal;
+}
+.gwyq .part4 p{
+	font-size: 18px;
+    line-height: 38px;
+    color: #545454;
+    font-weight: bold;
+}
+
+.gwyq .part6{
+    width: 100%;
+    position: relative;
+    height: 180px;
+    margin-top: -125px;
+}
+.gwyq .part6 h1{
+	font-family: "宋体";
+	font-size: 58px;
+	color: rgba(128, 37, 41,.4);
+	float: right;
+}
+.gwyq .part6 img{
+    position: absolute;
+    right: 0;
+    top: 150px;
+    z-index: -1;
+}
+.gwyq .part5{
+	width: 320px;
+}
+
+/*新闻中心*/
+.xwzx .part2{
+	margin-bottom: 60px;
+}
+.xwzx .part2 ul{
+	padding-left: 15px;
+	padding-right: 30px;
+}
+.xwzx .part2 ul li{
+	margin-bottom: 20px;
+	padding: 10px 0;
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	border-top: 1px dashed #802529;
+	border-bottom: 1px dashed #802529;
+	position: relative;
+}
+.xwzx .part2 ul li img{
+	width: 237px;
+	height: 177px;
+}
+.xwzx .part2 ul li .li-con{
+	width: 520px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+.xwzx .part2 ul li .data{
+	font-size: 12px;
+	color: #666;
+}
+.xwzx .part2 ul li h1{
+	width: 470px;
+	font-weight: normal;
+	color: #802529;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #802529;
+}
+.xwzx .part2 ul li p{
+	width: 440px;
+	line-height: 28px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.xwzx .part2 ul li .more{
+	position: absolute;
+	bottom: 10px;
+	right: 14px;
+	width: 60px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #802529;
+	color: #802529;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*分页*/
+.paging{
+	text-align: center;	
+	font-size: 15px;
+}
+.paging .prev,
+.paging .next{
+	width: 78px;
+	height: 30px;
+	line-height: 28px;
+	border: 1px solid #802529;
+	text-align: center;	
+	display: inline-block;
+	border-radius: 3px;
+}
+.paging ul{
+	display: inline-block;
+}
+.paging ul li{
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	margin: 0 1px;
+	display: inline-block;
+	border: 1px solid #802529;
+	cursor: pointer;
+}
+.paging ul li.active{
+	border:0;
+	color: #ce3a2c;
+}
+
+.xwzx .paging{
+	margin-bottom: -100px;
+}
+
+

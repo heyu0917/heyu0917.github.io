@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/pay.css" type="text/css"/>
+	    <script type="text/javascript" src="js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 +'px';
+	    </script> 
+
+	</head>
+	<body>
+		<div class="pay-page" id="pay_page">
+			<div class="header-back">
+				<a href="javascript:;" onclick="javascript:history.back(-1)">
+				<img src="img/arrowL_white.png" alt="" class="arrowL_white-img"/>
+				</a>
+				<h1>支付</h1>
+			</div>
+			<!--pay content-->
+			<div class="content">
+				<ul class="input-wrap-list">
+					<li>
+						<span class="fl-lt">姓名</span>
+						<input type="text" readonly class="fl-lt" id="username"/>
+					</li>
+					<li>
+						<span class="fl-lt">手机号码</span>
+						<input type="text" readonly class="fl-lt" id="telephone"/>
+					</li>
+					<li>
+						<span class="fl-lt">消费金额</span>
+						<input type="text" placeholder="请输入消费金额" class="fl-lt"/>
+					</li>
+					<li>
+						<span class="fl-lt">金豆</span>
+						<input type="text" value="系统自动计算" readonly class="fl-lt"/>
+					</li>
+					<li>
+						<span class="fl-lt">让利金额</span>
+						<input type="text" value="系统自动计算" readonly class="fl-lt"/>
+					</li>
+				</ul>
+				<div class="button-big">确定</div>
+			</div>
+		</div>
+		
+		<script>	
+			var request = window.location.href;
+			var telephone = request.match(/id=.{11}/)[0].substr(3);
+			
+			var index = request.lastIndexOf("\/");  
+			var username  = request.substring(index + 1, request.length);
+			username = decodeURI(username);
+		
+			document.getElementById('username').value = username;
+			document.getElementById('telephone').value = telephone;
+		</script>
+	</body>
+</html>

@@ -1,0 +1,185 @@
+.footer {
+    width: 100%;
+    height: 78px;
+    position: relative;
+    margin-top: -78px;
+    z-index: 9;
+}
+.main-con{
+	background: url(../img/jjz1.jpg) center top no-repeat;
+	color: #fff;	
+}
+.content{
+	position: relative;
+	background-color: #010209;
+}
+.content h3{
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 50px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.content p{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.img1-box{
+	width: 100%;
+	height: 52px;
+}
+.img1-box img{
+	display: block;
+	margin: 0 auto;
+	padding-top: 13px;
+	width: 210px;
+	height: 25px;
+}
+
+/*野心同盟*/
+.yxtm .main-con{
+    padding-bottom: 230px;
+    padding-top: 80px;  	
+}
+.yxtm .part1{
+	padding: 0 15px;
+}
+.yxtm .part1 .img1{
+	display: block;
+	margin: 5px auto;
+}
+.yxtm .part1 ul li{
+	width: 360px;
+	height: 505px;
+	overflow: hidden;
+	border: 1px solid rgba(255,255,255,.8);
+	box-sizing: border-box;
+	margin-bottom: 45px;
+	float: left;
+	margin-right: 45px;
+}
+.yxtm .part1 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.yxtm .part1 ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+/*一起野心*/
+.yqyx .main-con{
+    padding-bottom: 220px;
+    padding-top: 60px;  
+    background: url(../img/bg3.jpg) center top no-repeat;	
+}
+.yqyx .part1{
+	padding: 0 45px;
+}
+.yqyx .part1 ul{
+	width: 815px;
+	margin: 60px auto 30px auto;
+}
+.yqyx .part1 ul li{
+	margin-bottom: 20px;
+}
+.yqyx .part1 ul li span{
+	font-size: 18px;
+	display: inline-block;
+}
+.yqyx .part1 ul li input{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	border: 1px solid rgba(255,255,255,.8);
+	background: transparent;
+	color: #fff;
+}
+.yqyx .part1 ul li:nth-child(1) input{
+	width: 694px;
+}
+.yqyx .part1 ul li:nth-child(2) input{
+	width: 627px;
+}
+.yqyx .part1 ul li:nth-child(3) input{
+	width: 659px;
+}
+.yqyx .part1 ul li textarea{
+	width: 537px;
+	height: 100px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background: transparent;
+	vertical-align: top;
+	border: 1px solid rgba(255,255,255,.8);
+	color: #fff;
+}
+.yqyx .part1 button{
+	width: 180px;
+	height: 66px;
+	text-align: center;
+	background: #6a9eb1;
+	border-radius: 16px;
+	font-size: 22px;
+	display: block;
+	margin: 30px auto 0 auto;
+	color: #fff;
+	cursor: pointer;
+}
+.yqyx .part2{
+	width: 920px;
+	margin: 60px auto 0 auto;
+}
+.yqyx .part2 ul li{
+	width: 254px;
+	height: 178px;
+	padding: 25px 0;
+	box-sizing: border-box;
+	text-align: center;
+	background: rgba(255,255,255,.5);
+	float: left;
+	margin-bottom: 55px;
+	border-radius: 16px;
+	overflow: hidden;
+	margin-right: 79px;
+}
+.yqyx .part2 ul li:nth-child(3n){
+	margin-right:0;
+}
+.yqyx .part2 ul li:nth-child(5){
+	padding:8px 0;
+}
+.yqyx .part2 ul li img{
+	display: block;
+	margin: 0 auto;
+}
+.yqyx .part2 ul li h2{
+	font-weight: normal;
+	margin-top: 5px;
+	font-size: 20px;
+}
+.yqyx .part2 ul li h4{
+	font-weight: normal;
+	font-size: 18px;
+}
+.yqyx .part2 ul li span{
+	font-size: 14px;
+	display: block;
+	margin-top: 10px;
+}
+.yqyx .part2 ul li .erweima{
+	display: block;
+	height: 75px;
+	width: 75px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+

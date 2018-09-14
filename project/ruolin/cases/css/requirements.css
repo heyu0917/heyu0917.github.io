@@ -1,0 +1,96 @@
+.pc-warp .top{
+	position: relative;
+	border-bottom: 1px solid #969696;
+}
+.require-content{
+	width: 1040px;
+	margin: 60px auto;
+	overflow: hidden;
+}
+.require-content .leftpart{
+	width: 360px;
+}
+.require-content .leftpart i{
+	width: 80px;
+	height: 4px;
+	display: block;
+	background: #d0121b;
+	margin-bottom: 20px;
+}
+.require-content .leftpart h1{
+	font-weight: normal;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.require-content .leftpart h3{
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.require-content .leftpart p{
+	line-height: 30px;
+	font-size: 14px;
+}
+.require-content .leftpart p span{
+	color: #d0121b;
+}
+.require-content .rightpart{
+	width: 650px;	
+}
+.require-content .require-input-box{
+	width: 100%;
+	overflow: hidden;
+}
+.require-content .require-input-box input{
+	float: left;
+	width: 320px;
+	margin-right: 10px;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid #898989;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.require-content .require-input-box input:nth-child(even){
+	margin-right: 0;
+}
+.require-content .rightpart h2{
+	font-size: 16px;
+	font-weight: normal;
+	margin: 20px 0 15px 0;
+}
+.require-content .rightpart textarea{
+	width: 100%;
+	height: 200px;
+	padding: 15px 10px;
+	line-height: 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.require-content .checkbox-box{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.require-content .checkbox-box ul{
+	margin-left: 15px;
+}
+.require-content .checkbox-box ul li{
+	margin-bottom: 12px;
+}
+.require-content .input-btn-submit{
+	display: block;
+	width: 124px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	background: #d0121b;
+	border: none;
+	letter-spacing: 1px;
+	cursor: pointer;
+}

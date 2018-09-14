@@ -1,0 +1,125 @@
+/*公共*/
+.footer{
+	margin-top: 100px;
+}
+
+/*在线留言*/
+.zxly .part1{
+	margin-bottom: 50px;
+	padding: 0 75px;
+	box-sizing: border-box;
+}
+.zxly .part1 .title{
+	color: #802529;
+}
+.zxly .part1 .title .p1{
+	font-size: 53px;
+	margin-right: 15px;
+	font-family: arial;
+}
+.zxly .part1 .title .p2{
+	font-size: 27px;
+	padding-top: 7px;
+}
+.zxly .part1 .title .p2 i{
+	display: block;
+	margin-top: 5px;
+	width: 460px;
+	height: 4px;
+	background: #802529;
+	background: -webkit-gradient(linear,0 100%,100% 0,from(#802529),to(#fff));
+	background: -moz-linear-gradient(left,#802529,#fff);
+}
+.zxly .part1 .p3{
+	font-size: 18px;
+	color: #666;
+}
+
+.zxly .part2{
+	padding: 0 75px;
+	box-sizing: border-box;
+}
+.zxly .part2 p{
+	font-size: 16px;
+	color: #802529;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.zxly .part2 input{
+	margin-bottom: 25px;
+	width: 100%;
+	display: block;
+	height: 36px;
+	font-size: 16px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+}
+.zxly .part2 textarea{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	margin-bottom: 30px;
+	font-size: 16px;
+	height: 180px;
+	resize: none;
+}
+.zxly button{
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #802529;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 16px;
+	box-shadow: -1px 1px 4px rgba(0,0,0,.4);
+	cursor: pointer;
+}
+
+
+/*联系我们*/
+.lxwm .part1{
+	width: 100%;
+	height: 400px;
+	border-bottom: 8px solid #ECA700;
+}	
+.lxwm .part1 #map{
+	height: 100%;
+}
+.lxwm .part2{
+	margin-left: 40px;
+}
+.lxwm .part2{
+	margin-top: 40px;
+	color: #802529;
+	
+}
+.lxwm .part2 img{
+	width: 184px;
+	height: 184px;
+	margin-right: 20px;
+}
+.lxwm .part2 h3{
+	font-size: 28px;
+	color: rgba(128, 37, 41,.9);
+/*	font-weight: normal;*/
+	margin-bottom: 12px;
+}
+.lxwm .part2 ul li{
+	font-size: 22px;
+	color: rgba(128, 37, 41,.8);
+	margin-bottom: 2px;
+}
+.lxwm .part2 ul li span{
+	width: 132px;
+	display: inline-block;
+	vertical-align: top;
+}
+.lxwm .part2 ul li i{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+

@@ -1,0 +1,167 @@
+.jm .title{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+.jm .title .p1{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.15);
+	font-weight: bold;
+}
+.jm .title .p2{
+	font-size: 34px;
+	font-weight: bold;
+	color: #432963;
+}
+.jm .title .p3{
+	margin-top: 10px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #333;
+}
+.jm .title .p4{
+	display: inline-block;
+	font-weight: lighter;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 44px;
+	font-size: 24px;
+	line-height: 44px;
+	background: #e4d079;
+	border-radius: 22px;
+	margin: 15px auto 0;
+	background: -webkit-gradient(linear,0 0, 0 100%,from(#f1e496),to(#d8bd60));
+	background: -moz-linear-gradient(top, #f1e496, #d8bd60);
+}
+
+.jm1 ul{
+	width: 1060px;
+	margin: 55px auto 0;
+}
+.jm1 ul li{
+	float: left;
+	width: 300px;
+	padding-left: 20px;
+	position: relative;
+	margin-right: 50px;
+	margin-bottom: 70px;
+}
+.jm1 ul li:nth-child(5){
+	margin-right: 0;
+}
+.jm1 ul li .img0{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.jm1 ul li p{
+	font-size: 16px;
+	color: #666;
+	margin-top: 10px;
+	line-height: 36px;
+}
+.jm1 ul li:nth-child(1){
+	margin-left: 160px;
+}
+
+
+.jm2 .box{
+	margin-top: 50px;
+	margin-bottom: 75px;
+}
+.jm2 .box ul{
+	width: 370px;
+	margin-top: 42px;
+}
+.jm2 .box ul li{
+	font-size: 0;
+	line-height: 40px;
+	height: 40px;
+	color: #333;
+	overflow: hidden;
+}
+.jm2 .box ul li img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.jm2 .box ul li p{
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.jm3{
+	width: 100%;
+}
+.jm3 .box1{
+	margin: 55px auto;
+	width: 1200px;
+	
+}
+.jm3 .box1 .fl-lt  .p1{
+	font-size: 24px;
+	color: #4d2473;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #f7f2e0;
+}
+.jm3 .box1 .fl-lt  .line{
+	width: 60px;
+	height: 4px;
+	background: #e1cd82;
+	margin-top: -4px;
+	margin-bottom: 25px;
+}
+
+.jm3 .box1 .fl-lt p{
+	font-size: 16px;
+	color: #666;
+	line-height: 44px;
+}
+.jm3 .box1 .fl-rt{
+	margin-top: 20px;
+}
+.jm3 .box2{
+	background: #dec86f;
+	padding: 30px 0;
+	margin-bottom: 70px;
+}
+.jm3 .box2 img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.jm3 .box2 p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 44px;
+}
+
+.jm4 .box1{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+.jm4 .box1 .line{
+	width: 50px;
+	height: 4px;
+	background: #dec76f;
+	margin: 20px 0 10px;
+}
+.jm4 .box1 p{
+	font-size: 16px;
+	line-height: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+

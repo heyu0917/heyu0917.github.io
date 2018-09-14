@@ -1,0 +1,85 @@
+/*公共*/
+.w_100{
+    width:100%;
+}
+.bold{
+    font-weight:bold;
+}
+
+
+/*lxwm1 -- 联系我们*/
+.lxwm1 {
+	font-size: 0;
+}
+.lxwm1 .part2{
+    margin-top:-0.1rem;
+    position:relative;
+    color:#000;
+}
+.lxwm1 .part2 #map{
+	width: 80%;
+    height: 4.8rem;
+    border: 2px solid #e7d38d;
+    position: absolute;
+    left: 10%;
+    top: 0.2rem;
+    box-sizing: border-box;
+}
+.lxwm1 .part2 .gs{
+    width:80%;
+    position:absolute;
+    margin-left:13%;
+    top:5.3rem;
+    font-size:0.24rem;
+}
+.lxwm1 .part2 .gs span{
+	font-size:0.26rem;
+}
+
+
+/*lxwm2 -- 在线留言*/
+.lxwm2 {
+	font-size: 0;
+}
+.lxwm2 .part2{
+    position:relative;
+}
+.lxwm2 .part2 .form{
+    position:absolute;
+    width:70%;
+    height:4.8rem;
+    margin-left:15%;
+    z-index:2;
+    top:0;
+}
+.lxwm2 .part2 .form input{
+    width:96%;
+    height:0.6rem;
+    border:1px solid #999;
+    border-radius:0.09rem;
+    padding-left:4%;
+    font-size:0.24rem;
+    display:block;
+    margin:0.2rem auto;
+}
+.lxwm2 .part2 .form textarea{
+    width:96%;
+    height:2rem;
+    border:1px solid #999;
+    border-radius:0.09rem;
+    padding-left:4%;
+    font-size:0.24rem;
+    display:block;
+    margin:0 auto;
+    padding-top:0.1rem;
+    resize: none;
+}
+.lxwm2 .part2 .form button{
+    width:1.2rem;
+    height:0.5rem;
+    background-color:#ffe495;
+    display:block;
+    margin:0.24rem auto;
+    border-radius:0.09rem;
+    font-size:0.24rem;
+}

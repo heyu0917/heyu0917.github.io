@@ -1,0 +1,332 @@
+/*common*/
+.er-nav h3{
+	margin-bottom: 35px;
+}
+.er-nav ul li{
+	margin: 18px auto;
+}
+.er-nav .erweima{
+    margin: 80px auto 30px;
+}
+
+/*石烹鱼头*/
+.shyt .title{
+	color: #1D3F64;
+	text-align: center;
+}
+.shyt .p1{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.shyt .p2{
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.shyt .p3{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.shyt .p4{
+	background: #C92740;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+	height: 40px;
+	margin-top: 22px;
+}
+.shyt .con{
+	margin-top: 25px;
+}
+.shyt .con p span{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	border-bottom: 12px solid #CFA05C;
+	background: #1D3F64;
+	width: 162px;
+	margin-right: 5px;
+	font-size: 16px;
+	padding: 10px 0;
+}
+.shyt .con p span:last-child{
+	margin-right: 0;
+}
+.shyt .con p span:nth-child(2){
+	margin-right: 3px;
+}
+.shyt .con p span:nth-child(3){
+	width: 161px;
+	margin-right: 3px;
+}
+.shyt .con p span:nth-child(4){
+	margin-right: 4px;
+}
+
+/*烹饪大师*/
+.shds{
+	margin-bottom: 0;
+}
+.shds .part1{
+	position: relative;
+}
+.shds .part1 .img1{
+    margin-left: -35px;
+    width: 860px;
+    display: block;
+}
+.shds .part1 .con{
+	position: absolute;
+	right: 0;
+	top: 300px;
+	z-index: 2;
+	width: 440px;
+}
+
+.shds .part1 .title {
+	position: relative;
+	width: 440px;
+	color: #1D3F64;
+}
+.shds .part1 .title .middle{
+    position: relative;
+    width: 320px;
+    height: 52px;
+    margin: 0 auto;
+    border: 2px solid #CFA05C;
+    box-sizing: border-box;
+    line-height: 52px;
+    background: #fff;	
+    text-align: center;
+    z-index: 2;
+}
+.shds .part1 .title .middle:before{
+	content: '';
+    width: 80%;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 15px;
+    box-shadow: 0 20px 14px rgba(0,0,0,.3);
+    height: 60%;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    z-index: -1;
+    background: rgba(0,0,0,.4);
+    right: 4px;
+}
+.shds .part1 .title .middle:after {
+    content: '';
+    width: 80%;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 15px;
+    box-shadow: 0 20px 14px rgba(0,0,0,.3);
+    height: 60%;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    z-index: -1;
+    background: rgba(0,0,0,.4);
+    left: 4px;
+}
+.shds .part1 .title .middle img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;	
+}
+.shds .part1 .title .middle p{
+	font-size: 28px;
+    font-family: 宋体;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 2;
+}
+.shds .part1 .title .border{
+    width: 360px;
+    height: 30px;
+    border: 2px solid #CFA05C;
+    box-sizing: border-box;
+    background: #1D3F64;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    z-index: -1;
+}
+.shds .part1 .title .border2{
+	height: 64px;
+    border: 1px solid #1D3F64;
+    width: 100%;
+    position: absolute;
+    left: -1px;
+    top: 26px;
+    z-index: -1;
+}
+.shds .part1 .title .p1{
+	font-size: 36px;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+	margin: 12px auto;
+	background: #fff;
+}
+
+.shds .part1 .desc {
+	width: 230px;
+	margin-top: 40px;
+	margin-left: 160px;
+}
+.shds .part1 .desc .p1{
+    font-size: 17px;
+    line-height: 40px;
+    color: #666;
+}
+.shds .part1 .desc .p1 span{
+    border: 1px solid #CFA05C;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+.shds .part1 .desc .p2{
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top: 2px solid #CFA05C;
+	color: #CFA05C;
+	font-size: 20px;
+}
+.shds .part1 .desc .p3{
+	line-height: 34px;
+	font-size: 17px;
+	color: #666;
+	margin-top: 10px;
+}
+
+/*石烹工艺*/
+.shgy .title{
+	text-align: center;
+	color: #1D3F64;
+}
+.shgy .title .p1{
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.shgy .title .p2{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.shgy .con{
+	margin-top: 30px;
+}
+.shgy .con li{
+	margin-bottom: 30px;
+	height: 206px;
+}
+.shgy .con .fl-lt{
+	width: 50%;
+	margin-right: 4%;
+}
+.shgy .con .fl-rt{
+	width: 46%;
+}
+.shgy .con .fl-rt .p1{
+	background: #C92740;
+    color: #fff;
+    font-size: 20px;
+    margin-left: -100px;
+    padding-left: 100px;
+    height: 67px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    padding-top: 6px;
+    box-sizing: border-box;
+}
+.shgy .con .fl-rt .p2{
+    font-size: 16px;
+    color: #666;
+    line-height: 25px;
+}
+.shgy .con li:nth-child(even) .fl-rt .p1{
+	background: #CFA05C;
+	line-height: 61px;
+}
+
+
+/*鱼头价值*/
+.shjz .part1 ul{
+	margin: 0 auto;
+	width: 90%;
+}
+.shjz li{
+	position: relative;
+	height: 452px;
+	clear: both;
+}
+.shjz li .img1{
+    position: absolute;
+    bottom: -6px;
+    left: -34px;
+}
+.shjz li:nth-child(2) .img1{
+	right: -40px;
+    bottom: -1px;
+	left: auto;
+}
+.shjz .li-img{
+	width: 46%;
+	margin-right: 4%;
+}
+.shjz .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shjz li:nth-child(even) .li-img{
+	margin-left: 4%;
+	margin-right: 0;
+}
+.shjz .li-con{
+	width: 50%;
+	color: #1D3F64;
+}
+.shjz .li-con .p1{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 20px;
+}
+.shjz .li-con .p2{
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.shjz .li-con .p3{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.shjz .li-con .p4{
+    font-size: 16px;
+    line-height: 28px;
+    color: #666;
+    margin-top: 26px;
+}
+.shjz li:nth-child(even) .li-con{
+	text-align: right;
+}
+

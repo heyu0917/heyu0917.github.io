@@ -1,0 +1,57 @@
+.part2{
+	width: 100%;
+	margin-top: .5rem;
+	margin-bottom: .56rem;
+}
+.part2 .title-img img{
+	width: 3.88rem;
+	display: block;
+	margin: 0 auto;
+}
+.part2 .part2-con{
+	padding: 0 .3rem;
+}
+.part2 .part2-con .part2-item{
+	margin-top: .4rem;
+}
+.part2 .part2-con .part2-item img{
+	height: 2.3rem;
+}
+.part2 .part2-con .part2-item .ll_set2-img{
+	margin-right: .3rem;
+}
+.part2 .part2-con .part2-item .ll_set3-img{
+	margin-left: .3rem;
+}
+.part2 .part2-con .part2-item .item-word h3{
+	font-weight: normal;
+	font-size: .26rem;
+	color: #6D2322;
+}
+.part2 .part2-con .part2-item .item-word p{
+	font-size: .22rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 108%;
+	margin-left: -3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

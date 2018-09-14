@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/six.css">	
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+</head>
+<body>
+	<!--公共头部-->
+	<div class="header">
+		<div class="y-row clearfix">
+			<img src="../img/logo.png" alt="" class="img1 fl-lt"/>
+			<ul class="fl-lt">                                                
+				<li><a href="index.html">首页</a></li>
+				<li><a href="one1.html">葵中</a></li>
+				<li><a href="two1.html">鱼蛙双椒</a></li>
+				<li><a href="three1.html">经典IP</a></li>
+				<li><a href="four1.html">直营系统</a></li>
+				<li><a href="five1.html">品牌招商</a></li>
+				<li class="active"><a href="six1.html">联系我们</a></li>
+			</ul>
+			<img src="../img/head1.png" alt="" class="img2 fl-rt"/>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="banner"></div>
+		<div class="y-row">
+			<div class="er-nav">                                                  
+				<a href="six1.html" class="active">招商总部</a>
+				<a href="six2.html">新闻动态</a>
+			</div>
+			<div class="main six1">
+				<div class="part1">
+					<div class="title">
+						<div class="title-div">
+							<img src="../img/six/a1.png" alt="" />
+							<p class="p1">地址：北京丰台区双林东路8号（北京文化创新工场万开基地A座1-2层）</p>
+						</div>
+						<div class="title-div">
+							<img src="../img/six/a2.png" alt="" />
+							<p class="p1">电话：</p>
+						</div>
+					</div>
+					
+					<div class="map" id="map"></div>
+					
+					<p class="foot-p">实地考察请提前告知，届时专车接送。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<ul class="list1">                                                
+			<li><a href="index.html">首页</a></li>
+			<li><a href="one1.html">葵中</a></li>
+			<li><a href="two1.html">鱼蛙双椒</a></li>
+			<li><a href="three1.html">经典IP</a></li>
+			<li><a href="four1.html">直营系统</a></li>
+			<li><a href="five1.html">品牌招商</a></li>
+			<li class="active"><a href="six1.html">联系我们</a></li>
+		</ul>
+		<ul class="list2">
+			<li>
+				<a href="javascript:;">
+					<div class="img-box"><img src="../img/footer1.png" alt="" /></div>
+					<p>地址：北京丰台区双林东路8号（北京文化创新工场万开基地A座1-2层）</p>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<div class="img-box"><img src="../img/footer2.png" alt="" /></div>
+					<p>电话：027-0000-0000</p>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<div class="img-box"><img src="../img/footer3.png" alt="" /></div>
+					<p>点击咨询沃网</p>
+				</a>
+			</li>
+		</ul>
+		<div class="bottom">Copyright 2018 葵中鱼蛙双椒有限公司 版权所有 XICP备00000000号-0</div>
+	</div>
+	
+	
+	<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    var point = new BMap.Point(116.2633149950,39.8836762902);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+			
+		</script>
+</body>
+</html>

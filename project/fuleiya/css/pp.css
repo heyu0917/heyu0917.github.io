@@ -1,0 +1,328 @@
+/*公共*/
+.comtitle{
+	width: 570px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 2;
+}
+.comtitle .p1{
+    font-size: 25px;
+    color: #10193A;
+    display: inline-block;
+    background: #FFF;
+    padding: 0 15px;
+}
+.comtitle .p2{
+	font-size: 29px;
+	color: #10193A;
+    margin: 3px 0;
+}
+.comtitle .p3{
+    font-size: 32px;
+    color: #ACA67F;
+    font-family: myfont;
+    background: #fff;
+    display: inline-block;
+    padding: 0 8px;
+    line-height: 1;
+}
+.comtitle .border{
+    width: 100%;
+    height: 75px;
+    border: 2px solid #10193A;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    z-index: -1;
+}
+
+/*品牌故事*/
+.ppgs .con{
+	margin-top: 40px;
+}
+.ppgs .con p{
+	margin-top: 20px;
+	line-height: 34px;
+	font-size: 16px;
+	color: #666;
+}
+
+/*品牌简介*/
+.ppjj .con{
+	margin-top: 40px;
+}
+.ppjj .con .fl-lt{
+	width: 55%;
+}
+.ppjj .con .fl-rt{
+	width: 42%;
+}
+.ppjj .con p{
+	line-height: 37px;
+	font-size: 16px;
+	color: #666;
+	text-indent: 32px;
+}
+
+/*品牌价值*/
+.ppjz .comtitle{
+	width: 400px;
+}
+.ppjz .comtitle .p4{
+    position: relative;
+    font-size: 25px;
+    width: 256px;
+    margin: 0 auto;
+}
+.ppjz .comtitle .p4:before,
+.ppjz .comtitle .p4:after{
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: #10193A;
+    position: absolute;
+    top: 16px;
+}
+.ppjz .comtitle .p4:before{
+	left: 0;
+}
+.ppjz .comtitle .p4:after{
+	right: 0;
+}
+.ppjz .desc{
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 1px solid #ACA67F;
+	padding-bottom: 40px;
+	margin-bottom: 35px;
+}
+.ppjz .comtitle .border{
+	width: 100%;
+    height: 108px;
+    border: 2px solid #10193A;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    z-index: -1;
+}
+.ppjz .comtitle .p3{
+	padding: 0;
+    width: 400px;
+    margin-left: 2px;
+}
+
+.ppjz .desc .p1{
+	line-height: 34px;
+    color: #10193A;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+.ppjz .desc .p2{
+	line-height: 30px;
+	color: #ACA67F;
+	background: #10193A;
+	width: 330px;
+	height: 70px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.ppjz .con{
+	width: 830px;
+	height: 990px;
+	position: relative;
+	margin: 0 auto;
+}
+.ppjz .con .img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ppjz .con p{
+	position: absolute;
+	z-index: 2;
+	color: #ACA67F;
+}
+.ppjz .con p span:last-child{
+	margin-right: 0;
+}
+.ppjz .con .p1{
+    left: 124px;
+    top: 218px;
+}
+.ppjz .con .p1 span{
+    display: inline-block;
+    margin-right: 203px;
+    font-size: 28px;
+}
+.ppjz .con .p2{
+    left: 35px;
+    top: 362px;
+    text-align: center;
+}
+.ppjz .con .p2 span:first-child{
+	margin-top: -11px;
+}
+.ppjz .con .p2 span{
+    float: left;
+    margin-right: 315px;
+    font-size: 12px;
+}
+.ppjz .con .p2 span:nth-child(2) {
+    margin-right: 302px;
+}
+.ppjz .con .p2 span:nth-child(3) {
+    margin-top: 6px;
+}
+.ppjz .con .p2 span b{
+	display: block;
+	width: 10px;
+	height: 2px;
+	background: #ACA67F;
+	margin: 1px auto;
+}
+.ppjz .con .p3{
+    left: 339px;
+    top: 691px;
+    font-size: 22px;
+}
+
+/*品牌实力*/
+.ppsl .comtitle{
+	width: 420px;
+}
+.ppsl .comtitle .p1{
+	font-size: 29px;
+}
+.ppsl .comtitle .p2{
+	font-size: 25px;
+}
+.ppsl .comtitle .p3{
+    width: 404px;
+    margin-left: 2px;
+}
+
+.ppsl .con{
+	margin-top: 45px;
+}
+.ppsl ul li{
+	float: left;
+	border-bottom: 1px solid #ACA67F;
+	width: 50%;
+	box-sizing: border-box;
+	position: relative;
+	text-align: center;
+	padding-bottom: 22px;
+	margin-bottom: 24px;
+}
+.ppsl ul li:nth-child(odd){
+	padding-right: 35px;
+}
+.ppsl ul li:nth-child(even){
+	padding-left: 35px;
+}
+.ppsl ul li:nth-child(odd):before{
+	content: '';
+	width: 1px;
+	height: 280px;
+	border-right: 1px dashed #ACA67F;
+	position: absolute;
+	right: -1px;
+	top: 10px;
+}
+.ppsl ul li img{
+	display: block;
+	width: 100%;
+	height: 197px;
+}
+.ppsl ul li .p1{
+    margin: 16px auto 5px;
+	width: 162px;
+	line-height: 36px;
+	text-align: center;
+	background: #ACA67F;
+	color: #10193A;
+	font-size: 19px;
+}
+.ppsl ul li .p2{
+	color: #10193A;
+	font-size: 16px;
+}
+
+
+/*品牌CPU*/
+.ppcpu .part1{
+    width: 94%;
+    margin: 0 auto;
+}
+.ppcpu .comtitle{
+    width: 95%;
+    text-align: left;
+    margin-left: 0;
+}
+.ppcpu .comtitle .p3{
+    display: block;
+    width: 64%;
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 0;
+}
+.ppcpu .comtitle .p1{
+	padding-left: 0;
+    margin-top: 3px;
+    font-size: 29px;
+}
+.ppcpu .comtitle .p2{
+	margin-bottom: 0;
+	font-size: 25px;
+}
+.ppcpu .comtitle .p4{
+    font-size: 25px;
+    text-align: right;
+    line-height: 1;
+}
+.ppcpu .comtitle .border{
+	border-left: 0;
+	border-bottom: 0;
+}
+.ppcpu .fl-lt{
+	width: 50%;
+}
+.ppcpu .fl-lt .p5{
+	font-size: 16px;
+    line-height: 36px;
+    color: #666;
+    text-indent: 32px;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+.ppcpu .fl-rt{
+    width: 45%;
+    position: relative;
+}
+.ppcpu .fl-rt p{
+    position: absolute;
+    right: 46px;
+    top: 39px;
+    z-index: 2;
+    color: #ACA67F;
+    font-size: 20px;
+    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    -moz-transform: rotate(9deg);
+    -o-transform: rotate(9deg);
+    -ms-transform: rotate(9deg);
+}
+.ppcpu .fl-rt p span{
+	font-size: 26px;
+}
+
+
+
+
+
+
+
+
+

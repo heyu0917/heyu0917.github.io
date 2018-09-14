@@ -1,0 +1,198 @@
+.lx .title{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 48px;
+}
+.lx .title .p1{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.15);
+	font-weight: bold;
+}
+.lx .title .p2{
+	font-size: 34px;
+	font-weight: bold;
+	color: #432963;
+}
+.lx .title .p4{
+	margin-top: 10px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #333;
+}
+.lx .title .p3{
+	display: inline-block;
+	font-weight: lighter;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 44px;
+	font-size: 24px;
+	line-height: 44px;
+	background: #e4d079;
+	border-radius: 22px;
+	margin: 15px auto 0;
+	background: -webkit-gradient(linear,0 0, 0 100%,from(#f1e496),to(#d8bd60));
+	background: -moz-linear-gradient(top, #f1e496, #d8bd60);
+}
+
+.lx1 {
+	width: 100%;
+}
+.lx1 .box1{
+	position: relative;
+	padding-top: 50px;
+}
+.lx1 .box1 .img0{
+	position: absolute;
+	top: 0px;
+	left: 500px;
+}
+.lx1 .box1 .fl-lt{
+	width: 560px;
+	color: #727171;
+	padding-left: 10px;
+	margin-top: 110px;
+}
+.lx1 .box1 .fl-lt .p0{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.lx1 .box1 .fl-lt ul li{
+	font-size: 0;
+}
+.lx1 .box1 .fl-lt ul li .p1{
+	font-size: 20px;
+	display: inline-block;
+	line-height: 1;
+	margin-right: 10px;
+	margin-top: -2px;
+}
+.lx1 .box1 .fl-lt ul li .p2{
+	font-size: 30px;
+	font-weight: lighter;
+	display: inline-block;
+	line-height: 1;
+}
+.lx1 .box1 .fl-lt ul li .line{
+	width: 400px;
+	height: 2px;
+	background: #eee;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lx1 .box1 .fl-lt ul li .line:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: #eee;
+	position: absolute;
+	left: -10px;
+	top: -4px;
+}
+.lx1 .box1 .fl-lt ul li .p3{
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.lx1 .box2 .fl-lt{
+	width: 50%;
+	height: 510px;
+	background: #e6cf71;
+	position: relative;
+	z-index: 2;
+}
+.lx1 .box2 .fl-rt{
+	width: 50%;
+	height: 510px;
+}
+.lx1 .box2 .fl-lt .img1{
+	position: absolute;
+	right: 500px;
+	top: 73px;
+	z-index: -1;
+}
+.lx1 .box2 .fl-lt .item{
+	width: 400px;
+	float: right;
+	margin-right: 60px;
+}
+.lx1 .box2 .fl-lt .p1{
+	font-size: 18px;
+	padding-top: 55px;
+	margin-bottom: 30px;
+}
+.lx1 .box2 .fl-lt input{
+	width: 100%;
+	display: block;
+	height: 38px;
+	border: 1px solid #333;
+	padding: 0 12px;
+	box-sizing: border-box;
+	color: #333;
+	margin-bottom: 15px;
+	background: transparent;
+	font-size: 16px;
+}
+.lx1 .box2 .fl-lt textarea{
+	width: 100%;
+	display: block;
+	height: 160px;
+	line-height: 30px;
+	border: 1px solid #333;
+	padding: 12px;
+	box-sizing: border-box;
+	color: #333;
+	margin-bottom: 15px;
+	font-size: 16px;
+	background: transparent;
+	resize: none;
+}
+.lx1 .box2 .fl-lt .button div{
+	width: 175px;
+	height: 38px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #333;
+	cursor: pointer;
+}
+.lx1 .box3 p{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.15);
+	font-weight: bold;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	margin-left: 400px;
+}
+
+
+.lx2{
+	width: 100%;
+}
+.lx2 .part1{
+	margin-top: 45px;
+	margin-bottom: 65px;
+}
+.lx2 .box{
+	width: 690px;
+	margin: 0 auto;
+}
+.lx2 .box .fl-lt p{
+	line-height: 36px;
+	font-size: 14px;
+}
+.lx2 .box .fl-lt .p1{
+	font-size: 18px;
+}
+.lx2 .box .fl-lt .mtop{
+	margin-top: 10px;
+}
+
+
+
+
+
+
+

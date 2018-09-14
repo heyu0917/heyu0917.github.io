@@ -1,0 +1,251 @@
+/*企业简介*/
+.qyjj .title{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: .16rem;
+	border-bottom: 2px solid #040000;
+	position: relative;
+}
+.qyjj .title h1{
+	font-size: .38rem;
+	font-weight: normal;
+	text-align: center;
+}
+.qyjj .title:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	margin-left: -.5rem;
+	bottom: -1px;
+	width: 1rem;
+	height: 2px;
+	background: #FBC600;
+}
+
+.qyjj .con{
+	margin-top: .24rem;
+	padding: 0 .24rem;
+}
+.qyjj .con p{
+	margin-bottom: .32rem;
+	font-size: .24rem;
+	color: #666;
+	line-height: .42rem;
+}
+.qyjj .con img{
+	margin-top: .6rem;
+}
+
+
+/*企业团队*/
+.qytd .title{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: .16rem;
+	border-bottom: 2px solid #040000;
+	text-align: center;
+	position: relative;
+	font-size: 0;
+}
+.qytd .title h1{
+	font-size: .38rem;
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+.qytd .title:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	margin-left: -.5rem;
+	bottom: -1px;
+	width: 1rem;
+	height: 2px;
+	background: #FBC600;
+}
+.qytd .title h1 span{
+	color: #FBC600;
+}
+.qytd .title img{
+	width: .8rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: .3rem;
+}
+
+.qytd .con{
+	width: 80%;
+	margin: 0 auto;
+}
+.qytd .con ul{
+	margin-top: .4rem;
+}
+.qytd .con ul li{
+	height: 1.8rem;
+	width: 100%;
+}
+.qytd .con ul li .fl-lt{
+	width: 50%;
+}
+.qytd .con ul li .fl-rt{
+	width: 50%;
+}
+.qytd .con ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.qytd .con ul li .li-con{
+	position: relative;
+	height: 100%;
+}
+.qytd .con ul li .li-con .desc{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+	-moz-transform: translate3d(0,-50%,0);
+	-o-transform: translate3d(0,-50%,0);
+}
+.qytd .con ul li .li-con .desc h2{
+	font-size: .26rem;
+	margin-bottom: .1rem;
+	position: relative;
+}
+.qytd .con ul li:nth-child(odd) .li-con .desc h2:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -.84rem;
+    top: 50%;
+    transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+	-moz-transform: translate3d(0,-50%,0);
+	-o-transform: translate3d(0,-50%,0);
+    border-right: .12rem solid #FBC600;
+    border-top: .08rem solid transparent;
+    border-bottom: .08rem solid transparent;
+}
+.qytd .con ul li:nth-child(even) .li-con .desc h2:before{
+    content: '';
+    position: absolute;
+    right: 50%;
+    margin-right: -.84rem;
+    top: 50%;
+    transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+	-moz-transform: translate3d(0,-50%,0);
+	-o-transform: translate3d(0,-50%,0);
+    border-left: .12rem solid #FBC600;
+    border-top: .08rem solid transparent;
+    border-bottom: .08rem solid transparent;
+}
+.qytd .con ul li .li-con .desc p{
+	font-size: .24rem;
+	color: #666;
+}
+
+
+/*企业文化*/
+.qywh .img1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+.qywh .title{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: .16rem;
+	border-bottom: 2px solid #040000;
+	text-align: center;
+	position: relative;
+	font-size: 0;
+}
+.qywh .title h1{
+	font-size: .38rem;
+	font-weight: normal;
+}
+.qywh .title:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	margin-left: -.5rem;
+	bottom: -1px;
+	width: 1rem;
+	height: 2px;
+	background: #FBC600;
+}
+.qywh .title h1 span{
+	color: #FBC600;
+}
+
+.qywh .con{
+	padding: 0 .24rem;
+	margin-top: .4rem;
+}
+.qywh .con ul li{
+	width: 31%;
+	margin-right: 3.5%;
+	float: left;
+	border-radius: 50%;
+	margin-bottom: .2rem;
+	border: 2px solid #FBC600;
+	text-align: center;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.qywh .con ul li .top{
+	height: 50%;
+	width: 100%;
+	color: #333;
+	font-size: .28rem;
+	padding-top: .5rem;
+	box-sizing: border-box;
+}
+.qywh .con ul li .bottom{
+	height: 50%;
+	width: 100%;
+	background: #FBC600;
+	position: relative;
+}
+.qywh .con ul li .bottom p{
+	line-height: .36rem;
+	color: #333;
+	font-size: .24rem;
+	width: 120%;
+	margin-left: -10%;
+	position: absolute;
+	left: 0;
+	top: 44%;
+    transform: translate3d(0,-50%,0) scale(.833);
+	-webkit-transform: translate3d(0,-50%,0) scale(.833);
+	-ms-transform: translate3d(0,-50%,0) scale(.833);
+	-moz-transform: translate3d(0,-50%,0) scale(.833);
+	-o-transform: translate3d(0,-50%,0) scale(.833);
+}
+.qywh .con ul li:nth-child(5){
+	margin-right: 0;
+}
+.qywh .con ul li:nth-child(1),
+.qywh .con ul li:nth-child(6){
+	margin-left: 15.75%;
+}
+
+
+
+
+
+
+
+
+

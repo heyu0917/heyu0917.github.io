@@ -1,0 +1,338 @@
+.section1 .con{
+	margin-left: 20%;
+	color: #fff;
+	margin-top: 4%;
+}
+.section1 .con .title{
+	position: relative;
+	display: inline-block;
+}
+.section1 .con .title:before{
+    content: '';
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    top: .34rem;
+    width: 115%;
+    height: 1rem;
+}
+.section1 .con .title:after{
+    content: '';
+    width: .2rem;
+    height: 1px;
+    border-top: 1px solid #fff;
+    position: absolute;
+    top: .34rem;
+    right: -15%;
+}
+.section1 .con .title p{
+	font-size: .46rem;
+	position: relative;
+}
+.section1 .con .title p span{
+	color: #f9be12;
+}
+.section1 .con .title p:before{
+    content: '';
+    width: 1px;
+    height: .56rem;
+    position: absolute;
+    top: .56rem;
+    right: -25%;
+    background: #fff;
+}
+
+.section1 .con .p1{
+	text-transform: uppercase;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: .2rem;
+}
+.section1 .con .p2{
+	font-size: 16px;
+	line-height: .5rem;
+	margin-bottom: 1%;
+}
+.section1 .con .line{
+	width: .4rem;
+	height: 2px;
+	background: #fff;
+}
+
+
+.section2 .con{
+	margin-top: 0;
+	position: relative;
+	height: 100%;
+}
+.section2 .part{
+	margin-top: 3%;
+	text-align: center;
+}
+.section2 .part .title{
+	color: #1D2087;
+	width: 4.6rem;
+	margin: 0 auto;
+}
+.section2 .part .title .p1{
+    font-size: .4rem;
+    margin-bottom: .08rem;
+    padding-bottom: .1rem;
+}
+.section2 .part .title .line{
+	border-bottom: 1px solid #F9BE12;
+	position: relative;
+}
+.section2 .part .title .line:before{
+	content: '';
+	width: 3rem;
+	height: 4px;
+	background: #F9BE12;
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	margin-left: -1.5rem;
+}
+
+.section2 .part .p2{
+	font-size: 16px;
+	line-height: .34rem;
+	margin-top: 2%;
+}
+.section2 .part .p3{
+	color: #999999;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 3%;
+	text-align: center;
+}
+
+
+.section3 .con{
+	color: #806549;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+.section3 .con .p1{
+	padding-bottom: .1rem;
+	border-bottom: 1px solid #806549;
+	display: inline-block;
+	margin-bottom: 2%;
+	position: relative;
+	font-size: .34rem;
+}
+.section3 .con .p1:before{
+	content: '';
+	width: 1rem;
+	height: 4px;
+	background: #806549;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+}
+.section3 .con .p2{
+	font-size: 16px;
+	line-height: .4rem;
+}
+
+.section4 .con{
+	margin-top: 3%;
+}
+.section4 .title{
+	text-align: center;
+	color: #1D2087;
+}
+.section4 .title .p1{
+    font-weight: bold;
+    font-size: .34rem;
+    padding-bottom: .1rem;
+    border-bottom: 1px solid #F9BE12;
+    position: relative;
+    width: 4.2rem;
+    margin: 0 auto .08rem;
+}
+.section4 .title .p1:before{
+	content: '';
+	width: 3rem;
+	height: 4px;
+	background: #F9BE12;
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	margin-left: -1.5rem;
+}
+.section4 .title .p2{
+	font-size: .34rem;	
+}
+.section4 .title .p3{
+	font-size: .59rem;	
+	text-transform: uppercase;
+	color: rgba(29, 32, 135,.05);
+	margin-bottom: 1%;
+}
+
+.section4 .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.section4 .picScroll-left .hd ul{
+	position: absolute;
+	bottom: -.4rem;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.section4 .picScroll-left .hd ul li{
+	width: .1rem;
+	height: .1rem;
+	background: rgba(29, 32, 135,.5);
+	margin: 0 .1rem;
+	border-radius: 50%;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.section4 .picScroll-left .hd ul li.on{
+	width: .16rem;
+	height: .16rem;
+	background: rgba(29, 32, 135,1);
+}
+
+.section4 .picScroll-left .bd{
+	width: 13.8rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.section4 .picScroll-left .bd ul{
+	position: relative;
+}
+.section4 .picScroll-left .bd ul li{
+	width: 2.35rem;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 0 .2rem;
+	text-align: center;
+}
+.section4 .picScroll-left .bd ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+	border: 2px solid #F9BE12;
+	box-sizing: border-box;
+	border-radius: .1rem;
+}
+.section4 .picScroll-left .bd ul li .p1{
+	font-size: .24rem;
+	color: #1D2087;
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+}
+.section4 .picScroll-left .bd ul li .line{
+	width: .3rem;
+	height: 3px;
+	background: #1D2087;
+	margin: 0 auto .24rem;
+}
+.section4 .picScroll-left .bd ul li .p2{
+	font-size: 14px;
+	color: #666666;
+	line-height: .26rem;
+}
+
+
+.section5 .con{
+	width: 64%;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	text-align: center;
+}
+.section5 .con .title{
+	font-size: .55rem;
+	position: relative;
+	display: inline-block
+}
+.section5 .con .title:before,
+.section5 .con .title:after{
+	content: '';
+	width: .1rem;
+	height: .1rem;
+	border-bottom: 1px solid #fff;
+	position: absolute;
+	bottom: -.1rem;
+}
+.section5 .con .title:before{
+	border-left: 1px solid #fff;
+	left: -.1rem;
+}
+.section5 .con .title:after{
+	border-right: 1px solid #fff;
+	right: -.1rem;
+}
+
+.section5 .con ul{
+	margin-top: 21%;
+}
+.section5 .con ul li{
+    float: left;
+    width: 3.6rem;
+    line-height: .58rem;
+    height: .58rem;
+    margin-bottom: 11%;
+    text-align: center;
+    margin-right: 30%;
+}
+.section5 .con ul li:nth-child(even){
+	float: right;
+	margin-right: 0;
+}
+.section5 .con ul li p{
+	width: 2.4rem;
+	border: 1px solid #fff;
+	border-right: 0;
+	font-size: .2rem;
+	height: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+}
+.section5 .con ul li span{
+	display: inline-block;
+	vertical-align: middle;	
+	font-size: .4rem;
+	background: #F9BE12;
+	width: 1.2rem;
+	height: 100%;
+}
+.section5 .con ul li:nth-child(even) p{
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+
+@media (max-width:1444px) {
+	.section1 .con .p2{
+		line-height: .6rem;
+	}
+	.section2 .part .p2{
+		line-height: .44rem;
+	}
+	.section3 .con .p2{
+		line-height: .5rem;
+	}
+	.section4 .picScroll-left .bd ul li .p2{
+		line-height: .3rem;
+	}
+}
+
+
+
+
+

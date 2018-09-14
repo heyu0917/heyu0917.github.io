@@ -1,0 +1,115 @@
+.section1 .section-bg2{
+	padding-top: 76px;
+	box-sizing: border-box;
+}
+.section1 .con{
+	position: absolute;
+	width: 960px;
+	height: 234px;
+	left: 50%;
+	top: 50%;
+	margin-top: -117px;
+	padding-top: 0;
+	margin-left: -480px;
+	color: #fff;
+	text-align: center;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+.section1 .con .p1{
+	font-size: .46rem;
+	letter-spacing: 1px;
+}
+.section1 .con .p2{
+	font-size: .16rem;
+	text-transform: uppercase;
+	margin-top: .2rem;
+	margin-bottom: 5%;
+}
+.section1 .con ul{
+	width: 713px;
+	margin: 0 auto;
+}
+.section1 .con ul li{
+	position: relative;
+	float: left;
+	margin-right: 42px;
+}
+.section1 .con ul li:last-child{
+	margin-right: 0;
+}
+.section1 .con ul li img{
+	width: 109px;
+	height: 109px;
+	display: block;
+}
+.section1 .con ul li p{
+	font-size: 16px;
+	line-height: 24px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 30px;
+}
+
+
+.section2 .con{
+	margin-top: 0;
+	height: 100%;
+}
+.section2 .con .left{
+	width: 48%;
+	color: #1D2087;
+	height: 100%;
+	position: relative;
+	padding-left: 10%;
+	box-sizing: border-box;
+}
+.section2 .con .left .p1{
+	font-family: myfont;
+	font-size: .56rem;
+	margin-top: 7%;
+}
+.section2 .con .left .p2{
+	font-size: .34rem;
+	margin-bottom: .08rem;
+}
+.section2 .con .left .p3{
+	font-size: .16rem;
+	text-transform: uppercase;
+}
+.section2 .con .left .line{
+	width: .4rem;
+	height: 3px;
+	background: #1D2087;
+	margin-bottom: 6%;
+	margin-top: 3%;
+}
+.section2 .con .left .p4{
+	font-size: 16px;
+	color: #666;
+	line-height: .44rem;
+}
+.section2 .con .left .p4 span{
+	font-size: .2rem;
+}
+.section2 .con .left img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+}
+
+.section2 .con .right{
+	width: 50%;
+	height: 100%;
+}
+.section2 .con .right img{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+

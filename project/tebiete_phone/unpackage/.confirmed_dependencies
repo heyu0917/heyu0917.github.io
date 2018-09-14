@@ -1,0 +1,298 @@
+{
+	"home.html": {
+		"resources": [
+			"img/my.png",
+			"img/dustbin2.png",
+			"img/banner4.jpg",
+			"img/screen.png",
+			"img/arrowD_t.png",
+			"img/heart.png",
+			"img/hot3.jpg",
+			"js/common.js",
+			"img/recommend5.jpg",
+			"img/area2.png",
+			"img/recommend.png",
+			"img/search_gray.png",
+			"img/sort.png",
+			"img/sort1.jpg",
+			"img/recommend3.jpg",
+			"my.html",
+			"img/sort3.jpg",
+			"img/shop.png",
+			"img/recommend2.jpg",
+			"css/home.css",
+			"img/search.png",
+			"js/zepto.min.js",
+			"img/right.png",
+			"img/smile.png",
+			"js/home.js",
+			"img/recommend6.jpg",
+			"css/search.css",
+			"img/area6.png",
+			"img/hot.png",
+			"img/banner3.jpg",
+			"img/area1.png",
+			"img/area3.png",
+			"img/news.png",
+			"img/arrowL.png",
+			"img/recommend4.jpg",
+			"css/common.css",
+			"img/sort4.jpg",
+			"img/hot2.png",
+			"img/home_light.png",
+			"img/area8.png",
+			"img/hot1.png",
+			"js/swipe.js",
+			"img/area5.png",
+			"img/sort5.jpg",
+			"img/banner1.jpg",
+			"img/area4.png",
+			"img/hot4.jpg",
+			"img/area7.png",
+			"img/banner2.jpg",
+			"img/recommend1.jpg",
+			"img/arrowR.png",
+			"img/sort6.jpg",
+			"sort.html",
+			"goods_list.html"
+		],
+		"refer": [
+			"my.html",
+			"sort.html",
+			"goods_list.html"
+		]
+	},
+	"my.html": {
+		"resources": [
+			"img/option.png",
+			"img/address.png",
+			"img/order2.png",
+			"img/order4.png",
+			"img/order3.png",
+			"img/collection.png",
+			"img/coupon.png",
+			"img/order1.png",
+			"css/my.css",
+			"img/my_light.png",
+			"img/set.png",
+			"img/mess.png",
+			"img/balance.png",
+			"img/home.png",
+			"img/female.png",
+			"img/head_.jpg",
+			"login.html",
+			"home.html",
+			"img/arrowR.png",
+			"shoppingCar.html",
+			"address.html",
+			"sort.html",
+			"index.html",
+			"set.html"
+		],
+		"refer": [
+			"login.html",
+			"home.html",
+			"shoppingCar.html",
+			"address.html",
+			"sort.html",
+			"index.html",
+			"set.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"img/round_light.png",
+			"img/password.png",
+			"css/login.css",
+			"js/login.js",
+			"img/name.png",
+			"img/arrowL.png",
+			"js/common.js",
+			"css/common.css",
+			"img/arrowR.png",
+			"js/zepto.min.js",
+			"my.html"
+		],
+		"refer": [
+			"my.html"
+		]
+	},
+	"sort.html": {
+		"resources": [
+			"img/sort_light.png",
+			"css/sort.css",
+			"img/arrowR.png",
+			"shoppingCar.html",
+			"img/home.png",
+			"img/sort2.jpg",
+			"home.html",
+			"goods_list.html",
+			"index.html",
+			"img/sort4.jpg",
+			"img/sort6.jpg",
+			"my.html"
+		],
+		"refer": [
+			"shoppingCar.html",
+			"home.html",
+			"index.html",
+			"my.html"
+		]
+	},
+	"shoppingCar.html": {
+		"resources": [
+			"css/shoppingCar.css",
+			"my.html",
+			"img/news2.png",
+			"img/shop1.png",
+			"img/shop2.png",
+			"img/shop_light.png",
+			"img/round.png",
+			"sort.html",
+			"detail.html",
+			"sure_order.html",
+			"index.html",
+			"img/my.png",
+			"img/sort.png",
+			"img/sort1.jpg",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/home.png"
+		],
+		"refer": [
+			"my.html",
+			"sort.html",
+			"sure_order.html"
+		]
+	},
+	"goods_list.html": {
+		"resources": [
+			"img/search_gray.png",
+			"img/dustbin2.png",
+			"img/arrowL.png",
+			"home.html",
+			"img/screen.png",
+			"img/arrowD_t.png",
+			"img/right.png",
+			"js/goods_list.js",
+			"sort.html"
+		],
+		"refer": [
+			"home.html"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"img/my.png",
+			"img/recommend6.jpg",
+			"css/search.css",
+			"img/hot.png",
+			"img/heart.png",
+			"img/hot3.jpg",
+			"img/area1.png",
+			"img/news.png",
+			"js/common.js",
+			"sort.html",
+			"img/recommend4.jpg",
+			"css/common.css",
+			"img/sort4.jpg",
+			"img/recommend5.jpg",
+			"img/area2.png",
+			"img/hot2.png",
+			"img/home_light.png",
+			"img/area8.png",
+			"img/hot1.png",
+			"js/swipe.js",
+			"img/recommend.png",
+			"img/sort.png",
+			"img/recommend3.jpg",
+			"img/sort1.jpg",
+			"img/sort5.jpg",
+			"img/shop.png",
+			"img/sort3.jpg",
+			"img/recommend2.jpg",
+			"img/hot4.jpg",
+			"img/search.png",
+			"css/home.css",
+			"img/area7.png",
+			"img/recommend1.jpg",
+			"js/zepto.min.js",
+			"img/sort6.jpg",
+			"img/smile.png",
+			"js/index.js",
+			"shoppingCar.html",
+			"img/banner4.jpg",
+			"img/banner3.jpg",
+			"img/banner1.jpg",
+			"img/banner2.jpg",
+			"my.html"
+		],
+		"refer": [
+			"sort.html",
+			"my.html"
+		]
+	},
+	"detail.html": {
+		"resources": [
+			"img/arrowT_t.png",
+			"img/detail1.jpg",
+			"img/detail4.jpg",
+			"img/arrowT.png",
+			"img/detail2.jpg",
+			"img/detail3.jpg",
+			"js/detail.js",
+			"img/coupon.jpg",
+			"img/collect.png",
+			"img/close.png",
+			"shoppingCar.html",
+			"css/detail.css",
+			"img/person_e.png",
+			"img/detail5.jpg",
+			"img/coupons.png"
+		],
+		"refer": [
+			"shoppingCar.html"
+		]
+	},
+	"address.html": {
+		"resources": [
+			"img/round_light.png",
+			"img/dustbin.png",
+			"img/address-icon.png",
+			"my.html",
+			"img/edit.png",
+			"css/sure_order.css",
+			"img/arrowL.png",
+			"js/common.js",
+			"css/common.css",
+			"img/arrowR.png",
+			"js/zepto.min.js",
+			"img/round.png"
+		],
+		"refer": [
+			"my.html"
+		]
+	},
+	"sure_order.html": {
+		"resources": [
+			"img/line.png",
+			"img/noCouponImg.png",
+			"shoppingCar.html",
+			"img/addressIcon.png",
+			"img/coupon.jpg"
+		],
+		"refer": [
+			"shoppingCar.html"
+		]
+	},
+	"set.html": {
+		"resources": [
+			"my.html",
+			"css/set.css"
+		],
+		"refer": [
+			"my.html"
+		]
+	}
+}

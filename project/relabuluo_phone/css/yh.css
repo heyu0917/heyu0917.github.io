@@ -1,0 +1,131 @@
+.content{
+	color: #E1BE7B;
+}
+.title{
+	position: relative;
+	padding-top: .32rem;
+	color: #E1BE7B;
+	text-align: center;
+}
+.title .line{
+	width: 35%;
+	height: 2px;
+	background: #E1BE7B;
+	position: absolute;
+	top: .94rem;
+	z-index: 2;
+}
+.title .line1{
+	left: 0;
+}
+.title .line2{
+	right: 0;
+}
+.title .box{
+	width: 2.5rem;
+	border: 2px solid #E1BE7B;
+	height: .72rem;
+	margin: 0 auto;
+	padding-top: .04rem;
+	background: #000;
+}
+.title .box .p1{
+    font-size: .34rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: .08rem;
+    margin-bottom: .02rem;
+}
+.title .box .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+
+.part1{
+	position: relative;
+	width: 100%;
+}
+.part1 .box{
+    position: absolute;
+    top: 26%;
+    left: 61%;
+    width: 40%;
+    z-index: 2;
+}
+.part1 .p1{
+	font-size: .4rem;
+    line-height: 1.2;
+}
+.part1 .p2{
+	font-size: .26rem;
+	line-height: 1;
+}
+.part1 .p3{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+}
+.part1 .p4{
+    font-size: .26rem;
+    font-weight: bold;
+    margin-top: 42%;
+}
+
+.part2{
+	position: relative;
+}
+.part2 .con{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: .04rem;
+	height: 100%;
+}
+.part2 .con .p3{
+	text-align: center;
+	font-size: .26rem;
+	margin-top: .08rem;
+}
+.part2 .con ul{
+	width: 90%;
+	margin: 3% auto 0;
+	height: 83.5%;
+}
+.part2 .con ul li{
+	width: 49%;
+	float: left;
+	font-size: .26rem;
+	text-align: center;
+	height: 25%;
+	padding-top: 31%;
+	box-sizing: border-box;
+	
+}
+.part2 .con ul li:nth-child(even){
+	float: right;
+}
+
+.part3{
+	position: relative;
+}
+.part3 .con{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: -.28rem;
+}
+

@@ -1,0 +1,185 @@
+
+/*hz1 -- 项目优势*/
+.title p{
+	width: 100%;
+	text-align: center;
+	color:#a90005;
+}
+.title p:nth-child(1){
+	font-size:14px;
+	text-transform: uppercase;
+}
+.title p:nth-child(2){
+	font-size:36px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+.hz1 ul{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.hz1 ul li{
+	width: 285px;
+	height: 420px;
+	text-align: center;
+	display: inline-block;
+	margin:0 4px;
+}
+.hz1 ul li img:nth-child(2){
+	width: 98px;
+	height: 98px;
+	border-radius: 50%;
+	margin-top: -32px;
+} 
+.hz1 ul li .p1{
+	margin-top: 10px;
+	font-size: 24px;
+	color:#a90005;
+	font-weight: bold;
+}
+.hz1 ul li .p2{
+	width: 260px;
+	margin:5px auto;
+	text-align: left;
+	font-size: 16px;
+	color:#0a0a0a;
+	line-height: 26px;
+}
+
+/*hz2 -- 合作模式*/
+.hz2 .title{
+	position: relative;
+	color: #B40005;
+	text-align: center;
+}
+.hz2 .title .p1{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.hz2 .title .p1 span{
+    width: 40px;
+    height: 40px;
+    background: #dbaf6f;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 .04rem;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 50%;
+    padding-left: 4px;
+    box-sizing: border-box;
+}
+.hz2 .title .p2{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.hz2 .title img{
+	position: absolute;
+	right: -.4rem;
+	top: .12rem;
+	width: 1.5rem;
+}
+.hz2 ul{
+	border: 1px solid #B40005;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.hz2 ul li{
+	border-bottom: 1px solid #B40005;
+	text-align: center;
+	height: 110px;
+	line-height: 110px;
+	font-size: 0;
+}
+.hz2 ul p{
+	font-size: 38px;
+	font-weight: bold;
+	color: #B40005;
+	background: #DBAF6F;
+	border-right: 1px solid #B40005;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.hz2 ul p:first-child{
+	width: 40%;
+}
+.hz2 ul p:last-child{
+	width: 60%;
+}
+.hz2 ul span{
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-right: 1px solid #B40005;
+	font-size: 30px;
+}
+.hz2 ul .span1{
+	height: 100%;
+	position: relative;
+}
+.hz2 ul .span1 b{
+	line-height: 1.2;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+/*hz3 -- 创业支持*/
+.hz3 .title p span{
+	font-size: 26px;
+	display: block;
+}
+.hz3 .hz3-main{
+	width: 100%;
+	font-size: 0;
+	margin-top: 45px;
+}
+.hz3 .hz3-main li{
+	display: inline-block;
+	text-align: center;
+	width:300px;
+	height: 340px;
+	margin-top: 10px;
+}
+.hz3 .hz3-main li img{
+	width: 290px;
+	height: 212px;
+	border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.hz3 .hz3-main p:nth-child(1){
+	font-size: 24px;
+	color:#a80005;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.hz3 .hz3-main p:nth-child(2){
+	width: 256px;
+    margin: 5px auto;
+    font-size: 16px;
+    color: #0a0a0a;
+    text-align: left;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

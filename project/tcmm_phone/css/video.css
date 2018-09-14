@@ -1,0 +1,67 @@
+.video-middle{
+	width: 100%;
+}
+.video-middle ul{
+	width: 4.2rem;
+	margin: 0 auto;
+}
+.video-middle ul li{
+	width: 100%;
+	position: relative;
+	margin-bottom: .4rem;
+}
+.video-middle ul li a{
+	display: block;
+}
+.video-middle ul li .img-box{
+	margin-bottom: .12rem;
+	width: 4.2rem;
+	height: 2.8rem;
+}
+.video-middle ul li .img-box video{
+	width: 4.2rem;
+	height: 2.8rem;
+}
+/*.video-middle ul li .video-img{
+	width: 4.2rem;
+	height: 2.8rem;
+	display: block;
+	margin-bottom: .12rem;
+}
+.video-middle ul li .play-img{
+	position: absolute;
+	width: 1.04rem;
+	height: 1.04rem;
+	left: 50%;
+	margin-left: -.52rem;
+	top: .88rem;
+}*/
+.video-middle ul li span i{
+	width: 4px;
+	height: .24rem;
+	background: #c30e23;
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: -.24rem;
+    margin-right: .16rem;
+
+}
+.video-middle ul li span u{
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

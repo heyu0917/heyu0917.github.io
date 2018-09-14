@@ -1,0 +1,157 @@
+/*联系我们*/
+.lxwm .part1{
+	height: 100%;
+	position: relative;
+}
+.lxwm .con{
+	padding-top: 3%;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.lxwm .p1{
+	font-size: .34rem;
+	margin-bottom: 1.5%;
+}
+.lxwm .map-wrap{
+	border: 2px solid #E8C12A;
+	height: 4rem;
+	position: relative;
+	margin-bottom: 2.5%;
+}
+.lxwm .map{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: -1;
+}
+.lxwm #map1{
+	opacity: 1;
+	z-index: 22;
+}
+.lxwm .item{
+	position: relative;
+}
+.lxwm .item p{
+	font-size: 16px;
+	line-height: 30px;
+	display: none;
+}
+.lxwm .item p span{
+	color: #CA1C1D;
+	font-size: .24rem;
+}
+.lxwm .item p:first-child{
+	display: block;
+}
+.lxwm ul{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+.lxwm ul li{
+	width: 2.7rem;
+	height: .44rem;
+	line-height: .44rem;
+	border: 1px solid #394246;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 18px;
+	margin: 0 .15rem;
+	cursor: pointer;
+}
+.lxwm ul li.on{
+	background: #E8C12A;
+}
+
+
+/*在线留言*/
+.lxly .part1{
+	height: 100%;
+	position: relative;
+}
+.lxly .con{
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+.lxly .con .part{
+	background: #fff;
+	padding: .24rem 0;
+}
+.lxly .p1{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 3%;
+}
+.lxly .p1 span{
+	font-size: 20px;
+	display: block;
+	margin-bottom: .04rem;
+}
+.lxly input{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #999;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+	font-size: 16px;
+	height: .44rem;
+	line-height: .44rem;
+	margin-bottom: 2%;
+}
+.lxly textarea{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #999;
+	padding: .1rem .2rem;
+	box-sizing: border-box;
+	font-size: 16px;
+	height: 1.2rem;
+	margin-bottom: 1%;
+	resize: none;
+}
+.lxly .submit{
+	width: 1.2rem;
+	height: .44rem;
+	line-height: .44rem;
+	background: #E8C12A;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: .04rem;
+	margin: 3% auto 0;
+	cursor: pointer;
+}
+
+@media (max-width: 1500px) {
+	.lxwm .con {
+	    padding-top: 2%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.lxwm .con{
+		padding-top: 2%;
+	}
+	.lxwm .p1{
+		margin-bottom: 1%;
+	}
+	.lxwm .item p{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.lxwm ul li{
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,403 @@
+html,body{
+	height: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft Yahei",arial;
+	font-size: 12px;
+	color: #000;
+	background: #fff;
+}
+.fl-lt{
+	float: left;
+}
+.fl-rt{
+	float: right;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+i{
+	font-style: normal;
+}
+input,button,textarea{
+	border: 0;
+	outline: none;
+}
+b{
+	font-style: normal;
+}
+em{
+	font-style: normal ;
+}
+
+.y-row{
+	width: 1200px;
+	margin: 0 auto;
+}
+.bold{
+	font-weight: bold;
+}
+.img-block{
+	width: 100%;
+	display: block;
+}
+.none{
+	display: none;
+}
+
+/*公共头部*/
+.header{
+	width: 100%;
+	height: 90px;
+	background-color: #7d282d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.header .header-img{
+	display: inline-block;
+	width: 210px;
+	margin-top: 12px;
+	margin-left: 8%;
+	vertical-align: middle;
+}
+.header .header-img img{
+	width: 100%;
+}
+.header .logo-fonts{
+	font-size: 18px;
+	color:#fff;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: 8px;
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left:1px solid #fff;
+}
+.header .nav{
+	position:absolute;
+	right: 5%;
+	top: 0;
+	height: 90px;
+	line-height: 90px;
+}
+.header .nav ul li{
+	float: left;
+	padding:0 10px;
+	font-size: 18px;
+}
+.header .nav ul li a{
+	display: block;
+	color:#fff;
+	width: 100%;
+	height: 100%;
+}
+.header .nav ul li.active{
+	background-color: #c4b799;
+}
+.header .nav ul li.active a{
+	color:#7d282d;
+}
+/*img height 1080px*/
+.section .section-bg{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+/*img height 880px*/
+.section .section-bg2{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 100%;
+	z-index: -1;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+
+
+/*content*/
+.content{
+	height: 100%;
+	padding-top: 90px;
+	padding-bottom: 42px;
+	box-sizing: border-box;
+}
+.content .content-nav{
+	width: 200px;
+	height: 100%;
+	background-color: #c4b799;
+	position:fixed;
+	overflow-y: auto;
+	left: 0;
+	padding-top: 3%;
+	z-index: 99;
+	box-sizing: border-box;
+}
+.content .content-nav .nav-title{
+	color:#394246;
+	text-align: center;
+}
+.content .content-nav .nav-title .p1{
+	font-size: 20px;
+	
+}
+.content .content-nav .nav-title .nav-line{
+	width: 40px;
+	height: 2px;
+	background-color: #394246;
+	margin:10px auto;
+}
+.content .content-nav .nav-title .p2{
+	font-size: 16px;
+}
+.content .content-nav ul{
+	margin-top: 60px;
+}
+.content .content-nav ul li{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	color:#394246;
+	line-height: 50px;
+	position:relative;
+}
+.content .content-nav ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.content .content-nav ul li:hover{
+	background-color: #fff;
+}
+.content .content-nav ul li.active{
+	background-color: #fff;
+}
+.content .content-nav ul li.active::before{
+	content:"";
+	width: 7px;
+	height: 12px;
+	background: url(../img/on.png) no-repeat;
+	position:absolute;
+	top:19px;
+	left: 50px;
+}
+.content .content-nav .back{
+	display: block;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 100px;
+	margin-bottom: 50%;
+}
+.content .wrapper{
+	width: 100%;
+	height: 100%;
+	padding-left: 200px;
+	overflow-y: auto;
+	box-sizing: border-box;
+}
+.content .main{
+	padding: 70px 7% 0;
+	box-sizing: border-box;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 45px;
+	background-color: #08102c;
+	font-size: 18px;
+	text-align: center;
+	color:#fff;
+	line-height: 45px;
+	position:fixed;
+	bottom: 0;
+}
+.footer span{
+	margin:0 10px;
+}
+
+/*返回顶部*/
+.back-top{
+    position: fixed;
+    right: 2%;
+    bottom:10%;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #B7D4D0;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.back-top img{
+	display: block;
+	margin: 12px auto 2px;
+}
+.back-top p{
+	font-size: 12px;
+	color: #B7D4D0;
+}
+.back-top:hover{
+	background: rgba(183, 212, 208,.1);
+}
+
+/*bg*/
+.bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 333;
+	background: rgba(0,0,0,.5);
+	display: none;
+}
+
+/*分页导航*/
+.page-wrapper{
+	font-size: 0;
+	text-align: left;
+}
+.page-wrapper .page-duan{
+	border: 1px solid #999;
+	padding: 3px 6px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	border-radius: 4px;
+	margin: 0 4px;
+	color: #10193A;
+}
+.page-wrapper ul{
+	display: inline-block;
+	vertical-align: middle;
+}
+.page-wrapper ul li{
+	border: 1px solid #999;
+	padding: 3px 6px;
+	font-size: 12px;
+	border-radius: 4px;
+	margin: 0 4px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.page-wrapper ul li a{
+	color: #10193A;
+}
+.page-wrapper li.active a,
+.page-wrapper li.active{
+	color: #fff;
+	background: #10193A;
+}
+
+
+
+@media (max-width:1444px){
+	.header .header-img{
+		margin-left: 3%;
+	}
+	.header .nav{
+		right: 2%;
+	}
+}
+@media (max-width:1366px) {
+	.header .logo-fonts{
+		letter-spacing: 5px;
+		margin-left: 10px;
+    	padding-left: 10px;
+	}
+	.header .nav ul li{
+		padding:0 5px;
+	}
+}
+
+
+/*定义滚动条样式*/
+.scrollBar::-webkit-scrollbar {
+    width:8px;
+    height:20px;
+}
+.scrollBar::-webkit-scrollbar-track     {
+    background:#efeff0;
+}
+.scrollBar::-webkit-scrollbar-thumb{
+    background:#7d282d;
+    border-radius:5px;
+}
+.scrollBar::-webkit-scrollbar-corner {
+    background:#82AFFF;
+}
+.scrollBar::-webkit-scrollbar-resizer  {
+    background:#FF0BEE;
+}
+
+
+/*7.19*/
+.header .nav ul li:hover {
+    background-color: #c4b799;
+}
+.header .nav ul li:hover a{
+	color: #7A272C;
+}
+
+.header .nav ul li{
+	position: relative;
+}
+.header .nav ul li .item{
+	display: none;
+	position: absolute;
+	top: 90px;
+	background: #c4b799;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0 0 12px;
+}
+.header .nav ul li .item a{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+	padding: 4px;
+	margin: 5px 0;	
+	box-sizing: border-box;
+}
+.header .nav ul li .item a.active,
+.header .nav ul li .item a:hover{
+	background: #7A272C;
+}
+

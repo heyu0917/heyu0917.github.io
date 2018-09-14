@@ -1,0 +1,206 @@
+.content{
+	color: #E1BE7B;
+	text-align: center;
+}
+.title{
+	position: relative;
+	padding-top: .32rem;
+	color: #E1BE7B;
+	text-align: center;
+}
+.title .line{
+	width: 35%;
+	height: 2px;
+	background: #E1BE7B;
+	position: absolute;
+	top: .94rem;
+	z-index: 2;
+}
+.title .line1{
+	left: 0;
+}
+.title .line2{
+	right: 0;
+}
+.title .box{
+	width: 2.5rem;
+	border: 2px solid #E1BE7B;
+	height: .72rem;
+	margin: 0 auto;
+	padding-top: .04rem;
+}
+.title .box .p1{
+    font-size: .34rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: .08rem;
+    margin-bottom: .02rem;
+}
+.title .box .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+
+.part{
+	width: 100%;
+	background-size: 100% 100%!important;
+}
+.part1{
+	margin-top: .28rem;
+	text-align: left;
+	height: 3.4rem;
+}
+.part1 .con{
+	width: 60%;
+	margin-left: 40%;
+	padding-top: .12rem;
+}
+.part1 .con .p1{
+	font-size: .3rem;
+	line-height: 1.25;
+}
+.part1 .con .p1 span{
+	font-size: .24rem;
+	text-transform: uppercase;
+}
+.part1 .con .p1 strong{
+	font-size: .4rem;
+}
+.part1 .con .p2{
+	font-size: .24rem;
+	line-height: .3rem;
+	margin-top: .2rem;
+	color: #000;
+}
+.part1 .con .p3{
+    font-size: .32rem;
+    margin-top: 20%;
+}
+
+.part2{
+	position: relative;
+	height: 10rem;
+}
+.part2 .title{
+	position: absolute;
+	top: -.32rem;
+	left: 0;
+	width: 100%;
+}
+.part2 .con{
+	padding: 0 .24rem;
+	padding-top: 1.2rem;
+}
+.part2 .con .p1{
+	font-size: .48rem;
+}
+.part2 .con .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+.part2 .con ul{
+	margin-top: 81.5%;
+}
+.part2 .con ul li{
+	float: left;
+	width: 33.3%;
+	font-size: .26rem;
+	line-height: .36rem;
+}
+
+.part3 {
+	height: 13.6rem;
+}
+.part3 .title{
+	margin-top: -.36rem;
+}
+.part3 .con{
+	padding: 0 .24rem;
+	margin-top: .28rem;
+}
+.part3 .con .p1{
+	font-size: .48rem;
+}
+.part3 .con .p2{
+	font-size: .24rem;
+    line-height: .34rem;
+}
+.part3 .con ul{
+	margin-top: 10%;
+	position: relative;
+	width: 80%;
+	margin: 10% auto 0;
+	height: 9.8rem;
+}
+.part3 .con ul li{
+	width: 46%;
+	font-size: .26rem;
+	line-height: .4rem;
+	position: absolute;
+}
+.part3 .con ul li:nth-child(1){
+	right: -.2rem;
+	top: 9%;
+}
+.part3 .con ul li:nth-child(2){
+	left: 0;
+	top: 43%;
+}
+.part3 .con ul li:nth-child(3){
+    right: -.2rem;
+    top: 75.5%;
+
+}
+
+.part4{
+    height: 12rem;
+    padding-top: .56rem;
+    box-sizing: border-box;
+}
+.part4 .con p{
+	font-size: .26rem;
+	line-height: .4rem;
+	text-indent: .32rem;
+	margin-top: 32%;
+}
+
+
+@media (max-width: 350px) {
+	.part1 .con .p2 {
+		font-size: .24rem;
+		transform: scale(.92);
+		-webkit-transform: scale(.92);
+		-o-transform: scale(.92);
+		-moz-transform: scale(.92);
+		-ms-transform: scale(.92);
+		width: 108%;
+		margin-left: -4%;
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+

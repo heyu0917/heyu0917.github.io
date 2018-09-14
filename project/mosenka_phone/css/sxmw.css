@@ -1,0 +1,40 @@
+.er-nav .er-left .imgbox img{
+	width: .5rem;
+	height: .5rem;
+	margin-top: .11rem;
+}
+
+.sxmw .main-con{
+	padding: 0 .35rem;
+	margin-top: .4rem;
+}
+.sxmw .main-con ul li{
+	width: 48%;
+	float: left;
+	margin-bottom: .24rem;
+	position: relative;
+}
+.sxmw .main-con ul li:nth-child(even){
+	float: right;
+}
+.sxmw .main-con ul li img{
+	width: 100%;
+	height: 2.2rem;
+	display: block;
+	border-radius: .2rem;
+	overflow: hidden;
+}
+.sxmw .main-con ul li p{
+	width: 2rem;
+	text-align: center;
+	height: .48rem;
+	line-height: .48rem;
+	color: #851A2C;
+	background: #c6a880;
+	border-radius: 1rem;
+	margin: 0 auto -.24rem auto;
+}
+
+
+
+

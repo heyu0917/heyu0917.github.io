@@ -1,0 +1,230 @@
+/*hh1--合作条件*/
+.hh1 .title{
+	text-align: center;
+}
+.hh1 .title .p1{
+	font-size: 34px;
+	color:#1c938f;
+}
+.hh1 .title .p2{
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.hh1 .part{
+	width: 640px;
+	margin:0 auto;
+	position:relative;
+	margin-top: 50px;
+}
+.hh1 .part img{
+	width: 100%;
+}
+.hh1 .part .part-div{
+	width: 488px;
+	height: 130px;
+	position:absolute;
+} 
+.hh1 .part .div1{
+	top:0;
+	right: 0;
+	color:#fff;
+}
+.hh1 .part .part-fonts{
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	position:absolute;
+	width: 100%;
+	top: 50%;
+	
+	right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+.hh1 .part .div2{
+	top:132px;
+	left:0;
+	color:#fff;
+}
+.hh1 .part .div3{
+	top:263px;
+	right:0;
+	color:#352f2d;
+}
+.hh1 .part .div4{
+	top:393px;
+	left:0;
+	color:#2d5c40;
+}
+.hh1 .part .div5{
+	top:525px;
+	right:0;
+	color:#2d5c40;
+}
+
+
+/*hh2--合作扶持*/
+.hh2 .title{
+	text-align: center;
+}
+.hh2 .title .p1{
+	font-size: 34px;
+	color:#1c938f;
+}
+.hh2 .title .p2{
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.hh2 .part{
+	text-align: center;
+}
+.hh2 .part li{
+    width: 290px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.hh2 .part li:nth-child(3n){
+	margin-right: 0;
+}
+.hh2 .part .li-top{
+	width: 80px;
+	height: 80px;
+	margin:0 auto;
+	position: relative;
+	z-index: 2;
+}
+.hh2 .part .li-top img{
+	width: 100%;
+}
+.hh2 .part .li-b{
+	width: 100%;
+	height: 190px;
+	border:1px solid #1c938f;
+	box-sizing: border-box;
+	margin-top: -40px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+.hh2 .part .li-b .p1{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #1c938f;
+	border-radius: 30px;
+	text-align: center;
+	margin:0 auto;
+	font-size: 18px;
+	color:#fff;
+}
+.hh2 .part .li-b .p2{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+.hh2 .part .li-7{
+	margin-left:145px;
+	margin-right: 50px;
+}
+
+
+
+/*hh3--成功案例*/
+.hh3 .title .p1{
+	font-size: 34px;
+	text-align: center;
+	color:#14a7a3;
+}
+.hh3 .title .p2{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+.hh3 .box{
+	background-color: #76c5c4;
+	width: 830px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.hh3 .bigSmall .large_box{
+	width: 803px;
+	margin: 0 auto 16px auto;
+	overflow: hidden;
+	height: 350px;
+	border:10px solid #78c7c4;
+	box-sizing: border-box;
+}
+.hh3 .bigSmall .large_box ul{
+	position: relative;
+}
+.hh3 .bigSmall .large_box ul li{
+	position: relative;
+	width: 803px;
+	height: 350px; 
+}
+.hh3 .bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.hh3 .bigSmall .small_box{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.hh3 .bigSmall .small_box .small_list{
+	width: 746px;
+	height: 150px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.hh3 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.hh3 .bigSmall .small_box .small_list ul li{
+	width: 235px;
+	height: 140px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin-right:20px;
+	overflow: hidden;
+	border: 4px solid transparent;
+	box-sizing: border-box;
+	z-index:3;
+}
+.hh3 .bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.hh3 .bigSmall .small_box ul li.on{
+	border: 4px solid #00fffa;
+}
+.hh3 .arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	z-index: 2;
+    height: 60px;
+    width: 22px;
+	cursor: pointer;
+}
+.hh3 .arrow-left{
+	left: 10px;
+}
+.hh3 .arrow-right{
+	right:10px;
+} 
+.hh3 .arrow img{
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 100%;
+}

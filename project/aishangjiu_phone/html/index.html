@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/index.css" type="text/css"/>	
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<img src="../img/head.jpg" alt="" class="img0"/>
+				<div class="menu-img"></div>				
+			</div>
+		</div>
+		<div class="menu">
+			<img src="../img/nav.png" alt="" class="img1"/>
+			<div class="box">
+				<a href="one.html"><strong>品牌</strong><span>·</span>爱尚灸</a>
+				<a href="two.html"><strong>企业</strong><span>·</span>爱尚灸</a>
+				<a href="three.html"><strong>服务</strong><span>·</span>爱尚灸</a>
+				<a href="four.html"><strong>产品</strong><span>·</span>爱尚灸</a>
+				<a href="five.html"><strong>投资</strong><span>·</span>爱尚灸</a>
+				<a href="six.html"><strong>爱尚</strong><span>·</span>商学院</a>
+				<a href="seven.html"><strong>合作</strong><span>·</span>爱尚灸</a>
+			</div>
+		</div>
+		<div class="index-content">
+			<div class="swiper-container banner-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background: url(../img/index/banner1.jpg) center top no-repeat;"></div>
+					<div class="swiper-slide" style="background: url(../img/index/banner2.jpg) center top no-repeat;"></div>
+					<div class="swiper-slide" style="background: url(../img/index/banner3.jpg) center top no-repeat;"></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<ul>
+				<li><a href="index.html"><span>首页</span></a></li>
+				<li><a href="tel:4xxxxxxx"><span>电话免费咨询</span></a></li>
+				<li><a href="seven.html"><span>在线留言</span></a></li>
+			</ul>
+		</div>
+		
+		
+		<div class="bg"></div>
+						
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/swiper-3.3.1.jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			var bannerSwiper = new Swiper('.banner-swiper',{
+				pagination: '.swiper-pagination',
+				autoplay: false,
+				loop: true,
+				autoplayDisableOnInteraction : false
+			})
+
+		</script>
+	</body>
+</html>

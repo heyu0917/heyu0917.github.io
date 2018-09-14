@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/news.css" type="text/css"/>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header-nav">
+			<ul class="news-nav">                                                
+				<li class="select">全部</li>
+				<li>消费</li>
+				<li>提现</li>
+				<li>通知</li>
+			</ul>
+		</div>
+		<div class="content news-con">
+			<!--全部-->
+			<div class="pay-part1 order-part">
+				<ul class="news-list">
+					<li>                                           
+						<p>您推荐的信使已成功注册，已奖励10.0颗待缴税信使豆，将在该使消费满  500元并成功获得爱心后自动激活，谢谢您的支持！</p>
+						<span class="news-date font_22">2016-10-16 16:05:49</span>
+					</li>
+					<li>                                           
+						<p>您推荐的信使已成功注册，已奖励10.0颗待缴税信使豆，将在该使消费满  500元并成功获得爱心后自动激活，谢谢您的支持！</p>
+						<span class="news-date font_22">2016-10-16 16:05:49</span>
+					</li>
+				</ul>
+			</div>
+			<!--消费-->
+			<div class="pay-part2 order-part">
+			</div>
+			<!--提现-->
+			<div class="pay-part3 order-part">
+			</div>
+			<!--通知-->
+			<div class="pay-part4 order-part">
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer" id="footer">
+			<ul>
+				<li><a href="index.html"><img src="img/home-hui.png"/>首页</a></li>
+				<li><a href="news.html" class="light"><img src="img/xinxi-lan.png"/>信息</a></li>
+				<li><a href="business.html"><img src="img/shangjia-hui.png"/>商家</a></li>
+				<li><a href="my.html"><img src="img/person-hui.png"/>我的</a></li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		$('.news-nav li').tap(function(){
+			$(this).addClass('select').siblings().removeClass('select');
+			
+			var index = $(this).index();
+			if(index == 0){
+				$('.pay-part1').css('display','block');
+				$('.pay-part2,.pay-part3,.pay-part4').css('display','none');
+			}
+			if(index == 1){
+				$('.pay-part2').css('display','block');
+				$('.pay-part1,.pay-part3,.pay-part4').css('display','none');
+			}
+			if(index == 2){
+				$('.pay-part3').css('display','block');
+				$('.pay-part2,.pay-part1,.pay-part4').css('display','none');
+			}
+			if(index == 3){
+				$('.pay-part4').css('display','block');
+				$('.pay-part2,.pay-part3,.pay-part1').css('display','none');
+			}
+		})
+	</script>
+	</body>
+</html>

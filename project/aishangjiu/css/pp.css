@@ -1,0 +1,360 @@
+/*pp1--品牌故事*/
+.pp1 .title{
+	text-align: left;
+	color:#b59177;
+}
+.pp1 .title .p1{
+	text-transform: uppercase;
+	font-size: 18px;
+	
+}
+.pp1 .title .p2{
+	font-size: 34px;
+}
+.pp1 .part{
+	width: 100%;
+	margin-top: -65px;
+}
+.pp1 .part .a1-img{
+	position:relative;
+	margin-left:470px;
+	z-index: -1;
+}
+.pp1 .part .a2-img{
+	width: 100%;
+	margin-top: -200px;
+}
+.pp1 .part .part-fonts{
+	width: 93%;
+	margin:0 auto;
+	font-size: 14px;
+	color:#606060;
+	margin-top: 40px;
+	line-height: 26px;
+}
+.pp1 .part .part-fonts p{
+	text-indent: 2em;
+}
+.pp1 .part .part-fonts .p1{
+	margin-top: 20px;
+}
+
+
+
+/*pp2--品牌解读*/
+.pp2 .title{
+	font-size: 36px;
+	color:#b59177;
+}
+.pp2 .title .line{
+	width: 60px;
+	height: 12px;
+	background-color: #b59177;
+	margin-top: 40px;
+}
+.pp2 .part{
+	position:relative;
+	margin-top: 20px;
+	width: 100%;
+}
+.pp2 .part .p1,
+.pp2 .part .p2{
+	font-size: 18px;
+	color:#b59177;
+	text-transform: uppercase;
+}
+.pp2 .part .p2{
+	font-weight: bold;
+	margin-top: 20px;
+}
+.pp2 .part .part-l{
+	width: 350px;
+}
+.pp2 .part .p3{
+	font-size: 14px;
+	color:#606060;
+	width: 400px;
+	margin-top: 120px;
+	line-height: 24px;
+}
+.pp2 .part .img1{
+    position: absolute;
+    width: 403px;
+    top: -87px;
+    right: 30px;
+}
+.pp2 .part .img1 img,
+.pp2 .part .img2 img,
+.pp2 .part .img3 img{
+	width: 100%;
+}
+.pp2 .part .img1 .img1-fonts{
+    font-size: 30px;
+    color: #b59177;
+    position: absolute;
+    top: 38px;
+    right: 36px;
+}
+.pp2 .part .img2{
+    position: absolute;
+    width: 86px;
+    top: -120px;
+    right: 10px;
+}
+.pp2 .part .img3{
+    position: absolute;
+    width: 240px;
+    top: -45px;
+    right: 410px;
+}
+
+
+/*品牌视频*/
+.pp3 .con{
+	position: relative;
+	margin-top: 50px;
+}
+.pp3 .con .img1{
+    width: 120%;
+    display: block;
+    margin-left: -14%;
+    position: relative;
+    z-index: -1;
+}
+.pp3 .vedio-box{
+    width: 830px;
+    height: 400px;
+    background: #364124;
+    position: absolute;
+    left: -12px;
+    top: 100px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+.pp3 .vedio-img{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 45px;
+	z-index: 0;
+}
+.pp3 .vedio-box video,
+.pp3 .vedio-box embed{
+	width: 100%!important;
+	height: 100%!important;	
+}
+.pp3 .vedio-box .play{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 70px!important;
+	height: 70px!important;
+	display: block;
+	margin-top: -35px;
+	margin-left: -35px;
+	cursor: pointer;
+	z-index: 12;
+}
+
+/*品牌新闻*/
+.pp4 .list1{
+	margin-bottom: 50px;
+}
+.pp4 .list1 li{
+	margin-bottom: 25px;
+	border: 2px solid #999;
+	clear: both;
+	overflow: hidden;
+}
+.pp4 .list1 li a{
+	display: block;
+	height: 100%;
+}
+.pp4 .list1 li .fl-lt{
+	width: 250px;
+	height: 190px;
+}
+.pp4 .list1 li .fl-rt{
+	width: 550px;
+	padding-right: 30px;
+}
+.pp4 .list1 li .fl-rt .p1{
+	font-size: 26px;
+	color: #b59177;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.pp4 .list1 li .fl-rt .p2{
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+}
+.pp4 .list1 li .fl-rt .p3{
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+	margin-top: 20px;
+}
+
+/*新闻详情*/
+.detail .part1{
+	text-align: center;
+}
+.detail .part1 h3{
+	font-size: 24px;
+	font-weight: normal;
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .part1 .box{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.detail .part1 .box span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 8px;
+}
+.detail .part1 .box .s-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+.detail .part2{
+	margin-top: 30px;
+	font-size: 0;
+}
+.detail .part2 p{
+	font-size: 14px;
+	text-indent: 28px;
+	margin-bottom: 12px;
+	line-height: 24px;
+}
+.detail .part2 img{
+	display: block;
+	max-width: 100%;
+	margin: 20px auto;
+}
+
+/*品牌形象*/
+.pp5 .title{
+	text-align: center;
+	color: #b59177;
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+}
+.pp5 .title:before,
+.pp5 .title:after{
+	content: '';
+	width: 80px;
+	height: 85px;
+	border-bottom: 2px solid #B59B77;
+	position: absolute;
+	top: 10px;
+}
+.pp5 .title:before{
+	left: 0;
+	border-left: 2px solid #B59B77;
+}
+.pp5 .title:after{
+	right: 0;
+	border-right: 2px solid #B59B77;
+}
+.pp5 .title .p1{
+	text-transform: uppercase;
+	font-size: 18px;
+	position: relative;
+}
+.pp5 .title .p1:before,
+.pp5 .title .p1:after{
+	content: '';
+	width: 40px;
+	height: 2px;
+	background: #B59B77;
+	position: absolute;
+	top: 8px;
+}
+.pp5 .title .p1:before{
+	left: 0;
+}
+.pp5 .title .p1:after{
+	right: 0;
+}
+.pp5 .title .p2{
+	font-size: 32px;
+	margin-top: 5px;
+	line-height: 1.4;
+}
+
+.pp5 .bigSmall{
+	margin-top: 40px;
+}
+.pp5 .bigSmall .large_box{
+	width: 870px;
+	height: 473px;
+	margin: 0 auto 30px auto;
+	overflow: hidden;
+}
+.pp5 .bigSmall .large_box ul{
+	position: relative;
+}
+.pp5 .bigSmall .large_box ul li{
+	position: relative;
+	width: 870px;
+	height: 473px;
+}
+.pp5 .bigSmall .small_box{
+	width: 870px;
+	margin: 0 auto;
+	position: relative;
+}
+.pp5 .bigSmall .small_box .small_list{
+	width: 740px;
+	height: 188px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pp5 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.pp5 .bigSmall .small_box .small_list ul li{
+	width: 350px;
+	height: 188px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 10px;
+	overflow: hidden;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.pp5 .bigSmall .small_box ul li.on{
+	border: 2px solid #e7ccab;
+}
+.pp5 .bigSmall ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pp5 .arrow{
+	position: absolute;
+	top: 0;
+	height: 188px;
+	width: 65px;
+	cursor: pointer;
+	padding-top: 51px;
+	box-sizing: border-box;
+}
+.pp5 .arrow-left{
+	left: 0;
+}
+.pp5 .arrow-right{
+	right: 0;
+	text-align: right;
+} 
+
+
+

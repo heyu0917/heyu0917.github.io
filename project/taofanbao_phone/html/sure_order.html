@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/sure_order.css" type="text/css"/>
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	       
+	    	$(function(){
+	    		
+		    	var config = window.location.search;
+				if(config == "?flag=shoppingCar"){
+		        	var img_html = '<div id="prev_page_back"><img src="img/arrowL.png" alt="" class="arrowL-img"/></div>';
+				}else{
+					var img_html = '<a href="javascript:;" onclick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>';
+				}
+				$("#header_back p").html(img_html);
+		   		
+		    	$('#prev_page_back').tap(function(){
+					location.href="shoppingCar.html";
+
+				})
+	    	})
+	   </script>
+	</head>
+	<body>
+		<div id="sure_order">
+			<header id="header_back">
+				<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+			      <img src="../img/back.png" alt="" class="back" />
+			    </a>
+			    <h1>确认订单</h1>
+			</header>
+
+			<!--content-->
+			<div class="content">
+				<div class="address-wrap">
+					<a href="address.html">
+						<!--地址为空时-->
+						<div class="address-empty"><span class="fl-lt">您还没有收货地址，点击这里创建</span><img src="../img/arrow_r2.png" class="fl-rt"></div>
+
+						<img src="../img/addressIcon.png" alt="" class="addressIcon fl-lt"/>
+						<div class="address-middle fl-lt">
+							<div class="address-nn">
+								<span class="address-name fl-lt">芦苇微微</span>
+								<span class="address-number fl-lt">15212345678</span>
+								<span class="defalut font_22 fl-lt">默认</span>
+							</div>
+							<p class="address-text">湖北武汉市洪山区城区石牌岭路红岭花园（东区）5栋1单 元901室</p>
+						</div>
+						<img src="../img/arrow_r2.png" alt="" class="address-arrowR fl-rt"/>
+						<img src="../img/line.png" alt="" class="address-line"/>
+					</a>
+				</div>
+				<div class="order-info clearfix">
+					<a href="detail.html" class="shop-con-link">
+						<img src="../img/detail1.jpg" alt="" class="shop-img fl-lt">
+						<div class="shop-con-right fl-lt">
+							<p class="p1 two-ellipsis">黑色棉质训练服运动服</p>
+							<p class="p3">规格:<span class="size">黑色，1件</span></p>
+							<div class="price"><img src="../img/ji.png"><span id="prices0">300</span></div>
+						</div>
+						<div class="order-number">x<i id="num1">1</i></div>
+					</a>
+					<div class="collected-number clearfix">
+						<span class="fl-lt">购买数量</span>
+						<div class="num-frame fl-rt">
+							<i class="num-frame-minus" id="reduce">-</i>
+							<span class="num-frame-num">1</span>
+							<i class="num-frame-plus" id="add">+</i>
+						</div>
+					</div>
+					<div class="collected-result">
+						<span>共<strong>1</strong>件商品</span>
+						<span class="collected-result-right">小计积分：<strong id="prices1">300</strong></span>
+					</div>
+				</div>
+				<div class="order-t">
+					<ul class="order-t-list">
+						<li class="clearfix">
+							<span class="fl-lt">商品金额</span>
+							<span class="fl-rt order-t-num"><img src="../img/ji.png"><span id="prices2">300</span></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--footer-->
+			<div class="order-footer">
+				<span class="fl-lt real-pay">实付积分：<i id="total_price">300</i></span>
+				<a href="order_pay.html"><span class="fl-lt submit-order-btn">提交订单</span></a>
+			</div>
+		</div>
+
+		<div class="bg2" id="bg"></div>
+		<!--delete popup-->
+		<div class="delete-popup" id="delete_popup">
+			<p class="delete-popup-top">您还没有收货地址哦，去创建吧</p>
+			<div class="delete-popup-btn">
+				<span class="fl-lt" id="cancel_btn"><div class="button-light-active">取消</div></span>
+				<span class="fl-lt" id="sure_btn"><div class="button-deep-active">确定</div></span>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../js/sure_order.js"></script>
+	</body>		
+</html>

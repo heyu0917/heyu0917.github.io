@@ -1,0 +1,88 @@
+.er-nav .er-left .imgbox img{
+	width: .5rem;
+	height: .4rem;
+	margin-top: .16rem;
+}
+.main-title{
+	width: 100%;
+	margin-top: .3rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.main-title span{
+	color: #c5aa60;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	display: block;
+	width: 133.33%;
+	margin-left: -16.666%;
+}
+.main-title h2{
+	color: #301605;
+	font-size: .28rem;
+	font-weight: normal;
+}
+
+
+/*市场数据*/
+.scsj{
+	padding: 0 .35rem;
+}
+.scsj .main-con{
+	margin-bottom: .3rem;
+}
+.scsj .main-con img{
+	width: 100%;
+	display: block;
+}
+.scsj .main-title{
+	margin-bottom: -.08rem;
+}
+
+/*市场现状*/
+.scxz{
+	padding: 0 .35rem;
+}
+.scxz .main-con{
+	margin-bottom: .3rem;
+}
+.scxz .main-con .main-title{
+	margin-top: .3rem;
+}
+.scxz .img-box img{
+	width: 49%;
+	float: left;
+	height: 1.8rem;
+}
+.scxz .img-box img:nth-child(2){
+	float: right;
+}
+
+/*市场机会*/
+.scjh{
+	padding: 0 .35rem;
+}
+.scjh .main-con{
+	margin-top: .1rem;
+}
+.scjh .main-title{
+	text-align: center;
+}
+.scjh .main-con img{
+	width: 100%;
+	display: block;
+	margin-top: .24rem;
+}
+.scjh .main-con p{
+	line-height: .42rem;
+}
+
+
+
+
+
+

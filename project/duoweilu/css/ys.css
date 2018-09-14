@@ -1,0 +1,332 @@
+/*市场优势*/
+.yssc .title{
+	text-align: center;
+	color: #B4A379;
+}
+.yssc .title .p1{
+	text-transform: uppercase;
+	font-size: .5rem;
+	opacity: .3;		
+}
+.yssc .title .p2{	
+	font-size: .5rem;
+	font-family: 宋体;
+	font-weight: bold;
+	margin: 6px auto;
+}
+.yssc .title .p2 span{
+	display: inline-block;
+	font-size: .36rem;
+	color: #fff;
+	padding: 0 5px;
+	margin-right: 5px;
+	background: #B4A379;
+	border-radius: 3px;
+	line-height: .5rem;
+}
+.yssc .title .p3{
+	font-size: .36rem;
+}
+.yssc .title .p4{
+	font-size: 14px;
+	color: #856146;
+	line-height: 26px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.yssc .img1{
+	display: block;
+	margin: 0 auto 30px;
+}
+.yssc .item{
+	width: 1100px;
+	margin: 40px auto 0;
+}
+.yssc .item .fl-lt{
+	width: 450px;
+}
+.yssc .item .p1{
+	font-size: .36rem;
+	color: #888;
+}
+.yssc .item .p2{
+	font-size: .36rem;
+	color: #B4A379;
+}
+.yssc .item .p3{
+	font-size: 16px;
+	color: #856146;
+	line-height: 30px;
+	margin-top: 12px;
+	margin-bottom: 35px;
+}
+.yssc .item .mtop{
+	margin-top: 40px;
+}
+
+/*渠道优势*/
+.yscd .title{
+	text-align: center;
+	padding: 0 100px;
+	color: #B4A379;
+}
+.yscd .part1 .title .p1{
+	font-size: .5rem;
+	opacity: .3;
+}
+.yscd .part1 .title .p2{
+	font-size: .5rem;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.yscd .part1 .title .p3{
+	font-size: .28rem;
+}
+.yscd .part1 .title .p4{
+	line-height: .26rem;
+	color: #856146;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.yscd .part1 ul li{
+	float: left;
+	width: 348px;
+	margin-right: 78px;
+}
+.yscd .part1 ul li:last-child{
+	margin-right: 0;
+}
+.yscd .part1 ul li img{
+	display: block;
+	width: 100%;
+}
+.yscd .part1 ul li .p1{
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	background: #B4A379;
+}
+.yscd .part1 ul li .p2{
+	border: 1px solid #B4A379;
+	font-size: 14px;
+	color: #333;
+	padding: 5px;
+	line-height: 26px;
+}
+
+/*模式优势*/
+.ysms .p1{
+	font-size: .5rem;
+	color: #B4A379;
+	text-align: center;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.ysms .box{
+	color: #856146;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 120px;
+	margin-bottom: 100px;
+}
+.ysms .box img{
+	width: 1014px;
+	margin: 0 auto;
+	display: block;
+}
+.ysms .box p{
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 8px;
+}
+.ysms .box span{
+	font-size: .36rem;
+	display: block;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.ysms .box .span1{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 384px;
+}
+.ysms .box .p2{
+	width: 380px;
+	position: absolute;
+	left: 0;
+	top: 575px;	
+}
+.ysms .box .p3{
+	width: 380px;
+	position: absolute;
+	right: 0;
+	top: 575px;	
+}
+.ysms .box .bottom{
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	bottom: 0;	
+	
+}
+
+/*盈利优势*/
+.ysyl .box{
+	position: relative;
+	width: 926px;
+	margin: 0 auto;
+	text-align: center;
+}
+.ysyl .box span{
+	color: #fff;
+	font-size: 28px;
+	line-height: 34px;
+	position: absolute;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.ysyl .box p{
+	color: #856146;
+	font-size: 14px;
+	line-height: 24px;
+	position: absolute;
+}
+.ysyl .box .span1{
+    width: 100%;
+    left: 29px;
+    top: 246px;
+}
+.ysyl .box .span2{
+    left: -5px;
+    width: 50%;
+    bottom: 100px;
+}
+.ysyl .box .span3{
+    right: -62px;
+    width: 50%;
+    bottom: 100px;
+}
+.ysyl .box .p1{
+    left: 32px;
+    width: 240px;
+    top: 285px;
+}
+.ysyl .box .p2{
+    right: 0px;
+    width: 235px;
+    top: 285px;
+}
+.ysyl .img-box{
+	width: 1440px;
+	margin: 30px auto 0;
+}
+.ysyl .item{
+	width: 1110px;
+	margin: 0 auto;
+	text-align: center;
+}
+.ysyl .item .p3{
+	background: #B4A379;
+	color: #fff;
+	border-radius: 4px;
+	width: 3.9rem;
+	height: .5rem;
+	line-height: .5rem;
+	font-size: .36rem;
+	margin: -.25rem auto 0;	
+	font-family: 宋体;
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+}
+.ysyl .item .p4{
+	font-size: .28rem;
+	color: #B4A37A;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+.ysyl .item ul{
+	margin-top: 5px;
+}
+.ysyl .item ul li{
+    width: 180px;
+    margin-right: 50px;
+    text-align: center;
+    float: left;
+    color: #856146;
+}
+.ysyl .item ul li:last-child{
+	margin-right: 0;
+}
+.ysyl .item ul li .p1{
+	font-size: 20px;
+}
+.ysyl .item ul li .p2{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 6px;
+}
+
+
+/*运营优势*/
+.ysyy .title{
+	text-align: center;
+	color: #B4A379;
+}
+.ysyy .part1 .title .p1{
+	font-size: .5rem;
+	opacity: .3;
+	text-transform: uppercase;
+}
+.ysyy .part1 .title .p2{
+	font-size: .36rem;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.ysyy .part1 .title .p2 span{
+	font-size: .5rem;
+}
+.ysyy .part1 .title .p3{
+	font-size: .28rem;
+}
+.ysyy .part1 .title .p4{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.ysyy .part1 ul li{
+	float: left;
+	width: 350px;
+	margin-right: 75px;
+	text-align: center;
+	color: #856146;
+}
+.ysyy .part1 ul li:last-child{
+	margin-right: 0;
+}
+.ysyy .part1 ul li .p1{
+	font-size: 20px;
+	margin-top: 8px;
+}
+.ysyy .part1 ul li .p2{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+
+@media (max-width: 1460px) {
+	.ysyl .img-box{
+		width: 1200px;
+	}	
+}
+
+
+

@@ -1,0 +1,242 @@
+/*qy1--企业简介*/
+.qy1 .title{
+	color:#b49077;
+	text-align: center;
+}
+.qy1 .title .p1{
+	font-size: 34px;
+	line-height: 42px;
+}
+.qy1 .title .p2{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.qy1 .part{
+	width: 100%;
+	margin-top: 30px;
+}
+.qy1 .part img{
+	width: 100%;
+	border-top:20px solid #b49077;
+}
+.qy1 .part p{
+	font-size: 14px;
+	color:#606060;
+	margin-top: 30px;
+	line-height: 28px;
+}
+
+
+/*qy2--实力团队*/
+.qy2 .title{
+	color:#b49077;
+	text-align: center;
+}
+.qy2 .title .p1{
+	font-size: 34px;
+	line-height: 42px;
+}
+.qy2 .title .p2{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.qy2 .part1{
+	width: 100%;
+	margin-top: 30px;
+}
+.qy2 .part1 li{
+	width: 208px;
+	text-align: center;
+	float: left;
+	margin-right: 12px;
+	border: 2px solid #b49077;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+.qy2 .part1 li:nth-child(4n){
+	margin-right: 0;
+}
+.qy2 .part1 li .li-top{
+	margin-top: 10px;
+}
+.qy2 .part1 li .li-top p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size:24px;
+	color:#343e23;
+}
+.qy2 .part1 li .li-top p.line{
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+}
+.qy2 .part1 li .li-b{
+	color:#606060;
+	font-size: 16px;
+	margin-top: 2px;
+}
+
+
+/*.qy3--企业文化*/
+.qy3 .title .fl-lt{
+	width: 60%;
+	text-align: right;
+}
+
+.qy3 .title .fl-lt  p{
+	display: inline-block;
+	font-size: 86px;
+	color:#b49077;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.qy3 .title .fl-lt .p1 .line{
+	display: inline-block;
+	width: 18px;
+    height: 74px;
+	background-color: #b49077;
+	vertical-align: middle;
+}
+.qy3 .title .fl-lt .p2{
+	font-size: 48px;
+	color:#b49077;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+.qy3 .title .fl-rt{
+	width: 36%;
+	margin-top: 25px;
+}
+.qy3 .title .fl-rt p{
+	font-size: 34px;
+	color:#b49077;
+}
+.qy3 .part1{
+	border:1px dashed #b49077;
+	width: 100%;
+	height: 720px;
+	margin-top: 50px;
+	position:relative;
+	padding-top: 40px;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+.qy3 .part1 ul{
+	width: 585px;
+	font-size: 14px;
+	line-height: 28px;
+}
+.qy3 .part1 ul li .fl-lt{
+	width: 75px;
+	text-align: right;
+}
+.qy3 .part1 ul li .fl-rt{
+	width: 510px;
+	text-align: left;
+	color:#b49077;
+}
+.qy3 .part1 ul li.last-li{
+    position: relative;
+    left: -14px;
+}
+.qy3 .part1 .r-img{
+	position:absolute;
+    top: 43px;
+    right: 36px;
+	width: 170px;
+}
+.qy3 .part1 .part-img img,
+.qy3 .part1 .r-img img{
+	width: 100%;
+}
+.qy3 .part1 .part-img{
+	width: 96%;
+	margin-top: 30px;
+}
+
+
+
+/*qy4--企业荣誉*/
+.qy4 .part .part-img{
+	width: 45%;
+	display: inline-block;
+	margin: 10px;
+}
+.qy4 .part .part-img img{
+	width: 100%;
+}
+
+
+/*.qy5 -- 星耀榜*/
+.qy5 .title{
+	text-align: center;
+	 font-size: 0;
+}
+.qy5 .title span{
+	font-size: 34px;
+	color:#b49077;
+}
+.qy5 .title .line{
+	display: inline-block;
+	width: 60px;
+	height: 8px;
+	background-color: #b49077;
+	margin-left: 15px;
+}
+.qy5 .title .title-img{
+	position:relative;
+	top: 35px;
+    left: -5px;
+}
+.qy5 .title .title-b{
+    position: relative;
+    left: 45px;
+    z-index: -1;
+}
+.qy5 .title .title-b .p2{
+	font-size: 70px;
+	color:#b49077;
+	display: inline-block;
+	font-weight: bold;
+}
+.qy5 .title .title-b .p3{
+	font-size: 34px;
+	display: inline-block;
+	color:#b49077;
+	margin-left: 15px;
+	line-height: 36px;
+}
+.qy5 .part{
+	width: 100%;
+	border:1px solid #b49077;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.qy5 .part img{
+	width: 100%;
+}
+.qy5 .part ul{
+	margin-top: 30px;
+}
+.qy5 .part ul li{
+	font-size: 22px;
+	color:#606060;
+	margin-left: 40px;
+	margin-top: 12px;
+}
+.qy5 .part ul li input{
+	width: 500px;
+    border-bottom: 1px solid #606060;
+    display: inline-block;
+    font-size: 20px;
+}
+.qy5 .part .part-img2{
+	width: 32%;
+	display: inline-block;
+	margin-right: 8px;
+	margin-top: 40px;
+}

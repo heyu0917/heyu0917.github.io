@@ -1,0 +1,246 @@
+/*xy1--学院介绍*/
+.xy1 .title{
+	text-align: center;
+	margin-top: .12rem;
+}
+.xy1 .title .p1{
+	font-size: 0.42rem;
+}
+.xy1 .title .p2{
+	font-size: .22rem;
+	margin-top: .08rem;
+}
+.xy1 .part .xy1-img{
+	width: 100%;
+	margin-top: .35rem;
+}
+.xy1 .part .xy1-img img{
+	width: 100%;
+}
+.xy1 .part p{
+	color:#fff;
+	line-height: 0.42rem;
+	margin-top: .12rem;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+
+
+/*xy2 -- 学员风采*/
+.xy2 .item ul li{
+	list-style: none;
+}
+.xy2 .slide-3d .item-list li{
+	width: 4.22rem;
+	height: 2.3rem;
+	transition: all 0.5s ease-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left:50%;
+	margin-left: -2.11rem;
+}
+.xy2 .slide-3d .item-list li.item0 {
+  transform: translate3d(-0.04rem, 0, 0) scale(0.8);
+}
+.xy2 .slide-3d .item-list li.item1 {
+  transform: translate3d(-0.5rem, 0, 0) scale(0.8);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.xy2 .slide-3d .item-list li.item2 {
+  transform: translate3d(0.04rem, 0, 0) scale(1);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 3;
+}
+.xy2 .slide-3d .item-list li.item3 {
+  transform: translate3d(0.5rem, 0, 0) scale(0.8);
+  transform-origin: 100% 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.xy2 .slide-3d .item-list li img{
+	display: block;
+	width: 100%;
+}
+.xy2 .slide-carousel {
+  height:3.5rem;
+  position: relative;
+}
+.xy2 .slide-carousel .controls .arrow{
+	width: .4rem;
+	height: .65rem;
+	position:absolute;
+	top: .8rem;
+}
+.xy2 .slide-carousel .controls .arrow img{
+	width: 100%;
+	height: 100%;
+}
+.xy2 .slide-carousel .controls .item-prev{
+	left: .3rem;
+}
+.xy2 .slide-carousel .controls .item-next{
+	right: .3rem;
+}
+
+
+/*.xy3--觉醒课堂*/
+.xy3{
+	padding-top: .56rem;
+	padding-bottom: .68rem;
+}
+.xy3 .title3{
+	width: 100%;
+	height: .5rem;
+	background-color:rgba(255,255,255,0.3);
+}
+.xy3 .title3 .fl-lt,
+.xy3 .title3 .fl-rt{
+	height: .5rem;
+	line-height: .5rem;
+}
+.xy3 .title3 .fl-lt{
+	font-size: .28rem;
+	margin-left: .2rem;
+}
+.xy3 .title3 .fl-rt{
+	font-size: .21rem;
+	margin-right: .2rem;
+}
+.xy3 .list1{
+	margin-top: .24rem;
+	margin-bottom: .32rem;
+}
+.xy3 .list1 li{
+	padding-bottom: .2rem;
+	padding-top: .2rem;
+	border-bottom: 1px solid #e6cc92;
+	overflow: hidden;
+	clear: both;
+}
+.xy3 .list1 li a{
+	display: block;
+	height: 100%;
+	font-size: 0;
+}
+.xy3 .list1 li:last-child{
+	border:none;
+}
+.xy3 .list1 li .img-div{
+	width: 33%;
+	height: 1.48rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 4%;
+}
+.xy3 .list1 li .img-div img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 2px solid #F1D597;
+	box-sizing: border-box;
+}
+.xy3 .list1 li .fonts-div{
+	width: 63%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.xy3 .list1 li .fonts-div .p1{
+	font-size: .26rem;
+	color:#fff;
+}
+.xy3 .list1 li .fonts-div .p2{
+	color:#fff;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	line-height: .38rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-overflow: -o-ellipsis-lastline;
+}
+
+.news .part ul li img{
+	width: 100%;
+}
+
+
+/*新闻详情*/
+.detail .con{
+	margin-top: .12rem;
+	margin-bottom: .4rem;
+}
+.detail .part1{
+	text-align: center;
+}
+.detail .part1 h3{
+	font-size: .3rem;
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .part1 .box{
+	font-size: .24rem;
+	margin-top: .08rem;
+}
+.detail .part1 .box span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 .12rem;
+}
+.detail .part2{
+	margin-top: .2rem;
+	font-size: 0;
+}
+.detail .part2 p{
+	font-size: .24rem;
+	text-indent: .48rem;
+	margin-bottom: .2rem;
+	line-height: .42rem;
+	text-align: justify;
+}
+.detail .part2 img{
+	display: block;
+	max-width: 100%;
+	margin: .2rem auto 0;
+}
+
+.detail .ab-bottom{
+	margin-top: .4rem;
+	z-index: 2;
+}
+.detail .ab-bottom li{
+	width: 47%;
+	margin-bottom: .2rem;
+}
+.detail .ab-bottom li:last-child{
+	text-align: right;
+}
+.detail .ab-bottom a{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: .24rem;
+	display: block;
+	color: #fff;
+}

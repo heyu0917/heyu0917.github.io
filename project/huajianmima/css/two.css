@@ -1,0 +1,349 @@
+/*用 途*/
+.two1 {
+	margin-bottom: -35px;
+}
+.two1 ul li{
+	float: left;
+	width: 255px;
+	height: 294px;
+	margin-right: 26px;
+	margin-bottom: 35px;
+}
+.two1 ul li:nth-child(4n){
+	margin-right: 0;
+}
+.two1 ul li img{
+	display: block;
+	width: 100%;
+	height: 255px;
+}
+.two1 ul li p{
+	border: 1px solid #ae3363;
+	border-top: 0;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #ae3363;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+
+/*花 材*/
+.two2{
+	margin-bottom: -35px;
+}
+.two2 .title{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	z-index: 2;
+}
+.two2 .title .line{
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 100%;
+	z-index: -1;
+	height: 2px;
+	background: #AE3363;
+}
+.two2 .title .box{
+	border: 1px solid #AE3363;
+	width: 250px;
+	text-align: center;
+	font-size: 0;
+	margin: 0 auto;
+}
+.two2 .title .box span{
+	vertical-align: top;
+	display: inline-block;
+	background: #AE3363;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	width: 160px;
+}
+.two2 .title .box  p{
+	vertical-align: top;
+	display: inline-block;
+	font-size: 20px;
+	color: #AE3363;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	width: 90px;
+	background: #fff;
+}
+
+.two2 ul li{
+	float: left;
+	width: 162px;
+	margin-right: 25px;
+	margin-bottom: 35px;
+}
+.two2 ul li:nth-child(6n){
+	margin-right: 0;
+}
+.two2 ul li img{
+	display: block;
+	width: 100%;
+	height: 162px;
+}
+.two2 ul li p{
+	border: 1px solid #ae3363;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #ae3363;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+/*类 别*/
+.two3 {
+	margin-bottom: -35px;
+}
+.two3 .part1{
+	border-bottom: 2px solid #c3668a;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	
+}
+.two3 .part1 .fl-lt{
+	width: 270px;
+	text-transform: uppercase;
+}
+.two3 .part1 .comLine{
+	width: 220px;
+}
+.two3 .part1 .p1{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.two3 .part1 .p2{
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.two3 .part1 .p3{
+	font-size: 23px;
+	margin-top: 3px;
+}
+.two3 .part1 .p4{
+	margin-top: 176px;
+	font-weight: lighter;
+	line-height: 22px;
+}
+.two3 .part1 .fl-rt{
+	width: 790px;
+}
+
+
+.two3 ul li{
+	float: left;
+	width: 349px;
+	height: 299px;
+	margin-right: 26px;
+	margin-bottom: 35px;
+}
+.two3 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.two3 ul li img{
+	display: block;
+	width: 100%;
+	height: 260px;
+}
+.two3 ul li p{
+	border: 1px solid #ae3363;
+	border-top: 0;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #ae3363;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+/*颜 色*/
+.two4{
+	margin-bottom: -35px;
+}
+.two4 .title{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	z-index: 2;
+	margin-top: 40px;
+}
+.two4 .title .line{
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 100%;
+	z-index: -1;
+	height: 2px;
+	background: #AE3363;
+}
+.two4 .title .box{
+	border: 1px solid #AE3363;
+	width: 250px;
+	text-align: center;
+	font-size: 0;
+	margin: 0 auto;
+}
+.two4 .title .box span{
+	vertical-align: top;
+	display: inline-block;
+	background: #AE3363;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	width: 160px;
+}
+.two4 .title .box  p{
+	vertical-align: top;
+	display: inline-block;
+	font-size: 20px;
+	color: #AE3363;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	width: 90px;
+	background: #fff;
+}
+.two4 ul li{
+	float: left;
+	width: 255px;
+	height: 294px;
+	margin-right: 26px;
+	margin-bottom: 35px;
+}
+.two4 ul li:nth-child(4n){
+	margin-right: 0;
+}
+.two4 ul li img{
+	display: block;
+	width: 100%;
+	height: 255px;
+}
+.two4 ul li p{
+	border: 1px solid #ae3363;
+	border-top: 0;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #ae3363;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+
+/*价 格*/
+.two5{
+	margin-bottom: -35px;
+}
+.two5 .title{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	z-index: 2;
+	margin-top: 40px;
+}
+.two5 .title .line{
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 100%;
+	z-index: -1;
+	height: 2px;
+	background: #AE3363;
+}
+.two5 .title .box{
+	border: 1px solid #AE3363;
+	width: 250px;
+	text-align: center;
+	font-size: 0;
+	margin: 0 auto;
+}
+.two5 .title .box span{
+	vertical-align: top;
+	display: inline-block;
+	background: #AE3363;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	width: 160px;
+}
+.two5 .title .box  p{
+	vertical-align: top;
+	display: inline-block;
+	font-size: 20px;
+	color: #AE3363;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	width: 90px;
+	background: #fff;
+}
+.two5 ul li{
+	float: left;
+	width: 349px;
+	height: 299px;
+	margin-right: 26px;
+	margin-bottom: 35px;
+}
+.two5 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.two5 ul li img{
+	display: block;
+	width: 100%;
+	height: 253px;
+}
+.two5 ul li p{
+	border: 1px solid #ae3363;
+	border-top: 0;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #ae3363;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+

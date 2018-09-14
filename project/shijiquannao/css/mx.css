@@ -1,0 +1,55 @@
+.mx1 .title{
+	font-size: 18px;
+	color:#7a272c;
+	border-bottom: 2px solid #7a272c;
+	padding-bottom: 5px;
+	width: 11.7rem;
+    margin: 0 auto;
+}
+.mx1 .title span{
+	font-size: 12px;
+}
+
+.mx1 .part .part-main .picScroll-left{
+	width: 100%;
+	position: relative;
+	margin-top: 0.5rem;
+}
+.mx1 .part .part-main .picScroll-left .bd{
+	width: 11.85rem;
+	margin: 0.1rem auto;
+	overflow: hidden;
+}
+.mx1 .part .part-main .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 2.19rem;
+	height: 1.44rem;
+	margin: 0 0.1rem;
+	cursor: pointer;
+}
+.mx1 .part .part-main .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+}
+
+.mx1 .part .part-main .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	width: 23px;
+	height: 42px;
+	cursor: pointer;
+	margin-top:-21px;
+}
+.mx1 .part .part-main .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.mx1 .part .part-main .picScroll-left .arrow-left{
+	left: 0.4rem;
+}
+.mx1 .part .part-main .picScroll-left .arrow-right{
+	right: 0.4rem;
+}

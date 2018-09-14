@@ -1,0 +1,139 @@
+html,body{
+	background: #fff;
+}
+
+.content{
+	bottom: 0;
+	padding-bottom: .24rem;
+}
+
+/*integral*/
+.integral .part1{
+	width: 100%;
+	background: #fccc18;
+}
+.integral .part1 .part1-top{
+	text-align: center;
+	padding-top: .64rem;
+}
+.integral .part1 .part1-top img{
+	width: .3rem;
+	height: .3rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .08rem;
+}
+.integral .part1 .part1-top span{
+	display: inline-block;
+	vertical-align: middle;
+	color: #ff3232;
+	font-size: .3rem;
+}
+.integral .part1 h1{
+	font-size: 1.2rem;
+	font-weight: normal;
+	text-align: center;
+	margin-top: .52rem;
+	padding-bottom: .64rem;
+}
+
+.integral .part2 ul li{
+	border-bottom: 1px solid #d7d7d7;
+	width: 100%;
+	height: .88rem;
+	line-height: .88rem;
+	padding: 0 .24rem;
+	box-sizing: border-box;
+	clear: both;
+}
+.integral .part2 ul li a{
+	display: block;
+	height: 100%;
+}
+.integral .part2 ul li .fl-lt img{
+	width: .4rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .16rem;
+}
+.integral .part2 ul li .fl-lt span{
+	font-size: .3rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.integral .part2 ul li .arrowr-img{
+    width: .18rem;
+    height: .26rem;
+    margin-top: .31rem;
+}
+
+.integral .part3{
+	padding: .24rem;
+	font-size: 0;
+}
+.integral .part3 .part3-top img{
+	width: .38rem;
+	height: .3rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .16rem;
+}
+.integral .part3 .part3-top span{
+	font-size: .3rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.integral .part3 p{
+	font-size: .26rem;
+	color: #999;
+	line-height: .4rem;
+	padding-left: .54rem;
+	margin-top: .08rem;
+}
+
+
+/*积分明细*/
+/*积分明细空页面*/
+.empty-box img{
+    width: 1.4rem;
+    height: 1.2rem;
+}
+.integralDetail ul li{
+	border-bottom: 1px solid #d7d7d7;
+	padding: .24rem;
+	clear: both;
+	overflow: hidden;
+}
+.integralDetail ul li .li-left{
+	width: .8rem;
+	height: .8rem;
+	line-height: .8rem;
+	border-radius: 50%;
+	background: #fccc18;
+	font-size: .4rem;
+	text-align: center;
+	margin-right: .16rem;
+	margin-top: .24rem;
+}
+.integralDetail ul li .li-middle{
+	width: 5.3rem;
+}
+.integralDetail ul li .li-middle h2{
+	font-weight: normal;
+	font-size: .28rem;
+}
+.integralDetail ul li .li-middle p{
+	font-size: .24rem;
+	color: #999;
+	margin-top: .12rem;
+}
+.integralDetail ul li .li-right{
+	font-size: .3rem;
+	margin-top: .42rem;
+}
+.integralDetail ul li .li-right.active{
+	color: #ff3232;
+}
+
+
+

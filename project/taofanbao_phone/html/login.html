@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/login.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+
+		<div class="login-wrap">
+			<div class="part1">
+				<img src="../img/logo.png">
+				<h1>淘犯宝</h1>
+			</div>
+			<div class="part2">
+				<div class="part2-item part2-phone">
+					<img src="../img/login_num.png" class="fl-lt">
+					<input type="text" name="" placeholder="请输入手机号" class="fl-rt">
+				</div>
+				<div class="part2-item part2-password">
+					<img src="../img/login_pass.png" class="fl-lt">
+					<input type="password" name="" placeholder="请输入密码" class="fl-rt">
+				</div>
+			</div>
+
+			<div class="part3">
+				<!--<div class="big-button" id="login_btn">登录</div>-->
+				<a class="big-button" id="login_btn" href="index.html">登录</a>
+				<div class="register-reset">
+					<a href="register.html" class="fl-lt">免费注册</a>
+					<a href="reset.html?flag1" class="fl-rt">忘记密码</a>
+				</div>
+			</div>
+		</div>
+
+		<!--提示-->
+		<div class="prompt"></div>
+
+		<script type="text/javascript" src="../js/login.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,375 @@
+/*品牌故事*/
+.ppgs .part1{
+	height: 100%;
+}
+.ppgs .img1{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+.ppgs .con{
+    padding-top: 3%;
+    width: 25%;
+    margin-left: 6%;
+}
+.ppgs .con .img2{
+	width: 3.48rem;
+	display: block;
+	margin: 0 auto;
+}
+.ppgs .con .line{
+	width: .6rem;
+	height: .06rem;
+	background: #e8c12a;
+	margin: .2rem auto 7%;
+}
+.ppgs .con .p1{
+	font-size: 14px;
+	line-height: .34rem;
+    padding-left: 8%;
+}
+.ppgs .img3{
+	position: absolute;
+	bottom: 1%;
+	left: 21%;
+	width: 1.45rem;
+	z-index: -1;
+}
+
+/*品牌解读*/
+.ppjd .part1{
+	height: 100%;
+}
+.ppjd .img1{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+.ppjd .con{
+    padding-top: 4%;
+    width: 25%;
+    margin-left: 10%;
+}
+.ppjd .con .p1{
+	font-size: .26rem;
+	color: #40210f;
+	margin-top: .1rem;
+	margin-bottom: 5%;
+}
+.ppjd .con .p2{
+	font-size: 14px;
+	line-height: .32rem;
+}
+.ppjd .img2{
+	width: 3.08rem;
+	display: block;
+}
+
+/*品牌视频*/
+.ppsp .part1{
+	height: 100%;
+}
+.ppsp .img1{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+.ppsp .con{
+    padding-top: 5%;
+}
+.ppsp .title{
+	text-align: center;
+	margin-bottom: 4%;
+}
+.ppsp .title p{
+	color: #CA1C1D;
+	font-size: .34rem;
+}
+.ppsp .title .line{
+	width: .4rem;
+	height: .05rem;
+	background: #CA1C1D;
+	margin: .1rem auto 0;
+}
+.ppsp .part{
+	position: relative;
+	width: 100%;
+	height: 4rem;
+}
+.ppsp .pp-bg{
+	width: 100%;
+	height: 3rem;
+	position: absolute;
+	left: 0;
+	top: .7rem;
+	z-index: -1;
+	background: rgba(0,0,0,0.7);
+}
+.ppsp .picScroll-left{
+	width: 7.4rem;
+	position: relative;
+	margin: 0 auto;
+}
+.ppsp .picScroll-left .bd{
+	width: 7rem;
+    overflow: hidden;
+    height: 4rem;
+    margin: 0 auto;
+    border-radius: .2rem;
+    border: .2rem solid #000;
+}
+.ppsp .picScroll-left .bd ul{
+	position: relative;
+}
+.ppsp .picScroll-left .bd ul li{
+	width: 7rem;
+	height: 4rem;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+.ppsp .picScroll-left .bd ul li p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	background: rgba(29, 32, 135,75);
+	width: 100%;
+	text-align: center;
+	height: .36rem;
+	line-height: .36rem;
+	color: #fff;
+	font-size: 16px;	
+}
+.ppsp .arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -.4rem;
+	z-index: 2;
+	height: .8rem;
+	width: .8rem;
+	cursor: pointer;
+}
+.ppsp .arrow-left{
+	left: -1.6rem;
+}
+.ppsp .arrow-right{
+	right: -1.6rem;
+} 
+.ppsp .arrow img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ppsp .vedio-box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #000;
+	overflow: hidden;
+}
+.ppsp .vedio-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.ppsp embed,
+.ppsp .vedio-box video{
+	width: 100%!important;
+	height: 100%!important;	
+}
+.ppsp .play{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	margin-top: -.5rem;
+	margin-left: -.5rem;
+	cursor: pointer;
+	z-index: 12;
+}
+
+/*品牌视觉*/
+.ppsj .part1{
+	height: 100%;
+	position: relative;
+}
+.ppsj .ab-img1{
+	width: 2.5rem;
+	position: absolute;
+	left: 1%;
+	bottom: 0;
+	z-index: -1;
+}
+.ppsj .ab-img2{
+	width: 3.7rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.ppsj .ab-img3{
+	width: .82rem;
+	position: absolute;
+	left: 0;
+	top: 3%;
+	z-index: -1;
+}
+.ppsj .con{
+    padding-top: 4%;
+}
+.ppsj .title{
+	text-align: center;
+	margin-bottom: 5%;
+}
+.ppsj .title .p1{	
+	font-size: .34rem;
+	color: rgba(0,0,0,.1);
+	text-transform: uppercase;
+}
+.ppsj .title .p2{
+	color: #40210f;
+	font-size: .34rem;
+	margin-top: -.3rem;
+}
+.ppsj .title .line{
+	width: .4rem;
+	height: .05rem;
+	background: #40210f;
+	margin: .1rem auto 0;
+}
+.ppsj .picScroll-left{
+	width: 14.4rem;
+	position: relative;
+	margin: 0 auto;
+}
+.ppsj .picScroll-left .bd{
+	width: 14.4rem;
+    overflow: hidden;
+    height: 3.8rem;
+    margin: 0 auto;
+}
+.ppsj .picScroll-left .bd ul{
+	position: relative;
+}
+.ppsj .picScroll-left .bd ul li{
+	width: 3.1rem;
+	height: 3.8rem;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 0 .25rem;
+}
+.ppsj .picScroll-left .bd ul li .img2{
+	width: 100%;
+	display: block;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.ppsj .picScroll-left .bd ul li .img3{
+	width: 100%;
+	display: block;
+	height: 100%;
+	padding: .1rem;
+	box-sizing: border-box;
+}
+.ppsj .arrow{
+	position: absolute;
+	top: 100%;
+	margin-top: .4rem;
+	z-index: 2;
+	height: .8rem;
+	width: .8rem;
+	cursor: pointer;
+}
+.ppsj .arrow-left{
+	left: 40%;
+}
+.ppsj .arrow-right{
+	right: 40%;
+} 
+.ppsj .arrow img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 1750px) {
+	.ppgs .img3{
+		display: none;
+	}
+	.ppgs .con{
+		padding-top: 2%;
+	}
+	.ppgs .con .line{
+		margin-bottom: 5%;
+	}
+	.ppgs .con .p1 {
+	    line-height: .31rem;
+	    padding-left: 6%;
+	}
+}
+
+@media (max-width: 1500px) {
+	.ppgs .con{
+		margin-left: 4%;
+		width: 27%;
+	}
+	.ppjd .con {
+	    padding-top: 3%;
+	    width: 28%;
+	    margin-left: 8%;
+	}
+}
+
+@media (max-width: 1380px) {
+	.ppgs .con .p1{
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.ppgs .con .line{
+		margin-top: .12rem;
+		margin-bottom: 4%;
+	}
+	.ppjd .con .p2 {
+	    line-height: 22px;
+	}
+	.ppsj .con {
+	    padding-top: 3%;
+	}
+	.ppsj .title {
+	    margin-bottom: 4%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.ppgs .con .p1 {
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.ppjd .con .p1 {
+	    margin-bottom: 3%;
+	}
+	.ppjd .con .p2 {
+		font-size: 13px;
+	    line-height: 21px;
+	}
+}
+

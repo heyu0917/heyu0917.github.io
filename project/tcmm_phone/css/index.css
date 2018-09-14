@@ -1,0 +1,235 @@
+/*header*/
+.header{
+	background: #172d56;
+	width: 100%;
+	height: .8rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	z-index: 100;
+}
+.header .logo-img{
+	width: 1.92rem;
+	height: .5rem;
+	display: block;
+    margin: .15rem auto 0 auto;
+}
+.header-red-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: .8rem;
+	width: .8rem;
+}
+/*content*/
+.content{
+	width: 100%;
+	position: absolute;
+	top: .8rem;
+	bottom: 0;
+	overflow: auto;
+}
+.banner-img,
+.banner-img img{
+	width: 100%;
+	font-size: 0;
+}
+.nav-list1{
+	overflow: hidden;
+	width: 98%;
+	margin: .08rem auto 0 auto;
+}
+.nav-list1 li{
+	width: 19%;
+	float: left;
+	margin-right: 1.25%;
+	font-size: 0;
+}
+.nav-list1 li:last-child{
+	margin-right: 0;
+}
+.nav-list1 a{
+	display: block;
+	overflow: hidden;
+}
+.nav-list1 a img{
+	width: 100%;
+	display: block;
+}
+.nav-list2{
+	width: 5.7rem;
+	margin: .24rem auto;
+}
+.nav-list2 li{
+	width: 100%;
+	height: .58rem;
+	overflow: hidden;
+	margin-bottom: .16rem;
+}
+.nav-list2 li a{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	font-size: 0;
+}
+.nav-list2 li img{
+	width: 100%;
+}
+.con-big2{
+	width: 100%;
+	height: 3.24rem;
+	display: block;
+}
+/*course-part*/
+.course-part{
+	width: 100%;
+	color: #282828;
+	margin-top: .16rem;
+}
+.course-part h2{
+	font-size: .28rem;
+	color: #172d56;
+	width: 1.6rem;
+	text-align: right;
+	padding-bottom: .08rem;
+	border-bottom: 1px solid #172d56;
+	position: relative;
+}
+.course-part h2 i{
+	position: absolute;
+	right: 0;
+	bottom: -1px;
+	width: .6rem;
+	height: 1px;
+	background: #c30e23;
+	display: block;
+}
+.course-swiper{
+	width: 88%;
+	position: relative;
+	margin: .32rem auto 0 auto;
+}
+.course-swiper .swiper-wrap .swiper-slide{
+	padding: 0 1%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.course-swiper .swiper-wrap .swiper-slide a{
+	display: block;
+}
+.course-swiper .swiper-wrap .swiper-slide img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.arrow_left{
+	left: -6%;
+}
+.arrow_right{
+	right: -6%;
+}
+.arrow_left,
+.arrow_right{
+	position: absolute;
+	width: 6%;
+	height: 100%;
+	top: 0;
+}
+.arrow_left img,
+.arrow_right img{
+	display: block;
+	width: .2rem;
+	height: .4rem;	
+	margin-top: .7rem;
+	margin-left: .08rem;
+}
+
+/*bottom-link*/
+.bottom-link{
+	width: 100%;
+	padding: .24rem 0;
+	border-top: 1px solid #e6e6e6;
+	font-size: 0;
+	margin-top: .24rem;
+	overflow: hidden;
+}
+.bottom-link ul{
+	width: 96%;
+	margin: 0 auto;
+}
+.bottom-link ul li{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+.bottom-link ul li a{
+	display: block;
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.bottom-link ul li img{
+	width: 100%;
+}
+
+/*tiyan*/
+.tiyan-box{
+	width: 100%;
+	background: #c30e23;
+	padding: .4rem 0;
+}
+.tiyan-box h1{
+	font-size: .32rem;
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	width: 64%;
+	padding-bottom: .24rem;
+	position: relative;
+	font-weight: normal;
+	box-sizing: border-box;
+	text-align: right;
+}
+.tiyan-box h1 i{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 30%;
+	height: 1px;
+	background: #fff;
+	display: block;
+}
+.tiyan-box ul{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .5rem;
+}
+.tiyan-box ul li{
+	width: 33.3%;
+	text-align: center;
+	float: left;
+}
+.tiyan-box ul li a{
+	display: block;
+	color: #fff;
+}
+.tiyan-box ul li img{
+	height: .7rem;
+	display: block;
+	margin: 0 auto .32rem auto;
+}
+.tiyan-box ul li h2{
+	font-size: .26rem;
+	margin-bottom: .16rem;
+}
+.tiyan-box ul li p{
+	font-size: .24rem;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		 <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/news.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+		<header class="header-white">
+		    <a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" class="back-img" />
+		    </a>
+		    <h1>系统消息</h1>
+		</header>
+
+		<div class="content content-bordertop">
+			<ul class="amdinNews-list">
+				<li>
+					<i></i>
+					<div class="title clearfix">		
+						<h3 class="fl-lt">标题标题标题</h3>
+						<u class="fl-rt">2016-04-14</u>
+					</div>
+					<p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+					<span class="expand">[展开]</span>
+				</li>
+			</ul>
+
+		</div>
+		
+		<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+	    <!--<script type="text/javascript" src="../js/adminNewsDetail.js"></script>-->
+	    
+	    <script>
+	    	$(function(){
+	    		var e_flag = true;
+	    		var e_h = Math.floor((document.documentElement.clientWidth / 7.5)*.72);
+	    		$('.expand').click(function(){
+	    			if(e_flag){
+	    				$(this).prev().css({"height":"auto"});
+	    				$(this).html("[收缩]");
+	    				
+	    				e_flag = false;
+	    			}else{
+	    				$(this).prev().css({"height":e_h});
+	    				$(this).html("[展开]");
+	    				
+	    				e_flag = true;
+	    			}
+	    			
+	    		})
+	    	})
+	    </script>
+	</body>
+</html>

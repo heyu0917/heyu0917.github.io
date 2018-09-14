@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘犯宝</title>
+	<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/shoppingcar.css" type="text/css"/>	
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+</head>
+	<body>
+
+		<header>
+			<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)">
+		      <img src="../img/back.png" alt="" class="search-img" />
+		    </a>
+		    <h1>购物车</h1>
+		    <div class="right-img-box" id="edit"><span>编辑</span></div>
+		</header>
+
+		<!--content-img-->
+		<div class="empty-box">
+			<img src="../img/car_empty.png">				
+		</div>
+		<!--未登录-->
+		<div class="content-notlogin">
+			<img src="../img/shop1.png" alt="" / class="shop1">
+			<span>您还没有登录，先登录吧</span>
+			<a href="login.html">登录</a>
+		</div>
+		<div class="bg" id="bg"></div>
+		<div class="content content-bordertop">
+			<ul class="shop-list" id="shop_list">
+				<li>
+					<div class="shop-content">
+						<input type="checkbox" class="check-one check"/>
+						<img src="../img/round.png" alt="" class="check-img fl-lt" />
+						<div class="shop-con-link fl-rt">
+							<div class="fl-lt"><img src="../img/shop2.jpg" alt="" class="shop-img"/></div>
+							<div class="shop-con-right fl-lt">
+								<div>
+									<p class="p1">特种兵黑色作训帽保安帽子</p>
+									<span class="price"><img src="../img/ji.png"><input type="text" value="300" readonly/></span>
+								</div>								
+							</div>
+						</div>
+						<div class="price-wrap">
+							<i class="reduce">-</i>
+							<em class="reduce-em"></em>
+							<input type="text" class="shop-num" value="1" readonly />
+							<em class="add-em"></em>
+							<i class="add">+</i>
+							<input type="hidden" value="" readonly/>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="shop-content">
+						<input type="checkbox" class="check-one check"/>
+						<img src="../img/round.png" alt="" class="check-img fl-lt" />
+						<div class="shop-con-link fl-rt">
+							<div class="fl-lt"><img src="../img/shop2.jpg" alt="" class="shop-img"/></div>
+							<div class="shop-con-right fl-lt">
+								<div>
+									<p class="p1">特种兵黑色作训帽保安帽子</p>
+									<span class="price"><img src="../img/ji.png"><input type="text" value="300" readonly/></span>
+								</div>								
+							</div>
+						</div>
+						<div class="price-wrap">
+							<i class="reduce">-</i>
+							<em class="reduce-em"></em>
+							<input type="text" class="shop-num" value="1" readonly />
+							<em class="add-em"></em>
+							<i class="add">+</i>
+							<input type="hidden" value="" readonly/>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+
+		<!--Settlement-->
+		<div class="settlement">
+			<div class="settle-left fl-lt">
+				<img src="../img/round.png" alt="" class="check-all-img check-img" id="select_all"/>
+				<input type="checkbox" class="check-all check"/>
+				<label for="check_all">全选</label>
+			</div>
+			<div class="settle-middle fl-lt" id="settle_middle">
+				<p class="settle-total">合计积分：<span id="priceTotal1">300</span></p>
+			</div>
+			<div class="settle-right fl-rt" id="settle_right">去结算<span class="settlement-num-box">(<span id="selectedTotal">0</span>)</span></div>
+			<div class="settle-right-btn" id="settle_right_btn">
+				<span class="button fl-rt active" id="deleteAll">删除</span>
+				<span class="button fl-rt" id="move_collect">移入收藏</span>
+			</div>
+		</div>
+
+		<!--delete popup-->
+		<div class="delete-popup" id="delete_popup">
+			<!--<p class="delete-popup-top">确认要删除这<span id="goods_num"></span>种商品吗？</p>-->
+			<div class="delete-popup-btn">
+				<span class="fl-lt" id="cancel_btn"><div class="button-light-active">取消</div></span>
+				<span class="fl-lt" id="sure_btn"><div class="button-deep-active">确定</div></span>
+			</div>
+		</div>
+		<div id="delete_popup_sellect" class="bottom-popup"></div>
+		<div class="prompt"></div>
+
+		<script type="text/javascript" src="../js/shoppingcar.js"></script>
+	</body>
+
+</html>
+

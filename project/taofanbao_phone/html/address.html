@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+   		<!--App自定义的css-->
+	    <link href="../css/mui.picker.css" rel="stylesheet"/>
+	    <link href="../css/mui.poppicker.css" rel="stylesheet"/>
+
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/address.css" type="text/css"/>
+
+	    <script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../js/common.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>		
+		
+		<!--收货地址-->
+		<div class="address-popup">
+			<header>
+				<a class="left-img-box" href="javascript:void(0);" onclick="javascript:history.back(-1)"	id="address_back">
+			      <img src="../img/back.png" alt="" />
+			    </a>
+			    <h1>地址管理</h1>
+			</header>
+
+			<!--当没有收货地址-->
+			<div class="noAddress">
+				<img src="../img/address-icon.png" alt="" class="noAddressImg"/>
+				<h1>您还没有收货地址哦！</h1>
+				<p id="add_address_btn">新建地址</p>
+			</div>
+			<!--有收货地址-->
+			<div class="haveAddress">
+				<ul class="haveAddress-list">
+					<li>
+						<div class="haveAddress-list-liT">
+							<h3>小明<span>152123456789</span></h3>
+							<p>湖北省武汉市武昌区水果湖广场A座2109室</p>
+						</div>
+						<div class="haveAddress-list-liD">
+							<div class="fl-lt haveAddress-img"><img src="../img/right.png" alt="" class="defalut-img"/>设为默认</div>
+							<div class="fl-rt">
+								<span class="edit-btn"><img src="../img/edit.png" alt="" />编辑</span>
+								<span class="delete-btn"><img src="../img/dustbin.png"/>删除</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="haveAddress-list-liT">
+							<h3>小明<span>152123456789</span></h3>
+							<p>湖北省武汉市武昌区水果湖广场A座2109室</p>
+						</div>
+						<div class="haveAddress-list-liD">
+							<div class="fl-lt haveAddress-img"><img src="../img/round.png" alt="" class="defalut-img"/>设为默认</div>
+							<div class="fl-rt">
+								<span class="edit-btn"><img src="../img/edit.png" alt="" />编辑</span>
+								<span class="delete-btn"><img src="../img/dustbin.png"/>删除</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="add-new-address"><div class="big-button" id="add_address_btn2"><i>+</i>新建地址</div></div>
+			</div>
+		</div>
+		<!--添加地址-->
+		<div class="add-address-popup">
+			<header>
+				<div class="left-img-box" id="add_address_back">
+			      <img src="../img/back.png" alt="" />
+			    </div>
+			    <h1>新建收货人</h1>
+			</header>
+			<div class="add-address-con">
+				<ul class="add-address-list">
+					<li><span>收货人：</span><input type="text" value="小明" readonly/></li>
+					<li><span>联系电话：</span><input type="text" value="15212348765" readonly/></li>
+					<li class="select-area">
+						<span class="fl-lt">所在地区：</span>
+						<input readonly="readonly" id="input-address1" type="text" class="input-text" >
+						<span class="fl-rt">
+							<i>请选择</i><img src="../img/arrow_d.png" alt="" class="arrowR-img"/>
+						</span>
+						<button class="mui-btn mui-btn-block" type='button' id="showCityPicker1">选择</button>
+					</li>
+					<li class="detail-address"><textarea onfocus="if(value=='详细地址：'){value=''}" onblur="if(value==''){value='详细地址：'}">详细地址：</textarea></li>
+				</ul>
+				<div class="switch-box clearfix">
+					<div class="fl-lt">设为默认</div>
+					<div class="switch-close fl-rt" id="switch_btn"><i class="swipe-address" id="swipe_address"></i></div>
+				</div>
+				<div class="big-button button-big-save">保存</div>
+			</div>
+		</div>
+		<!--编辑地址-->
+		<div class="edit-address-popup">
+			<header>
+				<div class="left-img-box" id="edit_address_back">
+			      <img src="../img/back.png" alt="" />
+			    </div>
+			    <h1>编辑地址</h1>
+			    <div class="right-img-box" id="edit_delete"><span>删除</span></div>
+			</header>
+			<div class="edit-address-con">
+				<ul class="edit-address-list">
+					<li><span>收货人</span><input type="text" value="小明" readonly/></li>
+					<li><span>联系电话</span><input type="text" value="152123456789" readonly/></li>
+					<li class="select-area">
+						<span class="fl-lt">所在地区：</span>
+						<input readonly="readonly" id="input-address2" type="text" class="input-text" >
+						<span class="fl-rt">
+							<i>请选择</i><img src="../img/arrow_d.png" alt="" class="arrowR-img"/>
+						</span>
+						<button class="mui-btn mui-btn-block" type='button' id="showCityPicker2">选择</button>
+					</li>
+					<li class="detail-address"><textarea onfocus="if(value=='详细地址：'){value=''}" onblur="if(value==''){value='详细地址：'}">详细地址：</textarea></li>
+				</ul>
+				<div class="switch-box clearfix">
+					<div class="fl-lt">设为默认</div>
+					<div class="switch-close fl-rt" id="switch_btn2"><i class="swipe-address" id="swipe_address"></i></div>
+				</div>
+				<div class="big-button button-big-save">保存</div>
+			</div>
+		</div>
+		<div class="bg" id="bg"></div>
+		<!--delete popup-->
+		<div class="delete-popup" id="delete_popup">
+			<p class="delete-popup-top">确认要删除这个地址吗？</p>
+			<p class="delete-popup-btn"><span class="fl-lt" id="cancel_btn">取消</span><span class="fl-lt" id="sure_btn">确定</span></p>
+		</div>
+		
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/mui.picker.min.js"></script>
+   		<script src="../js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/address.js"></script>
+		<script>
+   			//选择地区 添加地址
+			(function ($, doc) {
+			    $.init();
+			    $.ready(function () {
+			        var cityPicker3 = new $.PopPicker({
+			            layer: 3
+			        });
+			        cityPicker3.setData(cityData3);
+			        var showCityPickerButton1 = doc.getElementById('showCityPicker1');
+			        var cityResult3 = doc.getElementById('cityResult');
+			        var addressContent1 = doc.getElementById('input-address1');
+			
+			        addressContent1.addEventListener('tap', function (e) {
+			            e.preventDefault()
+			            e.stopPropagation()
+			            cityPicker3.show(function (items) {
+			                addressContent1.value = (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+			            });
+			
+			        }, false)
+			
+			    });
+			})(mui, document);
+
+			//选择地区 编辑地址
+			(function ($, doc) {
+			    $.init();
+			    $.ready(function () {
+			        var cityPicker3 = new $.PopPicker({
+			            layer: 3
+			        });
+			        cityPicker3.setData(cityData3);
+			        var showCityPickerButton1 = doc.getElementById('showCityPicker2');
+			        var cityResult3 = doc.getElementById('cityResult');
+			        var addressContent2 = doc.getElementById('input-address2');
+			
+			        addressContent2.addEventListener('tap', function (e) {
+			            e.preventDefault()
+			            e.stopPropagation()
+			            cityPicker3.show(function (items) {
+			                addressContent2.value = (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+			            });
+			
+			        }, false)
+			
+			    });
+			})(mui, document);
+   		</script>
+		
+	</body>
+</html>

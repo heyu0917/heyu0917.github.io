@@ -1,0 +1,60 @@
+html,body{
+	background: #fff;
+}
+
+.login-wrap{
+	padding: 0 .64rem;
+}
+.part1{
+	margin: .88rem auto;
+}
+.part1 img{
+	width: 1.6rem;
+	height: 1.6rem;
+	display: block;
+	margin: .16rem auto;
+}
+.part1 h1{
+	text-align: center;
+	font-size: .4rem;
+	font-weight: normal;
+}
+
+.part2 .part2-item{
+	width: 100%;
+	margin-bottom: .48rem;
+	height: .88rem;
+	line-height: .88rem;
+}
+.part2 .part2-item img{
+	width: .36rem;
+	height: .4rem;
+	margin-top: .24rem;
+	display: block;
+}
+.part2 .part2-item input{
+	width: 88%;
+	height: .88rem;
+	border-bottom: 1px solid #fccc18;
+	font-size: .32rem;
+	padding-left: .16rem;
+	box-sizing: border-box;
+}
+ .part3 .big-button{
+ 	margin: .64rem 0;
+ }
+ .part3 .register-reset a{
+ 	font-size: .28rem;
+ }
+ .part3 a{
+ 	display: block;
+ }
+
+
+
+
+
+
+
+
+

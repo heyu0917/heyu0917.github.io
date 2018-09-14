@@ -1,0 +1,58 @@
+header{
+	background: #fff;
+}
+.content{
+	bottom: 0;
+	padding-bottom: 0;
+}
+
+
+.addIntegral{
+	width: 100%
+}
+.addIntegral .part1{
+	padding: .24rem;
+	background: #fff;
+}
+.addIntegral .part1 img{
+	width: 2.7rem;
+	height: 1.6rem;
+	display: block;
+	margin-right: .16rem;
+}
+.addIntegral .part1 div span{
+	font-size: .28rem;
+	display: block;
+	margin-bottom: .24rem;
+}
+.addIntegral .part1 div span{
+	color: #999;
+}
+.addIntegral .part1 div span em{
+	color: #222;
+}
+
+.addIntegral .part2{
+	margin-top: .24rem;
+}
+.addIntegral .part2 input{
+	width: 100%;
+	height: 1.24rem;
+	line-height: 1.24rem;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	padding-left: .64rem;
+	box-sizing: border-box;
+	font-size: .3rem;
+}
+
+.addIntegral .part3{
+	margin-top: 1.4rem;
+}
+
+
+
+
+
+
+

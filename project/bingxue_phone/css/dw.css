@@ -1,0 +1,191 @@
+/*公共*/
+.main .part1{
+	width: 100%;
+	position: relative;
+}
+.main .ab-img1{
+	width: 1.2rem;
+	position: absolute;
+	left: 0;
+	top: .6rem;
+	z-index: 2;
+}
+.main .ab-img2{
+	width: .9rem;
+	position: absolute;
+	right: 0;
+	top: .6rem;
+	z-index: 2;
+}
+
+.main .p0{
+	text-align: center;
+	font-size: .3rem;
+	text-transform: uppercase;
+	color: #008BD5;
+	line-height: 1.2;
+}
+.main .title{
+	border: 2px solid #008BD5;
+	width: 90%;
+	margin: .32rem auto .24rem;
+	text-align: center;
+	color: #008BD5;
+	height: .6rem;
+	margin-bottom: .68rem;
+}
+.main .title .p1{
+	width: 80%;
+    font-weight: bold;
+    font-size: .4rem;
+    line-height: 1;
+    background: #D6EDF3;
+    margin: -.2rem auto 0;
+}
+.main .title .p2{
+	font-size: .36rem;
+	display: inline-block;
+	padding: 0 .12rem;
+	background: #008BD5;
+	color: #fff;
+	height: .56rem;
+	line-height: .56rem;
+	margin-top: .12rem;
+}
+
+/*大王店型*/
+.main .title .p1{
+	width: 65%;
+}
+.dwdx ul{
+	width: 92%;
+	margin: 0 auto;
+}
+.dwdx ul li{
+	height: 3rem;
+	margin-bottom: .2rem;
+	clear: both;
+	overflow: hidden;
+}
+.dwdx ul li .li-img{
+	width: 60%;
+	height: 100%;
+}
+.dwdx ul li .li-img img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.dwdx ul li .li-con{
+	width: 40%;
+	height: 100%;
+	text-align: center;
+}
+.dwdx ul li .p1{
+	font-size: .26rem;
+	color: #fff;
+	background: #008BD5;
+	border-radius: 50%;
+	width: 1.3rem;
+	height: 1.3rem;
+	margin: .16rem auto 0;
+	position: relative;
+	z-index: 2;
+}
+.dwdx ul li .p1 span{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate3d(0,-50%,0);
+	-webkit-transform: translate3d(0,-50%,0);
+	-ms-transform: translate3d(0,-50%,0);
+}
+.dwdx ul li .p2{
+	background: #FCCF01;
+	width: 80%;
+	margin: -.75rem auto 0;
+	color: #008BD5;
+	font-size: .24rem;
+	padding-top: .88rem;
+	padding-bottom: .16rem;
+}
+
+
+/*大王扶持*/
+.dwfc ul{
+	width: 92%;
+	margin: 0 auto;
+}
+.dwfc ul li{
+	width: 49%;
+	float: left;
+	margin-bottom: .24rem;
+	color: #008BD5;
+	text-align: center;
+}
+.dwfc ul li:nth-child(even){
+	float: right;
+}
+.dwfc ul li img{
+	display: block;
+	width: 100%;
+}
+.dwfc ul li .li-con{
+	background: #fff;
+	padding-bottom: .08rem;
+	margin: 0 4.5%;
+}
+.dwfc ul li .p1{
+	font-size: .4rem;
+	margin-top: -1.1rem;
+}
+.dwfc ul li .p2{
+	font-size: .28rem;
+}
+.dwfc ul li .line{
+	width: .6rem;
+	height: 2px;
+	background: #008BD5;
+	margin: .16rem auto .08rem;
+}
+.dwfc ul li .p3{
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+.dwfc ul li:nth-child(even){
+	color: #fff;
+}
+.dwfc ul li:nth-child(even) .li-con{
+	background: #008BD5;
+}
+.dwfc ul li:nth-child(even) .line{
+	background: #FCCF01;
+}
+.dwfc ul li:nth-child(3) .li-con,
+.dwfc ul li:nth-child(4) .li-con{
+	padding-bottom: 2.5rem;
+}
+.dwfc .img2{
+	display: block;
+	width: 98%;
+	position: absolute;
+	left: 1%;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+

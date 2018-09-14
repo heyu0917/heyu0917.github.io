@@ -1,0 +1,84 @@
+
+.title{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color:#ab0005;
+}
+.title p:nth-child(1){
+	font-size: 14px;
+}
+.title p:nth-child(2){
+	margin-top: 10px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.title p:nth-child(2) span{
+	font-size: 30px;
+	display: block;
+}
+
+/*cz1--人气爆品*/
+.cz1 .part{
+	width: 100%;
+	text-align: center;
+	margin-top: 28px;
+}
+.cz1 .part li{
+	width: 530px;
+	font-size: 0;
+	display: inline-block;
+	margin:10px 10px;
+}
+.cz1 .part li .a1-img{
+	width: 100%;
+}
+.cz1 .part li .part-main{
+	width: 530px;
+	height: 130px;
+	background-color: #e7bb6f;
+	text-align:center;
+	padding-top:10px;
+	box-sizing: border-box;
+}
+.cz1 .part li .part-main .img-title{
+	width: 160px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ab0005;
+    margin: 0 auto;
+    margin-top: -44px;
+    line-height: 40px;
+}
+.cz1 .part li .part-main p{
+	width: 450px;
+	margin:0 auto;
+	font-size: 16px;
+	color:#b40005;
+	text-align: left;
+	margin-top: 10px;
+	line-height: 22px;
+	height: 44px;
+	overflow: hidden;
+}
+
+
+/*cz2--招牌菜系*/
+.cz2 .part{
+	margin-top: 10px;
+}
+.cz2 .part li .part-main{
+	height: 70px;
+}
+.cz1 .part li .part-main .img-title{
+	width: 226px;
+}
+.cz1 .part li{
+	margin-top: 50px;
+}
+
+/*cz3--特色菜系*/
+.cz3 .part .part-main .img-title{
+	width: 205px;
+}

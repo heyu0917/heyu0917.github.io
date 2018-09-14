@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title></title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--去掉 iPhone自动把你这个文字加链接样式（去掉默认高亮的蓝色样式）-->
+   		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="shoutcut icon" type="image/x-icon" src="images/logo.png" media="screen">
+	    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="css/my.css" type="text/css"/>
+	    <script src="js/common.js"></script>
+	    <script src="js/zepto.min.js"></script>
+	    <script type="text/javascript">
+	       document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header-back">
+			<a href="javascript:;" onClick="javascript:history.back(-1)"><img src="img/arrowL.png" alt="" class="arrowL-img"/></a>
+			<h1>余额充值</h1>
+		</div>
+		<div class="balance-con">
+			<ul class="pay-style-list">
+				<li>
+					<img src="img/weixin.png" alt="" class="fl-lt weinxin-img"/>
+					<span class="fl-lt">微信支付</span>
+					<img src="img/arrowR.png" class="fl-rt arrowR-img"/>
+				</li>
+				<li>
+					<img src="img/zhifubao.png" alt="" class="fl-lt zhifubao-img"/>
+					<span class="fl-lt">支付宝支付</span>
+					<img src="img/arrowR.png" class="fl-rt arrowR-img"/>
+				</li>
+				<li>
+					<img src="img/yinlian.png" alt="" class="fl-lt yinlian-img"/>
+					<span class="fl-lt">中国银联支付</span>
+					<img src="img/arrowR.png" class="fl-rt arrowR-img"/>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
