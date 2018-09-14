@@ -1,0 +1,60 @@
+.md{
+	margin-bottom: 0.4rem;
+}
+.md .part1-title .title1{
+	font-size: 0.44rem;
+	color:#ea5404;
+	width: 100%;
+	text-align: center;
+}
+.md .part1-title .title1 img{
+	width:0.24rem;
+	vertical-align: middle;
+}
+.md .part1-title .title2{
+	font-size: 0.28rem;
+	color:#ea5404;
+	width: 100%;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.md .part1-title .title2 img{
+	width:12%;
+	vertical-align: middle;
+}
+.md .part2 .main1{
+	width: 90%;
+	margin:0 auto;
+	position:relative;
+	margin-top: 0.32rem;
+}
+.md .part2 .main1 img{
+	width: 100%;
+}
+.md .part2 .main1 .img2{
+	margin-top: -0.1rem;
+}
+.md .part2 .main1 .main1-font{
+	width: 100%;
+	height:1.5rem;
+	position:absolute;
+	bottom:0.1rem;
+}
+.md .part2 .main1 .main1-font p:nth-child(1){
+	font-size: 0.34rem;
+	color:#fffefe;	
+	text-align: center;
+	margin-top: 0.16rem;
+}
+.md .part2 .main1 .main1-font p:nth-child(2){
+	width: 0.4rem;
+	height: 0.05rem;
+	background-color: #fff;
+	margin:0.16rem auto;
+}
+.md .part2 .main1 .main1-font p:nth-child(3){
+	text-align: center;
+	font-size: 0.24rem;
+	color:#fff;
+	
+}

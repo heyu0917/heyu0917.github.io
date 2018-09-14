@@ -1,0 +1,82 @@
+/*公共*/
+.content{
+	margin-top: 1.3rem;
+}
+
+.content h1{
+	font-size: .6rem;
+	font-weight: normal;
+	text-align: center;
+	margin: .24rem 0;
+}
+.content .pro-img1{
+	width: 80%;
+	margin: .4rem auto 0 auto;
+	display: block;
+}
+.detail .con h2{
+	font-weight: normal;
+	font-size: .6rem;
+	margin-top: .3rem;
+	margin-bottom: .12rem;
+}
+.detail .con h3{
+	font-weight: normal;
+	width: 2.3rem;
+	height: .48rem;
+	text-align: center;
+	line-height: .48rem;
+	color: #fff;
+	background: #a1875d;
+	margin-bottom: .3rem;
+	font-size: .24rem;
+}
+.detail .con .p1{
+	font-size: .24rem;
+	color: #565656;
+	line-height: .44rem;
+	margin-bottom: .3rem;
+}
+.detail .con .last-p1{
+	margin-bottom: .4rem;
+}
+.detail .con .mr0{
+	margin-bottom: 0;
+}
+
+
+/*DPI动能理疗仪*/
+.list1{
+	width: 100%;
+	margin-bottom: .4rem;
+}
+.list1 li{
+	margin-right: 1%;
+	width: 24.25%;
+	float: left;
+	font-size: .24rem;
+	text-align: center;
+	height: 2.6rem;
+	background: #f2f2f2;
+}
+.list1 li:last-child{
+	margin-right: 0;
+}
+.list1 li span{
+	display: block;
+	width: 100%;
+	line-height: .42rem;
+	background: #9c9c9c;
+	color: #fff;
+	text-align: center;
+}
+.list1 li p{
+	line-height: .42rem;
+}
+
+
+
+
+
+
+

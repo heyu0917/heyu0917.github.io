@@ -1,0 +1,91 @@
+/*公共*/
+.content{
+	margin-top: 1.3rem;
+}
+.content h1{
+	font-size: .6rem;
+	font-weight: normal;
+	text-align: center;
+	margin: .24rem 0;
+}
+.content .big-img1{
+	width: 90%;
+	margin: .4rem auto 0 auto;
+	display: block;
+}
+.detail .con h2{
+	font-weight: normal;
+	font-size: .6rem;
+	margin-top: .3rem;
+	margin-bottom: .1rem;
+}
+.detail .con h3{
+	font-weight: normal;
+	width: 2.3rem;
+	height: .48rem;
+	text-align: center;
+	line-height: .48rem;
+	color: #fff;
+	background: #a1875d;
+	margin-bottom: .3rem;
+	font-size: .24rem;
+}
+.detail .con p{
+	font-size: .24rem;
+	color: #565656;
+	line-height: .44rem;
+}
+.content .back-btn{
+	margin-top: .3rem;
+	width: 2.3rem;
+	height: .72rem;
+	line-height: .72rem;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,.8);
+	font-size: .33rem;
+}
+
+
+/*专业护理*/
+.zyhl .img1{
+	width: 4.12rem;
+	display: block;
+	margin: .3rem auto;
+}
+.zyhl .part .p1{
+	font-size: .34rem;
+	font-weight: bold;
+	margin-top: .5rem;
+	margin-bottom: .06rem;
+}
+.zyhl .part .p2{
+	font-family: arial;
+	font-weight: bold;
+	margin-bottom: .16rem;
+}
+.zyhl .part .p3{
+	font-size: .26rem;
+	margin-bottom: .2rem;
+}
+.zyhl .part .p4{
+	font-size: .26rem;
+	color: #a9a9a9;
+}
+.zyhl .part .add-mark{
+	font-size: .45rem;
+	font-weight: bold;
+	margin: .32rem 0;
+}
+.zyhl .part:first-child{
+	border-bottom: 1px solid rgba(0,0,0,.4);
+	padding-bottom: .5rem;
+}
+.zyhl .back-btn{
+	margin-top: .4rem;
+}
+
+
+
+
+
+

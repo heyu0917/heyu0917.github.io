@@ -1,0 +1,40 @@
+.content{
+	margin-top: 1.3rem;
+}
+.content h1{
+	font-size: .6rem;
+	font-weight: normal;
+	text-align: center;
+	margin: .3rem 0;
+}
+
+.content ul{
+	margin-bottom: -.24rem;
+}
+.content ul li{
+	width: 47%;
+	float: left;
+	margin-bottom: .24rem;
+	font-size: 0;
+}
+.content ul li:nth-child(even){
+	float: right;
+}
+.content ul li img{
+	display: block;
+	width: 100%;
+	height: 4.3rem;
+}
+.content ul li h2{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: .24rem;
+	line-height: .5rem;
+}
+
+
+
+
+

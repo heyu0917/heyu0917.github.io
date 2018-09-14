@@ -1,0 +1,121 @@
+/*公共*/
+.content .er-nav{
+	width: 100%;
+	position: relative;
+}
+.content .er-nav h1{
+	font-size: 34px;
+	font-weight: normal;
+	margin-bottom: 5px;
+	text-align: center;
+	margin-top: 30px;
+}
+.content .er-nav p{
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	width: 1200px;
+	margin: 0 auto 35px auto;
+	border-bottom: 1px solid #c3a36e;
+}
+
+/*店面展示*/
+.part1{
+	margin-bottom: 100px;
+}
+.large_box{
+	width: 805px;
+	height: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.large_box ul{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.large_box ul li{
+	width: 805px;
+	height: 450px;
+}
+.small_box{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	height: 120px;
+	
+}
+.small_box .btn{
+	width: 30px;
+	height: 120px;
+	cursor: pointer;
+	background: #c3a36e;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 0;
+}
+.small_box .left_btn{
+	left: 0;
+	background-image: url(../img/mdzs/arrowL.png);
+}
+.small_box .right_btn{
+	right: 0;
+	background-image: url(../img/mdzs/arrowR.png);
+}
+.small_list{
+	width: 1105px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 120px;
+	position: relative;
+}
+.small_list ul{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.small_list ul li{
+	width: 215px!important;
+	height: 120px;
+	margin: 0 3px;
+	border: 1px solid #802529;
+	box-sizing: border-box;
+	border: 2px solid transparent;
+	float: left;
+}
+.small_list ul li.on{
+	border:2px solid #c3a36e;
+}
+
+.part1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*part-middle*/
+.part-middle{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.part-middle .p1{
+	font-size: 34px;
+	font-family: '宋体';
+	letter-spacing: 4px;
+}
+.part-middle .p2{
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+

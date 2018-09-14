@@ -1,0 +1,105 @@
+/*common*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*点击按钮*/
+.item{
+	text-align: center;
+	margin-top: 100px;
+}
+.item span{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	height: 44px;
+	line-height: 44px;
+	width: 120px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0 30px;
+	cursor: pointer;
+}
+.item span:hover,
+.item span:active{
+	background: #f6f6f6;
+}
+
+
+/*弹窗*/
+.alert-bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	z-index: 222;
+	display: none;
+}
+.alert-popup{
+	width: 400px;
+	height: 240px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -170px;
+	margin-left: -200px;
+	z-index: 333;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	border-radius: 5px;
+	box-sizing: border-box;
+	display: none;
+}
+.alert-popup .tip-txt{
+	background: #f6f6f6;
+	border-bottom: 1px solid #eee;
+	font-size: 16px;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+}
+.alert-popup .tip{
+	font-size: 16px;
+	text-align: center;
+	line-height: 26px;
+	margin-bottom: 40px;
+	padding: 0 20px;
+	margin-top: 30px;
+	height: 52px;
+    overflow: hidden;
+}
+.alert-popup .alert-btn{
+	text-align: center;
+	padding: 0 20px;
+}
+.alert-popup .alert-btn span{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 26px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.alert-popup .alert-btn .cancel-btn{
+    background: #f6f6f6;
+}
+.alert-popup .alert-btn .sure-btn{
+	color: #fff;
+    background: #fccc18;
+}
+
+
+
+
+
+
+
+
+
+

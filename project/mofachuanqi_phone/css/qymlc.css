@@ -1,0 +1,30 @@
+/*公共*/
+.content{
+	margin-top: 1.3rem;
+}
+.content h1{
+	font-size: .6rem;
+	font-weight: normal;
+	text-align: center;
+	margin: .24rem 0;
+}
+
+.con-wrap .pro-img1{
+	width: 100%;
+	margin: .4rem auto 0 auto;
+	display: block;
+}
+.con-wrap .con h2{
+	font-weight: normal;
+	font-size: .6rem;
+	margin-top: .4rem;
+}
+.con-wrap .con .p1{
+	color: #202236;
+	font-size: .24rem;
+	line-height: .44rem;
+}
+.con-wrap .con .first-p1{
+	margin-top: .3rem;	
+}
+

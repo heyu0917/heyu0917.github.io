@@ -1,0 +1,270 @@
+.content .know-more{
+	width: 69%;
+	margin: .3rem auto 0 auto;
+	height: .68rem;
+	line-height: .68rem;
+	text-align: center;
+	color: #fff;
+	font-size: .24rem;
+	display: block;
+	background: #c9ac82;
+	background: -webkit-gradient(linear, 0 100%, 100% 0, from(#e0c599), to(#a2875d));
+	background: -moz-linear-gradient(left,#e0c599,#a2875d);
+}
+
+.part2{
+	margin-top: .12rem;
+}
+.part2 .top{
+	position: relative;
+	text-align: center;
+	margin-bottom: .3rem;
+	z-index: 2;
+}
+.part2 .top h2{
+	font-size: .52rem;
+	letter-spacing: .04rem;
+}
+.part2 .top .img1{
+	position: absolute;
+	bottom: -.2rem;
+	left: .5rem;
+	width: .76rem;
+	height: .76rem;
+	z-index: -1;
+}
+.part2 .top .img2{
+	position: absolute;
+	bottom: 0;
+	right: .2rem;
+	width: 1.1rem;
+	height: 1.1rem;
+	z-index: -1;
+}
+.part2 .vedio-box{
+	width: 100%;
+	height: 4.9rem;
+	position: relative;
+}
+.part2 .vedio-box .vedio-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+.part2 .vedio-box #play{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -.4rem;
+	margin-top: -.4rem;
+	width: .8rem;
+	height: .8rem;
+	z-index: 3;
+	cursor: pointer;
+}
+
+.part3{
+	margin-top: .5rem;
+}
+.part3 h1{
+	font-size: .6rem;
+	font-weight: normal;
+	color: #161616;
+	text-align: center;
+	margin-bottom: .16rem;
+}
+.part3 h2{
+	font-size: .3rem;
+	font-weight: normal;
+	color: #757575;
+	text-align: center;
+	margin-bottom: .04rem;
+}
+.part3 p{
+	text-align: center;
+}
+.part3 ul{
+	padding: 0 .2rem;
+	margin-top: .34rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+}
+.part3 ul li{
+	width: 1.8rem;
+}
+.part3 ul li span{
+	height: .28rem;
+	line-height: .28rem;
+	display: block;
+	padding-left: .2rem;
+	font-size: .24rem;
+	color: #757575;
+	border-left: .04rem solid #8d8d8d;
+}
+.part3 ul li img{
+	width: 100%;
+	display: block;
+	height: 1.8rem;
+	margin-top: .2rem;
+}
+.part3 u{
+	display: block;
+	margin: .6rem auto 0 auto;
+	width: .12rem;
+	height: .12rem;
+	background: #161616;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+.part4{
+	margin-top: .5rem;
+	text-align: center;
+}
+.part4 h3{
+	font-size: .3rem;
+	color: #757575;
+	line-height: .52rem;
+	margin-bottom: .4rem;
+}
+
+.part5{
+	margin-top: .5rem;
+	text-align: center;
+}
+.part5 h1{
+	color: #161616;
+	font-size: .6rem;
+	font-weight: normal;
+	line-height: .76rem;
+}
+.part5 p{
+	color: #161616;
+	font-size: .3rem;
+	margin-top: .12rem;
+	margin-bottom: .34rem;
+}
+.part5 ul {
+	margin-bottom: .24rem;
+	padding-left: 1%;
+}
+.part5 ul li{
+	width: 30%;
+	margin-right: 3%;
+	margin-bottom: .2rem;
+	float: left;
+	border: 1px solid #959595;
+	font-size: .24rem;
+	border-radius: .4rem;
+	-webkit-border-radius: .4rem;
+	-moz-border-radius: .4rem;
+	height: .46rem;
+	line-height: .46rem;
+}
+.part5 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.part5 ul li:nth-child(4){
+	margin-left: 15%;
+}
+
+.part6{
+	margin-top: .5rem;
+	text-align: center;
+}
+.part6 .line{
+	width: .75rem;
+	height: .06rem;
+	background: #000;
+	margin: 0 auto;
+}
+.part6 h1{
+	font-weight: normal;
+	font-size: .6rem;
+	line-height: .8rem;
+	margin-top: .16rem;
+	margin-bottom: .1rem;
+}
+
+.part7{
+	margin-top: .5rem;
+	text-align: center;
+}
+.part7 h1{
+	font-weight: normal;
+	font-size: .6rem;
+	line-height: .6rem;
+	margin-top: .3rem;
+	font-family: arial;
+	margin-bottom: .2rem;
+}
+.part7 .line{
+	width: 2.28rem;
+	height: .03rem;
+	display: block;
+	background: #8d8d8d;
+	margin: 0 auto;
+}
+.part7 p{
+	font-size: .3rem;
+	line-height: .5rem;
+	margin-top: .2rem;
+}
+
+.part8{
+	position: relative;
+	margin-top: .5rem;
+}
+.part8 a{
+	display: block;
+	height: 100%;
+	position: relative;
+}
+.part8 .title{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	color: #fff;
+	background: #ab936f;
+	z-index: 2;
+	font-size: .6rem;
+}
+
+.part9{
+	margin-top: .3rem;
+}
+.part9 a{
+	display: block;
+	width: 100%;
+	height: .84rem;
+	line-height: .84rem;
+	border: 1px solid rgba(0,0,0,1);
+	text-align: center;
+	font-size: 0;
+}
+.part9 a img{
+	display: inline-block;
+	vertical-align: middle;
+	width: .33rem;
+	height: .33rem;
+	margin-right: .24rem;
+}
+.part9 a span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .24rem;
+}
+
+

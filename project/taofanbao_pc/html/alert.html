@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="../css/alert.css">	
+</head>
+<body>
+	
+	<div class="item">
+		<span class="button1">确定取消</span>	
+		<span class="button2">只有确定</span>	
+	</div>
+	
+	<div class="alert-popup" id="alert_popup">
+		<div class="tip-txt">提示</div>
+		<p class="tip">提示语提示语提示语提示语</p>
+		<div class="alert-btn">
+			<span class="cancel-btn">取消</span>
+			<span class="sure-btn">确定</span>
+		</div>
+	</div>
+	
+	<div class="alert-popup" id="alert_popup2">
+		<div class="tip-txt">提示</div>
+		<p class="tip">提示语提示语提示语提示语</p>
+		<div class="alert-btn">
+			<span class="sure-btn">确定</span>
+		</div>
+	</div>
+	
+	<div class="alert-bg" id="alert_bg"></div>
+	
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.button1').click(function(){
+				$('#alert_bg').fadeIn(300);
+				$('#alert_popup').fadeIn(300);
+			})
+			
+			$('.button2').click(function(){
+				$('#alert_bg').fadeIn(300);
+				$('#alert_popup2').fadeIn(300);
+			})
+			
+			$('.cancel-btn,.alert-bg,.sure-btn').click(function(){
+				$('#alert_bg').fadeOut(200);
+				$('.alert-popup').fadeOut(200);
+			})
+			
+			
+		})
+	</script>
+
+</body>
+</html>

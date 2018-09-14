@@ -1,0 +1,235 @@
+/*公共*/
+.content .er-nav{
+	width: 100%;
+	position: relative;
+}
+.content .er-nav h1{
+	font-size: 34px;
+	font-weight: normal;
+	margin-bottom: 5px;
+	text-align: center;
+	margin-top: 25px;
+}
+.content .er-nav p{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+.content .er-nav ul{
+	width: 100%;
+	background: #f0edf7;
+	height: 86px;
+	line-height: 86px;
+	text-align: center;
+}
+.content .er-nav ul li{
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 16px;
+}
+.content .er-nav ul li a{
+	color: rgba(0,0,0,.7);
+	display: block;
+	height: 100%;
+}
+.content .er-nav ul li i{
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: normal!important;
+	color: rgba(0,0,0,.7);
+}
+.content .er-nav ul li.active a{
+	color: rgba(0,0,0,1);
+	font-weight: bold;
+}
+.content .er-nav span{
+	border-bottom: 20px solid #f0edf7;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	display: block;
+	position: absolute;
+	bottom: 86px;
+	left: 50%;
+	margin-left: -20px;
+}
+.footer{
+	margin-top: 90px;
+}
+
+/*联系我们*/
+.lxwm .part1{
+	width: 100%;
+	height: 410px;
+	margin-top: 50px;
+}
+
+.lxwm .part2{
+	margin-top: 40px;
+}
+.lxwm .part2 .txt1{
+	position: relative;
+}
+.lxwm .part2 .txt1 h1{
+	font-size: 18px;
+	color: rgba(0,0,0,.66);
+	font-weight: normal;
+	background: #fff;
+	width: 150px;
+}
+.lxwm .part2 .txt1 h1 strong{
+	font-size: 22px;
+	color: #000;
+	display: inline-block;
+	margin-right: 10px;
+}
+.lxwm .part2 i{
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: rgba(0,0,0,.2);
+    position: absolute;
+    right: 0;
+    top: 16px;
+    z-index: -1;
+}
+.lxwm .part2 .p1{
+	font-size: 24px;
+	color: #595757;
+	margin-top: 20px;
+}
+.lxwm .part2 .p2{
+	font-size: 10px;
+	color: #595757;
+	margin-bottom: 35px;
+	margin-top: 5px;
+}
+.lxwm .part2 ul li{
+	margin-bottom: 15px;
+	color: #595757;
+	font-size: 0;
+}
+.lxwm .part2 ul li img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.lxwm .part2 ul li span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+
+/*招聘信息*/
+.zpxx .part1{
+	padding: 0 180px;
+	margin-top: 50px;
+}
+.zpxx .part1 .p1{
+	font-size: 14px;
+	color: #666;
+	text-indent: 28px;
+	line-height: 26px;
+}
+.zpxx .part1 ul li{
+	margin-bottom: 10px;
+	width: 100%;
+}
+.zpxx .part1 ul li .li-top{
+	height: 90px;
+	line-height: 90px;
+	background: #eaeaea;
+}
+.zpxx .part1 ul li .li-top p{
+	float: left;
+}
+.zpxx .part1 ul li .li-top .p2{
+	width: 115px;
+	background: #c9ad84;
+	text-align: center;
+	color: #fff;
+	font-size: 31px;
+}
+.zpxx .part1 ul li .li-top .p3{
+	padding: 0 15px;
+	font-size: 14px;
+}
+.zpxx .part1 ul li .li-top .p4{
+	font-size: 40px;
+	color: #c9ad84;
+	padding-right: 20px;
+	width: 200px;
+	float: right;
+	text-align: right;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.zpxx .part1 ul li .li-item{
+	display: none;
+	padding:  10px 30px;
+}
+.zpxx .part1 ul li .li-item p{
+	line-height: 26px;
+}
+.zpxx .part1 ul li.active .li-item{
+	display: block;
+}
+
+
+/*在线留言*/
+.zxly .part1{
+	margin-top: 50px;
+	padding: 0 150px;
+}
+.zxly .part1 ul li{
+	width: 430px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid rgba(0,0,0,.4);
+	float: left;
+	margin-bottom: 30px;
+}
+.zxly .part1 ul li:nth-child(even){
+	float: right;
+}
+.zxly .part1 ul li input{
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.zxly .part1 textarea{
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+	display: block;
+	height: 230px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.4);
+	resize: none;
+}
+.zxly .part1 .submit{
+	width: 160px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 2px;
+	display: block;
+	margin: 40px auto 0 auto;
+	cursor: pointer;
+	background: #dec194;
+	background: -webkit-gradient(linear,0 0,0 100%,from(#dec194),to(#a2875d));
+	background: -moz-linear-gradient(left,#a2875d,#dec194);
+}
+
+
+
+
+
+
+

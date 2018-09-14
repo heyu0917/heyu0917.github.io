@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+   		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/bd.css" type="text/css"/>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<a class="back" href="javascript:;" onclick="javascript:history.back(-1)">
+					<img src="../img/back.png" alt="" />
+				</a>
+				<p class="p1">极限品牌</p>
+				<div class="menu-img">
+					<img src="../img/menu.png" alt="" class="img2"/>
+				</div>
+			</div>
+			<div class="middle">
+				<ul class="clearfix">
+					<li>
+						<a href="">
+							<img src="../img/weibo.png" alt="" class="img0"/>
+							<span>官方微博</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="../img/weixin.png" alt="" class="img0"/>
+							<span>官方微信</span>
+							<div class="box">
+								<img src="../img/er.png" alt="" class="img2"/>
+								<p>官方微信</p>
+								<img src="../img/erweima1.jpg" alt="" class="img3"/>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" onclick="AddFavorite(window.location,document.title)">
+							<span>收藏本站</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span>联系我们</span>
+							<div class="box">
+								<img src="../img/er.png" alt="" class="img2"/>
+								<p>扫码联系</p>
+								<img src="../img/erweima1.jpg" alt="" class="img3"/>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="menu">
+			<ul class="clearfix">
+				<li>
+					<div class="title"><a href="index.html">首页</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="pp.html">极限品牌</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="sc.html">风口市场</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="ys.html">品牌优势</a></div>
+				</li>
+				<li>
+					<div class="title"><h1>极限产品</h1></div>
+					<div class="item">
+						<a href="cp1.html">安全健步鞋</a>
+		                <a href="cp2.html">安全轻旅鞋</a>
+		                <a href="cp3.html">安全广舞鞋</a>
+		                <a href="cp4.html">安全社交鞋</a>
+		                <a href="cp5.html">安全智能鞋</a>
+					</div>
+				</li>
+				<li>
+					<div class="title"><a href="md.html">终端门店</a></div>
+				</li>
+				<li class="active">
+					<div class="title"><a href="bd.html">卖场宝典</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="dl.html">开店代理</a></div>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="banner">
+			<div class="swiper-container banner-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	
+		<div class="content bd">
+			<div class="part1">
+				<img src="../img/bd/a1.jpg" alt="" class="w_100"/>
+				<div class="a2-img">
+					<img src="../img/bd/a2.jpg" alt="" class="w_100"/>
+					<div class="high">-&emsp;H&emsp;I&emsp;G&emsp;H&emsp;&emsp;P&emsp;R&emsp;O&emsp;F&emsp;I&emsp;T</div>
+					<div class="di">
+						<img src="../img/lineL.png" alt="" />
+						<div class="di1">低库存，高毛利</div>
+						<img src="../img/lineR.png" alt="" />
+						<p>一周业绩轻松过十万</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="part2">
+				<ul id="part2_list">
+					<li>
+						<div class="main1">
+							<img src="../img/bd/a3.jpg" alt="" class="w_100"/>
+							<div class="main1-font">
+								3秒选货原则
+								<img src="../img/bd/a4.png" alt="" class="a4-img"/>
+							</div>
+						</div>
+						<div class="li">
+							<div class="li1"></div>开放式货柜陈列
+							<p>好的店面的陈列，是促成商品成交的一半。舞极限集合国内外鞋类知名品牌的陈列原则和市场营销策略——3秒挑选并对比的服务标准，采用最方便中老年消费群体选择产品、比对产品的开放式陈列，促成交易快速达成。</p>
+						</div>
+					</li>
+					<li>
+						<div class="main1">
+							<img src="../img/bd/a5.jpg" alt="" class="w_100"/>
+							<div class="main1-font">
+								增值体验营销专区
+								<img src="../img/bd/a6.png" alt="" class="a4-img"/>
+							</div>
+						</div>
+						<div class="li">
+							<div class="li1"></div>中老年群体第三生活社交空间
+							<p>舞极限不仅仅是买鞋的店面，更是中老年群体选择消费和沟通的第三社交的空间，可以得到更多的中老年年轻态健康生活的咨询、仪器等多元的生活服务。</p>
+						</div>
+					</li>
+					<li>
+						<div class="main1">
+							<img src="../img/bd/a7.jpg" alt="" class="w_100"/>
+							<div class="main1-font">
+								营销专家巡店
+								<img src="../img/bd/a6.png" alt="" class="a4-img"/>
+							</div>
+						</div>
+						<div class="li">
+							<div class="li1"></div>新零售专家到店指导、培训
+							<p>舞极限品牌总部的店面营销实战专家，将定时到店进行店面营销督导及培训，让你掌握如何快速突围店面营销战局，掌握卖场的“销量话语权”。</p>
+						</div>
+					</li>
+					<li>
+						<div class="main1">
+							<img src="../img/bd/a8.jpg" alt="" class="w_100"/>
+							<div class="main1-font">
+								网店引流
+								<img src="../img/bd/a6.png" alt="" class="a4-img"/>
+							</div>
+						</div>
+						<div class="li">
+							<div class="li1"></div>线上爆品引流销售
+							<p>舞极限所有品牌实体店，将搭配官方在线商城的爆款产品营销，结合微博、微信、自媒体的线上营销，以具有价格竞争力的爆款产品引流，拓宽店面的盈利区域，从省市延展到全国市场。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="part3">
+				<div class="part3-title">
+					<div class="title1">
+						<p>M&emsp;A&emsp;R&emsp;K&emsp;E&emsp;T&emsp;I&emsp;N&emsp;G&emsp;&emsp; M&emsp;A&emsp;T&emsp;E&emsp;R&emsp;I&emsp;A&emsp;L&emsp;S</p>
+					</div>
+					<div class="title2">
+						<img src="../img/lineR.png" alt="" />
+						<div>店面营销部分物料示意</div>
+						<img src="../img/lineL.png" alt="" />
+					</div>
+				</div>
+				
+				<div class="part3-main1">
+					<div class="left">
+						<img src="../img/bd/b1.jpg" alt="" class="w_100"/>
+					</div>
+					
+					<div class="swiper-container part3-right">
+					    <div class="swiper-wrapper">
+					      	<div class="swiper-slide"><img src="../img/bd/b2.jpg" alt="" class="w_100"/></div>
+					      	<div class="swiper-slide"><img src="../img/bd/b3.jpg" alt="" class="w_100"/></div>
+					      	<div class="swiper-slide"><img src="../img/bd/b4.jpg" alt="" class="w_100"/></div>
+					    </div>
+					</div>
+				</div>
+				<div class="caiming">蔡明人形立牌</div>
+				
+				<div class="part3-main2">
+					<img src="../img/bd/b5.jpg" alt="" class="w_100"/>
+					<p>舞极限就在您身边</p>
+					<div class="title3">
+						<img src="../img/lineL.png" alt="" />
+						<div>舞极限品牌全国门店联盟</div>
+						<img src="../img/lineR.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<ul>
+				<li><a href="tel:400-9999-376">电话咨询</a></li>
+				<li><a href="cp4.html">极限产品</a></li>
+			</ul>
+		</div>
+		
+		<div class="bg"></div>
+						
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script>
+		   	var bdSwiper = new Swiper('.part3-right',{
+				pagination: '.swiper-pagination',
+				autoplay: 1500,
+				loop: true
+			})
+		   	$(function(){
+		   		$('#part2_list li .a4-img').click(function(){
+					$('#part2_list li .a4-img').attr('src','../img/bd/a6.png');
+					$(this).attr('src','../img/bd/a4.png')
+					$('#part2_list li .li').hide();
+					$(this).parents('li').find('.li').show();
+				})
+		   	})
+		</script>
+	</body>
+</html>

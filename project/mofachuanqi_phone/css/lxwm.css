@@ -1,0 +1,163 @@
+.content .top-wrap{
+	width: 100%;
+}
+.content .top-wrap .title{
+	text-align: center;
+	margin: .3rem auto;
+}
+.content .top-wrap .title h1{
+	font-size: .3rem;
+	margin-bottom: .1rem;
+	letter-spacing: .02rem;
+}
+.content .top-wrap .title p{
+	letter-spacing: .04rem;
+}
+
+.lxwm .part1{
+	margin-top: .4rem;
+	width: 100%;
+	height: 4.2rem;
+}
+.lxwm .part2{
+	margin-top: .3rem;
+}
+.lxwm .txt1{
+	position: relative;
+}
+.lxwm .txt1 h1{
+	font-size: .34rem;
+	color: rgba(0,0,0,.66);
+	font-weight: normal;
+	background: #fff;
+	width: 3rem;
+}
+.lxwm .txt1 h1 strong{
+	font-size: .6rem;
+	color: #000;
+	display: inline-block;
+	margin-right: .1rem;
+}
+.lxwm .txt1 u{
+    width: 100%;
+    height: .02rem;
+    display: block;
+    background: rgba(0,0,0,.2);
+    position: absolute;
+    right: 0;
+    top: .48rem;
+    z-index: -1;
+}
+.lxwm .part2 .p1{
+	font-size: .46rem;
+	color: #595757;
+	margin-top: .2rem;
+}
+.lxwm .part2 .p2{
+    color: #595757;
+    margin-bottom: .3rem;
+    margin-top: .04rem;
+    letter-spacing: .04rem;
+}
+.lxwm .part2 ul li{
+	margin-bottom: .16rem;
+	color: #595757;
+	font-size: 0;
+}
+.lxwm .part2 ul li img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .16rem;
+	width: .26rem;
+}
+.lxwm .part2 ul li span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .3rem;
+	color: #595757;
+}
+.lxwm .part2 .p3{
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-size: .3rem;
+	background: #d5b98c;
+	letter-spacing: .02rem;
+	margin-top: .3rem;
+	line-height: .6rem;
+}
+
+.lxwm .part3{
+	margin-top: .4rem;
+}
+.lxwm .part3 .p1{
+	text-align: center;
+	font-size: .36rem;
+	color: #494949;
+	margin-bottom: .3rem;
+}
+.lxwm .part3 .img-box{
+	text-align: center;
+	font-size: 0;
+}
+.lxwm .part3 .img-box img{
+	width: 48%;
+	display: inline-block;
+}
+.lxwm .part3 .img-box .img1{
+	margin-right: 4%;
+}
+
+.lxwm .part4{
+	margin-top: .4rem;
+}
+.lxwm .part4 .txt1 h1{
+	width: 4.2rem;
+}
+.lxwm .part4 ul{
+	margin-top: .24rem;
+}
+.lxwm .part4 ul li{
+	width: 100%;
+	margin-bottom: .24rem;
+	height: 1rem;
+	line-height: 1rem;
+	border: 1px solid rgba(0,0,0,0.4);
+}
+.lxwm .part4 ul li input{
+	display: block;
+	height: 100%;
+	padding: 0 .24rem;
+	font-size: .3rem;
+}
+.lxwm .part4 textarea{
+	display: block;
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.4);
+	padding: .16rem;
+	font-size: .3rem;
+	resize: none;
+	height: 2.4rem;
+	box-sizing: border-box;
+	margin-bottom: .4rem;
+}
+.lxwm .part4 .submit{
+	width: 60%;
+	margin: 0 auto;
+	height: .76rem;
+	line-height: .76rem;
+	text-align: center;
+	letter-spacing: .02rem;
+	color: #fff;
+	font-size: .35rem;
+	display: block;
+	background: #dec194;
+	background: -moz-linear-gradient(left,#dec194,#a2875d);
+	background: -webkit-gradient(linear,0 100%, 100% 0, from(#dec194), to(#a2875d));
+}
+
+
+
+
+
+

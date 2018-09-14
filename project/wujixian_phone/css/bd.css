@@ -1,0 +1,225 @@
+.w_100{
+	width: 100%;
+}
+
+
+.bd{
+	width: 100%;
+	overflow: hidden;
+}
+.bd .part1{
+	width: 90%;
+	margin:0 auto;
+}
+.bd .part1 .a2-img{
+	width: 90%;
+	margin:0 auto;
+	margin-top:-0.4rem;
+	position:relative;
+}
+.bd .part1 .a2-img .high{
+	font-size:0.24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	color:#fbd1b7;
+	position: absolute;
+	top:0.1rem;
+	left:0.48rem;
+	font-weight: bold;
+	font-style:italic;
+}
+.bd .part1 .a2-img .di{
+	position:absolute;
+	top:0.5rem;
+	left:0.6rem;
+}
+.bd .part1 .a2-img .di img{
+	width:16%;
+	background-color:rgba(255,255,255,0.4);
+	vertical-align: middle;
+}
+.bd .part1 .a2-img .di .di1{
+	display: inline-block;
+	vertical-align: middle;
+	font-size:0.44rem;
+	color:#fbd1b7;
+}
+.bd .part1 .a2-img .di p{
+	font-size: 0.34rem;
+	color:#fff;
+	margin-left: 0.9rem;
+}
+
+.bd .part2{
+	width: 90%;
+	margin:0 auto;
+}
+.bd .part2 .main1{
+	width: 100%;
+	margin:0.36rem auto;
+	position:relative;
+}
+.bd .part2 .main1 .main1-font{
+	width: 100%;
+	height: 0.6rem;
+	background-color: #ec6901;
+	position:absolute;
+	bottom:0;
+	left:0;
+	line-height: 0.6rem;
+	color:#fff;
+	font-size: 0.32rem;
+	padding-left:0.2rem;
+	box-sizing: border-box;
+}
+.bd .part2 .main1 .main1-right{
+	position:absolute;
+	bottom:0;
+	right:0.2rem;
+}
+.bd .part2 .main1 .main1-font .a4-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: .3rem;
+    z-index: 2;
+    padding: .14rem .2rem;
+}
+.bd .part2 .li{
+	font-size: 0.3rem;
+	vertical-align: middle;
+	background-color: #f7f7f7;
+	margin-top: -0.36rem;
+	padding-top:0.24rem;
+	display: none;
+}
+.bd .part2 .li .li1{
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #ec6901;
+	border-radius: 50%;
+	display: inline-block;
+    margin-bottom: .06rem;
+	margin-right: 0.12rem;
+	color:#333;
+	margin-left: .12rem;
+}
+.bd .part2 .li p{
+	width: 91%;
+	margin-left: 5.2%;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color:#666;
+	padding-bottom: .2rem;
+}
+.bd .part2 ul li:nth-child(1) .li{
+	display: block;
+}
+
+
+.bd .part3 .part3-title{
+	width: 100%;
+	height: 1.45rem;
+	background-color: #ed6d43;
+	margin-top: 0.4rem;
+}
+.bd .part3 .part3-title .title1{
+	
+	color: #fbd1b7;
+    box-sizing: border-box;
+    padding-top:0.2rem;
+    font-size:0.24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -15%;
+	
+}
+.bd .part3 .part3-title .title1 p{
+    font-style: italic;
+	font-weight: bold;
+}
+.bd .part3 .part3-title .title2{
+	font-size: 0.5rem;
+	color:#fff;
+	text-align:center;
+}
+.bd .part3 .part3-title .title2 div{
+	display:inline-block;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.6);
+	color: #fde4bf;
+	vertical-align: middle;
+}
+.bd .part3 .part3-title .title2 img{
+	display: inline-block;
+	width: 12%;
+	vertical-align: middle;
+	background-color: rgba(255,255,255,0.5);
+}
+.bd .part3 .part3-main1{
+	margin-top: 0.4rem;
+	width: 100%;
+	position:relative;
+}
+.bd .part3 .part3-main1 .left{
+	width: 60%;
+	display: inline-block;
+}
+.bd .part3 .part3-main1 .part3-right{
+	width: 20%;
+	display: inline-block;
+	position:absolute;
+	right:0.4rem;
+	top:0.4rem;
+}
+.bd .part3 .caiming{
+	width: 1.9rem;
+	height: 0.5rem;
+	margin:0 auto;
+	background-color: #fb865e;
+	border-radius: 0.5rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color:#fff;
+}
+.bd .part3 .part3-main2{
+	margin-top: 0.4rem;
+	position:relative;
+}
+.bd .part3 .part3-main2 p{
+	font-size: 0.44rem;
+	width: 100%;
+	text-align: center;
+	color:#ea5404;
+	position:absolute;
+	top:0.4rem;
+}
+.bd .part3 .part3-main2 .title3{
+	position:absolute;
+	top:1.1rem;
+	left: 0.8rem;
+}
+.bd .part3 .part3-main2 .title3 div{
+	width: 4.2rem;
+	height: 0.5rem;
+	font-size: 0.34rem;
+	color:#fff;
+	text-align: center;
+	line-height: 0.5rem;
+	background-color: #fa7d54;
+	border-radius: 0.5rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.bd .part3 .part3-main2 .title3 img{
+	display: inline-block;
+	vertical-align: middle;
+	width:12%;
+}

@@ -1,0 +1,217 @@
+/*字体*/
+@font-face{
+	font-family: myfont;
+	src: url('../fonts/E111AGIO.TTF');
+	font-weight: 100;
+}
+.dl{
+	margin-bottom: 0.4rem;
+}
+
+.dl .part1{
+	width: 100%;
+	background-color: #f3f2f1;
+	padding-bottom: 0.4rem;
+}
+.dl .part1 .a1-img{
+	width: 90%;
+	margin:0 auto;
+}
+.dl .part1 .a1-img img{
+	width: 100%;
+}
+.dl .part1 .dl-title{
+	width: 100%;
+	text-align: center;
+	margin-top: .24rem;
+}
+.dl .part1 .dl-title .title1 div{
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 0.44rem;
+	color:#ea5404;
+}
+.dl .part1 .dl-title .title1 img{
+	vertical-align: middle;
+	display: inline-block;
+}
+.dl .part1 .dl-title .title2{
+	font-size: 0.24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	color:#ea5404;
+	
+}
+
+.dl .part1 .lis{
+	width: 93%;
+	margin:0 auto;
+}
+.dl .part1 .lis li{
+	margin-top: 0.28rem;
+	font-size: 0;
+}
+.dl .part1 .lis .hz-main1{
+	width: 0.55rem;
+	height: 0.55rem;
+	border-radius: 50%;
+	background-color:#ea5404;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.85rem;
+	color:#fff;
+	font-family: myfont;
+    display: inline-block;
+    margin-right: 0.2rem;
+    vertical-align: middle;
+}
+.dl .part1 .lis .hz-main2{
+	font-size: 0.24rem;
+	color:#666;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0.4rem;
+}
+
+
+.dl .part2{
+	margin-top: 0.6rem;
+}
+.dl .part2 .part2-title{
+	width: 5.3rem;
+	height: 0.85rem;
+	border:1px solid #8e8e8e;
+	margin:0 auto;
+	font-size: 0.34rem;
+	color:#666;
+	text-align: center;
+	line-height: 0.85rem;
+	position:relative;
+}
+.dl .part2 .part2-title .title2{
+	width: 2.1rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.4rem;
+	color:#ea5404;
+	position:absolute;
+	top:-0.3rem;
+	left:1.6rem;
+	background-color: #fff;
+}
+.dl .part2 .part2-main{
+	width: 92%;
+	margin:0 auto;
+	margin-top: 0.6rem;
+	position:relative;
+	box-sizing:border-box;
+}
+.dl .part2 .part2-main img{
+	width: 100%;
+}
+.dl .part2 .part2-main ul{
+	position:absolute;
+	font-size: 0.24rem;
+	color:#666;
+	top:0;
+}
+.dl .part2 .part2-main ul li{
+    width: 1.2rem;
+    height: 1.1rem;
+    text-align: center;
+    line-height: 1.2rem;
+    display: inline-block;
+    margin: 0 0.32rem .34rem;
+}
+.dl .part2 .part2-main ul li:nth-child(1){
+	margin-left:0;
+}
+.dl .part2 .part2-main ul li:nth-child(4){
+	margin-right:-0.2rem;
+}
+.dl .part2 .part2-main ul li:nth-child(5){
+	margin-left:0.93rem;
+}
+
+.dl .part3{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 0.4rem;
+}
+.dl .part3 .part3-title{
+	width: 100%;
+	text-align: center;
+}
+.dl .part3 .part3-title .title1 div{
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 0.44rem;
+	color:#ea5404;
+}
+.dl .part3 .part3-title .title1 img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.dl .part3 .part3-title .title2{
+	font-size: 0.24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	color:#ea5404;
+	text-transform: uppercase;
+}
+.dl .part3 .part3-title .a3-img{
+	width: 100%;
+	position:relative;
+	z-index: -1;
+	margin-top:-1rem;
+}
+.dl .part3 .part3-main{
+	margin-top: 0.4rem;
+}
+.dl .part3 .part3-main li{
+	position:relative;
+	margin-top: 0.4rem;
+	font-size: 0;
+}
+.dl .part3 .part3-main li:before{
+	content: '';
+	width: 68%;
+	height: 1px;
+	background: #D7D7D7;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.dl .part3 .part3-main .left{
+	width: 26%;
+	display:inline-block;
+}
+.dl .part3 .part3-main .left img{
+	width: 100%;
+	vertical-align: middle;
+}
+.dl .part3 .part3-main .left div{
+	width:1.8rem;
+	position:absolute;
+	top:0.46rem;
+	font-size: 0.26rem;
+	color:#fff;
+	text-align: center;
+	line-height: 1.3;
+}
+
+.dl .part3 .part3-main .right{
+	width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 4%;
+    font-size: .24rem;
+}

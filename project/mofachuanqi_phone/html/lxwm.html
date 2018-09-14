@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--网站开启对 web app 程序的支持-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--改变顶部状态条的颜色-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/lxwm.css" type="text/css"/>	
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+    </script>
+</head>
+<body>
+	<div class="header">
+		<ul class="clearfix">
+			<li>
+				<a href="index.html">首页</a>
+			</li>
+			<li>
+				<a href="wss.html">品牌文化</a>
+			</li>
+			<li>
+				<img src="../img/logo.jpg" alt="" />
+			</li>
+			<li>
+				<a href="dmzs.html">店面展示</a>
+			</li>
+			<li>
+				<a href="jyms.html">合作升级</a>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="content">
+		<div class="top-wrap">
+			<img src="../img/lxwm/banner1.jpg" alt="" class="img-block"/>
+			<div class="title">
+				<h1>联系我们</h1>
+				<p class="font_12">contact us</p>
+			</div>		
+		</div>
+		<div class="main lxwm">
+			<div class="part1" id="map"></div>
+			<div class="comWidth">
+				<div class="part2">
+					<div class="txt1">
+						<u></u>
+						<h1><strong>地址 </strong>address</h1>
+					</div>					
+					<p class="p1">北京膜新娜国际化妆品有限公司</p>
+					<p class="p2 font_20">OPTIMAL GUEST DRAGON(HK)INT'L GROUP LIMITED</p>
+					<ul>
+						<li>
+							<img src="../img/lxwm/lxwm1_1.jpg" alt="" />
+							<span>总部美丽招商热线：400-099-1853</span>
+						</li>
+						<li>
+							<img src="../img/lxwm/lxwm1_2.jpg" alt="" />
+							<span>地址：北京通州区金融街园中园五号院61号楼</span>
+						</li>
+						<li>
+							<img src="../img/lxwm/lxwm1_3.jpg" alt="" />
+							<span>网址：www.mfcq1853.com</span>
+						</li>
+					</ul>
+					<p class="p3">膜法传奇，你的美丽传奇！</p>
+				</div>
+				<div class="part3">
+					<p class="p1">识别关注膜法美丽，即刻解锁传奇商机！</p>
+					<div class="img-box">
+						<img src="../img/lxwm/weixin1.jpg" alt="" class="img1"/>
+						<img src="../img/lxwm/weixin2.jpg" alt="" class="img2"/>
+					</div>
+				</div>
+				<div class="part4">
+					<div class="txt1">
+						<u></u>
+						<h1><strong>在线留言 </strong>message</h1>
+					</div>	
+					<ul class="clearfix">
+						<li><input type="text" placeholder="姓名/name"/></li>
+						<li><input type="text" placeholder="邮箱/mail"/></li>
+						<li><input type="text" placeholder="手机/phone"/></li>
+						<li><input type="text" placeholder="地址/address"/></li>
+					</ul>
+					<textarea placeholder="留言/message"></textarea>
+					<button class="submit">提 交</button>
+				</div>
+				
+			</div>			
+		</div>				
+	</div>
+	
+	<div class="footer">
+		<div class="swiper-container footer-swiper">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><a href="rhx.html"><span>日化线</span></a></div>
+		        <div class="swiper-slide"><a href="qym.html"><span>轻医美</span></a></div>
+		        <div class="swiper-slide"><a href="zyx.html"><span>专业线</span></a></div>
+		    </div>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="../js/jquery.min.3_1_0.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jq.lazyload.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script>		    
+	    // 百度地图API功能
+		var map = new BMap.Map("map");
+		var point = new BMap.Point(116.644116,39.949233);
+		var point_center = new BMap.Point(116.644116,39.951233);
+		map.centerAndZoom(point_center, 15);
+		map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+		
+		var opts = {
+		  position : point,    // 指定文本标注所在的地理位置
+		  offset   : new BMap.Size(30, -30)    //设置文本偏移量
+		}
+		var label = new BMap.Label("北京膜新娜国际化妆品有限公司 ", opts);  // 创建文本标注对象
+			label.setStyle({
+				color : "white",
+				fontWeight: "bold",
+				fontSize : "14px",
+				height : "35px",
+				lineHeight : "35px",
+				background: "#ab8e66",
+			    border: 0,
+			    width: "310px",
+			    textAlign: "center",
+			    letterSpacing: "1px",
+			    boxShadow: "4px 4px 12px rgba(0,0,0,.3)",
+			    marginLeft: "-187px",
+				marginTop: "-77px",
+			 });
+		var opts1 = {
+		  position : point,    // 指定文本标注所在的地理位置
+		  offset   : new BMap.Size(30, -30)    //设置文本偏移量
+		}
+		var label1 = new BMap.Label("北京市通州区金融街园中园五号院26号楼", opts1);  // 创建文本标注对象
+			label1.setStyle({
+				color : "black",
+				fontSize : "14px",
+				height : "35px",
+				lineHeight : "35px",
+				background: "#fff",
+			    border: 0,
+			    width: "310px",
+			    textAlign: "center",
+			    letterSpacing: "1px",
+			    boxShadow: "4px 4px 12px rgba(0,0,0,.3)",
+			    marginLeft: "-187px",
+				marginTop: "-40px",
+			 });
+		var opts2 = {
+			position: point,
+		}
+		var label2 = new BMap.Label("",opts2);
+			label2.setStyle({
+				borderTop: '11px solid #fff',
+				borderLeft: '8px solid transparent',
+				borderRight: '8px solid transparent',
+				border:0,
+				background:"transparent",
+				padding: 0,
+				marginTop: '-33px',
+				marginLeft:'-12px',
+			 });
+		var marker2 = new BMap.Marker(point); // 创建标注
+	    map.addOverlay(marker2); // 将标注添加到地图中
+		map.addOverlay(label); 
+		map.addOverlay(label1); 
+		map.addOverlay(label2); 
+
+	</script>
+
+</body>
+</html>
